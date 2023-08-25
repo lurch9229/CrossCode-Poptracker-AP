@@ -1,0 +1,460 @@
+﻿{
+  "item_grid": 
+  {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["eleHeat","eleCold","eleShock","eleWave","overrideCircuit"],
+      ["sandShade","flameShade","iceShade","boltShade", "guildPass"],
+      ["leafShade","dropShade","seedShade","starShade","meteorShade"],
+      ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
+      ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"]
+    ]
+  },
+
+  "key_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content":[
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["mineLabel"]
+            ],
+            "item_size": 90,
+            "margin": "-2,2,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["mineKey"]
+            ],
+            "item_size": 30,
+            "margin": "2,-2,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["mineMaster"]
+            ],
+            "item_size": 30,
+            "margin": "2,-2,-2,-2"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fajroLabel"]
+            ],
+            "item_size": 90,
+            "margin": "-2,-50,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fajroKey"]
+            ],
+            "item_size": 30,
+            "margin": "2,-55,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fajroMaster"]
+            ],
+            "item_size": 30,
+            "margin": "2,-55,-2,-2"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["sonajizLabel"]
+            ],
+            "item_size": 100,
+            "margin": "-2, -48,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["sonajizKey"]
+            ],
+            "item_size": 30,
+            "margin": "5,-53,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["sonajizMaster"]
+            ],
+            "item_size": 30,
+            "margin": "5,-53,-2,-2"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["zirvitarLabel"]
+            ],
+            "item_size": 105,
+            "margin": "-2, -58,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["zirvitarKey"]
+            ],
+            "item_size": 30,
+            "margin": "5,-63,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["zirvitarMaster"]
+            ],
+            "item_size": 30,
+            "margin": "5,-63,-2,-2"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kryskajoLabel"]
+            ],
+            "item_size": 105,
+            "margin": "-2, -63,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kryskajoKey"]
+            ],
+            "item_size": 30,
+            "margin": "5,-68,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kryskajoMaster"]
+            ],
+            "item_size": 30,
+            "margin": "0,-68,-2,-2"
+          }
+        ]
+      }
+    ]
+  },
+
+  "tracker_horizontal": 
+    {
+      "type": "container",
+      "content": {
+        "type": "dock",
+        "dropshadow": true,
+        "content": [
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "vertical",
+            "content": [
+              {
+                "type": "group",
+                "header": "Items",
+                "header_content": {
+                  "type": "button_popup",
+                  "style": "settings",
+                  "popup_background": "#55212121",
+                  "layout": "settings_popup"
+                },
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "margin": "0,0",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "item_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Dungeons",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "margin": "0,0",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "key_grid"
+                    }
+                  ]
+                }
+              }
+            ] 
+          },
+          {
+            "type": "array",
+            "v_alignment": "stretch",
+            "margin": "0, 0, 0, 0",
+            "content": [
+              {
+                "type": "tabbed",
+                "dock": "top",
+                "content": [
+                  {
+                    "title": "Connections",
+                    "type": "tabbed",
+                    "tabs": [
+                      
+                      {
+                        "title": "World Map",
+                        "content": {
+                          "type":"map",
+                          "maps": ["WorldMap"]
+                        }
+                      },
+                      {
+                        "title": "Autumn's Rise",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Autumns_Rise"]
+                        }
+                      },
+                      {
+                        "title": "Bergen Trail",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Bergen_Trail"]
+                        }
+                      },
+                      {
+                        "title": "Maroon Valley",
+                        "content": {
+                        "type": "map",
+                        "maps": ["Maroon_Valley"]
+                        }
+                      },
+                      {
+                        "title": "Autumn's Fall",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Autumns_Fall"]
+                        }
+                      },
+                      {
+                        "title": "Gaia's Garden",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gaias_Garden"]
+                        }
+                      },                      
+                      {
+                        "title": "Sapphire Ridge",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Sapphire_Ridge"]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Towns",
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Rookie Harbor",
+                        "content": {
+                          "type":"map",
+                          "maps": ["Rookie_Harbor"]
+                        }
+                      },
+                      {
+                        "title": "Bergen Village",
+                        "content": {
+                          "type":"map",
+                          "maps": ["Bergen_Village"]
+                        }
+                      },
+                      {
+                        "title": "Ba'kii Kum",
+                        "content": {
+                          "type":"map",
+                          "maps": ["Bakii_Kum"]
+                        }
+                      },
+                      {
+                        "title": "Basin Keep",
+                        "content": {
+                          "type":"map",
+                          "maps": ["Basin_Keep"]
+                        }
+                      },
+                      {
+                        "title": "Rhombus Square",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Rhombus_Square"]
+                        }
+                      }
+                    ]
+                  },                  
+                  {
+                    "title": "Dungeons",
+                    "type": "tabbed",
+                    "content": [
+                      {
+                        "title": "Temple Mine",
+                        "type": "tabbed",
+                        "tabs": [
+                          {
+                            "title": "GF",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Temple_Mine_GF"]
+                            }
+                          },
+                          {
+                            "title": "U1",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Temple_Mine_U1"]
+                            }
+                          },
+                          {
+                            "title": "U2",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Temple_Mine_U2"]
+                            }
+                          },
+                          {
+                            "title": "U3",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Temple_Mine_U3"]
+                            }
+                          },
+                          {
+                            "title": "U4",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Temple_Mine_U4"]
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Faj'ro Temple",
+                        "type": "tabbed",
+                        "tabs": [
+                          {
+                            "title": "GF",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Fajro_Temple_GF"]
+                            }
+                          },
+                          {
+                            "title": "1F",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Fajro_Temple_1F"]
+                            }
+                          },
+                          {
+                            "title": "3F",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Fajro_Temple_3F"]
+                            }
+                          },
+                          {
+                            "title": "4F",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Fajro_Temple_4F"]
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "title": "So'najiz Temple",
+                        "type": "tabbed",
+                        "tabs": [
+                        {
+                          "content": {
+                            "type":"map",
+                            "maps": ["Sonajiz_Temple"]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Zir'vitar Temple",
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "content": {
+                            "type":"map",
+                            "maps": ["Zirvitar_Temple"]
+                          }
+                        }
+                      ]
+                    },                    
+                    {
+                      "title": "Grand Krys'kajo",
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "content": {
+                            "type":"map",
+                            "maps": ["Grand_Kryskajo"]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

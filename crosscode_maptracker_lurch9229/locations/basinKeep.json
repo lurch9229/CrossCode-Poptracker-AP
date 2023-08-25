@@ -1,0 +1,254 @@
+[
+    {
+        "name": "Basin Keep",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Basin Keep - Centrum",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 1050,
+                        "y": 310
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region24"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Pond Slums South",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 1300,
+                        "y": 630
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region24"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Pond Slums Center",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 1160,
+                        "y": 350
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region24"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Pond Slums North",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 1270,
+                        "y": 244
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region24"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Basin Police HQ",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 710,
+                        "y": 415
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Seeker Hub GF",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 798,
+                        "y": 142
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Calzone Basement",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Mushroom Kingdom",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Basin Keep World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Seeker Hub GF/Silver Chest",
+                        "name": "Basin Keep - Seeker Hub GF - Silver Chest"
+                    },
+                    {
+                        "ref": "Basin Keep - Basin Police HQ/Gold Chest",
+                        "name": "Basin Keep - Basin Police HQ - Gold Chest"
+                    },
+                    {
+                        "ref": "Basin Keep - Pond Slums North/Gold Chest",
+                        "name": "Basin Keep - Pond Slums - Gold Chest"
+                    },
+                    
+                    {
+                        "ref": "Basin Keep - Pond Slums South/Silver Chest",
+                        "name": "Basin Keep - Pond Slums - Silver Chest"
+                    },
+                    {
+                        "ref": "Basin Keep - Pond Slums Center/Gold Chest",
+                        "name": "Basin Keep - Pond Slums - Gold Chest"
+                    },
+                    {
+                        "ref": "Basin Keep - Centrum/Gold Chest",
+                        "name": "Basin Keep - Centrum - Gold Chest"
+                    },
+                    {
+                        "ref": "Basin Keep - Calzone Basement/Mushroom Kingdom",
+                        "name": "Basin Keep - Calzone Basement - Mushroom Kingdom"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 279,
+                      "y": 112
+                    }
+                ]
+            }
+        ]
+    }
+]

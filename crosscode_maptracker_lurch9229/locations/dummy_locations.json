@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Example Location",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+        [
+            {
+                "name": "Example Location, This shows on the tracker",
+                "map_locations": 
+                [
+                    {
+                        "map": "ExampleMap defined my the maps.json",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Example Check, shows the check name on the tracker",
+                        "clear_as_group": "set to true by default",
+                        "visibility_rules": 
+                        [
+                            "setting_example, what defines if the location is visable"
+                        ],
+                        "access_rules": 
+                        [
+                            "ExampleItem, what is needed to get the item",
+                            "use [] for seqence breaks and {} for visable not reachable"
+                        ],
+                        "hosted_item":
+                        [
+                            "ExampleItem2, item to activate on location clear"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

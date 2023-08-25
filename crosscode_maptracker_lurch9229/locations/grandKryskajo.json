@@ -1,0 +1,368 @@
+[
+    {
+        "name": "Grand Krys'kajo",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+		[
+            {
+                "name": "Grand Krys'kajo - East Branch Upper",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 480,
+                        "y": 175
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - East Branch Right",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 560,
+                        "y": 207
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - East Branch Lower",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 540,
+                        "y": 350
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "RadiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - West Branch Lower",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 45,
+                        "y": 385
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - West Branch Upper",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 15,
+                        "y": 207
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - Falling Leaves",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 303,
+                        "y": 245
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region29"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Master Key Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - Branch Conveyance",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 407,
+                        "y": 280
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - Branch Transmit Right",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 250,
+                        "y": 280
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - Branch Transmit Left",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 180,
+                        "y": 280
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo - Post Boss Statue",
+                "map_locations": 
+				[
+                    {
+                        "map": "Grand_Kryskajo",
+                        "x": 242,
+                        "y": 75
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region30"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Star Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Grand Kryskajo World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Grand Krys'kajo - West Branch Lower/Chest",
+                        "name": "Grand Krys'kajo - West Branch Lower - Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - West Branch Upper/Chest",
+                        "name": "Grand Krys'kajo - West Branch Upper - Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - Branch Transmit Right/Chest",
+                        "name": "Grand Krys'kajo - Branch Transmit Right - Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - Branch Transmit Left/Chest",
+                        "name": "Grand Krys'kajo - Branch Transmit Left - Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - East Branch Lower/Gold Chest",
+                        "name": "Grand Krys'kajo - East Branch Lower - Gold Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - East Branch Right/Chest",
+                        "name": "Grand Krys'kajo - East Branch Right - Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - East Branch Upper/ Chest",
+                        "name": "Grand Krys'kajo - East Branch Upper - Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - Branch Conveyance/Chest",
+                        "name": "Grand Krys'kajo - Branch Conveyance - Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - Falling Leaves/Master Key Chest",
+                        "name": "Grand Krys'kajo - Falling Leaves - Master Key Chest"
+                    },
+                    {
+                        "ref": "Grand Krys'kajo - Post Boss Statue/Star Shade",
+                        "name": "Grand Krys'kajo - Post Boss Statue - Star Shade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 279,
+                      "y": 73
+                    }
+                ]
+            }
+        ]
+    }
+]

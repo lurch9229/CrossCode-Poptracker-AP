@@ -1,0 +1,1470 @@
+[
+    {
+        "name": "Sapphire Ridge",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+
+            {
+                "name": "Sapphire Ridge - The Barracks",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 927,
+                        "y": 1200
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - The Bellow",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 928,
+                        "y": 1017
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Sapphire Tunnel",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 160,
+                        "y": 855
+                    }                    
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Eroded Passage Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 440,
+                        "y": 664
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Eroded Passage Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 494,
+                        "y": 720
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Spider Chasm Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 847,
+                        "y": 834
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Spider Chasm Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 883,
+                        "y": 732
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [                    
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Narrow Passage Right",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 632,
+                        "y": 770
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Narrow Passage Left",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 565,
+                        "y": 755
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Wheel Passage Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 627,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Wheel Passage Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 560,
+                        "y": 475
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Cave Inn Exterior Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 560,
+                        "y": 1130
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Cave Inn Exterior Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 678,
+                        "y": 1200
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Cave Inn Interior 1F",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 142,
+                        "y": 1105
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Cave Inn Interior Storage",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 560,
+                        "y": 1080
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Western Exit Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 265,
+                        "y": 840
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Western Exit Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 250,
+                        "y": 885
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - North West Path Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 440,
+                        "y": 835
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - North West Path Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 465,
+                        "y": 900
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - River Road Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 405,
+                        "y": 970
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest 1",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - River Road Center",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 445,
+                        "y": 1070
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - River Road Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 415,
+                        "y": 1120
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest 2",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Tranquil Bamboo Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 613,
+                        "y": 1252
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Tranquil Bamboo Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 598,
+                        "y": 1345
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Tranquil Bamboo Vagabond",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 615,
+                        "y": 1298
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Old Dojo Key",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Bamboo Thicket Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 794,
+                        "y": 970
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Bamboo Thicket Center",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 735,
+                        "y": 1028
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - North East Path Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 637,
+                        "y": 828
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - North East Path Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 728,
+                        "y": 897
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Flower Lake Left",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 695,
+                        "y": 743
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Flower Lake Right",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 790,
+                        "y": 715
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Carved Pathway Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 620,
+                        "y": 585
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Carved Pathway Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 635,
+                        "y": 675
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Carved Pathway Center",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 550,
+                        "y": 630
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - High Ground Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 903,
+                        "y": 585
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - High Ground Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 875,
+                        "y": 660
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Old Dojo Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 835,
+                        "y": 480
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Old Dojo Left",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 695,
+                        "y": 460
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Old Dojo Upper",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 725,
+                        "y": 410
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Old Dojo Interior",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 803,
+                        "y": 272
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Meteor Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$region32"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+			{
+                "name": "Sapphire Ridge - Dream Pond",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 550,
+                        "y": 76
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Ascension Temple Lower",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 663,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Ascension Temple Upper Right",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 735,
+                        "y": 180
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Ascension Temple Upper Left",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 663,
+                        "y": 177
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Baton Pond",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 818,
+                        "y": 1305
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    // Sapphire Ridge World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    
+                    {
+                        "ref": "Sapphire Ridge - Sapphire Tunnel/Gold Chest",
+                        "name": "Sapphire Ridge - Sapphire Tunnel - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Western Exit Upper/Chest",
+                        "name": "Sapphire Ridge - Western Exit Upper - Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Western Exit Lower/Bronze Chest",
+                        "name": "Sapphire Ridge - Western Exit Lower - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - North West Path Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - North West Path - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - North West Path Lower/Silver Chest",
+                        "name": "Sapphire Ridge - North West Path - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - River Road Upper/Bronze Chest 1",
+                        "name": "Sapphire Ridge - River Road - Bronze Chest 1"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - River Road Lower/Bronze Chest 2",
+                        "name": "Sapphire Ridge - River Road - Bronze Chest 2"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - River Road Center/Gold Chest",
+                        "name": "Sapphire Ridge - River Road - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Exterior Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - Cave Inn Exterior Upper - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Exterior Lower/Gold Chest",
+                        "name": "Sapphire Ridge - Cave Inn Exterior Lower - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Interior 1F/Chest",
+                        "name": "Sapphire Ridge - Cave Inn - Chest"
+                    },                    
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Interior Storage/Gold Chest",
+                        "name": "Sapphire Ridge - Cave Inn Interior Storage - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Tranquil Bamboo Upper/Chest",
+                        "name": "Sapphire Ridge - Tranquil Bamboo Upper - Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Tranquil Bamboo Lower/Bronze Chest",
+                        "name": "Sapphire Ridge - Tranquil Bamboo Lower - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Tranquil Bamboo Vagabond/Old Dojo Key",
+                        "name": "Sapphire Ridge - Tranquil Bamboo Vagabond - Old Dojo Key"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Bamboo Thicket Upper/Silver Chest",
+                        "name": "Sapphire Ridge - Bamboo Thicket Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Bamboo Thicket Center/Gold Chest",
+                        "name": "Sapphire Ridge - Bamboo Thicket Center - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - North East Path Upper/Silver Chest",
+                        "name": "Sapphire Ridge - North East Path Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - North East Path Lower/Gold Chest",
+                        "name": "Sapphire Ridge - North East Path Lower - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Spider Chasm Lower/Bronze Chest",
+                        "name": "Sapphire Ridge - Spider Chasm Lower - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Spider Chasm Upper/Gold Chest",
+                        "name": "Sapphire Ridge - Spider Chasm Upper - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - High Ground Upper/Silver Chest",
+                        "name": "Sapphire Ridge - High Ground Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - High Ground Lower/Gold Chest",
+                        "name": "Sapphire Ridge - High Ground Lower - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Eroded Passage Upper/Chest",
+                        "name": "Sapphire Ridge - Eroded Passage Upper - Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Eroded Passage Lower/Silver Chest",
+                        "name": "Sapphire Ridge - Eroded Passage Lower - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Narrow Passage Right/Bronze Chest",
+                        "name": "Sapphire Ridge - Narrow Passage Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Narrow Passage Left/Silver Chest",
+                        "name": "Sapphire Ridge - Narrow Passage Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Flower Lake Left/Gold Chest",
+                        "name": "Sapphire Ridge - Flower Lake Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Flower Lake Right/Gold Chest",
+                        "name": "Sapphire Ridge - Flower Lake Right - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Carved Pathway Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - Carved Pathway Upper - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Carved Pathway Lower/Silver Chest",
+                        "name": "Sapphire Ridge - Carved Pathway Lower - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Carved Pathway Center/Gold Chest",
+                        "name": "Sapphire Ridge - Carved Pathway Center - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Wheel Passage Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - Wheel Passage Upper - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Wheel Passage Lower/Gold Chest",
+                        "name": "Sapphire Ridge - Wheel Passage Lower - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Old Dojo Lower/Silver Chest",
+                        "name": "Sapphire Ridge - Old Dojo Lower - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Old Dojo Left/Gold Chest",
+                        "name": "Sapphire Ridge - Old Dojo Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Old Dojo Upper/Gold Chest",
+                        "name": "Sapphire Ridge - Old Dojo Upper - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Old Dojo Interior/Meteor Shade",
+                        "name": "Sapphire Ridge - Old Dojo Interior - Meteor Shade"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Dream Pond/Gold Chest",
+                        "name": "Sapphire Ridge - Dream Pond - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Ascension Temple Lower/Silver Chest",
+                        "name": "Sapphire Ridge - Acsension Temple Lower - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Acesension Temple Upper Right/Silver Chest",
+                        "name": "Sapphire Ridge - Ascension Temple Upper Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Ascension Temple Upper Left/Gold Chest",
+                        "name": "Sapphire Ridge - Ascension Temple Upper Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Baton Pond/Bronze Chest",
+                        "name": "Sapphire Ridge - Baton Pond - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - The Barracks/Bronze Chest",
+                        "name": "Sapphire Ridge - The Barracks - Bronze Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - The Bellow/Gold Chest",
+                        "name": "Sapphire Ridge - The Bellow - Gold Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 365,
+                      "y": 140
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1949 @@
+[
+    {
+        "name": "Gaia's Garden",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Gaia's Garden - Dripping Cave",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 110,
+                        "y": 800
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "whiteKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Tranquility Pond",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 78,
+                        "y": 735
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "radiantKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - V'rda Vil West Lower Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 920,
+                        "y": 1400
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - V'rda Vil West Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 965,
+                        "y": 1285
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - V'rda Vil West Lower Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 835,
+                        "y": 1400
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - V'rda Vil East Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1120,
+                        "y": 1330
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - V'rda Vil East Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1040,
+                        "y": 1360
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "whiteKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - V'rda Vil North Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1070,
+                        "y": 1140
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - V'rda Vil North Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1120,
+                        "y": 1120
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Chief's Den Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1120,
+                        "y": 880
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Chief's Den Center",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1070,
+                        "y": 910
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Chief's Den Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1100,
+                        "y": 965
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Grand Krys'kajo Entrance",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 545,
+                        "y": 145
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - So'najiz Temple Entrance",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 335,
+                        "y": 235
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Basin Keep Entrance",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 670,
+                        "y": 1120
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Covert Path Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 210,
+                        "y": 705
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Covert Path Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 230,
+                        "y": 820
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Royal Grove Upper Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 130,
+                        "y": 485
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Royal Grove Upper Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 200,
+                        "y": 510
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Royal Grove Lower Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 130,
+                        "y": 590
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Royal Grove Lower Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 205,
+                        "y": 600
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Calm Backyard Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 310,
+                        "y": 490
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Calm Backyard Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 440,
+                        "y": 445
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Lost Lookout Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1100,
+                        "y": 660
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Lost Lookout Center",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1030,
+                        "y": 620
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Lost Lookout Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 980,
+                        "y": 590
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Seared Lake Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                       
+                        "x": 835,
+                        "y": 470
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Seared Lake Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                       
+                        "x": 970,
+                        "y": 420
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Marshes South Upper Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1165,
+                        "y": 440
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Marshes South Upper Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1070,
+                        "y": 470
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Marshes South Lower Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1160,
+                        "y": 530
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Marshes South Lower Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1040,
+                        "y": 520
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Marshes North Upper Center",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1110,
+                        "y": 285
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Marshes North Lower Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1030,
+                        "y": 385
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Marshes North Upper Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1165,
+                        "y": 285
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest 2",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Marshes North Lower Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 1160,
+                        "y": 390
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Overgrown Path Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 490,
+                        "y": 1150
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Overgrown Path Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 330,
+                        "y": 1210
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Drizzle Bosk Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 280,
+                        "y": 1030
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Drizzle Bosk Center",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 260,
+                        "y": 950
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Drizzle Bosk Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 330,
+                        "y": 908
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Wet Passage Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 390,
+                        "y": 710
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Wet Passage Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 360,
+                        "y": 810
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "thiefKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - River's Bed Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 345,
+                        "y": 560
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - River's Bed Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 515,
+                        "y": 570
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Jungle Entrance Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 602,
+                        "y": 1465
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Jungle Entrance Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 590,
+                        "y": 1415
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Crossroad Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 712,
+                        "y": 1183
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Crossroad Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 548,
+                        "y": 1183
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Tying Greens Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 620,
+                        "y": 560
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Tying Greens Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 610,
+                        "y": 640
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Peridot Approach Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 517,
+                        "y": 418
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Peridot Approach Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 675,
+                        "y": 495
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Splitting Stumps Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 860,
+                        "y": 1140
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Splitting Stumps Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 800,
+                        "y": 1220
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Clinging River Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 970,
+                        "y": 1060
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Clinging River Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 880,
+                        "y": 1070
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "radiantKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Ringing River Upper",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 920,
+                        "y": 765
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Ringing River Lower",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 845,
+                        "y": 875
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Old Timber",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 860,
+                        "y": 600
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Gaia's Garden World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Gaia's Garden - Jungle Entrance Lower/Chest",
+                        "name": "Gaia's Garden - Jungle Entrance Lower - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Jungle Entrance Left/Chest",
+                        "name": "Gaia's Garden - Jungle Entrance Left - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Crossroad Right/Chest",
+                        "name": "Gaia's Garden - Crossroad Right - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Crossroad Left/Gold Chest",
+                        "name": "Gaia's Garden - Crossroad Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Basin Keep Entrance/Chest",
+                        "name": "Gaia's Garden - Basin Keep Entrance - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Overgrown Path Right/Bronze Chest",
+                        "name": "Gaia's Garden - Overgrown Path Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Overgrown Path Left/Bronze Chest",
+                        "name": "Gaia's Garden - Overgrown Path Left - Bronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Drizzle Bosk Lower/Chest",
+                        "name": "Gaia's Garden - Drizzle Bosk Lower - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Drizzle Bosk Center/Chest",
+                        "name": "Gaia's Garden - Drizzle Bosk Center - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Drizzle Bosk Right/Gold Chest",
+                        "name": "Gaia's Garden - Drizzle Bosk Right - Gold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Dripping Cave/Silver Chest",
+                        "name": "Gaia's Garden - Dripping Cave - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Tranquility Pond/Gold Chest",
+                        "name": "Gaia's Garden - Tranquility Pond - Gold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Covert Path Upper/Chest",
+                        "name": "Gaia's Garden - Covert Path Upper - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Covert Path Lower/Chest",
+                        "name": "Gaia's Garden - Covert Path Lower - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Wet Passage Upper/Chest",
+                        "name": "Gaia's Garden - Wet Passage Upper - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Wet Passage Lower/Bronze Chest",
+                        "name": "Gaia's Garden - Wet Passage Lower - Bronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - River's Bed Left/Chest",
+                        "name": "Gaia's Garden - River's Bed Left - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - River's Bed Right/Silver Chest",
+                        "name": "Gaia's Garden - River's Bed Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Calm Backyard Left/Chest",
+                        "name": "Gaia's Garden - Calm Backyard Left - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Calm Backyard Right/Chest",
+                        "name": "Gaia's Garden - Calm Backyard Right - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Royal Grove Upper Left/Chest",
+                        "name": "Gaia's Garden - Royal Grove Upper Left - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Royal Grove Upper Right/Chest",
+                        "name": "Gaia's Garden - Royal Grove Upper Right - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Royal Grove Lower Left/Chest",
+                        "name": "Gaia's Garden - Royal Grove Lower Left - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Royal Grove Lower Right/Silver Chest",
+                        "name": "Gaia's Garden - Royal Grove Lower Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - V'rda Vil West Lower Right/Bronze Chest",
+                        "name": "Gaia's Garden - V'rda Vil West Lower Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - V'rda Vil West Upper/Silver Chest",
+                        "name": "Gaia's Garden - V'rda Vil West Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - V'rda Vil West Lower Left/Gold Chest",
+                        "name": "Gaia's Garden - V'rda Vil West Lower Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - V'rda Vil East Right/Bronze Chest",
+                        "name": "Gaia's Garden - V'rda Vil East Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - V'rda Vil East Lower/Silver Chest",
+                        "name": "Gaia's Garden - V'rda Vil East Lower - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - V'rda Vil North Left/Silver Chest",
+                        "name": "Gaia's Garden - V'rda Vil North Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - V'rda Vil North Right/Gold Chest",
+                        "name": "Gaia's Garden - V'rda Vil North Right - Gold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Chief's Den Upper/Bronze Chest",
+                        "name": "Gaia's Garden - Chief's Den Upper - Bronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Chief's Den Center/Silver Chest",
+                        "name": "Gaia's Garden - Chief's Den Center - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Chief's Den Lower/ Gold Chest",
+                        "name": "Gaia's Garden - Chief's Den Lower - Gold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Splitting Stumps Upper/Chest",
+                        "name": "Gaia's Garden - Splitting Stumps Upper - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Splitting Stumps Lower/Chest",
+                        "name": "Gaia's Garden - Splitting Stumps Lower - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Clinging River Right/Silver Chest",
+                        "name": "Gaia's Garden - Clinging River Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Clinging River Left/Gold Chest",
+                        "name": "Gaia's Garden - Clinging River Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Ringing River Upper/Chest",
+                        "name": "Gaia's Garden - Ringing River Upper - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Ringing River Lower/Bronze Chest",
+                        "name": "Gaia's Garden - Ringing River Lower - Bronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Old Timber/Chest",
+                        "name": "Gaia's Garden - Old Timber - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Tying Greens Upper/Chest",
+                        "name": "Gaia's Garden - Tying Greens Upper - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Tying Greens Lower/Chest",
+                        "name": "Gaia's Garden - Tying Greens Lower - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Peridot Approach Upper/Chest",
+                        "name": "Gaia's Garden - Peridot Approach Upper - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Peridot Approach Lower/Silver Chest",
+                        "name": "Gaia's Garden - Peridot Approach Lower - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - So'najiz Temple Entrance/Silver Chest",
+                        "name": "Gaia's Garden - So'najiz Temple Entrance - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Grand Krys'kajo Entrance/Bronze Chest",
+                        "name": "Gaia's Garden - Grand Krys'kajo Entrance - Bronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Lost Lookout Upper/Chest",
+                        "name": "Gaia's Garden - Lost Lookout Upper - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Lost Lookout Center/Chest",
+                        "name": "Gaia's Garden - Lost Lookout Center - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Lost Lookout Lower/Chest",
+                        "name": "Gaia's Garden - Lost Lookout Lower - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Seared Lake Left/Chest",
+                        "name": "Gaia's Garden - Seared Lake - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Seared Lake Right/Chest",
+                        "name": "Gaia's Garden - Seared Lake - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes South Upper Left/Chest",
+                        "name": "Gaia's Garden - Infested Marshes South Upper Left - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes South Upper Right/Chest",
+                        "name": "Gaia's Garden - Infested Marshes South Upper Right - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes South Lower Left/Chest",
+                        "name": "Gaia's Garden - Infested Marshes South Lower Left - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes South Lower Right/Chest",
+                        "name": "Gaia's Garden - Infested Marshes South Lower Right - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes North Upper Center/Chest",
+                        "name": "Gaia's Garden - Infested Marshes North Upper Center - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes North Lower Left/Chest",
+                        "name": "Gaia's Garden - Infested Marshes North Lower Left - Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes North Upper Right/Silver Chest",
+                        "name": "Gaia's Garden - Infested Marshes North Upper Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes North Lower Right/Silver Chest",
+                        "name": "Gaia's Garden - Infested Marshes North Lower Right - Silver Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 279,
+                      "y": 133
+                    }
+                ]
+            }
+        ]
+    }
+]

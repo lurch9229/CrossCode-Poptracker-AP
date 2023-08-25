@@ -1,0 +1,201 @@
+﻿{
+  "item_only_grid": 
+  {
+    "type": "container",
+    "content": 
+    [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "5,5,5,5",
+        "item_size": "40,40",
+        "rows":
+        [
+          ["eleHeat","eleCold","eleShock","eleWave","overrideCircuit"],
+          ["sandShade","flameShade","iceShade","boltShade", "guildPass"],
+          ["leafShade","dropShade","seedShade","starShade","meteorShade"],
+          ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
+          ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"]
+        ] 
+      }
+    ]
+  },
+  "key_grid_only": {
+    "type": "array",
+    "orientation": "vertical",
+    "content":[
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["mineLabel"]
+            ],
+            "item_size": 100,
+            "margin": "-2,250,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["mineKey"]
+            ],
+            "item_size": 40,
+            "margin": "2,248,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["mineMaster"]
+            ],
+            "item_size": 40,
+            "margin": "2,248,-2,-2"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fajroLabel"]
+            ],
+            "item_size": 100,
+            "margin": "-2,-50,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fajroKey"]
+            ],
+            "item_size": 40,
+            "margin": "2,-55,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fajroMaster"]
+            ],
+            "item_size": 40,
+            "margin": "2,-55,-2,-2"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["sonajizLabel"]
+            ],
+            "item_size": 110,
+            "margin": "-2, -48,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["sonajizKey"]
+            ],
+            "item_size": 40,
+            "margin": "5,-53,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["sonajizMaster"]
+            ],
+            "item_size": 40,
+            "margin": "5,-53,-2,-2"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["zirvitarLabel"]
+            ],
+            "item_size": 115,
+            "margin": "-2, -58,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["zirvitarKey"]
+            ],
+            "item_size": 40,
+            "margin": "5,-63,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["zirvitarMaster"]
+            ],
+            "item_size": 40,
+            "margin": "5,-63,-2,-2"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kryskajoLabel"]
+            ],
+            "item_size": 115,
+            "margin": "-2, -63,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kryskajoKey"]
+            ],
+            "item_size": 40,
+            "margin": "5,-68,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kryskajoMaster"]
+            ],
+            "item_size": 40,
+            "margin": "5,-68,-2,-2"
+          }
+        ]
+      }
+    ]
+  },
+    "tracker_default":
+    {
+	  "type": "array",
+	  "margin": "1,1,1,1",
+	  "content":
+    [
+		  { 
+			  "type": "layout",
+			  "key": "item_only_grid"
+		  },
+      {
+        "type": "layout",
+        "key": "key_grid_only"
+      }
+	  ]
+  }
+}			
+  

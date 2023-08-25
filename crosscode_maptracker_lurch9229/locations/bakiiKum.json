@@ -1,0 +1,301 @@
+[
+    {
+        "name": "Ba'kii Kum",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+		[
+            {
+                "name": "Ba'kii Kum - Solar Farm North",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 346,
+                        "y": 93
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Solar Farm South",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 290,
+                        "y": 332
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Market East",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 327,
+                        "y": 563
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Market West",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 60,
+                        "y": 495
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ThiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Dusty Home",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 260,
+                        "y": 553
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Cursed Coin",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleCold"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Seeker Hub",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 388,
+                        "y": 427
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Maroon Cave Pass",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Bazaar House",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 74,
+                        "y": 411
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "WhiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Market Statue",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region12"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Yellow Sand Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Bakii Kum World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Solar Farm North/Chest",
+                        "name":"Ba'kii Kum - Solar Farm North - Chest"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Solar Farm South/Chest",
+                        "name":"Ba'kii Kum - Solar Farm South - Chest"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Market East/Chest",
+                        "name":"Ba'kii Kum - Market East - Chest"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Market West/Bronze Chest",
+                        "name":"Ba'kii Kum - Solar Farm North - Chest"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Bazaar House/Silver Chest",
+                        "name":"Ba'kii Kum - Bazaar House - SIlver Chest"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Dusty Home/Cursed Coin",
+                        "name":"Ba'kii Kum - Dusty Home - Cursed Coin"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Seeker Hub/Maroon Cave Pass",
+                        "name":"Ba'kii Kum - Seeker Hub - Maroon Cave Pass"
+                    },
+                    
+                    {
+                        "ref": "Ba'kii Kum - Market Statue/Yellow Sand Shade",
+                        "name":"Ba'kii Kum - Solar Farm North - Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 110,
+                      "y": 164
+                    }
+                ]
+            }
+        ]
+    }
+]

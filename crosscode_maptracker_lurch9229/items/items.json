@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Heat Element",
+    "type": "toggle",
+    "img": "images/items/eleHeat.png",
+    "codes": "eleHeat"
+  },
+  {
+    "name": "Cold Element",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/eleCold.png",
+    "codes": "eleCold",
+	  "swap_actions": false
+  },
+  {
+    "name": "Shock Element",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/eleShock.png",
+    "codes": "eleShock",
+	  "swap_actions": false
+  },
+  {
+    "name": "Wave Element",
+    "type": "toggle",
+    "img": "images/items/eleWave.png",
+    "codes": "eleWave"
+  },
+  {
+    "name": "Thief Key",
+    "type": "toggle",
+    "img": "images/items/thiefKey.png",
+    "codes": "thiefKey"
+  },
+  {
+    "name": "White Key",
+    "type": "toggle",
+    "img": "images/items/whiteKey.png",
+    "codes": "whiteKey"
+  },
+  {
+    "name": "Radiant Key",
+    "type": "toggle",
+    "img": "images/items/radiantKey.png",
+    "codes": "radiantKey"
+  },
+  {
+    "name": "Disc of Insight",
+    "type": "toggle",
+    "img": "images/items/insightDisc.png",
+    "codes": "insightDisc"
+  },
+  {
+    "name": "Disc of Flora",
+    "type": "toggle",
+    "img": "images/items/floraDisc.png",
+    "codes": "floraDisc"
+  },
+  {
+    "name": "Guild Pass",
+    "type": "toggle",
+    "img": "images/items/guildPass.png",
+    "codes": "guildPass"
+  },
+  {
+    "name": "Green Leaf Shade",
+    "type": "toggle",
+    "img": "images/items/greenLeaf.png",
+    "codes": "leafShade"
+  },
+  {
+    "name": "Yellow Sand Shade",
+    "type": "toggle",
+    "img": "images/items/yellowSand.png",
+    "codes": "sandShade"
+  },
+  {
+    "name": "Blue Ice Shade",
+    "type": "toggle",
+    "img": "images/items/blueIce.png",
+    "codes": "iceShade"
+  },
+  {
+    "name": "Red Flame Shade",
+    "type": "toggle",
+    "img": "images/items/redFlame.png",
+    "codes": "flameShade"
+  },
+  {
+    "name": "Purple Bolt Shade",
+    "type": "toggle",
+    "img": "images/items/purpleBolt.png",
+    "codes": "boltShade"
+  },
+  {
+    "name": "Azure Drop Shade",
+    "type": "toggle",
+    "img": "images/items/azureDrop.png",
+    "codes": "dropShade"
+  },
+  {
+    "name": "Green Seed Shade",
+    "type": "toggle",
+    "img": "images/items/greenSeed.png",
+    "codes": "seedShade"
+  },
+  {
+    "name": "Star Shade",
+    "type": "toggle",
+    "img": "images/items/star.png",
+    "codes": "starShade"
+  },
+  {
+    "name": "Meteor Shade",
+    "type": "toggle",
+    "img": "images/items/meteor.png",
+    "codes": "meteorShade"
+  },
+  {
+    "name": "Ancient Shade",
+    "type": "toggle",
+    "img": "images/items/ancient.png",
+    "codes": "ancientShade"
+  },
+  {
+    "name": "Mine Pass",
+    "type": "toggle",
+    "img": "images/items/minePass.png",
+    "codes": "minePass"
+  },
+  {
+    "name": "Maroon Cave Pass",
+    "type": "toggle",
+    "img": "images/items/maroonTree.png",
+    "codes": "maroonPass"
+  },
+  {
+    "name": "Pond Slums Pass",
+    "type": "toggle",
+    "img": "images/items/pondPass.png",
+    "codes": "pondPass"
+  },
+  {
+    "name": "Cursed Coin",
+    "type": "toggle",
+    "img": "images/items/cursedCoin.png",
+    "codes": "cursedCoin"
+  },
+  {
+    "name": "Old Dojo Key",
+    "type": "toggle",
+    "img": "images/items/dojoKey.png",
+    "codes": "dojoKey"
+  },
+  {
+    "name": "Very Large Ember",
+    "type": "toggle",
+    "img": "images/items/last_rites.png",
+    "codes": "largeEmber"
+  },
+  {
+    "name": "Old Blueprint",
+    "type": "toggle",
+    "img": "images/items/last_rites.png",
+    "codes": "oldBlueprint"
+  },
+  {
+    "name": "Circuit Override",
+    "type": "consumable",
+    "img": "images/items/circuitGrid.png",
+    "overlay_background": "#000",
+    "codes": "overrideCircuit",
+    "max_quantity": 4,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Mine Master Key",
+    "type": "toggle",
+    "img": "images/items/ccMkey.png",
+    "codes": "mineMaster",
+    "swap_actions": false
+  },
+  {
+    "name": "Mine Key",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/ccKey.png",
+    "overlay_background": "#000",
+    "codes": "mineKey",
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Faj'ro Master Key",
+    "type": "toggle",
+    "img": "images/items/ccMKey.png",
+    "codes": "fajroMaster",
+    "swap_actions": false
+  },
+  {
+    "name": "Faj'ro Key",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/ccKey.png",
+    "overlay_background": "#000",
+    "codes": "fajroKey",
+    "max_quantity": 9,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Zir'vitar Key",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/ccKey.png",
+    "overlay_background": "#000",
+    "codes": "zirvitarKey",
+    "max_quantity": 2,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "So'najiz Key",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/ccKey.png",
+    "overlay_background": "#000",
+    "codes": "sonajizKey",
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Grand Krys'kajo Master Key",
+    "type": "toggle",
+    "img": "images/items/ccMKey.png",
+    "codes": "kryskajoMaster",
+    "swap_actions": false
+  },
+  {
+    "name": "Grand Krys'kajo Key",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/ccKey.png",
+    "overlay_background": "#000",
+    "codes": "kryskajoKey",
+    "max_quantity": 2,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Temple Mine Label",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/mineLabel.png",
+    "codes": "mineLabel"
+  },
+  {
+    "name": "Faj'ro Temple Label",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/fajroLabel.png",
+    "codes": "fajroLabel"
+  },
+  {
+    "name": "Son'najiz Temple Label",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/sonajizLabel.png",
+    "codes": "sonajizLabel"
+  },
+  {
+    "name": "Zir'vitar Temple Label",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/zirvitarLabel.png",
+    "codes": "zirvitarLabel"
+  },
+  {
+    "name": "Grand Krys'kajo Label",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/KryskajoLabel.png",
+    "codes": "kryskajoLabel"
+  }
+]

@@ -1,0 +1,301 @@
+[
+    {
+        "name": "Rhombus Square",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+		[
+            {
+                "name": "Rhombus Square - Arena Plaza West",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 60,
+                        "y": 180
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Arena Plaza East",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 300,
+                        "y": 180
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Garden Boulevard North",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 413,
+                        "y": 85
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Garden Boulevard South",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 490,
+                        "y": 259
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - South Arch",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 247,
+                        "y": 320
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Lloyd Passage",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 385,
+                        "y": 326
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Residential District North",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 72,
+                        "y": 532
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Residential District South",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 250,
+                        "y": 618
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Rhombus Square World Mao
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Garden Boulevard South/Silver Chest",
+                        "name": "Rhombus Square - Garden Boulevard South - Silver Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Garden Boulevard North/Bronze Chest",
+                        "name": "Rhombus Square - Garden Boulevard North - Bronze Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Arena Plaza East/Bronze Chest",
+                        "name": "Rhombus Square - Arena Plaza East - Bronze Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Arena Plaza West/Silver Chest",
+                        "name": "Rhombus Square - Arena Plaza West - Silver Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Lloyd Passage/Silver Chest",
+                        "name": "Rhombus Square - Lloyd Passage - Silver Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - South Arch/Gold Chest",
+                        "name": "Rhombus Square - South Arch - Gold Chest"
+                    },
+                    
+                    {
+                        "ref": "Rhombus Square - Residential District North/Gold Chest",
+                        "name": "Rhombus Square - Residential District North - Gold Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Residential District South/Chest",
+                        "name": "Rhombus Square - Residential District South - Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 279,
+                      "y": 254
+                    }
+                ]
+            }
+        ]
+    }
+]

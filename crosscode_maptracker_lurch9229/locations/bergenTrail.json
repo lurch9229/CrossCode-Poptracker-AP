@@ -1,0 +1,892 @@
+[
+    {
+        "name": "Bergen Trail",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Bergen Trail - Abandoned Cave",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 526,
+                        "y": 76
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Frozen Cave",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 730,
+                        "y": 630
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "eleHeat"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Abandoned Ground",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 88,
+                        "y": 577
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey, eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Pengpeng Den",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 70,
+                        "y": 320
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Entrance Right",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 665,
+                        "y": 875
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Entrance Left",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 595,
+                        "y": 875
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Rising Path 1",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 546,
+                        "y": 806
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ], 
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Off Road 1 Lower",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 411,
+                        "y": 788
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Off Road 1 Upper",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 387,
+                        "y": 741
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Off Road 2 Center",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 334,
+                        "y": 715
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Off Road 2 Lower",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 292,
+                        "y": 755
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Off Road 2 Upper",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 344,
+                        "y": 677
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Off Road 3 Lower",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 338,
+                        "y": 627
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Off Road 3 Upper",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 342,
+                        "y": 498
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Old Plateau",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 770,
+                        "y": 620
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "RadiantKey"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Rising Path 2",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 610,
+                        "y": 578
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Rising Path 3 Left",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 573,
+                        "y": 472
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Rising Path 3 Right",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 661,
+                        "y": 495
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Spike Heights Upper",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 425,
+                        "y": 450
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Spike Heights Lower",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 477,
+                        "y": 510
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "ThiefKey, eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Icy Cauldron",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 300,
+                        "y": 320
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "WhiteKey, eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Bergen Waterfalls",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 370,
+                        "y": 265
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Rising Path 4 Upper",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 649,
+                        "y": 230
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Rising Path 4 Lower",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 510,
+                        "y": 335
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Lofty Heights",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 904,
+                        "y": 285
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Windy Climb",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 695,
+                        "y": 310
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Rising Path 5",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 630,
+                        "y": 35
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Bergen Trail World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Trail - Entrance Left/Chest",
+                        "name": "Bergen Trail - Entrance Left - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Entrance Right/Chest",
+                        "name": "Bergen Trail - Entrance Right - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 1/Chest",
+                        "name": "Bergen Trail - Rising Path 1 - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 2/Chest",
+                        "name": "Bergen Trail - Rising Path 2 - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Old Plateau/ Gold Chest",
+                        "name": "Bergen Trail - Old Plateau - Gold Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Frozen Cave/Chest",
+                        "name": "Bergen Trail - Frozen Cave - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 3  Left/Chest",
+                        "name": "Bergen Trail - Rising Path 3 Left - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 3 Right/Chest",
+                        "name": "Bergen Trail - Rising Path 3 Right - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Windy Climb/Chest",
+                        "name": "Bergen Trail - Windy Climb - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 4 Upper/Chest",
+                        "name": "Bergen Trail - Rising Path 4 Upper - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 4 Lower/Chest",
+                        "name": "Bergen Trail - Rising Path 4 Lower - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Off Road 1 Lower/Chest",
+                        "name": "Bergen Trail - Off Road 1 Lower - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Off Road 1 Upper/Chest",
+                        "name": "Bergen Trail - Off Road 1 - Upper Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Off Road 2 Center/Chest",
+                        "name": "Bergen Trail - Off Road 2 Center - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Off Road 2 Lower/Chest",
+                        "name": "Bergen Trail - Off Road 2 Lower - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Off Road 2 Upper/Chest",
+                        "name": "Bergen Trail - Off Road 2 Upper - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Off Road 3 Lower/Chest",
+                        "name": "Bergen Trail - Off Road 3 Lower - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Off Road 3 Upper/Chest",
+                        "name": "Bergen Trail - Off Road 3 Upper - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Spike Heights Upper/Chest",
+                        "name": "Bergen Trail - Spike Height Upper - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Spike Heights Lower/Bronze Chest",
+                        "name": "Bergen Trail - Spike Heights Lower - Bronze Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Bergen Waterfalls/Chest",
+                        "name": "Bergen Trail - Bergen Waterfalls - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 5/Chest",
+                        "name": "Bergen Trail - Rising Path 5 - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Abandoned Cave/Chest",
+                        "name": "Bergen Trail - Abandoned Cave - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Icy Cauldron/Silver Chest",
+                        "name": "Bergen Trail - Icy Cauldron - Silver Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Abandoned Ground/Silver Chest",
+                        "name": "Bergen Trail - Abandoned Ground - Silver Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - PengPeng Den/Chest",
+                        "name": "Bergen Trail - PengPeng Den - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Lofty Heights/Bronze Chest",
+                        "name": "Bergen Trail - Lofty Heights - Bronze Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 190,
+                      "y": 143
+                    }
+                ]
+            }
+        ]
+    }
+]

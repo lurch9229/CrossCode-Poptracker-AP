@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Autumns_Rise",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/Autumn_Rise_Map.png"
+  },
+  {
+    "name": "Bergen_Trail",
+    "location_size": 25,
+    "location_border_thickness": 4,
+    "img": "images/maps/Bergen_Trail_Map.png"
+  },
+  {
+    "name": "Maroon_Valley",
+    "location_size": 18,
+    "location_border_thickness": 3,
+    "img": "images/maps/Maroon_Valley_Map.png"
+  },
+  {
+    "name": "Gaias_Garden",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/Gaia_Garden_Map.png"
+  },
+  {
+	"name": "Autumns_Fall",
+	"location_size": 18,
+	"location_border_thickness": 3,
+	"img": "images/maps/Autumn_Fall_Map.png"
+  },
+  {
+    "name": "Vermillion_Wastes",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/maps/Vermillion_Map.png"
+  },
+  {
+    "name": "Sapphire_Ridge",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "images/maps/Sapphire_Ridge_Map.png"
+  },
+  {
+    "name": "Rhombus_Square",
+    "location_size": 23,
+    "location_border_thickness": 3,
+    "img": "images/maps/Rhombus_Square.png"
+  },
+  {
+    "name": "Rookie_Harbor",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/Rookie_Harbor_Map.png"
+  },
+  {
+    "name": "Bergen_Village",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/Bergen_Village_Map.png"
+  },
+  {
+    "name": "Bakii_Kum",
+    "location_size": 22,
+    "location_border_thickness": 3,
+    "img": "images/maps/Bakii_Kum_Map.png"
+  },
+  {
+    "name": "Basin_Keep",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/Basin_Keep_Map.png"
+  },
+  {
+    "name": "Temple_Mine_GF",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/Temple_Mine_GF.png"
+  },
+  {
+    "name": "Temple_Mine_U1",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/Temple_Mine_U1.png"
+  },
+  {
+    "name": "Temple_Mine_U2",
+    "location_size": 27,
+    "location_border_thickness": 4,
+    "img": "images/maps/Temple_Mine_U2.png"
+  },
+  {
+    "name": "Temple_Mine_U3",
+    "location_size": 27,
+    "location_border_thickness": 4,
+    "img": "images/maps/Temple_Mine_U3.png"
+  },
+  {
+    "name": "Temple_Mine_U4",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/Temple_Mine_U4.png"
+  },
+  {
+    "name": "Fajro_Temple_GF",
+    "location_size": 25,
+    "location_border_thickness": 3,
+    "img": "images/maps/fajro_gf.png"
+  },
+  {
+    "name": "Fajro_Temple_1F",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Fajro_1f.png"
+  },
+  {
+    "name": "Fajro_Temple_3F",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/fajro_3f.png"
+  },
+  {
+    "name": "Fajro_Temple_4F",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/fajro_4f.png"
+  },
+  {
+    "name": "Sonajiz_Temple",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Sonajiz_Temple.png"
+  },
+  {
+    "name": "Zirvitar_Temple",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Zirvitar_Temple.png"
+  },
+  {
+    "name": "Grand_Kryskajo",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    "img": "images/maps/Grand_Kryskajo.png"
+  },
+  {
+    "name": "WorldMap",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "images/maps/world-map.png"
+  }
+]

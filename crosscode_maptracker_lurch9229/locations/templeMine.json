@@ -1,0 +1,945 @@
+[
+    {
+        "name": "Temple Mine",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+		[
+            {
+                "name": "Temple Mine GF - Elevator",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_GF",
+                        "x": 326,
+                        "y": 622
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ThiefKey, eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine GF - Temple Chamber 2",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_GF",
+                        "x": 355,
+                        "y": 465
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U1 - Elevator",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U1",
+                        "x": 256,
+                        "y": 349
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region5"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U1 - Crossing Funnel",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U1",
+                        "x": 435,
+                        "y": 485
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U1 - Old Shaft 1",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U1",
+                        "x": 40,
+                        "y": 615
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region5"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U1 - Old Shaft 2",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U1",
+                        "x": 183,
+                        "y": 590
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U1 - Testing Chamber",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U1",
+                        "x": 590,
+                        "y": 510
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region5"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U1 - Old Chamber",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U1",
+                        "x": 50,
+                        "y": 320
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region6"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U2 - Storage Room 1",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U2",
+                        "x": 255,
+                        "y": 401
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region7"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U2 - Frozen Chamber 1",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U2",
+                        "x": 400,
+                        "y": 350
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region7"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U2 - Frozen Chamber 2 Left",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U2",
+                        "x": 276,
+                        "y": 190
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region9"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U2 - Frozen Chamber 2 Right",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U2",
+                        "x": 326,
+                        "y": 190
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region9"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U3 - Frozen Shaft 1",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U3",
+                        "x": 150,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region7"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U3 - Frozen Shaft 2",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U3",
+                        "x": 110,
+                        "y": 213
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region7"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U3 - Frozen Shaft 3 Right",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U3",
+                        "x": 255,
+                        "y": 386
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region7"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U3 - Frozen Shaft 3 Left",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U3",
+                        "x": 150,
+                        "y": 400
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region7"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U3 - Overrun Chamber Upper",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U3",
+                        "x": 350,
+                        "y": 402
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region7"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U3 - Overrun Chamber Lower",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U3",
+                        "x": 328,
+                        "y": 459
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region7"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U3 - Chamber of Fire",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U3",
+                        "x": 293,
+                        "y": 78
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region8"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Element",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U4 - Elevator",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U4",
+                        "x": 285,
+                        "y": 512
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region9"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U4 - Infested Chamber",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U4",
+                        "x": 293,
+                        "y": 75
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region10"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U4 - Forgotten Shaft 1",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U4",
+                        "x": 495,
+                        "y": 493
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region9"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U4 - Forgotten Shaft 2",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U4",
+                        "x": 495,
+                        "y": 563
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region9"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U4 - Forgotten Shaft 3",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U4",
+                        "x": 375,
+                        "y": 635
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region9"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U4 - Forgotten Shaft 4",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U4",
+                        "x": 88,
+                        "y": 320
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region9"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine U4 - Forgotten Shaft 5",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_U4",
+                        "x": 135,
+                        "y": 648
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region9"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Temple Mine GF - Post Boss Statue",
+                "map_locations": 
+				[
+                    {
+                        "map": "Temple_Mine_GF",
+                        "x": 294,
+                        "y": 80
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region10"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Blue Ice Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "mineMaster"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Temple Mine World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                      {
+                        "ref": "Temple Mine GF - Temple Chamber 2/Chest",
+                        "name": "Temple Mine GF - Temple Chamber 2 - Chest"
+                    },{
+                        "ref": "Temple Mine U1 - Elevator/Chest",
+                        "name": "Temple Mine U1 - Elevator - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U1 - Old Shaft 2/Chest",
+                        "name": "Temple Mine U1 - Old Shaft 2 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U1 - Testing Chamber/Chest",
+                        "name": "Temple Mine U1 - Testing Chamber - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U1 - Old Chamber/Chest",
+                        "name": "Temple Mine U1 - Old Chamber - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U2 - Frozen Chamber 1/Chest",
+                        "name": "Temple Mine U2 - Frozen Chamber 1 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U3 - Frozen Shaft 1/Chest",
+                        "name": "Temple Mine U3 - Frozen Shaft 1 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U3 - Frozen Shaft 2/Chest",
+                        "name": "Temple Mine U3 - Frozen Shaft 2 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U3 - Frozen Shaft 3 Left/Chest",
+                        "name": "Temple Mine U3 - Frozen Shaft 3 Left - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U3 - Overrun Chamber Upper/Chest",
+                        "name": "Temple Mine U3 - Overrun Chamber Upper - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U3 - Overrun Chamber Lower/Chest",
+                        "name": "Temple Mine U3 - Overrun Chamber Lower - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U1 - Crossing Funnel/Chest",
+                        "name": "Temple Mine U1 - Crossing Funnel - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U1 - Old Shaft 1/Chest",
+                        "name": "Temple Mine U1 - Old Shaft 1 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U2 - Frozen Chamber 2 Left/Chest",
+                        "name": "Temple Mine U2 - Frozen Chamber 2 Left - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U2 - Frozen Chamber 2 Right/Bronze Chest",
+                        "name": "Temple Mine U2 - Frozen Chamber 2 Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Temple Mine GF - Elevator/Bronze Chest",
+                        "name": "Temple Mine GF - Elevator - Bronze Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U2 - Storage Room 1/Bronze Chest",
+                        "name": "Temple Mine U2 - Storage Room 1 - Bronze Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U3 - Frozen Shaft 3 Left/Bronze Chest",
+                        "name": "Temple Mine U3 - Frozen Shaft 3 Left - Bronze Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U4 - Forgotten Shaft 1/Chest",
+                        "name": "Temple Mine U4 - Forgotten Shaft 1 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U4 - Forgotten Shaft 2/Bronze Chest",
+                        "name": "Temple Mine U4 - Forgotten Shaft 2 - Bronze Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U4 - Forgotten Shaft 3/Chest",
+                        "name": "Temple Mine U4 - Forgotten Shaft 3 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U4 - Forgotten Shaft 4/Chest",
+                        "name": "Temple Mine U4 - Forgotten Shaft 4 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U4 - Forgotten Shaft 5/Chest",
+                        "name": "Temple Mine U4 - Forgotten Shaft 5 - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U4 - Elevator/Chest",
+                        "name": "Temple Mine U4 - Elevator - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U4 - Infested Chamber/Chest",
+                        "name": "Temple Mine U4 - Infested Chamber - Chest"
+                    },
+                    {
+                        "ref": "Temple Mine U3 - Chamber of Fire/Element",
+                        "name": "Temple Mine U3 - Chamber of Fire - Element"
+                    },
+                    {
+                        "ref": "Temple Mine GF - Post Boss Statue/Blue Ice Shade",
+                        "name": "Temple Mine GF - Post Boss Statue - Blue Ice Shade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 180,
+                      "y": 90
+                    }
+                ]
+            }
+        ]
+    }
+]

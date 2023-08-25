@@ -1,0 +1,266 @@
+[
+    {
+        "name": "Zir'vitar Temple",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+		[
+            {
+                "name": "Zir'vitar Temple 1F Left - Moving Transmit",
+                "map_locations": 
+				[
+                    {
+                        "map": "Zirvitar_Temple",
+                        "x": 195,
+                        "y": 320
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Zir'vitar Temple 1F Right - Moving Transmit",
+                "map_locations": 
+				[
+                    {
+                        "map": "Zirvitar_Temple",
+                        "x": 240,
+                        "y": 320
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$region25"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Zir'vitar Temple - Haunted Waves",
+                "map_locations": 
+				[
+                    {
+                        "map": "Zirvitar_Temple",
+                        "x": 480,
+                        "y": 328
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region25"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Zir'vitar Temple - Hoodwink",
+                "map_locations": 
+				[
+                    {
+                        "map": "Zirvitar_Temple",
+                        "x": 618,
+                        "y": 485
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23"
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Zir'vitar Temple - Spinning Transmit",
+                "map_locations": 
+				[
+                    {
+                        "map": "Zirvitar_Temple",
+                        "x": 708,
+                        "y": 480
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region25"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Zir'vitar Temple - Chamber of Wave",
+                "map_locations": 
+				[
+                    {
+                        "map": "Zirvitar_Temple",
+                        "x": 682,
+                        "y": 202
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region25"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Element",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Zir'vitar Temple - Post Boss Statue",
+                "map_locations": 
+				[
+                    {
+                        "map": "Zirvitar_Temple",
+                        "x": 711,
+                        "y": 57
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region25"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Purple Bolt Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Zir'vitar Temple World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Zir'vitar Temple 1F - Moving Transmit Left/Chest",
+                        "name": "Zir'vitar Temple 1F - Moving Transmit Left - Chest"
+                    },
+                    {
+                        "ref": "Zir'vitar Temple 1F - Moving Transmit Right/Chest",
+                        "name": "Zir'vitar Temple 1F - Moving Transmit Right - Chest"
+                    },
+                    {
+                        "ref": "Zir'vitar Temple - Haunted Waves/Bronze Chest",
+                        "name": "Zir'vitar Temple - Haunted Waves - Bronze Chest"
+                    },
+                    {
+                        "ref": "Zir'vitar Temple - Hoodwink/Chest",
+                        "name": "Zir'vitar Temple - Hoodwink - Chest"
+                    },
+                    {
+                        "ref": "Zir'vitar Temple - Spinning Transmit/Bronze Chest",
+                        "name": "Zir'vitar Temple - Spinning Transmit - Bronze Chest"
+                    },
+                    {
+                        "ref": "Zir'vitar Temple - Chamber of Wave/Element",
+                        "name": "Zir'vitar Temple - Chamber of Wave - Element"
+                    },
+                    {
+                        "ref": "Zir'vitar Temple - Post Boss Statue/Purple Bolt Shade",
+                        "name": "Zir'vitar Temple - Post Boss Statue - Purple Bolt Shade"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 309,
+                      "y": 83
+                    }
+                ]
+            }
+        ]
+    }
+]

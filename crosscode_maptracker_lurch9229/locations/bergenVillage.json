@@ -1,0 +1,475 @@
+[
+    {
+        "name": "Bergen Village",
+       "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Bergen Village South - Behind Ice In South",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 470,
+                        "y": 1042
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "ThiefKey, eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village South - On Top Of Bergen Bar",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 410,
+                        "y": 977
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village South - Behind Ice In East",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 606,
+                        "y": 800
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ThiefKey, eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village South - Top West Roof",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 380,
+                        "y": 740
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "RadiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village South - Storage Room",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 557,
+                        "y": 961
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village North - On Ledge Near Trader Den",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 367,
+                        "y": 433
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village North - On Ledge In Lower East",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 605,
+                        "y": 595
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "WhiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village North - Roof Of Eastern Archway",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 540,
+                        "y": 450
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village North - Hidden Cave In West",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 349,
+                        "y": 485
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "eleHeat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Diving Railway",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 235,
+                        "y": 315
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Seeker Hub",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 475,
+                        "y": 285
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Mine Detector",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Seeker Hub Cellar Left",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 125,
+                        "y": 695
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Seeker Hub Cellar Right",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 191,
+                        "y": 695
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "ThiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Temple Mine Entrance",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Mine Guard",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Bergen Village World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village South - Storage Room/Chest",
+                        "name": "Bergen Village South - Storage Room - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village South - On Top Of Bergen Bar/Chest",
+                        "name": "Bergen Village South - On Top Of Bergen Bar - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village South - Behind Ice In South/Bronze Chest",
+                        "name": "Bergen Village South - Behind Ice In South - Bronze Chest"
+                    },
+                    {
+                        "ref": "Bergen Village South - Behind Ice In East/Bronze Chest",
+                        "name": "Bergen Village South - Behind Ice In South - Bronze Chest"
+                    },
+                    {
+                        "ref": "Bergen Village South - Top West Roof/Gold Chest",
+                        "name": "Bergen Village South - Top West Roof - Gold Chest"
+                    },
+                    {
+                        "ref": "Bergen Village North - On Ledge Near Trader Den/Chest",
+                        "name": "Bergen Village North - On Ledge Near Trader Den - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village North - Roof Of Eastern Archway/Chest",
+                        "name": "Bergen Village North - Roof Of Eastern Archway - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village North - Hidden Cave In West/Chest",
+                        "name": "Bergen Village North - Hidden Cave In West - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village North - On Ledge In Lower East/Silver Chest",
+                        "name": "Bergen Village North - On Ledge In Lower East - Silver Chest"
+                    },
+                    {
+                        "ref": "Bergen Village - Diving Railway/Chest",
+                        "name": "Bergen Village South - Diving Railway - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village - Seeker Hub/Mine Detector",
+                        "name": "Bergen Village - Seeker Hub - Mine Detector"
+                    },
+                    {
+                        "ref": "Bergen Village - Seeker Hub Basement Left/Chest",
+                        "name": "Bergen Village - Seeker Hub Basement Left - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village - Seeker Hub Basement Right/Bronze Chest",
+                        "name": "Bergen Village Seeker Hub Basement Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Bergen Village - Temple Mine Entrance/Mine Guard",
+                        "name": "Bergen Village - Temple Mine Entrance - Mine Guard"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 180,
+                      "y": 114
+                    }
+                ]
+            }
+        ]
+    }
+]

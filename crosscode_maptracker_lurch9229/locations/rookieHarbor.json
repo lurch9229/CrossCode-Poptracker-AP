@@ -1,0 +1,379 @@
+[
+    {
+        "name": "Rookie Harbor",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Rookie Harbor - Marketplace",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 407,
+                        "y": 305
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region2"
+                        ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Falling Exit",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 553,
+                        "y": 266
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region2"
+                        ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Seeker Hub",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 360,
+                        "y": 260
+                    }
+                ],
+                "access_rules":
+                [
+                    "$region2"
+                ],
+                "sections": [
+                    {
+                        "name": "Green Leaf Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Disc of Insight",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override 1",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$region11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override 2",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$region19"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override 3",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$region30"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override 4",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$region27, eleShock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override 5",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$region25, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Weapon & Backer Shop",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 262,
+                        "y": 149
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region19"
+                        ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Dusty Storage",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 468,
+                        "y": 131
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region19"
+                        ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - South Harbor",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 280,
+                        "y": 611
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region2"
+                        ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "RadiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Beginner's Arc South",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 440,
+                        "y": 802
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region2"
+                        ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Beginners Arc North",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 432,
+                        "y": 670
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region2"
+                        ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ] 
+    },
+    //Rookie Harbor World Map    
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Marketplace/Chest",
+                        "name": "Rookie Harbor - Marketplace - Chest"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Falling Exit/Chest",
+                        "name": "Rookie Harbor - Falling Exit - Chest"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Seeker Hub/Green Leaf Shade",
+                        "name": "Rookie Harbor - Seeker Hub - Green Leaf Shade"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Seeker Hub/Disc of Insight",
+                        "name": "Rookie Harbor - Seeker Hub - Disc of Insight"
+                    },
+                    {
+                        "ref": "Rookie Harbor - South Harbor/Gold Chest",
+                        "name": "Rookie Harbor - South Harbor - Gold Chest"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Beginner's Arc South/Chest",
+                        "name": "Rookie Harbor - Beginner's Arc South - Chest"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Beginner's Arc North/Chest",
+                        "name": "Rookie Harbor - Beginner's Arc North - Chest"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon & Backer Shop/ Silver Chest",
+                        "name": "Rookie Harbor - Weapon And Backer Shop - Silver Chest"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Dusty Storage/Silver Chest",
+                        "name": "Rookie Harbor - Dusty Storage - Silver Chest"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Seeker Hub/Circuit Override 1",
+                        "name": "Rookie Harbor - Seeker Hub - Circuit Override 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Seeker Hub/Circuit Override 2",
+                        "name": "Rookie Harbor - Seeker Hub - Circuit Override 2"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Seeker Hub/Circuit Override 3",
+                        "name": "Rookie Harbor - Seeker Hub - Circuit Override 3"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Seeker Hub/Circuit Override 4",
+                        "name": "Rookie Harbor - Seeker Hub - Circuit Override 4"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Seeker Hub/Circuit Override 5",
+                        "name": "Rookie Harbor - Seeker Hub - Circuit Override 5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 279,
+                      "y": 192
+                    }
+                ]
+            }
+        ]
+    }
+]

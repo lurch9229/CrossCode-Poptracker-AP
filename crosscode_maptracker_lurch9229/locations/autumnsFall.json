@@ -1,0 +1,955 @@
+[
+    {
+        "name": "Autumn's Fall",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Autumn's Fall - Ruby Tunnel",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 930,
+                        "y": 308
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region31"
+                        ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "RadiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Lake Cave 1",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 507,
+                        "y": 454
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region20"
+                        ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Lake Cave 2",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 415,
+                        "y": 458
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Lake Cave 3",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 355,
+                        "y": 458
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Lake Cave 4",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 365,
+                        "y": 407
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Southern Exit Lower",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 650,
+                        "y": 448
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Southern Exit Center",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 590,
+                        "y": 405
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Southern Exit Upper",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 660,
+                        "y": 370
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Ruined Path Upper",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 510,
+                        "y": 263
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Ruined Path Lower",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 565,
+                        "y": 303
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "RadiantKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Eastern Exit Right",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 850,
+                        "y": 324
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Eastern Exit Center",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 785,
+                        "y": 313
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Ancient Center Upper",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 460,
+                        "y": 250
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Ancient Center Left",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 323,
+                        "y": 294
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Northern Exit Lower",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 420,
+                        "y": 196
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Northern Exit Upper",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 420,
+                        "y": 100
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ThiefKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Pillar Isle Upper",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 240,
+                        "y": 309
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Pillar Isle Left",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 126,
+                        "y": 370
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Pillar Isle Right",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 280,
+                        "y": 366
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Village Remains Right",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 210,
+                        "y": 440
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ThiefKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Village Remains Left",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 114,
+                        "y": 461
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Village Remains Upper",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 185,
+                        "y": 418
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "RadiantKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Secluded Path Right",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 823,
+                        "y": 237
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Secluded Path Left",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 700,
+                        "y": 230
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Secluded Path Upper",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 827,
+                        "y": 103
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "RadiantKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Villa of Terror Left",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 25,
+                        "y": 305
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ThiefKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Villa of Terror Right",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 85,
+                        "y": 289
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Para Island 1",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 195,
+                        "y": 195
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region21"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Fall - Great Lake",
+                "map_locations": [
+                    {
+                        "map": "Autumns_Fall",
+                        "x": 560,
+                        "y": 150
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region20"
+                ],
+                "sections": [
+                    {
+                        "name": "Chase Hologram Frobbit",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+     //Autumns Rise World Map
+    {
+        "item_count": 1,
+        "children": [
+        {
+            "sections": [
+            {
+                "ref": "Autumn's Fall - Southern Exit Lower/Chest",
+                "name": "Autumn's Fall - Southern Exit Lower - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Southern Exit Center/Chest",
+                "name": "Autumn's Fall - Southern Exit Center - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Southern Exit Upper/Chest",
+                "name": "Autumn's Fall - Southern Exit Upper - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Ruined Path Upper/Chest",
+                "name": "Autumn's Fall - Ruined Path Upper - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Ruined Path Lower/Gold Chest",
+                "name": "Autumn's Fall - Ruined Path Lower - Gold Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Eastern Exit Right/Chest",
+                "name": "Autumn's Fall - Eastern Exit Right - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Eastern Exit Center/Silver Chest",
+                "name": "Autumn's Fall - Eastern Exit Center - Silver Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Ancient Center Upper/Silver Chest",
+                "name": "Autumn's Fall - Ancient Center Upper - Silver Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Ancient Center Left/Silver Chest",
+                "name": "Autumn's Fall - Ancient Center Left - Silver Chest"
+            },            
+            {
+                "ref": "Autumn's Fall - Lake Cave 1/Chest",
+                "name": "Autumn's Fall - Lake Cave 1 - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Lake Cave 2/Chest",
+                "name": "Autumn's Fall - Lake Cave 2 - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Lake Cave 3/Silver Chest",
+                "name": "Autumn's Fall - Lake Cave 3 - Silver Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Lake Cave 4 /Chest",
+                "name": "Autumn's Fall - Lake Cave 4 - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Para Island 1/Chest",
+                "name": "Autumn's Fall - Para Island 1 - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Secluded Path Right/Chest",
+                "name": "Autumn's Fall - Secluded Path Right - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Secluded Path Left/Chest",
+                "name": "Autumn's Fall - Secluded Path Left - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Secluded Path Upper/Gold Chest",
+                "name": "Autumn's Fall - Secluded Path Upper - Gold Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Northern Exit Lower/Chest",
+                "name": "Autumn's Fall - Northern Exit Lower - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Northern Exit Upper/Bronze Chest",
+                "name": "Autumn's Fall - Northern Exit Upper - Bronze Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Pillar Isle Left/Chest",
+                "name": "Autumn's Fall - Pillar Isle Left - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Pillar Isle Upper/Chest",
+                "name": "Autumn's Fall - Pillar Isle Upper/Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Pillar Isle Right/Chest",
+                "name": "Autumn's Fall - Pillar Isle Right - Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Village Remains Upper/Gold Chest",
+                "name": "Autumn's Fall - Village Remains Upper - Gold Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Village Remains Left/Silver Chest",
+                "name": "Autumn's Fall - Village Remains Left - Silver Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Village Remains Right/Bronze Chest",
+                "name": "Autumn's Fall - Village Remains Right - Bronze Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Villa of Terror Right/Silver Chest",
+                "name": "Autumn's Fall - Villa of Terror Right - Silver Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Villa of Terror Left/Bronze Chest",
+                "name": "Autumn's Fall - Villa of Terror Left - Bronze Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Ruby Tunnel/Gold Chest",
+                "name": "Autumn's Fall - Ruby Tunnel - Gold Chest"
+            },
+            {
+                "ref": "Autumn's Fall - Great Lake/Chase Hologram Frobbit",
+                "name": "Autumn's Fall - Great Lake - Chase Hologram Frobbit"
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "WorldMap",
+            "x": 289,
+            "y": 163
+          }
+        ]
+      }
+    ]
+  }
+]

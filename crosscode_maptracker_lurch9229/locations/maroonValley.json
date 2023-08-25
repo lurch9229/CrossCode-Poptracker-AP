@@ -1,0 +1,1050 @@
+[
+    {
+        "name": "Maroon Valley",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Maroon Valley - Mystery Cave Upper",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 280,
+                        "y": 350
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Mystery Cave Lower",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 250,
+                        "y": 375
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Maroon Cave 1",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 850,
+                        "y": 406
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region12"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - River Cliff Left",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 309,
+                        "y": 345
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - River Cliff Right",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 377,
+                        "y": 357
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Endless Pit Right",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 477,
+                        "y": 431
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Endless Pit Center",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 447,
+                        "y": 430
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Endless Pit Left",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 403,
+                        "y": 450
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Vivid Path Upper",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 772,
+                        "y": 225
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Vivid Path Lower",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 725,
+                        "y": 275
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Maroon Oasis Upper",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 790,
+                        "y": 310
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Maroon Oasis Center",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 760,
+                        "y": 360
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Bright Path",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 715, 
+                        "y": 451
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Rising Railway",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 856,
+                        "y": 100
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - East Entrance",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 686,
+                        "y": 61
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Dusty Path Upper",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 638,
+                        "y": 65
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Dusty Path Center",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 656,
+                        "y": 115
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Crossroad Center",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 642,
+                        "y": 222
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Crossroad Left",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 603,
+                        "y": 210
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Long Piece",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 642,
+                        "y": 350
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Barren Arcs Center",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 520,
+                        "y": 358
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Barren Arcs Lower",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 574,
+                        "y": 377
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Barren Land",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 575,
+                        "y": 199
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Overpass Upper",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 440,
+                        "y": 255
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Overpass Left",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 345,
+                        "y": 270
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Paw Cliffs Lower",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 385,
+                        "y": 205
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Paw Cliffs Upper",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 420,
+                        "y": 120
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Torn Road Right",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 418,
+                        "y": 53
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Torn Road Center",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 375,
+                        "y": 43
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - West Entrance",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 139,
+                        "y": 123
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Fractured Path Right",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 586,
+                        "y": 62
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maroon Valley - Fractured Path Upper",
+                "map_locations": [
+                    {
+                        "map": "Maroon_Valley",
+                        "x": 495,
+                        "y": 40
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules":
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Maroon Valley World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Maroon Valley - Rising Railway/Chest",
+                        "name": "Maroon Valley - Rising Railway - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - East Entrance/Chest",
+                        "name": "Maroon Valley - East Entrance - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Dusty Path Upper/Chest",
+                        "name": "Maroon Valley - Dusty Path Upper - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Crossroad Center/Chest",
+                        "name": "Maroon Valley - Crossroad Center - Chest"
+                    },{
+                        "ref": "Maroon Valley - Vivid Path Upper/Chest",
+                        "name": "Maroon Valley - Vivid Path Upper - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Vivid Path Lower/Chest 2",
+                        "name": "Maroon Valley - Vivid Path Lower - Chest 2"
+                    },
+                    {
+                        "ref": "Maroon Valley - Maroon Oasis Upper/Chest 1",
+                        "name": "Maroon Valley - Maroon Oasis Upper - Chest 1"
+                    },
+                    {
+                        "ref": "Maroon Valley - Maroon Oasis Center/Chest 2",
+                        "name": "Maroon Valley - Maroon Oasis Center - Chest 2"
+                    },
+                    {
+                        "ref": "Maroon Valley - Bright Path/Bronze Chest",
+                        "name": "Maroon Valley - Bright Path - Bronze Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Long Piece/Chest",
+                        "name": "Maroon Valley - Long Piece - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Barren Land/Chest",
+                        "name": "Maroon Valley - Barren Land - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Crossroad Left/Chest",
+                        "name": "Maroon Valley - Crossroad Left - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Dusty Path Center/Bronze Chest",
+                        "name": "Maroon Valley - Dusty Path Center - Bronze Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Overpass/Chest",
+                        "name": "Maroon Valley - Overpass Upper - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Overpass/Chest",
+                        "name": "Maroon Valley - Overpass Left - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - River Cliff Left/Chest",
+                        "name": "Maroon Valley - River Cliff Left - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - River Cliff Right/Chest",
+                        "name": "Maroon Valley - River Cliff Right - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Endless Pit Right/Chest",
+                        "name": "Maroon Valley - Endless Pit Right - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Endless Pit Left/Chest",
+                        "name": "Maroon Valley - Endless Pit Left - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Endless Pit Center/Chest",
+                        "name": "Maroon Valley - Endless Pit Center - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Barren Arcs Center/Chest",
+                        "name": "Maroon Valley - Barren Arcs Center - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Barren Arcs Left/Bronze Chest",
+                        "name": "Maroon Valley - Barren Arcs Left - Bronze Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Torn Road Right/Chest",
+                        "name": "Maroon Valley - Torn Road Right - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Fractured Path Right/Chest",
+                        "name": "Maroon Valley - Fractured Path Right - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Fractured Path Upper/Silver Chest",
+                        "name": "Maroon Valley - Fractured Path Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Torn Road Center/Chest",
+                        "name": "Maroon Valley - Torn Road Center - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Paw Cliffs Lower/Chest",
+                        "name": "Maroon Valley - Paw Cliffs Lower - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Paw Cliffs Upper/Silver Chest",
+                        "name": "Maroon Valley - Paw Cliffs Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - West Entrance/Chest",
+                        "name": "Maroon Valley - West Entrance - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Maroon Cave 1/Chest",
+                        "name": "Maroon Valley - Maroon Cave 1 - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Mystery Cave Upper/Silver Chest",
+                        "name": "Maroon Valley - Mystery Cave Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Mystery Cave Lower/Gold Chest",
+                        "name": "Maroon Valley - Mystery Cave Lower - Gold Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 129,
+                      "y": 143
+                    }
+                ]
+            }
+        ]
+    }
+]
