@@ -274,7 +274,7 @@
                 ]
             },
             {
-                "name": "Rookie Harbor - Beginners Arc North",
+                "name": "Rookie Harbor - Beginner's Arc North",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -338,8 +338,8 @@
                         "name": "Rookie Harbor - Beginner's Arc North - Chest"
                     },
                     {
-                        "ref": "Rookie Harbor - Weapon & Backer Shop/ Silver Chest",
-                        "name": "Rookie Harbor - Weapon And Backer Shop - Silver Chest"
+                        "ref": "Rookie Harbor - Weapon & Backer Shop/Silver Chest",
+                        "name": "Rookie Harbor - Weapon & Backer Shop - Silver Chest"
                     },
                     {
                         "ref": "Rookie Harbor - Dusty Storage/Silver Chest",

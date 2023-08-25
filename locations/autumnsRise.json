@@ -667,7 +667,7 @@
                 ]
             },
             {
-                "name": "Autumn's Rise - Obelisk Lake",
+                "name": "Autumn's Rise - Obelisk Lake Lower",
                 "map_locations":
 				[
                     {
@@ -697,7 +697,7 @@
                 ]
             },
             {
-                "name": "Autumn's Rise - Obelisk Lake",
+                "name": "Autumn's Rise - Obelisk Lake Upper",
                 "map_locations":
 				[
                     {
@@ -946,7 +946,7 @@
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 4 Upper/Chest",
-                        "name": "Autumn's Rise - Pathway Upper - Chest"
+                        "name": "Autumn's Rise - Pathway 4 Upper - Chest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 4 Center/Chest",
@@ -955,6 +955,10 @@
                     {
                         "ref": "Autumn's Rise - Pathway 4 Lower/Chest",
                         "name": "Autumn's Rise - Pathway 4 Lower - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Rise - Pathway 4 Left/Chest",
+                        "name": "Autumn's Rise - Pathway 4 Left - Chest"
                     },
                     {
                         "ref": "Autumn's Rise - Old Observatory/Chest",

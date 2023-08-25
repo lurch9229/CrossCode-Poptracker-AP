@@ -594,7 +594,7 @@
                 ]
             },
             {
-                "name": "Maroon Valley - Barren Arcs Lower",
+                "name": "Maroon Valley - Barren Arcs Left",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -961,11 +961,11 @@
                         "name": "Maroon Valley - Dusty Path Center - Bronze Chest"
                     },
                     {
-                        "ref": "Maroon Valley - Overpass/Chest",
+                        "ref": "Maroon Valley - Overpass Upper/Chest",
                         "name": "Maroon Valley - Overpass Upper - Chest"
                     },
                     {
-                        "ref": "Maroon Valley - Overpass/Chest",
+                        "ref": "Maroon Valley - Overpass Left/Chest",
                         "name": "Maroon Valley - Overpass Left - Chest"
                     },
                     {

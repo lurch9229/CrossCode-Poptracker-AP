@@ -1290,23 +1290,23 @@
                     },
                     {
                         "ref": "Sapphire Ridge - North West Path Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - North West Path - Bronze Chest"
+                        "name": "Sapphire Ridge - North West Path Upper - Bronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - North West Path Lower/Silver Chest",
-                        "name": "Sapphire Ridge - North West Path - Silver Chest"
+                        "name": "Sapphire Ridge - North West Path Lower - Silver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - River Road Upper/Bronze Chest 1",
-                        "name": "Sapphire Ridge - River Road - Bronze Chest 1"
+                        "ref": "Sapphire Ridge - River Road Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - River Road Upper - Bronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - River Road Lower/Bronze Chest 2",
-                        "name": "Sapphire Ridge - River Road - Bronze Chest 2"
+                        "ref": "Sapphire Ridge - River Road Lower/Bronze Chest",
+                        "name": "Sapphire Ridge - River Road Lower - Bronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - River Road Center/Gold Chest",
-                        "name": "Sapphire Ridge - River Road - Gold Chest"
+                        "name": "Sapphire Ridge - River Road Center - Gold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Exterior Upper/Bronze Chest",
@@ -1318,7 +1318,7 @@
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Interior 1F/Chest",
-                        "name": "Sapphire Ridge - Cave Inn - Chest"
+                        "name": "Sapphire Ridge - Cave Inn Interior 1F - Chest"
                     },                    
                     {
                         "ref": "Sapphire Ridge - Cave Inn Interior Storage/Gold Chest",
@@ -1434,10 +1434,10 @@
                     },
                     {
                         "ref": "Sapphire Ridge - Ascension Temple Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Acsension Temple Lower - Silver Chest"
+                        "name": "Sapphire Ridge - Ascension Temple Lower - Silver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Acesension Temple Upper Right/Silver Chest",
+                        "ref": "Sapphire Ridge - Ascension Temple Upper Right/Silver Chest",
                         "name": "Sapphire Ridge - Ascension Temple Upper Right - Silver Chest"
                     },
                     {

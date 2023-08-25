@@ -7,7 +7,7 @@
         "children": 
 		[
             {
-                "name": "Zir'vitar Temple 1F Left - Moving Transmit",
+                "name": "Zir'vitar Temple 1F - Moving Transmit Left",
                 "map_locations": 
 				[
                     {
@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "name": "Zir'vitar Temple 1F Right - Moving Transmit",
+                "name": "Zir'vitar Temple 1F - Moving Transmit Right",
                 "map_locations": 
 				[
                     {
