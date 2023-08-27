@@ -23,12 +23,7 @@ function region3()
 end
 
 function region4()
-  if region3() == true and (has ("minePass") and has("guildPass"))
-  then
-    return 1
-  else
-    return 0
-  end
+  return region3() and (has ("minePass") and has ("guildPass"))
 end
 
 function region5()
@@ -49,12 +44,7 @@ function region8()
 end
 
 function region9()
-  if region7() == true and (has ("eleHeat") and has ("thiefKey"))
-  then
-    return 1
-  else
-    return 0
-  end
+  return region7() and (has ("eleHeat") and has ("thiefKey"))
 end
 
 function region10()
@@ -62,12 +52,7 @@ function region10()
 end
 
 function region11()
-  if region10() == true and (has ("mineMaster") and has ("iceShade"))
-  then
-    return 1
-  else
-    return 0
-  end
+  return region10() and (has ("mineMaster") and has ("iceShade"))
 end
 
 function region12()
@@ -75,12 +60,7 @@ function region12()
 end
 
 function region13()
-  if region12() ==true and (has ("eleHeat") and has("sandShade"))
-  then
-    return 1
-  else
-    return 0
-  end
+  return region12() and (has ("eleHeat") and has("sandShade"))
 end
 
 function region14()
@@ -96,12 +76,7 @@ function region16()
 end
 
 function region17()
-  if region16() == true and has ("eleCold")
-  then
-    return 1
-  else
-    return 0
-  end
+  return region16() and has ("eleCold")
 end
 
 function region17half()
@@ -117,12 +92,7 @@ function region19()
 end
 
 function region20()
-  if region19() == true and has ("flameShade")
-  then
-    return 1
-  else
-    return 0
-  end
+  return region19() and has ("flameShade")
 end
 
 function region21()
@@ -130,21 +100,11 @@ function region21()
 end
 
 function region23()
-  if region21() == true
-  then
-    return 1
-  else
-    return 0
-  end
+  return region21()
 end
 
 function region24()
-  if region21() == true and has ("pondPass")
-  then
-    return 1
-  else
-    return 0
-  end
+  return region21() and has ("pondPass")
 end
 
 function region25()
@@ -168,12 +128,7 @@ function region29()
 end
 
 function region30()
-  if region28() == true and has ("kryskajoMaster")
-  then
-    return 1
-  else
-    return 0
-  end
+  return region28() and has ("kryskajoMaster")
 end
 
 function region31()
@@ -181,12 +136,7 @@ function region31()
 end
 
 function region32()
-  if region31() == true and has ("dojoKey")
-  then
-    return 1
-  else
-    return 0
-  end
+  return region31() and has ("dojoKey")
 end
 
 function region33()

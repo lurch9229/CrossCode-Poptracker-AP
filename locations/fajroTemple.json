@@ -687,8 +687,8 @@
                         "name": "Faj'ro Temple GF - Balance Room 2 Left - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Balance Room 2 Right/Chest 2",
-                        "name": "Faj'ro Temple GF - Balance Room 2 Right - Chest 2"
+                        "ref": "Faj'ro Temple GF - Balance Room 2 Right/Chest",
+                        "name": "Faj'ro Temple GF - Balance Room 2 Right - Chest"
                     },
                     {
                         "ref": "Faj'ro Temple GF - Test of Memory 1/Chest",
@@ -703,8 +703,8 @@
                         "name": "Faj'ro Temple GF - Right Chamber 1 - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Right Chamber 2/Chest 1",
-                        "name": "Faj'ro Temple GF - Right Chamber 2 - Chest 1"
+                        "ref": "Faj'ro Temple GF - Right Chamber 2/Chest",
+                        "name": "Faj'ro Temple GF - Right Chamber 2 - Chest"
                     },
                     {
                         "ref": "Faj'ro Temple 1F - Right Chamber 1/Chest",

@@ -397,36 +397,6 @@
                 ]
             },
             {
-                "name": "Autumn's Rise - Off Road 1 Left",
-                "map_locations": 
-				[
-                    {
-                        "map": "Autumns_Rise",
-                        "x": 710,
-                        "y": 861
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region3"
-                        ],
-                "sections": 
-				[
-                    {
-                        "name": "Chest",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
                 "name": "Autumn's Rise - Off Road 2",
                 "map_locations": 
 				[
@@ -533,7 +503,7 @@
                 "sections": 
 				[
                     {
-                        "name": "Chest 1",
+                        "name": "Chest",
                         "visibility_rules": 
                         [
                             ""
@@ -935,10 +905,6 @@
                     {
                         "ref": "Autumn's Rise - Off Road 1 Right/Chest",
                         "name": "Autumn's Rise - Off Road 1 Right - Chest"
-                    },
-                    {
-                        "ref": "Autumn's Rise - Off Road 1 Left/Chest",
-                        "name": "Autumn's Rise - Off Road 1 Left - Chest"
                     },
                     {
                         "ref": "Autumn's Rise - Off Road 2/Chest",

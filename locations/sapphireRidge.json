@@ -554,7 +554,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bronze Chest 1",
+                        "name": "Bronze Chest",
                         "visibility_rules": 
                         [
                             ""
@@ -610,7 +610,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bronze Chest 2",
+                        "name": "Bronze Chest",
                         "visibility_rules": 
                         [
                             ""

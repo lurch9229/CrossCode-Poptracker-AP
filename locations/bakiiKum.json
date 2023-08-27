@@ -7,7 +7,7 @@
         "children": 
 		[
             {
-                "name": "Ba'kii Kum - Solar Farm North",
+                "name": "Ba'kii Kum - Solar Farm Upper",
                 "map_locations": 
 				[
                     {
@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "name": "Ba'kii Kum - Solar Farm South",
+                "name": "Ba'kii Kum - Solar Farm Lower",
                 "map_locations": 
 				[
                     {
@@ -255,12 +255,12 @@
             {
                 "sections": [
                     {
-                        "ref": "Ba'kii Kum - Solar Farm North/Chest",
-                        "name":"Ba'kii Kum - Solar Farm North - Chest"
+                        "ref": "Ba'kii Kum - Solar Farm Upper/Chest",
+                        "name":"Ba'kii Kum - Solar Farm Upper - Chest"
                     },
                     {
-                        "ref": "Ba'kii Kum - Solar Farm South/Chest",
-                        "name":"Ba'kii Kum - Solar Farm South - Chest"
+                        "ref": "Ba'kii Kum - Solar Farm Lower/Chest",
+                        "name":"Ba'kii Kum - Solar Farm Lower - Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Market East/Chest",
