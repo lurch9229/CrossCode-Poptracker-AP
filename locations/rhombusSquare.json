@@ -206,7 +206,7 @@
                         "name": "Gold Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "notincluded"
                         ],
                         "access_rules": 
                         [
@@ -236,7 +236,7 @@
                         "name": "Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "notincluded"
                         ],
                         "access_rules": 
                         [
