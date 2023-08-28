@@ -363,7 +363,7 @@
                 "sections": 
 				[
                     {
-                        "name": "Chest",
+                        "name": "Element",
                         "visibility_rules": 
                         [
                             ""
@@ -464,8 +464,8 @@
                         "name": "So'najiz Temple - Trial of Persistence Lower Left - Gold Chest"
                     },
                     {
-                        "ref": "So'najiz Temple - Chamber of Shock/Chest",
-                        "name": "So'najiz Temple - Chamber of Shock - Chest"
+                        "ref": "So'najiz Temple - Chamber of Shock/Element",
+                        "name": "So'najiz Temple - Chamber of Shock - Element"
                     },
                     {
                         "ref": "So'najiz Temple - Post Boss Statue/Azure Drop Shade",

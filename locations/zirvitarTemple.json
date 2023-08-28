@@ -67,7 +67,7 @@
                 ]
             },
             {
-                "name": "Zir'vitar Temple - Haunted Waves",
+                "name": "Zir'vitar Temple 1F - Haunted Waves",
                 "map_locations": 
 				[
                     {
@@ -97,7 +97,7 @@
                 ]
             },
             {
-                "name": "Zir'vitar Temple - Hoodwink",
+                "name": "Zir'vitar Temple GF - Hoodwink",
                 "map_locations": 
 				[
                     {
@@ -127,7 +127,7 @@
                 ]
             },
             {
-                "name": "Zir'vitar Temple - Spinning Transmit",
+                "name": "Zir'vitar Temple GF - Spinning Transmit",
                 "map_locations": 
 				[
                     {
@@ -157,7 +157,7 @@
                 ]
             },
             {
-                "name": "Zir'vitar Temple - Chamber of Wave",
+                "name": "Zir'vitar Temple 2F - Chamber of Wave",
                 "map_locations": 
 				[
                     {
@@ -233,20 +233,20 @@
                         "name": "Zir'vitar Temple 1F - Moving Transmit Right - Chest"
                     },
                     {
-                        "ref": "Zir'vitar Temple - Haunted Waves/Bronze Chest",
-                        "name": "Zir'vitar Temple - Haunted Waves - Bronze Chest"
+                        "ref": "Zir'vitar Temple 1F - Haunted Waves/Bronze Chest",
+                        "name": "Zir'vitar Temple 1F - Haunted Waves - Bronze Chest"
                     },
                     {
-                        "ref": "Zir'vitar Temple - Hoodwink/Chest",
-                        "name": "Zir'vitar Temple - Hoodwink - Chest"
+                        "ref": "Zir'vitar Temple Gf - Hoodwink/Chest",
+                        "name": "Zir'vitar Temple GF - Hoodwink - Chest"
                     },
                     {
-                        "ref": "Zir'vitar Temple - Spinning Transmit/Bronze Chest",
-                        "name": "Zir'vitar Temple - Spinning Transmit - Bronze Chest"
+                        "ref": "Zir'vitar Temple GF - Spinning Transmit/Bronze Chest",
+                        "name": "Zir'vitar Temple GF - Spinning Transmit - Bronze Chest"
                     },
                     {
-                        "ref": "Zir'vitar Temple - Chamber of Wave/Element",
-                        "name": "Zir'vitar Temple - Chamber of Wave - Element"
+                        "ref": "Zir'vitar Temple 2F - Chamber of Wave/Element",
+                        "name": "Zir'vitar Temple 2F - Chamber of Wave - Element"
                     },
                     {
                         "ref": "Zir'vitar Temple - Post Boss Statue/Purple Bolt Shade",

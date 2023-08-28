@@ -637,7 +637,7 @@
                 ]
             },
             {
-                "name": "Faj'ro Temple - Chamber of Ice",
+                "name": "Faj'ro Temple 1F - Chamber of Ice",
                 "map_locations": 
 				[
                     {
@@ -755,8 +755,8 @@
                         "name": "Faj'ro Temple 4F - Chamber of Prosperity - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple - Chamber of Ice/Element",
-                        "name": "Faj'ro Temple - Chamber of Ice - Element"
+                        "ref": "Faj'ro Temple 1F - Chamber of Ice/Element",
+                        "name": "Faj'ro Temple 1F - Chamber of Ice - Element"
                     },
                     {
                         "ref": "Faj'ro Temple 4F - Post Boss Statue/Red Flame Shade",

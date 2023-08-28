@@ -156,13 +156,11 @@
   {
     "name": "Very Large Ember",
     "type": "toggle",
-    "img": "images/items/last_rites.png",
     "codes": "largeEmber"
   },
   {
     "name": "Old Blueprint",
     "type": "toggle",
-    "img": "images/items/last_rites.png",
     "codes": "oldBlueprint"
   },
   {

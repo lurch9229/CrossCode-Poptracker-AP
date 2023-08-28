@@ -8,8 +8,6 @@ Tracker:AddItems("items/items.json")
 
 -- Open Maps, Then Layouts, Then Locations
 
-
-
 if (string.find(Tracker.ActiveVariantUID, "items_only")) then
     Tracker:AddLayouts("layouts/items_only.json")
     Tracker:AddLayouts("layouts/broadcast_horizontal.json")
@@ -57,4 +55,9 @@ if (string.find(Tracker.ActiveVariantUID, "items_only")) then
             Tracker:AddLocations("locations/grandKryskajo.json")
         end
     end
+end
+
+-- Autotracking AP
+if PopVersion and PopVersion >= "0.25.0" then
+    ScriptHost:LoadScript("scripts/autotracking.lua")
 end

@@ -173,7 +173,7 @@
                 "sections":
 				[
                     {
-                        "name": "Master Key Chest",
+                        "name": "Chest",
                         "visibility_rules": 
                         [
                             ""
@@ -347,8 +347,8 @@
                         "name": "Grand Krys'kajo - Branch Conveyance - Chest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - Falling Leaves/Master Key Chest",
-                        "name": "Grand Krys'kajo - Falling Leaves - Master Key Chest"
+                        "ref": "Grand Krys'kajo - Falling Leaves/Chest",
+                        "name": "Grand Krys'kajo - Falling Leaves - Chest"
                     },
                     {
                         "ref": "Grand Krys'kajo - Post Boss Statue/Star Shade",

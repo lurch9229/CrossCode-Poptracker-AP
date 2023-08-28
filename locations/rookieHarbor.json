@@ -246,7 +246,7 @@
                 ]
             },
             {
-                "name": "Rookie Harbor - Beginner's Arc South",
+                "name": "Rookie Harbor - Beginner's Arc Lower",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -274,7 +274,7 @@
                 ]
             },
             {
-                "name": "Rookie Harbor - Beginner's Arc North",
+                "name": "Rookie Harbor - Beginner's Arc Upper",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -330,12 +330,12 @@
                         "name": "Rookie Harbor - South Harbor - Gold Chest"
                     },
                     {
-                        "ref": "Rookie Harbor - Beginner's Arc South/Chest",
-                        "name": "Rookie Harbor - Beginner's Arc South - Chest"
+                        "ref": "Rookie Harbor - Beginner's Arc Lower/Chest",
+                        "name": "Rookie Harbor - Beginner's Arc Lower - Chest"
                     },
                     {
-                        "ref": "Rookie Harbor - Beginner's Arc North/Chest",
-                        "name": "Rookie Harbor - Beginner's Arc North - Chest"
+                        "ref": "Rookie Harbor - Beginner's Arc Upper/Chest",
+                        "name": "Rookie Harbor - Beginner's Arc Upper - Chest"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon & Backer Shop/Silver Chest",

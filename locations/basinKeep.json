@@ -34,7 +34,7 @@
                 ]
             },
             {
-                "name": "Basin Keep - Pond Slums South",
+                "name": "Basin Keep - Pond Slums Lower",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -91,7 +91,7 @@
                 ]
             },
             {
-                "name": "Basin Keep - Pond Slums North",
+                "name": "Basin Keep - Pond Slums Upper",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -220,13 +220,13 @@
                         "name": "Basin Keep - Basin Police HQ - Gold Chest"
                     },
                     {
-                        "ref": "Basin Keep - Pond Slums North/Gold Chest",
-                        "name": "Basin Keep - Pond Slums North - Gold Chest"
+                        "ref": "Basin Keep - Pond Slums Upper/Gold Chest",
+                        "name": "Basin Keep - Pond Slums Upper - Gold Chest"
                     },
                     
                     {
-                        "ref": "Basin Keep - Pond Slums South/Silver Chest",
-                        "name": "Basin Keep - Pond Slums South - Silver Chest"
+                        "ref": "Basin Keep - Pond Slums Lower/Silver Chest",
+                        "name": "Basin Keep - Pond Slums Lower - Silver Chest"
                     },
                     {
                         "ref": "Basin Keep - Pond Slums Center/Gold Chest",
