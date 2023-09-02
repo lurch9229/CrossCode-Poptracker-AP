@@ -16,7 +16,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -44,7 +45,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -72,7 +74,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -100,7 +103,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -128,7 +132,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -156,7 +161,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -184,7 +190,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -212,7 +219,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -240,7 +248,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -268,7 +277,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -296,7 +306,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -324,7 +335,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -352,7 +364,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -380,7 +393,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region4"
+                    "$region4",
+                    "$regionOpen4_1"
                 ],
                 "sections": [
                     {
@@ -388,6 +402,566 @@
                         "visibility_rules": 
                         [
                             ""
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Digging Up the Past",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Quest Advisor",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Trial of Aspiration",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Wise Nemuh",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Challenge of Aspiration",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Monk Hasouk",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Challenge of Aspiration (Timed)",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Monk Hasouk",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Challenge of Aspiration (Shieldless)",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Monk Hasouk",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Trial of Progression",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Wise Nemuh",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Challenge of Progression",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Monk Aisy",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Challenge of Progression (Timed)",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Monk Aisy",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Frosty Challenge",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Monk Aisy",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Filthy Frobbits",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Chief Miner Turis",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Explosive Debugging",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Chief Miner Turis",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Preemptive Debugging",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Darrel",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Kidding Around",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Sgt. Sterling",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - The Goatfather",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Sgt. Sterling",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Fancy Tophat",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Mrs Summers",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Heating the Hermit",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Mrs Summers",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Gifting for Fun",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Holiday Man",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Building a Base",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Omni Gliders General",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Pushing Bases",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Jean",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - A Promise is a Promise 2",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 373,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4"
+                ],
+                "sections": [
+                    {
+                        "name": "Ketin D'Kar",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
                         ],
                         "access_rules":
                         [

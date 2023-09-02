@@ -16,7 +16,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region31"
+                            "$region31",
+                            "$regionOpen16"
                         ],
                 "sections": [
                     {
@@ -27,7 +28,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RadiantKey"
+                            "radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -44,7 +45,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region20"
+                            "$region20",
+                            "$regionOpen9"
                         ],
                 "sections": [
                     {
@@ -72,7 +74,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -100,7 +103,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -111,7 +115,7 @@
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            "whiteKey"
                         ],                        
                         "item_count": 1
                     }
@@ -128,7 +132,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -156,7 +161,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -184,7 +190,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -212,7 +219,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -240,7 +248,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -268,7 +277,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -279,7 +289,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RadiantKey"
+                            "radiantKey"
                         ],                        
                         "item_count": 1
                     }
@@ -296,7 +306,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -324,7 +335,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -335,7 +347,7 @@
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            "whiteKey"
                         ],                        
                         "item_count": 1
                     }
@@ -352,7 +364,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -363,7 +376,7 @@
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            "whiteKey"
                         ],                        
                         "item_count": 1
                     }
@@ -380,7 +393,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -391,7 +405,7 @@
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            "whiteKey"
                         ],                        
                         "item_count": 1
                     }
@@ -408,7 +422,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -436,7 +451,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -447,7 +463,7 @@
                         ],
                         "access_rules": 
                         [
-                            "ThiefKey"
+                            "thiefKey"
                         ],                        
                         "item_count": 1
                     }
@@ -464,7 +480,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -492,7 +509,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -520,7 +538,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -548,7 +567,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -559,7 +579,7 @@
                         ],
                         "access_rules": 
                         [
-                            "ThiefKey"
+                            "thiefKey"
                         ],                        
                         "item_count": 1
                     }
@@ -576,7 +596,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -587,7 +608,7 @@
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            "whiteKey"
                         ],                        
                         "item_count": 1
                     }
@@ -604,7 +625,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -615,7 +637,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RadiantKey"
+                            "radiantKey"
                         ],                        
                         "item_count": 1
                     }
@@ -632,7 +654,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -660,7 +683,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -688,7 +712,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -699,7 +724,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RadiantKey"
+                            "radiantKey"
                         ],                        
                         "item_count": 1
                     }
@@ -716,7 +741,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -727,7 +753,7 @@
                         ],
                         "access_rules": 
                         [
-                            "ThiefKey"
+                            "thiefKey"
                         ],                        
                         "item_count": 1
                     }
@@ -744,7 +770,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
@@ -755,7 +782,7 @@
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            "whiteKey"
                         ],                        
                         "item_count": 1
                     }
@@ -772,7 +799,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region21"
+                    "$region21",
+                    "$regionOpen9_1"
                 ],
                 "sections": [
                     {
@@ -800,7 +828,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region20"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {

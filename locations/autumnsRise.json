@@ -18,7 +18,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -48,7 +49,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -78,7 +80,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -108,7 +111,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections":
 				[
@@ -138,7 +142,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -168,7 +173,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -198,7 +204,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -228,7 +235,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -258,7 +266,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -288,7 +297,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -318,7 +328,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -348,7 +359,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3_1"
                         ],
                 "sections": 
 				[
@@ -360,7 +372,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "minePass"
                         ],
                         "item_count": 1
                     }
@@ -378,7 +390,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -408,7 +421,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -438,7 +452,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -468,7 +483,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -498,7 +514,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -528,7 +545,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -558,7 +576,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -588,7 +607,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -618,7 +638,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -648,7 +669,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -678,7 +700,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -708,7 +731,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": 
 				[
@@ -738,7 +762,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": 
 				[
@@ -757,7 +782,7 @@
                 ]
             },
             {
-                "name": "Autumn's Rise - Pathway 4 Left",
+                "name": "Autumn's Rise - Pathway 4 Lower",
                 "map_locations": 
 				[
                     {
@@ -768,7 +793,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": 
 				[
@@ -798,7 +824,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -828,7 +855,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$region3"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": 
 				[
@@ -837,6 +865,186 @@
                         "visibility_rules": 
                         [
                             ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Rise - First Steps",
+                "map_locations": 
+				[
+                    {
+                        "map": "Autumns_Rise",
+                        "x": 395,
+                        "y": 555
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region3"
+                        ],
+                "sections": 
+				[
+                    {
+                        "name": "Humble Helper",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Rise - A Few More Steps",
+                "map_locations": 
+				[
+                    {
+                        "map": "Autumns_Rise",
+                        "x": 395,
+                        "y": 555
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region3"
+                        ],
+                "sections": 
+				[
+                    {
+                        "name": "Humble Helper",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Rise - The Observatory",
+                "map_locations": 
+				[
+                    {
+                        "map": "Autumns_Rise",
+                        "x": 395,
+                        "y": 555
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region3"
+                        ],
+                "sections": 
+				[
+                    {
+                        "name": "Observatory",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Rise - Trailblazing",
+                "map_locations": 
+				[
+                    {
+                        "map": "Autumns_Rise",
+                        "x": 395,
+                        "y": 555
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region3"
+                        ],
+                "sections": 
+				[
+                    {
+                        "name": "Henry the Researcher",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Rise - Round And Round",
+                "map_locations": 
+				[
+                    {
+                        "map": "Autumns_Rise",
+                        "x": 395,
+                        "y": 555
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region3"
+                        ],
+                "sections": 
+				[
+                    {
+                        "name": "Game Tester",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Autumn's Rise - Crocus Pocus",
+                "map_locations": 
+				[
+                    {
+                        "map": "Autumns_Rise",
+                        "x": 395,
+                        "y": 555
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region3"
+                        ],
+                "sections": 
+				[
+                    {
+                        "name": "Talatu Lips",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
                         ],
                         "access_rules": 
                         [

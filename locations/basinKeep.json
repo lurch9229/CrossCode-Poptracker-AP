@@ -16,7 +16,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region24"
+                    "$region24",
+                    "$regionOpen11"
                 ],
                 "sections": [
                     {
@@ -44,7 +45,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region24"
+                    "$region24",
+                    "$regionOpen11"
                 ],
                 "sections": [
                     {
@@ -72,7 +74,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region24"
+                    "$region24",
+                    "$regionOpen11"
                 ],
                 "sections": [
                     {
@@ -101,7 +104,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region24"
+                    "$region24",
+                    "$regionOpen11"
                 ],
                 "sections": [
                     {
@@ -130,7 +134,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region23"
+                    "$region23",
+                    "$regionOpen10"
                 ],
                 "sections": [
                     {
@@ -158,7 +163,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region23"
+                    "$region23",
+                    "$regionOpen10"
                 ],
                 "sections": [
                     {
@@ -186,7 +192,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region23"
+                    "$region23",
+                    "$regionOpen10"
                 ],
                 "sections": [
                     {
@@ -194,6 +201,383 @@
                         "visibility_rules": 
                         [
                             ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - An Infested Village",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "K'tara",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Hostage Situation",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Sgt Bronzler",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - High Crafting",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Sgt Bronzler",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Tropical Chill",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Mrs Basu",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Melting this Cold Fiend",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Mrs Basu",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Lakeside Escort",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Claude Reynes",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Rooting for Power",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Claude Reynes",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Turret Defense",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Kacela Madaki",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - An Original Idea",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Kacela Madaki",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Pumpkin Land Superfun",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "The Boosi Man",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Sprouting Business",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Mick Calzone",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - A Promise is a Promise 4",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Ketin D'Kar",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - The Book of an Old Man",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Old Man",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
                         ],
                         "access_rules": 
                         [

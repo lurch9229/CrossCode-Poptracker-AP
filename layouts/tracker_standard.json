@@ -173,6 +173,21 @@
             "margin": "0,-68,-2,-2"
           }
         ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["settingOpenMode"]
+            ],
+            "item_size": 105,
+            "margin": "-2, -63,-2,-12"
+          }
+        ]
       }
     ]
   },
@@ -394,6 +409,13 @@
                             "content": {
                               "type":"map",
                               "maps": ["Fajro_Temple_1F"]
+                            }
+                          },
+                          {
+                            "title": "2F",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Fajro_Temple_2F"]
                             }
                           },
                           {

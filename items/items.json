@@ -289,5 +289,11 @@
     "allow_disabled": false,
     "img": "images/items/KryskajoLabel.png",
     "codes": "kryskajoLabel"
+  },
+  {
+    "name": "Open Mode",
+    "type": "toggle",
+    "img": "images/items/settingOpenMode.png",
+    "codes": "settingOpenMode"
   }
 ]
