@@ -1,6 +1,7 @@
 Changelog
 
 0.3.0Dev
+    
     Added map for chamber of ice and moved it from Faj'ro 1f - Right Chamber 1
 
     Added open Mode Logic
@@ -16,6 +17,7 @@ Changelog
     Misc Cleanup
 
 0.2.1
+    
     Fixed So'najiz Keys not Autotracking
 
     Fixed Locations on Autumn's Rise not Autotracking
