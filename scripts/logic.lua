@@ -278,7 +278,7 @@ function regionOpen14_3()
 end
 
 function regionOpen15_1()
-  return regionOpen12() and (has ("boltShade") and has ("azureShade") and has ("eleWave") and has ("eleShock"))
+  return regionOpen12() and (has ("boltShade") and has ("dropShade") and has ("eleWave") and has ("eleShock"))
 end
 
 function regionOpen15_2()
@@ -302,7 +302,17 @@ function regionOpen16_1()
 end
 
 function regionOpen19()
-  return regionOpen16_1() and (has ("eleHeat") and has ("eleCold") and has ("eleWave") and has ("eleShock"))
+  return 
+  regionOpen16_1() and 
+    (has ("eleHeat") and 
+      has ("eleCold") and 
+        has ("eleWave") and 
+          has ("eleShock") and
+            has ("minesWon") and
+              has ("fajroWon") and
+                has ("sonajizWon") and
+                  has ("zirvitarWon") and 
+                    has ("kryskajoWon"))
 end
 
 -- Dungeon Keys

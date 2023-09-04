@@ -124,7 +124,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$region23"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -436,6 +436,7 @@
                         [
                             "eleShock"
                         ],
+                        "hosted_item": "sonajizWon",
                         "item_count": 1
                     },
                     {
@@ -449,7 +450,7 @@
                             "eleShock"
                         ],
                         "item_count": 1
-                    },
+                    }
                 ]
             }
         ]

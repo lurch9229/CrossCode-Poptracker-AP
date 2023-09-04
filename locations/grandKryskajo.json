@@ -312,6 +312,7 @@
                         [
                             ""
                         ],
+                        "hosted_item": "kryskajoWon",
                         "item_count": 1
                     },
                     {
@@ -373,8 +374,8 @@
                         "name": "Grand Krys'kajo - Falling Leaves - Chest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - Post Boss Statue/Star Shade",
-                        "name": "Grand Krys'kajo - Post Boss Statue - Star Shade & Circuit Override"
+                        "ref": "Grand Krys'kajo 4F - Post Boss Statue/Star Shade",
+                        "name": "Grand Krys'kajo 4F - Post Boss Statue - Star Shade & Circuit Override"
                     }
                 ],
                 "map_locations": [

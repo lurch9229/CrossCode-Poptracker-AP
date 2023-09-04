@@ -219,6 +219,7 @@
                         [
                             "eleWave"
                         ],
+                        "hosted_item": "zirvitarWon",
                         "item_count": 1
                     },
                     {
@@ -268,8 +269,8 @@
                         "name": "Zir'vitar Temple 2F - Chamber of Wave - Element"
                     },
                     {
-                        "ref": "Zir'vitar Temple - Post Boss Statue/Purple Bolt Shade",
-                        "name": "Zir'vitar Temple - Post Boss Statue - Purple Bolt Shade & Circuit Override"
+                        "ref": "Zir'vitar Temple 3F - Post Boss Statue/Purple Bolt Shade",
+                        "name": "Zir'vitar Temple 3F - Post Boss Statue - Purple Bolt Shade & Circuit Override"
                     }
                 ],
                 "map_locations": [

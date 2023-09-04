@@ -307,7 +307,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region31"
+                    "$region31",
+                    "$regionOpen16_1"
                 ],
                 "sections": [
                     {
@@ -1235,7 +1236,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen16_1"
                 ],
                 "sections": [
                     {

@@ -1,4 +1,15 @@
-Changelog
+# Changelog
+
+0.3.1Dev
+
+    Added hosted items for dungeon completion
+
+    Added Vermillion Tower to world map for visibility of Go Mode
+
+    Added logic for Vermillion Tower
+
+    Fixed some locations not using Open Mode logic
+
 
 0.3.0Dev
 
@@ -26,7 +37,7 @@ Changelog
 
     Made Residential District Chests hidden as Rando currently does not shuffle them
 
-0.2.0 
+0.2.0
 
     Added AP Autotracking
 

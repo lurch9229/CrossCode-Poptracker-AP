@@ -284,6 +284,29 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "name": "Vermillion Wasteland - Vermillion Tower",
+                "access_rules": 
+                [
+                    "$region33",
+                    "$regionOpen19"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "The Creator",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
             }
         ]
     },
@@ -332,6 +355,27 @@
                       "map": "WorldMap",
                       "x": 279,
                       "y": 254
+                    }
+                ]
+            }
+        ]
+    },
+    //Vermillion Tower
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Vermillion Tower/The Creator",
+                        "name": "Vermillion Tower - The Creator"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 480,
+                        "y": 193
                     }
                 ]
             }

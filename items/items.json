@@ -291,6 +291,31 @@
     "codes": "kryskajoLabel"
   },
   {
+    "name": "Mines Won",
+    "type": "toggle",
+    "codes": "minesWon"
+  },
+  {
+    "name": "Fajro Won",
+    "type": "toggle",
+    "codes": "fajroWon"
+  },
+  {
+    "name": "So'najiz Won",
+    "type": "toggle",
+    "codes": "sonajizWon"
+  },
+  {
+    "name": "Zir'vitar Won",
+    "type": "toggle",
+    "codes": "zirvitarWon"
+  },
+  {
+    "name": "Krys'kajo Won",
+    "type": "toggle",
+    "codes": "kryskajoWon"
+  },
+  {
     "name": "Open Mode",
     "type": "toggle",
     "img": "images/items/settingOpenMode.png",
