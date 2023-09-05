@@ -19,7 +19,7 @@
                 "access_rules": 
                 [
                     "$region14",
-                    "$regionOpen7.2"
+                    "$regionOpen7_2"
                 ],
                 "sections":
 				[
@@ -50,7 +50,7 @@
                 "access_rules": 
                 [
                     "$region17",
-                    "$regionOpen7.5"
+                    "$regionOpen7_5"
                 ],
                 "sections":
 				[
@@ -81,7 +81,7 @@
                 "access_rules": 
                 [
                     "$region17half",
-                    "$regionOpen7.5"
+                    "$regionOpen7_5"
                 ],
                 "sections": 
 				[

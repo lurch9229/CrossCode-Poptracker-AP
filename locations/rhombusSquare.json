@@ -213,7 +213,7 @@
                         "name": "Gold Chest",
                         "visibility_rules": 
                         [
-                            "notincluded"
+                            ""
                         ],
                         "access_rules": 
                         [
@@ -244,7 +244,7 @@
                         "name": "Chest",
                         "visibility_rules": 
                         [
-                            "notincluded"
+                            ""
                         ],
                         "access_rules": 
                         [
@@ -286,19 +286,58 @@
                 ]
             },
             {
-                "name": "Vermillion Wasteland - Vermillion Tower",
+                "name": "Rhombus Dungeon - Ability Chest 1",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 250,
+                        "y": 618
+                    }
+                ],
                 "access_rules": 
                 [
                     "$region33",
-                    "$regionOpen19"
+                    "$regionOpen20"
                 ],
                 "sections": 
 				[
                     {
-                        "name": "The Creator",
+                        "name": "Not In Use",
                         "visibility_rules": 
                         [
+                            "notinuse"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Dungeon - Ability Chest 2",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 250,
+                        "y": 618
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33",
+                    "$regionOpen20"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Not In Use",
+                        "visibility_rules": 
+                        [
+                            "notinuse"
                         ],
                         "access_rules": 
                         [
@@ -355,27 +394,6 @@
                       "map": "WorldMap",
                       "x": 279,
                       "y": 254
-                    }
-                ]
-            }
-        ]
-    },
-    //Vermillion Tower
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Vermillion Tower/The Creator",
-                        "name": "Vermillion Tower - The Creator"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 480,
-                        "y": 193
                     }
                 ]
             }

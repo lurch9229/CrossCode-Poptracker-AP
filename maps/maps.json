@@ -150,6 +150,12 @@
     "img": "images/maps/Grand_Kryskajo.png"
   },
   {
+    "name": "Vermillion_Wasteland",
+    "location_size": 25,
+    "location_border_thickness": 2,
+    "img": "images/maps/Vermillion_Wasteland_Map.png"
+  },
+  {
     "name": "WorldMap",
     "location_size": 12,
     "location_border_thickness": 1,

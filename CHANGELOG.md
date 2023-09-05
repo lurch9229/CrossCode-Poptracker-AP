@@ -1,5 +1,13 @@
 # Changelog
 
+0.3.2Dev
+
+    Added Map and locations for Vermillion Wasteland
+
+    Updated Location IDs for autotracker mapping
+
+    Made Residential District viewable now it is included in the location pool
+    
 0.3.1Dev
 
     Added hosted items for dungeon completion
@@ -9,7 +17,6 @@
     Added logic for Vermillion Tower
 
     Fixed some locations not using Open Mode logic
-
 
 0.3.0Dev
 
