@@ -255,13 +255,7 @@
                     "title": "Connections",
                     "type": "tabbed",
                     "tabs": [
-                      {
-                        "title": "Vermillion Wasteland",
-                        "content": {
-                          "type": "map",
-                          "maps": ["Vermillion_Wasteland"]
-                        }
-                      },
+                      
                       {
                         "title": "World Map",
                         "content": {
@@ -310,8 +304,14 @@
                           "type": "map",
                           "maps": ["Sapphire_Ridge"]
                         }
-                      }
-                      
+                      },
+                      {
+                        "title": "Vermillion Wasteland",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Vermillion_Wasteland"]
+                        }
+                      },
                     ]
                   },
                   {
