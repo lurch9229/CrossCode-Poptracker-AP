@@ -1,5 +1,17 @@
 # Changelog
 
+0.3.4
+
+    Added hosted items for bosses to work with VT Gate Option
+
+    Added settings field and place Open Mode and VT Gate labels
+
+    Added shades to dungeons to indicate completion of dungeon
+
+    Fixed some locations in autotracker script
+
+    Added autotracking for settings through slot_data
+
 0.3.3Dev
 
     Fixed missing region for Vermillion Wastes
