@@ -1,0 +1,432 @@
+[
+    {
+        "name": "Vermillion Wasteland",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Vermillion Wasteland - Spiral Cliff Center",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 112,
+                        "y": 293
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - Spiral Cliff Upper",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 115,
+                        "y": 231
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - Storage Basement",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 848,
+                        "y": 520
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            "notinuse"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - Crimson Lake Upper",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 380,
+                        "y": 235
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - Crimson Lake Lower",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 450,
+                        "y": 350
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - East Town Left",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 722,
+                        "y": 270
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - East Town Center",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 892,
+                        "y": 280
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - East Town Lower",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 925,
+                        "y": 370
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - West Town Upper Right",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 673,
+                        "y": 142
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - West Town Upper Left",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 558,
+                        "y": 137
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - West Town Lower",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 670,
+                        "y": 380
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region22",
+                    "$regionOpen18"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vermillion Wasteland - Vermillion Tower",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 758,
+                        "y": 85
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region34",
+                    "$regionOpen19"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "The Creator",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Vermillion Wasteland World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - East Town Lower/Chest",
+                        "name": "Vermillion Wateland - East Town Lower - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - East Town Center/Chest",
+                        "name": "Vermillion Wasteland - East Town Center - Chest" 
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - East Town Left/Silver Chest",
+                        "name": "Vermillion Wasteland East Town Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - West Town Upper Right/Bronze Chest",
+                        "name": "Vermillion Wasteland - West Town Upper Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - West Town Lower/ Bronze Chest",
+                        "name": "Vermillion Wasteland - West Town Lower - Bronze Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - West Town Upper Left/Chest",
+                        "name":"Vermillion Wasteland - West Town Upper Left - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Spiral Cliff Center/Bronze Chest",
+                        "name":"Vermillion Wasteland - Spiral Cliff Center - Bronze Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Spiral Cliff Upper/Chest",
+                        "name": "Vermillion Wasteland - Spiral Cliff Upper - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Storage Basement/Chest",
+                        "name": "Vermillion Wasteland - Storage Basement - Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 480,
+                        "y": 212
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Vermillion Tower/The Creator",
+                        "name": "Vermillion Tower - The Creator"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 480,
+                        "y": 193
+                    }
+                ]
+            }
+        ]
+    }
+]

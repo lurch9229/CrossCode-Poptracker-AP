@@ -32,6 +32,7 @@ if (string.find(Tracker.ActiveVariantUID, "items_only")) then
         Tracker:AddLocations("locations/sonajizTemple.json")
         Tracker:AddLocations("locations/zirvitarTemple.json")
         Tracker:AddLocations("locations/grandKryskajo.json")
+        Tracker:AddLocations("locations/vermillionWastes.json")
         else if (string.find(Tracker.ActiveVariantUID,"map_tracker")) 
             then
             Tracker:AddMaps("maps/maps.json")
@@ -53,6 +54,7 @@ if (string.find(Tracker.ActiveVariantUID, "items_only")) then
             Tracker:AddLocations("locations/sonajizTemple.json")
             Tracker:AddLocations("locations/zirvitarTemple.json")
             Tracker:AddLocations("locations/grandKryskajo.json")
+            Tracker:AddLocations("locations/vermillionWastes.json")
         end
     end
 end

@@ -111,7 +111,13 @@
     "name": "Fajro_Temple_1F",
     "location_size": 20,
     "location_border_thickness": 3,
-    "img": "images/maps/Fajro_1f.png"
+    "img": "images/maps/fajro_1f.png"
+  },
+  {
+    "name": "Fajro_Temple_2F",
+    "location_size": 30,
+    "location_border_thickness": 3,
+    "img": "images/maps/fajro_2f.png"
   },
   {
     "name": "Fajro_Temple_3F",
@@ -142,6 +148,12 @@
     "location_size": 15,
     "location_border_thickness": 2,
     "img": "images/maps/Grand_Kryskajo.png"
+  },
+  {
+    "name": "Vermillion_Wasteland",
+    "location_size": 25,
+    "location_border_thickness": 2,
+    "img": "images/maps/Vermillion_Wasteland_Map.png"
   },
   {
     "name": "WorldMap",

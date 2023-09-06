@@ -18,7 +18,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region23"
+                    "$region23",
+                    "$regionOpen12"
                 ],
                 "sections":
 				[
@@ -46,6 +47,11 @@
                         "y": 245
                     }
                 ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen12"
+                ],
                 "sections":
 				[
                     {
@@ -56,7 +62,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$region26"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -72,6 +78,11 @@
                         "y": 275
                     }
                 ],
+                "access_rules": 
+                [
+                    "$region26",
+                    "$regionOpen14_1"
+                ],
                 "sections":
 				[
                     {
@@ -82,7 +93,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$region26"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -98,6 +109,11 @@
                         "y": 260
                     }
                 ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen12"
+                ],
                 "sections":
 				[
                     {
@@ -108,7 +124,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$region23"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -124,6 +140,11 @@
                         "y": 241
                     }
                 ],
+                "access_rules": 
+                [
+                    "$region26",
+                    "$regionOpen14_1"
+                ],
                 "sections":
 				[
                     {
@@ -134,7 +155,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$region26, whiteKey"
+                            "whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -150,6 +171,11 @@
                         "y": 277
                     }
                 ],
+                "access_rules": 
+                [
+                    "$region26",
+                    "$regionOpen14_1"
+                ],
                 "sections":
 				[
                     {
@@ -160,7 +186,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$region26, radiantKey"
+                            "radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -178,7 +204,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region26"
+                    "$region26",
+                    "$regionOpen14_1"
                 ],
                 "sections": 
 				[
@@ -208,7 +235,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region26"
+                    "$region26",
+                    "$regionOpen14_1"
                 ],
                 "sections":
 				[
@@ -238,7 +266,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region26"
+                    "$region26",
+                    "$regionOpen14_1"
                 ],
                 "sections": 
 				[
@@ -268,7 +297,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region26"
+                    "$region26",
+                    "$regionOpen14_1"
                 ],
                 "sections":
 				[
@@ -298,7 +328,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region26"
+                    "$region26",
+                    "$regionOpen14_1"
                 ],
                 "sections": 
 				[
@@ -328,7 +359,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region26"
+                    "$region26",
+                    "$regionOpen14_1"
                 ],
                 "sections": 
 				[
@@ -358,7 +390,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region27"
+                    "$region27",
+                    "$regionOpen14_2"
                 ],
                 "sections": 
 				[
@@ -388,12 +421,26 @@
                 ],
                 "access_rules": 
                 [
-                    "$region27"
+                    "$region27",
+                    "$regionOpen14_3"
                 ],
                 "sections": 
 				[
                     {
                         "name": "Azure Drop Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleShock"
+                        ],
+                        "hosted_item": "sonajizWon",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override",
                         "visibility_rules": 
                         [
                             ""
@@ -469,7 +516,7 @@
                     },
                     {
                         "ref": "So'najiz Temple - Post Boss Statue/Azure Drop Shade",
-                        "name": "So'najiz Temple - Post Boss Statue - Azure Drop Shade"
+                        "name": "So'najiz Temple - Post Boss Statue - Azure Drop Shade & Override"
                     }
                 ],
                 "map_locations": [

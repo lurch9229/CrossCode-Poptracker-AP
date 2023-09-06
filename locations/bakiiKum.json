@@ -18,7 +18,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region11"
+                    "$region11",
+                    "$regionOpen5"
                 ],
                 "sections":
 				[
@@ -48,7 +49,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region11"
+                    "$region11",
+                    "$regionOpen5"
                 ],
                 "sections": 
 				[
@@ -78,7 +80,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region11"
+                    "$region11",
+                    "$regionOpen5"
                 ],
                 "sections":
 				[
@@ -108,7 +111,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region11"
+                    "$region11",
+                    "$regionOpen5"
                 ],
                 "sections": 
 				[
@@ -120,7 +124,7 @@
                         ],
                         "access_rules": 
                         [
-                            "ThiefKey"
+                            "thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -138,7 +142,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region11"
+                    "$region11",
+                    "$regionOpen5"
                 ],
                 "sections":
 				[
@@ -168,7 +173,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region11"
+                    "$region11",
+                    "$regionOpen5"
                 ],
                 "sections": 
 				[
@@ -198,7 +204,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region11"
+                    "$region11",
+                    "$regionOpen5"
                 ],
                 "sections": 
 				[
@@ -210,7 +217,7 @@
                         ],
                         "access_rules":
                         [
-                            "WhiteKey"
+                            "whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -228,7 +235,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region12"
+                    "$region12",
+                    "$regionOpen6"
                 ],
                 "sections": 
 				[
@@ -237,6 +245,254 @@
                         "visibility_rules": 
                         [
                             ""
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Blasting Shells",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11",
+                    "$regionOpen5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Joel Mahir",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Hot Trail",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11",
+                    "$regionOpen5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Joel Mahir",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Shady Theft",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11",
+                    "$regionOpen5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Sgt Niellos",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Just Deserts",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11",
+                    "$regionOpen5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Sgt Niellos",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Crate Hate",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11",
+                    "$regionOpen5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Kney'tehab",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Steamy Booze",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11",
+                    "$regionOpen5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Kney'tehab",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - Steamy Challenge",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11",
+                    "$regionOpen5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Ryda",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ba'kii Kum - A Promise is a Promise 3",
+                "map_locations": 
+				[
+                    {
+                        "map": "Bakii_Kum",
+                        "x": 110,
+                        "y": 500
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region11",
+                    "$regionOpen5"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Ketin D'Kar",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
                         ],
                         "access_rules":
                         [

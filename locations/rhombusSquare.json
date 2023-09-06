@@ -18,7 +18,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen20"
                 ],
                 "sections":
 				[
@@ -48,7 +49,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen20"
                 ],
                 "sections": 
 				[
@@ -78,7 +80,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen20"
                 ],
                 "sections":
 				[
@@ -108,7 +111,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen20"
                 ],
                 "sections": 
 				[
@@ -138,7 +142,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen20"
                 ],
                 "sections":
 				[
@@ -168,7 +173,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen20"
                 ],
                 "sections": 
 				[
@@ -198,7 +204,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen20"
                 ],
                 "sections": 
 				[
@@ -206,7 +213,7 @@
                         "name": "Gold Chest",
                         "visibility_rules": 
                         [
-                            "notincluded"
+                            ""
                         ],
                         "access_rules": 
                         [
@@ -228,7 +235,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region33"
+                    "$region33",
+                    "$regionOpen20"
                 ],
                 "sections": 
 				[
@@ -236,7 +244,100 @@
                         "name": "Chest",
                         "visibility_rules": 
                         [
-                            "notincluded"
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - A Promise is a Promise 5",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 250,
+                        "y": 618
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33",
+                    "$regionOpen20"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Ketin D'Kar",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Dungeon - Ability Chest 1",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 250,
+                        "y": 618
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33",
+                    "$regionOpen20"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Not In Use",
+                        "visibility_rules": 
+                        [
+                            "notinuse"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Dungeon - Ability Chest 2",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 250,
+                        "y": 618
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33",
+                    "$regionOpen20"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Not In Use",
+                        "visibility_rules": 
+                        [
+                            "notinuse"
                         ],
                         "access_rules": 
                         [

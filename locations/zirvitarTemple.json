@@ -18,7 +18,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region23"
+                    "$region23",
+                    "$regionOpen12"
                 ],
                 "sections":
 				[
@@ -48,7 +49,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region23"
+                    "$region23",
+                    "$regionOpen12"
                 ],
                 "sections":
 				[
@@ -60,7 +62,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$region25"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -78,7 +80,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region25"
+                    "$region25",
+                    "$regionOpen13_1"
                 ],
                 "sections": 
 				[
@@ -108,7 +111,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region23"
+                    "$region23",
+                    "$regionOpen12"
                 ],
                 "sections":
 				[
@@ -138,7 +142,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region25"
+                    "$region25",
+                    "$regionOpen13_1"
                 ],
                 "sections": 
 				[
@@ -168,7 +173,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region25"
+                    "$region25",
+                    "$regionOpen13_1"
                 ],
                 "sections": 
 				[
@@ -187,7 +193,7 @@
                 ]
             },
             {
-                "name": "Zir'vitar Temple - Post Boss Statue",
+                "name": "Zir'vitar Temple 3F - Post Boss Statue",
                 "map_locations": 
 				[
                     {
@@ -198,12 +204,26 @@
                 ],
                 "access_rules": 
                 [
-                    "$region25"
+                    "$region25",
+                    "$regionOpen13_2"
                 ],
                 "sections": 
 				[
                     {
                         "name": "Purple Bolt Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleWave"
+                        ],
+                        "hosted_item": "zirvitarWon",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override",
                         "visibility_rules": 
                         [
                             ""
@@ -249,8 +269,8 @@
                         "name": "Zir'vitar Temple 2F - Chamber of Wave - Element"
                     },
                     {
-                        "ref": "Zir'vitar Temple - Post Boss Statue/Purple Bolt Shade",
-                        "name": "Zir'vitar Temple - Post Boss Statue - Purple Bolt Shade"
+                        "ref": "Zir'vitar Temple 3F - Post Boss Statue/Purple Bolt Shade",
+                        "name": "Zir'vitar Temple 3F - Post Boss Statue - Purple Bolt Shade & Circuit Override"
                     }
                 ],
                 "map_locations": [

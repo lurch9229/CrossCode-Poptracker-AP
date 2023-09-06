@@ -18,7 +18,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region4"
+                    "$region4",
+                    "$regionOpen4_1"
                 ],
                 "sections":
 				[
@@ -48,7 +49,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region4"
+                    "$region4",
+                    "$regionOpen4_1"
                 ],
                 "sections":
 				[
@@ -78,7 +80,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region5"
+                    "$region5",
+                    "$regionOpen4_2"
                 ],
                 "sections":
 				[
@@ -108,7 +111,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region5"
+                    "$region5",
+                    "$regionOpen4_2"
                 ],
                 "sections": 
 				[
@@ -138,7 +142,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region5"
+                    "$region5",
+                    "$regionOpen4_2"
                 ],
                 "sections":
 				[
@@ -150,7 +155,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -168,7 +173,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region5"
+                    "$region5",
+                    "$regionOpen4_2"
                 ],
                 "sections": 
 				[
@@ -180,7 +186,7 @@
                         ],
                         "access_rules": 
                         [
-                            "eleHeat"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -198,7 +204,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region5"
+                    "$region5",
+                    "$regionOpen4_2"
                 ],
                 "sections":
 				[
@@ -228,7 +235,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region6"
+                    "$region6",
+                    "$regionOpen4_3"
                 ],
                 "sections": 
 				[
@@ -258,7 +266,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region7"
+                    "$region7",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -288,7 +297,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region7"
+                    "$region7",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -318,7 +328,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9"
+                    "$region9",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -330,7 +341,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -348,7 +359,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9"
+                    "$region9",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -378,7 +390,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region7"
+                    "$region7",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -408,7 +421,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region7"
+                    "$region7",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -438,7 +452,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region7"
+                    "$region7",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -468,7 +483,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region7"
+                    "$region7",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -498,7 +514,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region7"
+                    "$region7",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -528,7 +545,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region7"
+                    "$region7",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -558,7 +576,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region8"
+                    "$region8",
+                    "$regionOpen4_5"
                 ],
                 "sections": 
 				[
@@ -588,7 +607,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9"
+                    "$region9",
+                    "$regionOpen4_4"
                 ],
                 "sections": 
 				[
@@ -618,7 +638,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region10"
+                    "$region10",
+                    "$regionOpen4_7"
                 ],
                 "sections": 
 				[
@@ -648,7 +669,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9"
+                    "$region9",
+                    "$regionOpen4_6"
                 ],
                 "sections": 
 				[
@@ -678,7 +700,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9"
+                    "$region9",
+                    "$regionOpen4_6"
                 ],
                 "sections": 
 				[
@@ -708,7 +731,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9"
+                    "$region9",
+                    "$regionOpen4_6"
                 ],
                 "sections": 
 				[
@@ -738,7 +762,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9"
+                    "$region9",
+                    "$regionOpen4_6"
                 ],
                 "sections": 
 				[
@@ -768,7 +793,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9"
+                    "$region9",
+                    "$regionOpen4_6"
                 ],
                 "sections": 
 				[
@@ -798,7 +824,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region10"
+                    "$region10",
+                    "$regionOpen4_8"
                 ],
                 "sections": 
 				[
@@ -810,10 +837,24 @@
                         ],
                         "access_rules": 
                         [
-                            "mineMaster"
+                            ""
+                        ],
+                        "hosted_item": "minesWon",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
                         ],
                         "item_count": 1
                     }
+                    
                 ]
             }
         ]
@@ -929,7 +970,7 @@
                     },
                     {
                         "ref": "Temple Mine GF - Post Boss Statue/Blue Ice Shade",
-                        "name": "Temple Mine GF - Post Boss Statue - Blue Ice Shade"
+                        "name": "Temple Mine GF - Post Boss Statue - Blue Ice Shade & Circuit Override"
                     }
                 ],
                 "map_locations": [

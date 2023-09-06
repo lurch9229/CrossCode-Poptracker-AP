@@ -18,7 +18,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region28"
+                    "$region28",
+                    "$regionOpen15_1"
                 ],
                 "sections":
 				[
@@ -48,7 +49,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region28"
+                    "$region28",
+                    "$regionOpen15_1"
                 ],
                 "sections":
 				[
@@ -78,7 +80,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region28"
+                    "$region28",
+                    "$regionOpen15_1"
                 ],
                 "sections":
 				[
@@ -90,7 +93,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RadiantKey"
+                            "radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -108,7 +111,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region28"
+                    "$region28",
+                    "$regionOpen15_1"
                 ],
                 "sections": 
 				[
@@ -138,7 +142,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region28"
+                    "$region28",
+                    "$regionOpen15_1"
                 ],
                 "sections": 
 				[
@@ -168,7 +173,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region29"
+                    "$region29",
+                    "$regionOpen15_2"
                 ],
                 "sections":
 				[
@@ -198,7 +204,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region28"
+                    "$region28",
+                    "$regionOpen15_1"
                 ],
                 "sections": 
 				[
@@ -228,7 +235,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region28"
+                    "$region28",
+                    "$regionOpen15_1"
                 ],
                 "sections":
 				[
@@ -258,7 +266,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region28"
+                    "$region28",
+                    "$regionOpen15_1"
                 ],
                 "sections":
 				[
@@ -277,7 +286,7 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - Post Boss Statue",
+                "name": "Grand Krys'kajo 4F - Post Boss Statue",
                 "map_locations": 
 				[
                     {
@@ -288,12 +297,26 @@
                 ],
                 "access_rules": 
                 [
-                    "$region30"
+                    "$region30",
+                    "$regionOpen15_3"
                 ],
                 "sections":
 				[
                     {
                         "name": "Star Shade",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "kryskajoWon",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Circuit Override",
                         "visibility_rules": 
                         [
                             ""
@@ -351,8 +374,8 @@
                         "name": "Grand Krys'kajo - Falling Leaves - Chest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - Post Boss Statue/Star Shade",
-                        "name": "Grand Krys'kajo - Post Boss Statue - Star Shade"
+                        "ref": "Grand Krys'kajo 4F - Post Boss Statue/Star Shade",
+                        "name": "Grand Krys'kajo 4F - Post Boss Statue - Star Shade & Circuit Override"
                     }
                 ],
                 "map_locations": [
