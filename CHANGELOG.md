@@ -1,5 +1,9 @@
 # Changelog
 
+0.3.3Dev
+
+    Fixed missing region for Vermillion Wastes
+
 0.3.2Dev
 
     Added Map and locations for Vermillion Wasteland

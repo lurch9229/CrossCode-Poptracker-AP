@@ -135,6 +135,10 @@ function region31()
   return region30() and has ("starShade")
 end
 
+function region22()
+  return region31()
+end
+
 function region32()
   return region31() and has ("dojoKey")
 end
@@ -295,6 +299,10 @@ end
 
 function regionOpen17()
   return regionOpen16() and has ("dojoKey")
+end
+
+function regionOpen18()
+  return regionOpen16()
 end
 
 function regionOpen16_1()
