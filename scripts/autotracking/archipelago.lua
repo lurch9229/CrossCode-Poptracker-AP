@@ -60,9 +60,24 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    -- manually run snes interface functions after onClear in case we are already ingame
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here
+    
+    if SLOT_DATA == nil then
+        return
+    end
+
+    if slot_data['options']['vtShadeLock'] then
+        local obj = Tracker:FindObjectForCode("op_VT")
+        if obj then
+            obj.CurrentStage = slot_data['options']['vtShadeLock']
+        end
+    end
+    
+    if slot_data['mode'] then
+        if slot_data['mode'] == "open" then
+            Tracker:FindObjectForCode("op_OM").CurrentStage = 0
+        elseif slot_data['mode'] == "linear" then
+            Tracker:FindObjectForCode("op_OM").CurrentStage = 1
+        end
     end
 end
 

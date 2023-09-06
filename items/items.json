@@ -291,34 +291,64 @@
     "codes": "kryskajoLabel"
   },
   {
-    "name": "Mines Won",
+    "name": "Mines Boss",
     "type": "toggle",
+    "img": "images/items/blueIce.png",
     "codes": "minesWon"
   },
   {
-    "name": "Fajro Won",
+    "name": "Fajro Boss",
     "type": "toggle",
+    "img": "images/items/redFlame.png",
     "codes": "fajroWon"
   },
   {
-    "name": "So'najiz Won",
+    "name": "So'najiz Boss",
     "type": "toggle",
+    "img": "images/items/azureDrop.png",
     "codes": "sonajizWon"
   },
   {
-    "name": "Zir'vitar Won",
+    "name": "Zir'vitar Boss",
     "type": "toggle",
+    "img": "images/items/purpleBolt.png",
     "codes": "zirvitarWon"
   },
   {
-    "name": "Krys'kajo Won",
-    "type": "toggle",
-    "codes": "kryskajoWon"
+    "name": "Open Mode",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/items/settingOpenMode.png",
+        "codes": "op_OM,settingOpenModeOpen"
+      },
+      {
+        "img": "images/items/settingOpenModeClosed.png",
+        "codes": "op_OM,settingOpenModeClosed",
+        "inherit_codes": false
+      }
+      
+    ]
   },
   {
-    "name": "Open Mode",
-    "type": "toggle",
-    "img": "images/items/settingOpenMode.png",
-    "codes": "settingOpenMode"
+    "name": "VT Gate",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/items/settingVTGate.png",
+        "codes": "op_VT,settingVTGateOpen"
+      },
+      {
+        "img": "images/items/settingVTGateClosed.png",
+        "codes": "op_VT,settingVTGateClosed",
+        "inherit_codes": false
+      }
+      
+    ]
   }
 ]

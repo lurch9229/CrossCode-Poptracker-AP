@@ -147,10 +147,29 @@ function region33()
   return region32() and has ("meteorShade")
 end
 
+function region34()
+  return region22() and
+    (has ("settingVTGateOpen") and
+        has ("eleHeat") and
+          has ("eleCold") and
+            has ("elewave") and 
+              has ("eleShock")) 
+  or        
+    region22() and 
+      (has ("eleHeat") and 
+        has ("eleCold") and 
+          has ("eleWave") and 
+            has ("eleShock") and
+              has ("minesWon") and
+                has ("fajroWon") and
+                  has ("sonajizWon") and
+                    has ("zirvitarWon"))
+end
+
 -- Open Mode Logic
 
 function regionOpen2()
-  return has ("settingOpenMode")
+  return has ("settingOpenModeOpen")
 end
 
 function regionOpen3()
@@ -311,16 +330,22 @@ end
 
 function regionOpen19()
   return 
-  regionOpen16_1() and 
-    (has ("eleHeat") and 
-      has ("eleCold") and 
-        has ("eleWave") and 
-          has ("eleShock") and
-            has ("minesWon") and
-              has ("fajroWon") and
-                has ("sonajizWon") and
-                  has ("zirvitarWon") and 
-                    has ("kryskajoWon"))
+    regionOpen18() and 
+      (has ("settingVTGateOpen") and
+        has ("eleHeat") and
+          has ("eleCold") and
+            has ("elewave") and 
+              has ("eleShock")) 
+  or        
+    regionOpen18() and 
+      (has ("eleHeat") and 
+        has ("eleCold") and 
+          has ("eleWave") and 
+            has ("eleShock") and
+              has ("minesWon") and
+                has ("fajroWon") and
+                  has ("sonajizWon") and
+                    has ("zirvitarWon"))
 end
 
 -- Dungeon Keys
