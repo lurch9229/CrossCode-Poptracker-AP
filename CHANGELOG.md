@@ -2,9 +2,9 @@
 
 0.3.5 
 
-    Fixed Logic for area below 
+    Fixed Logic for areas below 
     
-    Sapphire Ridge -
+    - Sapphire Ridge -
 
         - Carved pathway south section - added shock requirement for bronze chest and silver chest
 
@@ -14,13 +14,17 @@
 
         - Wheel Passage - Removed Shock requirement for gold chest
 
-    Vermillion Wasteland -
+    - Vermillion Wasteland -
 
         - Spiral Cliff - Added Heat and Cold requirements for Virus fights to gain access to both chests
 
-    Rhombus Square -
+    - Rhombus Square -
 
         - Arena Exterior - Added Wave requirement for silver chest
+
+    Fixed hosted items not clearing as a group with autotracking
+
+    Fixed World Map Variant not having settings and new dungeon layouts
 
 0.3.4
 
