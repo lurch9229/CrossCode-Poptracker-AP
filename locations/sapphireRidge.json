@@ -58,7 +58,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey, eleShock"
+                            "radiantKey, eleShock, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -319,7 +319,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey, eleShock"
+                            "radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1016,7 +1016,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "whiteKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -1045,7 +1045,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "radiantKey, eleShock"
                         ],
                         "item_count": 1
                     }

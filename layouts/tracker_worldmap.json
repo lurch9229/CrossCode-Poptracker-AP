@@ -39,7 +39,7 @@
               ["mineKey"]
             ],
             "item_size": 30,
-            "margin": "2,-2,-2,-2"
+            "margin": "0,-2,-2,-2"
           },
           {
             "type": "itemgrid",
@@ -47,7 +47,15 @@
               ["mineMaster"]
             ],
             "item_size": 30,
-            "margin": "2,-2,-2,-2"
+            "margin": "-5,-2,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["minesWon"]
+            ],
+            "item_size": 30,
+            "margin": "-5,-2,-50,0"
           }
         ]
       },
@@ -70,7 +78,7 @@
               ["fajroKey"]
             ],
             "item_size": 30,
-            "margin": "2,-55,-2,-2"
+            "margin": "0,-55,-2,-2"
           },
           {
             "type": "itemgrid",
@@ -78,7 +86,15 @@
               ["fajroMaster"]
             ],
             "item_size": 30,
-            "margin": "2,-55,-2,-2"
+            "margin": "-5,-55,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fajroWon"]
+            ],
+            "item_size": 30,
+            "margin": "-5,-55,-50,-50"
           }
         ]
       },
@@ -101,15 +117,15 @@
               ["sonajizKey"]
             ],
             "item_size": 30,
-            "margin": "5,-53,-2,-2"
+            "margin": "0,-50,-2,-2"
           },
           {
             "type": "itemgrid",
             "rows": [
-              ["sonajizMaster"]
+              ["sonajizWon"]
             ],
             "item_size": 30,
-            "margin": "5,-53,-2,-2"
+            "margin": "18,-53,-50,-30"
           }
         ]
       },
@@ -124,7 +140,7 @@
               ["zirvitarLabel"]
             ],
             "item_size": 105,
-            "margin": "-2, -58,-2,-12"
+            "margin": "-2, -58,0,-12"
           },
           {
             "type": "itemgrid",
@@ -132,15 +148,15 @@
               ["zirvitarKey"]
             ],
             "item_size": 30,
-            "margin": "5,-63,-2,-2"
+            "margin": "0,-59,0,-5"
           },
           {
             "type": "itemgrid",
             "rows": [
-              ["zirvitarMaster"]
+              ["zirvitarWon"]
             ],
             "item_size": 30,
-            "margin": "5,-63,-2,-2"
+            "margin": "8,-59,-50,0"
           }
         ]
       },
@@ -155,7 +171,7 @@
               ["kryskajoLabel"]
             ],
             "item_size": 105,
-            "margin": "-2, -63,-2,-12"
+            "margin": "-2,-63"
           },
           {
             "type": "itemgrid",
@@ -163,7 +179,7 @@
               ["kryskajoKey"]
             ],
             "item_size": 30,
-            "margin": "5,-68,-2,-2"
+            "margin": "0,-64,0,-30"
           },
           {
             "type": "itemgrid",
@@ -171,7 +187,37 @@
               ["kryskajoMaster"]
             ],
             "item_size": 30,
-            "margin": "5,-68,-2,-2"
+            "margin": "-7,-64,-50,-30"
+          }
+        ]
+      }
+    ]
+  },
+
+  "setting_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content":[
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["settingOpenModeClosed"]
+            ],
+            "item_size": 100,
+            "margin": "-2,2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["settingVTGateClosed"]
+            ],
+            "item_size": 100,
+            "margin": "-2,2,-50,-30"
           }
         ]
       }
@@ -180,18 +226,16 @@
   "tracker_horizontal":
   {
     "type": "container",
-    "content": 
-    {
+    "margin": "0,0",
+    "content": {
       "type": "dock",
       "dropshadow": true,
-      "content": 
-      [
+      "content": [
         {
           "type": "array",
           "dock": "left",
           "orientation": "vertical",
-          "content": 
-          [
+          "content": [
             {
               "type": "group",
               "header": "Items",
@@ -201,13 +245,11 @@
                 "popup_background": "#55212121",
                 "layout": "settings_popup"
               },
-              "content": 
-              {
+              "content": {
                 "type": "array",
-                "orientation": "vertical",
+                "orientation": "horizontal",
                 "margin": "0,0",
-                "content": 
-                [
+                "content": [
                   {
                     "type": "layout",
                     "key": "item_grid"
@@ -229,8 +271,23 @@
                   }
                 ]
               }
+            },
+            {
+              "type": "group",
+              "header": "Settings",
+              "content": {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "layout",
+                    "key": "setting_grid"
+                  }
+                ]
+              }
             }
-          ]
+          ] 
         },
         {
           "type": "dock",

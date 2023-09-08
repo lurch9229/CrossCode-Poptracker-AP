@@ -347,8 +347,7 @@
         "img": "images/items/settingVTGateClosed.png",
         "codes": "op_VT,settingVTGateClosed",
         "inherit_codes": false
-      }
-      
+      }      
     ]
   }
 ]

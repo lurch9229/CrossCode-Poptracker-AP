@@ -1,5 +1,27 @@
 # Changelog
 
+0.3.5 
+
+    Fixed Logic for area below 
+    
+    Sapphire Ridge -
+
+        - Carved pathway south section - added shock requirement for bronze chest and silver chest
+
+        - High Ground - added shock for both checks
+
+        - The Bellow - Added Wave requirement
+
+        - Wheel Passage - Removed Shock requirement for gold chest
+
+    Vermillion Wasteland -
+
+        - Spiral Cliff - Added Heat and Cold requirements for Virus fights to gain access to both chests
+
+    Rhombus Square -
+
+        - Arena Exterior - Added Wave requirement for silver chest
+
 0.3.4
 
     Added hosted items for bosses to work with VT Gate Option

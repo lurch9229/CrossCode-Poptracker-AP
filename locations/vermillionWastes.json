@@ -28,7 +28,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "thiefKey, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     }
@@ -57,7 +57,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "eleHeat, eleCold"
                         ],
                         "item_count": 1
                     }
