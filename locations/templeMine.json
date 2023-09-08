@@ -831,6 +831,7 @@
 				[
                     {
                         "name": "Blue Ice Shade",
+                        "clear_as_group": true,
                         "visibility_rules": 
                         [
                             ""

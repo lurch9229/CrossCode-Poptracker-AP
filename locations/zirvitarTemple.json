@@ -211,6 +211,7 @@
 				[
                     {
                         "name": "Purple Bolt Shade",
+                        "clear_as_group": true,
                         "visibility_rules": 
                         [
                             ""

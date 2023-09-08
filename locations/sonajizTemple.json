@@ -428,6 +428,7 @@
 				[
                     {
                         "name": "Azure Drop Shade",
+                        "clear_as_group": true,
                         "visibility_rules": 
                         [
                             ""
