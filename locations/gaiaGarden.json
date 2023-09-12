@@ -750,7 +750,7 @@
                         "name": "Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "notinuse"
                         ],
                         "access_rules": 
                         [
@@ -779,7 +779,7 @@
                         "name": "Gold Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "notinuse"
                         ],
                         "access_rules": 
                         [
@@ -808,7 +808,7 @@
                         "name": "Silver Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "notinuse"
                         ],
                         "access_rules": 
                         [
