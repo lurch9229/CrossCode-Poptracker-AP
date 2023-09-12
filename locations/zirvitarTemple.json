@@ -31,7 +31,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "eleWave"
                         ],
                         "item_count": 1
                     }
@@ -49,8 +49,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region23",
-                    "$regionOpen12"
+                    "$region5",
+                    "$regionOpen13_1"
                 ],
                 "sections":
 				[
