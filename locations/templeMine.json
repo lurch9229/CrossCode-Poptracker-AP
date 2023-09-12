@@ -620,7 +620,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -651,7 +651,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -682,7 +682,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -713,7 +713,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -744,7 +744,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -775,7 +775,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -806,7 +806,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
