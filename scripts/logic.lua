@@ -100,7 +100,7 @@ function region21()
 end
 
 function region23()
-  return region21()
+  return region21() and (has ("eleHeat") and has ("eleCold"))
 end
 
 function region24()
@@ -277,7 +277,7 @@ function regionOpen11()
 end
 
 function regionOpen12()
-  return regionOpen10()
+  return regionOpen10() and (has ("eleHeat") and has ("eleCold"))
 end
 
 function regionOpen13_1()
