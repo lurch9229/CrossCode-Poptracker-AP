@@ -22,7 +22,21 @@
 
         - Arena Exterior - Added Wave requirement for silver chest
 
-    Fixed hosted items not clearing as a group with autotracking
+    - Temple Mine
+
+        - U4 logic updated to require Thief Key and Heat
+    
+    - Gaia's Garden
+
+        - Added requirement for Heat and Cold to get past the entrances of So'najiz and Zir'vitar
+
+        - FIxed logic for Peridot Approach Silver Chest needing Wave
+
+    - Zir'vitar
+
+        Changed logic for Moving Transmit Left to require Wave
+
+    Fixed hosted items not clearing with autotracking
 
     Fixed World Map Variant not having settings and new dungeon layouts
 
