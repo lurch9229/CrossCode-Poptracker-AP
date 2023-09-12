@@ -64,6 +64,64 @@
                 ]
             },
             {
+                "name": "Gaia's Garden - Infested Caverns Maze Left",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region25",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            "notinuse"
+                        ],
+                        "access_rules":
+                        [
+                            "radiantKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Infested Caverns Maze Right",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            "notinuse"
+                        ],
+                        "access_rules":
+                        [
+                            "radiantKey, eleWave"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Gaia's Garden - V'rda Vil West Lower Right",
                 "map_locations": [
                     {
@@ -376,7 +434,8 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "thiefKey",
+                            "eleWave"
                         ],
                         "item_count": 1
                     }
@@ -667,6 +726,93 @@
                         "access_rules": 
                         [
                             ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Lost Grove Interior GF",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region28",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleWave, eleShock"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Lost Grove Interior B1",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleWave, eleShock, radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gaia's Garden - Lost Grove Interior B2",
+                "map_locations": [
+                    {
+                        "map": "Gaias_Garden",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleWave, eleShock, whiteKey"
                         ],
                         "item_count": 1
                     }
