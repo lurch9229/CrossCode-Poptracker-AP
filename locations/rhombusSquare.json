@@ -1,13 +1,13 @@
 [
     {
         "name": "Rhombus Square",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": 
 		[
             {
                 "name": "Rhombus Square - Arena Plaza West",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -39,6 +39,8 @@
             },
             {
                 "name": "Rhombus Square - Arena Plaza East",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -70,6 +72,8 @@
             },
             {
                 "name": "Rhombus Square - Garden Boulevard North",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -101,6 +105,8 @@
             },
             {
                 "name": "Rhombus Square - Garden Boulevard South",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -132,6 +138,8 @@
             },
             {
                 "name": "Rhombus Square - South Arch",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -163,6 +171,8 @@
             },
             {
                 "name": "Rhombus Square - Lloyd Passage",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -194,6 +204,8 @@
             },
             {
                 "name": "Rhombus Square - Residential District North",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -225,6 +237,8 @@
             },
             {
                 "name": "Rhombus Square - Residential District South",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -255,13 +269,15 @@
                 ]
             },
             {
-                "name": "Rhombus Square - A Promise is a Promise 5",
+                "name": "Rhombus Square - Ketin D'kar",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Rhombus_Square",
-                        "x": 250,
-                        "y": 618
+                        "x": 390,
+                        "y": 366
                     }
                 ],
                 "access_rules": 
@@ -272,14 +288,14 @@
                 "sections": 
 				[
                     {
-                        "name": "Ketin D'Kar",
+                        "name": "A Promise is a Promise 5",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "dkar4, brokenChakram"
                         ],
                         "item_count": 1
                     }
@@ -287,6 +303,8 @@
             },
             {
                 "name": "Rhombus Dungeon - Ability Chest 1",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -318,6 +336,8 @@
             },
             {
                 "name": "Rhombus Dungeon - Ability Chest 2",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -379,7 +399,6 @@
                         "ref": "Rhombus Square - South Arch/Gold Chest",
                         "name": "Rhombus Square - South Arch - Gold Chest"
                     },
-                    
                     {
                         "ref": "Rhombus Square - Residential District North/Gold Chest",
                         "name": "Rhombus Square - Residential District North - Gold Chest"
@@ -387,6 +406,10 @@
                     {
                         "ref": "Rhombus Square - Residential District South/Chest",
                         "name": "Rhombus Square - Residential District South - Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Ketin D'kar/A Promise is a Promise 5",
+                        "name": "Rhombus Square - Ketin D'kar - A Promise is a Promise 5"
                     }
                 ],
                 "map_locations": [

@@ -1,10 +1,46 @@
 # Changelog
 
-0.3.5 
+0.4.0
+
+    Fixed Frobbit Quest Autotracking
+
+    Added Quest Shuffle Support 
+
+        - Added Quest Locations
+
+        - Added Quest Setting
+
+        - Added Quest Logic
+
+        - Added Hosted Items related to quests
+
+        - Added Broken Items to item grid for D'Kar questline
+
+        - Moved some locations to better fit for quests
+
+        - Added mapping for quest locations to autotracking script
+
+    Added new locations related to "always on" quests  
+
+        - Added locations for Cursed Temple in Maroon Valley
+
+        - Added locations for Lost Shrine in Gaia's Garden
+
+        - Made Quest "Sprouting Business" always enabled due to requirement for "Mushroom Kingdom"
+
+        - Added locations for chests unlocked during " Mushroom Kingdom" 
+
+    Logic Fixes 
+
+        - Added Heat Requirement for Maroon Cave
+
+    Added Images for Chests, Statues, Elements and Quests
+
+0.3.5
 
     Fixed Logic for areas below 
     
-    - Sapphire Ridge -
+    - Sapphire Ridge 
 
         - Carved pathway south section - added shock requirement for bronze chest and silver chest
 
@@ -30,7 +66,7 @@
 
         - Added requirement for Heat and Cold to get past the entrances of So'najiz and Zir'vitar
 
-        - FIxed logic for Peridot Approach Silver Chest needing Wave
+        - Fixed logic for Peridot Approach Silver Chest needing Wave
 
     - Zir'vitar
 
@@ -63,7 +99,7 @@
     Updated Location IDs for autotracker mapping
 
     Made Residential District viewable now it is included in the location pool
-    
+
 0.3.1Dev
 
     Added hosted items for dungeon completion

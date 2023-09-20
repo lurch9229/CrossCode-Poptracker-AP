@@ -1,13 +1,13 @@
 [
     {
         "name": "Temple Mine",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": 
 		[
             {
                 "name": "Temple Mine GF - Elevator",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -39,6 +39,8 @@
             },
             {
                 "name": "Temple Mine GF - Temple Chamber 2",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -70,6 +72,8 @@
             },
             {
                 "name": "Temple Mine U1 - Elevator",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -101,6 +105,8 @@
             },
             {
                 "name": "Temple Mine U1 - Crossing Funnel",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -132,6 +138,8 @@
             },
             {
                 "name": "Temple Mine U1 - Old Shaft 1",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -163,6 +171,8 @@
             },
             {
                 "name": "Temple Mine U1 - Old Shaft 2",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -194,6 +204,8 @@
             },
             {
                 "name": "Temple Mine U1 - Testing Chamber",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -225,6 +237,8 @@
             },
             {
                 "name": "Temple Mine U1 - Old Chamber",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -256,6 +270,8 @@
             },
             {
                 "name": "Temple Mine U2 - Storage Room 1",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -287,6 +303,8 @@
             },
             {
                 "name": "Temple Mine U2 - Frozen Chamber 1",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -318,6 +336,8 @@
             },
             {
                 "name": "Temple Mine U2 - Frozen Chamber 2 Left",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -349,6 +369,8 @@
             },
             {
                 "name": "Temple Mine U2 - Frozen Chamber 2 Right",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -380,6 +402,8 @@
             },
             {
                 "name": "Temple Mine U3 - Frozen Shaft 1",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -411,6 +435,8 @@
             },
             {
                 "name": "Temple Mine U3 - Frozen Shaft 2",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -442,6 +468,8 @@
             },
             {
                 "name": "Temple Mine U3 - Frozen Shaft 3 Right",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -473,6 +501,8 @@
             },
             {
                 "name": "Temple Mine U3 - Frozen Shaft 3 Left",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -504,6 +534,8 @@
             },
             {
                 "name": "Temple Mine U3 - Overrun Chamber Upper",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -535,6 +567,8 @@
             },
             {
                 "name": "Temple Mine U3 - Overrun Chamber Lower",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -566,6 +600,8 @@
             },
             {
                 "name": "Temple Mine U3 - Chamber of Fire",
+                "chest_unopened_img": "images/items/circuitGrid.png",
+                "chest_opened_img": "images/items/circuitGrid_o.png",
                 "map_locations": 
 				[
                     {
@@ -597,6 +633,8 @@
             },
             {
                 "name": "Temple Mine U4 - Elevator",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -628,6 +666,8 @@
             },
             {
                 "name": "Temple Mine U4 - Infested Chamber",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -659,6 +699,8 @@
             },
             {
                 "name": "Temple Mine U4 - Forgotten Shaft 1",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -690,6 +732,8 @@
             },
             {
                 "name": "Temple Mine U4 - Forgotten Shaft 2",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -721,6 +765,8 @@
             },
             {
                 "name": "Temple Mine U4 - Forgotten Shaft 3",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -752,6 +798,8 @@
             },
             {
                 "name": "Temple Mine U4 - Forgotten Shaft 4",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -783,6 +831,8 @@
             },
             {
                 "name": "Temple Mine U4 - Forgotten Shaft 5",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -814,6 +864,8 @@
             },
             {
                 "name": "Temple Mine GF - Post Boss Statue",
+                "chest_unopened_img": "images/items/statue_o.png",
+                "chest_opened_img": "images/items/statue_x.png",
                 "map_locations": 
 				[
                     {

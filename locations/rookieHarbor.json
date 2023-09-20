@@ -1,12 +1,12 @@
 [
     {
         "name": "Rookie Harbor",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Rookie Harbor - Marketplace",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -36,6 +36,8 @@
             },
             {
                 "name": "Rookie Harbor - Falling Exit",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -65,6 +67,8 @@
             },
             {
                 "name": "Rookie Harbor - Seeker Hub",
+                "chest_unopened_img": "images/items/statue_o.png",
+                "chest_opened_img": "images/items/statue_x.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -101,11 +105,27 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Faction Introductions",
+                        "chest_unopened_img": "images/items/quest_open.png",
+                        "chest_opened_img": "images/items/quest_done.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "insightDisc"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Rookie Harbor - Weapon & Backer Shop",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -135,6 +155,8 @@
             },
             {
                 "name": "Rookie Harbor - Dusty Storage",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -164,6 +186,8 @@
             },
             {
                 "name": "Rookie Harbor - South Harbor",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -193,6 +217,8 @@
             },
             {
                 "name": "Rookie Harbor - Beginner's Arc Lower",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -222,6 +248,8 @@
             },
             {
                 "name": "Rookie Harbor - Beginner's Arc Upper",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -250,21 +278,24 @@
                 ]
             },
             {
-                "name": "Rookie Harbor - Faction Introductions",
+                "name": "Rookie Harbor - Mr Nomsworth",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 340,
+                        "y": 305
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": [
                     {
-                        "name": "Seeker Hub Advisor",
+                        "name": "Small Time Delivery",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -273,26 +304,56 @@
                         [
                             "insightDisc"
                         ],
+                        "hosted_item": "RH-delivery",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bull Grab",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "RH-delivery"
+                        ],
+                        "hosted_item": "RH-bull",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "New Metal",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$region20, RH-Bull, eleHeat, eleCold, iceShade, flameShade",
+                            "$regionOpen9, RH-Bull, eleHeat, eleCold, iceShade, flameShade"
+                        ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Small Time Delivery",
+                "name": "Rookie Harbor - Forerunners",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 288,
+                        "y": 420
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": [
                     {
-                        "name": "Mr Nomsworth",
+                        "name": "Digging for Data",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -301,26 +362,56 @@
                         [
                             "insightDisc"
                         ],
+                        "hosted_item": "RH-data-digging",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "It can dig but it can't hide",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "RH-data-digging"
+                        ],
+                        "hosted_item": "RH-hillkat",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Points of Power",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$region20, RH-hillkat, eleHeat, eleCold, iceShade, flameShade",
+                            "$regionOpen9, RH-hillkat, eleHeat, eleCold, iceShade, flameShade"
+                        ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Bull Grab",
+                "name": "Rookie Harbor - Fruits of Autumn",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 454,
+                        "y": 305
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": [
                     {
-                        "name": "Mr Nomsworth",
+                        "name": "Sickly Trees",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -329,26 +420,56 @@
                         [
                             "insightDisc"
                         ],
+                        "hosted_item": "RH-tree-1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Intensive Tree Care",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "RH-tree-1"
+                        ],
+                        "hosted_item": "RH-tree-2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bull on Fire",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$region20, RH-tree-2, iceShade, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-tree-2, iceShade, flameShade, eleHeat, eleCold"
+                        ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - New Metal",
+                "name": "Rookie Harbor - Guard HQ",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 62,
+                        "y": 300
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": [
                     {
-                        "name": "Mr Nomsworth",
+                        "name": "Petty Crime Hunter",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -357,278 +478,56 @@
                         [
                             "insightDisc"
                         ],
+                        "hosted_item": "RH-petty",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Digging for Data",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Forerunner Elenya",
+                        "name": "Smuggle Trouble",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "RH-petty"
                         ],
+                        "hosted_item": "RH-smuggle-1",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - It can dig, but it can't hide",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Forerunner Elenya",
+                        "name": "Wet Work",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "RH-smuggle-1, iceShade, flameShade"
                         ],
+                        "hosted_item": "RH-smuggle-2",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Points of Power",
+                "name": "Rookie Harbor - Sk8r Boi",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 280,
+                        "y": 730
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region2",
+                            "$regionOpen2"
                         ],
                 "sections": [
                     {
-                        "name": "Forerunner Elenya",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Sickly Trees",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Chief Woodkeeper Manazana",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Intensive Tree Care",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Chief Woodkeeper Manazana",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Bull on Fire",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Chief Woodkeeper Manazana",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Petty Crime Hunter",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Sgt. Brassler",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Smuggle Trouble",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Sgt. Brassler",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Wet Work",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Sgt. Brassler",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Railing Rider",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Sk8r Boi",
+                        "name": "Railing Rider",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -642,21 +541,82 @@
                 ]
             },
             {
-                "name": "Rookie Harbor - Wood 'n Steaks",
+                "name": "Rookie Harbor - Ms. Selena Teak",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 128,
+                        "y": 430
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region3",
+                            "$regionOpen3"
                         ],
                 "sections": [
                     {
-                        "name": "Ms Selena Teak",
+                        "name": "Wood 'n' Steaks",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "RH-steaks-1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meating Expectations",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "RH-steaks-1"
+                        ],
+                        "hosted_item": "RH-steaks-2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raising the Steaks",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$region20, RH-steaks-2, iceShade, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-steaks-2, iceShade, flameShade, eleHeat, eleCold"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Frosty Arnold",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 302,
+                        "y": 360
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region3",
+                            "$regionOpen3"
+                        ],
+                "sections": [
+                    {
+                        "name": "All Hail the Ice Cream",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -670,196 +630,120 @@
                 ]
             },
             {
-                "name": "Rookie Harbor - All hail the Ice Cream",
+                "name": "Rookie Harbor - Master Sensei",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 400,
+                        "y": 580
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region2",
+                            "$regionOpen2"
                         ],
                 "sections": [
                     {
-                        "name": "Frosty Arnold",
+                        "name": "Training with The Master",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "RH-vrp, RH-vpi, eleHeat, eleCold, iceShade, flameShade"
                         ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Training - VRP",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "eleHeat, eleCold, iceShade, flameShade"
+                        ],
+                        "hosted_item": "RH-vrp",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Training - VPI",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "eleHeat, eleCold, iceShade, flameShade"
+                        ],
+                        "hosted_item": "RH-vpi",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Meating Expectations",
+                "name": "Rookie Harbor - Ketin D'Kar",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 275,
+                        "y": 320
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region2",
+                            "$regionOpen2"
                         ],
                 "sections": [
                     {
-                        "name": "Ms Selena Teak",
+                        "name": "A Promise is a Promise",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "brokenGauntlet"
                         ],
+                        "hosted_item": "dkar1",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Training with The Master",
+                "name": "Rookie Harbor - Talatu",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 272,
+                        "y": 80
                     }
                 ],
                 "access_rules": 
                         [
-                            "$region2"
+                            "$region31",
+                            "$regionOpen16"
                         ],
                 "sections": [
                     {
-                        "name": "Master Sensei",
+                        "name": "Crocus Pocus 100%",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Training: VRP",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Master Sensei",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Training: VPI",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Master Sensei",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Raising the Steaks",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Ms Selena Teak",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - A Promise is a Promise",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Ketin D'Kar",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
+                            "botanics-4"
                         ],
                         "item_count": 1
                     }
@@ -867,7 +751,7 @@
             }
         ] 
     },
-    //Rookie Harbor World Map    
+    //Rookie Harbor World Map
     {
         "item_count": 1,
         "children": [
@@ -926,8 +810,96 @@
                         "name": "Rookie Harbor - Seeker Hub - Circuit Override 4"
                     },
                     {
-                        "ref": "Rookie Harbor - Seeker Hub/Circuit Override 5",
-                        "name": "Rookie Harbor - Seeker Hub - Circuit Override 5"
+                        "ref": "Rookie Harbor - Seeker Hub/Faction Introductions",
+                        "name": "Rookie Harbor - Seeker Hub Advisor - Faction Introductions"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/Small Time Delivery",
+                        "name": "Rookie Harbor - Mr Nomsworth - Small Time Delivery"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/Bull Grab",
+                        "name": "Rookie Harbor - Mr Nomsworth - Bull Grab"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/New Metal",
+                        "name": "Rookie Harbor - Mr Nomsworth - New Metal"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Forerunners/Digging for Data",
+                        "name": "Rookie Harbor - Forerunners - Digging for Data"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Forerunners/It can dig but it can't hide",
+                        "name": "Rookie Harbor - Forerunners - It can dig but it can't hide"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Forerunners/Points of Power",
+                        "name": "Rookie Harbor - Forerunners - Points of Power"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Sickly Trees",
+                        "name": "Rookie Harbor - Fruits of Autumn - Sickly Trees"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Intensive Tree Care",
+                        "name": "Rookie Harbor - Fruits of Autumn - Intensive Tree Care"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Bull on Fire",
+                        "name": "Rookie Harbor - Fruits of Autumn - Bull on Fire"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Petty Crime Hunter",
+                        "name": "Rookie Harbor - Guard HQ - Petty Crime Hunter"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Smuggle Trouble",
+                        "name": "Rookie Harbor - Guard HQ - Smuggle Trouble"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Wet Work",
+                        "name": "Rookie Harbor - Guard HQ - Wet Work"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Sk8r Boi/Railing Rider",
+                        "name": "Rookie Harbor - Sk8r Boi - Railing Rider"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ms. Selena Teak/Wood 'n' Steaks",
+                        "name": "Rookie Harbor - Ms. Selena Teak - Wood 'n' Steaks"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ms. Selena Teak/Meating Expectations",
+                        "name": "Rookie Harbor - Ms Selena Teak - Meating Expectations"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ms. Selena Teak/Raising the Steaks",
+                        "name": "Rookie Harbor - Ms. Selena Teak - Raising the Steaks"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Frosty Arnold/All Hail the Ice Cream",
+                        "name": "Rookie Harbor - Frosty Arnold - All Hail the Ice Cream"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Master Sensei/Training - VRP",
+                        "name": "Rookie Harbor - Master Sensei - Training - VRP"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Master Sensei/Training - VPI",
+                        "name": "Rookie Harbor - Master Sensei - Training - VPI"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Master Sensei/Training with The Master",
+                        "name": "Rookie Harbor - Master Sensei - Training with The Master"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ketin D'Kar/A Promise is a Promise",
+                        "name": "Rookie Harbor - Ketin D'Kar - A Promise is a Promise"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Talatu/Crocus Pocus 100%",
+                        "name": "Rookie Harbor - Talatu - Crocus Pocus 100%"
                     }
                 ],
                 "map_locations": [

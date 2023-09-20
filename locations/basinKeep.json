@@ -1,12 +1,12 @@
 [
     {
         "name": "Basin Keep",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Basin Keep - Centrum",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -36,6 +36,8 @@
             },
             {
                 "name": "Basin Keep - Pond Slums Lower",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -65,6 +67,8 @@
             },
             {
                 "name": "Basin Keep - Pond Slums Center",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -95,6 +99,8 @@
             },
             {
                 "name": "Basin Keep - Pond Slums Upper",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -124,7 +130,7 @@
                 ]
             },
             {
-                "name": "Basin Keep - Basin Police HQ",
+                "name": "Basin Keep - Police HQ",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -140,6 +146,8 @@
                 "sections": [
                     {
                         "name": "Gold Chest",
+                        "chest_unopened_img": "images/items/chest_gold_x.png",
+                        "chest_opened_img": "images/items/chest_o.png",
                         "visibility_rules": 
                         [
                             ""
@@ -149,16 +157,47 @@
                             "radiantKey"
                         ],                        
                         "item_count": 1
+                    },
+                    {
+                        "name": "Hostage Situation",
+                        "chest_unopened_img": "images/items/quest_open.png",
+                        "chest_opened_img": "images/items/quest_done.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "GG-hostage",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "High Crating",
+                        "chest_unopened_img": "images/items/quest_open.png",
+                        "chest_opened_img": "images/items/quest_done.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "GG-hostage, boltShade, dropShade, eleWave, eleShock"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Basin Keep - Seeker Hub GF",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 798,
-                        "y": 142
+                        "x": 885,
+                        "y": 130
                     }
                 ],
                 "access_rules": 
@@ -182,12 +221,46 @@
                 ]
             },
             {
-                "name": "Basin Keep - Calzone Basement",
+                "name": "Basin Keep - Mick Calzone",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 1455,
+                        "y": 460
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Sprouting Business",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "GG-mush-1",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Calzone Basement",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 1351,
+                        "y": 231
                     }
                 ],
                 "access_rules": 
@@ -204,19 +277,21 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "GG-mush-1, eleWave"
                         ],                        
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - An Infested Village",
+                "name": "Basin Keep - Trade Partners HQ",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 305,
+                        "y": 530
                     }
                 ],
                 "access_rules": 
@@ -226,7 +301,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "K'tara",
+                        "name": "Tropical Chill",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -234,18 +309,33 @@
                         "access_rules": 
                         [
                             ""
+                        ],
+                        "hosted_item": "GG-chill",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Melting this Cold Fiend",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "GG-chill, boltShade, dropShade, eleShock, eleWave"
                         ],                        
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Hostage Situation",
+                "name": "Basin Keep - Gardeners HQ",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 535,
+                        "y": 590
                     }
                 ],
                 "access_rules": 
@@ -255,7 +345,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sgt Bronzler",
+                        "name": "Lakeside Escort",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -263,18 +353,33 @@
                         "access_rules": 
                         [
                             ""
-                        ],                        
+                        ],
+                        "hosted_item": "GG-escort",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rooting for Power",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "GG-escort, boltShade, dropShade, eleShock, eleWave"
+                        ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - High Crafting",
+                "name": "Basin Keep - Woodland Vanguard HQ",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 870,
+                        "y": 415
                     }
                 ],
                 "access_rules": 
@@ -284,7 +389,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sgt Bronzler",
+                        "name": "Turret Defense",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -292,18 +397,34 @@
                         "access_rules": 
                         [
                             ""
-                        ],                        
+                        ],
+                        "hosted_item": "GG-turret-1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "An Original Idea",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "GG-turret-1, boltShade, dropShade, eleWave, eleShock"
+                        ],
+                        "hosted_item": "GG-turret-2",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Tropical Chill",
+                "name": "Basin Keep - Mr Boosi Man",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 860,
+                        "y": 610
                     }
                 ],
                 "access_rules": 
@@ -313,7 +434,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mrs Basu",
+                        "name": "Pumpkin Land Superfun",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -321,18 +442,21 @@
                         "access_rules": 
                         [
                             ""
-                        ],                        
+                        ],
+                        "hosted_item": "GG-halloween",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Melting this Cold Fiend",
+                "name": "Basin Keep - Ketin D'kar",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 90,
+                        "y": 385
                     }
                 ],
                 "access_rules": 
@@ -342,26 +466,29 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mrs Basu",
+                        "name": "A Promise is a Promise 4",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],                        
+                            "dkar3, brokenDeck"
+                        ],
+                        "hosted_item": "dkar4",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Lakeside Escort",
+                "name": "Basin Keep - Talatu",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 820,
+                        "y": 142
                     }
                 ],
                 "access_rules": 
@@ -371,218 +498,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Claude Reynes",
+                        "name": "Crocus Pocus 75%",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - Rooting for Power",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Claude Reynes",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
+                            "botanics-3"
                         ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - Turret Defense",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Kacela Madaki",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - An Original Idea",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Kacela Madaki",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - Pumpkin Land Superfun",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "The Boosi Man",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - Sprouting Business",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Mick Calzone",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - A Promise is a Promise 4",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Ketin D'Kar",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - The Book of an Old Man",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Old Man",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
+                        "hosted_item": "botanics-4",
                         "item_count": 1
                     }
                 ]
@@ -617,12 +542,56 @@
                         "name": "Basin Keep - Pond Slums Center  - Gold Chest"
                     },
                     {
-                        "ref": "Basin Keep - Centrum/Gold Chest",
-                        "name": "Basin Keep - Centrum - Gold Chest"
+                        "ref": "Basin Keep - Police HQ/Hostage Situation",
+                        "name": "Basin Keep - Police HQ - Hostage Situation"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/High Crating",
+                        "name": "Basin Keep - Police HQ - High Crating"
+                    },
+                    {
+                        "ref": "Basin Keep - Trade Partners HQ/Tropical Chill",
+                        "name": "Basin Keep - Trade Partners HQ - Tropical Chill"
+                    },
+                    {
+                        "ref": "Basin Keep - Trade Partners HQ/Melting this Cold Fiend",
+                        "name": "Basin Keep - Trade Partners HQ - Melting this Cold Fiend"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Lakeside Escort",
+                        "name": "Basin Keep - Gardeners HQ - Lakeside Escort"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Rooting for Power",
+                        "name": "Basin Keep - Gardeners HQ - Rooting for Power"
+                    },
+                    {
+                        "ref": "Basin Keep - Woodland Vanguard HQ/Turret Defense",
+                        "name": "Basin Keep - Woodland Vanguard HQ - Turret Defense"
+                    },
+                    {
+                        "ref": "Basin Keep - Woodland Vanguard HQ/An Original Idea",
+                        "name": "Basin Keep - Woodland Vanguard HQ - An Original Idea"
+                    },
+                    {
+                        "ref": "Basin Keep - Mr Boosi Man/Pumpkin Land Superfun",
+                        "name": "Basin Keep - Mr Boosi Man - Pumpkin Land Superfun"
+                    },
+                    {
+                        "ref": "Basin Keep - Mick Calzone/Sprouting Business",
+                        "name": "Basin Keep - Mick Calzone - Sprouting Business"
                     },
                     {
                         "ref": "Basin Keep - Calzone Basement/Mushroom Kingdom",
                         "name": "Basin Keep - Calzone Basement - Mushroom Kingdom"
+                    },
+                    {
+                        "ref": "Basin Keep - Ketin D'kar/A Promise is a Promise 4",
+                        "name": "Basin Keep - Ketin D'kar - A Promise is a Promise 4"
+                    },
+                    {
+                        "ref": "Basin Keep - Talatu/Crocus Pocus 75%",
+                        "name": "Basin Keep - Talatu - Crocus Pocus 75%"
                     }
                 ],
                 "map_locations": [

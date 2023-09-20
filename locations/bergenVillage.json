@@ -1,12 +1,12 @@
 [
     {
         "name": "Bergen Village",
-       "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Bergen Village South - Behind Ice In South",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -28,7 +28,7 @@
                         ],
                         "access_rules":
                         [
-                            "ThiefKey, eleHeat"
+                            "thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -36,6 +36,8 @@
             },
             {
                 "name": "Bergen Village South - On Top Of Bergen Bar",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -65,6 +67,8 @@
             },
             {
                 "name": "Bergen Village South - Behind Ice In East",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -86,7 +90,7 @@
                         ],
                         "access_rules": 
                         [
-                            "ThiefKey, eleHeat"
+                            "thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -94,6 +98,8 @@
             },
             {
                 "name": "Bergen Village South - Top West Roof",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -115,7 +121,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RadiantKey"
+                            "radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -123,6 +129,8 @@
             },
             {
                 "name": "Bergen Village South - Storage Room",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -152,6 +160,8 @@
             },
             {
                 "name": "Bergen Village North - On Ledge Near Trader Den",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -181,6 +191,8 @@
             },
             {
                 "name": "Bergen Village North - On Ledge In Lower East",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -202,7 +214,7 @@
                         ],
                         "access_rules":
                         [
-                            "WhiteKey"
+                            "whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -210,6 +222,8 @@
             },
             {
                 "name": "Bergen Village North - Roof Of Eastern Archway",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -239,6 +253,8 @@
             },
             {
                 "name": "Bergen Village North - Hidden Cave In West",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -268,6 +284,8 @@
             },
             {
                 "name": "Bergen Village - Diving Railway",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -312,6 +330,8 @@
                 "sections": [
                     {
                         "name": "Mine Detector",
+                        "chest_unopened_img": "images/items/quest_open.png",
+                        "chest_opened_img": "images/items/quest_done.png",
                         "visibility_rules": 
                         [
                             ""
@@ -321,11 +341,43 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Digging up the Past",
+                        "chest_unopened_img": "images/items/quest_open.png",
+                        "chest_opened_img": "images/items/quest_done.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "eleHeat, $region10",
+                            "eleHeat, $regionOpen4_7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crocus Pocus 25%",
+                        "chest_unopened_img": "images/items/quest_open.png",
+                        "chest_opened_img": "images/items/quest_done.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "floraDisc, botanics-1"
+                        ],
+                        "hosted_item": "botanics-2",
+                        "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Bergen Village - Seeker Hub Cellar Left",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -355,6 +407,8 @@
             },
             {
                 "name": "Bergen Village - Seeker Hub Cellar Right",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -376,7 +430,7 @@
                         ],
                         "access_rules":
                         [
-                            "ThiefKey"
+                            "thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -384,6 +438,8 @@
             },
             {
                 "name": "Bergen Village - Temple Mine Entrance",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -412,21 +468,24 @@
                 ]
             },
             {
-                "name": "Bergen Village - Digging Up the Past",
+                "name": "Bergen Village - Monastery",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
+                        "x": 652,
+                        "y": 460
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region4"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
-                        "name": "Quest Advisor",
+                        "name": "Trial of Aspiration",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -434,27 +493,118 @@
                         "access_rules":
                         [
                             ""
+                        ],
+                        "hosted_item": "BV-asp-trial",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Aspiration",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-asp-trial"
+                        ],
+                        "hosted_item": "BV-asp-challenge",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Aspiration (Timed)",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-asp-challenge"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Aspiration (Shieldless)",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-asp-challenge"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trial of Progression",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-asp-trial, iceShade, eleHeat"
+                        ],
+                        "hosted_item": "BV-prog-trial",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Progression",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-prog-trial"
+                        ],
+                        "hosted_item": "BV-prog-challenge",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Progression (Timed)",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-prog-challenge"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Progression (Frosty)",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-prog-challenge"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Bergen Village - Trial of Aspiration",
+                "name": "Bergen Village - Digging Mates HQ",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
+                        "x": 419,
+                        "y": 165
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region4"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
-                        "name": "Wise Nemuh",
+                        "name": "Filthy Frobbits",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -462,27 +612,101 @@
                         "access_rules":
                         [
                             ""
+                        ],
+                        "hosted_item": "BV-frobbits",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Explosive Debugging",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-frobbits, iceShade, eleHeat"
+                        ],
+                        "hosted_item": "BV-EX-mine",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Preemptive Debugging",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-EX-mine, iceShade, eleHeat"
+                        ],
+                        "hosted_item": "BV-pre-mine",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Guard HQ",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 510,
+                        "y": 917
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3",
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Kidding Around",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "hosted_item": "BV-kidding",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Goatfather",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-kidding, eleHeat, iceShade"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Bergen Village - Challenge of Aspiration",
+                "name": "Bergen Village - Mrs Summers",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
+                        "x": 410,
+                        "y": 385
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region4"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
-                        "name": "Monk Hasouk",
+                        "name": "Fancy Tophat",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -490,483 +714,97 @@
                         "access_rules":
                         [
                             ""
+                        ],
+                        "hosted_item": "BV-hat",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heating the Hermit",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-hat, eleHeat, iceShade"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Omni Gliders",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 475,
+                        "y": 540
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region4",
+                    "$regionOpen4_1"
+                ],
+                "sections": [
+                    {
+                        "name": "Building a Base",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "eleHeat"
+                        ],
+                        "hosted_item": "BV-omni-build",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pushing Bases",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-omni-build, BT-bunny"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Bergen Village - Challenge of Aspiration (Timed)",
+                "name": "Bergen Village - Ketin D'Kar",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
+                        "x": 438,
+                        "y": 661
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region4"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
-                        "name": "Monk Hasouk",
+                        "name": "A Promise is a Promise 2",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules":
                         [
-                            ""
+                            "dkar1, brokenShield"
                         ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Challenge of Aspiration (Shieldless)",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Monk Hasouk",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Trial of Progression",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Wise Nemuh",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Challenge of Progression",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Monk Aisy",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Challenge of Progression (Timed)",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Monk Aisy",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Frosty Challenge",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Monk Aisy",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Filthy Frobbits",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Chief Miner Turis",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Explosive Debugging",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Chief Miner Turis",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Preemptive Debugging",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Darrel",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Kidding Around",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Sgt. Sterling",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - The Goatfather",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Sgt. Sterling",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Fancy Tophat",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Mrs Summers",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Heating the Hermit",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Mrs Summers",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Gifting for Fun",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Holiday Man",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Building a Base",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Omni Gliders General",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - Pushing Bases",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Jean",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Bergen Village - A Promise is a Promise 2",
-                "map_locations": [
-                    {
-                        "map": "Bergen_Village",
-                        "x": 373,
-                        "y": 173
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region4"
-                ],
-                "sections": [
-                    {
-                        "name": "Ketin D'Kar",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            ""
-                        ],
+                        "hosted_item": "dkar2",
                         "item_count": 1
                     }
                 ]
@@ -1034,6 +872,86 @@
                     {
                         "ref": "Bergen Village - Temple Mine Entrance/Mine Guard",
                         "name": "Bergen Village - Temple Mine Entrance - Mine Guard"
+                    },
+                    {
+                        "ref": "Bergen Village - Seeker Hub/Digging up the Past",
+                        "name": "Bergen Village - Seeker Hub - Digging up the Past"
+                    },
+                    {
+                        "ref": "Bergen Village - Monastery/Trial of Aspiration",
+                        "name": "Bergen Village - Acsension Spirits - Trial of Aspiration"
+                    },
+                    {
+                        "ref": "Bergen Village - Monastery/Challenge of Aspiration",
+                        "name": "Bergen Village - Monastery - Challenge of Aspiration"
+                    },
+                    {
+                        "ref": "Bergen Village - Monastery/Challenge of Aspiration (Timed)",
+                        "name": "Bergen Village - Acsension Spirits - Challenge of Aspiration (Timed)"
+                    },
+                    {
+                        "ref": "Bergen Village - Monastery/Challenge of Aspiration (Shieldless)",
+                        "name": "Bergen Village - Monastery - Challenge of Aspiration (Shieldless)"
+                    },
+                    {
+                        "ref": "Bergen Village - Monastery/Trial of Progression",
+                        "name": "Bergen Village - Monastery - Trial of Progression"
+                    },
+                    {
+                        "ref": "Bergen Village - Monastery/Challenge of Progression",
+                        "name": "Bergen Village - Monastery - Challenge of Progression"
+                    },
+                    {
+                        "ref": "Bergen Village - Monastery/Challenge of Progression (Timed)",
+                        "name": "Bergen Village - Monastery - Challenge of Progression (Timed)"
+                    },
+                    {
+                        "ref": "Bergen Village - Monastery/Challenge of Progression (Frosty)",
+                        "name": "Bergen Village - Monastery - Challenge of Progression (Frosty)"
+                    },
+                    {
+                        "ref": "Bergen Village - Digging Mates HQ/Filthy Frobbits",
+                        "name": "Bergen Village - Digging Mates HQ - Filthy Frobbits"
+                    },
+                    {
+                        "ref": "Bergen Village - Digging Mates HQ/Explosive Debugging",
+                        "name": "Bergen Village - Digging Mates HQ - Explosive Debugging"
+                    },
+                    {
+                        "ref": "Bergen Village - Digging Mates HQ/Preemptive Debugging",
+                        "name": "Bergen Village - Digging Mates HQ - Preemptive Debugging"
+                    },
+                    {
+                        "ref": "Bergen Village - Guard HQ/Kidding Around",
+                        "name": "Bergen Village - Guard HQ - Kidding Around"
+                    },
+                    {
+                        "ref": "Bergen Village - Guard HQ/The Goatfather",
+                        "name": "Bergen Village - Guard HQ - The Goatfather"
+                    },
+                    {
+                        "ref": "Bergen Village - Mrs Summers/Fancy Tophat",
+                        "name": "Bergen Village - Mrs Summers - Fancy Tophat"
+                    },
+                    {
+                        "ref": "Bergen Village - Mrs Summers/Heating the Hermit",
+                        "name": "Bergen Village - Mrs Summers - Heating the Hermit"
+                    },
+                    {
+                        "ref": "Bergen Village - Omni Gliders/Building a Base",
+                        "name": "Bergen Village - Omni Gliders - Building a Base"
+                    },
+                    {
+                        "ref": "Bergen Village - Omni Gliders/Pushing Bases",
+                        "name": "Bergen Village - Omni Gliders - Pushing Bases"
+                    },
+                    {
+                        "ref": "Bergen Village - Ketin D'Kar/A Promise is a Promise 2",
+                        "name": "Bergen Village - Ketin D'Kar - A Promise is a Promise 2"
+                    },
+                    {
+                        "ref": "Bergen Village - Seeker Hub/Crocus Pocus 25%",
+                        "name": "Bergen Village - Seeker Hub - Crocus Pocus 25%"
                     }
                 ],
                 "map_locations": [

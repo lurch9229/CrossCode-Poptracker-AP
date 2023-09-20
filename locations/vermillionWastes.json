@@ -1,12 +1,12 @@
 [
     {
         "name": "Vermillion Wasteland",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Vermillion Wasteland - Spiral Cliff Center",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -36,6 +36,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Spiral Cliff Upper",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -65,6 +67,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Storage Basement",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -94,6 +98,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Crimson Lake Upper",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -123,6 +129,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Crimson Lake Lower",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -152,6 +160,8 @@
             },
             {
                 "name": "Vermillion Wasteland - East Town Left",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -181,6 +191,8 @@
             },
             {
                 "name": "Vermillion Wasteland - East Town Center",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -210,6 +222,8 @@
             },
             {
                 "name": "Vermillion Wasteland - East Town Lower",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -239,6 +253,8 @@
             },
             {
                 "name": "Vermillion Wasteland - West Town Upper Right",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -268,6 +284,8 @@
             },
             {
                 "name": "Vermillion Wasteland - West Town Upper Left",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -297,6 +315,8 @@
             },
             {
                 "name": "Vermillion Wasteland - West Town Lower",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -326,6 +346,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Vermillion Tower",
+                "chest_unopened_img": "images/items/creator_o.png",
+                "chest_opened_img": "images/items/creator_x.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",

@@ -1,12 +1,12 @@
 [
     {
         "name": "Autumn's Fall",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Autumn's Fall - Ruby Tunnel",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -36,6 +36,8 @@
             },
             {
                 "name": "Autumn's Fall - Lake Cave 1",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -65,6 +67,8 @@
             },
             {
                 "name": "Autumn's Fall - Lake Cave 2",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -94,6 +98,8 @@
             },
             {
                 "name": "Autumn's Fall - Lake Cave 3",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -123,6 +129,8 @@
             },
             {
                 "name": "Autumn's Fall - Lake Cave 4",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -152,6 +160,8 @@
             },
             {
                 "name": "Autumn's Fall - Southern Exit Lower",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -181,6 +191,8 @@
             },
             {
                 "name": "Autumn's Fall - Southern Exit Center",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -210,6 +222,8 @@
             },
             {
                 "name": "Autumn's Fall - Southern Exit Upper",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -239,6 +253,8 @@
             },
             {
                 "name": "Autumn's Fall - Ruined Path Upper",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -268,6 +284,8 @@
             },
             {
                 "name": "Autumn's Fall - Ruined Path Lower",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -297,6 +315,8 @@
             },
             {
                 "name": "Autumn's Fall - Eastern Exit Right",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -326,6 +346,8 @@
             },
             {
                 "name": "Autumn's Fall - Eastern Exit Center",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -355,6 +377,8 @@
             },
             {
                 "name": "Autumn's Fall - Ancient Center Upper",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -384,6 +408,8 @@
             },
             {
                 "name": "Autumn's Fall - Ancient Center Left",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -413,6 +439,8 @@
             },
             {
                 "name": "Autumn's Fall - Northern Exit Lower",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -442,6 +470,8 @@
             },
             {
                 "name": "Autumn's Fall - Northern Exit Upper",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -471,6 +501,8 @@
             },
             {
                 "name": "Autumn's Fall - Pillar Isle Upper",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -500,6 +532,8 @@
             },
             {
                 "name": "Autumn's Fall - Pillar Isle Left",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -529,6 +563,8 @@
             },
             {
                 "name": "Autumn's Fall - Pillar Isle Right",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -558,6 +594,8 @@
             },
             {
                 "name": "Autumn's Fall - Village Remains Right",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -587,6 +625,8 @@
             },
             {
                 "name": "Autumn's Fall - Village Remains Left",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -616,6 +656,8 @@
             },
             {
                 "name": "Autumn's Fall - Village Remains Upper",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -645,6 +687,8 @@
             },
             {
                 "name": "Autumn's Fall - Secluded Path Right",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -674,6 +718,8 @@
             },
             {
                 "name": "Autumn's Fall - Secluded Path Left",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -703,6 +749,8 @@
             },
             {
                 "name": "Autumn's Fall - Secluded Path Upper",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -732,6 +780,8 @@
             },
             {
                 "name": "Autumn's Fall - Villa of Terror Left",
+                "chest_unopened_img": "images/items/chest_bronze_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -761,6 +811,8 @@
             },
             {
                 "name": "Autumn's Fall - Villa of Terror Right",
+                "chest_unopened_img": "images/items/chest_silver_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -790,6 +842,8 @@
             },
             {
                 "name": "Autumn's Fall - Para Island 1",
+                "chest_unopened_img": "images/items/chest_default_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
@@ -818,12 +872,14 @@
                 ]
             },
             {
-                "name": "Autumn's Fall - Great Lake",
+                "name": "Autumn's Fall - Ancient Center",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Autumns_Fall",
-                        "x": 560,
-                        "y": 150
+                        "x": 370,
+                        "y": 282
                     }
                 ],
                 "access_rules": 
@@ -967,8 +1023,8 @@
                 "name": "Autumn's Fall - Ruby Tunnel - Gold Chest"
             },
             {
-                "ref": "Autumn's Fall - Great Lake/Chase Hologram Frobbit",
-                "name": "Autumn's Fall - Great Lake - Chase Hologram Frobbit"
+                "ref": "Autumn's Fall - Ancient Center/Chase Hologram Frobbit",
+                "name": "Autumn's Fall - Ancient Center - Chase Hologram Frobbit"
             }
         ],
         "map_locations": [
