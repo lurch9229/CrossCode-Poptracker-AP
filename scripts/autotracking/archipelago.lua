@@ -81,6 +81,15 @@ function onClear(slot_data)
     end
 end
 
+    if slot_data['options']['QuestRando'] then
+    local obj = Tracker:FindObjectForCode("op_QS")
+    if obj then
+        obj.CurrentStage = slot_data['options']['QuestRando']
+    end
+end 
+
+
+
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -166,6 +175,18 @@ function onLocation(location_id, location_name)
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
+    end
+end
+
+-- called when a map is to be changed
+function onChangedRegion(key, current_region, old_region)
+    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
+        if TABS_MAPPING[current_region] then
+            CURRENT_ROOM = TABS_MAPPING[current_region]
+        else
+            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+        end
+        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
     end
 end
 
