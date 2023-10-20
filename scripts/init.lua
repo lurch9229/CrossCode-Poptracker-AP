@@ -5,6 +5,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 
 --LOAD ITEMS
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/hosted_quests.json")
 
 -- Open Maps, Then Layouts, Then Locations
 

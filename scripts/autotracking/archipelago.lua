@@ -71,7 +71,14 @@ function onClear(slot_data)
             obj.CurrentStage = slot_data['options']['vtShadeLock']
         end
     end
-    
+
+    if slot_data['options']['questRando'] then
+        local obj = Tracker:FindObjectForCode("op_QS")
+        if obj then
+            obj.CurrentStage = slot_data['options']['questRando']
+        end
+    end
+
     if slot_data['mode'] then
         if slot_data['mode'] == "open" then
             Tracker:FindObjectForCode("op_OM").CurrentStage = 0
@@ -80,15 +87,6 @@ function onClear(slot_data)
         end
     end
 end
-
-    if slot_data['options']['QuestRando'] then
-    local obj = Tracker:FindObjectForCode("op_QS")
-    if obj then
-        obj.CurrentStage = slot_data['options']['QuestRando']
-    end
-end 
-
-
 
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
@@ -178,17 +176,6 @@ function onLocation(location_id, location_name)
     end
 end
 
--- called when a map is to be changed
-function onChangedRegion(key, current_region, old_region)
-    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
-        if TABS_MAPPING[current_region] then
-            CURRENT_ROOM = TABS_MAPPING[current_region]
-        else
-            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
-        end
-        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-    end
-end
 
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)

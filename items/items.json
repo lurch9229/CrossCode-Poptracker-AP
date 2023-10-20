@@ -315,6 +315,36 @@
     "codes": "zirvitarWon"
   },
   {
+    "name": "Broken Gauntlet",
+    "type": "toggle",
+    "img": "images/items/gauntlet.png",
+    "codes": "brokenGauntlet"
+  },
+  {
+    "name": "Broken Deck",
+    "type": "toggle",
+    "img": "images/items/deck.png",
+    "codes": "brokenDeck"
+  },
+  {
+    "name": "Broken Sword",
+    "type": "toggle",
+    "img": "images/items/sword.png",
+    "codes": "brokenSword"
+  },
+  {
+    "name": "Broken Shield",
+    "type": "toggle",
+    "img": "images/items/shield.png",
+    "codes": "brokenShield"
+  },
+  {
+    "name": "Broken Chakram",
+    "type": "toggle",
+    "img": "images/items/chakram.png",
+    "codes": "brokenChakram"
+  },
+  {
     "name": "Open Mode",
     "type": "progressive",
     "initial_stage_idx": 0,
@@ -347,7 +377,41 @@
         "img": "images/items/settingVTGateClosed.png",
         "codes": "op_VT,settingVTGateClosed",
         "inherit_codes": false
-      }      
+      }
+    ]
+  },
+  {
+    "name": "Quest Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/items/settingQuestOff.png",
+        "codes": "op_QS, settingQuestShuffleOff"
+      },
+      {
+        "img": "images/items/settingQuestOn.png",
+        "codes": "op_QS, settingQuestShuffleOn, questShuffle",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Auto Tab Switching",
+    "type": "progressive",
+    "codes": "auto_tab",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/autoTabOff.png"
+      },
+      {
+        "img": "images/items/autoTabOn.png",
+        "codes": "auto_tab"
+      }
     ]
   }
 ]
