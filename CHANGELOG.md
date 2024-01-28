@@ -1,5 +1,13 @@
 # Changelog
 
+0.4.1
+
+    Fixed Location IDs
+
+    Added Keyring Setting
+
+    Changed Boss Reward icons to match new icons on VTGate
+
 0.4.0
 
     Fixed Frobbit Quest Autotracking

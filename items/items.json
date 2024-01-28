@@ -188,7 +188,7 @@
     "img": "images/items/ccKey.png",
     "overlay_background": "#000",
     "codes": "mineKey",
-    "max_quantity": 10,
+    "max_quantity": 5,
     "initial_quantity": 0,
     "increment": 1,
 	  "swap_actions": false
@@ -231,7 +231,7 @@
     "img": "images/items/ccKey.png",
     "overlay_background": "#000",
     "codes": "sonajizKey",
-    "max_quantity": 5,
+    "max_quantity": 4,
     "initial_quantity": 0,
     "increment": 1,
 	  "swap_actions": false
@@ -293,25 +293,25 @@
   {
     "name": "Mines Boss",
     "type": "toggle",
-    "img": "images/items/blueIce.png",
+    "img": "images/items/minesBoss.png",
     "codes": "minesWon"
   },
   {
     "name": "Fajro Boss",
     "type": "toggle",
-    "img": "images/items/redFlame.png",
+    "img": "images/items/fajroBoss.png",
     "codes": "fajroWon"
   },
   {
     "name": "So'najiz Boss",
     "type": "toggle",
-    "img": "images/items/azureDrop.png",
+    "img": "images/items/sonajizBoss.png",
     "codes": "sonajizWon"
   },
   {
     "name": "Zir'vitar Boss",
     "type": "toggle",
-    "img": "images/items/purpleBolt.png",
+    "img": "images/items/zirvitarBoss.png",
     "codes": "zirvitarWon"
   },
   {
@@ -393,6 +393,23 @@
       {
         "img": "images/items/settingQuestOn.png",
         "codes": "op_QS, settingQuestShuffleOn, questShuffle",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Dungeon Keyrings",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/items/keyringsOff.png",
+        "codes": "op_KR, settingKeyringsOff"
+      },
+      {
+        "img": "images/items/keyrings.png",
+        "codes": "op_KR, settingKeyringsOn",
         "inherit_codes": false
       }
     ]

@@ -774,6 +774,18 @@
                             "BV-omni-build, BT-bunny"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-omni-build, BT-bunny, thiefKey"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },

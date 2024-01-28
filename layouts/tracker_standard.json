@@ -226,6 +226,14 @@
             ],
             "item_size": 102,
             "margin": "-214,35,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["settingKeyringsOff"]
+            ],
+            "item_size": 90,
+            "margin": "-5,35,-2,-12"
           }
         ]
       }

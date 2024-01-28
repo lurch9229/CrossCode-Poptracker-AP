@@ -86,6 +86,12 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("op_OM").CurrentStage = 1
         end
     end
+
+    if slot_data['options']["keyrings"] then 
+    Tracker:FindObjectForCode("op_KR").CurrentStage = 1
+      else
+        Tracker:FindObjectForCode("op_KR").CurrentStage = 0
+    end
 end
 
 -- called when an item gets collected
