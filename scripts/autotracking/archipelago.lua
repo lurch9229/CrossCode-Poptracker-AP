@@ -89,8 +89,14 @@ function onClear(slot_data)
 
     if slot_data['options']["keyrings"] then 
     Tracker:FindObjectForCode("op_KR").CurrentStage = 1
-      else
+        else
         Tracker:FindObjectForCode("op_KR").CurrentStage = 0
+    end
+
+    if slot_data['options']["meteorPassage"] then 
+    Tracker:FindObjectForCode("op_VW").CurrentStage = 1
+        else
+        Tracker:FindObjectForCode("op_VW").CurrentStage = 0
     end
 end
 

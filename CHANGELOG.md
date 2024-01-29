@@ -8,6 +8,18 @@
 
     Changed Boss Reward icons to match new icons on VTGate
 
+    Fixed Logic for some Dungeons and Quests
+
+    Added Vermillion Wasteland Lock Setting
+
+    Added SP Upgrade Locations and Chest related to Pushing Bases Quest
+
+    Fixed PNG issues for Linux users
+
+    Fixed Faj'ro Temple having 2 checks reversed (GF Test of Memory)
+
+    Added setup for Linux users to Readme
+
 0.4.0
 
     Fixed Frobbit Quest Autotracking

@@ -415,6 +415,23 @@
     ]
   },
   {
+    "name": "Vermillion Wasteland Lock",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/items/vwLockOff.png",
+        "codes": "op_VW, vwLockOff"
+      },
+      {
+        "img": "images/items/vwLock.png",
+        "codes": "op_VW, vwLockOn",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Auto Tab Switching",
     "type": "progressive",
     "codes": "auto_tab",

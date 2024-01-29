@@ -116,7 +116,7 @@
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -302,7 +302,7 @@
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            ""
                         ],
                         "hosted_item": "RH-delivery",
                         "item_count": 1
@@ -360,7 +360,7 @@
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            ""
                         ],
                         "hosted_item": "RH-data-digging",
                         "item_count": 1
@@ -418,7 +418,7 @@
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            ""
                         ],
                         "hosted_item": "RH-tree-1",
                         "item_count": 1
@@ -476,7 +476,7 @@
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            ""
                         ],
                         "hosted_item": "RH-petty",
                         "item_count": 1
@@ -502,7 +502,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RH-smuggle-1, iceShade, flameShade"
+                            "RH-smuggle-1, iceShade"
                         ],
                         "hosted_item": "RH-smuggle-2",
                         "item_count": 1
@@ -578,7 +578,8 @@
                         ],
                         "access_rules": 
                         [
-                            "RH-steaks-1"
+                            "RH-steaks-1, regionOpen5",
+                            "RH-steaks-1, region11"
                         ],
                         "hosted_item": "RH-steaks-2",
                         "item_count": 1

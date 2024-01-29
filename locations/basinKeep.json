@@ -308,7 +308,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "eleHeat"
                         ],
                         "hosted_item": "GG-chill",
                         "item_count": 1

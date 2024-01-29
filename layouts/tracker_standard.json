@@ -234,6 +234,14 @@
             ],
             "item_size": 90,
             "margin": "-5,35,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["vwLockOff"]
+            ],
+            "item_size": 85,
+            "margin": "-203,66,-2,-12"
           }
         ]
       }

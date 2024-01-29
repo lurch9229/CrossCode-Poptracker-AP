@@ -566,7 +566,7 @@
                 ]
             },
             {
-                "name": "Faj'ro Temple GF - Test of Memory 1",
+                "name": "Faj'ro Temple GF - Test of Memory 2",
                 "chest_unopened_img": "images/items/chest_default_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
@@ -599,7 +599,7 @@
                 ]
             },
             {
-                "name": "Faj'ro Temple GF - Test of Memory 2",
+                "name": "Faj'ro Temple GF - Test of Memory 1",
                 "chest_unopened_img": "images/items/chest_default_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 

@@ -27,12 +27,12 @@ function region4()
 end
 
 function region5()
-  return region4() and mineKeyTotal(1)
+  return mineKeyTotal(1) and region4()
 end
 
 
 function region6()
-  return region5() and mineKeyTotal(2)
+  return mineKeyTotal(2) and region5()
 end
 
 function region7()
@@ -64,7 +64,7 @@ function region13()
 end
 
 function region14()
-  return region13() and fajroKeyTotal(1)
+  return fajroKeyTotal(1) and region13()
 end
 
 function region15()
@@ -72,7 +72,7 @@ function region15()
 end
 
 function region16()
-  return region15() and fajroKeyTotal(4)
+  return fajroKeyTotal(4) and region15()
 end
 
 function region17()
@@ -108,15 +108,15 @@ function region24()
 end
 
 function region25()
-  return region23() and zirvitarKeyTotal(2)
+  return zirvitarKeyTotal(2) and region23()
 end
 
 function region26()
-  return region23() and sonajizKeyTotal(4)
+  return sonajizKeyTotal(3) and region23()
 end
 
 function region27()
-  return region26() and sonajizKeyTotal(5) and (has ("radiantKey"))
+  return region26() and sonajizKeyTotal(4) and (has ("radiantKey"))
 end
 
 function region28()
@@ -124,7 +124,7 @@ function region28()
 end
 
 function region29()
-  return region28() and kryskajoKeyTotal(2)
+  return kryskajoKeyTotal(2) and region28()
 end
 
 function region30()
@@ -185,7 +185,7 @@ function regionOpen4_1()
 end
 
 function regionOpen4_2()
-  return regionOpen4_1() and mineKeyTotal(1)
+  return mineKeyTotal(1) and regionOpen4_1()
 end
 
 function regionOpen4_3()
@@ -197,7 +197,7 @@ function regionOpen4_4()
 end
 
 function regionOpen4_5()
-  return regionOpen4_4() and mineKeyTotal(6)
+  return regionOpen4_4() and mineKeyTotal(4)
 end
 
 function regionOpen4_6()
@@ -205,7 +205,7 @@ function regionOpen4_6()
 end
 
 function regionOpen4_7()
-  return regionOpen4_6() and mineKeyTotal(10)
+  return regionOpen4_6() and mineKeyTotal(5)
 end
 
 function regionOpen4_8()
@@ -225,7 +225,7 @@ function regionOpen7_1()
 end
 
 function regionOpen7_2()
-  return regionOpen7_1() and fajroKeyTotal(1)
+  return fajroKeyTotal(1) and regionOpen7_1()
 end
 
 function regionOpen7_3()
@@ -277,11 +277,11 @@ function regionOpen11()
 end
 
 function regionOpen12()
-  return regionOpen10() and (has ("eleHeat") and has ("eleCold"))
+  return regionOpen10()
 end
 
 function regionOpen13_1()
-  return regionOpen12() and zirvitarKeyTotal(2)
+  return zirvitarKeyTotal(2) and regionOpen10()
 end
 
 function regionOpen13_2()
@@ -289,15 +289,23 @@ function regionOpen13_2()
 end
 
 function regionOpen14_1()
-  return regionOpen12() and sonajizKeyTotal(4)
+  return sonajizKeyTotal(1) and regionOpen10() and (has("eleHeat") or has("eleCold") or has ("eleWave") or has ("eleShock"))
 end
 
 function regionOpen14_2()
-  return regionOpen14_1() and sonajizKeyTotal(5) and has ("radiantKey")
+  return regionOpen10() and sonajizKeyTotal(3) and has("eleHeat")
 end
 
 function regionOpen14_3()
-  return regionOpen14_2() and has ("eleShock")
+  return regionOpen14_2() and has ("eleCold")
+end
+
+function regionOpen14_4()
+  return regionOpen14_3() and has("radiantKey") and sonajizKeyTotal(4)
+end
+
+function regionOpen14_5()
+  return regionOpen14_4() and has("eleShock")
 end
 
 function regionOpen15_1()
@@ -353,9 +361,9 @@ end
 function mineKeyTotal(amount)
   if has("settingKeyringsOn") then
     mineKeyAmount=Tracker:ProviderCountForCode("mineKey")*5
-    count = Tracker:FindObjectForCode("mineKey").AquiredCount
-    if count > 0 then
-      count = 5
+    count = Tracker:FindObjectForCode("mineKey")
+    if count.AcquiredCount > 0 then
+      count.AcquiredCount = 5
     end
   else
     mineKeyAmount=Tracker:ProviderCountForCode("mineKey")*1
@@ -366,9 +374,9 @@ end
 function fajroKeyTotal(amount)
   if has("settingKeyringsOn") then
     fajroKeyAmount=Tracker:ProviderCountForCode("fajroKey")*9
-    count = Tracker:FindObjectForCode("fajroKey").AquiredCount
-    if count > 0 then
-      count = 9
+    count = Tracker:FindObjectForCode("fajroKey")
+    if count.AcquiredCount > 0 then
+      count.AcquiredCount = 9
     end
   else
     fajroKeyAmount=Tracker:ProviderCountForCode("fajroKey")*1
@@ -379,9 +387,10 @@ end
 function zirvitarKeyTotal(amount)
   if has("settingKeyringsOn") then
     zirvitarKeyAmount=Tracker:ProviderCountForCode("zirvitarKey")*2
-    count = Tracker:FindObjectForCode("zirvitarKey").AquiredCount
-    if count > 0 then
-      count = 2
+    count = Tracker:FindObjectForCode("zirvitarKey")
+    if count.AcquiredCount > 0 then
+      count.AcquiredCount = 2
+    end
   else
     zirvitarKeyAmount=Tracker:ProviderCountForCode("zirvitarKey")*1
   end
@@ -391,9 +400,9 @@ end
 function sonajizKeyTotal(amount)
   if has("settingKeyringsOn") then
     sonajizKeyAmount=Tracker:ProviderCountForCode("sonajizKey")*4
-    count = Tracker:FindObjectForCode("sonajizKey").AquiredCount
-    if count > 0 then
-      count = 4
+    count = Tracker:FindObjectForCode("sonajizKey")
+    if count.AcquiredCount > 0 then
+      count.AcquiredCount = 4
     end
   else
     sonajizKeyAmount=Tracker:ProviderCountForCode("sonajizKey")*1
@@ -404,9 +413,9 @@ end
 function kryskajoKeyTotal(amount)
   if has("settingKeyringsOn") then
     kryskajoKeyAmount=Tracker:ProviderCountForCode("kryskajoKey")*2
-    count = Tracker:FindObjectForCode("kryskajoKey").AquiredCount
-    if count > 0 then
-      count = 2
+    count = Tracker:FindObjectForCode("kryskajoKey")
+    if count.AcquiredCount > 0 then
+      count.AcquiredCount = 2
     end
   else
     kryskajoKeyAmount=Tracker:ProviderCountForCode("kryskajoKey")*1
