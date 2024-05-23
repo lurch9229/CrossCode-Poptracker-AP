@@ -90,7 +90,7 @@
                         ],
                         "access_rules":
                         [
-                            "radiantKey, eleWave"
+                            "thiefKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -462,8 +462,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey",
-                            "eleWave"
+                            "boltShade, dropShade, thiefKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -494,7 +493,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey, eleWave"
+                            "whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -811,7 +810,7 @@
                 ]
             },
             {
-                "name": "Gaia's Garden - Lost Shrine B1",
+                "name": "Gaia's Garden - Lost Shrine U1",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
@@ -842,7 +841,7 @@
                 ]
             },
             {
-                "name": "Gaia's Garden - Lost Shrine B2",
+                "name": "Gaia's Garden - Lost Shrine U2",
                 "chest_unopened_img": "images/items/chest_silver_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
@@ -2048,7 +2047,6 @@
                         [
                             "GG-TB-collect, GG-TB-defeat, GG-TB-poi, GG-TB-probe"
                         ],
-                        "hosted_item": "GG-TB-done",
                         "item_count": 1
                     },
                     {
@@ -2059,7 +2057,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-TB-done"
+                            ""
                         ],
                         "hosted_item": "GG-TB-collect",
                         "item_count": 1
@@ -2072,7 +2070,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-TB-done"
+                            ""
                         ],
                         "hosted_item": "GG-TB-defeat",
                         "item_count": 1
@@ -2085,7 +2083,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-TB-done"
+                            ""
                         ],
                         "hosted_item": "GG-TB-poi",
                         "item_count": 1
@@ -2098,7 +2096,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-TB-done, eleWave"
+                            "eleWave"
                         ],
                         "hosted_item": "GG-TB-probe",
                         "item_count": 1
@@ -2107,6 +2105,8 @@
             },
             {
                 "name": "Gaia's Garden - Pathhacker",
+                "chest_unopened_img": "images/items/quest_open.png",
+                "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Gaias_Garden",
@@ -2263,12 +2263,12 @@
                         "name": "Gaia's Garden - Lost Shrine GF - Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Lost Shrine B1/Gold Chest",
-                        "name": "Gaia's Garden - Lost Shrine B1 - Gold Chest"
+                        "ref": "Gaia's Garden - Lost Shrine U1/Gold Chest",
+                        "name": "Gaia's Garden - Lost Shrine U1 - Gold Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Lost Shrine B2/Silver Chest",
-                        "name": "Gaia's Garden - Lost Shrine B2 - Silver Chest"
+                        "ref": "Gaia's Garden - Lost Shrine U2/Silver Chest",
+                        "name": "Gaia's Garden - Lost Shrine U2 - Silver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil West Lower Right/Bronze Chest",

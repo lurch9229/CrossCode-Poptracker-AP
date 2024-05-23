@@ -1,4 +1,40 @@
 # Changelog
+0.4.2
+    Locations
+
+        - Added Vermillion Wasteland Storage Basement Chest (Removed visibility_rule that had been in place forever)
+
+    Interface
+
+        - Pathhacker Quest icon image corrected
+
+        - Omni-Gliders Basement Chest icon image corrected
+
+        - Lost Shrine now uses U1/U2 instead of B1/B2 to match maps
+
+        - Fixed discrepencies with Faj'ro Test of Memory Rooms. Now clearly named Left/Right Room.
+
+        - Added a period to some characters titles (Mrs. Summers)
+
+    Logic
+
+        - Outside Grand Krys'kajo Chest now requires correct Shades
+
+        - Outside So'najiz Chest no longer requires Wave
+
+        - Omni-Gliders Basement Chest now requires access to Mines and either Heat or a key
+
+        - Sprouting Business Quest now requires Wave
+
+        - Infested Caverns Left Chest now requires correct key
+
+        - Fixed requirements for Training with the Master Quest. Now only needs Flame Shade and Quest Rando
+
+    Known (Being Investigated)
+
+        - Some quests sometimes aren't being auto-tracked on slot release. Typically only the last quests in quest-trains are being tracked
+
+        - Some Location Icons and Text not behaving correctly on slot release
 
 0.4.1
 

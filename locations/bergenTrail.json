@@ -963,7 +963,6 @@
                         [
                             "BT-TB-collect, BT-TB-defeat, BT-TB-poi, BT-TB-probe"
                         ],
-                        "hosted_item": "BT-TB-done",
                         "item_count": 1
                     },
                     {
@@ -974,7 +973,7 @@
                         ],
                         "access_rules":
                         [
-                            "AR-TB-done"
+                            ""
                         ],
                         "hosted_item": "BT-TB-collect",
                         "item_count": 1
@@ -987,7 +986,7 @@
                         ],
                         "access_rules":
                         [
-                            "AR-TB-done"
+                            ""
                         ],
                         "hosted_item": "BT-TB-defeat",
                         "item_count": 1
@@ -1000,7 +999,7 @@
                         ],
                         "access_rules":
                         [
-                            "AR-TB-done"
+                            ""
                         ],
                         "hosted_item": "BT-TB-poi",
                         "item_count": 1
@@ -1013,7 +1012,7 @@
                         ],
                         "access_rules":
                         [
-                            "AR-TB-done, eleHeat"
+                            "eleHeat"
                         ],
                         "hosted_item": "BT-TB-probe",
                         "item_count": 1

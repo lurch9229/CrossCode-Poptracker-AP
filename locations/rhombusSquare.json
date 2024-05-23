@@ -295,7 +295,7 @@
                         ],
                         "access_rules": 
                         [
-                            "dkar4, brokenChakram"
+                            "dkar4, dkar1, dkar2, dkar3, brokenChakram"
                         ],
                         "item_count": 1
                     }
