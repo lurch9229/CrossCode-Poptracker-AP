@@ -1427,7 +1427,7 @@
                         ],
                         "access_rules":
                         [
-                            "GG-TB-done"  
+                            "GG-TB-done, AR-TB-done, BT-TB-done, MV-TB-done"
                         ],
                         "item_count": 1
                     }

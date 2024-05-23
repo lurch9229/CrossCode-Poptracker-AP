@@ -1113,7 +1113,7 @@
                         ],
                         "access_rules":
                         [
-                            "BT-TB-done"
+                            ""
                         ],
                         "hosted_item": "MV-TB-collect",
                         "item_count": 1
@@ -1126,7 +1126,7 @@
                         ],
                         "access_rules":
                         [
-                            "BT-TB-done"
+                            ""
                         ],
                         "hosted_item": "MV-TB-defeat",
                         "item_count": 1
@@ -1139,7 +1139,7 @@
                         ],
                         "access_rules":
                         [
-                            "BT-TB-done"
+                            ""
                         ],
                         "hosted_item": "MV-TB-poi",
                         "item_count": 1
@@ -1152,7 +1152,7 @@
                         ],
                         "access_rules":
                         [
-                            "BT-TB-done"
+                            ""
                         ],
                         "hosted_item": "MV-TB-probe",
                         "item_count": 1
@@ -1167,7 +1167,6 @@
                         [
                             "MV-TB-collect, MV-TB-defeat, MV-TB-poi, MV-TB-probe"
                         ],
-                        "hosted_item": "MV-TB-done",
                         "item_count": 1
                     }
                 ]

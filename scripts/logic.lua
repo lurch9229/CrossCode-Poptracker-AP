@@ -1,3 +1,4 @@
+---@diagnostic disable: lowercase-global
 function has(item, amount)
   local count = Tracker:ProviderCountForCode(item)
   amount = tonumber(amount)

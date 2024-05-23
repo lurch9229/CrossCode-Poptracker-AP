@@ -566,7 +566,7 @@
                 ]
             },
             {
-                "name": "Faj'ro Temple GF - Test of Memory 2",
+                "name": "Faj'ro Temple GF - Test of Memory Right Room",
                 "chest_unopened_img": "images/items/chest_default_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
@@ -599,7 +599,7 @@
                 ]
             },
             {
-                "name": "Faj'ro Temple GF - Test of Memory 1",
+                "name": "Faj'ro Temple GF - Test of Memory Left Room",
                 "chest_unopened_img": "images/items/chest_default_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": 
@@ -781,12 +781,12 @@
                         "name": "Faj'ro Temple GF - Balance Room 2 Right - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Test of Memory 1/Chest",
-                        "name": "Faj'ro Temple GF - Test of Memory 1 - Chest"
+                        "ref": "Faj'ro Temple GF - Test of Memory Left Room/Chest",
+                        "name": "Faj'ro Temple GF - Test of Memory Left Room - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Test of Memory 2/Chest",
-                        "name": "Faj'ro Temple GF - Test of Memory 2 - Chest"
+                        "ref": "Faj'ro Temple GF - Test of Memory Right Room/Chest",
+                        "name": "Faj'ro Temple GF - Test of Memory Right Room - Chest"
                     },
                     {
                         "ref": "Faj'ro Temple GF - Right Chamber 1/Chest",

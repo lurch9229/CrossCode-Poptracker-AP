@@ -689,7 +689,7 @@
                 ]
             },
             {
-                "name": "Bergen Village - Mrs Summers",
+                "name": "Bergen Village - Mrs. Summers",
                 "chest_unopened_img": "images/items/quest_open.png",
                 "chest_opened_img": "images/items/quest_done.png",
                 "map_locations": [
@@ -758,7 +758,8 @@
                         ],
                         "access_rules":
                         [
-                            "eleHeat"
+                            "eleHeat, BT_bunny",
+                            "mineKey:1, BT_bunny"
                         ],
                         "hosted_item": "BV-omni-build",
                         "item_count": 1
@@ -771,12 +772,14 @@
                         ],
                         "access_rules":
                         [
-                            "BV-omni-build, BT-bunny"
+                            "BV-omni-build"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Chest",
+                        "chest_unopened_img": "images/items/chest_bronze_x.png",
+                        "chest_opened_img": "images/items/chest_o.png",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -942,12 +945,12 @@
                         "name": "Bergen Village - Guard HQ - The Goatfather"
                     },
                     {
-                        "ref": "Bergen Village - Mrs Summers/Fancy Tophat",
-                        "name": "Bergen Village - Mrs Summers - Fancy Tophat"
+                        "ref": "Bergen Village - Mrs. Summers/Fancy Tophat",
+                        "name": "Bergen Village - Mrs. Summers - Fancy Tophat"
                     },
                     {
-                        "ref": "Bergen Village - Mrs Summers/Heating the Hermit",
-                        "name": "Bergen Village - Mrs Summers - Heating the Hermit"
+                        "ref": "Bergen Village - Mrs. Summers/Heating the Hermit",
+                        "name": "Bergen Village - Mrs. Summers - Heating the Hermit"
                     },
                     {
                         "ref": "Bergen Village - Omni Gliders/Building a Base",
