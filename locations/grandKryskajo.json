@@ -1,13 +1,13 @@
 [
     {
         "name": "Grand Krys'kajo",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": 
 		[
             {
                 "name": "Grand Krys'kajo - East Branch Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -39,6 +39,8 @@
             },
             {
                 "name": "Grand Krys'kajo - East Branch Right",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -70,6 +72,8 @@
             },
             {
                 "name": "Grand Krys'kajo - East Branch Lower",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -101,6 +105,8 @@
             },
             {
                 "name": "Grand Krys'kajo - West Branch Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -132,6 +138,8 @@
             },
             {
                 "name": "Grand Krys'kajo - West Branch Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -163,6 +171,8 @@
             },
             {
                 "name": "Grand Krys'kajo - Falling Leaves",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -194,6 +204,8 @@
             },
             {
                 "name": "Grand Krys'kajo - Branch Conveyance",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -225,6 +237,8 @@
             },
             {
                 "name": "Grand Krys'kajo - Branch Transmit Right",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -256,6 +270,8 @@
             },
             {
                 "name": "Grand Krys'kajo - Branch Transmit Left",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -287,6 +303,8 @@
             },
             {
                 "name": "Grand Krys'kajo 4F - Post Boss Statue",
+                "chest_unopened_img": "images/icons/statue_o.png",
+                "chest_opened_img": "images/icons/statue_x.png",
                 "map_locations": 
 				[
                     {
@@ -317,6 +335,18 @@
                     },
                     {
                         "name": "Circuit Override",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SP Upgrade",
                         "visibility_rules": 
                         [
                             ""

@@ -1,0 +1,130 @@
+﻿{
+  "shop_grid": 
+  {
+    "type": "array",
+    "orientation": "vertical",
+    "content": 
+    [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows":[
+              ["rookieItemShop"]
+            ],
+            "item_size": 100,
+            "margin": "-2,0"
+          },
+          {
+            "type": "itemgrid",
+            "rows":[
+              ["rookieWeaponShop"]
+            ],
+            "item_size": 95,
+            "margin": "-100,50"
+          },
+          {
+            "type": "itemgrid",
+            "rows":[
+              ["rookieBackerChef"]
+            ],
+            "item_size": 100,
+            "margin": "-2,100"
+          },
+          {
+            "type": "itemgrid",
+            "rows":[
+              ["rookieBackerWeapon"]
+            ],
+            "item_size": 95,
+            "margin": "-100,180"
+          }
+        ] 
+      }
+    ]
+  },
+
+  "type_grid": 
+  {
+    "type": "array",
+    "orientation": "vertical",
+    "content": 
+    [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows":[
+              ["sandwich", "hiSandwich", "greenTea", "justWater"]
+            ],
+            "item_size": 50,
+            "margin": "-2,0"
+          }
+        ] 
+      }
+    ]
+  },
+
+  "shop_layout": {
+    "type": "container",
+    "margin": "1,1,1,1",
+    "content": 
+    {
+      "type": "dock",
+      "orientation": "horizontal",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "array",
+          "dock": "left",
+          "orientation": "vertical",
+          "content": [
+            {
+              "type": "group",
+              "header": "Shops",
+              "content": {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  { 
+                    "type": "layout",
+                    "key": "shop_grid"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Shops",
+              "content": {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  { 
+                    "type": "layout",
+                    "key": "type_grid"
+                  }
+                ]
+              }
+            },
+            {
+              
+                  "type": "map",
+                  "maps": ["WorldMap"]
+  
+            }
+          ]
+        }
+      ]
+    }
+  }
+}			
+  

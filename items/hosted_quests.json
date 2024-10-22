@@ -1,0 +1,393 @@
+[
+  {
+    "name": "My First Quest Host",
+    "type": "toggle",
+    "codes": "AR-first"
+  },
+  {
+    "name": "AR Trailblazing Host",
+    "type": "toggle",
+    "codes": "AR-TB-done"
+  },
+  {
+    "name": "AR Collect Host",
+    "type": "toggle",
+    "codes": "AR-TB-Collect"
+  },
+  {
+    "name": "AR Defeat Host",
+    "type": "toggle",
+    "codes": "AR-TB-defeat"
+  },
+  {
+    "name": "AR Landmarks Host",
+    "type": "toggle",
+    "codes": "AR-TB-poi"
+  },
+  {
+    "name": "AR Probe Host",
+    "type": "toggle",
+    "codes": "AR-TB-probe"
+  },
+  {
+    "name": "AR Parkour Host",
+    "type": "toggle",
+    "codes": "AR-parkour"
+  },
+  {
+    "name": "Legend Bunny Host",
+    "type": "toggle",
+    "codes": "BT-bunny"
+  },
+  {
+    "name": "BT Trailblazing Host",
+    "type": "toggle",
+    "codes": "BT-TB-done"
+  },
+  {
+    "name": "BT Collect Host",
+    "type": "toggle",
+    "codes": "BT-TB-collect"
+  },
+  {
+    "name": "BT Defeat Host",
+    "type": "toggle",
+    "codes": "BT-TB-defeat"
+  },
+  {
+    "name": "BT Landmarks Host",
+    "type": "toggle",
+    "codes": "BT-TB-poi"
+  },
+  {
+    "name": "BT Probe Host",
+    "type": "toggle",
+    "codes": "BT-TB-probe"
+  },
+  {
+    "name": "BV Frobbits Host",
+    "type": "toggle",
+    "codes": "BV-frobbits"
+  },
+  {
+    "name": "BV EX Mining Host",
+    "type": "toggle",
+    "codes": "BV-EX-mine"
+  },
+  {
+    "name": "BV Pre Mining Host",
+    "type": "toggle",
+    "codes": "BV-pre-mine"
+  },
+  {
+    "name": "BV Tophat Host",
+    "type": "toggle",
+    "codes": "BV-hat"
+  },
+  {
+    "name": "BV Kidding Around Host",
+    "type": "toggle",
+    "codes": "BV-kidding"
+  },
+  {
+    "name": "BV Aspiration Trial Host",
+    "type": "toggle",
+    "codes": "BV-asp-trial"
+  },
+  {
+    "name": "BV Progression Trial Host",
+    "type": "toggle",
+    "codes": "BV-prog-trial"
+  },
+  {
+    "name": "BV Aspiration Challenge Host",
+    "type": "toggle",
+    "codes": "BV-asp-challenge"
+  },
+  {
+    "name": "BV Progression Challenge Host",
+    "type": "toggle",
+    "codes": "BV-prog-challenge"
+  },
+  {
+    "name": "BV Omni Build Host",
+    "type": "toggle",
+    "codes": "BV-omni-build"
+  },
+  {
+    "name": "BV Omni Push Host",
+    "type": "toggle",
+    "codes": "BV-omni-push"
+  },
+  {
+    "name": "A Promise 1 Host",
+    "type": "toggle",
+    "codes": "dkar1"
+  },
+  {
+    "name": "A Promise 2 Host",
+    "type": "toggle",
+    "codes": "dkar2"
+  },
+  {
+    "name": "A Promise 3 Host",
+    "type": "toggle",
+    "codes": "dkar3"
+  },
+  {
+    "name": "A Promise 4 Host",
+    "type": "toggle",
+    "codes": "dkar4"
+  },
+  {
+    "name": "A Promise 5 Host",
+    "type": "toggle",
+    "codes": "dkar5"
+  },
+  
+  {
+    "name": "MV Trailblazing Host",
+    "type": "toggle",
+    "codes": "MV-TB-done"
+  },
+  {
+    "name": "MV Collect Host",
+    "type": "toggle",
+    "codes": "MV-TB-collect"
+  },
+  {
+    "name": "MV defeat Host",
+    "type": "toggle",
+    "codes": "MV-TB-defeat"
+  },
+  {
+    "name": "MV Landmarks Host",
+    "type": "toggle",
+    "codes": "MV-TB-poi"
+  },
+  {
+    "name": "MV Probe Host",
+    "type": "toggle",
+    "codes": "MV-TB-probe"
+  },
+  {
+    "name": "MV Blasting Host",
+    "type": "toggle",
+    "codes": "MV-blasting"
+  },
+  {
+    "name": "MV Hot Trail Host",
+    "type": "toggle",
+    "codes": "MV-hot-trail"
+  },
+  {
+    "name": "MV Shady Thief Host",
+    "type": "toggle",
+    "codes": "MV-thief"
+  },
+  {
+    "name": "MV Crate Host",
+    "type": "toggle",
+    "codes": "MV-crate"
+  },
+  {
+    "name": "MV Steamy Booze Host",
+    "type": "toggle",
+    "codes": "MV-booze-1"
+  },
+  {
+    "name": "MV Steamy Challenge Host",
+    "type": "toggle",
+    "codes": "MV-booze-2"
+  },
+  {
+    "name": "GG Turret Defense Host",
+    "type": "toggle",
+    "codes": "GG-turret-1"
+  },
+  {
+    "name": "GG An Original Idea Host",
+    "type": "toggle",
+    "codes": "GG-turret-2"
+  },
+  {
+    "name": "GG Hostage Situation Host",
+    "type": "toggle",
+    "codes": "GG-hostage"
+  },
+  {
+    "name": "GG High Crating Host",
+    "type": "toggle",
+    "codes": "GG-high-crating"
+  },
+  {
+    "name": "GG Tropical Chill Host",
+    "type": "toggle",
+    "codes": "GG-chill"
+  },
+  {
+    "name": "GG Cold Fiend Host",
+    "type": "toggle",
+    "codes": "GG-snowman"
+  },
+  {
+    "name": "GG Escort Host",
+    "type": "toggle",
+    "codes": "GG-escort"
+  },
+  {
+    "name": "GG Rooting Host",
+    "type": "toggle",
+    "codes": "GG-rooting"
+  },
+  {
+    "name": "GG Sprouting Business Host",
+    "type": "toggle",
+    "codes": "GG-mush-1"
+  },
+  {
+    "name": "Mushroom Kingdom Host",
+    "type": "toggle",
+    "codes": "GG-mush-2"
+  },
+  {
+    "name": "Halloween Host",
+    "type": "toggle",
+    "codes": "GG-halloween"
+  },
+  {
+    "name": "GG Trailblazing Host",
+    "type": "toggle",
+    "codes": "GG-TB-done"
+  },
+  {
+    "name": "GG Collect Host",
+    "type": "toggle",
+    "codes": "GG-TB-collect"
+  },
+  {
+    "name": "GG Defeat Host",
+    "type": "toggle",
+    "codes": "GG-TB-defeat"
+  },
+  {
+    "name": "GG Landmarks Host",
+    "type": "toggle",
+    "codes": "GG-TB-poi"
+  },
+  {
+    "name": "GG Probe Host",
+    "type": "toggle",
+    "codes": "GG-TB-probe"
+  },
+  {
+    "name": "RH Training Master Host",
+    "type": "toggle",
+    "codes": "RH-master"
+  },
+  {
+    "name": "RH Training VRP Host",
+    "type": "toggle",
+    "codes": "RH-vrp"
+  },
+  {
+    "name": "RH Training VPI Host",
+    "type": "toggle",
+    "codes": "RH-vpi"
+  },
+  {
+    "name": "RH Data Digging Host",
+    "type": "toggle",
+    "codes": "RH-data-digging"
+  },
+  {
+    "name": "RH Hillkat Host",
+    "type": "toggle",
+    "codes": "RH-hillkat"
+  },
+  {
+    "name": "RH Power Points Host",
+    "type": "toggle",
+    "codes": "RH-power-points"
+  },
+  {
+    "name": "RH Petty Crime Host",
+    "type": "toggle",
+    "codes": "RH-petty"
+  },
+  {
+    "name": "RH Smuggle Host",
+    "type": "toggle",
+    "codes": "RH-smuggle-1"
+  },
+  {
+    "name": "RH Wet Work Host",
+    "type": "toggle",
+    "codes": "RH-smuggle-2"
+  },
+  {
+    "name": "RH Delivery Host",
+    "type": "toggle",
+    "codes": "RH-delivery"
+  },
+  {
+    "name": "RH Bull Grab Host",
+    "type": "toggle",
+    "codes": "RH-bull"
+  },
+  {
+    "name": "RH New Metal Host",
+    "type": "toggle",
+    "codes": "RH-metal"
+  },
+  {
+    "name": "RH Sick Tree Host",
+    "type": "toggle",
+    "codes": "RH-tree-1"
+  },
+  {
+    "name": "RH Tree Care Host",
+    "type": "toggle",
+    "codes": "RH-tree-2"
+  },
+  {
+    "name": "RH Fire Bull Host",
+    "type": "toggle",
+    "codes": "RH-fire-bull"
+  },
+  {
+    "name": "RH Steaks 1 Host",
+    "type": "toggle",
+    "codes": "RH-steaks-1"
+  },
+  {
+    "name": "RH Steaks 2 Host",
+    "type": "toggle",
+    "codes": "RH-steaks-2"
+  },
+  {
+    "name": "RH Steaks 3 Host",
+    "type": "toggle",
+    "codes": "RH-steaks-3"
+  },
+  {
+    "name": "Talatu Intro Host",
+    "type": "toggle",
+    "codes": "botanics-1"
+  },
+  {
+    "name": "Talatu 25% Host",
+    "type": "toggle",
+    "codes": "botanics-2"
+  },
+  {
+    "name": "Talatu 50% Host",
+    "type": "toggle",
+    "codes": "botanics-3"
+  },
+  {
+    "name": "Talatu 75% Host",
+    "type": "toggle",
+    "codes": "botanics-4"
+  }
+]

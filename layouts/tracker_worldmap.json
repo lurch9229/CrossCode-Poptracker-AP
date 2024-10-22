@@ -4,7 +4,7 @@
   {
     "type": "itemgrid",
     "h_alignment": "center",
-    "item_margin": "1,2",
+    "item_margin": "2,3,-10,-10",
     "item_size": "35,35",
     "rows": 
     [
@@ -12,7 +12,8 @@
       ["sandShade","flameShade","iceShade","boltShade", "guildPass"],
       ["leafShade","dropShade","seedShade","starShade","meteorShade"],
       ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
-      ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"]
+      ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"],
+      ["brokenGauntlet", "brokenShield", "brokenSword", "brokenDeck", "brokenChakram"]
     ]
   },
 
@@ -94,7 +95,7 @@
               ["fajroWon"]
             ],
             "item_size": 30,
-            "margin": "-5,-55,-50,-50"
+            "margin": "-5,-55,-2,-12"
           }
         ]
       },
@@ -125,7 +126,7 @@
               ["sonajizWon"]
             ],
             "item_size": 30,
-            "margin": "18,-53,-50,-30"
+            "margin": "18,-53,-2,-12"
           }
         ]
       },
@@ -156,7 +157,7 @@
               ["zirvitarWon"]
             ],
             "item_size": 30,
-            "margin": "8,-59,-50,0"
+            "margin": "8,-59,-2,0"
           }
         ]
       },
@@ -179,7 +180,7 @@
               ["kryskajoKey"]
             ],
             "item_size": 30,
-            "margin": "0,-64,0,-30"
+            "margin": "0,-64,0,-12"
           },
           {
             "type": "itemgrid",
@@ -187,7 +188,7 @@
               ["kryskajoMaster"]
             ],
             "item_size": 30,
-            "margin": "-7,-64,-50,-30"
+            "margin": "-7,-64,-2,-12"
           }
         ]
       }
@@ -217,7 +218,15 @@
               ["settingVTGateClosed"]
             ],
             "item_size": 100,
-            "margin": "-2,2,-50,-30"
+            "margin": "-2,2,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["settingQuestShuffleOff"]
+            ],
+            "item_size": 102,
+            "margin": "-167,35,-2,-12"
           }
         ]
       }

@@ -160,5 +160,17 @@
     "location_size": 12,
     "location_border_thickness": 1,
     "img": "images/maps/world-map.png"
+  },
+  {
+    "name": "ShopMap",
+    "location_size": 16,
+    "location_border_thickness": 1,
+    "img": "images/maps/shop_template.png"
+  },
+  {
+    "name": "TypesMap",
+    "location_size": 16,
+    "location_border_thickness": 1,
+    "img": "images/maps/typesMap.png"
   }
 ]

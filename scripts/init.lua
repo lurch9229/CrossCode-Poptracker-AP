@@ -5,6 +5,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 
 --LOAD ITEMS
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/hosted_quests.json")
 
 -- Open Maps, Then Layouts, Then Locations
 
@@ -38,6 +39,7 @@ if (string.find(Tracker.ActiveVariantUID, "items_only")) then
             Tracker:AddMaps("maps/maps.json")
             Tracker:AddLayouts("layouts/tracker_standard.json")
             Tracker:AddLayouts("layouts/broadcast_horizontal.json")
+            Tracker:AddLayouts("layouts/shop_layout.json")
             Tracker:AddLocations("locations/bergenTrail.json")
             Tracker:AddLocations("locations/bergenVillage.json")
             Tracker:AddLocations("locations/gaiaGarden.json")

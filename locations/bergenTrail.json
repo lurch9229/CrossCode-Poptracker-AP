@@ -1,12 +1,12 @@
 [
     {
         "name": "Bergen Trail",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Bergen Trail - Abandoned Cave",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -36,6 +36,8 @@
             },
             {
                 "name": "Bergen Trail - Frozen Cave",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -65,6 +67,8 @@
             },
             {
                 "name": "Bergen Trail - Abandoned Ground",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -94,6 +98,8 @@
             },
             {
                 "name": "Bergen Trail - Pengpeng Den",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -123,6 +129,8 @@
             },
             {
                 "name": "Bergen Trail - Entrance Right",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -152,6 +160,8 @@
             },
             {
                 "name": "Bergen Trail - Entrance Left",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -181,6 +191,8 @@
             },
             {
                 "name": "Bergen Trail - Rising Path 1",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -210,6 +222,8 @@
             },
             {
                 "name": "Bergen Trail - Off Road 1 Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -239,6 +253,8 @@
             },
             {
                 "name": "Bergen Trail - Off Road 1 Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -268,6 +284,8 @@
             },
             {
                 "name": "Bergen Trail - Off Road 2 Center",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -297,6 +315,8 @@
             },
             {
                 "name": "Bergen Trail - Off Road 2 Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -326,6 +346,8 @@
             },
             {
                 "name": "Bergen Trail - Off Road 2 Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -355,6 +377,8 @@
             },
             {
                 "name": "Bergen Trail - Off Road 3 Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -384,6 +408,8 @@
             },
             {
                 "name": "Bergen Trail - Off Road 3 Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -413,6 +439,8 @@
             },
             {
                 "name": "Bergen Trail - Old Plateau",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -443,6 +471,8 @@
             },
             {
                 "name": "Bergen Trail - Rising Path 2",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -472,6 +502,8 @@
             },
             {
                 "name": "Bergen Trail - Rising Path 3 Left",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -501,6 +533,8 @@
             },
             {
                 "name": "Bergen Trail - Rising Path 3 Right",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -530,10 +564,12 @@
             },
             {
                 "name": "Bergen Trail - Spike Heights Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
-                        "x": 425,
+                        "x": 450,
                         "y": 450
                     }
                 ],
@@ -559,6 +595,8 @@
             },
             {
                 "name": "Bergen Trail - Spike Heights Lower",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -588,6 +626,8 @@
             },
             {
                 "name": "Bergen Trail - Icy Cauldron",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -617,6 +657,8 @@
             },
             {
                 "name": "Bergen Trail - Bergen Waterfalls",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -646,6 +688,8 @@
             },
             {
                 "name": "Bergen Trail - Rising Path 4 Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -675,6 +719,8 @@
             },
             {
                 "name": "Bergen Trail - Rising Path 4 Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -703,7 +749,40 @@
                 ]
             },
             {
+                "name": "Bergen Trail - Horn Cave 2",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 510,
+                        "y": 335
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3",
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BV-kidding, eleHeat, iceShade"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Bergen Trail - Lofty Heights",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -733,6 +812,8 @@
             },
             {
                 "name": "Bergen Trail - Windy Climb",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -762,6 +843,8 @@
             },
             {
                 "name": "Bergen Trail - Rising Path 5",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
@@ -790,21 +873,24 @@
                 ]
             },
             {
-                "name": "Bergen Trail - You've Got Mail",
+                "name": "Bergen Trail - Megan98",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
-                        "x": 630,
-                        "y": 35
+                        "x": 595,
+                        "y": 945
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
-                        "name": "Megan98",
+                        "name": "You've Got Mail",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -818,49 +904,55 @@
                 ]
             },
             {
-                "name": "Bergen Trail - Round and Round 2",
+                "name": "Bergen Trail - Game Tester",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
-                        "x": 630,
-                        "y": 35
+                        "x": 415,
+                        "y": 450
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
-                        "name": "Game Tester",
+                        "name": "Round and Round 2",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules":
                         [
-                            ""
+                            "AR-parkour"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Bergen Trail - The Legendary Bunny",
+                "name": "Bergen Trail - Jean",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
-                        "x": 630,
-                        "y": 35
+                        "x": 665,
+                        "y": 910
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
-                        "name": "Jean",
+                        "name": "The Legendary Bunny",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -869,26 +961,43 @@
                         [
                             ""
                         ],
+                        "hosted_item": "BT-bunny",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Bergen Trail - Trailblazing",
+                "name": "Bergen Trail - Henry the Researcher",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
-                        "x": 630,
-                        "y": 35
+                        "x": 620,
+                        "y": 760
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3",
+                    "AR-TB-done"
                 ],
                 "sections": [
                     {
-                        "name": "Henry the Researcher",
+                        "name": "Trailblazing Finish",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "BT-TB-collect, BT-TB-defeat, BT-TB-poi, BT-TB-probe"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trailblazing Collect",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -896,6 +1005,107 @@
                         "access_rules":
                         [
                             ""
+                        ],
+                        "hosted_item": "BT-TB-collect",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trailblazing Defeat",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "hosted_item": "BT-TB-defeat",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trailblazing Landmarks",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "hosted_item": "BT-TB-poi",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trailblazing Data Probe",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "eleHeat"
+                        ],
+                        "hosted_item": "BT-TB-probe",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Trail",
+                        "x": 485,
+                        "y": 476
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3",
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Sweet Berry Tea Slot - 3299 Credits",
+                        "chest_unopened_img": "images/food/SweetTea.png",
+                        "chest_opened_img": "images/food/SweetTea.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chili Con Carne Slot - 1099 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrink.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 2199 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrink.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit1"
                         ],
                         "item_count": 1
                     }
@@ -982,6 +1192,18 @@
                         "name": "Bergen Trail - Off Road 3 Upper - Chest"
                     },
                     {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits",
+                        "name": "Bergen Trail - Hermit Shop - Sweet Berry Tea - 3299 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits",
+                        "name": "Bergen Trail - Hermit Shop - Chili Con Carne - 1099 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
+                        "name": "Bergen Trail - Hermit Shop - Sweet Lemonjuice - 2199 Credits"
+                    },
+                    {
                         "ref": "Bergen Trail - Spike Heights Upper/Chest",
                         "name": "Bergen Trail - Spike Heights Upper - Chest"
                     },
@@ -1016,6 +1238,38 @@
                     {
                         "ref": "Bergen Trail - Lofty Heights/Bronze Chest",
                         "name": "Bergen Trail - Lofty Heights - Bronze Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Megan98/You've got Mail",
+                        "name": "Bergen Trail - Megan98 - You've got Mail"
+                    },
+                    {
+                        "ref": "Bergen Trail - Game Tester/Round and Round 2",
+                        "name": "Bergen Trail - Game Tester - Round and Round 2"
+                    },
+                    {
+                        "ref": "Bergen Trail - Jean/The Legendary Bunny",
+                        "name": "Bergen Trail - Jean - The Legendary Bunny"
+                    },
+                    {
+                        "ref": "Bergen Trail - Henry the Researcher/Trailblazing Collect",
+                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Collect"
+                    },
+                    {
+                        "ref": "Bergen Trail - Henry the Researcher/Trailblazing Defeat",
+                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Defeat"
+                    },
+                    {
+                        "ref": "Bergen Trail - Henry the Researcher/Trailblazing Landmarks",
+                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Landmarks"
+                    },
+                    {
+                        "ref": "Bergen Trail - Henry the Researcher/Trailblazing Data Probe",
+                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Data Probe"
+                    },
+                    {
+                        "ref": "Bergen Trail - Henry the Researcher/Trailblazing Finish",
+                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Finish"
                     }
                 ],
                 "map_locations": [
@@ -1023,6 +1277,67 @@
                       "map": "WorldMap",
                       "x": 190,
                       "y": 143
+                    }
+                ]
+            }
+        ]
+    },
+//Trail Shop Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits",
+                        "name": "Bergen Trail - Hermit Shop\nSweet Berry Tea Slot - 3299 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 158,
+                      "y": 653
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits",
+                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Slot - 1099 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 158,
+                      "y": 673
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
+                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Slot - 2199 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 158,
+                      "y": 693
                     }
                 ]
             }

@@ -1,12 +1,12 @@
 [
     {
         "name": "Basin Keep",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Basin Keep - Centrum",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -36,6 +36,8 @@
             },
             {
                 "name": "Basin Keep - Pond Slums Lower",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -65,6 +67,8 @@
             },
             {
                 "name": "Basin Keep - Pond Slums Center",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -95,6 +99,8 @@
             },
             {
                 "name": "Basin Keep - Pond Slums Upper",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -124,7 +130,7 @@
                 ]
             },
             {
-                "name": "Basin Keep - Basin Police HQ",
+                "name": "Basin Keep - Police HQ",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
@@ -140,6 +146,8 @@
                 "sections": [
                     {
                         "name": "Gold Chest",
+                        "chest_unopened_img": "images/icons/chest_gold_x.png",
+                        "chest_opened_img": "images/icons/chest_o.png",
                         "visibility_rules": 
                         [
                             ""
@@ -149,16 +157,47 @@
                             "radiantKey"
                         ],                        
                         "item_count": 1
+                    },
+                    {
+                        "name": "Hostage Situation",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "GG-hostage",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "High Crating",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "GG-hostage, boltShade, dropShade, eleWave, eleShock"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Basin Keep - Seeker Hub GF",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 798,
-                        "y": 142
+                        "x": 885,
+                        "y": 130
                     }
                 ],
                 "access_rules": 
@@ -182,12 +221,46 @@
                 ]
             },
             {
-                "name": "Basin Keep - Calzone Basement",
+                "name": "Basin Keep - Mick Calzone",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 1455,
+                        "y": 460
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Sprouting Business",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "eleWave"
+                        ],
+                        "hosted_item": "GG-mush-1",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Calzone Basement",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 1370,
+                        "y": 230
                     }
                 ],
                 "access_rules": 
@@ -204,19 +277,22 @@
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],                        
+                            "GG-mush-1, eleWave"
+                        ],
+                        "hosted_item": "GG-mush-2",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - An Infested Village",
+                "name": "Basin Keep - Trade Partners HQ",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 305,
+                        "y": 530
                     }
                 ],
                 "access_rules": 
@@ -226,26 +302,41 @@
                 ],
                 "sections": [
                     {
-                        "name": "K'tara",
+                        "name": "Tropical Chill",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "eleHeat"
+                        ],
+                        "hosted_item": "GG-chill",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Melting this Cold Fiend",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "GG-chill, boltShade, dropShade, eleShock, eleWave"
                         ],                        
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Hostage Situation",
+                "name": "Basin Keep - Gardeners HQ",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 535,
+                        "y": 590
                     }
                 ],
                 "access_rules": 
@@ -255,7 +346,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sgt Bronzler",
+                        "name": "Lakeside Escort",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -263,18 +354,33 @@
                         "access_rules": 
                         [
                             ""
-                        ],                        
+                        ],
+                        "hosted_item": "GG-escort",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rooting for Power",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "GG-escort, boltShade, dropShade, eleShock, eleWave"
+                        ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - High Crafting",
+                "name": "Basin Keep - Woodland Vanguard HQ",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 870,
+                        "y": 415
                     }
                 ],
                 "access_rules": 
@@ -284,7 +390,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sgt Bronzler",
+                        "name": "Turret Defense",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -292,18 +398,34 @@
                         "access_rules": 
                         [
                             ""
-                        ],                        
+                        ],
+                        "hosted_item": "GG-turret-1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "An Original Idea",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "GG-turret-1, boltShade, dropShade, eleWave, eleShock"
+                        ],
+                        "hosted_item": "GG-turret-2",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Tropical Chill",
+                "name": "Basin Keep - Mr Boosi Man",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 860,
+                        "y": 610
                     }
                 ],
                 "access_rules": 
@@ -313,7 +435,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mrs Basu",
+                        "name": "Pumpkin Land Superfun",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -321,18 +443,21 @@
                         "access_rules": 
                         [
                             ""
-                        ],                        
+                        ],
+                        "hosted_item": "GG-halloween",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Melting this Cold Fiend",
+                "name": "Basin Keep - Ketin D'kar",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 90,
+                        "y": 385
                     }
                 ],
                 "access_rules": 
@@ -342,26 +467,29 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mrs Basu",
+                        "name": "A Promise is a Promise 4",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],                        
+                            "dkar3, brokenDeck"
+                        ],
+                        "hosted_item": "dkar4",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Lakeside Escort",
+                "name": "Basin Keep - Talatu",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 820,
+                        "y": 142
                     }
                 ],
                 "access_rules": 
@@ -371,26 +499,29 @@
                 ],
                 "sections": [
                     {
-                        "name": "Claude Reynes",
+                        "name": "Crocus Pocus 75%",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],                        
+                            "botanics-3"
+                        ],
+                        "hosted_item": "botanics-4",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Rooting for Power",
+                "name": "Basin Keep - Weapon & Item Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 950,
+                        "y": 230
                     }
                 ],
                 "access_rules": 
@@ -400,26 +531,297 @@
                 ],
                 "sections": [
                     {
-                        "name": "Claude Reynes",
+                        "name": "Sandwich Slot - 100 Credits",
                         "visibility_rules": 
                         [
-                            "questShuffle"
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem12"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem13"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem14"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 350 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem15"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Slot - 29450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],                        
+                            "$BKEweapon1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Goggles Slot - 46750 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Slot - 29375 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Edge Slot - 46475 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Slot - 29725 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Mail Slot - 46925 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Slot - 29450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Boots Slot - 46750 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon8"
+                        ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - Turret Defense",
+                "name": "Basin Keep - Vending Machine",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 1050,
+                        "y": 450
+                    },
+                    {
+                        "map": "Basin_Keep",
+                        "x": 565,
+                        "y": 685
                     }
                 ],
                 "access_rules": 
@@ -429,26 +831,196 @@
                 ],
                 "sections": [
                     {
-                        "name": "Kacela Madaki",
+                        "name": "Sandwich Slot - 100 Credits",
                         "visibility_rules": 
                         [
-                            "questShuffle"
+                            "shopShuffle"
                         ],
-                        "access_rules": 
+                        "access_rules":
                         [
-                            ""
-                        ],                        
+                            "$BKEvendor1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor12"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor13"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor14"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 350 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor15"
+                        ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Basin Keep - An Original Idea",
+                "name": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
+                        "x": 1330,
+                        "y": 230
                     }
                 ],
                 "access_rules": 
@@ -458,131 +1030,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Kacela Madaki",
+                        "name": "One Up Slot - 60000 Credits",
                         "visibility_rules": 
                         [
-                            "questShuffle"
+                            "shopShuffle"
                         ],
-                        "access_rules": 
+                        "access_rules":
                         [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - Pumpkin Land Superfun",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "The Boosi Man",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
+                            "$BKEcalzone1, GG-mush-2"
                         ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - Sprouting Business",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Mick Calzone",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - A Promise is a Promise 4",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Ketin D'Kar",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Basin Keep - The Book of an Old Man",
-                "map_locations": [
-                    {
-                        "map": "Basin_Keep",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections": [
-                    {
-                        "name": "Old Man",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
                         "item_count": 1
                     }
                 ]
@@ -607,7 +1063,6 @@
                         "ref": "Basin Keep - Pond Slums Upper/Gold Chest",
                         "name": "Basin Keep - Pond Slums Upper - Gold Chest"
                     },
-                    
                     {
                         "ref": "Basin Keep - Pond Slums Lower/Silver Chest",
                         "name": "Basin Keep - Pond Slums Lower - Silver Chest"
@@ -617,12 +1072,196 @@
                         "name": "Basin Keep - Pond Slums Center  - Gold Chest"
                     },
                     {
-                        "ref": "Basin Keep - Centrum/Gold Chest",
-                        "name": "Basin Keep - Centrum - Gold Chest"
+                        "ref": "Basin Keep - Weapon & Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Slot - 650 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Goggles Slot - 46750 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Slot - 46750 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Edge Slot - 46475 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Slot - 46475 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Mail Slot - 46925 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Slot - 46925 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Boots Slot - 46750 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Slot - 46750 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Sandwich Slot - 100 Credits",
+                        "name": "Basin Keep - Vending Machine\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Just Water Slot - 222 Credits",
+                        "name": "Basin Keep - Vending Machine\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Kebab Roll Slot - 650 Credits",
+                        "name": "Basin Keep - Vending Machine\nKebab Roll Slot - 650 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Spicy Bun Slot - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nSpicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Fruit Drink Slot - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nFruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Rice Cracker Slot - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nRice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Veggie Sticks Slot - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Salted Peanuts Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Snack Mix Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nSnack Mix Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Slot - 60000 Credits",
+                        "name": "Basin Keep - Calzonr Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/Hostage Situation",
+                        "name": "Basin Keep - Police HQ - Hostage Situation"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/High Crating",
+                        "name": "Basin Keep - Police HQ - High Crating"
+                    },
+                    {
+                        "ref": "Basin Keep - Trade Partners HQ/Tropical Chill",
+                        "name": "Basin Keep - Trade Partners HQ - Tropical Chill"
+                    },
+                    {
+                        "ref": "Basin Keep - Trade Partners HQ/Melting this Cold Fiend",
+                        "name": "Basin Keep - Trade Partners HQ - Melting this Cold Fiend"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Lakeside Escort",
+                        "name": "Basin Keep - Gardeners HQ - Lakeside Escort"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Rooting for Power",
+                        "name": "Basin Keep - Gardeners HQ - Rooting for Power"
+                    },
+                    {
+                        "ref": "Basin Keep - Woodland Vanguard HQ/Turret Defense",
+                        "name": "Basin Keep - Woodland Vanguard HQ - Turret Defense"
+                    },
+                    {
+                        "ref": "Basin Keep - Woodland Vanguard HQ/An Original Idea",
+                        "name": "Basin Keep - Woodland Vanguard HQ - An Original Idea"
+                    },
+                    {
+                        "ref": "Basin Keep - Mr Boosi Man/Pumpkin Land Superfun",
+                        "name": "Basin Keep - Mr Boosi Man - Pumpkin Land Superfun"
+                    },
+                    {
+                        "ref": "Basin Keep - Mick Calzone/Sprouting Business",
+                        "name": "Basin Keep - Mick Calzone - Sprouting Business"
                     },
                     {
                         "ref": "Basin Keep - Calzone Basement/Mushroom Kingdom",
                         "name": "Basin Keep - Calzone Basement - Mushroom Kingdom"
+                    },
+                    {
+                        "ref": "Basin Keep - Ketin D'kar/A Promise is a Promise 4",
+                        "name": "Basin Keep - Ketin D'kar - A Promise is a Promise 4"
+                    },
+                    {
+                        "ref": "Basin Keep - Talatu/Crocus Pocus 75%",
+                        "name": "Basin Keep - Talatu - Crocus Pocus 75%"
                     }
                 ],
                 "map_locations": [
@@ -630,6 +1269,787 @@
                       "map": "WorldMap",
                       "x": 279,
                       "y": 112
+                    }
+                ]
+            }
+        ]
+    },
+    //Basin Keep Shops Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 198
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 218
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Snack Mix Slot - 350 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSnack Mix Slot - 350 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Goggles Slot - 46750 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Slot - 46750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Edge Slot - 46475 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Slot - 46475 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 438
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 458
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Mail Slot - 46925 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Slot - 46925 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 478
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 498
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Boots Slot - 46750 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Slot - 46750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 513
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Sandwich Slot - 100 Credits",
+                        "name": "Basin Keep - Vending Machine\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 653
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 673
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 693
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Just Water Slot - 222 Credits",
+                        "name": "Basin Keep - Vending Machine\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 713
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Kebab Roll Slot - 650 Credits",
+                        "name": "Basin Keep - Vending Machine\nKebab Roll Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 733
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Meaty Risotto Slot - 650 Credits",
+                        "name": "Basin Keep - Vending Machine\nMeaty Risotto Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 753
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Spicy Bun Slot - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 773
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Fruit Drink Slot - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 793
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Rice Cracker Slot - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 813
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Veggie Sticks Slot - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 833
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 853
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 880
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 902
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Salted Peanuts Slot - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 922
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Vending Machine/Snack Mix Slot - 350 Credits",
+                        "name": "Basin Keep - Vending Machine\nSnack Mix Slot - 350 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 942
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Slot - 60000 Credits",
+                        "name": "Basin Keep - Calzonr Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 442,
+                      "y": 1127
                     }
                 ]
             }

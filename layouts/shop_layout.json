@@ -1,0 +1,116 @@
+﻿{
+  "shop_grid": 
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,0",
+    "item_size": "40,40",
+    "rows": 
+    [
+      ["rookieItemShop","bergenItemShop", "bakiiItemShop", "basinItemShop", "sapphireItemShop", "rhombusItemShop", "vermillionItemShop"],
+      ["rookieWeaponShop", "bergenWeaponShop", "bakiiWeaponShop", "basinWeaponShop", "sapphireWeaponShop", "rhombusWeaponShop", "vermillionWeaponShop"],
+      ["rookieBackerChef", "bergenHermitShop", "", "basinVendor", "", "rhombusChef"],
+      ["rookieBackerWeapon", "", "", "", "", "rhombusCurio"],
+      ["rookieTaraShop", "", "", "basinCalzone"]
+    ]
+  },
+
+  "type_grid": 
+  {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "2,3",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["sandwich","hiSandwich","greenTea","justWater", "kebab"],
+      ["risotto", "spicyBun", "fruitDrink", "cracker", "veggieSticks"],
+      ["iceCream", "lemonJuice", "coffee", "peanuts", "snackMix"],
+      ["chili", "sweetTea", "oneUp", "chestDetector"],
+      ["risingStar", "dkPepper", "maultasche", "spaetzle"],
+      ["durian", "pengoPop", "beatZero", "werewolf"],
+      ["mooncake", "willis", "pumpkinCoffee", "toast"],
+      [],
+      ["brHelm", "irHelm", "stHelm", "silHelm", "tiHelm", "coHelm", "laHelm"],
+      ["brEdge", "irEdge", "stEdge", "silEdge", "tiEdge", "coEdge", "laEdge"],
+      ["brMail", "irMail", "stMail", "silMail", "tiMail", "coMail", "laMail"],
+      ["brBoots", "irBoots", "stBoots", "silBoots", "tiBoots", "coBoots", "laBoots"]
+    ]
+  },
+
+  "shop_layout":
+  {
+    "type": "container",
+    "margin": "0,0",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "array",
+          "dock": "left",
+          "orientation": "vertical",
+          "content": [
+            {
+              "type": "group",
+              "header": "Shops",
+              "content": {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "layout",
+                    "key": "shop_grid"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Types",
+              "content": {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "layout",
+                    "key": "type_grid"
+                  }
+                ]
+              }
+            }
+          ] 
+        },
+        {
+          "type": "dock",
+          "v_alignment": "stretch",
+          "margin": "0, 0, 0, 0",
+          "content": [
+              {
+                  "type": "tabbed",
+                  "dock": "top",
+                  "tabs": [
+                {
+                  "title": "Slots",
+                  "content": {
+                    "type":"map",
+                    "maps": ["ShopMap"]
+                  }
+                },   	            
+					      {
+                  "title": "Types",
+                  "content": {
+                    "type": "map",
+                    "maps": ["TypesMap"]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

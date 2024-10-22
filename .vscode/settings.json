@@ -1,0 +1,10 @@
+{
+    "Lua.diagnostics.disable": [
+        "duplicate-index",
+        "trailing-space",
+        "undefined-global"
+    ],
+    "Lua.diagnostics.globals": [
+        "Tracker"
+    ]
+}

@@ -1,12 +1,12 @@
 [
     {
         "name": "Vermillion Wasteland",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Vermillion Wasteland - Spiral Cliff Center",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -16,8 +16,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -36,6 +38,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Spiral Cliff Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -45,8 +49,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -65,6 +71,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Storage Basement",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -74,15 +82,17 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
                         "visibility_rules": 
                         [
-                            "notinuse"
+                            ""
                         ],
                         "access_rules": 
                         [
@@ -94,6 +104,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Crimson Lake Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -103,8 +115,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -123,6 +137,8 @@
             },
             {
                 "name": "Vermillion Wasteland - Crimson Lake Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -132,8 +148,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -152,6 +170,8 @@
             },
             {
                 "name": "Vermillion Wasteland - East Town Left",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -161,8 +181,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -181,6 +203,8 @@
             },
             {
                 "name": "Vermillion Wasteland - East Town Center",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -190,8 +214,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -210,6 +236,8 @@
             },
             {
                 "name": "Vermillion Wasteland - East Town Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -219,8 +247,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -239,6 +269,8 @@
             },
             {
                 "name": "Vermillion Wasteland - West Town Upper Right",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -248,8 +280,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -268,6 +302,8 @@
             },
             {
                 "name": "Vermillion Wasteland - West Town Upper Left",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -277,8 +313,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -297,6 +335,8 @@
             },
             {
                 "name": "Vermillion Wasteland - West Town Lower",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -306,8 +346,10 @@
                 ],
                 "access_rules": 
                 [
-                    "$region22",
-                    "$regionOpen18"
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
                 ],
                 "sections": [
                     {
@@ -325,7 +367,227 @@
                 ]
             },
             {
+                "name": "Vermillion Wasteland - Weapon & Item Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Vermillion_Wasteland",
+                        "x": 588,
+                        "y": 337
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$region22,vwLockOff",
+                            "$regionOpen18, vwLockOff",
+                            "$region22,vwLockOn, meteorShade",
+                            "$regionOpen18, vwLockOn, meteorShade"
+                        ],
+                "visibility_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Sandwich Slot - 100 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "",
+                            "$region3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Goggles Slot - 15850 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Slot - 29450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Edge Slot - 15800 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Slot - 29375 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Mail Slot - 16100 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Slot - 29725 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Boots Slot - 15950 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Slot - 29450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Vermillion Wasteland - Vermillion Tower",
+                "chest_unopened_img": "images/icons/creator_o.png",
+                "chest_opened_img": "images/icons/creator_x.png",
                 "map_locations": [
                     {
                         "map": "Vermillion_Wasteland",
@@ -335,8 +597,14 @@
                 ],
                 "access_rules": 
                 [
-                    "$region34",
-                    "$regionOpen19"
+                    "$region34, vwLockOff, settingVTGateOpen",
+                    "$regionOpen19, vwLockoff, settingVTGateOpen",
+                    "$region34, vwLockOff, settingVTGateClosed, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$regionOpen19, vwLockoff, settingVTGateClosed, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$region34, vwLockOn, meteorShade, settingVTGateOpen",
+                    "$regionOpen19, vwLockon, meteorShade, settingVTGateOpen",
+                    "$region34, vwLockOn, meteorShade, settingVTGateClosed, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$regionOpen19, vwLockon, meteorShade, settingVTGateClosed, minesWon, fajroWon, sonajizWon, zirvitarWon"
                 ],
                 "sections": 
 				[
@@ -348,7 +616,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "eleHeat, eleCold, eleWave, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -397,6 +665,70 @@
                     {
                         "ref": "Vermillion Wasteland - Storage Basement/Chest",
                         "name": "Vermillion Wasteland - Storage Basement - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
                     }
                 ],
                 "map_locations": [
@@ -404,6 +736,327 @@
                         "map": "WorldMap",
                         "x": 480,
                         "y": 212
+                    }
+                ]
+            }
+        ]
+    },
+    //Wasteland Shop Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 438
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 478
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 458
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 513
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 874,
+                      "y": 498
                     }
                 ]
             }

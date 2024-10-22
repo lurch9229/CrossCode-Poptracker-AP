@@ -1,13 +1,13 @@
 [
     {
         "name": "Rhombus Square",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": 
 		[
             {
                 "name": "Rhombus Square - Arena Plaza West",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -39,6 +39,8 @@
             },
             {
                 "name": "Rhombus Square - Arena Plaza East",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -70,6 +72,8 @@
             },
             {
                 "name": "Rhombus Square - Garden Boulevard North",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -101,6 +105,8 @@
             },
             {
                 "name": "Rhombus Square - Garden Boulevard South",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -132,6 +138,8 @@
             },
             {
                 "name": "Rhombus Square - South Arch",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -163,6 +171,8 @@
             },
             {
                 "name": "Rhombus Square - Lloyd Passage",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -194,6 +204,8 @@
             },
             {
                 "name": "Rhombus Square - Residential District North",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -225,6 +237,8 @@
             },
             {
                 "name": "Rhombus Square - Residential District South",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -255,13 +269,15 @@
                 ]
             },
             {
-                "name": "Rhombus Square - A Promise is a Promise 5",
+                "name": "Rhombus Square - Ketin D'kar",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Rhombus_Square",
-                        "x": 250,
-                        "y": 618
+                        "x": 390,
+                        "y": 366
                     }
                 ],
                 "access_rules": 
@@ -272,76 +288,530 @@
                 "sections": 
 				[
                     {
-                        "name": "Ketin D'Kar",
+                        "name": "A Promise is a Promise 5",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "dkar4, dkar1, dkar2, dkar3, brokenChakram"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rhombus Dungeon - Ability Chest 1",
+                "name": "Rhombus Square - Item Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Rhombus_Square",
-                        "x": 250,
-                        "y": 618
+                        "x": 632,
+                        "y": 122
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region33",
-                    "$regionOpen20"
+                    "$region33, $canGrind",
+                    "$regionOpen20, $canGrind"
                 ],
                 "sections": 
 				[
                     {
-                        "name": "Not In Use",
+                        "name": "Sandwich Slot - 100 Credits",
                         "visibility_rules": 
                         [
-                            "notinuse"
+                            "shopShuffle"
                         ],
-                        "access_rules": 
+                        "access_rules":
                         [
-                            ""
+                            "$RSitem1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem12"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem13"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem14"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 350 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem15"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rhombus Dungeon - Ability Chest 2",
+                "name": "Rhombus Square - Backer Chef Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Rhombus_Square",
-                        "x": 250,
-                        "y": 618
+                        "x": 390,
+                        "y": 366
                     }
                 ],
                 "access_rules": 
                 [
-                    "$region33",
-                    "$regionOpen20"
+                    "$region33, $canGrind",
+                    "$regionOpen20, $canGrind"
                 ],
                 "sections": 
 				[
                     {
-                        "name": "Not In Use",
+                        "name": "Rising Super Star Slot - 7777 Credits",
                         "visibility_rules": 
                         [
-                            "notinuse"
+                            "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$RSchef1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dk Pepper Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Maultasche Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Spaetzle Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Durian Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "PengoPop Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Beat-0-Type Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Werewolf Stick Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mooncake Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Willis Waldmahl Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin Spiced Coffee Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Guacamole Toast Slot - 9999 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef12"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Weapon Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 745,
+                        "y": 122
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33, $canGrind",
+                    "$regionOpen20, $canGrind"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Cobalt Goggles Slot - 71350 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Goggles Slot - 104750 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Edge Slot - 70975 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Edge Slot - 104500 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Mail Slot - 71925 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Mail Slot - 105000 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Boots Slot - 71350 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Boots Slot - 104750 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon8"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Curio Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": 
+				[
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 866,
+                        "y": 122
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region33, $canGrind",
+                    "$regionOpen20, $canGrind"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Chest Detector Slot - 33333 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RScurio1"
                         ],
                         "item_count": 1
                     }
@@ -349,7 +819,9 @@
             }
         ]
     },
-    //Rhombus Square World Mao
+
+    //Rhombus Square World Map
+    
     {
         "item_count": 1,
         "children": [
@@ -379,7 +851,6 @@
                         "ref": "Rhombus Square - South Arch/Gold Chest",
                         "name": "Rhombus Square - South Arch - Gold Chest"
                     },
-                    
                     {
                         "ref": "Rhombus Square - Residential District North/Gold Chest",
                         "name": "Rhombus Square - Residential District North - Gold Chest"
@@ -387,6 +858,66 @@
                     {
                         "ref": "Rhombus Square - Residential District South/Chest",
                         "name": "Rhombus Square - Residential District South - Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Rhombus Square - Item Shop\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Rhombus Square - Item Shop\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Rhombus Square - Item Shop\nKebab Roll Slot - 650 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Rhombus Square - Item Shop\nSpicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Rhombus Square - Item Shop\nFruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Rhombus Square - Item Shop\nRice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Salted Peanuts Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Item Shop/Snack Mix Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Ketin D'kar/A Promise is a Promise 5",
+                        "name": "Rhombus Square - Ketin D'kar - A Promise is a Promise 5"
                     }
                 ],
                 "map_locations": [
@@ -394,6 +925,728 @@
                       "map": "WorldMap",
                       "x": 279,
                       "y": 254
+                    }
+                ]
+            }
+        ]
+    },
+    //Rhombus Square Shop Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Rhombus Square - Item Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Rhombus Square - Item Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Rhombus Square - Item Shop\nKebab Roll Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Meaty Risotto Slot - 650 Credits",
+                        "name": "Rhombus Square - Item Shop\nMeaty Risotto Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Rhombus Square - Item Shop\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Rhombus Square - Item Shop\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Rhombus Square - Item Shop\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 198
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 218
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Salted Peanuts Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Item Shop/Snack Mix Slot - 350 Credits",
+                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot - 350 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 320
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Laser Goggles Slot - 104750 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nLaser Goggles Slot - 104750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cobalt Edge Slot - 70975 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Edge Slot - 70975 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Laser Edge Slot - 104500 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nLaser Edge Slot - 104500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 438
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cobalt Mail Slot - 71925 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Mail Slot - 71925 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 458
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Laser Mail Slot - 105000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nLaser Mail Slot - 105000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 478
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cobalt Boots Slot - 71350 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Boots Slot - 71350 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 493
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Laser Boots Slot - 104750 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nLaser Boots Slot - 104750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 513
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Rising Super Star Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nRising Super Star Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Dk Pepper Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nDk Pepper Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 674
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Maultasche Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nMaultacshe Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 694
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 712
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Durian Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nDurian Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 732
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/PengoPop Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nPengoPop Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 752
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 770
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Werewolf Stick Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nWerewolf Stick Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 789
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Mooncake Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nMooncake Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 808
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Willis Waldmahl Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 827
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 846
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Backer Chef Shop/Guacamole Toast Slot - 9999 Credits",
+                        "name": "Rhombus Square - Backer Chef Shop\nGuacamole Toast Slot - 9999 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 865
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Curio Shop/Chest Detector Slot - 33333 Credits",
+                        "name": "Rhombus Square - Curio Shop\nChest Detector Slot - 33333 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 728,
+                      "y": 1127
                     }
                 ]
             }

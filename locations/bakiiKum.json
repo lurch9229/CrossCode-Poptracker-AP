@@ -1,13 +1,13 @@
 [
     {
         "name": "Ba'kii Kum",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": 
 		[
             {
                 "name": "Ba'kii Kum - Solar Farm Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -39,6 +39,8 @@
             },
             {
                 "name": "Ba'kii Kum - Solar Farm Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -70,6 +72,8 @@
             },
             {
                 "name": "Ba'kii Kum - Market East",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -101,6 +105,8 @@
             },
             {
                 "name": "Ba'kii Kum - Market West",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -132,6 +138,8 @@
             },
             {
                 "name": "Ba'kii Kum - Dusty Home",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -163,6 +171,8 @@
             },
             {
                 "name": "Ba'kii Kum - Seeker Hub",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -189,17 +199,45 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Maroon Tree Defender",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$region12, eleHeat",
+                            "$regionOpen6, eleHeat"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crocus Pocus 50%",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "botanics-2"  
+                        ],
+                        "hosted_item": "botanics-3",
+                        "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Ba'kii Kum - Bazaar House",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
                         "map": "Bakii_Kum",
-                        "x": 74,
-                        "y": 411
+                        "x": 80,
+                        "y": 415
                     }
                 ],
                 "access_rules": 
@@ -225,6 +263,8 @@
             },
             {
                 "name": "Ba'kii Kum - Market Statue",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -255,13 +295,15 @@
                 ]
             },
             {
-                "name": "Ba'kii Kum - Blasting Shells",
+                "name": "Ba'kii Kum - Arid Breeze HQ",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Bakii_Kum",
-                        "x": 110,
-                        "y": 500
+                        "x": 162,
+                        "y": 432
                     }
                 ],
                 "access_rules": 
@@ -272,7 +314,7 @@
                 "sections": 
 				[
                     {
-                        "name": "Joel Mahir",
+                        "name": "Blasting Shells",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -280,19 +322,47 @@
                         "access_rules":
                         [
                             ""  
+                        ],
+                        "hosted_item": "MV-blasting",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hot Trail",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "MV-blasting"
+                        ],
+                        "hosted_item": "MV-hot-trail",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Waves of Sand",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "MV-hot-trail, meteorShade"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Ba'kii Kum - Hot Trail",
+                "name": "Ba'kii Kum - Guard HQ",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Bakii_Kum",
-                        "x": 110,
-                        "y": 500
+                        "x": 173,
+                        "y": 225
                     }
                 ],
                 "access_rules": 
@@ -303,7 +373,7 @@
                 "sections": 
 				[
                     {
-                        "name": "Joel Mahir",
+                        "name": "Shady Theft",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -311,19 +381,34 @@
                         "access_rules":
                         [
                             ""  
+                        ],
+                        "hosted_item": "MV-thief",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Deserts",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "MV-thief, flameShade, eleHeat, eleCold"  
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Ba'kii Kum - Shady Theft",
+                "name": "Ba'kii Kum - Kney'tehab",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Bakii_Kum",
                         "x": 110,
-                        "y": 500
+                        "y": 460
                     }
                 ],
                 "access_rules": 
@@ -334,7 +419,7 @@
                 "sections": 
 				[
                     {
-                        "name": "Sgt Niellos",
+                        "name": "Crate Hate",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -343,18 +428,34 @@
                         [
                             ""  
                         ],
+                        "hosted_item": "MV-crate",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steamy Booze",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "MV-crate, flameShade, eleHeat, eleCold"  
+                        ],
+                        "hosted_item": "MV-booze-1",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Ba'kii Kum - Just Deserts",
+                "name": "Ba'kii Kum - Ryda",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Bakii_Kum",
-                        "x": 110,
-                        "y": 500
+                        "x": 60,
+                        "y": 390
                     }
                 ],
                 "access_rules": 
@@ -365,21 +466,24 @@
                 "sections": 
 				[
                     {
-                        "name": "Sgt Niellos",
+                        "name": "Steamy Challenge",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules":
                         [
-                            ""  
+                            "MV-booze-1"  
                         ],
+                        "hotsed_item": "MV-booze-2",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Ba'kii Kum - Crate Hate",
+                "name": "Ba'kii Kum - Ketin D'kar",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -396,27 +500,30 @@
                 "sections": 
 				[
                     {
-                        "name": "Kney'tehab",
+                        "name": "A Promise is a Promise 3",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules":
                         [
-                            ""  
+                            "dkar2, brokenSword"  
                         ],
+                        "hosted_item": "dkar3",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Ba'kii Kum - Steamy Booze",
+                "name": "Ba'kii Kum - Weapon & Item Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
                         "map": "Bakii_Kum",
-                        "x": 110,
-                        "y": 500
+                        "x": 271,
+                        "y": 468
                     }
                 ],
                 "access_rules": 
@@ -425,78 +532,280 @@
                     "$regionOpen5"
                 ],
                 "sections": 
-				[
+				[                    
                     {
-                        "name": "Kney'tehab",
+                        "name": "Sandwich Slot - 100 Credits",
                         "visibility_rules": 
                         [
-                            "questShuffle"
+                            "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            ""  
+                            "$BKitem1"  
                         ],
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Ba'kii Kum - Steamy Challenge",
-                "map_locations": 
-				[
+                    },
                     {
-                        "map": "Bakii_Kum",
-                        "x": 110,
-                        "y": 500
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region11",
-                    "$regionOpen5"
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "Ryda",
+                        "name": "Hi-Sandwich Slot - 300 Credits",
                         "visibility_rules": 
                         [
-                            "questShuffle"
+                            "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            ""  
+                            "$BKitem2"  
                         ],
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Ba'kii Kum - A Promise is a Promise 3",
-                "map_locations": 
-				[
+                    },
                     {
-                        "map": "Bakii_Kum",
-                        "x": 110,
-                        "y": 500
-                    }
-                ],
-                "access_rules": 
-                [
-                    "$region11",
-                    "$regionOpen5"
-                ],
-                "sections": 
-				[
-                    {
-                        "name": "Ketin D'Kar",
+                        "name": "Green Leaf Tea Slot - 250 Credits",
                         "visibility_rules": 
                         [
-                            "questShuffle"
+                            "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            ""  
+                            "$BKitem3"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem4"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem5, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem6, flameShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem7"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem8"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem9"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem10"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem11"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem12"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem13, seedShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem14, seedShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 350 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKitem15, seedShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Goggles Slot - 4700 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKweapon1"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Goggles Slot - 15850 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKweapon2"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Edge Slot - 4500 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKweapon3"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Edge Slot - 15800 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKweapon4"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Mail Slot - 4800 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKweapon5"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Mail Slot - 16100 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKweapon6"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Boots Slot - 4700 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKweapon7"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Boots Slot - 15950 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKweapon8"  
                         ],
                         "item_count": 1
                     }
@@ -512,36 +821,163 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Solar Farm Upper/Chest",
-                        "name":"Ba'kii Kum - Solar Farm Upper - Chest"
+                        "name": "Ba'kii Kum - Solar Farm Upper - Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Solar Farm Lower/Chest",
-                        "name":"Ba'kii Kum - Solar Farm Lower - Chest"
+                        "name": "Ba'kii Kum - Solar Farm Lower - Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Market East/Chest",
-                        "name":"Ba'kii Kum - Market East - Chest"
+                        "name": "Ba'kii Kum - Market East - Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Market West/Bronze Chest",
-                        "name":"Ba'kii Kum - Market West - Chest"
+                        "name": "Ba'kii Kum - Market West - Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Bazaar House/Silver Chest",
-                        "name":"Ba'kii Kum - Bazaar House - SIlver Chest"
+                        "name": "Ba'kii Kum - Bazaar House - SIlver Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Dusty Home/Cursed Coin",
-                        "name":"Ba'kii Kum - Dusty Home - Cursed Coin"
+                        "name": "Ba'kii Kum - Dusty Home - Cursed Coin"
                     },
                     {
                         "ref": "Ba'kii Kum - Seeker Hub/Maroon Cave Pass",
-                        "name":"Ba'kii Kum - Seeker Hub - Maroon Cave Pass"
+                        "name": "Ba'kii Kum - Seeker Hub - Maroon Cave Pass"
                     },
-                    
                     {
                         "ref": "Ba'kii Kum - Market Statue/Yellow Sand Shade",
-                        "name":"Ba'kii Kum - Market Statue - Yellow Sand Shade"
+                        "name": "Ba'kii Kum - Market Statue - Yellow Sand Shade"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Slot - 4700 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Slot - 4700 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Edge Slot - 4500 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Slot - 4500 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Mail Slot - 4800 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Slot - 4800 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Boots Slot - 4700 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Slot - 4700 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Arid Breeze HQ/Blasting Shells",
+                        "name": "Ba'kii Kum - Arid Breeze HQ - Blasting Shells"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Arid Breeze HQ/Hot Trail",
+                        "name": "Ba'kii Kum - Arid Breeze HQ - Hot Trail"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Arid Breeze HQ/Waves of Sand",
+                        "name": "Ba'kii Kum - Arid Breeze HQ - Waves of Sand"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Guard HQ/Shady Theft",
+                        "name": "Ba'kii Kum - Guard HQ - Shady Theft"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Guard HQ/Just Deserts",
+                        "name": "Ba'kii Kum - Guard HQ - Just Deserts"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Kney'tehab/Crate Hate",
+                        "name": "Ba'kii Kum - Kney'tehab - Crate Hate"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Kney'tehab/Steamy Booze",
+                        "name": "Ba'kii Kum - Kney'tehab - Steamy Booze"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Ryda/Steamy Challenge",
+                        "name": "Ba'kii Kum - Ryda - Steamy Challenge"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Seeker Hub/Maroon Tree Defender",
+                        "name": "Ba'kii Kum - Seeker Hub - Maroon Tree Defender"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Ketin D'kar/A Promise is a Promise 3",
+                        "name": "Ba'kii Kum - Ketin D'kar - A Promise is a Promise 3"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Seeker Hub/Crocus Pocus 50%",
+                        "name": "Ba'kii Kum - Seeker Hub - Crocus Pocus 50%"
                     }
                 ],
                 "map_locations": [
@@ -553,5 +989,466 @@
                 ]
             }
         ]
+    },
+    //Bakii Kum Shops Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 198
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 218
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Snack Mix Slot - 350 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Slot - 350 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Slot - 4700 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Slot - 4700 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Edge Slot - 4500 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Slot - 4500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 438
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Mail Slot - 4800 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Slot - 4800 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 458
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 478
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Boots Slot - 4700 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Slot - 4700 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 498
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 300,
+                      "y": 515
+                    }
+                ]
+            }
+        ]
     }
-]
+]  

@@ -177,7 +177,7 @@
   {
     "name": "Mine Master Key",
     "type": "toggle",
-    "img": "images/items/ccMkey.png",
+    "img": "images/dungeons/ccMkey.png",
     "codes": "mineMaster",
     "swap_actions": false
   },
@@ -185,10 +185,10 @@
     "name": "Mine Key",
     "type": "consumable",
     "loop": "false",
-    "img": "images/items/ccKey.png",
+    "img": "images/dungeons/ccKey.png",
     "overlay_background": "#000",
     "codes": "mineKey",
-    "max_quantity": 10,
+    "max_quantity": 5,
     "initial_quantity": 0,
     "increment": 1,
 	  "swap_actions": false
@@ -196,7 +196,7 @@
   {
     "name": "Faj'ro Master Key",
     "type": "toggle",
-    "img": "images/items/ccMKey.png",
+    "img": "images/dungeons/ccMKey.png",
     "codes": "fajroMaster",
     "swap_actions": false
   },
@@ -204,7 +204,7 @@
     "name": "Faj'ro Key",
     "type": "consumable",
     "loop": "false",
-    "img": "images/items/ccKey.png",
+    "img": "images/dungeons/ccKey.png",
     "overlay_background": "#000",
     "codes": "fajroKey",
     "max_quantity": 9,
@@ -216,7 +216,7 @@
     "name": "Zir'vitar Key",
     "type": "consumable",
     "loop": "false",
-    "img": "images/items/ccKey.png",
+    "img": "images/dungeons/ccKey.png",
     "overlay_background": "#000",
     "codes": "zirvitarKey",
     "max_quantity": 2,
@@ -228,10 +228,10 @@
     "name": "So'najiz Key",
     "type": "consumable",
     "loop": "false",
-    "img": "images/items/ccKey.png",
+    "img": "images/dungeons/ccKey.png",
     "overlay_background": "#000",
     "codes": "sonajizKey",
-    "max_quantity": 5,
+    "max_quantity": 4,
     "initial_quantity": 0,
     "increment": 1,
 	  "swap_actions": false
@@ -239,7 +239,7 @@
   {
     "name": "Grand Krys'kajo Master Key",
     "type": "toggle",
-    "img": "images/items/ccMKey.png",
+    "img": "images/dungeons/ccMKey.png",
     "codes": "kryskajoMaster",
     "swap_actions": false
   },
@@ -247,7 +247,7 @@
     "name": "Grand Krys'kajo Key",
     "type": "consumable",
     "loop": "false",
-    "img": "images/items/ccKey.png",
+    "img": "images/dungeons/ccKey.png",
     "overlay_background": "#000",
     "codes": "kryskajoKey",
     "max_quantity": 2,
@@ -259,60 +259,90 @@
     "name": "Temple Mine Label",
     "type": "toggle",
     "allow_disabled": false,
-    "img": "images/items/mineLabel.png",
+    "img": "images/dungeons/mineLabel.png",
     "codes": "mineLabel"
   },
   {
     "name": "Faj'ro Temple Label",
     "type": "toggle",
     "allow_disabled": false,
-    "img": "images/items/fajroLabel.png",
+    "img": "images/dungeons/fajroLabel.png",
     "codes": "fajroLabel"
   },
   {
     "name": "Son'najiz Temple Label",
     "type": "toggle",
     "allow_disabled": false,
-    "img": "images/items/sonajizLabel.png",
+    "img": "images/dungeons/sonajizLabel.png",
     "codes": "sonajizLabel"
   },
   {
     "name": "Zir'vitar Temple Label",
     "type": "toggle",
     "allow_disabled": false,
-    "img": "images/items/zirvitarLabel.png",
+    "img": "images/dungeons/zirvitarLabel.png",
     "codes": "zirvitarLabel"
   },
   {
     "name": "Grand Krys'kajo Label",
     "type": "toggle",
     "allow_disabled": false,
-    "img": "images/items/KryskajoLabel.png",
+    "img": "images/dungeons/KryskajoLabel.png",
     "codes": "kryskajoLabel"
   },
   {
     "name": "Mines Boss",
     "type": "toggle",
-    "img": "images/items/blueIce.png",
+    "img": "images/dungeons/minesBoss.png",
     "codes": "minesWon"
   },
   {
     "name": "Fajro Boss",
     "type": "toggle",
-    "img": "images/items/redFlame.png",
+    "img": "images/dungeons/fajroBoss.png",
     "codes": "fajroWon"
   },
   {
     "name": "So'najiz Boss",
     "type": "toggle",
-    "img": "images/items/azureDrop.png",
+    "img": "images/dungeons/sonajizBoss.png",
     "codes": "sonajizWon"
   },
   {
     "name": "Zir'vitar Boss",
     "type": "toggle",
-    "img": "images/items/purpleBolt.png",
+    "img": "images/dungeons/zirvitarBoss.png",
     "codes": "zirvitarWon"
+  },
+  {
+    "name": "Broken Gauntlet",
+    "type": "toggle",
+    "img": "images/items/gauntlet.png",
+    "codes": "brokenGauntlet"
+  },
+  {
+    "name": "Broken Deck",
+    "type": "toggle",
+    "img": "images/items/deck.png",
+    "codes": "brokenDeck"
+  },
+  {
+    "name": "Broken Sword",
+    "type": "toggle",
+    "img": "images/items/sword.png",
+    "codes": "brokenSword"
+  },
+  {
+    "name": "Broken Shield",
+    "type": "toggle",
+    "img": "images/items/shield.png",
+    "codes": "brokenShield"
+  },
+  {
+    "name": "Broken Chakram",
+    "type": "toggle",
+    "img": "images/items/chakram.png",
+    "codes": "brokenChakram"
   },
   {
     "name": "Open Mode",
@@ -322,11 +352,11 @@
     "loop": false,
     "stages": [
       {
-        "img": "images/items/settingOpenMode.png",
+        "img": "images/settings/settingOpenMode.png",
         "codes": "op_OM,settingOpenModeOpen"
       },
       {
-        "img": "images/items/settingOpenModeClosed.png",
+        "img": "images/settings/settingOpenModeClosed.png",
         "codes": "op_OM,settingOpenModeClosed",
         "inherit_codes": false
       }
@@ -340,14 +370,1706 @@
     "loop": false,
     "stages": [
       {
-        "img": "images/items/settingVTGate.png",
+        "img": "images/settings/settingVTGate.png",
         "codes": "op_VT,settingVTGateOpen"
       },
       {
-        "img": "images/items/settingVTGateClosed.png",
-        "codes": "op_VT,settingVTGateClosed",
+        "img": "images/settings/settingVTGateBosses.png",
+        "codes": "op_VT,settingVTGateBosses",
         "inherit_codes": false
-      }      
+      },
+      {
+        "img": "images/settings/settingVTGateShades.png",
+        "codes": "op_VT,settingVTGateShades",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/settingVTGateBoth.png",
+        "codes": "op_VT,settingVTGateBoth",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Quest Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/settingQuestOff.png",
+        "codes": "op_QS, settingQuestShuffleOff"
+      },
+      {
+        "img": "images/settings/settingQuestOn.png",
+        "codes": "op_QS, settingQuestShuffleOn, questShuffle",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Dungeon Keyrings",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/keyringsOff.png",
+        "codes": "op_KR, settingKeyringsOff"
+      },
+      {
+        "img": "images/settings/keyrings.png",
+        "codes": "op_KR, settingKeyringsOn",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Vermillion Wasteland Lock",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/vwLockOff.png",
+        "codes": "op_VW, vwLockOff"
+      },
+      {
+        "img": "images/settings/vwLock.png",
+        "codes": "op_VW, vwLockOn",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shop Shuffle Sending",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/shopShuffleOff.png",
+        "codes": "op_SS,settingShopShuffleOff"
+      },
+      {
+        "img": "images/settings/shopShuffleSlot.png",
+        "codes": "op_SS,settingShopShuffleSlot,shopShuffle",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shopShuffleType.png",
+        "codes": "op_SS,settingShopShuffleType,shopShuffle",
+        "inherit_codes": false
+      }
+      
+    ]
+  },
+  {
+    "name": "Shop Shuffle Receiving",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/shopReceiveOff.png",
+        "codes": "op_SR,settingShopReceiveOff"
+      },
+      {
+        "img": "images/settings/shopReceiveShops.png",
+        "codes": "op_SR,settingShopReceiveShops",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shopReceiveTypes.png",
+        "codes": "op_SR,settingShopReceiveTypes",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shopReceiveSlots.png",
+        "codes": "op_SR,settingShopReceiveSlots",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Chest Locks",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/chestLocksOff.png",
+        "codes": "op_CL,settingChestLockOff"
+      },
+      {
+        "img": "images/settings/chestLocksOn.png",
+        "codes": "op_CL,settingChestLockOn",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Rookie Item Shop",
+    "type": "toggle",
+    "img": "images/shops/rookieItemsOn.png",
+    "codes": "rookieItemShop"
+  },
+  {
+    "name": "Rookie Backer Chef",
+    "type": "toggle",
+    "img": "images/shops/rookieBackerChef.png",
+    "codes": "rookieBackerChef"
+  },
+  {
+    "name": "Rookie Backer Weapon",
+    "type": "toggle",
+    "img": "images/shops/rookieBackerWeapon.png",
+    "codes": "rookieBackerWeapon"
+  },
+  {
+    "name": "Rookie Tara's Shop",
+    "type": "toggle",
+    "img": "images/shops/rookieItemsOn.png",
+    "codes": "rookieTaraShop"
+  },
+  {
+    "name": "Bergen Item Shop",
+    "type": "toggle",
+    "img": "images/shops/BergenItemsOn.png",
+    "codes": "bergenItemShop"
+  },
+  {
+    "name": "Bergen Hermit Shop",
+    "type": "toggle",
+    "img": "images/shops/BergenItemsOn.png",
+    "codes": "bergenHermitShop"
+  },
+  {
+    "name": "Bakii Item Shop",
+    "type": "toggle",
+    "img": "images/shops/bakiiItemsOn.png",
+    "codes": "bakiiItemShop"
+  },
+  {
+    "name": "Basin Item Shop",
+    "type": "toggle",
+    "img": "images/shops/basinItemsOn.png",
+    "codes": "basinItemShop"
+  },
+  {
+    "name": "Basin Vending Machine",
+    "type": "toggle",
+    "img": "images/shops/basinItemsOn.png",
+    "codes": "basinVendor"
+  },
+  {
+    "name": "Basin Calzone Shop",
+    "type": "toggle",
+    "img": "images/shops/basinItemsOn.png",
+    "codes": "basinCalzone"
+  },
+  {
+    "name": "Sapphire Item Shop",
+    "type": "toggle",
+    "img": "images/shops/sapphireItemsOn.png",
+    "codes": "sapphireItemShop"
+  },
+  {
+    "name": "Rhombus Item Shop",
+    "type": "toggle",
+    "img": "images/shops/rhombusItemsOn.png",
+    "codes": "rhombusItemShop"
+  },
+  {
+    "name": "Rhombus Backer Chef",
+    "type": "toggle",
+    "img": "images/shops/rhombusItemsOn.png",
+    "codes": "rhombusChef"
+  },
+  {
+    "name": "Rhombus Curio Shop",
+    "type": "toggle",
+    "img": "images/shops/rhombusItemsOn.png",
+    "codes": "rhombusCurio"
+  },
+  {
+    "name": "Vermillion Item Shop",
+    "type": "toggle",
+    "img": "images/shops/vermillionItemsOn.png",
+    "codes": "vermillionItemShop"
+  },
+  {
+    "name": "Rookie Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/rookieWeaponsOn.png",
+    "codes": "rookieWeaponShop"
+  },
+  {
+    "name": "Bergen Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/bergenWeaponsOn.png",
+    "codes": "bergenWeaponShop"
+  },
+  {
+    "name": "Bakii Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/bakiiWeaponsOn.png",
+    "codes": "bakiiWeaponShop"
+  },
+  {
+    "name": "Basin Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/basinWeaponsOn.png",
+    "codes": "basinWeaponShop"
+  },
+  {
+    "name": "Sapphire Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/sapphireWeaponsOn.png",
+    "codes": "sapphireWeaponShop"
+  },
+  {
+    "name": "Rhombus Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/rhombusWeaponsOn.png",
+    "codes": "rhombusWeaponShop"
+  },
+  {
+    "name": "Vermillion Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/vermillionWeaponsOn.png",
+    "codes": "vermillionWeaponShop"
+  },
+  {
+    "name": "Sandwich",
+    "type": "toggle",
+    "img": "images/food/Sandwich.png",
+    "codes": "sandwich"
+  },
+  {
+    "name": "Hi-Sandwich",
+    "type": "toggle",
+    "img": "images/food/HiSandwich.png",
+    "codes": "hiSandwich"
+  },
+  {
+    "name": "Green Leaf Tea",
+    "type": "toggle",
+    "img": "images/food/GreenTea.png",
+    "codes": "greenTea"
+  },
+  {
+    "name": "Just Water",
+    "type": "toggle",
+    "img": "images/food/Water.png",
+    "codes": "justWater"
+  },
+  {
+    "name": "Kebab Roll",
+    "type": "toggle",
+    "img": "images/food/Kebab.png",
+    "codes": "kebab"
+  },
+  {
+    "name": "Meaty Risotto",
+    "type": "toggle",
+    "img": "images/food/Risotto.png",
+    "codes": "risotto"
+  },
+  {
+    "name": "Spicy Bun",
+    "type": "toggle",
+    "img": "images/food/SpicyBun.png",
+    "codes": "spicyBun"
+  },
+  {
+    "name": "Fruit Drink",
+    "type": "toggle",
+    "img": "images/food/FruitDrink.png",
+    "codes": "fruitDrink"
+  },
+  {
+    "name": "Rice Cracker",
+    "type": "toggle",
+    "img": "images/food/RiceCracker.png",
+    "codes": "cracker"
+  },
+  {
+    "name": "Veggie Sticks",
+    "type": "toggle",
+    "img": "images/food/VeggieSticks.png",
+    "codes": "veggieSticks"
+  },
+  {
+    "name": "Bergen Ice Cream",
+    "type": "toggle",
+    "img": "images/food/IceCream.png",
+    "codes": "iceCream"
+  },
+  {
+    "name": "Sweet Lemonjuice",
+    "type": "toggle",
+    "img": "images/food/Lemonade.png",
+    "codes": "lemonJuice"
+  },
+  {
+    "name": "Cup o' Coffee",
+    "type": "toggle",
+    "img": "images/food/Coffee.png",
+    "codes": "coffee"
+  },
+  {
+    "name": "Salted Peanuts",
+    "type": "toggle",
+    "img": "images/food/Peanuts.png",
+    "codes": "peanuts"
+  },
+  {
+    "name": "Snack Mix",
+    "type": "toggle",
+    "img": "images/food/SnackMix.png",
+    "codes": "snackMix"
+  },
+  {
+    "name": "Rising Super Star",
+    "type": "toggle",
+    "img": "images/food/RisingStar.png",
+    "codes": "risingStar"
+  },
+  {
+    "name": "Dk Pepper",
+    "type": "toggle",
+    "img": "images/food/DkPepper.png",
+    "codes": "dkPepper"
+  },
+  {
+    "name": "Maultasche",
+    "type": "toggle",
+    "img": "images/food/Maultasche.png",
+    "codes": "maultasche"
+  },
+  {
+    "name": "Cheese Spaetzle",
+    "type": "toggle",
+    "img": "images/food/Spaetzle.png",
+    "codes": "spaetzle"
+  },
+  {
+    "name": "Durian",
+    "type": "toggle",
+    "img": "images/food/Durian.png",
+    "codes": "durian"
+  },
+  {
+    "name": "PengoPop",
+    "type": "toggle",
+    "img": "images/food/PengoPop.png",
+    "codes": "pengoPop"
+  },
+  {
+    "name": "Spicy Beat-0-Type",
+    "type": "toggle",
+    "img": "images/food/BeatZero.png",
+    "codes": "beatZero"
+  },
+  {
+    "name": "Werewolf Stick",
+    "type": "toggle",
+    "img": "images/food/WerewolfStick.png",
+    "codes": "werewolf"
+  },
+  {
+    "name": "Mooncake",
+    "type": "toggle",
+    "img": "images/food/Mooncake.png",
+    "codes": "mooncake"
+  },
+  {
+    "name": "Willis Waldmahl",
+    "type": "toggle",
+    "img": "images/food/WillisWaldmahl.png",
+    "codes": "willis"
+  },
+  {
+    "name": "Pumpkin Spiced Coffee",
+    "type": "toggle",
+    "img": "images/food/PumpkinSpice.png",
+    "codes": "pumpkinCoffee"
+  },
+  {
+    "name": "Guacamole Toast",
+    "type": "toggle",
+    "img": "images/food/GuacamoleToast.png",
+    "codes": "toast"
+  },
+  {
+    "name": "Sweet Berry Tea",
+    "type": "toggle",
+    "img": "images/food/SweetTea.png",
+    "codes": "sweetTea"
+  },
+  {
+    "name": "Chili Con Carne",
+    "type": "toggle",
+    "img": "images/food/Chili.png",
+    "codes": "chili"
+  },
+  {
+    "name": "One Up",
+    "type": "toggle",
+    "img": "images/food/OneUp.png",
+    "codes": "oneUp"
+  },
+  {
+    "name": "Chest Detector",
+    "type": "toggle",
+    "img": "images/shops/ChestDetector.png",
+    "codes": "chestDetector"
+  },
+  {
+    "name": "Bronze Goggles",
+    "type": "toggle",
+    "img": "images/shops/bronzeHelm.png",
+    "codes": "brHelm"
+  },
+  {
+    "name": "Iron Goggles",
+    "type": "toggle",
+    "img": "images/shops/ironHelm.png",
+    "codes": "irHelm"
+  },
+  {
+    "name": "Silver Goggles",
+    "type": "toggle",
+    "img": "images/shops/silHelm.png",
+    "codes": "silHelm"
+  },
+  {
+    "name": "Steel Goggles",
+    "type": "toggle",
+    "img": "images/shops/steelHelm.png",
+    "codes": "stHelm"
+  },
+  {
+    "name": "Titan Goggles",
+    "type": "toggle",
+    "img": "images/shops/titanHelm.png",
+    "codes": "tiHelm"
+  },
+  {
+    "name": "Cobalt Goggles",
+    "type": "toggle",
+    "img": "images/shops/cobaltHelm.png",
+    "codes": "coHelm"
+  },
+  {
+    "name": "Laser Goggles",
+    "type": "toggle",
+    "img": "images/shops/laserHelm.png",
+    "codes": "laHelm"
+  },
+  {
+    "name": "Bronze Edge",
+    "type": "toggle",
+    "img": "images/shops/bronzeEdge.png",
+    "codes": "brEdge"
+  },
+  {
+    "name": "Iron Edge",
+    "type": "toggle",
+    "img": "images/shops/ironEdge.png",
+    "codes": "irEdge"
+  },
+  {
+    "name": "Silver Edge",
+    "type": "toggle",
+    "img": "images/shops/silverEdge.png",
+    "codes": "silEdge"
+  },
+  {
+    "name": "Steel Edge",
+    "type": "toggle",
+    "img": "images/shops/steelEdge.png",
+    "codes": "stEdge"
+  },
+  {
+    "name": "Titan Edge",
+    "type": "toggle",
+    "img": "images/shops/titanEdge.png",
+    "codes": "tiEdge"
+  },
+  {
+    "name": "Cobalt Edge",
+    "type": "toggle",
+    "img": "images/shops/cobaltEdge.png",
+    "codes": "coEdge"
+  },
+  {
+    "name": "Laser Edge",
+    "type": "toggle",
+    "img": "images/shops/laserEdge.png",
+    "codes": "laEdge"
+  },
+  {
+    "name": "Bronze Mail",
+    "type": "toggle",
+    "img": "images/shops/bronzeMail.png",
+    "codes": "brMail"
+  },
+  {
+    "name": "Iron Mail",
+    "type": "toggle",
+    "img": "images/shops/ironMail.png",
+    "codes": "irMail"
+  },
+  {
+    "name": "Silver Mail",
+    "type": "toggle",
+    "img": "images/shops/silverMail.png",
+    "codes": "silMail"
+  },
+  {
+    "name": "Steel Mail",
+    "type": "toggle",
+    "img": "images/shops/steelMail.png",
+    "codes": "stMail"
+  },
+  {
+    "name": "Titan Mail",
+    "type": "toggle",
+    "img": "images/shops/titanMail.png",
+    "codes": "tiMail"
+  },
+  {
+    "name": "Cobalt Mail",
+    "type": "toggle",
+    "img": "images/shops/cobaltMail.png",
+    "codes": "coMail"
+  },
+  {
+    "name": "Laser Mail",
+    "type": "toggle",
+    "img": "images/shops/laserMail.png",
+    "codes": "laMail"
+  },
+  {
+    "name": "Bronze Boots",
+    "type": "toggle",
+    "img": "images/shops/bronzeBoots.png",
+    "codes": "brBoots"
+  },
+  {
+    "name": "Iron Boots",
+    "type": "toggle",
+    "img": "images/shops/ironBoots.png",
+    "codes": "irBoots"
+  },
+  {
+    "name": "Silver Boots",
+    "type": "toggle",
+    "img": "images/shops/silverBoots.png",
+    "codes": "silBoots"
+  },
+  {
+    "name": "Steel Boots",
+    "type": "toggle",
+    "img": "images/shops/steelBoots.png",
+    "codes": "stBoots"
+  },
+  {
+    "name": "Titan Boots",
+    "type": "toggle",
+    "img": "images/shops/titanBoots.png",
+    "codes": "tiBoots"
+  },
+  {
+    "name": "Cobalt Boots",
+    "type": "toggle",
+    "img": "images/shops/cobaltBoots.png",
+    "codes": "coBoots"
+  },
+  {
+    "name": "Laser Boots",
+    "type": "toggle",
+    "img": "images/shops/laserBoots.png",
+    "codes": "laBoots"
+  },
+  {
+    "name": "RH_item_1",
+    "type": "toggle",
+    "codes": "RHitem1"
+  },
+  {
+    "name": "RH_item_2",
+    "type": "toggle",
+    "codes": "RHitem2"
+  },
+  {
+    "name": "RH_item_3",
+    "type": "toggle",
+    "codes": "RHitem3"
+  },
+  {
+    "name": "RH_item_4",
+    "type": "toggle",
+    "codes": "RHitem4"
+  },
+  {
+    "name": "RH_item_5",
+    "type": "toggle",
+    "codes": "RHitem5"
+  },
+  {
+    "name": "RH_item_6",
+    "type": "toggle",
+    "codes": "RHitem6"
+  },
+  {
+    "name": "RH_item_7",
+    "type": "toggle",
+    "codes": "RHitem7"
+  },
+  {
+    "name": "RH_item_8",
+    "type": "toggle",
+    "codes": "RHitem8"
+  },
+  {
+    "name": "RH_item_9",
+    "type": "toggle",
+    "codes": "RHitem9"
+  },
+  {
+    "name": "RH_item_10",
+    "type": "toggle",
+    "codes": "RHitem10"
+  },
+  {
+    "name": "RH_item_11",
+    "type": "toggle",
+    "codes": "RHitem11"
+  },
+  {
+    "name": "RH_item_12",
+    "type": "toggle",
+    "codes": "RHitem12"
+  },
+  {
+    "name": "RH_item_13",
+    "type": "toggle",
+    "codes": "RHitem13"
+  },
+  {
+    "name": "RH_item_14",
+    "type": "toggle",
+    "codes": "RHitem14"
+  },
+  {
+    "name": "RH_item_15",
+    "type": "toggle",
+    "codes": "RHitem15"
+  },
+  {
+    "name": "RH_weapon_1",
+    "type": "toggle",
+    "codes": "RHweapon1"
+  },
+  {
+    "name": "RH_weapon_2",
+    "type": "toggle",
+    "codes": "RHweapon2"
+  },
+  {
+    "name": "RH_weapon_3",
+    "type": "toggle",
+    "codes": "RHweapon3"
+  },
+  {
+    "name": "RH_weapon_4",
+    "type": "toggle",
+    "codes": "RHweapon4"
+  },
+  {
+    "name": "RH_weapon_5",
+    "type": "toggle",
+    "codes": "RHweapon5"
+  },
+  {
+    "name": "RH_weapon_6",
+    "type": "toggle",
+    "codes": "RHweapon6"
+  },
+  {
+    "name": "RH_weapon_7",
+    "type": "toggle",
+    "codes": "RHweapon7"
+  },
+  {
+    "name": "RH_weapon_8",
+    "type": "toggle",
+    "codes": "RHweapon8"
+  },
+  {
+    "name": "RH_weapon_9",
+    "type": "toggle",
+    "codes": "RHweapon9"
+  },
+  {
+    "name": "RH_weapon_10",
+    "type": "toggle",
+    "codes": "RHweapon10"
+  },
+  {
+    "name": "RH_weapon_11",
+    "type": "toggle",
+    "codes": "RHweapon11"
+  },
+  {
+    "name": "RH_weapon_12",
+    "type": "toggle",
+    "codes": "RHweapon12"
+  },
+  {
+    "name": "RH_chef_1",
+    "type": "toggle",
+    "codes": "RHchef1"
+  },
+  {
+    "name": "RH_chef_2",
+    "type": "toggle",
+    "codes": "RHchef2"
+  },
+  {
+    "name": "RH_chef_3",
+    "type": "toggle",
+    "codes": "RHchef3"
+  },
+  {
+    "name": "RH_chef_4",
+    "type": "toggle",
+    "codes": "RHchef4"
+  },
+  {
+    "name": "RH_chef_5",
+    "type": "toggle",
+    "codes": "RHchef5"
+  },
+  {
+    "name": "RH_chef_6",
+    "type": "toggle",
+    "codes": "RHchef6"
+  },
+  {
+    "name": "RH_chef_7",
+    "type": "toggle",
+    "codes": "RHchef7"
+  },
+  {
+    "name": "RH_chef_8",
+    "type": "toggle",
+    "codes": "RHchef8"
+  },
+  {
+    "name": "RH_chef_9",
+    "type": "toggle",
+    "codes": "RHchef9"
+  },
+  {
+    "name": "RH_chef_10",
+    "type": "toggle",
+    "codes": "RHchef10"
+  },
+  {
+    "name": "RH_chef_11",
+    "type": "toggle",
+    "codes": "RHchef11"
+  },
+  {
+    "name": "RH_chef_12",
+    "type": "toggle",
+    "codes": "RHchef12"
+  },
+  {
+    "name": "RH_back_weapon_1",
+    "type": "toggle",
+    "codes": "RHbackWeapon1"
+  },
+  {
+    "name": "RH_back_weapon_2",
+    "type": "toggle",
+    "codes": "RHbackWeapon2"
+  },
+  {
+    "name": "RH_back_weapon_2",
+    "type": "toggle",
+    "codes": "RHbackWeapon2"
+  },
+  {
+    "name": "RH_back_weapon_3",
+    "type": "toggle",
+    "codes": "RHbackWeapon3"
+  },
+  {
+    "name": "RH_back_weapon_4",
+    "type": "toggle",
+    "codes": "RHbackWeapon4"
+  },
+  {
+    "name": "RH_back_weapon_5",
+    "type": "toggle",
+    "codes": "RHbackWeapon5"
+  },
+  {
+    "name": "RH_back_weapon_6",
+    "type": "toggle",
+    "codes": "RHbackWeapon6"
+  },
+  {
+    "name": "RH_back_weapon_7",
+    "type": "toggle",
+    "codes": "RHbackWeapon7"
+  },
+  {
+    "name": "RH_back_weapon_8",
+    "type": "toggle",
+    "codes": "RHbackWeapon8"
+  },
+  {
+    "name": "RH_tara_1",
+    "type": "toggle",
+    "codes": "RHtara1"
+  },
+  {
+    "name": "BT_hermit_1",
+    "type": "toggle",
+    "codes": "BT_hermit1"
+  },
+  {
+    "name": "BT_hermit_2",
+    "type": "toggle",
+    "codes": "BT_hermit2"
+  },
+  {
+    "name": "BT_hermit_3",
+    "type": "toggle",
+    "codes": "BT_hermit3"
+  },
+  {
+    "name": "BV_item_1",
+    "type": "toggle",
+    "codes": "BVitem1"
+  },
+  {
+    "name": "BV_item_2",
+    "type": "toggle",
+    "codes": "BVitem2"
+  },
+  {
+    "name": "BV_item_3",
+    "type": "toggle",
+    "codes": "BVitem3"
+  },
+  {
+    "name": "BV_item_4",
+    "type": "toggle",
+    "codes": "BVitem4"
+  },
+  {
+    "name": "BV_item_5",
+    "type": "toggle",
+    "codes": "BVitem5"
+  },
+  {
+    "name": "BV_item_6",
+    "type": "toggle",
+    "codes": "BVitem6"
+  },
+  {
+    "name": "BV_item_7",
+    "type": "toggle",
+    "codes": "BVitem7"
+  },
+  {
+    "name": "BV_item_8",
+    "type": "toggle",
+    "codes": "BVitem8"
+  },
+  {
+    "name": "BV_item_9",
+    "type": "toggle",
+    "codes": "BVitem9"
+  },
+  {
+    "name": "BV_item_10",
+    "type": "toggle",
+    "codes": "BVitem10"
+  },
+  {
+    "name": "BV_item_11",
+    "type": "toggle",
+    "codes": "BVitem11"
+  },
+  {
+    "name": "BV_item_12",
+    "type": "toggle",
+    "codes": "BVitem12"
+  },
+  {
+    "name": "BV_item_13",
+    "type": "toggle",
+    "codes": "BVitem13"
+  },
+  {
+    "name": "BV_item_14",
+    "type": "toggle",
+    "codes": "BVitem14"
+  },
+  {
+    "name": "BV_item_15",
+    "type": "toggle",
+    "codes": "BVitem15"
+  },
+  {
+    "name": "BV_weapon_1",
+    "type": "toggle",
+    "codes": "BVweapon1"
+  },
+  {
+    "name": "BV_weapon_2",
+    "type": "toggle",
+    "codes": "BVweapon2"
+  },
+  {
+    "name": "BV_weapon_3",
+    "type": "toggle",
+    "codes": "BVweapon3"
+  },
+  {
+    "name": "BV_weapon_4",
+    "type": "toggle",
+    "codes": "BVweapon4"
+  },
+  {
+    "name": "BK_item_1",
+    "type": "toggle",
+    "codes": "BKitem1"
+  },
+  {
+    "name": "BK_item_2",
+    "type": "toggle",
+    "codes": "BKitem2"
+  },
+  {
+    "name": "BK_item_3",
+    "type": "toggle",
+    "codes": "BKitem3"
+  },
+  {
+    "name": "BK_item_4",
+    "type": "toggle",
+    "codes": "BKitem4"
+  },
+  {
+    "name": "BK_item_5",
+    "type": "toggle",
+    "codes": "BKitem5"
+  },
+  {
+    "name": "BK_item_6",
+    "type": "toggle",
+    "codes": "BKitem6"
+  },
+  {
+    "name": "BK_item_7",
+    "type": "toggle",
+    "codes": "BKitem7"
+  },
+  {
+    "name": "BK_item_8",
+    "type": "toggle",
+    "codes": "BKitem8"
+  },
+  {
+    "name": "BK_item_9",
+    "type": "toggle",
+    "codes": "BKitem9"
+  },
+  {
+    "name": "BK_item_10",
+    "type": "toggle",
+    "codes": "BKitem10"
+  },
+  {
+    "name": "BK_item_11",
+    "type": "toggle",
+    "codes": "BKitem11"
+  },
+  {
+    "name": "BK_item_12",
+    "type": "toggle",
+    "codes": "BKitem12"
+  },
+  {
+    "name": "BK_item_13",
+    "type": "toggle",
+    "codes": "BKitem13"
+  },
+  {
+    "name": "BK_item_14",
+    "type": "toggle",
+    "codes": "BKitem14"
+  },
+  {
+    "name": "BK_item_15",
+    "type": "toggle",
+    "codes": "BKitem15"
+  },
+  {
+    "name": "BK_weapon_1",
+    "type": "toggle",
+    "codes": "BKweapon1"
+  },
+  {
+    "name": "BK_weapon_2",
+    "type": "toggle",
+    "codes": "BKweapon2"
+  },
+  {
+    "name": "BK_weapon_3",
+    "type": "toggle",
+    "codes": "BKweapon3"
+  },
+  {
+    "name": "BK_weapon_4",
+    "type": "toggle",
+    "codes": "BKweapon4"
+  },
+  {
+    "name": "BK_weapon_5",
+    "type": "toggle",
+    "codes": "BKweapon5"
+  },
+  {
+    "name": "BK_weapon_6",
+    "type": "toggle",
+    "codes": "BKweapon6"
+  },
+  {
+    "name": "BK_weapon_7",
+    "type": "toggle",
+    "codes": "BKweapon7"
+  },
+  {
+    "name": "BK_weapon_8",
+    "type": "toggle",
+    "codes": "BKweapon8"
+  },
+  {
+    "name": "BKE_item_1",
+    "type": "toggle",
+    "codes": "BKEitem1"
+  },
+  {
+    "name": "BKE_item_2",
+    "type": "toggle",
+    "codes": "BKEitem2"
+  },
+  {
+    "name": "BKE_item_3",
+    "type": "toggle",
+    "codes": "BKEitem3"
+  },
+  {
+    "name": "BKE_item_4",
+    "type": "toggle",
+    "codes": "BKEitem4"
+  },
+  {
+    "name": "BKE_item_5",
+    "type": "toggle",
+    "codes": "BKEitem5"
+  },
+  {
+    "name": "BKE_item_6",
+    "type": "toggle",
+    "codes": "BKEitem6"
+  },
+  {
+    "name": "BKE_item_7",
+    "type": "toggle",
+    "codes": "BKEitem7"
+  },
+  {
+    "name": "BKE_item_8",
+    "type": "toggle",
+    "codes": "BKEitem8"
+  },
+  {
+    "name": "BKE_item_9",
+    "type": "toggle",
+    "codes": "BKEitem9"
+  },
+  {
+    "name": "BKE_item_10",
+    "type": "toggle",
+    "codes": "BKEitem10"
+  },
+  {
+    "name": "BKE_item_11",
+    "type": "toggle",
+    "codes": "BKEitem11"
+  },
+  {
+    "name": "BKE_item_12",
+    "type": "toggle",
+    "codes": "BKEitem12"
+  },
+  {
+    "name": "BKE_item_13",
+    "type": "toggle",
+    "codes": "BKEitem13"
+  },
+  {
+    "name": "BKE_item_14",
+    "type": "toggle",
+    "codes": "BKEitem14"
+  },
+  {
+    "name": "BKE_item_15",
+    "type": "toggle",
+    "codes": "BKEitem15"
+  },
+  {
+    "name": "BKE_weapon_1",
+    "type": "toggle",
+    "codes": "BKEweapon1"
+  },
+  {
+    "name": "BKE_weapon_2",
+    "type": "toggle",
+    "codes": "BKEweapon2"
+  },
+  {
+    "name": "BKE_weapon_3",
+    "type": "toggle",
+    "codes": "BKEweapon3"
+  },
+  {
+    "name": "BKE_weapon_4",
+    "type": "toggle",
+    "codes": "BKEweapon4"
+  },
+  {
+    "name": "BKE_weapon_5",
+    "type": "toggle",
+    "codes": "BKEweapon5"
+  },
+  {
+    "name": "BKE_weapon_6",
+    "type": "toggle",
+    "codes": "BKEweapon6"
+  },
+  {
+    "name": "BKE_weapon_7",
+    "type": "toggle",
+    "codes": "BKEweapon7"
+  },
+  {
+    "name": "BKE_weapon_8",
+    "type": "toggle",
+    "codes": "BKEweapon8"
+  },
+  {
+    "name": "BKE_vendor_1",
+    "type": "toggle",
+    "codes": "BKEvendor1"
+  },
+  {
+    "name": "BKE_vendor_2",
+    "type": "toggle",
+    "codes": "BKEvendor2"
+  },
+  {
+    "name": "BKE_vendor_3",
+    "type": "toggle",
+    "codes": "BKEvendor3"
+  },
+  {
+    "name": "BKE_vendor_4",
+    "type": "toggle",
+    "codes": "BKEvendor4"
+  },
+  {
+    "name": "BKE_vendor_5",
+    "type": "toggle",
+    "codes": "BKEvendor5"
+  },
+  {
+    "name": "BKE_vendor_6",
+    "type": "toggle",
+    "codes": "BKEvendor6"
+  },
+  {
+    "name": "BKE_vendor_7",
+    "type": "toggle",
+    "codes": "BKEvendor7"
+  },
+  {
+    "name": "BKE_vendor_8",
+    "type": "toggle",
+    "codes": "BKEvendor8"
+  },
+  {
+    "name": "BKE_vendor_9",
+    "type": "toggle",
+    "codes": "BKEvendor9"
+  },
+  {
+    "name": "BKE_vendor_10",
+    "type": "toggle",
+    "codes": "BKEvendor10"
+  },
+  {
+    "name": "BKE_vendor_11",
+    "type": "toggle",
+    "codes": "BKEvendor11"
+  },
+  {
+    "name": "BKE_vendor_12",
+    "type": "toggle",
+    "codes": "BKEvendor12"
+  },
+  {
+    "name": "BKE_vendor_13",
+    "type": "toggle",
+    "codes": "BKEvendor13"
+  },
+  {
+    "name": "BKE_vendor_14",
+    "type": "toggle",
+    "codes": "BKEvendor14"
+  },
+  {
+    "name": "BKE_vendor_15",
+    "type": "toggle",
+    "codes": "BKEvendor15"
+  },
+  {
+    "name": "BKE_calzone1",
+    "type": "toggle",
+    "codes": "BKEcalzone1"
+  },
+  {
+    "name": "SR_item_1",
+    "type": "toggle",
+    "codes": "SRitem1"
+  },
+  {
+    "name": "SR_item_2",
+    "type": "toggle",
+    "codes": "SRitem2"
+  },
+  {
+    "name": "SR_item_3",
+    "type": "toggle",
+    "codes": "SRitem3"
+  },
+  {
+    "name": "SR_item_4",
+    "type": "toggle",
+    "codes": "SRitem4"
+  },
+  {
+    "name": "SR_item_5",
+    "type": "toggle",
+    "codes": "SRitem5"
+  },
+  {
+    "name": "SR_item_6",
+    "type": "toggle",
+    "codes": "SRitem6"
+  },
+  {
+    "name": "SR_item_7",
+    "type": "toggle",
+    "codes": "SRitem7"
+  },
+  {
+    "name": "SR_item_8",
+    "type": "toggle",
+    "codes": "SRitem8"
+  },
+  {
+    "name": "SR_item_9",
+    "type": "toggle",
+    "codes": "SRitem9"
+  },
+  {
+    "name": "SR_item_10",
+    "type": "toggle",
+    "codes": "SRitem10"
+  },
+  {
+    "name": "SR_item_11",
+    "type": "toggle",
+    "codes": "SRitem11"
+  },
+  {
+    "name": "SR_item_12",
+    "type": "toggle",
+    "codes": "SRitem12"
+  },
+  {
+    "name": "SR_item_13",
+    "type": "toggle",
+    "codes": "SRitem13"
+  },
+  {
+    "name": "SR_item_14",
+    "type": "toggle",
+    "codes": "SRitem14"
+  },
+  {
+    "name": "SR_item_15",
+    "type": "toggle",
+    "codes": "SRitem15"
+  },
+  {
+    "name": "SR_weapon_1",
+    "type": "toggle",
+    "codes": "SRweapon1"
+  },
+  {
+    "name": "SR_weapon_2",
+    "type": "toggle",
+    "codes": "SRweapon2"
+  },
+  {
+    "name": "SR_weapon_3",
+    "type": "toggle",
+    "codes": "SRweapon3"
+  },
+  {
+    "name": "SR_weapon_4",
+    "type": "toggle",
+    "codes": "SRweapon4"
+  },
+  {
+    "name": "SR_weapon_5",
+    "type": "toggle",
+    "codes": "SRweapon5"
+  },
+  {
+    "name": "SR_weapon_6",
+    "type": "toggle",
+    "codes": "SRweapon6"
+  },
+  {
+    "name": "SR_weapon_7",
+    "type": "toggle",
+    "codes": "SRweapon7"
+  },
+  {
+    "name": "SR_weapon_8",
+    "type": "toggle",
+    "codes": "SRweapon8"
+  },
+  {
+    "name": "RS_item_1",
+    "type": "toggle",
+    "codes": "RSitem1"
+  },
+  {
+    "name": "RS_item_2",
+    "type": "toggle",
+    "codes": "RSitem2"
+  },
+  {
+    "name": "RS_item_3",
+    "type": "toggle",
+    "codes": "RSitem3"
+  },
+  {
+    "name": "RS_item_4",
+    "type": "toggle",
+    "codes": "RSitem4"
+  },
+  {
+    "name": "RS_item_5",
+    "type": "toggle",
+    "codes": "RSitem5"
+  },
+  {
+    "name": "RS_item_6",
+    "type": "toggle",
+    "codes": "RSitem6"
+  },
+  {
+    "name": "RS_item_7",
+    "type": "toggle",
+    "codes": "RSitem7"
+  },
+  {
+    "name": "RS_item_8",
+    "type": "toggle",
+    "codes": "RSitem8"
+  },
+  {
+    "name": "RS_item_9",
+    "type": "toggle",
+    "codes": "RSitem9"
+  },
+  {
+    "name": "RS_item_10",
+    "type": "toggle",
+    "codes": "RSitem10"
+  },
+  {
+    "name": "RS_item_11",
+    "type": "toggle",
+    "codes": "RSitem11"
+  },
+  {
+    "name": "RS_item_12",
+    "type": "toggle",
+    "codes": "RSitem12"
+  },
+  {
+    "name": "RS_item_13",
+    "type": "toggle",
+    "codes": "RSitem13"
+  },
+  {
+    "name": "RS_item_14",
+    "type": "toggle",
+    "codes": "RSitem14"
+  },
+  {
+    "name": "RS_item_15",
+    "type": "toggle",
+    "codes": "RSitem15"
+  },
+  {
+    "name": "RS_weapon_1",
+    "type": "toggle",
+    "codes": "RSweapon1"
+  },
+  {
+    "name": "RS_weapon_2",
+    "type": "toggle",
+    "codes": "RSweapon2"
+  },
+  {
+    "name": "RS_weapon_3",
+    "type": "toggle",
+    "codes": "RSweapon3"
+  },
+  {
+    "name": "RS_weapon_4",
+    "type": "toggle",
+    "codes": "RSweapon4"
+  },
+  {
+    "name": "RS_weapon_5",
+    "type": "toggle",
+    "codes": "RSweapon5"
+  },
+  {
+    "name": "RS_weapon_6",
+    "type": "toggle",
+    "codes": "RSweapon6"
+  },
+  {
+    "name": "RS_weapon_7",
+    "type": "toggle",
+    "codes": "RSweapon7"
+  },
+  {
+    "name": "RS_weapon_8",
+    "type": "toggle",
+    "codes": "RSweapon8"
+  },
+  {
+    "name": "RS_chef_1",
+    "type": "toggle",
+    "codes": "RSchef1"
+  },
+  {
+    "name": "RS_chef_2",
+    "type": "toggle",
+    "codes": "RSchef2"
+  },
+  {
+    "name": "RS_chef_3",
+    "type": "toggle",
+    "codes": "RSchef3"
+  },
+  {
+    "name": "RS_chef_4",
+    "type": "toggle",
+    "codes": "RSchef4"
+  },
+  {
+    "name": "RS_chef_5",
+    "type": "toggle",
+    "codes": "RSchef5"
+  },
+  {
+    "name": "RS_chef_6",
+    "type": "toggle",
+    "codes": "RSchef6"
+  },
+  {
+    "name": "RS_chef_7",
+    "type": "toggle",
+    "codes": "RSchef7"
+  },
+  {
+    "name": "RS_chef_8",
+    "type": "toggle",
+    "codes": "RSchef8"
+  },
+  {
+    "name": "RS_chef_9",
+    "type": "toggle",
+    "codes": "RSchef9"
+  },
+  {
+    "name": "RS_chef_10",
+    "type": "toggle",
+    "codes": "RSchef10"
+  },
+  {
+    "name": "RS_chef_11",
+    "type": "toggle",
+    "codes": "RSchef11"
+  },
+  {
+    "name": "RS_chef_12",
+    "type": "toggle",
+    "codes": "RSchef12"
+  },
+  {
+    "name": "RS_curio_1",
+    "type": "toggle",
+    "codes": "RScurio1"
+  },
+  {
+    "name": "VW_item_1",
+    "type": "toggle",
+    "codes": "VWitem1"
+  },
+  {
+    "name": "VW_item_2",
+    "type": "toggle",
+    "codes": "VWitem2"
+  },
+  {
+    "name": "VW_item_3",
+    "type": "toggle",
+    "codes": "VWitem3"
+  },
+  {
+    "name": "VW_item_4",
+    "type": "toggle",
+    "codes": "VWitem4"
+  },
+  {
+    "name": "VW_item_5",
+    "type": "toggle",
+    "codes": "VWitem5"
+  },
+  {
+    "name": "VW_item_6",
+    "type": "toggle",
+    "codes": "VWitem6"
+  },
+  {
+    "name": "VW_item_7",
+    "type": "toggle",
+    "codes": "VWitem7"
+  },
+  {
+    "name": "VW_item_8",
+    "type": "toggle",
+    "codes": "VWitem8"
+  },
+  {
+    "name": "VW_weapon_1",
+    "type": "toggle",
+    "codes": "VWweapon1"
+  },
+  {
+    "name": "VW_weapon_2",
+    "type": "toggle",
+    "codes": "VWweapon2"
+  },
+  {
+    "name": "VW_weapon_3",
+    "type": "toggle",
+    "codes": "VWweapon3"
+  },
+  {
+    "name": "VW_weapon_4",
+    "type": "toggle",
+    "codes": "VWweapon4"
+  },
+  {
+    "name": "VW_weapon_5",
+    "type": "toggle",
+    "codes": "VWweapon5"
+  },
+  {
+    "name": "VW_weapon_6",
+    "type": "toggle",
+    "codes": "VWweapon6"
+  },
+  {
+    "name": "VW_weapon_7",
+    "type": "toggle",
+    "codes": "VWweapon7"
+  },
+  {
+    "name": "VW_weapon_8",
+    "type": "toggle",
+    "codes": "VWweapon8"
+  },
+  {
+    "name": "Chest Locks",
+    "type": "progressive",
+    "codes": "auto_tab",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/settingChestLocksOff.png",
+        "codes": "op_CL, settingChestLocksOff"
+      },
+      {
+        "img": "images/settings/settingChestLocksOn.png",
+        "codes": "op_CL, settingChestLocksOn"
+      }
+    ]
+  },
+  {
+    "name": "Auto Tab Switching",
+    "type": "progressive",
+    "codes": "auto_tab",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/autoTabOff.png"
+      },
+      {
+        "img": "images/settings/autoTabOn.png",
+        "codes": "auto_tab"
+      }
     ]
   }
 ]

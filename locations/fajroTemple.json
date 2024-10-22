@@ -1,13 +1,13 @@
 [
     {
         "name": "Faj'ro Temple",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": 
 		[
             {
                 "name": "Faj'ro Temple GF - Right Chamber 1",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -39,6 +39,8 @@
             },
             {
                 "name": "Faj'ro Temple 3F - Bottom Chamber",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -70,6 +72,8 @@
             },
             {
                 "name": "Faj'ro Temple 3F - Large Fire Chamber Left",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -101,6 +105,8 @@
             },
             {
                 "name": "Faj'ro Temple 3F - Large Fire Chamber Right",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -132,6 +138,8 @@
             },
             {
                 "name": "Faj'ro Temple 3F - Test of Wisdom",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -163,6 +171,8 @@
             },
             {
                 "name": "Faj'ro Temple 4F - West Pathway",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -194,6 +204,8 @@
             },
             {
                 "name": "Faj'ro Temple 4F - Test of Surprise",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -225,6 +237,8 @@
             },
             {
                 "name": "Faj'ro Temple 4F - West Chamber 1",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -256,6 +270,8 @@
             },
             {
                 "name": "Faj'ro Temple 4F - East Chamber 1",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -287,6 +303,8 @@
             },
             {
                 "name": "Faj'ro Temple 4F - East Pathway",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -318,6 +336,8 @@
             },
             {
                 "name": "Faj'ro Temple 4F - Test of Memory",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -349,6 +369,8 @@
             },
             {
                 "name": "Faj'ro Temple 4F - Chamber of Prosperity",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -380,6 +402,8 @@
             },
             {
                 "name": "Faj'ro Temple GF - Left Chamber 1",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -411,6 +435,8 @@
             },
             {
                 "name": "Faj'ro Temple GF - Fire and Sand 2",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -442,6 +468,8 @@
             },
             {
                 "name": "Faj'ro Temple GF - Balance Room 2 Left",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -473,6 +501,8 @@
             },
             {
                 "name": "Faj'ro Temple GF - Balance Room 2 Right",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -504,6 +534,8 @@
             },
             {
                 "name": "Faj'ro Temple GF - Right Chamber 2",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -534,7 +566,9 @@
                 ]
             },
             {
-                "name": "Faj'ro Temple GF - Test of Memory 1",
+                "name": "Faj'ro Temple GF - Test of Memory Right Room",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -565,7 +599,9 @@
                 ]
             },
             {
-                "name": "Faj'ro Temple GF - Test of Memory 2",
+                "name": "Faj'ro Temple GF - Test of Memory Left Room",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -597,6 +633,8 @@
             },
             {
                 "name": "Faj'ro Temple 4F - Post Boss Statue",
+                "chest_unopened_img": "images/icons/statue_o.png",
+                "chest_opened_img": "images/icons/statue_x.png",
                 "map_locations": 
 				[
                     {
@@ -624,10 +662,22 @@
                             ""
                         ],
                         "hosted_item": "fajroWon",
-                        "item_count": 1
+                        "item_count": 0
                     },
                     {
                         "name": "Circuit Override",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SP Upgrade",
                         "visibility_rules": 
                         [
                             ""
@@ -642,6 +692,8 @@
             },
             {
                 "name": "Faj'ro Temple 1F - Right Chamber 1",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -673,6 +725,8 @@
             },
             {
                 "name": "Faj'ro Temple 2F - Chamber of Ice",
+                "chest_unopened_img": "images/icons/circuitGrid.png",
+                "chest_opened_img": "images/icons/circuitGrid_o.png",
                 "map_locations": 
 				[
                     {
@@ -727,12 +781,12 @@
                         "name": "Faj'ro Temple GF - Balance Room 2 Right - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Test of Memory 1/Chest",
-                        "name": "Faj'ro Temple GF - Test of Memory 1 - Chest"
+                        "ref": "Faj'ro Temple GF - Test of Memory Left Room/Chest",
+                        "name": "Faj'ro Temple GF - Test of Memory Left Room - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Test of Memory 2/Chest",
-                        "name": "Faj'ro Temple GF - Test of Memory 2 - Chest"
+                        "ref": "Faj'ro Temple GF - Test of Memory Right Room/Chest",
+                        "name": "Faj'ro Temple GF - Test of Memory Right Room - Chest"
                     },
                     {
                         "ref": "Faj'ro Temple GF - Right Chamber 1/Chest",

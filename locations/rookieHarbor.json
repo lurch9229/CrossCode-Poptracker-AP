@@ -1,12 +1,12 @@
 [
     {
         "name": "Rookie Harbor",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
             {
                 "name": "Rookie Harbor - Marketplace",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -15,10 +15,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2",
-                            "$regionOpen2"
-                        ],
+                    [
+                        "$region2",
+                        "$regionOpen2"
+                    ],
                 "sections": [
                     {
                         "name": "Chest",
@@ -28,7 +28,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824312"
                         ],
                         "item_count": 1
                     }
@@ -36,6 +36,8 @@
             },
             {
                 "name": "Rookie Harbor - Falling Exit",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -44,10 +46,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2",
-                            "$regionOpen2"
-                        ],
+                    [
+                        "$region2, flameshade",
+                        "$regionOpen2, flameshade"
+                    ],
                 "sections": [
                     {
                         "name": "Chest",
@@ -57,7 +59,7 @@
                         ],
                         "access_rules": 
                         [
-                            "flameShade"
+                            "$newLock|3235824313"
                         ],
                         "item_count": 1
                     }
@@ -65,6 +67,8 @@
             },
             {
                 "name": "Rookie Harbor - Seeker Hub",
+                "chest_unopened_img": "images/icons/statue_o.png",
+                "chest_opened_img": "images/icons/statue_x.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -73,10 +77,10 @@
                     }
                 ],
                 "access_rules":
-                [
-                    "$region2",
-                    "$regionOpen2"
-                ],
+                    [
+                        "$region2",
+                        "$regionOpen2"
+                    ],
                 "sections": [
                     {
                         "name": "Green Leaf Shade",
@@ -101,33 +105,18 @@
                             ""
                         ],
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Weapon & Backer Shop",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 262,
-                        "y": 149
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region19",
-                            "$regionOpen8"
-                        ],
-                "sections": [
-                    {
-                        "name": "Silver Chest",
+                        "name": "Faction Introductions",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": 
                         [
-                            ""
+                            "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -135,6 +124,8 @@
             },
             {
                 "name": "Rookie Harbor - Dusty Storage",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -143,10 +134,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region19",
-                            "$regionOpen8"
-                        ],
+                    [
+                        "$region19",
+                        "$regionOpen8"
+                    ],
                 "sections": [
                     {
                         "name": "Silver Chest",
@@ -156,7 +147,7 @@
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            "$newLock|3235824315|WhiteKey"
                         ],
                         "item_count": 1
                     }
@@ -164,6 +155,8 @@
             },
             {
                 "name": "Rookie Harbor - South Harbor",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -172,10 +165,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2",
-                            "$regionOpen2"
-                        ],
+                    [
+                        "$region2",
+                        "$regionOpen2"
+                    ],
                 "sections": [
                     {
                         "name": "Gold Chest",
@@ -185,7 +178,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RadiantKey"
+                            "$newLock|3235824316|RadiantKey"
                         ],
                         "item_count": 1
                     }
@@ -193,6 +186,8 @@
             },
             {
                 "name": "Rookie Harbor - Beginner's Arc Lower",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -201,10 +196,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2",
-                            "$regionOpen2"
-                        ],
+                    [
+                        "$region2",
+                        "$regionOpen2"
+                    ],
                 "sections": [
                     {
                         "name": "Chest",
@@ -214,7 +209,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824318"
                         ],
                         "item_count": 1
                     }
@@ -222,6 +217,8 @@
             },
             {
                 "name": "Rookie Harbor - Beginner's Arc Upper",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -230,10 +227,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2",
-                            "$regionOpen2"
-                        ],
+                    [
+                        "$region2",
+                        "$regionOpen2"
+                    ],
                 "sections": [
                     {
                         "name": "Chest",
@@ -243,392 +240,263 @@
                         ],
                         "access_rules": 
                         [
+                            "$newLock|3235824317"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Mr Nomsworth",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 340,
+                        "y": 305
+                    }
+                ],
+                "access_rules": 
+                    [
+                        "$region3",
+                        "$regionOpen3"
+                    ],
+                "sections": [
+                    {
+                        "name": "Small Time Delivery",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
                             ""
                         ],
+                        "hosted_item": "RH-delivery",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Faction Introductions",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Seeker Hub Advisor",
+                        "name": "Bull Grab",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "RH-delivery"
                         ],
+                        "hosted_item": "RH-bull",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Small Time Delivery",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Mr Nomsworth",
+                        "name": "New Metal",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "$region20, RH-Bull, eleHeat, eleCold, iceShade, flameShade",
+                            "$regionOpen9, RH-Bull, eleHeat, eleCold, iceShade, flameShade"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Bull Grab",
+                "name": "Rookie Harbor - Falldivers",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 288,
+                        "y": 420
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2"
-                        ],
+                    [
+                        "$region3",
+                        "$regionOpen3"
+                    ],
                 "sections": [
                     {
-                        "name": "Mr Nomsworth",
+                        "name": "Digging for Data",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            ""
                         ],
+                        "hosted_item": "RH-data-digging",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - New Metal",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Mr Nomsworth",
+                        "name": "It can dig but it can't hide",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "RH-data-digging"
                         ],
+                        "hosted_item": "RH-hillkat",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Digging for Data",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Forerunner Elenya",
+                        "name": "Points of Power",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "$region20, RH-hillkat, eleHeat, eleCold, iceShade, flameShade",
+                            "$regionOpen9, RH-hillkat, eleHeat, eleCold, iceShade, flameShade"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - It can dig, but it can't hide",
+                "name": "Rookie Harbor - Fruits of Autumn",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 454,
+                        "y": 305
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2"
-                        ],
+                    [
+                        "$region3",
+                        "$regionOpen3"
+                    ],
                 "sections": [
                     {
-                        "name": "Forerunner Elenya",
+                        "name": "Sickly Trees",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            ""
                         ],
+                        "hosted_item": "RH-tree-1",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Points of Power",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Forerunner Elenya",
+                        "name": "Intensive Tree Care",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "RH-tree-1"
                         ],
+                        "hosted_item": "RH-tree-2",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Sickly Trees",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Chief Woodkeeper Manazana",
+                        "name": "Bull on Fire",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "$region20, RH-tree-2, iceShade, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-tree-2, iceShade, flameShade, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Intensive Tree Care",
+                "name": "Rookie Harbor - Guard HQ",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 62,
+                        "y": 300
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2"
-                        ],
+                    [
+                        "$region3",
+                        "$regionOpen3"
+                    ],
                 "sections": [
                     {
-                        "name": "Chief Woodkeeper Manazana",
+                        "name": "Petty Crime Hunter",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            ""
                         ],
+                        "hosted_item": "RH-petty",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Bull on Fire",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Chief Woodkeeper Manazana",
+                        "name": "Smuggle Trouble",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "RH-petty"
                         ],
+                        "hosted_item": "RH-smuggle-1",
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Petty Crime Hunter",
-                "map_locations": [
+                    },
                     {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Sgt. Brassler",
+                        "name": "Wet Work",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
                         [
-                            "insightDisc"
+                            "RH-smuggle-1, iceShade"
                         ],
+                        "hosted_item": "RH-smuggle-2",
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Smuggle Trouble",
+                "name": "Rookie Harbor - Sk8r Boi",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 280,
+                        "y": 730
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2"
-                        ],
+                    [
+                        "$region2",
+                        "$regionOpen2"
+                    ],
                 "sections": [
                     {
-                        "name": "Sgt. Brassler",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Wet Work",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Sgt. Brassler",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Railing Rider",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Sk8r Boi",
+                        "name": "Railing Rider",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -642,21 +510,83 @@
                 ]
             },
             {
-                "name": "Rookie Harbor - Wood 'n Steaks",
+                "name": "Rookie Harbor - Ms. Selena Teak",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 128,
+                        "y": 430
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2"
-                        ],
+                    [
+                        "$region3",
+                        "$regionOpen3"
+                    ],
                 "sections": [
                     {
-                        "name": "Ms Selena Teak",
+                        "name": "Wood 'n' Steaks",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "RH-steaks-1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meating Expectations",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "RH-steaks-1, regionOpen5",
+                            "RH-steaks-1, region11"
+                        ],
+                        "hosted_item": "RH-steaks-2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raising the Steaks",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$region20, RH-steaks-2, iceShade, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-steaks-2, iceShade, flameShade, eleHeat, eleCold"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Frosty Arnold",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 302,
+                        "y": 360
+                    }
+                ],
+                "access_rules": 
+                    [
+                        "$region3",
+                        "$regionOpen3"
+                    ],
+                "sections": [
+                    {
+                        "name": "All Hail the Ice Cream",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -670,196 +600,990 @@
                 ]
             },
             {
-                "name": "Rookie Harbor - All hail the Ice Cream",
+                "name": "Rookie Harbor - Master Sensei",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 400,
+                        "y": 580
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2"
-                        ],
+                    [
+                        "$region2",
+                        "$regionOpen2"
+                    ],
                 "sections": [
                     {
-                        "name": "Frosty Arnold",
+                        "name": "Training with The Master",
                         "visibility_rules": 
                         [
                             "questShuffle"
                         ],
                         "access_rules": 
+                        [
+                            "RH-vrp, RH-vpi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Training - VRP",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "flameShade"
+                        ],
+                        "hosted_item": "RH-vrp",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Training - VPI",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "flameShade"
+                        ],
+                        "hosted_item": "RH-vpi",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Ketin D'Kar",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 275,
+                        "y": 320
+                    }
+                ],
+                "access_rules": 
+                    [
+                        "$region2",
+                        "$regionOpen2"
+                    ],
+                "sections": [
+                    {
+                        "name": "A Promise is a Promise",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "brokenGauntlet"
+                        ],
+                        "hosted_item": "dkar1",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Talatu",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 272,
+                        "y": 80
+                    }
+                ],
+                "access_rules": 
+                    [
+                        "$region31",
+                        "$regionOpen16"
+                    ],
+                "sections": [
+                    {
+                        "name": "Crocus Pocus 100%",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "botanics-4"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Item Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 127,
+                        "y": 348
+                    }
+                ],
+                "access_rules": 
+                    [
+                        "$region2, $canGrind",
+                        "$regionOpen2, $canGrind"
+                    ],
+                "sections": [
+                    {
+                        "name": "Sandwich Slot - 100 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveSlots",
+                            "settingShopReceiveOff"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, RookieItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, RookieItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem5, iceShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem6, iceShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem8"
+                        ],
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits Have Red Flame",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem11, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem12, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem13, seedShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem14, seedShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 350 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem15, seedShade"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Item Shop Types",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 127,
+                        "y": 348
+                    }
+                ],
+                "access_rules": 
+                    [
+                        "$region2, $canGrind",
+                        "$regionOpen2, $canGrind"
+                    ],
+                "sections": [
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveSlots"
+                        ],
+                        "access_rules": 
+                        [
+                            "$typeSandwich"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$typeHiSandwich"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$typeTea"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$typeKebab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem5, iceShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem6, iceShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem8"
+                        ],
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits Have Red Flame",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem11, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem12, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem13, seedShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem14, seedShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 350 Credits Have Green Seed",
+                        "visibility_rules": 
+                        [
+                            "settingShopReceiveTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHitem15, seedShade"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Weapon Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 117,
+                        "y": 403
+                    }
+                ],
+                "access_rules": 
+                    [
+                        "$region2, $canGrind",
+                        "$regionOpen2, $canGrind"
+                    ],
+                "sections": [
+                    {
+                        "name": "Bronze Goggles Slot - 850 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Goggles Slot - 4700 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Slot - 29450 Credits Have Red Flame",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon3, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Edge Slot - 800 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Edge Slot - 4500 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Slot - 29375 Credits Have Red Flame",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon6, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Mail Slot - 900 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Mail Slot - 4800 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Slot - 29725 Credits Have Red Flame",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon9, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Boots Slot - 850 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Boots Slot - 4700 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Slot - 29450 Credits Have Red Flame",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon12, flameShade"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Backer Weapon & Chef Shop",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 262,
+                        "y": 149
+                    }
+                ],
+                "access_rules": 
+                    [
+                        "$region19",
+                        "$regionOpen8"
+                    ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": 
                         [
                             ""
                         ],
+                        "access_rules": 
+                        [
+                            "WhiteKey"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rising Super Star Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dk Pepper Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Maultasche Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Spaetzle Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Durian Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "PengoPop Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Beat-0-Type Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Werewolf Stick Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mooncake Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Willis Waldmahl Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin Spiced Coffee Slot - 7777 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Guacamole Toast Slot - 9999 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef12"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Goggles Slot - 15850 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Slot - 29450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Edge Slot - 15800 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Slot - 29375 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Mail Slot - 16100 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Slot - 29725 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Boots Slot - 15950 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Slot - 29450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon8"
+                        ],
                         "item_count": 1
                     }
                 ]
             },
             {
-                "name": "Rookie Harbor - Meating Expectations",
+                "name": "Rookie Harbor - Tara's Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
+                        "x": 471,
+                        "y": 395
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region2"
-                        ],
+                    [
+                        "$region2, $canGrind",
+                        "$regionOpen2, $canGrind"
+                    ],
                 "sections": [
                     {
-                        "name": "Ms Selena Teak",
+                        "name": "Sandwich Slot - 2500 Credits",
                         "visibility_rules": 
                         [
-                            "questShuffle"
+                            "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Training with The Master",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Master Sensei",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Training: VRP",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Master Sensei",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Training: VPI",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Master Sensei",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Raising the Steaks",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Ms Selena Teak",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            "insightDisc"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - A Promise is a Promise",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "access_rules": 
-                        [
-                            "$region2"
-                        ],
-                "sections": [
-                    {
-                        "name": "Ketin D'Kar",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
+                            "$RHtara1"
                         ],
                         "item_count": 1
                     }
@@ -867,7 +1591,7 @@
             }
         ] 
     },
-    //Rookie Harbor World Map    
+    //Rookie Harbor World Map
     {
         "item_count": 1,
         "children": [
@@ -902,8 +1626,8 @@
                         "name": "Rookie Harbor - Beginner's Arc Upper - Chest"
                     },
                     {
-                        "ref": "Rookie Harbor - Weapon & Backer Shop/Silver Chest",
-                        "name": "Rookie Harbor - Weapon & Backer Shop - Silver Chest"
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Chest",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop - Silver Chest"
                     },
                     {
                         "ref": "Rookie Harbor - Dusty Storage/Silver Chest",
@@ -926,8 +1650,1265 @@
                         "name": "Rookie Harbor - Seeker Hub - Circuit Override 4"
                     },
                     {
-                        "ref": "Rookie Harbor - Seeker Hub/Circuit Override 5",
-                        "name": "Rookie Harbor - Seeker Hub - Circuit Override 5"
+                        "ref": "Rookie Harbor - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Rookie Harbor - Item Shop\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Rookie Harbor - Item Shop\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "name": "Rookie Harbor - Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nFruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nRice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Bergen Ice Cream Slot - 450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Slot - 450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Goggles Slot - 850 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Slot - 850 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Goggles Slot - 4700 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Slot - 4700 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Goggles Slot - 29450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Goggles Slot - 29450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Edge Slot - 800 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Slot - 800 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Edge Slot - 4500 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Slot - 4500 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Edge Slot - 29375 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Slot - 29375 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Mail Slot - 900 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Slot - 900 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Mail Slot - 4800 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Slot - 4800 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Mail Slot - 29725 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Slot - 29725 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Boots Slot - 850 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Slot - 850 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Boots Slot - 4700 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Slot - 4700 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Boots Slot - 29450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Slot - 29450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nRising Super Star Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/DK Pepper Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDK Pepper Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMaultasche Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Durian Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDurian Super Star Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPengoPop Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWerewolf Stick Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMooncake Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Slot - 9999 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nGuacamole Toast Slot - 9999 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Slot - 15850 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Goggles Slot - 15850 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Slot - 29450 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Goggles Slot - 29450 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Slot - 15800 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Edge Slot - 15800 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Slot - 29375 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Edge Slot - 29375 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Slot - 16100 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Mail Slot - 16100 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Slot - 29725 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Mail Slot - 29725 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Slot - 15950 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Boots Slot - 15950 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Slot - 29450 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Boots Slot - 29450 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Seeker Hub/Faction Introductions",
+                        "name": "Rookie Harbor - Seeker Hub Advisor - Faction Introductions"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/Small Time Delivery",
+                        "name": "Rookie Harbor - Mr Nomsworth - Small Time Delivery"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/Bull Grab",
+                        "name": "Rookie Harbor - Mr Nomsworth - Bull Grab"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/New Metal",
+                        "name": "Rookie Harbor - Mr Nomsworth - New Metal"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Forerunners/Digging for Data",
+                        "name": "Rookie Harbor - Forerunners - Digging for Data"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Forerunners/It can dig but it can't hide",
+                        "name": "Rookie Harbor - Forerunners - It can dig but it can't hide"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Forerunners/Points of Power",
+                        "name": "Rookie Harbor - Forerunners - Points of Power"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Sickly Trees",
+                        "name": "Rookie Harbor - Fruits of Autumn - Sickly Trees"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Intensive Tree Care",
+                        "name": "Rookie Harbor - Fruits of Autumn - Intensive Tree Care"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Bull on Fire",
+                        "name": "Rookie Harbor - Fruits of Autumn - Bull on Fire"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Petty Crime Hunter",
+                        "name": "Rookie Harbor - Guard HQ - Petty Crime Hunter"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Smuggle Trouble",
+                        "name": "Rookie Harbor - Guard HQ - Smuggle Trouble"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Wet Work",
+                        "name": "Rookie Harbor - Guard HQ - Wet Work"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Sk8r Boi/Railing Rider",
+                        "name": "Rookie Harbor - Sk8r Boi - Railing Rider"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ms. Selena Teak/Wood 'n' Steaks",
+                        "name": "Rookie Harbor - Ms. Selena Teak - Wood 'n' Steaks"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ms. Selena Teak/Meating Expectations",
+                        "name": "Rookie Harbor - Ms Selena Teak - Meating Expectations"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ms. Selena Teak/Raising the Steaks",
+                        "name": "Rookie Harbor - Ms. Selena Teak - Raising the Steaks"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Frosty Arnold/All Hail the Ice Cream",
+                        "name": "Rookie Harbor - Frosty Arnold - All Hail the Ice Cream"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Master Sensei/Training - VRP",
+                        "name": "Rookie Harbor - Master Sensei - Training - VRP"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Master Sensei/Training - VPI",
+                        "name": "Rookie Harbor - Master Sensei - Training - VPI"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Master Sensei/Training with The Master",
+                        "name": "Rookie Harbor - Master Sensei - Training with The Master"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ketin D'Kar/A Promise is a Promise",
+                        "name": "Rookie Harbor - Ketin D'Kar - A Promise is a Promise"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Talatu/Crocus Pocus 100%",
+                        "name": "Rookie Harbor - Talatu - Crocus Pocus 100%"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "WorldMap",
+                      "x": 279,
+                      "y": 192
+                    }
+                ]
+            }
+        ]
+    },
+    //Rookie Harbor Shops Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Rookie Harbor - Item Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Rookie Harbor - Item Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "name": "Rookie Harbor - Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 198
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 218
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Bergen Ice Cream Slot - 450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Red Flame"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Slot - 450 Credits Have Red Flame"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Snack Mix Slot - 350 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot - 350 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Goggles Slot - 850 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Slot - 850 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Goggles Slot - 4700 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Slot - 4700 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Goggles Slot - 29450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapom Shop\nSilver Goggles Slot - 29450 Credits Have Red Flame"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Edge Slot - 800 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Slot - 800 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 438
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Edge Slot - 4500 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Slot - 4500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 458
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Edge Slot - 29375 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Slot - 29375 Credits Have Red Flame"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 478
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Mail Slot - 900 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Slot - 900 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 498
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Mail Slot - 4800 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Slot - 4800 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 518
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Mail Slot - 29725 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Slot - 29725 Credits Have Red Flame"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 538
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Boots Slot - 850 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Slot - 800 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 558
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Boots Slot - 4700 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Slot - 4700 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 578
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Boots Slot - 29450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Slot - 29450 Credits Have Red Flame"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 598
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nRising Super Star Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Dk Pepper Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nDk Pepper Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 674
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nMaultacshe Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 694
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 712
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Durian Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nDurian Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 732
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nPengoPop Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 752
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 770
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nWerewolf Stick Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 789
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nMooncake Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 808
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 827
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 846
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Slot - 9999 Credits",
+                        "name": "Rookie Harbor - Backer Chef Shop\nGuacamole Toast Slot - 9999 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 865
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Slot - 15850 Credits",
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Goggles Slot - 15850 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 920
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Slot - 29450 Credits",
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Goggles Slot - 29450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 939
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Slot - 15800 Credits",
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Edge Slot - 15800 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 958
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Slot - 29375 Credits",
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Edge Slot - 29375 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 977
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Slot - 16100 Credits",
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Mail Slot - 16100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 996
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Slot - 29725 Credits",
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Mail Slot - 29725 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 1015
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Slot - 15950 Credits",
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Boots Slot - 15950 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 1034
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Slot - 29450 Credits",
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Boots Slot - 29450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 1053
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Tara's Shop/Sandwich Slot - 2500 Credits",
+                        "name": "Rookie Harbor - Tara's Shop\nSandwich Slot - 2500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 11,
+                      "y": 1127
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rookie Harbor - Marketplace/Chest",
+                        "name": "Rookie Harbor - Marketplace - Chest"
                     }
                 ],
                 "map_locations": [
