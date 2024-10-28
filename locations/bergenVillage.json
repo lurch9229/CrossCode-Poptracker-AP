@@ -28,7 +28,7 @@
                         ],
                         "access_rules":
                         [
-                            "thiefKey, eleHeat"
+                            "$newLock|3235824067|thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -59,7 +59,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824065"
                         ],
                         "item_count": 1
                     }
@@ -90,7 +90,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleHeat"
+                            "$newLock|3235824066|thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -121,7 +121,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824068|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -152,7 +152,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824076"
                         ],
                         "item_count": 1
                     }
@@ -183,7 +183,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824069"
                         ],
                         "item_count": 1
                     }
@@ -214,7 +214,7 @@
                         ],
                         "access_rules":
                         [
-                            "whiteKey"
+                            "$newLock|3235824071|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -245,7 +245,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824072"
                         ],
                         "item_count": 1
                     }
@@ -276,7 +276,7 @@
                         ],
                         "access_rules":
                         [
-                            "eleHeat"
+                            "$newLock|3235824070, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -307,7 +307,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824073"
                         ],
                         "item_count": 1
                     }
@@ -399,7 +399,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824074"
                         ],
                         "item_count": 1
                     }
@@ -430,7 +430,7 @@
                         ],
                         "access_rules":
                         [
-                            "thiefKey"
+                            "$newLock|3235824075|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -776,7 +776,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": " Basement - Bronze Chest",
+                        "name": "Basement - Bronze Chest",
                         "chest_unopened_img": "images/icons/chest_bronze_x.png",
                         "chest_opened_img": "images/icons/chest_o.png",
                         "visibility_rules": 
@@ -785,8 +785,8 @@
                         ],
                         "access_rules":
                         [
-                            "eleHeat, BT_bunny, thiefKey",
-                            "mineKey:1, BT_bunny, thiefKey"
+                            "$newLock|3235824077, eleHeat, BT_bunny, thiefKey",
+                            "$newLock|3235824077, mineKey:1, BT_bunny, thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -1036,7 +1036,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Snack Mix Slot - 350 Credits Have Green Seed",
+                        "name": "Snack Mix Slot - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/SnackMix.png",
                         "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
@@ -1321,10 +1321,6 @@
                     {
                         "ref": "Bergen Village - Weapon Shop/Iron Mail Slot - 4800 Credits",
                         "name": "Bergen Village - Weapon Shop\nIron Mail Slot - 4800 Credits"
-                    },
-                    {
-                        "ref": "Bergen Village - Weapon Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Goggles Slot - 4700 Credits"
                     },
                     {
                         "ref": "Bergen Village - Weapon Shop/Iron Boots Slot - 4700 Credits",
@@ -1628,8 +1624,8 @@
             {
                 "sections": [
                     {
-                        "ref": "Bergen Village - Item Shop/Snack Mix Slot - 350 Credits Have Green Seed",
-                        "name": "Bergen Village - Item Shop\nSnack Mix Slot - 350 Credits Have Green Seed"
+                        "ref": "Bergen Village - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [

@@ -31,7 +31,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey, eleWave"
+                            "$newLock|3235824305|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -64,7 +64,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824304|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -97,7 +97,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824306|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824307|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -163,7 +163,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824308|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -196,7 +196,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824309|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -229,7 +229,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824310|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -262,7 +262,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824311"
                         ],
                         "item_count": 1
                     }
@@ -489,7 +489,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Snack Mix Slot - 350 Credits",
+                        "name": "Snack Mix Slot - 450 Credits",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1217,8 +1217,8 @@
             {
                 "sections": [
                     {
-                        "ref": "Rhombus Square - Item Shop/Snack Mix Slot - 350 Credits",
-                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot - 350 Credits"
+                        "ref": "Rhombus Square - Item Shop/Snack Mix Slot - 450 Credits",
+                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot - 450 Credits"
                     }
                 ],
                 "map_locations": [

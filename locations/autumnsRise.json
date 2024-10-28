@@ -31,7 +31,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824014"
                         ],
                         "item_count": 1
                     }
@@ -64,7 +64,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824016"
                         ],
                         "item_count": 1
                     }
@@ -97,7 +97,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824017"
                         ],
                         "item_count": 1
                     }
@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824018"
                         ],
                         "item_count": 1
                     }
@@ -163,7 +163,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824011"
                         ],
                         "item_count": 1
                     }
@@ -196,7 +196,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824012"
                         ],
                         "item_count": 1
                     }
@@ -229,7 +229,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824013"
                         ],
                         "item_count": 1
                     }
@@ -262,7 +262,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824015"
                         ],
                         "item_count": 1
                     }
@@ -295,7 +295,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824019"
                         ],
                         "item_count": 1
                     }
@@ -328,7 +328,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824020"
                         ],
                         "item_count": 1
                     }
@@ -361,7 +361,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824021"
                         ],
                         "item_count": 1
                     }
@@ -427,7 +427,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824022"
                         ],
                         "item_count": 1
                     }
@@ -460,7 +460,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824023"
                         ],
                         "item_count": 1
                     }
@@ -493,7 +493,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824026"
                         ],
                         "item_count": 1
                     }
@@ -526,7 +526,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824025"
                         ],
                         "item_count": 1
                     }
@@ -559,7 +559,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824024"
                         ],
                         "item_count": 1
                     }
@@ -592,7 +592,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824028"
                         ],
                         "item_count": 1
                     }
@@ -625,7 +625,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824027"
                         ],
                         "item_count": 1
                     }
@@ -658,7 +658,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824029"
                         ],
                         "item_count": 1
                     }
@@ -725,7 +725,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824031"
                         ],
                         "item_count": 1
                     }
@@ -758,7 +758,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824030|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -791,7 +791,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824032"
                         ],
                         "item_count": 1
                     }
@@ -824,7 +824,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824033"
                         ],
                         "item_count": 1
                     }
@@ -857,7 +857,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824034"
                         ],
                         "item_count": 1
                     }
@@ -890,7 +890,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824036"
                         ],
                         "item_count": 1
                     }
@@ -923,7 +923,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824035"
                         ],
                         "item_count": 1
                     }
@@ -1036,6 +1036,7 @@
                         [
                             "AR-TB-collect, AR-TB-defeat, AR-TB-poi, AR-TB-probe"
                         ],
+                        "hosted_item": "AR-TB-done",
                         "item_count": 1
                     },
                     {

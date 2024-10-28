@@ -29,7 +29,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleShock"
+                            "$newLock|3235824130|thiefKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -60,7 +60,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey, eleShock, eleWave"
+                            "$newLock|3235824131|radiantKey, eleShock, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -91,7 +91,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824132|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -122,7 +122,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824134"
                         ],
                         "item_count": 1
                     }
@@ -153,7 +153,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824133|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -184,7 +184,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824135|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -215,7 +215,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824136|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -246,7 +246,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824138|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -277,7 +277,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824137|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -308,7 +308,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824140|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -339,7 +339,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824139|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -370,7 +370,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824150|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -401,7 +401,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824151|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -432,7 +432,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824141"
                         ],
                         "item_count": 1
                     }
@@ -463,7 +463,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824142|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -494,7 +494,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824143"
                         ],
                         "item_count": 1
                     }
@@ -526,7 +526,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824144|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -557,7 +557,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824146|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -588,7 +588,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824145|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -619,7 +619,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824147|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -650,7 +650,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824148|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -681,7 +681,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824149|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -712,7 +712,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824153"
                         ],
                         "item_count": 1
                     }
@@ -743,7 +743,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824152|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -805,7 +805,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824154|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -836,7 +836,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824155|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -867,7 +867,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824156|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -898,7 +898,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824157|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -929,7 +929,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824158|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -960,7 +960,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824159|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -991,7 +991,7 @@
                         ],
                         "access_rules": 
                         [
-                            "eleShock, thiefKey"
+                            "$newLock|3235824162|thiefKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -1022,7 +1022,7 @@
                         ],
                         "access_rules": 
                         [
-                            "eleShock, whiteKey"
+                            "$newLock|3235824161|whiteKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -1053,7 +1053,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824160|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1084,7 +1084,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey, eleShock"
+                            "$newLock|3235824164|whiteKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -1115,7 +1115,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey, eleShock"
+                            "$newLock|3235824163|radiantKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -1146,7 +1146,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824165|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -1177,7 +1177,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824166|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1208,7 +1208,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824167|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1270,7 +1270,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824168|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1301,7 +1301,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey, eleWave"
+                            "$newLock|3235824171|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1332,7 +1332,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey, eleWave"
+                            "$newLock|3235824170|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1363,7 +1363,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey, eleWave"
+                            "$newLock|3235824169|radiantKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1394,7 +1394,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824172|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -1804,7 +1804,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Snack Mix Slot - 350 Credits",
+                        "name": "Snack Mix Slot - 450 Credits",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -2400,8 +2400,8 @@
             {
                 "sections": [
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Slot - 350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot - 350 Credits"
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot - 450 Credits"
                     }
                 ],
                 "map_locations": [

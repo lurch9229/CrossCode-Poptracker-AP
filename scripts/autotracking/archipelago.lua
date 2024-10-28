@@ -224,11 +224,10 @@ end
 slotIds = {}
 
 function getLocksFromSlot(slot_data)
-    local slotIds = {}
     for id, info in pairs(slot_data["options"]["chestClearanceLevels"]) do
-        table.insert(slotIds, {id = id, lockType = info})
+        slotIds[id]=info
     end
-    print("slotIDs", dump_table(slotIds))
+    -- print("slotIDs", dump_table(slotIds))
     idCheck(slotIds)
 end
 
@@ -255,23 +254,29 @@ keyMapping = {
 }
 -- Change clearanceLevel for id
 function newLock(location_id, defaultKey)
+    -- If tracker is in stage 0
     if Tracker:FindObjectForCode("op_CL").CurrentStage == 0 then
         if defaultKey == nil then
             return true
         else
             return Tracker:FindObjectForCode(defaultKey).Active
         end
+    -- If tracker is in stage 1
     elseif Tracker:FindObjectForCode("op_CL").CurrentStage == 1 then
-        if slotIds[location_id]["id"] == nil then
+        if slotIds[location_id] == nil then
             if defaultKey == nil then
+                -- print(location_id,"setting on, no slot ID and no default key")
                 return true
             else
+                -- print(location_id,"setting on, Returning active status for default key, no slot ID:", defaultKey)
                 return Tracker:FindObjectForCode(defaultKey).Active
             end
         else
-            if slotIds[location_id]["id"] == "Default" then
+            if slotIds[location_id] == "Default" then
+                -- print(location_id,"setting on, slot ID is default lock")
                 return true
             else
+                -- print(location_id, "setting on, Returning active status for key mapping:", keyMapping[slotIds[location_id]])
                 return Tracker:FindObjectForCode(keyMapping[slotIds[location_id]]).Active
             end
         end

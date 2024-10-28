@@ -31,7 +31,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824208"
                         ],
                         "item_count": 1
                     }
@@ -64,7 +64,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824209"
                         ],
                         "item_count": 1
                     }
@@ -97,7 +97,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824210|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824211|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -163,7 +163,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824212"
                         ],
                         "item_count": 1
                     }
@@ -196,7 +196,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824213"
                         ],
                         "item_count": 1
                     }
@@ -229,7 +229,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824214"
                         ],
                         "item_count": 1
                     }
@@ -262,7 +262,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824215"
                         ],
                         "item_count": 1
                     }
@@ -295,7 +295,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824216"
                         ],
                         "item_count": 1
                     }
@@ -328,7 +328,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824217|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -361,7 +361,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824218"
                         ],
                         "item_count": 1
                     }
@@ -394,7 +394,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824219"
                         ],
                         "item_count": 1
                     }
@@ -427,7 +427,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824220"
                         ],
                         "item_count": 1
                     }
@@ -460,7 +460,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824221"
                         ],
                         "item_count": 1
                     }
@@ -493,7 +493,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824223"
                         ],
                         "item_count": 1
                     }
@@ -526,7 +526,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824222"
                         ],
                         "item_count": 1
                     }
@@ -559,7 +559,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824225"
                         ],
                         "item_count": 1
                     }
@@ -592,7 +592,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824227"
                         ],
                         "item_count": 1
                     }
@@ -625,7 +625,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824226"
                         ],
                         "item_count": 1
                     }
@@ -717,7 +717,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824224"
                         ],
                         "item_count": 1
                     }

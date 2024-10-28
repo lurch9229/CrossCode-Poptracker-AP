@@ -1245,17 +1245,17 @@
   {
     "name": "BT_hermit_1",
     "type": "toggle",
-    "codes": "BT_hermit1"
+    "codes": "BTHermit1"
   },
   {
     "name": "BT_hermit_2",
     "type": "toggle",
-    "codes": "BT_hermit2"
+    "codes": "BTHermit2"
   },
   {
     "name": "BT_hermit_3",
     "type": "toggle",
-    "codes": "BT_hermit3"
+    "codes": "BTHermit3"
   },
   {
     "name": "BV_item_1",

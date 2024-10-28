@@ -70,7 +70,7 @@ ITEM_MAPPING =
 [3235824615] = {"brokenChakram", "toggle"}, -- Broken Chakrams, progressive
 -- Shops
 
--- Rookie
+-- Rookie Items
 [3235924225] = {"rookieItemShop", "toggle"}, -- Rookie Item Shop Unlock
 [3235924226] = {"RHitem1", "toggle"}, -- Rookie Item Shop Slot 1 Unlock
 [3235924227] = {"sandwich", "toggle"}, -- Global Sandwich Slot Unlock
@@ -85,7 +85,7 @@ ITEM_MAPPING =
 [3235924236] = {"RHitem8", "toggle"}, -- Rookie Item Shop Slot 8 Unlock
 [3235924237] = {"fruitDrink", "toggle"}, -- Global Fruit Drink Slot Unlock
 [3235924238] = {"RHitem9", "toggle"}, -- Rookie Item Slot 9 Unlock
-[3235924239] = {"riceCracker", "toggle"}, -- Global Rice Cracker Slot Unlock
+[3235924239] = {"cracker", "toggle"}, -- Global Rice Cracker Slot Unlock
 [3235924240] = {"RHitem10", "toggle"}, -- Rookie Item Shop Slot 10 Unlock
 [3235924241] = {"veggieSticks", "toggle"}, -- Global Veggie Sticks Slot Unlock
 [3235924242] = {"RHitem5", "toggle"}, -- Rookie Item Shop Slot 5 Unlock
@@ -102,6 +102,7 @@ ITEM_MAPPING =
 [3235924253] = {"coffee", "toggle"}, -- Global Cup o Coffee Slot Unlock
 [3235924254] = {"RHitem15", "toggle"}, -- Rookie Item Shop Slot 15 Unlock
 [3235924255] = {"snackMix", "toggle"}, -- Global Snack Mix Slot Unlock
+-- Rookie Weapons
 [3235924256] = {"rookieWeaponShop", "toggle"}, -- Rookie Weapon Shop Unlock
 [3235924257] = {"RHweapon1", "toggle"}, -- Rookie Weapon Slot 1 Unlock (brHelm)
 [3235924258] = {"brHelm", "toggle"}, -- Global Bronze Goggles Slot Unlock
@@ -115,9 +116,9 @@ ITEM_MAPPING =
 [3235924266] = {"irHelm", "toggle"}, -- Global Iron Goggles Slot Unlock
 [3235924267] = {"RHweapon5", "toggle"}, -- Rookie Weapon Slot 5 Unlock (irEdge)
 [3235924268] = {"irEdge", "toggle"}, -- Global Iron Edge Slot Unlock
-[3235924269] = {"RHweapons8", "toggle"}, -- Rookie Weapons Slot 8 Unlock (irMail)
+[3235924269] = {"RHweapon8", "toggle"}, -- Rookie Weapons Slot 8 Unlock (irMail)
 [3235924270] = {"irMail", "toggle"}, -- Global Iron Mail Slot Unlock
-[3235924271] = {"RHweapons11", "toggle"}, -- Rookie Weapons Slot 11 Unlock (irBoots)
+[3235924271] = {"RHweapon11", "toggle"}, -- Rookie Weapons Slot 11 Unlock (irBoots)
 [3235924272] = {"irBoots", "toggle"}, -- Global Iron Boots Slot Unlock
 [3235924273] = {"RHweapon3", "toggle"}, -- Rookie Weapon Slot 3 Unlock (silHelm)
 [3235924274] = {"silHelm", "toggle"}, -- Global Silver Goggles Unlock
@@ -127,6 +128,7 @@ ITEM_MAPPING =
 [3235924278] = {"silMail", "toggle"}, -- Global Silver Mail Slot Unlock
 [3235924279] = {"RHweapon12", "toggle"}, -- Rookie Weapon Slot 12 Unlock (silBoots)
 [3235924280] = {"silBoots", "toggle"}, -- Global Silver Boots Unlock
+-- Rookie Weapons Backer
 [3235924281] = {"rookieBackerWeapon", "toggle"}, -- Rookie Backer Weapon Shop Unlock
 [3235924282] = {"RHbackWeapon1", "toggle"}, -- Backer Weapon Slot 1 Unlock (stHelm)
 [3235924283] = {"stHelm", "toggle"}, -- Global Steel Helm Unlock
@@ -140,8 +142,10 @@ ITEM_MAPPING =
 [3235924291] = {"RHbackWeapon4", "toggle"}, -- Backer Weapon Slot 4 (silEdge)
 [3235924292] = {"RHbackWeapon6", "toggle"}, -- Backer Weapon Slot 6 (silMail)
 [3235924293] = {"RHbackWeapon8", "toggle"}, -- Backer Weapon Slot 8 (silBoots)
+-- Rookie Tara
 [3235924294] = {"rookieTaraShop", "toggle"}, -- Rookie Tara's Shop Unlock
 [3235924295] = {"RHtara1", "toggle"}, -- Tara Slot 1 Unlock
+-- Rookie Chef
 [3235924296] = {"rookieBackerChef", "toggle"}, -- Rookie Backer Chef Shop Unlock
 [3235924297] = {"RHchef1", "toggle"}, -- Rookie Chef Slot 1 Unlock
 [3235924298] = {"risingStar", "toggle"}, -- Global Rising Super Star Slot
@@ -167,7 +171,7 @@ ITEM_MAPPING =
 [3235924318] = {"willis", "toggle"}, -- Global Willis Waldmahl Slot
 [3235924319] = {"RHchef11", "toggle"}, -- Rookie Chef Slot 11
 [3235924320] = {"pumpkinCoffee", "toggle"}, -- Global Pumpkin Spiced Coffee Slot
--- Bergen
+-- Bergen Items
 [3235924321] = {"bergenItemShop", "toggle"}, -- Bergen Item Shop Unlock
 [3235924322] = {"BVitem1", "toggle"}, -- Bergen Item Slot 1 (sandwich)
 [3235924323] = {"BVitem2", "toggle"}, -- Bergen Item Slot 2 (hi-sandwich)
@@ -184,18 +188,20 @@ ITEM_MAPPING =
 [3235924334] = {"BVitem14", "toggle"}, -- Bergen Item Slot 14 (peanuts)
 [3235924335] = {"BVitem13", "toggle"}, -- Bergen Item Slot 13 (coffee)
 [3235924336] = {"BVitem15", "toggle"}, -- Bergen Item Slot 15 (snackMix)
+-- Bergen Weapons
 [3235924337] = {"BergenWeaponShop", "toggle"}, -- Bergen Weapon Shop Unlock
 [3235924338] = {"BVweapon1", "toggle"}, -- Bergen Weapon Slot 1 (irHelm)
 [3235924339] = {"BVweapon2", "toggle"}, -- Bergen Weapon Slot 2 (irEdge)
 [3235924340] = {"BVweapon3", "toggle"}, -- Bergen Weapon Slot 3 (irMail)
 [3235924341] = {"BVweapon4", "toggle"}, -- Bergen Weapon Slot 4 (irBoots)
 [3235924342] = {"BergenHermitShop", "toggle"}, -- Bergen Trail Hermit Hut Shop Unlock
-[3235924343] = {"BThermit2", "toggle"}, -- Bergen Hermit Slot 2
+[3235924343] = {"BTHermit2", "toggle"}, -- Bergen Hermit Slot 2
 [3235924344] = {"chili", "toggle"}, -- Global Chili Con Carne Slot
-[3235924345] = {"BThermit3", "toggle"}, -- Bergen Hermit Slot 3
-[3235924346] = {"BThermit1", "toggle"}, -- Bergen Hermit Slot 1
+-- Bergen Hermit
+[3235924345] = {"BTHermit3", "toggle"}, -- Bergen Hermit Slot 3
+[3235924346] = {"BTHermit1", "toggle"}, -- Bergen Hermit Slot 1
 [3235924347] = {"sweetTea", "toggle"}, -- Global Sweet Berry Tea Slot
---Bakii
+--Bakii Items
 [3235924348] = {"bakiiItemShop", "toggle"}, -- Bakii Item Shop Unlock
 [3235924349] = {"BKitem1", "toggle"}, -- Bakii Item Slot 1 (sandwich)
 [3235924350] = {"BKitem2", "toggle"}, -- Bakii Item Slot 2 (hi-sandwich)
@@ -212,6 +218,7 @@ ITEM_MAPPING =
 [3235924361] = {"BKitem14", "toggle"}, -- Bakii Item Slot 14 (peanuts)
 [3235924362] = {"BKitem13", "toggle"}, -- Bakii Item Slot 13 (coffee)
 [3235924363] = {"BKitem15", "toggle"}, -- Bakii Item Slot 15 (snackMix)
+-- Bakii Weapons
 [3235924364] = {"BakiiWeaponShop", "toggle"}, -- Bakii Weapon Shop Unlock
 [3235924365] = {"BKweapon1", "toggle"}, -- Bakii Weapon Slot 1 (irHelm)
 [3235924366] = {"BKweapon3", "toggle"}, -- Bakii Weapon Slot 3 (irEdge)
@@ -221,7 +228,7 @@ ITEM_MAPPING =
 [3235924370] = {"BKweapon4", "toggle"}, -- Bakii Weapon Slot 4 (stEdge)
 [3235924371] = {"BKweapon6", "toggle"}, -- Bakii Weapon Slot 6 (stMail)
 [3235924372] = {"BKweapon8", "toggle"}, -- Bakii Weapon Slot 8 (stBoots)
--- Basin
+-- Basin Vendor
 [3235924373] = {"basinVendor", "toggle"}, -- Basin Vending Machine Unlock
 [3235924374] = {"BKEvendor1", "toggle"}, -- Basin Vendor Item Slot 1 (sandwich)
 [3235924375] = {"BKEvendor2", "toggle"}, -- Basin Vendor Item Slot 2 (hi-sandwich)
@@ -238,7 +245,8 @@ ITEM_MAPPING =
 [3235924386] = {"BKEvendor14", "toggle"}, -- Basin Vendor Item Slot 14 (peanuts)
 [3235924387] = {"BKEvendor13", "toggle"}, -- Basin Vendor Item Slot 13 (coffee)
 [3235924388] = {"BKEvendor15", "toggle"}, -- Basin Vendor Item Slot 15 (snackMix)
-[3235924389] = {"basinItems", "toggle"}, -- Basin Item Shop Unlock
+-- Basin Items
+[3235924389] = {"basinItemShop", "toggle"}, -- Basin Item Shop Unlock
 [3235924390] = {"BKEitem1", "toggle"}, -- Basin Item Slot 1 (sandwich)
 [3235924391] = {"BKEitem2", "toggle"}, -- Basin Item Slot 2 (hi-sandwich)
 [3235924392] = {"BKEitem3", "toggle"}, -- Basin Item Slot 3 (leafTea)
@@ -254,7 +262,8 @@ ITEM_MAPPING =
 [3235924402] = {"BKEitem14", "toggle"}, -- Basin Item Slot 14 (peanuts)
 [3235924403] = {"BKEitem13", "toggle"}, -- Basin Item Slot 13 (coffee)
 [3235924404] = {"BKEitem15", "toggle"}, -- Basin Item Slot 15 (snackMix)
-[3235924405] = {"basinWeapons", "toggle"}, -- Basin  Weapon Shop Unlock
+-- Basin Weapons
+[3235924405] = {"basinWeaponShop", "toggle"}, -- Basin  Weapon Shop Unlock
 [3235924406] = {"BKEweapon1", "toggle"}, -- Basin Keep Weapon Slot 1 (silHelm)
 [3235924407] = {"BKEweapon3", "toggle"}, -- Basin Keep Weapon Slot 3 (silEdge)
 [3235924408] = {"BKEweapon5", "toggle"}, -- Basin Keep Weapon Slot 5 (silMail)
@@ -267,11 +276,12 @@ ITEM_MAPPING =
 [3235924415] = {"tiMail", "toggle"}, -- Global Titan Mail Slot
 [3235924416] = {"BKEweapon8", "toggle"}, -- Basin Keep Weapon Slot 8 (tiBoots)
 [3235924417] = {"tiBoots", "toggle"}, -- Global Titan Boots Slot
+-- Basin Calzone
 [3235924418] = {"basinCalzone", "toggle"}, -- Basin Calzone Shop Unlock
 [3235924419] = {"BKEcalzone1", "toggle"}, -- Calzone Slot 1 (oneUp)
 [3235924420] = {"oneUp", "toggle"}, -- Global One Up Slot
--- Sapphire
-[3235924421] = {"sapphireWeapons", "toggle"}, -- Sapphire Weapons Shop Unlock
+-- Sapphire Weapons
+[3235924421] = {"sapphireWeaponShop", "toggle"}, -- Sapphire Weapons Shop Unlock
 [3235924422] = {"SRweapon1", "toggle"}, -- Sapphire Weapon Slot 1 (tiHelm)
 [3235924423] = {"SRweapon3", "toggle"}, -- Sapphire Weapon Slot 3 (tiEdge)
 [3235924424] = {"SRweapon5", "toggle"}, -- Sapphire Weapon Slot 5 (tiMail)
@@ -285,6 +295,7 @@ ITEM_MAPPING =
 [3235924432] = {"SRweapon8", "toggle"}, -- Sapphire Weapon Slot 8 (coBoots)
 [3235924433] = {"coBoots", "toggle"}, -- Global Cobalt Boots Slot
 [3235924434] = {"sapphireItemShop", "toggle"}, -- Sapphire Item Shop Unlock
+-- Sapphire Items
 [3235924435] = {"SRitem1", "toggle"}, -- Sapphire Item Slot 1 (sandwich)
 [3235924436] = {"SRitem2", "toggle"}, -- Sapphire Item Slot 2 (hi-sandwich)
 [3235924437] = {"SRitem3", "toggle"}, -- Sapphire Item Slot 3 (leafTea)
@@ -300,7 +311,7 @@ ITEM_MAPPING =
 [3235924447] = {"SRitem14", "toggle"}, -- Sapphire Item Slot 14 (peanuts)
 [3235924448] = {"SRitem13", "toggle"}, -- Sapphire Item Slot 13 (coffee)
 [3235924449] = {"SRitem15", "toggle"}, -- Sapphire Item Slot 15 (snackMix)
--- Rhombus
+-- Rhombus Weapons
 [3235924450] = {"rhombusWeaponShop", "toggle"}, -- Rhombus Weapon Shop Unlock
 [3235924451] = {"RSweapon2", "toggle"}, -- Rhombus Weapon Slot 2 (laHelm)
 [3235924452] = {"laHelm", "toggle"}, -- Global Laser Goggles Slot
@@ -310,6 +321,7 @@ ITEM_MAPPING =
 [3235924456] = {"laMail", "toggle"}, -- Global Laser Mail Slot
 [3235924457] = {"RSweapon8", "toggle"}, -- Rhombus Weapon Slot 8 (laBoots)
 [3235924458] = {"laBoots", "toggle"}, -- Global Laser Boots Slot
+-- Rhombus Items
 [3235924459] = {"rhombusItemShop", "toggle"}, -- Rhombus Item Shop Unlock
 [3235924460] = {"RSitem1", "toggle"}, -- Rhombus Item Slot 1 (sandwich)
 [3235924461] = {"RSitem2", "toggle"}, -- Rhombus Item Slot 2 (hi-sandwich)
@@ -326,9 +338,11 @@ ITEM_MAPPING =
 [3235924472] = {"RSitem14", "toggle"}, -- Rhombus Item Slot 14 (peanuts)
 [3235924473] = {"RSitem13", "toggle"}, -- Rhombus Item Slot 13 (coffee)
 [3235924474] = {"RSitem15", "toggle"}, -- Rhombus Item Slot 15 (snackMix)
+-- Rhombus Curio
 [3235924475] = {"rhombusCurio", "toggle"}, -- Rhombus Curio Shop Unlock
 [3235924476] = {"RScurio1", "toggle"}, -- Rhombus Curio Slot 1
 [3235924477] = {"chestDetector", "toggle"}, -- Global Chest Detector Slot
+-- Rhombus Chef
 [3235924478] = {"rhombusChef", "toggle"}, -- Rhombus Chef Shop Unlock
 [3235924479] = {"RSchef1", "toggle"}, -- Rhombus Chef Slot 1 (risingStar)
 [3235924480] = {"RSchef2", "toggle"}, -- Rhombus Chef Slot 2 (dkPepper)
@@ -342,7 +356,7 @@ ITEM_MAPPING =
 [3235924488] = {"RSchef12", "toggle"}, -- Rhombus Chef Slot 12 (toast)
 [3235924489] = {"RSchef10", "toggle"}, -- Rhombus Chef Slot 10 (willis)
 [3235924490] = {"RSchef11", "toggle"}, -- Rhombus Chef Slot 11 (pumpkinCoffee)
--- Vermillion
+-- Vermillion Weapons
 [3235924491] = {"vermillionWeaponShop", "toggle"}, -- Vermillion Weapon Shop Unlock
 [3235924492] = {"VWweapon1", "toggle"}, -- Vermillion Weapon Slot 1 (stHelm)
 [3235924493] = {"VWweapon3", "toggle"}, -- Vermillion Weapon Slot 3 (stEdge)
@@ -352,15 +366,16 @@ ITEM_MAPPING =
 [3235924497] = {"VWweapon4", "toggle"}, -- Vermillion Weapon Slot 4 (silEdge)
 [3235924498] = {"VWweapon6", "toggle"}, -- Vermillion Weapon Slot 6 (silMail)
 [3235924499] = {"VWweapon8", "toggle"}, -- Vermillion Weapon Slot 8 (silBoots)
+-- Vermillion Items
 [3235924500] = {"vermillionItemShop", "toggle"}, -- Vermillion Item Shop Unlock
-[3235924501] = {"VMitem1", "toggle"}, -- Vermillion Item Slot 1 (sandwich)
-[3235924502] = {"VMitem2", "toggle"}, -- Vermillion Item Slot 2 (hi-sandwich)
-[3235924503] = {"VMitem3", "toggle"}, -- Vermillion Item Slot 3 (leafTea)
-[3235924504] = {"VMitem4", "toggle"}, -- Vermillion Item Slot 4 (water)
-[3235924505] = {"VMitem5", "toggle"}, -- Vermillion Item Slot 5 (spicyBun)
-[3235924506] = {"VMitem6", "toggle"}, -- Vermillion Item Slot 6 (fruitDrink)
-[3235924507] = {"VMitem7", "toggle"}, -- Vermillion Item Slot 7 (riceCracker)
-[3235924508] = {"VMitem7", "toggle"}, -- Vermillion Item Slot 8 (veggieSticks)
+[3235924501] = {"VWitem1", "toggle"}, -- Vermillion Item Slot 1 (sandwich)
+[3235924502] = {"VWitem2", "toggle"}, -- Vermillion Item Slot 2 (hi-sandwich)
+[3235924503] = {"VWitem3", "toggle"}, -- Vermillion Item Slot 3 (leafTea)
+[3235924504] = {"VWitem4", "toggle"}, -- Vermillion Item Slot 4 (water)
+[3235924505] = {"VWitem5", "toggle"}, -- Vermillion Item Slot 5 (spicyBun)
+[3235924506] = {"VWitem6", "toggle"}, -- Vermillion Item Slot 6 (fruitDrink)
+[3235924507] = {"VWitem7", "toggle"}, -- Vermillion Item Slot 7 (riceCracker)
+[3235924508] = {"VWitem7", "toggle"}, -- Vermillion Item Slot 8 (veggieSticks)
 -- Rhombus Cobalt Set
 [3235924509] = {"RSweapon1", "toggle"}, -- Rhombus Weapon Slot 8 (coHelm)
 [3235924510] = {"RSweapon3", "toggle"}, -- Rhombus Weapon Slot 8 (coEdge)

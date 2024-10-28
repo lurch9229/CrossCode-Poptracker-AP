@@ -31,7 +31,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824319"
                         ],
                         "item_count": 1
                     }
@@ -64,7 +64,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824320"
                         ],
                         "item_count": 1
                     }
@@ -97,7 +97,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleWave"
+                            "$newLock|3235824321|thiefKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824322"
                         ],
                         "item_count": 1
                     }
@@ -163,7 +163,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleWave"
+                            "$newLock|3235824323|thiefKey, eleWave"
                         ],
                         "item_count": 1
                     }

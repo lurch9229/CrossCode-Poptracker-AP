@@ -912,7 +912,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Snack Mix Slot - 350 Credits Have Green Seed",
+                        "name": "Snack Mix Slot - 450 Credits Have Green Seed",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1111,7 +1111,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Snack Mix Slot - 350 Credits Have Green Seed",
+                        "name": "Snack Mix Slot - 450 Credits Have Green Seed",
                         "visibility_rules": 
                         [
                             "settingShopReceiveTypes"
@@ -1289,8 +1289,6 @@
             },
             {
                 "name": "Rookie Harbor - Backer Weapon & Chef Shop",
-                "chest_unopened_img": "images/icons/chest_silver_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
@@ -1306,13 +1304,15 @@
                 "sections": [
                     {
                         "name": "Silver Chest",
+                        "chest_unopened_img": "images/icons/chest_silver_x.png",
+                        "chest_opened_img": "images/icons/chest_o.png",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules": 
                         [
-                            "WhiteKey"
+                            "$newLock|3235824314|WhiteKey"
                         ],
                         "item_count": 1
                     },
@@ -2227,8 +2227,8 @@
             {
                 "sections": [
                     {
-                        "ref": "Rookie Harbor - Item Shop/Snack Mix Slot - 350 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot - 350 Credits Have Green Seed"
+                        "ref": "Rookie Harbor - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [

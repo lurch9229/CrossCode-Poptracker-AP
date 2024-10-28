@@ -31,7 +31,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824333"
                         ],
                         "item_count": 1
                     }
@@ -64,7 +64,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824335"
                         ],
                         "item_count": 1
                     }
@@ -97,7 +97,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824334"
                         ],
                         "item_count": 1
                     }
@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824336"
                         ],
                         "item_count": 1
                     }
@@ -163,7 +163,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824337|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -196,7 +196,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824338|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -229,7 +229,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824339"
                         ],
                         "item_count": 1
                     }
@@ -262,7 +262,7 @@
                         ],
                         "access_rules": 
                         [
-                            "sonajizKey:1"
+                            "$newLock|3235824340 ,sonajizKey:1"
                         ],
                         "item_count": 1
                     }
@@ -295,7 +295,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824342"
                         ],
                         "item_count": 1
                     }
@@ -328,7 +328,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824344"
                         ],
                         "item_count": 1
                     }
@@ -361,7 +361,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824343"
                         ],
                         "item_count": 1
                     }
@@ -388,13 +388,13 @@
 				[
                     {
                         "name": "Chest",
-                        "visibility_rules": 
+                        "visibility_rules":
                         [
                             ""
                         ],
-                        "access_rules": 
+                        "access_rules":
                         [
-                            ""
+                            "$newLock|3235824341"
                         ],
                         "item_count": 1
                     }

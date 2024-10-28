@@ -373,51 +373,6 @@
                         "item_count": 1
                     }
                 ]
-            },
-        ]
-    },
-    //Zir'vitar Temple World Map
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Zir'vitar Temple 1F - Moving Transmit Left/Chest",
-                        "name": "Zir'vitar Temple 1F - Moving Transmit Left - Chest"
-                    },
-                    {
-                        "ref": "Zir'vitar Temple 1F - Moving Transmit Right/Chest",
-                        "name": "Zir'vitar Temple 1F - Moving Transmit Right - Chest"
-                    },
-                    {
-                        "ref": "Zir'vitar Temple 1F - Haunted Waves/Bronze Chest",
-                        "name": "Zir'vitar Temple 1F - Haunted Waves - Bronze Chest"
-                    },
-                    {
-                        "ref": "Zir'vitar Temple Gf - Hoodwink/Chest",
-                        "name": "Zir'vitar Temple GF - Hoodwink - Chest"
-                    },
-                    {
-                        "ref": "Zir'vitar Temple GF - Spinning Transmit/Bronze Chest",
-                        "name": "Zir'vitar Temple GF - Spinning Transmit - Bronze Chest"
-                    },
-                    {
-                        "ref": "Zir'vitar Temple 2F - Chamber of Wave/Element",
-                        "name": "Zir'vitar Temple 2F - Chamber of Wave - Element"
-                    },
-                    {
-                        "ref": "Zir'vitar Temple 3F - Post Boss Statue/Purple Bolt Shade",
-                        "name": "Zir'vitar Temple 3F - Post Boss Statue - Purple Bolt Shade & Circuit Override"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "WorldMap",
-                      "x": 309,
-                      "y": 83
-                    }
-                ]
             }
         ]
     }
