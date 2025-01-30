@@ -6,8 +6,8 @@
 		[
             {
                 "name": "Zir'vitar Temple 1F - Moving Transmit Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -19,7 +19,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen12"
+                    "$regionOpen10"
                 ],
                 "sections":
 				[
@@ -31,7 +31,7 @@
                         ],
                         "access_rules": 
                         [
-                            "eleWave"
+                            "$newLock|3235824319"
                         ],
                         "item_count": 1
                     }
@@ -39,8 +39,8 @@
             },
             {
                 "name": "Zir'vitar Temple 1F - Moving Transmit Right",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -64,7 +64,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824320"
                         ],
                         "item_count": 1
                     }
@@ -72,8 +72,8 @@
             },
             {
                 "name": "Zir'vitar Temple 1F - Haunted Waves",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -97,7 +97,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleWave"
+                            "$newLock|3235824321|thiefKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -105,8 +105,8 @@
             },
             {
                 "name": "Zir'vitar Temple GF - Hoodwink",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -118,7 +118,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen12"
+                    "$regionOpen10"
                 ],
                 "sections":
 				[
@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824322"
                         ],
                         "item_count": 1
                     }
@@ -138,8 +138,8 @@
             },
             {
                 "name": "Zir'vitar Temple GF - Spinning Transmit",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -163,7 +163,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleWave"
+                            "$newLock|3235824323|thiefKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -171,8 +171,8 @@
             },
             {
                 "name": "Zir'vitar Temple 2F - Chamber of Wave",
-                "chest_unopened_img": "images/items/circuitGrid.png",
-                "chest_opened_img": "images/items/circuitGrid_o.png",
+                "chest_unopened_img": "images/icons/circuitGrid.png",
+                "chest_opened_img": "images/icons/circuitGrid_o.png",
                 "map_locations": 
 				[
                     {
@@ -204,8 +204,8 @@
             },
             {
                 "name": "Zir'vitar Temple 3F - Post Boss Statue",
-                "chest_unopened_img": "images/items/statue_o.png",
-                "chest_opened_img": "images/items/statue_x.png",
+                "chest_unopened_img": "images/icons/statue_o.png",
+                "chest_opened_img": "images/icons/statue_x.png",
                 "map_locations": 
 				[
                     {
@@ -233,7 +233,7 @@
                             "eleWave"
                         ],
                         "hosted_item": "zirvitarWon",
-                        "item_count": 1
+                        "item_count": 0
                     },
                     {
                         "name": "Circuit Override",

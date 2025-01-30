@@ -11,7 +11,33 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+
+function dump_table(o, depth)
+    if depth == nil then
+        depth = 0
+    end
+    if type(o) == 'table' then
+        local tabs = ('\t'):rep(depth)
+        local tabs2 = ('\t'):rep(depth + 1)
+        local s = '{\n'
+        for k, v in pairs(o) do
+            if type(k) ~= 'number' then
+                k = '"' .. k .. '"'
+            end
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
+        end
+        return s .. tabs .. '}'
+    else
+        return tostring(o)
+    end
+end
+
 function onClear(slot_data)
+
+    if slot_data['options']["chestClearanceLevels"] then
+        getLocksFromSlot(slot_data)
+    end
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -71,7 +97,14 @@ function onClear(slot_data)
             obj.CurrentStage = slot_data['options']['vtShadeLock']
         end
     end
-    
+
+    if slot_data['options']['questRando'] then
+        local obj = Tracker:FindObjectForCode("op_QS")
+        if obj then
+            obj.CurrentStage = slot_data['options']['questRando']
+        end
+    end
+
     if slot_data['mode'] then
         if slot_data['mode'] == "open" then
             Tracker:FindObjectForCode("op_OM").CurrentStage = 0
@@ -79,6 +112,24 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("op_OM").CurrentStage = 1
         end
     end
+
+    if slot_data['options']["keyrings"] then 
+    Tracker:FindObjectForCode("op_KR").CurrentStage = 1
+        else
+        Tracker:FindObjectForCode("op_KR").CurrentStage = 0
+    end
+
+    if slot_data['options']["meteorPassage"] then 
+    Tracker:FindObjectForCode("op_VW").CurrentStage = 1
+        else
+        Tracker:FindObjectForCode("op_VW").CurrentStage = 0
+    end
+
+    if slot_data['options']["chestClearanceLevels"] then 
+        Tracker:FindObjectForCode("op_CL").CurrentStage = 1
+            else
+            Tracker:FindObjectForCode("op_CL").CurrentStage = 0
+        end
 end
 
 -- called when an item gets collected
@@ -168,6 +219,70 @@ function onLocation(location_id, location_name)
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 end
+
+-- Get dict of chests from Slot Data
+slotIds = {}
+
+function getLocksFromSlot(slot_data)
+    for id, info in pairs(slot_data["options"]["chestClearanceLevels"]) do
+        slotIds[id]=info
+    end
+    -- print("slotIDs", dump_table(slotIds))
+    idCheck(slotIds)
+end
+
+-- Match Slot IDs to Location Mapping
+function idCheck(slotIds)
+    for id, locationTable in pairs(LOCATION_MAPPING) do
+        for location,_ in pairs(locationTable) do
+            if string.find(location, "chest") then
+                if slotIds[id] == nil then
+                    print("No Match for ID:", id)
+                end
+            end
+        end
+    end
+    print("ID Check Finished")
+end
+
+-- Mapping for Key types
+keyMapping = {
+    -- ["Default"],
+    ["Bronze"] = "ThiefKey",
+    ["Silver"] = "WhiteKey",
+    ["Gold"] = "RadiantKey"
+}
+-- Change clearanceLevel for id
+function newLock(location_id, defaultKey)
+    -- If tracker is in stage 0
+    if Tracker:FindObjectForCode("op_CL").CurrentStage == 0 then
+        if defaultKey == nil then
+            return true
+        else
+            return Tracker:FindObjectForCode(defaultKey).Active
+        end
+    -- If tracker is in stage 1
+    elseif Tracker:FindObjectForCode("op_CL").CurrentStage == 1 then
+        if slotIds[location_id] == nil then
+            if defaultKey == nil then
+                -- print(location_id,"setting on, no slot ID and no default key")
+                return true
+            else
+                -- print(location_id,"setting on, Returning active status for default key, no slot ID:", defaultKey)
+                return Tracker:FindObjectForCode(defaultKey).Active
+            end
+        else
+            if slotIds[location_id] == "Default" then
+                -- print(location_id,"setting on, slot ID is default lock")
+                return true
+            else
+                -- print(location_id, "setting on, Returning active status for key mapping:", keyMapping[slotIds[location_id]])
+                return Tracker:FindObjectForCode(keyMapping[slotIds[location_id]]).Active
+            end
+        end
+    end
+end
+
 
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)

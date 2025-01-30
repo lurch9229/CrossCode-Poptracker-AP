@@ -5,8 +5,8 @@
         "children": [
             {
                 "name": "Maroon Valley - Mystery Cave Upper",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -28,7 +28,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824174, whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -36,8 +36,8 @@
             },
             {
                 "name": "Maroon Valley - Mystery Cave Lower",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -59,7 +59,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824173|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -67,8 +67,8 @@
             },
             {
                 "name": "Maroon Valley - Maroon Cave 1",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -90,7 +90,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824178"
                         ],
                         "item_count": 1
                     }
@@ -98,8 +98,8 @@
             },
             {
                 "name": "Maroon Valley - River Cliff Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -121,7 +121,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824180"
                         ],
                         "item_count": 1
                     }
@@ -129,8 +129,8 @@
             },
             {
                 "name": "Maroon Valley - River Cliff Right",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -152,7 +152,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824179"
                         ],
                         "item_count": 1
                     }
@@ -160,8 +160,8 @@
             },
             {
                 "name": "Maroon Valley - Endless Pit Right",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -183,7 +183,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824182"
                         ],
                         "item_count": 1
                     }
@@ -191,8 +191,8 @@
             },
             {
                 "name": "Maroon Valley - Endless Pit Center",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -214,7 +214,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824181"
                         ],
                         "item_count": 1
                     }
@@ -222,8 +222,8 @@
             },
             {
                 "name": "Maroon Valley - Endless Pit Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -245,7 +245,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824183"
                         ],
                         "item_count": 1
                     }
@@ -253,8 +253,8 @@
             },
             {
                 "name": "Maroon Valley - Vivid Path Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -276,7 +276,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824185"
                         ],
                         "item_count": 1
                     }
@@ -284,8 +284,8 @@
             },
             {
                 "name": "Maroon Valley - Vivid Path Lower",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -307,7 +307,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824184"
                         ],
                         "item_count": 1
                     }
@@ -315,8 +315,8 @@
             },
             {
                 "name": "Maroon Valley - Maroon Oasis Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -338,7 +338,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824187"
                         ],
                         "item_count": 1
                     }
@@ -346,8 +346,8 @@
             },
             {
                 "name": "Maroon Valley - Maroon Oasis Center",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -369,7 +369,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824186"
                         ],
                         "item_count": 1
                     }
@@ -377,8 +377,8 @@
             },
             {
                 "name": "Maroon Valley - Bright Path",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -400,7 +400,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824188|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -408,8 +408,8 @@
             },
             {
                 "name": "Maroon Valley - Rising Railway",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -431,7 +431,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824189"
                         ],
                         "item_count": 1
                     }
@@ -439,8 +439,8 @@
             },
             {
                 "name": "Maroon Valley - East Entrance",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -462,7 +462,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824190"
                         ],
                         "item_count": 1
                     }
@@ -470,8 +470,8 @@
             },
             {
                 "name": "Maroon Valley - Dusty Path Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -493,7 +493,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824192"
                         ],
                         "item_count": 1
                     }
@@ -501,8 +501,8 @@
             },
             {
                 "name": "Maroon Valley - Dusty Path Center",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -524,7 +524,7 @@
                         ],
                         "access_rules":
                         [
-                            "thiefKey"
+                            "$newLock|3235824191|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -532,8 +532,8 @@
             },
             {
                 "name": "Maroon Valley - Crossroad Center",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -555,7 +555,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824193"
                         ],
                         "item_count": 1
                     }
@@ -563,8 +563,8 @@
             },
             {
                 "name": "Maroon Valley - Crossroad Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -586,7 +586,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824194"
                         ],
                         "item_count": 1
                     }
@@ -594,8 +594,8 @@
             },
             {
                 "name": "Maroon Valley - Long Piece",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -617,7 +617,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824195"
                         ],
                         "item_count": 1
                     }
@@ -625,8 +625,8 @@
             },
             {
                 "name": "Maroon Valley - Barren Arcs Center",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -648,7 +648,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824196"
                         ],
                         "item_count": 1
                     }
@@ -656,8 +656,8 @@
             },
             {
                 "name": "Maroon Valley - Barren Arcs Left",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -679,7 +679,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824197|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -687,8 +687,8 @@
             },
             {
                 "name": "Maroon Valley - Barren Land",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -710,7 +710,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824198"
                         ],
                         "item_count": 1
                     }
@@ -718,8 +718,8 @@
             },
             {
                 "name": "Maroon Valley - Overpass Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -741,7 +741,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824199"
                         ],
                         "item_count": 1
                     }
@@ -749,8 +749,8 @@
             },
             {
                 "name": "Maroon Valley - Overpass Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -772,7 +772,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824200"
                         ],
                         "item_count": 1
                     }
@@ -780,8 +780,8 @@
             },
             {
                 "name": "Maroon Valley - Paw Cliffs Lower",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -803,7 +803,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824201"
                         ],
                         "item_count": 1
                     }
@@ -811,8 +811,8 @@
             },
             {
                 "name": "Maroon Valley - Paw Cliffs Upper",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -834,7 +834,7 @@
                         ],
                         "access_rules":
                         [
-                            "whiteKey"
+                            "$newLock|3235824202|WhiteKey"
                         ],
                         "item_count": 1
                     }
@@ -842,8 +842,8 @@
             },
             {
                 "name": "Maroon Valley - Torn Road Right",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -865,7 +865,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824204"
                         ],
                         "item_count": 1
                     }
@@ -873,8 +873,8 @@
             },
             {
                 "name": "Maroon Valley - Torn Road Center",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -896,7 +896,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824203"
                         ],
                         "item_count": 1
                     }
@@ -904,8 +904,8 @@
             },
             {
                 "name": "Maroon Valley - West Entrance",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -927,7 +927,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824205"
                         ],
                         "item_count": 1
                     }
@@ -935,8 +935,8 @@
             },
             {
                 "name": "Maroon Valley - Fractured Path Right",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -958,7 +958,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824207"
                         ],
                         "item_count": 1
                     }
@@ -966,8 +966,8 @@
             },
             {
                 "name": "Maroon Valley - Fractured Path Upper",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -989,7 +989,7 @@
                         ],
                         "access_rules":
                         [
-                            "whiteKey"
+                            "$newLock|3235824206|WhiteKey"
                         ],
                         "item_count": 1
                     }
@@ -997,8 +997,8 @@
             },
             {
                 "name": "Maroon Valley - Cursed Temple Upper",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -1020,7 +1020,7 @@
                         ],
                         "access_rules":
                         [
-                            "whiteKey, eleHeat, eleCold, cursedCoin"
+                            "$newLock|3235824175|whiteKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
                     }
@@ -1028,8 +1028,8 @@
             },
             {
                 "name": "Maroon Valley - Cursed Temple Lower",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -1051,7 +1051,7 @@
                         ],
                         "access_rules":
                         [
-                            "whiteKey, eleHeat, eleCold, cursedCoin"
+                            "$newLock|3235824176|whiteKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
                     }
@@ -1059,8 +1059,8 @@
             },
             {
                 "name": "Maroon Valley - Cursed Temple Treasure Room",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -1075,14 +1075,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Chest",
+                        "name": "Bronze Chest",
                         "visibility_rules": 
                         [
                             ""
                         ],
                         "access_rules":
                         [
-                            "whiteKey, eleHeat, eleCold, cursedCoin"
+                            "$newLock|3235824177|whiteKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
                     }
@@ -1090,8 +1090,8 @@
             },
             {
                 "name": "Maroon Valley - Henry the Researcher",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
@@ -1113,7 +1113,7 @@
                         ],
                         "access_rules":
                         [
-                            "BT-TB-done"
+                            ""
                         ],
                         "hosted_item": "MV-TB-collect",
                         "item_count": 1
@@ -1126,7 +1126,7 @@
                         ],
                         "access_rules":
                         [
-                            "BT-TB-done"
+                            ""
                         ],
                         "hosted_item": "MV-TB-defeat",
                         "item_count": 1
@@ -1139,7 +1139,7 @@
                         ],
                         "access_rules":
                         [
-                            "BT-TB-done"
+                            ""
                         ],
                         "hosted_item": "MV-TB-poi",
                         "item_count": 1
@@ -1152,7 +1152,7 @@
                         ],
                         "access_rules":
                         [
-                            "BT-TB-done"
+                            ""
                         ],
                         "hosted_item": "MV-TB-probe",
                         "item_count": 1
@@ -1288,8 +1288,8 @@
                         "name": "Maroon Valley - Cursed Temple Lower - Silver Chest"
                     },
                     {
-                        "ref": "Maroon Valley - Cursed Temple Treasure Room/Silver Chest",
-                        "name": "Maroon Valley - Cursed Temple Treasure Room - Silver Chest"
+                        "ref": "Maroon Valley - Cursed Temple Treasure Room/Bronze Chest",
+                        "name": "Maroon Valley - Cursed Temple Treasure Room - Bronze Chest"
                     },
                     {
                         "ref": "Maroon Valley - Torn Road Center/Chest",

@@ -6,8 +6,8 @@
 		[
             {
                 "name": "Autumn's Rise - Entrance",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -31,7 +31,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824014"
                         ],
                         "item_count": 1
                     }
@@ -39,8 +39,8 @@
             },
             {
                 "name": "Autumn's Rise - Quiet Passage 1",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -64,7 +64,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824016"
                         ],
                         "item_count": 1
                     }
@@ -72,8 +72,8 @@
             },
             {
                 "name": "Autumn's Rise - Quiet Passage 2",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -97,7 +97,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824017"
                         ],
                         "item_count": 1
                     }
@@ -105,8 +105,8 @@
             },
             {
                 "name": "Autumn's Rise - Hedgehag's Den",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations":
 				[
                     {
@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824018"
                         ],
                         "item_count": 1
                     }
@@ -138,8 +138,8 @@
             },
             {
                 "name": "Autumn's Rise - Drippy Den",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -163,7 +163,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824011"
                         ],
                         "item_count": 1
                     }
@@ -171,8 +171,8 @@
             },
             {
                 "name": "Autumn's Rise - Normal Clearing Lower",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -196,7 +196,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824012"
                         ],
                         "item_count": 1
                     }
@@ -204,8 +204,8 @@
             },
             {
                 "name": "Autumn's Rise - Normal Clearing Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -229,7 +229,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824013"
                         ],
                         "item_count": 1
                     }
@@ -237,8 +237,8 @@
             },
             {
                 "name": "Autumn's Rise - Old Observatory",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -262,7 +262,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824015"
                         ],
                         "item_count": 1
                     }
@@ -270,8 +270,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 1",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -295,7 +295,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824019"
                         ],
                         "item_count": 1
                     }
@@ -303,8 +303,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 2",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations":
 				[
                     {
@@ -328,7 +328,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824020"
                         ],
                         "item_count": 1
                     }
@@ -336,8 +336,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 3 Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -361,7 +361,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824021"
                         ],
                         "item_count": 1
                     }
@@ -369,8 +369,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 3 Schneider",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -402,8 +402,8 @@
             },
             {
                 "name": "Autumn's Rise - Off Road 1 Right",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -427,7 +427,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824022"
                         ],
                         "item_count": 1
                     }
@@ -435,8 +435,8 @@
             },
             {
                 "name": "Autumn's Rise - Off Road 2",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -460,7 +460,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824023"
                         ],
                         "item_count": 1
                     }
@@ -468,8 +468,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 6 Center",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -493,7 +493,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824026"
                         ],
                         "item_count": 1
                     }
@@ -501,8 +501,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 6 Right",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -526,7 +526,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824025"
                         ],
                         "item_count": 1
                     }
@@ -534,8 +534,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 6 Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -559,7 +559,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824024"
                         ],
                         "item_count": 1
                     }
@@ -567,8 +567,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 7 Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -592,7 +592,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824028"
                         ],
                         "item_count": 1
                     }
@@ -600,8 +600,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 7 Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -625,7 +625,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824027"
                         ],
                         "item_count": 1
                     }
@@ -633,8 +633,8 @@
             },
             {
                 "name": "Autumn's Rise - Ending Pathway Lower",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -658,7 +658,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824029"
                         ],
                         "item_count": 1
                     }
@@ -666,8 +666,8 @@
             },
             {
                 "name": "Autumn's Rise - Ending Pathway Talatu",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -700,8 +700,8 @@
             },
             {
                 "name": "Autumn's Rise - Obelisk Lake Lower",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations":
 				[
                     {
@@ -725,7 +725,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824031"
                         ],
                         "item_count": 1
                     }
@@ -733,8 +733,8 @@
             },
             {
                 "name": "Autumn's Rise - Obelisk Lake Upper",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations":
 				[
                     {
@@ -758,7 +758,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824030|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -766,8 +766,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 4 Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -791,7 +791,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824032"
                         ],
                         "item_count": 1
                     }
@@ -799,8 +799,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 4 Center",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -824,7 +824,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824033"
                         ],
                         "item_count": 1
                     }
@@ -832,8 +832,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 4 Lower",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -857,7 +857,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824034"
                         ],
                         "item_count": 1
                     }
@@ -865,8 +865,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 5 Lower",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -890,7 +890,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824036"
                         ],
                         "item_count": 1
                     }
@@ -898,8 +898,8 @@
             },
             {
                 "name": "Autumn's Rise - Pathway 5 Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": 
 				[
                     {
@@ -923,7 +923,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824035"
                         ],
                         "item_count": 1
                     }
@@ -931,8 +931,8 @@
             },
             {
                 "name": "Autumn's Rise - Humble Helper",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -977,8 +977,8 @@
             },
             {
                 "name": "Autumn's Rise - The Observatory",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -1010,8 +1010,8 @@
             },
             {
                 "name": "Autumn's Rise - Henry the Researcher",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -1095,8 +1095,8 @@
             },
             {
                 "name": "Autumn's Rise - Game Tester",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {

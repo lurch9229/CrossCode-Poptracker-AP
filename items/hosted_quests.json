@@ -389,5 +389,10 @@
     "name": "Talatu 75% Host",
     "type": "toggle",
     "codes": "botanics-4"
+  },
+  {
+    "name": "Maroon Tree Host",
+    "type": "toggle",
+    "codes": "MV-tree-done"
   }
 ]

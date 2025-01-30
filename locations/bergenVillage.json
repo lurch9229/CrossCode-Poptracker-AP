@@ -5,8 +5,8 @@
         "children": [
             {
                 "name": "Bergen Village South - Behind Ice In South",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -28,7 +28,7 @@
                         ],
                         "access_rules":
                         [
-                            "thiefKey, eleHeat"
+                            "$newLock|3235824067|thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -36,8 +36,8 @@
             },
             {
                 "name": "Bergen Village South - On Top Of Bergen Bar",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -59,7 +59,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824065"
                         ],
                         "item_count": 1
                     }
@@ -67,8 +67,8 @@
             },
             {
                 "name": "Bergen Village South - Behind Ice In East",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -90,7 +90,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleHeat"
+                            "$newLock|3235824066|thiefKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -98,8 +98,8 @@
             },
             {
                 "name": "Bergen Village South - Top West Roof",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -121,7 +121,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824068|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -129,8 +129,8 @@
             },
             {
                 "name": "Bergen Village South - Storage Room",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -152,7 +152,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824076"
                         ],
                         "item_count": 1
                     }
@@ -160,8 +160,8 @@
             },
             {
                 "name": "Bergen Village North - On Ledge Near Trader Den",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -183,7 +183,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824069"
                         ],
                         "item_count": 1
                     }
@@ -191,8 +191,8 @@
             },
             {
                 "name": "Bergen Village North - On Ledge In Lower East",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -214,7 +214,7 @@
                         ],
                         "access_rules":
                         [
-                            "whiteKey"
+                            "$newLock|3235824071|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -222,8 +222,8 @@
             },
             {
                 "name": "Bergen Village North - Roof Of Eastern Archway",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -245,7 +245,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824072"
                         ],
                         "item_count": 1
                     }
@@ -253,8 +253,8 @@
             },
             {
                 "name": "Bergen Village North - Hidden Cave In West",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -276,7 +276,7 @@
                         ],
                         "access_rules":
                         [
-                            "eleHeat"
+                            "$newLock|3235824070, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -284,8 +284,8 @@
             },
             {
                 "name": "Bergen Village - Diving Railway",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -307,7 +307,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824073"
                         ],
                         "item_count": 1
                     }
@@ -330,8 +330,8 @@
                 "sections": [
                     {
                         "name": "Mine Detector",
-                        "chest_unopened_img": "images/items/quest_open.png",
-                        "chest_opened_img": "images/items/quest_done.png",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": 
                         [
                             ""
@@ -344,8 +344,8 @@
                     },
                     {
                         "name": "Digging up the Past",
-                        "chest_unopened_img": "images/items/quest_open.png",
-                        "chest_opened_img": "images/items/quest_done.png",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -359,8 +359,8 @@
                     },
                     {
                         "name": "Crocus Pocus 25%",
-                        "chest_unopened_img": "images/items/quest_open.png",
-                        "chest_opened_img": "images/items/quest_done.png",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": 
                         [
                             "questShuffle"
@@ -376,8 +376,8 @@
             },
             {
                 "name": "Bergen Village - Seeker Hub Cellar Left",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -399,7 +399,7 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$newLock|3235824074"
                         ],
                         "item_count": 1
                     }
@@ -407,8 +407,8 @@
             },
             {
                 "name": "Bergen Village - Seeker Hub Cellar Right",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -430,7 +430,7 @@
                         ],
                         "access_rules":
                         [
-                            "thiefKey"
+                            "$newLock|3235824075|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -438,8 +438,8 @@
             },
             {
                 "name": "Bergen Village - Temple Mine Entrance",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -469,8 +469,8 @@
             },
             {
                 "name": "Bergen Village - Monastery",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -588,8 +588,8 @@
             },
             {
                 "name": "Bergen Village - Digging Mates HQ",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -646,8 +646,8 @@
             },
             {
                 "name": "Bergen Village - Guard HQ",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -689,9 +689,9 @@
                 ]
             },
             {
-                "name": "Bergen Village - Mrs Summers",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "name": "Bergen Village - Mrs. Summers",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -728,15 +728,14 @@
                         [
                             "BV-hat, eleHeat, iceShade"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
             },
             {
                 "name": "Bergen Village - Omni Gliders",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -758,7 +757,8 @@
                         ],
                         "access_rules":
                         [
-                            "eleHeat"
+                            "eleHeat, BT_bunny",
+                            "mineKey:1, BT_bunny"
                         ],
                         "hosted_item": "BV-omni-build",
                         "item_count": 1
@@ -771,7 +771,22 @@
                         ],
                         "access_rules":
                         [
-                            "BV-omni-build, BT-bunny"
+                            "BV-omni-build"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Basement - Bronze Chest",
+                        "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                        "chest_opened_img": "images/icons/chest_o.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$newLock|3235824077, eleHeat, BT_bunny, thiefKey",
+                            "$newLock|3235824077, mineKey:1, BT_bunny, thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -779,8 +794,8 @@
             },
             {
                 "name": "Bergen Village - Ketin D'Kar",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Bergen_Village",
@@ -805,6 +820,300 @@
                             "dkar1, brokenShield"
                         ],
                         "hosted_item": "dkar2",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Item Shop",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 560,
+                        "y": 370
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3",
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Sandwich Slot - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem5, iceShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem6, iceShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrink.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits Have Red Flame",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem11, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem12, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem13, seedShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem14, seedShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem15, seedShade"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Village - Weapon Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 520,
+                        "y": 370
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3",
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Iron Goggles Slot - 4700 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVweapon1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Edge Slot - 4500 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVweapon2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Mail Slot - 4800 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVweapon3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Boots Slot - 4700 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVweapon4"
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -930,12 +1239,12 @@
                         "name": "Bergen Village - Guard HQ - The Goatfather"
                     },
                     {
-                        "ref": "Bergen Village - Mrs Summers/Fancy Tophat",
-                        "name": "Bergen Village - Mrs Summers - Fancy Tophat"
+                        "ref": "Bergen Village - Mrs. Summers/Fancy Tophat",
+                        "name": "Bergen Village - Mrs. Summers - Fancy Tophat"
                     },
                     {
-                        "ref": "Bergen Village - Mrs Summers/Heating the Hermit",
-                        "name": "Bergen Village - Mrs Summers - Heating the Hermit"
+                        "ref": "Bergen Village - Mrs. Summers/Heating the Hermit",
+                        "name": "Bergen Village - Mrs. Summers - Heating the Hermit"
                     },
                     {
                         "ref": "Bergen Village - Omni Gliders/Building a Base",
@@ -952,6 +1261,70 @@
                     {
                         "ref": "Bergen Village - Seeker Hub/Crocus Pocus 25%",
                         "name": "Bergen Village - Seeker Hub - Crocus Pocus 25%"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Bergen Village - Item Shop\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Bergen Village - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Bergen Village - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Bergen Village - Item Shop\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Bergen Village - Item Shop\nKebab Roll Slot - 650 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nSpicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nFruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nRice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Bergen Ice Cream Slot - 450 Credits Have Red Flame",
+                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
+                        "name": "Bergen Village - Item Shop\nSweet Lemonjuice Slot - 450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Goggles Slot - 4700 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Goggles Slot - 4700 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Edge Slot - 4500 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Edge Slot - 4500 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Mail Slot - 4800 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Mail Slot - 4800 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Boots Slot - 4700 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Boots Slot - 4700 Credits"
                     }
                 ],
                 "map_locations": [
@@ -959,6 +1332,387 @@
                       "map": "WorldMap",
                       "x": 180,
                       "y": 114
+                    }
+                ]
+            }
+        ]
+    },
+    //Bergen Village Shops Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Bergen Village - Item Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Bergen Village - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Bergen Village - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Bergen Village - Item Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "name": "Bergen Village - Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "name": "Bergen Village - Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 198
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 218
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Bergen Ice Cream Slot - 450 Credits Have Red Flame",
+                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Red Flame"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
+                        "name": "Bergen Village - Item Shop\nSweet Lemonjuice Slot - 450 Credits Have Red Flame"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Goggles Slot - 4700 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Goggles Slot - 4700 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Edge Slot - 4500 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Edge Slot - 4500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Mail Slot - 4800 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Mail Slot - 4800 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Boots Slot - 4700 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Boots Slot - 4700 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 155,
+                      "y": 438
                     }
                 ]
             }

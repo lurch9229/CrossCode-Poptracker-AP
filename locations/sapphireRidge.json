@@ -6,8 +6,8 @@
 
             {
                 "name": "Sapphire Ridge - The Barracks",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -29,7 +29,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleShock"
+                            "$newLock|3235824130|thiefKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -37,8 +37,8 @@
             },
             {
                 "name": "Sapphire Ridge - The Bellow",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -60,7 +60,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey, eleShock, eleWave"
+                            "$newLock|3235824131|radiantKey, eleShock, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -68,8 +68,8 @@
             },
             {
                 "name": "Sapphire Ridge - Sapphire Tunnel",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -91,7 +91,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824132|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -99,8 +99,8 @@
             },
             {
                 "name": "Sapphire Ridge - Eroded Passage Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -122,7 +122,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824134"
                         ],
                         "item_count": 1
                     }
@@ -130,8 +130,8 @@
             },
             {
                 "name": "Sapphire Ridge - Eroded Passage Lower",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -153,7 +153,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824133|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -161,8 +161,8 @@
             },
             {
                 "name": "Sapphire Ridge - Spider Chasm Lower",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -184,7 +184,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824135|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -192,8 +192,8 @@
             },
             {
                 "name": "Sapphire Ridge - Spider Chasm Upper",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -215,7 +215,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824136|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -223,8 +223,8 @@
             },
             {
                 "name": "Sapphire Ridge - Narrow Passage Right",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -246,7 +246,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824138|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -254,8 +254,8 @@
             },
             {
                 "name": "Sapphire Ridge - Narrow Passage Left",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -277,7 +277,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824137|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -285,8 +285,8 @@
             },
             {
                 "name": "Sapphire Ridge - Wheel Passage Upper",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -308,7 +308,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey, eleShock"
+                            "$newLock|3235824140|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -316,8 +316,8 @@
             },
             {
                 "name": "Sapphire Ridge - Wheel Passage Lower",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -339,7 +339,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824139|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -347,8 +347,8 @@
             },
             {
                 "name": "Sapphire Ridge - Cave Inn Exterior Upper",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -370,7 +370,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824150|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -378,8 +378,8 @@
             },
             {
                 "name": "Sapphire Ridge - Cave Inn Exterior Lower",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -401,7 +401,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824151|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -409,8 +409,8 @@
             },
             {
                 "name": "Sapphire Ridge - Cave Inn Interior 1F",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -432,7 +432,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824141"
                         ],
                         "item_count": 1
                     }
@@ -440,8 +440,8 @@
             },
             {
                 "name": "Sapphire Ridge - Cave Inn Interior Storage",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -463,7 +463,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824142|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -471,8 +471,8 @@
             },
             {
                 "name": "Sapphire Ridge - Western Exit Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -494,7 +494,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824143"
                         ],
                         "item_count": 1
                     }
@@ -502,8 +502,8 @@
             },
             {
                 "name": "Sapphire Ridge - Western Exit Lower",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -526,7 +526,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824144|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -534,8 +534,8 @@
             },
             {
                 "name": "Sapphire Ridge - North West Path Upper",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -557,7 +557,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824146|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -565,8 +565,8 @@
             },
             {
                 "name": "Sapphire Ridge - North West Path Lower",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -588,7 +588,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824145|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -596,8 +596,8 @@
             },
             {
                 "name": "Sapphire Ridge - River Road Upper",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -619,7 +619,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824147|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -627,8 +627,8 @@
             },
             {
                 "name": "Sapphire Ridge - River Road Center",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -650,7 +650,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824148|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -658,8 +658,8 @@
             },
             {
                 "name": "Sapphire Ridge - River Road Lower",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -681,7 +681,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824149|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -689,8 +689,8 @@
             },
             {
                 "name": "Sapphire Ridge - Tranquil Bamboo Upper",
-                "chest_unopened_img": "images/items/chest_default_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -712,7 +712,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$newLock|3235824153"
                         ],
                         "item_count": 1
                     }
@@ -720,8 +720,8 @@
             },
             {
                 "name": "Sapphire Ridge - Tranquil Bamboo Lower",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -743,7 +743,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824152|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -751,8 +751,8 @@
             },
             {
                 "name": "Sapphire Ridge - Tranquil Bamboo Vagabond",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -782,8 +782,8 @@
             },
             {
                 "name": "Sapphire Ridge - Bamboo Thicket Upper",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -805,7 +805,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824154|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -813,8 +813,8 @@
             },
             {
                 "name": "Sapphire Ridge - Bamboo Thicket Center",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -836,7 +836,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824155|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -844,8 +844,8 @@
             },
             {
                 "name": "Sapphire Ridge - North East Path Upper",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -867,7 +867,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824156|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -875,8 +875,8 @@
             },
             {
                 "name": "Sapphire Ridge - North East Path Lower",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -898,7 +898,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824157|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -906,8 +906,8 @@
             },
             {
                 "name": "Sapphire Ridge - Flower Lake Left",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -929,7 +929,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824158|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -937,8 +937,8 @@
             },
             {
                 "name": "Sapphire Ridge - Flower Lake Right",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -960,7 +960,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824159|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -968,8 +968,8 @@
             },
             {
                 "name": "Sapphire Ridge - Carved Pathway Upper",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -991,7 +991,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824162|thiefKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -999,8 +999,8 @@
             },
             {
                 "name": "Sapphire Ridge - Carved Pathway Lower",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1022,7 +1022,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824161|whiteKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -1030,8 +1030,8 @@
             },
             {
                 "name": "Sapphire Ridge - Carved Pathway Center",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1053,7 +1053,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824160|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1061,8 +1061,8 @@
             },
             {
                 "name": "Sapphire Ridge - High Ground Upper",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1084,7 +1084,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey, eleShock"
+                            "$newLock|3235824164|whiteKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -1092,8 +1092,8 @@
             },
             {
                 "name": "Sapphire Ridge - High Ground Lower",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1115,7 +1115,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey, eleShock"
+                            "$newLock|3235824163|radiantKey, eleShock"
                         ],
                         "item_count": 1
                     }
@@ -1123,8 +1123,8 @@
             },
             {
                 "name": "Sapphire Ridge - Old Dojo Lower",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1146,7 +1146,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey"
+                            "$newLock|3235824165|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -1154,8 +1154,8 @@
             },
             {
                 "name": "Sapphire Ridge - Old Dojo Left",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1177,7 +1177,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824166|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1185,8 +1185,8 @@
             },
             {
                 "name": "Sapphire Ridge - Old Dojo Upper",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1208,7 +1208,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824167|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1216,8 +1216,8 @@
             },
             {
                 "name": "Sapphire Ridge - Old Dojo Interior",
-                "chest_unopened_img": "images/items/statue_o.png",
-                "chest_opened_img": "images/items/statue_x.png",
+                "chest_unopened_img": "images/icons/statue_o.png",
+                "chest_opened_img": "images/icons/statue_x.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1247,8 +1247,8 @@
             },
 			{
                 "name": "Sapphire Ridge - Dream Pond",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1270,7 +1270,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey"
+                            "$newLock|3235824168|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1278,8 +1278,8 @@
             },
             {
                 "name": "Sapphire Ridge - Ascension Temple Lower",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1301,7 +1301,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey, eleWave"
+                            "$newLock|3235824171|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1309,8 +1309,8 @@
             },
             {
                 "name": "Sapphire Ridge - Ascension Temple Upper Right",
-                "chest_unopened_img": "images/items/chest_silver_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1332,7 +1332,7 @@
                         ],
                         "access_rules": 
                         [
-                            "whiteKey, eleWave"
+                            "$newLock|3235824170|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1340,8 +1340,8 @@
             },
             {
                 "name": "Sapphire Ridge - Ascension Temple Upper Left",
-                "chest_unopened_img": "images/items/chest_gold_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1363,7 +1363,7 @@
                         ],
                         "access_rules": 
                         [
-                            "radiantKey, eleWave"
+                            "$newLock|3235824169|radiantKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1371,8 +1371,8 @@
             },
             {
                 "name": "Sapphire Ridge - Baton Pond",
-                "chest_unopened_img": "images/items/chest_bronze_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
@@ -1394,7 +1394,7 @@
                         ],
                         "access_rules": 
                         [
-                            "thiefKey"
+                            "$newLock|3235824172|thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -1402,8 +1402,8 @@
             },
             {
                 "name": "Sapphire Ridge - Baxton Addi",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -1427,7 +1427,7 @@
                         ],
                         "access_rules":
                         [
-                            "GG-TB-done"  
+                            "GG-TB-done, AR-TB-done, BT-TB-done, MV-TB-done"
                         ],
                         "item_count": 1
                     }
@@ -1435,8 +1435,8 @@
             },
             {
                 "name": "Sapphire Ridge - PuellaDocta",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -1468,8 +1468,8 @@
             },
             {
                 "name": "Sapphire Ridge - Kat (Storage Balcony)",
-                "chest_unopened_img": "images/items/quest_open.png",
-                "chest_opened_img": "images/items/quest_done.png",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": 
 				[
                     {
@@ -1498,10 +1498,330 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "name": "Sapphire Ridge - Cave Inn Weapon Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": 
+				[
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 660,
+                        "y": 1050
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31",
+                    "$regionOpen16"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Titan Goggles Slot - 46750 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRweapon1"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Goggles Slot - 71350 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRweapon2"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Edge Slot - 46475 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRweapon3"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Edge Slot - 70975 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRweapon4"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Mail Slot - 46925 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRweapon5"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Mail Slot - 71925 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRweapon6"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Boots Slot - 46750 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRweapon7"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Boots Slot - 71350 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRweapon8"  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sapphire Ridge - Cave Inn Item Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": 
+				[
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 560,
+                        "y": 1050
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region31",
+                    "$regionOpen16"
+                ],
+                "sections": 
+				[
+                    {
+                        "name": "Sandwich Slot - 100 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem12"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem13"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem14"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 450 Credits",
+                        "visibility_rules": 
+                        [
+                            "shopShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$SRitem15"
+                        ],
+                        "item_count": 1
+                    }
+                ]
             }
         ]
     },
+
     // Sapphire Ridge World Map
+    
     {
         "item_count": 1,
         "children": [
@@ -1689,6 +2009,86 @@
                         "name": "Sapphire Ridge - The Bellow - Gold Chest"
                     },
                     {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot - 650 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Slot - 46750 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot - 46750 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Slot - 46475 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot - 46475 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Slot - 70975 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot - 70975 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Slot - 46925 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot - 46925 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Slot - 71925 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot - 71925 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Slot - 46750 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot - 46750 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Slot - 71350 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot - 71350 Credits"
+                    },
+                    {
                         "ref": "Sapphire Ridge - Baxton Addi/Henry Trailblazing",
                         "name": "Sapphire Ridge - Baxton Addi - Henry Trailblazing"
                     },
@@ -1706,6 +2106,469 @@
                       "map": "WorldMap",
                       "x": 365,
                       "y": 140
+                    }
+                ]
+            }
+        ]
+    },
+
+    // Sapphire Shop Map
+
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Meaty Risotto Slot - 650 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 198
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 218
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Salted Peanuts Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Slot - 46750 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot - 46750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Slot - 46475 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot - 46475 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Slot - 70975 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot - 70975 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 438
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Slot - 46925 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot - 46925 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 458
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Slot - 71925 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot - 71925 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 478
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Slot - 46750 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot - 46750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 498
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Slot - 71350 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot - 71350 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                      "map": "ShopMap",
+                      "x": 585,
+                      "y": 513
                     }
                 ]
             }
