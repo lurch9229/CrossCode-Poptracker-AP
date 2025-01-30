@@ -55,6 +55,10 @@
 
     - Formatted items to use new folder locations
 
+    Known Issues
+
+        - Shop types don't clear as a group
+
 0.4.2
     Locations
 
