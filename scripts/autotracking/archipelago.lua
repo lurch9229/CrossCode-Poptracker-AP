@@ -109,14 +109,14 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['options']['shopSendMode'] then
+    if slot_data['options']['shopReceiveMode'] then
         local obj = Tracker:FindObjectForCode("op_SR")
         if obj then
-            if slot_data['options']['shopSendMode'] == "itemType" then
+            if slot_data['options']['shopReceiveMode'] == "itemType" then
                 obj.CurrentStage = 1
-            elseif slot_data['options']['shopSendMode'] == "shop" then
+            elseif slot_data['options']['shopReceiveMode'] == "shop" then
                 obj.CurrentStage = 2
-            elseif slot_data['options']['shopSendMode'] == "slot" then
+            elseif slot_data['options']['shopReceiveMode'] == "slot" then
                 obj.CurrentStage = 3
             else
                 obj.CurrentStage = 0
