@@ -91,6 +91,44 @@ function onClear(slot_data)
         return
     end
 
+    if slot_data['options']['shopSendMode'] then
+        local obj = Tracker:FindObjectForCode("op_SS")
+        if obj then
+            if slot_data['options']['shopSendMode'] == "itemType" then
+                obj.CurrentStage = 1
+            elseif slot_data['options']['shopSendMode'] == "slot" then
+                obj.CurrentStage = 3
+            else
+                obj.CurrentStage = 0
+            end
+        end
+    else
+        local obj = Tracker:FindObjectForCode("op_SS")
+        if obj then
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['options']['shopSendMode'] then
+        local obj = Tracker:FindObjectForCode("op_SR")
+        if obj then
+            if slot_data['options']['shopSendMode'] == "itemType" then
+                obj.CurrentStage = 1
+            elseif slot_data['options']['shopSendMode'] == "shop" then
+                obj.CurrentStage = 2
+            elseif slot_data['options']['shopSendMode'] == "slot" then
+                obj.CurrentStage = 3
+            else
+                obj.CurrentStage = 0
+            end
+        end
+    else
+        local obj = Tracker:FindObjectForCode("op_SR")
+        if obj then
+            obj.CurrentStage = 0
+        end
+    end
+
     if slot_data['options']['vtShadeLock'] then
         local obj = Tracker:FindObjectForCode("op_VT")
         if obj then
@@ -114,22 +152,22 @@ function onClear(slot_data)
     end
 
     if slot_data['options']["keyrings"] then 
-    Tracker:FindObjectForCode("op_KR").CurrentStage = 1
-        else
         Tracker:FindObjectForCode("op_KR").CurrentStage = 0
+    else
+        Tracker:FindObjectForCode("op_KR").CurrentStage = 1
     end
 
     if slot_data['options']["meteorPassage"] then 
-    Tracker:FindObjectForCode("op_VW").CurrentStage = 1
-        else
+        Tracker:FindObjectForCode("op_VW").CurrentStage = 1
+    else
         Tracker:FindObjectForCode("op_VW").CurrentStage = 0
     end
 
     if slot_data['options']["chestClearanceLevels"] then 
         Tracker:FindObjectForCode("op_CL").CurrentStage = 1
-            else
-            Tracker:FindObjectForCode("op_CL").CurrentStage = 0
-        end
+    else
+        Tracker:FindObjectForCode("op_CL").CurrentStage = 0
+    end
 end
 
 -- called when an item gets collected
