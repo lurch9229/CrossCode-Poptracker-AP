@@ -1,5 +1,21 @@
 # Changelog
 
+0.6.1
+
+    Autotracking
+
+        - Fixed VT Gate setting when connecting to AP 
+
+        - Fixed Dungeon KEyring setting when connecting to AP
+
+        - Add automatic setting for Shop Shuffle Sending when connecting to AP
+
+        - Add automatic setting for Shop Shuffle Sending when connecting to AP
+
+        - Fix Cobalt Gear in Rhombus Weapon Shop not clearing when acquired
+
+        - Fix ID mismatch for "Faj"ro Temple GF - Right Chamber 1 Chest" and "Faj'ro Temple 1F - Right Chamber 1 Chest"
+
 0.6.0
     Yes I'm skipping 0.5.x, as CCAP is already on v0.6.x, and I want clarity between versions
 
