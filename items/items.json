@@ -374,8 +374,8 @@
         "codes": "op_VT,settingVTGateOpen"
       },
       {
-        "img": "images/settings/settingVTGateBosses.png",
-        "codes": "op_VT,settingVTGateBosses",
+        "img": "images/settings/settingVTGateBoth.png",
+        "codes": "op_VT,settingVTGateBoth",
         "inherit_codes": false
       },
       {
@@ -384,8 +384,8 @@
         "inherit_codes": false
       },
       {
-        "img": "images/settings/settingVTGateBoth.png",
-        "codes": "op_VT,settingVTGateBoth",
+        "img": "images/settings/settingVTGateBosses.png",
+        "codes": "op_VT,settingVTGateBosses",
         "inherit_codes": false
       }
     ]
@@ -453,13 +453,18 @@
         "codes": "op_SS,settingShopShuffleOff"
       },
       {
-        "img": "images/settings/shopShuffleSlot.png",
-        "codes": "op_SS,settingShopShuffleSlot,shopShuffle",
+        "img": "images/settings/shopShuffleType.png",
+        "codes": "op_SS,settingShopShuffleType,shopShuffle",
         "inherit_codes": false
       },
       {
         "img": "images/settings/shopShuffleType.png",
         "codes": "op_SS,settingShopShuffleType,shopShuffle",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shopShuffleSlot.png",
+        "codes": "op_SS,settingShopShuffleSlot,shopShuffle",
         "inherit_codes": false
       }
       
@@ -477,13 +482,13 @@
         "codes": "op_SR,settingShopReceiveOff"
       },
       {
-        "img": "images/settings/shopReceiveShops.png",
-        "codes": "op_SR,settingShopReceiveShops",
+        "img": "images/settings/shopReceiveTypes.png",
+        "codes": "op_SR,settingShopReceiveTypes",
         "inherit_codes": false
       },
       {
-        "img": "images/settings/shopReceiveTypes.png",
-        "codes": "op_SR,settingShopReceiveTypes",
+        "img": "images/settings/shopReceiveShops.png",
+        "codes": "op_SR,settingShopReceiveShops",
         "inherit_codes": false
       },
       {

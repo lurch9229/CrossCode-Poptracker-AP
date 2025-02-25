@@ -832,8 +832,8 @@ LOCATION_MAPPING =
 [3235824784] = {"@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Rice Cracker Slot - 200 Credits"},
 [3235824785] = {"@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits"},
 -- Rhombus Weapons Cobalt Gear
--- [3235824786] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Goggles Slot - 71350 Credits"},
--- [3235824787] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Edge Slot - 70975 Credits"},
--- [3235824788] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Mail Slot - 71925 Credits"},
--- [3235824789] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Boots Slot - 71350 Credits"},
+[3235824786] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Goggles Slot - 71350 Credits"},
+[3235824787] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Edge Slot - 70975 Credits"},
+[3235824788] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Mail Slot - 71925 Credits"},
+[3235824789] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Boots Slot - 71350 Credits"}
 }
