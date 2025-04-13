@@ -344,7 +344,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-hot-trail, meteorShade"
+                            "MV-hot-trail, eleWave, meteorShade"
                         ],
                         "item_count": 1
                     }
