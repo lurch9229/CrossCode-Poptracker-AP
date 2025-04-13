@@ -156,7 +156,7 @@ function onClear(slot_data)
     end
 
     if slot_data['options']["keyrings"] then 
-        if slot_data['options']["keyrings"][1] == 152 then 
+        if slot_data['options']["keyrings"][1] ~= nil then 
             Tracker:FindObjectForCode("op_KR").CurrentStage = 1
         else
             Tracker:FindObjectForCode("op_KR").CurrentStage = 0
