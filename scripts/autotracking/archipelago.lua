@@ -139,7 +139,11 @@ function onClear(slot_data)
     if slot_data['options']['questRando'] then
         local obj = Tracker:FindObjectForCode("op_QS")
         if obj then
-            obj.CurrentStage = slot_data['options']['questRando']
+            if slot_data['options']['questRando'] == true then
+                obj.CurrentStage = 1
+            else
+                obj.CurrentStage = 0
+            end
         end
     end
 
@@ -152,7 +156,7 @@ function onClear(slot_data)
     end
 
     if slot_data['options']["keyrings"] then 
-        if slot_data['options']["keyrings"][0] then 
+        if slot_data['options']["keyrings"][1] == 152 then 
             Tracker:FindObjectForCode("op_KR").CurrentStage = 1
         else
             Tracker:FindObjectForCode("op_KR").CurrentStage = 0
@@ -329,8 +333,7 @@ end
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
-            item_player))
+        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name, item_player))
     end
     -- not implemented yet :(
 end
