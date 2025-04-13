@@ -381,4 +381,8 @@ ITEM_MAPPING =
 [3235924510] = {"RSweapon3", "toggle"}, -- Rhombus Weapon Slot 8 (coEdge)
 [3235924511] = {"RSweapon5", "toggle"}, -- Rhombus Weapon Slot 8 (coMail)
 [3235924512] = {"RSweapon7", "toggle"}, -- Rhombus Weapon Slot 8 (coBoots)
+
+[3235824337] = {"shinyOrb", "toggle"},
+
+
 }
