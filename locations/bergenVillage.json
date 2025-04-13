@@ -369,7 +369,6 @@
                         [
                             "floraDisc, botanics-1"
                         ],
-                        "hosted_item": "botanics-2",
                         "item_count": 1
                     }
                 ]
@@ -494,7 +493,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "BV-asp-trial",
                         "item_count": 1
                     },
                     {
@@ -507,7 +505,6 @@
                         [
                             "BV-asp-trial"
                         ],
-                        "hosted_item": "BV-asp-challenge",
                         "item_count": 1
                     },
                     {
@@ -544,7 +541,6 @@
                         [
                             "BV-asp-trial, iceShade, eleHeat"
                         ],
-                        "hosted_item": "BV-prog-trial",
                         "item_count": 1
                     },
                     {
@@ -557,7 +553,6 @@
                         [
                             "BV-prog-trial"
                         ],
-                        "hosted_item": "BV-prog-challenge",
                         "item_count": 1
                     },
                     {
@@ -613,7 +608,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "BV-frobbits",
                         "item_count": 1
                     },
                     {
@@ -626,7 +620,6 @@
                         [
                             "BV-frobbits, iceShade, eleHeat"
                         ],
-                        "hosted_item": "BV-EX-mine",
                         "item_count": 1
                     },
                     {
@@ -639,7 +632,6 @@
                         [
                             "BV-EX-mine, iceShade, eleHeat"
                         ],
-                        "hosted_item": "BV-pre-mine",
                         "item_count": 1
                     }
                 ]
@@ -671,7 +663,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "BV-kidding",
                         "item_count": 1
                     },
                     {
@@ -715,7 +706,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "BV-hat",
                         "item_count": 1
                     },
                     {
@@ -757,10 +747,9 @@
                         ],
                         "access_rules":
                         [
-                            "eleHeat, BT_bunny",
-                            "mineKey:1, BT_bunny"
+                            "eleHeat, BT-bunny",
+                            "mineKey:1, BT-bunny"
                         ],
-                        "hosted_item": "BV-omni-build",
                         "item_count": 1
                     },
                     {
@@ -785,8 +774,8 @@
                         ],
                         "access_rules":
                         [
-                            "$newLock|3235824077, eleHeat, BT_bunny, thiefKey",
-                            "$newLock|3235824077, mineKey:1, BT_bunny, thiefKey"
+                            "$newLock|3235824077, eleHeat, BT-bunny, thiefKey",
+                            "$newLock|3235824077, mineKey:1, BT-bunny, thiefKey"
                         ],
                         "item_count": 1
                     }
@@ -817,9 +806,8 @@
                         ],
                         "access_rules":
                         [
-                            "dkar1, brokenShield"
+                            "brokenShield"
                         ],
-                        "hosted_item": "dkar2",
                         "item_count": 1
                     }
                 ]

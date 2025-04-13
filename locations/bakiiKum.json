@@ -211,7 +211,6 @@
                             "$region12, eleHeat",
                             "$regionOpen6, eleHeat"
                         ],
-                        "hosted_item": "MV-tree-done",
                         "item_count": 1
                     },
                     {
@@ -222,9 +221,8 @@
                         ],
                         "access_rules":
                         [
-                            "botanics-2"  
+                            "botanics-2"
                         ],
-                        "hosted_item": "botanics-3",
                         "item_count": 1
                     }
                 ]
@@ -324,7 +322,6 @@
                         [
                             ""  
                         ],
-                        "hosted_item": "MV-blasting",
                         "item_count": 1
                     },
                     {
@@ -337,7 +334,6 @@
                         [
                             "MV-blasting"
                         ],
-                        "hosted_item": "MV-hot-trail",
                         "item_count": 1
                     },
                     {
@@ -383,7 +379,6 @@
                         [
                             ""  
                         ],
-                        "hosted_item": "MV-thief",
                         "item_count": 1
                     },
                     {
@@ -429,7 +424,6 @@
                         [
                             ""  
                         ],
-                        "hosted_item": "MV-crate",
                         "item_count": 1
                     },
                     {
@@ -442,7 +436,6 @@
                         [
                             "MV-crate, flameShade, eleHeat, eleCold"  
                         ],
-                        "hosted_item": "MV-booze-1",
                         "item_count": 1
                     }
                 ]
@@ -476,7 +469,6 @@
                         [
                             "MV-booze-1"  
                         ],
-                        "hotsed_item": "MV-booze-2",
                         "item_count": 1
                     }
                 ]
@@ -508,9 +500,8 @@
                         ],
                         "access_rules":
                         [
-                            "dkar2, brokenSword"  
+                            "brokenSword"  
                         ],
-                        "hosted_item": "dkar3",
                         "item_count": 1
                     }
                 ]

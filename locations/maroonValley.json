@@ -1106,6 +1106,18 @@
                 ],
                 "sections": [
                     {
+                        "name": "Trailblazing Finish",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Trailblazing Collect",
                         "visibility_rules": 
                         [
@@ -1115,7 +1127,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "MV-TB-collect",
                         "item_count": 1
                     },
                     {
@@ -1128,7 +1139,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "MV-TB-defeat",
                         "item_count": 1
                     },
                     {
@@ -1141,7 +1151,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "MV-TB-poi",
                         "item_count": 1
                     },
                     {
@@ -1154,20 +1163,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "MV-TB-probe",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Trailblazing Finish",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            "MV-TB-collect, MV-TB-defeat, MV-TB-poi, MV-TB-probe"
-                        ],
-                        "hosted_item": "MV-TB-done",
                         "item_count": 1
                     }
                 ]

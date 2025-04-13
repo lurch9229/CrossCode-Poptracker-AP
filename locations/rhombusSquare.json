@@ -510,8 +510,8 @@
 				[
                     {
                         "map": "Rhombus_Square",
-                        "x": 390,
-                        "y": 366
+                        "x": 730,
+                        "y": 122
                     }
                 ],
                 "access_rules": 
@@ -675,7 +675,7 @@
 				[
                     {
                         "map": "Rhombus_Square",
-                        "x": 745,
+                        "x": 759,
                         "y": 122
                     }
                 ],

@@ -693,7 +693,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "botanics-1",
                         "item_count": 1
                     }
                 ]
@@ -958,7 +957,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "AR-first",
                         "item_count": 1
                     },
                     {
@@ -1021,9 +1019,9 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region3"
-                        ],
+                [
+                    "$region3"
+                ],
                 "sections": 
 				[
                     {
@@ -1034,9 +1032,8 @@
                         ],
                         "access_rules": 
                         [
-                            "AR-TB-collect, AR-TB-defeat, AR-TB-poi, AR-TB-probe"
+                            ""
                         ],
-                        "hosted_item": "AR-TB-done",
                         "item_count": 1
                     },
                     {
@@ -1049,7 +1046,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "AR-TB-collect",
                         "item_count": 1
                     },
                     {
@@ -1062,7 +1058,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "AR-TB-defeat",
                         "item_count": 1
                     },
                     {
@@ -1075,7 +1070,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "AR-TB-poi",
                         "item_count": 1
                     },
                     {
@@ -1088,7 +1082,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "AR-TB-probe",
                         "item_count": 1
                     }
                 ]
@@ -1122,7 +1115,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "AR-parkour",
                         "item_count": 1
                     }
                 ]

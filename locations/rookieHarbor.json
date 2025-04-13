@@ -273,7 +273,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "RH-delivery",
                         "item_count": 1
                     },
                     {
@@ -286,7 +285,6 @@
                         [
                             "RH-delivery"
                         ],
-                        "hosted_item": "RH-bull",
                         "item_count": 1
                     },
                     {
@@ -331,7 +329,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "RH-data-digging",
                         "item_count": 1
                     },
                     {
@@ -344,7 +341,6 @@
                         [
                             "RH-data-digging"
                         ],
-                        "hosted_item": "RH-hillkat",
                         "item_count": 1
                     },
                     {
@@ -389,7 +385,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "RH-tree-1",
                         "item_count": 1
                     },
                     {
@@ -402,7 +397,6 @@
                         [
                             "RH-tree-1"
                         ],
-                        "hosted_item": "RH-tree-2",
                         "item_count": 1
                     },
                     {
@@ -447,7 +441,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "RH-petty",
                         "item_count": 1
                     },
                     {
@@ -460,7 +453,6 @@
                         [
                             "RH-petty"
                         ],
-                        "hosted_item": "RH-smuggle-1",
                         "item_count": 1
                     },
                     {
@@ -473,7 +465,6 @@
                         [
                             "RH-smuggle-1, iceShade"
                         ],
-                        "hosted_item": "RH-smuggle-2",
                         "item_count": 1
                     }
                 ]
@@ -536,7 +527,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "RH-steaks-1",
                         "item_count": 1
                     },
                     {
@@ -547,10 +537,9 @@
                         ],
                         "access_rules": 
                         [
-                            "RH-steaks-1, regionOpen5",
-                            "RH-steaks-1, region11"
+                            "RH-steaks-1, $regionOpen5",
+                            "RH-steaks-1, $region11"
                         ],
-                        "hosted_item": "RH-steaks-2",
                         "item_count": 1
                     },
                     {
@@ -624,7 +613,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RH-vrp, RH-vpi"
+                            "flameShade"
                         ],
                         "item_count": 1
                     },
@@ -638,7 +627,6 @@
                         [
                             "flameShade"
                         ],
-                        "hosted_item": "RH-vrp",
                         "item_count": 1
                     },
                     {
@@ -651,7 +639,6 @@
                         [
                             "flameShade"
                         ],
-                        "hosted_item": "RH-vpi",
                         "item_count": 1
                     }
                 ]
@@ -668,10 +655,10 @@
                     }
                 ],
                 "access_rules": 
-                    [
-                        "$region2",
-                        "$regionOpen2"
-                    ],
+                [
+                    "$region2",
+                    "$regionOpen2"
+                ],
                 "sections": [
                     {
                         "name": "A Promise is a Promise",
@@ -683,7 +670,6 @@
                         [
                             "brokenGauntlet"
                         ],
-                        "hosted_item": "dkar1",
                         "item_count": 1
                     }
                 ]
