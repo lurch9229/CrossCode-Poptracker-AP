@@ -295,8 +295,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, RH-Bull, eleHeat, eleCold, iceShade, flameShade, mineKey:4",
-                            "$regionOpen9, RH-Bull, eleHeat, eleCold, iceShade, flameShade, mineKey:4"
+                            "$region20, $region8, RH-Bull, eleHeat, eleCold, iceShade, flameShade",
+                            "$regionOpen9, $regionOpen4_5, RH-Bull, eleHeat, eleCold, iceShade, flameShade"
                         ],
                         "item_count": 1
                     }
@@ -699,7 +699,8 @@
                         ],
                         "access_rules": 
                         [
-                            "botanics-4, $region24"
+                            "botanics-4, $region24",
+                            "botanics-4, $regionOpen11"
                         ],
                         "item_count": 1
                     }
