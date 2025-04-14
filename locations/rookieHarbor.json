@@ -295,8 +295,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, RH-Bull, eleHeat, eleCold, iceShade, flameShade",
-                            "$regionOpen9, RH-Bull, eleHeat, eleCold, iceShade, flameShade"
+                            "$region20, RH-Bull, eleHeat, eleCold, iceShade, flameShade, mineKey:4",
+                            "$regionOpen9, RH-Bull, eleHeat, eleCold, iceShade, flameShade, mineKey:4"
                         ],
                         "item_count": 1
                     }
@@ -686,10 +686,10 @@
                     }
                 ],
                 "access_rules": 
-                    [
-                        "$region31",
-                        "$regionOpen16"
-                    ],
+                [
+                    "$region31",
+                    "$regionOpen16"
+                ],
                 "sections": [
                     {
                         "name": "Crocus Pocus 100%",
@@ -699,7 +699,7 @@
                         ],
                         "access_rules": 
                         [
-                            "botanics-4"
+                            "botanics-4, $region24"
                         ],
                         "item_count": 1
                     }
