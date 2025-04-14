@@ -1064,7 +1064,7 @@
                     {
                         "name": "Sweet Berry Tea Slot - 3299 Credits",
                         "chest_unopened_img": "images/food/SweetTea.png",
-                        "chest_opened_img": "images/food/SweetTea.png",
+                        "chest_opened_img": "images/food/SweetTeaOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1081,7 +1081,7 @@
                     {
                         "name": "Chili Con Carne Slot - 1099 Credits",
                         "chest_unopened_img": "images/food/Chili.png",
-                        "chest_opened_img": "images/food/Chili.png",
+                        "chest_opened_img": "images/food/ChiliOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1098,7 +1098,7 @@
                     {
                         "name": "Sweet Lemonjuice Slot - 2199 Credits",
                         "chest_unopened_img": "images/food/Lemonade.png",
-                        "chest_opened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"

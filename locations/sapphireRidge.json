@@ -1661,6 +1661,8 @@
 				[
                     {
                         "name": "Sandwich Slot - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1676,6 +1678,8 @@
                     },
                     {
                         "name": "Hi-Sandwich Slot - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1691,6 +1695,8 @@
                     },
                     {
                         "name": "Green Leaf Tea Slot - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1706,6 +1712,8 @@
                     },
                     {
                         "name": "Just Water Slot - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1721,6 +1729,8 @@
                     },
                     {
                         "name": "Kebab Roll Slot - 650 Credits",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1736,6 +1746,8 @@
                     },
                     {
                         "name": "Meaty Risotto Slot - 650 Credits",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1751,6 +1763,8 @@
                     },
                     {
                         "name": "Spicy Bun Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1766,6 +1780,8 @@
                     },
                     {
                         "name": "Fruit Drink Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1781,6 +1797,8 @@
                     },
                     {
                         "name": "Rice Cracker Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1796,6 +1814,8 @@
                     },
                     {
                         "name": "Veggie Sticks Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1811,6 +1831,8 @@
                     },
                     {
                         "name": "Bergen Ice Cream Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1826,6 +1848,8 @@
                     },
                     {
                         "name": "Sweet Lemonjuice Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1841,6 +1865,8 @@
                     },
                     {
                         "name": "Cup o' Coffee Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1856,6 +1882,8 @@
                     },
                     {
                         "name": "Salted Peanuts Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1871,6 +1899,8 @@
                     },
                     {
                         "name": "Snack Mix Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"

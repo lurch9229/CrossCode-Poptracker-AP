@@ -949,7 +949,7 @@
                     {
                         "name": "Fruit Drink Slot - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
-                        "chest_opened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
