@@ -445,7 +445,7 @@
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
-                        "x": 560,
+                        "x": 545,
                         "y": 1090
                     }
                 ],
@@ -1474,8 +1474,8 @@
 				[
                     {
                         "map": "Sapphire_Ridge",
-                        "x": 560,
-                        "y": 1050
+                        "x": 575,
+                        "y": 1090
                     }
                 ],
                 "access_rules": 
@@ -1526,7 +1526,7 @@
                         ],
                         "access_rules":
                         [
-                            "$SRweapon1"  
+                            "$SRweapon1"
                         ],
                         "item_count": 1
                     },
