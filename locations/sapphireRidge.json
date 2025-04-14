@@ -445,7 +445,7 @@
                 "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
-                        "x": 545,
+                        "x": 560,
                         "y": 1090
                     }
                 ],
@@ -1474,7 +1474,7 @@
 				[
                     {
                         "map": "Sapphire_Ridge",
-                        "x": 575,
+                        "x": 30,
                         "y": 1090
                     }
                 ],
