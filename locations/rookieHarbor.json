@@ -726,14 +726,13 @@
                         "name": "Sandwich Slot - 100 Credits",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveSlots",
-                            "settingShopReceiveOff"
+                            "shopShuffle"
                         ],
                         "access_rules": 
                         [
                             "$RHitem1",
                             "$typeSandwich",
-                            "settingShopReceiveShops, RookieItemShop",
+                            "settingShopReceiveShops, rookieItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -748,7 +747,7 @@
                         [
                             "$RHitem2",
                             "$typeHiSandwich",
-                            "settingShopReceiveShops, RookieItemShop",
+                            "settingShopReceiveShops, rookieItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -761,7 +760,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem3"
+                            "$RHitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -773,7 +775,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem4"
+                            "$RHitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -785,7 +790,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem5, iceShade"
+                            "$RHitem5, iceShade",
+                            "$typeKebab, iceShade",
+                            "settingShopReceiveShops, rookieItemShop, iceShade",
+                            "settingShopReceiveOff, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -797,7 +805,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem6, iceShade"
+                            "$RHitem6, iceShade",
+                            "$typeRisotto, iceShade",
+                            "settingShopReceiveShops, rookieItemShop, iceShade",
+                            "settingShopReceiveOff, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -809,7 +820,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem7"
+                            "$RHitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -821,7 +835,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem8"
+                            "$RHitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },                    
@@ -833,7 +850,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem9"
+                            "$RHitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -845,7 +865,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem10"
+                            "$RHitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -857,7 +880,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem11, flameShade"
+                            "$RHitem11, flameShade",
+                            "$typeIcecream, flameShade",
+                            "settingShopReceiveShops, rookieItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -869,7 +895,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem12, flameShade"
+                            "$RHitem12, flameShade",
+                            "$typeLemonjuice, flameShade",
+                            "settingShopReceiveShops, rookieItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -881,7 +910,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem13, seedShade"
+                            "$RHitem13, seedShade",
+                            "$typeCoffee, seedShade",
+                            "settingShopReceiveShops, rookieItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -893,7 +925,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem14, seedShade"
+                            "$RHitem14, seedShade",
+                            "$typePeanuts, seedShade",
+                            "settingShopReceiveShops, rookieItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -905,7 +940,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem15, seedShade"
+                            "$RHitem15, seedShade",
+                            "$typeMix, seedShade",
+                            "settingShopReceiveShops, rookieItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     }
@@ -972,7 +1010,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$typeKebab"
+                            "$typeWater"
                         ],
                         "item_count": 1
                     },
@@ -984,7 +1022,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem5, iceShade"
+                            "$typeKebab, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -996,7 +1034,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem6, iceShade"
+                            "$typeRisotto, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -1008,7 +1046,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem7"
+                            "$typeBun"
                         ],
                         "item_count": 1
                     },
@@ -1020,7 +1058,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem8"
+                            "$typeFruit"
                         ],
                         "item_count": 1
                     },                    
@@ -1032,7 +1070,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem9"
+                            "$typeCracker"
                         ],
                         "item_count": 1
                     },
@@ -1044,7 +1082,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem10"
+                            "$typeVeggie"
                         ],
                         "item_count": 1
                     },
@@ -1056,7 +1094,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem11, flameShade"
+                            "$typeIcecream, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1068,7 +1106,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem12, flameShade"
+                            "$typeLemonjuice, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1080,7 +1118,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem13, seedShade"
+                            "$typeCoffee, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1092,7 +1130,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem14, seedShade"
+                            "$typePeanuts, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1104,7 +1142,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHitem15, seedShade"
+                            "$typeMix, seedShade"
                         ],
                         "item_count": 1
                     }
@@ -1135,7 +1173,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon1"
+                            "$RHweapon1",
+                            "$typeBrHelm",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1147,7 +1188,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon2"
+                            "$RHweapon2",
+                            "$typeIrHelm",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1159,7 +1203,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon3, flameShade"
+                            "$RHweapon3, flameShade",
+                            "$typeSilHelm, flameShade",
+                            "settingShopReceiveShops, rookieWeaponShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1171,7 +1218,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon4"
+                            "$RHweapon4",
+                            "$typeBrEdge",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1183,7 +1233,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon5"
+                            "$RHweapon5",
+                            "$typeIrEdge",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1195,7 +1248,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon6, flameShade"
+                            "$RHweapon6, flameShade",
+                            "$typeSilEdge, flameShade",
+                            "settingShopReceiveShops, rookieWeaponShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1207,7 +1263,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon7"
+                            "$RHweapon7",
+                            "$typeBrMail",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1219,7 +1278,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon8"
+                            "$RHweapon8",
+                            "$typeIrMail",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1231,7 +1293,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon9, flameShade"
+                            "$RHweapon9, flameShade",
+                            "$typeSilMail, flameShade",
+                            "settingShopReceiveShops, rookieWeaponShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1243,7 +1308,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon10"
+                            "$RHweapon10",
+                            "$typeBrBoots",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1255,7 +1323,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon11"
+                            "$RHweapon11",
+                            "$typeIrBoots",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1267,7 +1338,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHweapon12, flameShade"
+                            "$RHweapon12, flameShade",
+                            "$typeSilBoots, flameShade",
+                            "settingShopReceiveShops, rookieWeaponShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     }
@@ -1310,7 +1384,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef1"
+                            "$RHchef1",
+                            "$typeRisingStar",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1322,7 +1399,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef2"
+                            "$RHchef2",
+                            "$typePepper",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1334,7 +1414,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef3"
+                            "$RHchef3",
+                            "$typeMaultasche",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1346,7 +1429,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef4"
+                            "$RHchef4",
+                            "$typeSpaetzle",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1358,7 +1444,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef5"
+                            "$RHchef5",
+                            "$typeDurian",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1370,7 +1459,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef6"
+                            "$RHchef6",
+                            "$typePengo",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1382,7 +1474,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef7"
+                            "$RHchef7",
+                            "$typeBeatZero",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1394,7 +1489,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef8"
+                            "$RHchef8",
+                            "$typeWerewolf",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1406,7 +1504,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef9"
+                            "$RHchef9",
+                            "$typeMooncake",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1418,7 +1519,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef10"
+                            "$RHchef10",
+                            "$typeWillis",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1430,7 +1534,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef11"
+                            "$RHchef11",
+                            "$typePumpkin",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1442,7 +1549,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHchef12"
+                            "$RHchef12",
+                            "$typeToast",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1454,7 +1564,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHbackWeapon1"
+                            "$RHbackWeapon1",
+                            "$typeStHelm",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1466,7 +1579,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHbackWeapon2"
+                            "$RHbackWeapon2",
+                            "$typeSilHelm",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1478,7 +1594,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHbackWeapon3"
+                            "$RHbackWeapon3",
+                            "$typeStEdge",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1490,7 +1609,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHbackWeapon4"
+                            "$RHbackWeapon4",
+                            "$typeSilEdge",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1502,7 +1624,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHbackWeapon5"
+                            "$RHbackWeapon5",
+                            "$typeStMail",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1514,7 +1639,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHbackWeapon6"
+                            "$RHbackWeapon6",
+                            "$typeSilMail",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1526,7 +1654,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHbackWeapon7"
+                            "$RHbackWeapon7",
+                            "$typeStBoots",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1538,7 +1669,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHbackWeapon8"
+                            "$RHbackWeapon8",
+                            "$typeSilBoots",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }
@@ -1569,7 +1703,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RHtara1"
+                            "$RHtara1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, RookieTaraShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }

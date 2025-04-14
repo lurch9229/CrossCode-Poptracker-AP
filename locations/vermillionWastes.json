@@ -397,7 +397,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -409,7 +412,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -421,7 +427,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -433,8 +442,10 @@
                         ],
                         "access_rules": 
                         [
-                            "",
-                            "$region3"
+                            "$VWitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -446,7 +457,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem5",
+                            "$typeBun",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -458,7 +472,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem6",
+                            "$typeFruit",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },                    
@@ -470,7 +487,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem7",
+                            "$typeCracker",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -482,7 +502,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem8",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -494,7 +517,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon1",
+                            "$typeStHelm",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -506,7 +532,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon2",
+                            "$typeSilHelm",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -518,7 +547,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon3",
+                            "$typeStEdge",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -530,7 +562,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon4",
+                            "$typeSilEdge",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -542,7 +577,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon5",
+                            "$typeStMail",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -554,7 +592,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon6",
+                            "$typeSilMail",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -566,7 +607,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon7",
+                            "$typeStBoots",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -578,7 +622,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon8",
+                            "$typeSilBoots",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }

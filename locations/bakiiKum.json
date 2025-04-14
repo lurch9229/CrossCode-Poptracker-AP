@@ -533,7 +533,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem1"  
+                            "$BKitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -545,7 +548,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem2"  
+                            "$BKitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -557,7 +563,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem3"  
+                            "$BKitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -569,7 +578,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem4"  
+                            "$BKitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -581,7 +593,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem5, flameShade"
+                            "$BKitem5, flameShade",
+                            "$typeKebab, flameShade",
+                            "settingShopReceiveShops, bakiiItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -593,7 +608,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem6, flameShade"  
+                            "$BKitem6, flameShade",
+                            "$typeRisotto, flameShade",
+                            "settingShopReceiveShops, bakiiItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -605,7 +623,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem7"  
+                            "$BKitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -617,7 +638,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem8"  
+                            "$BKitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -629,7 +653,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem9"  
+                            "$BKitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -641,7 +668,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem10"  
+                            "$BKitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -653,7 +683,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem11"  
+                            "$BKitem11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -665,7 +698,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem12"  
+                            "$BKitem12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -677,7 +713,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem13, seedShade"  
+                            "$BKitem13, seedShade",
+                            "$typeCoffee, seedShade",
+                            "settingShopReceiveShops, bakiiItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
                         ],
                         "item_count": 1
                     },
@@ -689,7 +728,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem14, seedShade"  
+                            "$BKitem14, seedShade",
+                            "$typePeanuts, seedShade",
+                            "settingShopReceiveShops, bakiiItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
                         ],
                         "item_count": 1
                     },
@@ -701,7 +743,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKitem15, seedShade"
+                            "$BKitem15, seedShade",
+                            "$typeMix, seedShade",
+                            "settingShopReceiveShops, bakiiItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -713,7 +758,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKweapon1"  
+                            "$BKweapon1",
+                            "$typeIrHelm",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -725,7 +773,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKweapon2"  
+                            "$BKweapon2",
+                            "$typeStHelm",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
@@ -737,7 +788,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKweapon3"  
+                            "$BKweapon3",
+                            "$typeIrEdge",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -749,7 +803,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKweapon4"  
+                            "$BKweapon4",
+                            "$typeStEdge",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
@@ -761,7 +818,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKweapon5"  
+                            "$BKweapon5",
+                            "$typeIrMail",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
@@ -773,7 +833,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKweapon6"  
+                            "$BKweapon6",
+                            "$typeStMail",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
@@ -785,7 +848,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKweapon7"  
+                            "$BKweapon7",
+                            "$typeIrBoots",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
@@ -797,7 +863,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BKweapon8"  
+                            "$BKweapon8",
+                            "$typeStBoots",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"   
                         ],
                         "item_count": 1
                     }

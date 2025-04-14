@@ -1071,35 +1071,44 @@
                         ],
                         "access_rules":
                         [
-                            "$BThermit1"
+                            "$BThermit1",
+                            "$typeSweetTea",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Chili Con Carne Slot - 1099 Credits",
-                        "chest_unopened_img": "images/food/FruitDrink.png",
-                        "chest_opened_img": "images/food/FruitDrink.png",
+                        "chest_unopened_img": "images/food/Chili.png",
+                        "chest_opened_img": "images/food/Chili.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BThermit1"
+                            "$BThermit2",
+                            "$typeChiliCon",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweet Lemonjuice Slot - 2199 Credits",
-                        "chest_unopened_img": "images/food/FruitDrink.png",
-                        "chest_opened_img": "images/food/FruitDrink.png",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/Lemonade.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BThermit1"
+                            "$BThermit3",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }
@@ -1324,7 +1333,7 @@
                 "sections": [
                     {
                         "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Slot - 2199 Credits"
+                        "name": "Bergen Trail - Hermit Shop\nSweet Lemonjuice Slot - 2199 Credits"
                     }
                 ],
                 "map_locations": [

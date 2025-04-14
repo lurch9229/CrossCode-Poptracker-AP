@@ -328,7 +328,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem1"
+                            "$RSitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -340,7 +343,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem2"
+                            "$RSitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -352,7 +358,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem3"
+                            "$RSitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -364,7 +373,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem4"
+                            "$RSitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -376,7 +388,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem5"
+                            "$RSitem5",
+                            "$typeKebab",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -388,7 +403,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem6"
+                            "$RSitem6",
+                            "$typeRisotto",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -400,7 +418,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem7"
+                            "$RSitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -412,7 +433,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem8"
+                            "$RSitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -424,7 +448,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem9"
+                            "$RSitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -436,7 +463,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem10"
+                            "$RSitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -448,7 +478,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem11"
+                            "$RSitem11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -460,7 +493,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem12"
+                            "$RSitem12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -472,7 +508,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem13"
+                            "$RSitem13",
+                            "$typeCoffee",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -484,7 +523,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem14"
+                            "$RSitem14",
+                            "$typePeanuts",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -496,7 +538,10 @@
                         ],
                         "access_rules":
                         [
-                            "$RSitem15"
+                            "$RSitem15",
+                            "$typeMix",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     }
@@ -529,7 +574,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef1"
+                            "$RSchef1",
+                            "$typeRisingStar",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -541,7 +589,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef2"
+                            "$RSchef2",
+                            "$typePepper",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -553,7 +604,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef3"
+                            "$RSchef3",
+                            "$typeMaultasche",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -565,7 +619,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef4"
+                            "$RSchef4",
+                            "$typeSpaetzle",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -577,7 +634,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef5"
+                            "$RSchef5",
+                            "$typeDurian",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -589,7 +649,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef6"
+                            "$RSchef6",
+                            "$typePengo",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -601,7 +664,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef7"
+                            "$RSchef7",
+                            "$typeBeatZero",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -613,7 +679,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef8"
+                            "$RSchef8",
+                            "$typeWerewolf",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -625,7 +694,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef9"
+                            "$RSchef9",
+                            "$typeMooncake",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -637,7 +709,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef10"
+                            "$RSchef10",
+                            "$typeWillis",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -649,7 +724,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef11"
+                            "$RSchef11",
+                            "$typePumpkin",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -661,7 +739,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSchef12"
+                            "$RSchef12",
+                            "$typeToast",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     }
@@ -694,7 +775,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSweapon1"
+                            "$RSweapon1",
+                            "$typeCoHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -706,7 +790,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSweapon2"
+                            "$RSweapon2",
+                            "$typeLaHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -718,7 +805,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSweapon3"
+                            "$RSweapon3",
+                            "$typeCoEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -730,7 +820,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSweapon4"
+                            "$RSweapon4",
+                            "$typeLaEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -742,7 +835,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSweapon5"
+                            "$RSweapon5",
+                            "$typeCoMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -754,7 +850,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSweapon6"
+                            "$RSweapon6",
+                            "$typeLaMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -766,7 +865,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSweapon7"
+                            "$RSweapon7",
+                            "$typeCoBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     },
@@ -778,7 +880,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RSweapon8"
+                            "$RSweapon8",
+                            "$typeLaBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     }
@@ -811,7 +916,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$RScurio1"
+                            "$RScurio1",
+                            "$typeDetector",
+                            "settingShopReceiveShops, rhombusCurio",
+                            "settingShopReceiveOff" 
                         ],
                         "item_count": 1
                     }

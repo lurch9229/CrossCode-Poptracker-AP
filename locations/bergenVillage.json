@@ -837,7 +837,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem1"
+                            "$BVitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -851,7 +854,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem2"
+                            "$BVitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -865,7 +871,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem3"
+                            "$BVitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -879,7 +888,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem4"
+                            "$BVitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -893,7 +905,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem5, iceShade"
+                            "$BVitem5, iceShade",
+                            "$typeKebab, iceShade",
+                            "settingShopReceiveShops, bergenItemShop, iceShade",
+                            "settingShopReceiveOff, iceShade"  
                         ],
                         "item_count": 1
                     },
@@ -907,7 +922,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem6, iceShade"
+                            "$BVitem6, iceShade",
+                            "$typeRisotto, iceShade",
+                            "settingShopReceiveShops, bergenItemShop, iceShade",
+                            "settingShopReceiveOff, iceShade"  
                         ],
                         "item_count": 1
                     },
@@ -921,7 +939,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem7"
+                            "$BVitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -935,7 +956,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem8"
+                            "$BVitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -949,7 +973,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem9"
+                            "$BVitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -963,7 +990,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem10"
+                            "$BVitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -977,7 +1007,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem11, flameShade"
+                            "$BVitem11, flameShade",
+                            "$typeIcecream, flameShade",
+                            "settingShopReceiveShops, bergenItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"  
                         ],
                         "item_count": 1
                     },
@@ -991,7 +1024,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem12, flameShade"
+                            "$BVitem12, flameShade",
+                            "$typeLemonjuice, flameShade",
+                            "settingShopReceiveShops, bergenItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"  
                         ],
                         "item_count": 1
                     },
@@ -1005,7 +1041,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem13, seedShade"
+                            "$BVitem13, seedShade",
+                            "$typeCoffee, seedShade",
+                            "settingShopReceiveShops, bergenItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
                         ],
                         "item_count": 1
                     },
@@ -1019,7 +1058,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem14, seedShade"
+                            "$BVitem14, seedShade",
+                            "$typePeanuts, seedShade",
+                            "settingShopReceiveShops, bergenItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
                         ],
                         "item_count": 1
                     },
@@ -1033,7 +1075,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVitem15, seedShade"
+                            "$BVitem15, seedShade",
+                            "$typeMix, seedShade",
+                            "settingShopReceiveShops, bergenItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
                         ],
                         "item_count": 1
                     }
@@ -1064,7 +1109,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVweapon1"
+                            "$BVweapon1",
+                            "$typeIrHelm",
+                            "settingShopReceiveShops, bergenWeaponShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -1076,7 +1124,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVweapon2"
+                            "$BVweapon2",
+                            "$typeIrEdge",
+                            "settingShopReceiveShops, bergenWeaponShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -1088,7 +1139,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVweapon3"
+                            "$BVweapon3",
+                            "$typeIrMail",
+                            "settingShopReceiveShops, bergenWeaponShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
@@ -1100,7 +1154,10 @@
                         ],
                         "access_rules":
                         [
-                            "$BVweapon4"
+                            "$BVweapon4",
+                            "$typeIrBoots",
+                            "settingShopReceiveShops, bergenWeaponShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     }
