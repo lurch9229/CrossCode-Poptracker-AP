@@ -16,7 +16,7 @@ end
 --------------------------------------------------------------------------------------------------------------------------
  
 function region2()
-  return 1
+  return has ("settingOpenModeClosed")
 end
 
 function region3()
