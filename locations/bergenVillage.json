@@ -1103,6 +1103,8 @@
                 "sections": [
                     {
                         "name": "Iron Goggles Slot - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1118,6 +1120,8 @@
                     },
                     {
                         "name": "Iron Edge Slot - 4500 Credits",
+                        "chest_unopened_img": "images/weapon/ironEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1133,6 +1137,8 @@
                     },
                     {
                         "name": "Iron Mail Slot - 4800 Credits",
+                        "chest_unopened_img": "images/weapon/ironMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1148,6 +1154,8 @@
                     },
                     {
                         "name": "Iron Boots Slot - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"

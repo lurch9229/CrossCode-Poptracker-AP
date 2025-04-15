@@ -598,6 +598,8 @@
 				[
                     {
                         "name": "Rising Super Star Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/RisingStar.png",
+                        "chest_opened_img": "images/food/RisingStarOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -613,6 +615,8 @@
                     },
                     {
                         "name": "Dk Pepper Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/DkPepper.png",
+                        "chest_opened_img": "images/food/DkPepperOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -628,6 +632,8 @@
                     },
                     {
                         "name": "Maultasche Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/Maultasche.png",
+                        "chest_opened_img": "images/food/MaultascheOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -643,6 +649,8 @@
                     },
                     {
                         "name": "Cheese Spaetzle Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/Spaetzle.png",
+                        "chest_opened_img": "images/food/SpaetzleOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -658,6 +666,8 @@
                     },
                     {
                         "name": "Durian Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/Durian.png",
+                        "chest_opened_img": "images/food/DurianOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -673,6 +683,8 @@
                     },
                     {
                         "name": "PengoPop Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/PengoPop.png",
+                        "chest_opened_img": "images/food/PengoPopOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -688,6 +700,8 @@
                     },
                     {
                         "name": "Spicy Beat-0-Type Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/BeatZero.png",
+                        "chest_opened_img": "images/food/BeatZeroOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -703,6 +717,8 @@
                     },
                     {
                         "name": "Werewolf Stick Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/WerewolfStick.png",
+                        "chest_opened_img": "images/food/WerewolfStickOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -718,6 +734,8 @@
                     },
                     {
                         "name": "Mooncake Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/Mooncake.png",
+                        "chest_opened_img": "images/food/MooncakeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -733,6 +751,8 @@
                     },
                     {
                         "name": "Willis Waldmahl Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/WillisWaldmahl.png",
+                        "chest_opened_img": "images/food/WillisWaldmahlOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -748,6 +768,8 @@
                     },
                     {
                         "name": "Pumpkin Spiced Coffee Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/PumpkinSpice.png",
+                        "chest_opened_img": "images/food/PumpkinSpiceOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -763,6 +785,8 @@
                     },
                     {
                         "name": "Guacamole Toast Slot - 9999 Credits",
+                        "chest_unopened_img": "images/food/GuacamoleToast.png",
+                        "chest_opened_img": "images/food/GuacamoleToastOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -799,6 +823,8 @@
 				[
                     {
                         "name": "Cobalt Goggles Slot - 71350 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -814,6 +840,8 @@
                     },
                     {
                         "name": "Laser Goggles Slot - 104750 Credits",
+                        "chest_unopened_img": "images/weapon/laserHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -829,6 +857,8 @@
                     },
                     {
                         "name": "Cobalt Edge Slot - 70975 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -844,6 +874,8 @@
                     },
                     {
                         "name": "Laser Edge Slot - 104500 Credits",
+                        "chest_unopened_img": "images/weapon/laserEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -859,6 +891,8 @@
                     },
                     {
                         "name": "Cobalt Mail Slot - 71925 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -874,6 +908,8 @@
                     },
                     {
                         "name": "Laser Mail Slot - 105000 Credits",
+                        "chest_unopened_img": "images/weapon/laserMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -889,6 +925,8 @@
                     },
                     {
                         "name": "Cobalt Boots Slot - 71350 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -904,6 +942,8 @@
                     },
                     {
                         "name": "Laser Boots Slot - 104750 Credits",
+                        "chest_unopened_img": "images/weapon/laserBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -940,6 +980,8 @@
 				[
                     {
                         "name": "Chest Detector Slot - 33333 Credits",
+                        "chest_unopened_img": "images/weapon/ChestDetector.png",
+                        "chest_opened_img": "images/weapon/ChestDetectorOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"

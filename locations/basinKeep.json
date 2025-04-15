@@ -777,6 +777,8 @@
                     },
                     {
                         "name": "Silver Goggles Slot - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -792,6 +794,8 @@
                     },
                     {
                         "name": "Titan Goggles Slot - 46750 Credits",
+                        "chest_unopened_img": "images/weapon/titanHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -807,6 +811,8 @@
                     },
                     {
                         "name": "Silver Edge Slot - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -822,6 +828,8 @@
                     },
                     {
                         "name": "Titan Edge Slot - 46475 Credits",
+                        "chest_unopened_img": "images/weapon/titanEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -837,6 +845,8 @@
                     },
                     {
                         "name": "Silver Mail Slot - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -852,6 +862,8 @@
                     },
                     {
                         "name": "Titan Mail Slot - 46925 Credits",
+                        "chest_unopened_img": "images/weapon/titanMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -867,6 +879,8 @@
                     },
                     {
                         "name": "Silver Boots Slot - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -882,6 +896,8 @@
                     },
                     {
                         "name": "Titan Boots Slot - 46750 Credits",
+                        "chest_unopened_img": "images/weapon/titanBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1195,6 +1211,8 @@
                 "sections": [
                     {
                         "name": "One Up Slot - 60000 Credits",
+                        "chest_unopened_img": "images/food/OneUp.png",
+                        "chest_opened_img": "images/food/OneUpOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"

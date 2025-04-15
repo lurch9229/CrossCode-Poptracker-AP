@@ -1520,6 +1520,8 @@
 				[
                     {
                         "name": "Titan Goggles Slot - 46750 Credits",
+                        "chest_unopened_img": "images/weapon/titanHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1535,6 +1537,8 @@
                     },
                     {
                         "name": "Cobalt Goggles Slot - 71350 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1550,6 +1554,8 @@
                     },
                     {
                         "name": "Titan Edge Slot - 46475 Credits",
+                        "chest_unopened_img": "images/weapon/titanEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1565,6 +1571,8 @@
                     },
                     {
                         "name": "Cobalt Edge Slot - 70975 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1580,6 +1588,8 @@
                     },
                     {
                         "name": "Titan Mail Slot - 46925 Credits",
+                        "chest_unopened_img": "images/weapon/titanMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1595,6 +1605,8 @@
                     },
                     {
                         "name": "Cobalt Mail Slot - 71925 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1610,6 +1622,8 @@
                     },
                     {
                         "name": "Titan Boots Slot - 46750 Credits",
+                        "chest_unopened_img": "images/weapon/titanBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1625,6 +1639,8 @@
                     },
                     {
                         "name": "Cobalt Boots Slot - 71350 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"

@@ -527,6 +527,8 @@
                     },
                     {
                         "name": "Steel Goggles Slot - 15850 Credits",
+                        "chest_unopened_img": "images/weapon/steelHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -542,6 +544,8 @@
                     },
                     {
                         "name": "Silver Goggles Slot - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -557,6 +561,8 @@
                     },
                     {
                         "name": "Steel Edge Slot - 15800 Credits",
+                        "chest_unopened_img": "images/weapon/steelEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -572,6 +578,8 @@
                     },
                     {
                         "name": "Silver Edge Slot - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -587,6 +595,8 @@
                     },
                     {
                         "name": "Steel Mail Slot - 16100 Credits",
+                        "chest_unopened_img": "images/weapon/steelMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -602,6 +612,8 @@
                     },
                     {
                         "name": "Silver Mail Slot - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -617,6 +629,8 @@
                     },
                     {
                         "name": "Steel Boots Slot - 15950 Credits",
+                        "chest_unopened_img": "images/weapon/steelBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -632,6 +646,8 @@
                     },
                     {
                         "name": "Silver Boots Slot - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"

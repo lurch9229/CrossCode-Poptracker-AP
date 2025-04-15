@@ -1226,6 +1226,8 @@
                 "sections": [
                     {
                         "name": "Bronze Goggles Slot - 850 Credits",
+                        "chest_unopened_img": "images/weapon/bronzeHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1241,6 +1243,8 @@
                     },
                     {
                         "name": "Iron Goggles Slot - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1256,6 +1260,8 @@
                     },
                     {
                         "name": "Silver Goggles Slot - 29450 Credits Have Red Flame",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1271,6 +1277,8 @@
                     },
                     {
                         "name": "Bronze Edge Slot - 800 Credits",
+                        "chest_unopened_img": "images/weapon/bronzeEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1286,6 +1294,8 @@
                     },
                     {
                         "name": "Iron Edge Slot - 4500 Credits",
+                        "chest_unopened_img": "images/weapon/ironEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1301,6 +1311,8 @@
                     },
                     {
                         "name": "Silver Edge Slot - 29375 Credits Have Red Flame",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1316,6 +1328,8 @@
                     },
                     {
                         "name": "Bronze Mail Slot - 900 Credits",
+                        "chest_unopened_img": "images/weapon/bronzeMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1331,6 +1345,8 @@
                     },
                     {
                         "name": "Iron Mail Slot - 4800 Credits",
+                        "chest_unopened_img": "images/weapon/ironMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1346,6 +1362,8 @@
                     },
                     {
                         "name": "Silver Mail Slot - 29725 Credits Have Red Flame",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1361,6 +1379,8 @@
                     },
                     {
                         "name": "Bronze Boots Slot - 850 Credits",
+                        "chest_unopened_img": "images/weapon/bronzeBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1376,6 +1396,8 @@
                     },
                     {
                         "name": "Iron Boots Slot - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1391,6 +1413,8 @@
                     },
                     {
                         "name": "Silver Boots Slot - 29450 Credits Have Red Flame",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1437,6 +1461,8 @@
                     },
                     {
                         "name": "Rising Super Star Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/RisingStar.png",
+                        "chest_opened_img": "images/food/RisingStarOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1452,6 +1478,8 @@
                     },
                     {
                         "name": "Dk Pepper Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/DkPepper.png",
+                        "chest_opened_img": "images/food/DkPepperOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1467,6 +1495,8 @@
                     },
                     {
                         "name": "Maultasche Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/Maultasche.png",
+                        "chest_opened_img": "images/food/MaultascheOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1482,6 +1512,8 @@
                     },
                     {
                         "name": "Cheese Spaetzle Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/Spaetzle.png",
+                        "chest_opened_img": "images/food/SpaetzleOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1497,6 +1529,8 @@
                     },
                     {
                         "name": "Durian Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/Durian.png",
+                        "chest_opened_img": "images/food/DurianOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1512,6 +1546,8 @@
                     },
                     {
                         "name": "PengoPop Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/PengoPop.png",
+                        "chest_opened_img": "images/food/PengoPopOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1527,6 +1563,8 @@
                     },
                     {
                         "name": "Spicy Beat-0-Type Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/BeatZero.png",
+                        "chest_opened_img": "images/food/BeatZeroOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1542,6 +1580,8 @@
                     },
                     {
                         "name": "Werewolf Stick Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/WerewolfStick.png",
+                        "chest_opened_img": "images/food/WerewolfStickOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1557,6 +1597,8 @@
                     },
                     {
                         "name": "Mooncake Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/Mooncake.png",
+                        "chest_opened_img": "images/food/MooncakeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1572,6 +1614,8 @@
                     },
                     {
                         "name": "Willis Waldmahl Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/WillisWaldmahl.png",
+                        "chest_opened_img": "images/food/WillisWaldmahlOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1587,6 +1631,8 @@
                     },
                     {
                         "name": "Pumpkin Spiced Coffee Slot - 7777 Credits",
+                        "chest_unopened_img": "images/food/PumpkinSpice.png",
+                        "chest_opened_img": "images/food/PumpkinSpiceOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1602,6 +1648,8 @@
                     },
                     {
                         "name": "Guacamole Toast Slot - 9999 Credits",
+                        "chest_unopened_img": "images/food/GuacamoleToast.png",
+                        "chest_opened_img": "images/food/GuacamoleToastOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1617,6 +1665,8 @@
                     },
                     {
                         "name": "Steel Goggles Slot - 15850 Credits",
+                        "chest_unopened_img": "images/weapon/steelHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1632,6 +1682,8 @@
                     },
                     {
                         "name": "Silver Goggles Slot - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1647,6 +1699,8 @@
                     },
                     {
                         "name": "Steel Edge Slot - 15800 Credits",
+                        "chest_unopened_img": "images/weapon/steelEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1662,6 +1716,8 @@
                     },
                     {
                         "name": "Silver Edge Slot - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1677,6 +1733,8 @@
                     },
                     {
                         "name": "Steel Mail Slot - 16100 Credits",
+                        "chest_unopened_img": "images/weapon/steelMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1692,6 +1750,8 @@
                     },
                     {
                         "name": "Silver Mail Slot - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1707,6 +1767,8 @@
                     },
                     {
                         "name": "Steel Boots Slot - 15950 Credits",
+                        "chest_unopened_img": "images/weapon/steelBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
@@ -1722,6 +1784,8 @@
                     },
                     {
                         "name": "Silver Boots Slot - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
