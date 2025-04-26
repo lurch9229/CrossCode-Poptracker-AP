@@ -204,7 +204,7 @@
                         "name": "Maroon Tree Defender",
                         "visibility_rules": 
                         [
-                            ""
+                            "questShuffle"
                         ],
                         "access_rules":
                         [

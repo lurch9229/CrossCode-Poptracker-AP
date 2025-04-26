@@ -240,7 +240,7 @@
                         "name": "Sprouting Business",
                         "visibility_rules": 
                         [
-                            ""
+                            "questShuffle"
                         ],
                         "access_rules": 
                         [

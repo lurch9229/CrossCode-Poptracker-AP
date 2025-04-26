@@ -511,9 +511,7 @@ function manualHostedItems(location_id)
         local objItem = Tracker:FindObjectForCode("RH-steaks-3")
         if objItem then
             objItem.Active = true
-        end
-
-        
+        end       
 
     elseif location_id == 3235824517 then
         local objItem = Tracker:FindObjectForCode("dkar1")
