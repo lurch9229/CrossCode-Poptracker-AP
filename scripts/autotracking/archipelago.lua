@@ -139,7 +139,11 @@ function onClear(slot_data)
     if slot_data['options']['questRando'] then
         local obj = Tracker:FindObjectForCode("op_QS")
         if obj then
-            obj.CurrentStage = slot_data['options']['questRando']
+            if slot_data['options']['questRando'] == true then
+                obj.CurrentStage = 1
+            else
+                obj.CurrentStage = 0
+            end
         end
     end
 
@@ -152,7 +156,7 @@ function onClear(slot_data)
     end
 
     if slot_data['options']["keyrings"] then 
-        if slot_data['options']["keyrings"][0] then 
+        if slot_data['options']["keyrings"][1] ~= nil then 
             Tracker:FindObjectForCode("op_KR").CurrentStage = 1
         else
             Tracker:FindObjectForCode("op_KR").CurrentStage = 0
@@ -243,15 +247,25 @@ function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onLocation: %s, %s", location_id, location_name))
     end
+
     local v = LOCATION_MAPPING[location_id]
-    if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onLocation: could not find location mapping for id %s", location_id))
+    
+    if not v then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find location mapping for id %s", location_id))
+        end
+
+        return
     end
+
     if not v[1] then
         return
     end
+
     local obj = Tracker:FindObjectForCode(v[1])
+    
     if obj then
+        manualHostedItems(location_id)
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
         else
@@ -329,8 +343,7 @@ end
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
-            item_player))
+        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name, item_player))
     end
     -- not implemented yet :(
 end
@@ -343,6 +356,519 @@ function onBounce(json)
     -- your code goes here
 end
 
+function manualHostedItems(location_id)
+    if location_id == 3235824345 then
+        local objItem = Tracker:FindObjectForCode("botanics-1")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824377 then
+        local objItem = Tracker:FindObjectForCode("AR-First")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824386 then
+        local objItem = Tracker:FindObjectForCode("AR-parkour")
+        if objItem then
+            objItem.Active = true
+        end        
+
+    elseif location_id == 3235824381 then
+        local objItem = Tracker:FindObjectForCode("AR-TB-done")
+        if objItem then
+            objItem.Active = true
+        end
+        
+    elseif location_id == 3235824382 then
+        local objItem = Tracker:FindObjectForCode("AR-TB-collect")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824383 then
+        local objItem = Tracker:FindObjectForCode("AR-TB-defeat")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824384 then
+        local objItem = Tracker:FindObjectForCode("AR-TB-poi")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824385 then
+        local objItem = Tracker:FindObjectForCode("AR-TB-probe")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824391 then
+        local objItem = Tracker:FindObjectForCode("BT-TB-done")
+        if objItem then
+            objItem.Active = true
+        end        
+
+    elseif location_id == 3235824392 then
+        local objItem = Tracker:FindObjectForCode("BT-TB-collect")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824393 then
+        local objItem = Tracker:FindObjectForCode("BT-TB-defeat")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824394 then
+        local objItem = Tracker:FindObjectForCode("BT-TB-poi")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824395 then
+        local objItem = Tracker:FindObjectForCode("BT-TB-probe")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824398 then
+        local objItem = Tracker:FindObjectForCode("BT-bunny")
+        if objItem then
+            objItem.Active = true
+        end        
+
+    elseif location_id == 3235824518 then
+        local objItem = Tracker:FindObjectForCode("RH-steaks-1")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824520 then
+        local objItem = Tracker:FindObjectForCode("RH-steaks-2")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824496 then
+        local objItem = Tracker:FindObjectForCode("RH-petty")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824498 then
+        local objItem = Tracker:FindObjectForCode("RH-smuggle-1")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824487 then
+        local objItem = Tracker:FindObjectForCode("RH-master")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824488 then
+        local objItem = Tracker:FindObjectForCode("RH-vrp")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824489 then
+        local objItem = Tracker:FindObjectForCode("RH-vpi")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824494 then
+        local objItem = Tracker:FindObjectForCode("RH-power-points")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824500 then
+        local objItem = Tracker:FindObjectForCode("RH-smuggle-2")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824507 then
+        local objItem = Tracker:FindObjectForCode("RH-metal")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824514 then
+        local objItem = Tracker:FindObjectForCode("RH-fire-bull")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824521 then
+        local objItem = Tracker:FindObjectForCode("RH-steaks-3")
+        if objItem then
+            objItem.Active = true
+        end       
+
+    elseif location_id == 3235824517 then
+        local objItem = Tracker:FindObjectForCode("dkar1")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824502 then
+        local objItem = Tracker:FindObjectForCode("RH-delivery")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824504 then
+        local objItem = Tracker:FindObjectForCode("RH-Bull")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824491 then
+        local objItem = Tracker:FindObjectForCode("RH-data-digging")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824492 then
+        local objItem = Tracker:FindObjectForCode("RH-hillkat")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824509 then
+        local objItem = Tracker:FindObjectForCode("RH-tree-1")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824511 then
+        local objItem = Tracker:FindObjectForCode("RH-tree-2")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824440 then
+        local objItem = Tracker:FindObjectForCode("MV-tree-done")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824375 then
+        local objItem = Tracker:FindObjectForCode("botanics-3")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824441 then
+        local objItem = Tracker:FindObjectForCode("MV-blasting")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824443 then
+        local objItem = Tracker:FindObjectForCode("MV-hot-trail")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824446 then
+        local objItem = Tracker:FindObjectForCode("MV-thief")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824450 then
+        local objItem = Tracker:FindObjectForCode("MV-crate")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824452 then
+        local objItem = Tracker:FindObjectForCode("MV-booze-1")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824453 then
+        local objItem = Tracker:FindObjectForCode("MV-booze-2")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824454 then
+        local objItem = Tracker:FindObjectForCode("dkar3")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824459 then
+        local objItem = Tracker:FindObjectForCode("GG-hostage")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824473 then
+        local objItem = Tracker:FindObjectForCode("GG-mush-1")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824474 then
+        local objItem = Tracker:FindObjectForCode("GG-mush-2")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824463 then
+        local objItem = Tracker:FindObjectForCode("GG-chill")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824467 then
+        local objItem = Tracker:FindObjectForCode("GG-escort")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824455 then
+        local objItem = Tracker:FindObjectForCode("GG-turret-1")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824457 then
+        local objItem = Tracker:FindObjectForCode("GG-turret-2")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824475 then
+        local objItem = Tracker:FindObjectForCode("GG-halloween")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824476 then
+        local objItem = Tracker:FindObjectForCode("dkar4")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824376 then
+        local objItem = Tracker:FindObjectForCode("botanics-4")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824374 then
+        local objItem = Tracker:FindObjectForCode("botanics-2")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824418 then
+        local objItem = Tracker:FindObjectForCode("BV-asp-trial")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824423 then
+        local objItem = Tracker:FindObjectForCode("BV-asp-challenge")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824420 then
+        local objItem = Tracker:FindObjectForCode("BV-prog-trial")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824426 then
+        local objItem = Tracker:FindObjectForCode("BV-prog-challenge")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824403 then
+        local objItem = Tracker:FindObjectForCode("BV-frobbits")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824405 then
+        local objItem = Tracker:FindObjectForCode("BV-EX-mine")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824407 then
+        local objItem = Tracker:FindObjectForCode("BV-pre-mine")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824409 then
+        local objItem = Tracker:FindObjectForCode("BV-kidding")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824413 then
+        local objItem = Tracker:FindObjectForCode("BV-hat")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824429 then
+        local objItem = Tracker:FindObjectForCode("BV-omni-build")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824430 then
+        local objItem = Tracker:FindObjectForCode("BV-omni-push")
+        if objItem then
+            objItem.Active = true
+        end        
+
+    elseif location_id == 3235824431 then
+        local objItem = Tracker:FindObjectForCode("dkar2")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824352 then
+        local objItem = Tracker:FindObjectForCode("fajroWon")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824477 then
+        local objItem = Tracker:FindObjectForCode("GG-TB-done")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824478 then
+        local objItem = Tracker:FindObjectForCode("GG-TB-collect")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824479 then
+        local objItem = Tracker:FindObjectForCode("GG-TB-defeat")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824480 then
+        local objItem = Tracker:FindObjectForCode("GG-TB-poi")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824481 then
+        local objItem = Tracker:FindObjectForCode("GG-TB-probe")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824481 then
+        local objItem = Tracker:FindObjectForCode("GG-TB-probe")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824461 then
+        local objItem = Tracker:FindObjectForCode("GG-high-crating")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824466 then
+        local objItem = Tracker:FindObjectForCode("GG-snowman")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824470 then
+        local objItem = Tracker:FindObjectForCode("GG-rooting")
+        if objItem then
+            objItem.Active = true
+        end
+        
+    elseif location_id == 3235824357 then
+        local objItem = Tracker:FindObjectForCode("kryskajoWon")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824358 then
+        local objItem = Tracker:FindObjectForCode("sonajizWon")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824356 then
+        local objItem = Tracker:FindObjectForCode("zirvitarWon")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824349 then
+        local objItem = Tracker:FindObjectForCode("minesWon")
+        if objItem then
+            objItem.Active = true
+        end
+        
+    elseif location_id == 3235824435 then
+        local objItem = Tracker:FindObjectForCode("MV-TB-done")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824436 then
+        local objItem = Tracker:FindObjectForCode("MV-TB-collect")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824437 then
+        local objItem = Tracker:FindObjectForCode("MV-TB-defeat")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824438 then
+        local objItem = Tracker:FindObjectForCode("MV-TB-poi")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824439 then
+        local objItem = Tracker:FindObjectForCode("MV-TB-probe")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824484 then
+        local objItem = Tracker:FindObjectForCode("dkar5")
+        if objItem then
+            objItem.Active = true
+        end
+    end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -350,3 +876,4 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+

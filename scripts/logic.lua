@@ -16,7 +16,7 @@ end
 --------------------------------------------------------------------------------------------------------------------------
  
 function region2()
-  return 1
+  return has ("settingOpenModeClosed")
 end
 
 function region3()
@@ -1381,6 +1381,22 @@ end
 
 function typeToast()
   return has ("settingShopReceiveTypes") and has ("toast")
+end
+
+function typeOneUp()
+  return has ("settingShopReceiveTypes") and has ("oneUp")
+end
+
+function typeChiliCon()
+  return has ("settingShopReceiveTypes") and has ("chili")
+end
+
+function typeSweetTea()
+  return has ("settingShopReceiveTypes") and has ("sweetTea")
+end
+
+function typeDetector()
+  return has ("settingShopReceiveTypes") and has ("chestDetector")
 end
 
 function typeBrHelm()

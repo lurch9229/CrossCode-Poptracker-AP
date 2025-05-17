@@ -878,8 +878,8 @@
                 "map_locations": [
                     {
                         "map": "Gaias_Garden",
-                        "x": 555,
-                        "y": 1545
+                        "x": 120,
+                        "y": 1380
                     }
                 ],
                 "access_rules": 
@@ -2076,7 +2076,7 @@
                         ],
                         "access_rules":
                         [
-                            "GG-TB-collect, GG-TB-defeat, GG-TB-poi, GG-TB-probe"
+                            "eleWave"
                         ],
                         "item_count": 1
                     },
@@ -2090,7 +2090,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "GG-TB-collect",
                         "item_count": 1
                     },
                     {
@@ -2103,7 +2102,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "GG-TB-defeat",
                         "item_count": 1
                     },
                     {
@@ -2116,7 +2114,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "GG-TB-poi",
                         "item_count": 1
                     },
                     {
@@ -2129,7 +2126,6 @@
                         [
                             "eleWave"
                         ],
-                        "hosted_item": "GG-TB-probe",
                         "item_count": 1
                     }
                 ]

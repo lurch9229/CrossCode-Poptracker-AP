@@ -315,6 +315,11 @@
     "codes": "zirvitarWon"
   },
   {
+    "name": "Krys Kajo Boss",
+    "type": "toggle",
+    "codes": "kryskajoWon"
+  },
+  {
     "name": "Broken Gauntlet",
     "type": "toggle",
     "img": "images/items/gauntlet.png",
@@ -2041,6 +2046,11 @@
     "name": "VW_weapon_8",
     "type": "toggle",
     "codes": "VWweapon8"
+  },
+  {
+    "name": "Shiny Orb",
+    "type": "toggle",
+    "codes": "shinyOrb"
   },
   {
     "name": "Chest Locks",

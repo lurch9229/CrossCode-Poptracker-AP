@@ -391,194 +391,273 @@
                 "sections": [
                     {
                         "name": "Sandwich Slot - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hi-Sandwich Slot - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Green Leaf Tea Slot - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Just Water Slot - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            "",
-                            "$region3"
+                            "$VWitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Spicy Bun Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem5",
+                            "$typeBun",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Fruit Drink Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem6",
+                            "$typeFruit",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },                    
                     {
                         "name": "Rice Cracker Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem7",
+                            "$typeCracker",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Veggie Sticks Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWitem8",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Goggles Slot - 15850 Credits",
+                        "chest_unopened_img": "images/weapon/steelHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon1",
+                            "$typeStHelm",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Goggles Slot - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon2",
+                            "$typeSilHelm",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Edge Slot - 15800 Credits",
+                        "chest_unopened_img": "images/weapon/steelEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon3",
+                            "$typeStEdge",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Edge Slot - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon4",
+                            "$typeSilEdge",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Mail Slot - 16100 Credits",
+                        "chest_unopened_img": "images/weapon/steelMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon5",
+                            "$typeStMail",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Mail Slot - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon6",
+                            "$typeSilMail",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Boots Slot - 15950 Credits",
+                        "chest_unopened_img": "images/weapon/steelBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon7",
+                            "$typeStBoots",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Boots Slot - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$VWweapon8",
+                            "$typeSilBoots",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }
@@ -598,13 +677,21 @@
                 "access_rules": 
                 [
                     "$region34, vwLockOff, settingVTGateOpen",
-                    "$regionOpen19, vwLockoff, settingVTGateOpen",
-                    "$region34, vwLockOff, settingVTGateClosed, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$regionOpen19, vwLockoff, settingVTGateClosed, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$region34, vwLockOff, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$region34, vwLockOff, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
+                    "$region34, vwLockOff, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon",
                     "$region34, vwLockOn, meteorShade, settingVTGateOpen",
-                    "$regionOpen19, vwLockon, meteorShade, settingVTGateOpen",
-                    "$region34, vwLockOn, meteorShade, settingVTGateClosed, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$regionOpen19, vwLockon, meteorShade, settingVTGateClosed, minesWon, fajroWon, sonajizWon, zirvitarWon"
+                    "$region34, vwLockOn, meteorShade, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$region34, vwLockOn, meteorShade, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
+                    "$region34, vwLockOn, meteorShade, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$regionOpen19, vwLockOff, settingVTGateOpen",
+                    "$regionOpen19, vwLockOff, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$regionOpen19, vwLockOff, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
+                    "$regionOpen19, vwLockOff, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$regionOpen19, vwLockOn, meteorShade, settingVTGateOpen",
+                    "$regionOpen19, vwLockOn, meteorShade, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$regionOpen19, vwLockOn, meteorShade, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
+                    "$regionOpen19, vwLockOn, meteorShade, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon"
                 ],
                 "sections": 
 				[

@@ -204,14 +204,13 @@
                         "name": "Maroon Tree Defender",
                         "visibility_rules": 
                         [
-                            ""
+                            "questShuffle"
                         ],
                         "access_rules":
                         [
                             "$region12, eleHeat",
                             "$regionOpen6, eleHeat"
                         ],
-                        "hosted_item": "MV-tree-done",
                         "item_count": 1
                     },
                     {
@@ -222,9 +221,8 @@
                         ],
                         "access_rules":
                         [
-                            "botanics-2"  
+                            "botanics-2"
                         ],
-                        "hosted_item": "botanics-3",
                         "item_count": 1
                     }
                 ]
@@ -289,7 +287,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-tree-done"
+                            "MV-tree-done, shinyOrb"
                         ],
                         "item_count": 1
                     }
@@ -324,7 +322,6 @@
                         [
                             ""  
                         ],
-                        "hosted_item": "MV-blasting",
                         "item_count": 1
                     },
                     {
@@ -335,9 +332,8 @@
                         ],
                         "access_rules":
                         [
-                            "MV-blasting"
+                            "MV-blasting, eleHeat"
                         ],
-                        "hosted_item": "MV-hot-trail",
                         "item_count": 1
                     },
                     {
@@ -348,7 +344,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-hot-trail, meteorShade"
+                            "MV-hot-trail, eleWave, meteorShade"
                         ],
                         "item_count": 1
                     }
@@ -383,7 +379,6 @@
                         [
                             ""  
                         ],
-                        "hosted_item": "MV-thief",
                         "item_count": 1
                     },
                     {
@@ -429,7 +424,6 @@
                         [
                             ""  
                         ],
-                        "hosted_item": "MV-crate",
                         "item_count": 1
                     },
                     {
@@ -442,7 +436,6 @@
                         [
                             "MV-crate, flameShade, eleHeat, eleCold"  
                         ],
-                        "hosted_item": "MV-booze-1",
                         "item_count": 1
                     }
                 ]
@@ -476,7 +469,6 @@
                         [
                             "MV-booze-1"  
                         ],
-                        "hotsed_item": "MV-booze-2",
                         "item_count": 1
                     }
                 ]
@@ -489,8 +481,8 @@
 				[
                     {
                         "map": "Bakii_Kum",
-                        "x": 110,
-                        "y": 500
+                        "x": 180,
+                        "y": 537
                     }
                 ],
                 "access_rules": 
@@ -508,9 +500,8 @@
                         ],
                         "access_rules":
                         [
-                            "dkar2, brokenSword"  
+                            "brokenSword"  
                         ],
-                        "hosted_item": "dkar3",
                         "item_count": 1
                     }
                 ]
@@ -536,277 +527,392 @@
 				[                    
                     {
                         "name": "Sandwich Slot - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem1"  
+                            "$BKitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hi-Sandwich Slot - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem2"  
+                            "$BKitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Green Leaf Tea Slot - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem3"  
+                            "$BKitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Just Water Slot - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem4"  
+                            "$BKitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem5, flameShade"
+                            "$BKitem5, flameShade",
+                            "$typeKebab, flameShade",
+                            "settingShopReceiveShops, bakiiItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem6, flameShade"  
+                            "$BKitem6, flameShade",
+                            "$typeRisotto, flameShade",
+                            "settingShopReceiveShops, bakiiItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Spicy Bun Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem7"  
+                            "$BKitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Fruit Drink Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem8"  
+                            "$BKitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Rice Cracker Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem9"  
+                            "$BKitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Veggie Sticks Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem10"  
+                            "$BKitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Bergen Ice Cream Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem11"  
+                            "$BKitem11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweet Lemonjuice Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem12"  
+                            "$BKitem12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, bakiiItemShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem13, seedShade"  
+                            "$BKitem13, seedShade",
+                            "$typeCoffee, seedShade",
+                            "settingShopReceiveShops, bakiiItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem14, seedShade"  
+                            "$BKitem14, seedShade",
+                            "$typePeanuts, seedShade",
+                            "settingShopReceiveShops, bakiiItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Snack Mix Slot - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKitem15, seedShade"
+                            "$BKitem15, seedShade",
+                            "$typeMix, seedShade",
+                            "settingShopReceiveShops, bakiiItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Iron Goggles Slot - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKweapon1"  
+                            "$BKweapon1",
+                            "$typeIrHelm",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"  
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Goggles Slot - 15850 Credits",
+                        "chest_unopened_img": "images/weapon/steelHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKweapon2"  
+                            "$BKweapon2",
+                            "$typeStHelm",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Iron Edge Slot - 4500 Credits",
+                        "chest_unopened_img": "images/weapon/ironEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKweapon3"  
+                            "$BKweapon3",
+                            "$typeIrEdge",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Edge Slot - 15800 Credits",
+                        "chest_unopened_img": "images/weapon/steelEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKweapon4"  
+                            "$BKweapon4",
+                            "$typeStEdge",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Iron Mail Slot - 4800 Credits",
+                        "chest_unopened_img": "images/weapon/ironMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKweapon5"  
+                            "$BKweapon5",
+                            "$typeIrMail",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Mail Slot - 16100 Credits",
+                        "chest_unopened_img": "images/weapon/steelMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKweapon6"  
+                            "$BKweapon6",
+                            "$typeStMail",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Iron Boots Slot - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKweapon7"  
+                            "$BKweapon7",
+                            "$typeIrBoots",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"    
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Boots Slot - 15950 Credits",
+                        "chest_unopened_img": "images/weapon/steelBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
                             "shopShuffle"
                         ],
                         "access_rules":
                         [
-                            "$BKweapon8"  
+                            "$BKweapon8",
+                            "$typeStBoots",
+                            "settingShopReceiveShops, bakiiWeaponShop",
+                            "settingShopReceiveOff"   
                         ],
                         "item_count": 1
                     }
