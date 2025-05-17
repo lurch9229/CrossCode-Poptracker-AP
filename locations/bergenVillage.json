@@ -716,7 +716,7 @@
                         ],
                         "access_rules":
                         [
-                            "BV-hat, eleHeat, iceShade"
+                            "BV-hat, eleHeat, iceShade, minePass"
                         ],
                         "item_count": 1
                     }
