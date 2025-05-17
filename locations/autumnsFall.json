@@ -853,8 +853,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region21",
-                    "$regionOpen9_1"
+                    "$region20",
+                    "$regionOpen9"
                 ],
                 "sections": [
                     {
