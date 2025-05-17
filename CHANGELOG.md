@@ -1,5 +1,37 @@
 # Changelog
 
+0.6.2
+
+    Autotracking
+
+        - Fixed OnClear Issues related to Quest Shuffle and Key rings (Sogeki)
+
+        - Fixed Autotracking for some quests (Sogeki)
+
+    Logic
+
+        - Shop Logic should now work as intended (Sogeki)
+
+        - Fixed logic for quests "Sand of Wave" and "Hot Topic" (Sogeki)
+
+        - "New Metal" now correctly requires correct amount of Mines Keys (Sogeki)
+
+        - "Crocus Pocus" now requires correct access to "Pond Slums" (Sogeki)
+
+        - Para Island access no longer requires Shade (Lurch)
+
+        - "Heating the Hermit" now requires Mine Pass to access Metal Gears (Lurch)
+
+    Locations
+
+        - Location changes for Kat, APiaP 3, and Chilled Den (Sogeki)
+
+        - Added Icons to Locations for shop items (Sogeki)
+
+    Items
+
+        - Added Shiny Orb (Sogeki)
+
 0.6.1
 
     Autotracking
