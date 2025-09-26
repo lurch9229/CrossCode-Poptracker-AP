@@ -1,5 +1,55 @@
 # Changelog
 
+0.7.0
+
+All the work in this version was done by Sogeki and is greatly appreciated.
+
+    Autotracking
+
+        - Add auto-tabbing capabilities for future versions data storage variable
+
+        - Fixed some Item and Location ID mismatches
+
+        - Progressive Area, Dungeon and Overworld unlocks now toggles items in the tracker in the correct order
+
+    Logic
+
+        - Fixed a call in Temple Mine
+
+        - Fixed some issues with newLock function
+
+        - Add logic for Faj'ro Temple so that the correct key is required to open some locations when key shuffled is enabled
+
+        - "An Unfortune Series of Features" now correctly requires Blue Ice Shade (Access to Maroon Valley)
+
+        - Blue Ice Shade is now required for "Training with the Master"
+
+        - Added Shock requirement for "Henry Trailblazing"
+
+        - "Wet Work" now requires Red Flame Shade instead of Blue Ice Shade
+
+        - "Hot Trail" now requires Red Flame Shade, Heat and Cold
+
+        - Removed Blue Ice Shade requirements for "New Metal", "Points of Power" and "Bull on Fire" quests
+
+        - Fixed logic for "Crocus Pocus 100%"
+
+        - Removed Meteor Shade requirement for Wheel Passage Lower Chest
+
+        - Removed Meteor Shade and all Elements requirement for "An Unfortunate Series of Features"
+
+        - Added logic for Ba'kii Kum statue with Quest Shuffle off
+        
+    Locations
+
+        - Omni-Gliders Basement chest moved when quests are enabled for better clarity
+
+        - Horn Cave 2 chest moved to proper location
+
+        - Added visibility logic for Infested Cavern Left and Right
+
+        - Fixed Rookie Harbor global location on World Map
+
 0.6.2
 
     Autotracking
