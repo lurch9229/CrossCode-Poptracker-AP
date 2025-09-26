@@ -5,12 +5,16 @@
 -- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+PROG_A_UNLOCK = {}
+PROG_D_UNLOCK = {}
+PROG_O_UNLOCK = {}
 
 function dump_table(o, depth)
     if depth == nil then
@@ -176,6 +180,19 @@ function onClear(slot_data)
     else
         Tracker:FindObjectForCode("op_CL").CurrentStage = 0
     end
+
+    PROG_A_UNLOCK = slot_data['options']["progressiveChains"]["3235824050"]
+    PROG_D_UNLOCK = slot_data['options']["progressiveChains"]["3235824052"]
+    PROG_O_UNLOCK = slot_data['options']["progressiveChains"]["3235824051"]
+
+    -- get auto tabbing
+    if Archipelago.PlayerNumber > -1 then
+        --local data_storage_list = ({"area"})
+        local data_storage_list = ({"CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area"})
+
+        Archipelago:SetNotify(data_storage_list)
+        Archipelago:Get(data_storage_list)
+    end
 end
 
 -- called when an item gets collected
@@ -213,12 +230,29 @@ function onItem(index, item_id, item_name, player_number)
             end
         elseif v[2] == "consumable" then
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+            if item_id == 3235824052 then
+                local objItem = Tracker:FindObjectForCode(ITEM_MAPPING[PROG_D_UNLOCK[obj.AcquiredCount]][1])
+                if objItem then
+                    objItem.Active = true
+                end
+            elseif item_id == 3235824051 then
+                local objItem = Tracker:FindObjectForCode(ITEM_MAPPING[PROG_O_UNLOCK[obj.AcquiredCount]][1])
+                if objItem then
+                    objItem.Active = true
+                end
+            elseif item_id == 3235824050 then
+                local objItem = Tracker:FindObjectForCode(ITEM_MAPPING[PROG_A_UNLOCK[obj.AcquiredCount]][1])
+                if objItem then
+                    objItem.Active = true
+                end
+            end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
+
     -- track local items via snes interface
     if is_local then
         if LOCAL_ITEMS[v[1]] then
@@ -354,6 +388,134 @@ function onBounce(json)
         print(string.format("called onBounce: %s", dump_table(json)))
     end
     -- your code goes here
+end
+
+function onSetReply(key, value, _)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called retrieved: %s, %s", key, value))
+    end
+
+    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area" then
+        splitedArea = {}
+        index = 1
+
+        for splited in string.gmatch(value, '([^.]+)') do 
+            splitedArea[index] = splited
+            index = index + 1
+        end
+
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("split is done: %s", dump_table(splitedArea)))
+        end
+
+        Overworld = splitedArea[1]
+        Region = splitedArea[1]
+        Floor = splitedArea[1] .. "." .. splitedArea[2]
+
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("area splited: overworld is %s, region is %s, floor is %s", Overworld, Region, Floor))
+        end
+
+        if OVERWORLD_MAPPING[Overworld] then
+            CURRENT_ROOM = OVERWORLD_MAPPING[Overworld]
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("Overworld %s", CURRENT_ROOM)
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+    
+            if REGION_MAPPING[Region] then
+                CURRENT_ROOM = REGION_MAPPING[Region]
+                if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print("Region %s", CURRENT_ROOM)
+                end
+                Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+    
+                if DUNGEON_MAPPING[Floor] then
+                    CURRENT_ROOM = DUNGEON_MAPPING[Floor]
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print("Dungeon %s", CURRENT_ROOM)
+                    end
+                    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+                end
+            end
+        else
+            CURRENT_ROOM = "Connections"
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("Overworld %s", CURRENT_ROOM)
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+            
+            CURRENT_ROOM = "World Map"
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("Region %s", CURRENT_ROOM)
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+        end
+    end
+end
+
+function retrieved(key, value)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called retrieved: %s, %s", key, value))
+    end
+
+    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area" then
+        splitedArea = {}
+        index = 1
+
+        for splited in string.gmatch(value, '([^.]+)') do 
+            splitedArea[index] = splited
+            index = index + 1
+        end
+
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("split is done: %s", dump_table(splitedArea)))
+        end
+
+        Overworld = splitedArea[1]
+        Region = splitedArea[1]
+        Floor = splitedArea[1] .. "." .. splitedArea[2]
+
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("area splited: overworld is %s, region is %s, floor is %s", Overworld, Region, Floor))
+        end
+
+        if OVERWORLD_MAPPING[Overworld] then
+            CURRENT_ROOM = OVERWORLD_MAPPING[Overworld]
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("Overworld %s", CURRENT_ROOM)
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+    
+            if REGION_MAPPING[Region] then
+                CURRENT_ROOM = REGION_MAPPING[Region]
+                if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print("Region %s", CURRENT_ROOM)
+                end
+                Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+    
+                if DUNGEON_MAPPING[Floor] then
+                    CURRENT_ROOM = DUNGEON_MAPPING[Floor]
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print("Dungeon %s", CURRENT_ROOM)
+                    end
+                    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+                end
+            end
+        else
+            CURRENT_ROOM = "Connections"
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("Overworld %s", CURRENT_ROOM)
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+            
+            CURRENT_ROOM = "World Map"
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("Region %s", CURRENT_ROOM)
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+        end
+    end
 end
 
 function manualHostedItems(location_id)
@@ -876,4 +1038,7 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
+Archipelago:AddRetrievedHandler("retrieved", retrieved)
+
 

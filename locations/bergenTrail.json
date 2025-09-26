@@ -90,7 +90,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824080|WhiteKey, eleHeat"
+                            "$newLock|3235824080|whiteKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -462,7 +462,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824092|RadiantKey"
+                            "$newLock|3235824092|radiantKey"
                         ],
                         
                         "item_count": 1
@@ -649,7 +649,7 @@
                         ],
                         "access_rules":
                         [
-                            "$newLock|3235824098|WhiteKey, eleHeat"
+                            "$newLock|3235824098|whiteKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -755,8 +755,8 @@
                 "map_locations": [
                     {
                         "map": "Bergen_Trail",
-                        "x": 510,
-                        "y": 335
+                        "x": 93,
+                        "y": 955
                     }
                 ],
                 "access_rules": 

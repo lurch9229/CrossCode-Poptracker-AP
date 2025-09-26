@@ -66,6 +66,40 @@
                 ]
             },
             {
+                "name": "Bergen Village - Omni Gliders Basement",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 173,
+                        "y": 993
+                    }
+                ],
+                "access_rules": 
+                [
+                    "$region3",
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                        "chest_opened_img": "images/icons/chest_o.png",
+                        "visibility_rules": 
+                        [
+                            "questShuffle"
+                        ],
+                        "access_rules":
+                        [
+                            "$newLock|3235824077, eleHeat, BT-bunny, thiefKey",
+                            "$newLock|3235824077, mineKey:1, BT-bunny, thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Bergen Village South - Behind Ice In East",
                 "chest_unopened_img": "images/icons/chest_bronze_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
@@ -761,21 +795,6 @@
                         "access_rules":
                         [
                             "BV-omni-build"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Basement - Bronze Chest",
-                        "chest_unopened_img": "images/icons/chest_bronze_x.png",
-                        "chest_opened_img": "images/icons/chest_o.png",
-                        "visibility_rules": 
-                        [
-                            "questShuffle"
-                        ],
-                        "access_rules":
-                        [
-                            "$newLock|3235824077, eleHeat, BT-bunny, thiefKey",
-                            "$newLock|3235824077, mineKey:1, BT-bunny, thiefKey"
                         ],
                         "item_count": 1
                     }

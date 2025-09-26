@@ -147,7 +147,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824315|WhiteKey"
+                            "$newLock|3235824315|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -178,7 +178,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824316|RadiantKey"
+                            "$newLock|3235824316|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -295,8 +295,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, $region8, RH-Bull, eleHeat, eleCold, iceShade, flameShade",
-                            "$regionOpen9, $regionOpen4_5, RH-Bull, eleHeat, eleCold, iceShade, flameShade"
+                            "$region20, $region8, RH-Bull, eleHeat, eleCold, flameShade",
+                            "$regionOpen9, $regionOpen4_5, RH-Bull, eleHeat, eleCold, flameShade"
                         ],
                         "item_count": 1
                     }
@@ -351,8 +351,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, RH-hillkat, eleHeat, eleCold, iceShade, flameShade",
-                            "$regionOpen9, RH-hillkat, eleHeat, eleCold, iceShade, flameShade"
+                            "$region20, RH-hillkat, eleHeat, eleCold, flameShade",
+                            "$regionOpen9, RH-hillkat, eleHeat, eleCold, flameShade"
                         ],
                         "item_count": 1
                     }
@@ -407,8 +407,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, RH-tree-2, iceShade, flameShade, eleHeat, eleCold",
-                            "$regionOpen9, RH-tree-2, iceShade, flameShade, eleHeat, eleCold"
+                            "$region20, RH-tree-2, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-tree-2, flameShade, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     }
@@ -463,7 +463,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RH-smuggle-1, iceShade"
+                            "RH-smuggle-1, flameShade"
                         ],
                         "item_count": 1
                     }
@@ -613,7 +613,7 @@
                         ],
                         "access_rules": 
                         [
-                            "flameShade"
+                            "flameShade, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -625,7 +625,7 @@
                         ],
                         "access_rules": 
                         [
-                            "flameShade"
+                            "flameShade, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -637,7 +637,7 @@
                         ],
                         "access_rules": 
                         [
-                            "flameShade"
+                            "flameShade, iceShade"
                         ],
                         "item_count": 1
                     }
@@ -687,8 +687,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region31",
-                    "$regionOpen16"
+                    "$region33",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -699,8 +699,8 @@
                         ],
                         "access_rules": 
                         [
-                            "botanics-4, $region24",
-                            "botanics-4, $regionOpen11"
+                            "botanics-4, $region33",
+                            "botanics-4, $retionOpen4_1_1, $regionOpen5, $regionOpen9, $regionOpen11, $regionOpen16, $regionOpen20"
                         ],
                         "item_count": 1
                     }
@@ -1455,7 +1455,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824314|WhiteKey"
+                            "$newLock|3235824314|whiteKey"
                         ],
                         "item_count": 1
                     },
@@ -3144,26 +3144,6 @@
                       "map": "ShopMap",
                       "x": 11,
                       "y": 1127
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Marketplace/Chest",
-                        "name": "Rookie Harbor - Marketplace - Chest"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "WorldMap",
-                      "x": 279,
-                      "y": 192
                     }
                 ]
             }

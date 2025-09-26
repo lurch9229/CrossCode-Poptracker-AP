@@ -5,11 +5,14 @@ ITEM_MAPPING =
 [3235824001] = {"eleCold", "toggle"}, -- Cold Element, progression
 [3235824002] = {"eleShock", "toggle"}, -- Shock Element, progression
 [3235824003] = {"eleWave", "toggle"}, -- Wave Element, progression
--- Progresssive Gear
+
+-- Progresssive Area
+[3235824050] = {"progAreaUnlock", "consumable"}, -- Progressive Area Unlock, progression
+[3235824051] = {"progOverUnlock", "consumable"}, -- Progressive Overworld Unlock, progression
+[3235824052] = {"progDunUnlock", "consumable"}, -- Progressive Dungeon Unlock, progression
+
+-- Progressive Equipments
 --[3235824004] = {"spUpgrade", "consumable"}, -- SP Upgrade, useful
---[3235824050] = {"progAreaUnlock", "progressive"}, -- Progressive Area Unlock, progression
---[3235824051] = {"progOverUnlock", "progressive"}, -- Progressive Overworld Unlock, progression
---[3235824052] = {"progDunUnlock", "progressive"}, -- Progressive Dungeon Unlock, progression
 --[3235824060] = {"progAllHeads", "progressive"}, -- Progressive All-Purpose Heads, useful
 --[3235824061] = {"progDefHeads", "progressive"}, -- Progressive Defense Heads, useful
 --[3235824062] = {"progOffHeads", "progressive"}, -- Progressive Offense Heads, useful
@@ -238,25 +241,25 @@ ITEM_MAPPING =
 [3235924379] = {"BKEvendor8", "toggle"}, -- Basin Vendor Item Slot 8 (fruitDrink)
 [3235924380] = {"BKEvendor9", "toggle"}, -- Basin Vendor Item Slot 9 (riceCracker)
 [3235924381] = {"BKEvendor10", "toggle"}, -- Basin Vendor Item Slot 10 (veggieSticks)
-[3235924382] = {"BKEvendor5", "toggle"}, -- Basin Vendor Item Slot 5 (kebab)
-[3235924383] = {"BKEvendor6", "toggle"}, -- Basin Vendor Item Slot 6 (risotto)
-[3235924384] = {"BKEvendor11", "toggle"}, -- Basin Vendor Item Slot 11 (iceCream)
-[3235924385] = {"BKEvendor12", "toggle"}, -- Basin Vendor Item Slot 12 (lemonJuice)
-[3235924386] = {"BKEvendor14", "toggle"}, -- Basin Vendor Item Slot 14 (peanuts)
-[3235924387] = {"BKEvendor13", "toggle"}, -- Basin Vendor Item Slot 13 (coffee)
-[3235924388] = {"BKEvendor15", "toggle"}, -- Basin Vendor Item Slot 15 (snackMix)
--- Basin Items
+[3235924382] = {"BKEvendor11", "toggle"}, -- Basin Vendor Item Slot 11 (iceCream)
+[3235924383] = {"BKEvendor12", "toggle"}, -- Basin Vendor Item Slot 12 (lemonJuice)
+[3235924384] = {"BKEvendor14", "toggle"}, -- Basin Vendor Item Slot 14 (peanuts)
+[3235924385] = {"BKEvendor13", "toggle"}, -- Basin Vendor Item Slot 13 (coffee)
+[3235924386] = {"BKEvendor15", "toggle"}, -- Basin Vendor Item Slot 15 (snackMix)
+[3235924387] = {"BKEvendor5", "toggle"}, -- Basin Vendor Item Slot 5 (kebab)
+[3235924388] = {"BKEvendor6", "toggle"}, -- Basin Vendor Item Slot 6 (risotto)
+-- Basin Items 
 [3235924389] = {"basinItemShop", "toggle"}, -- Basin Item Shop Unlock
 [3235924390] = {"BKEitem1", "toggle"}, -- Basin Item Slot 1 (sandwich)
 [3235924391] = {"BKEitem2", "toggle"}, -- Basin Item Slot 2 (hi-sandwich)
 [3235924392] = {"BKEitem3", "toggle"}, -- Basin Item Slot 3 (leafTea)
 [3235924393] = {"BKEitem4", "toggle"}, -- Basin Item Slot 4 (water)
-[3235924394] = {"BKEitem7", "toggle"}, -- Basin Item Slot 7 (spicyBun)
-[3235924395] = {"BKEitem8", "toggle"}, -- Basin Item Slot 8 (fruitDrink)
-[3235924396] = {"BKEitem9", "toggle"}, -- Basin Item Slot 9 (riceCracker)
-[3235924397] = {"BKEitem10", "toggle"}, -- Basin Item Slot 10 (veggieSticks)
-[3235924398] = {"BKEitem5", "toggle"}, -- Basin Item Slot 5 (kebab)
-[3235924399] = {"BKEitem6", "toggle"}, -- Basin Item Slot 6 (risotto)
+[3235924394] = {"BKEitem5", "toggle"}, -- Basin Item Slot 5 (kebab)
+[3235924395] = {"BKEitem6", "toggle"}, -- Basin Item Slot 6 (risotto)
+[3235924396] = {"BKEitem7", "toggle"}, -- Basin Item Slot 7 (spicyBun)
+[3235924397] = {"BKEitem8", "toggle"}, -- Basin Item Slot 8 (fruitDrink)
+[3235924398] = {"BKEitem9", "toggle"}, -- Basin Item Slot 9 (riceCracker)
+[3235924399] = {"BKEitem10", "toggle"}, -- Basin Item Slot 10 (veggieSticks)
 [3235924400] = {"BKEitem11", "toggle"}, -- Basin Item Slot 11 (iceCream)
 [3235924401] = {"BKEitem12", "toggle"}, -- Basin Item Slot 12 (lemonJuice)
 [3235924402] = {"BKEitem14", "toggle"}, -- Basin Item Slot 14 (peanuts)
@@ -327,12 +330,12 @@ ITEM_MAPPING =
 [3235924461] = {"RSitem2", "toggle"}, -- Rhombus Item Slot 2 (hi-sandwich)
 [3235924462] = {"RSitem3", "toggle"}, -- Rhombus Item Slot 3 (leafTea)
 [3235924463] = {"RSitem4", "toggle"}, -- Rhombus Item Slot 4 (water)
-[3235924464] = {"RSitem7", "toggle"}, -- Rhombus Item Slot 7 (spicyBun)
-[3235924465] = {"RSitem8", "toggle"}, -- Rhombus Item Slot 8 (fruitDrink)
-[3235924466] = {"RSitem9", "toggle"}, -- Rhombus Item Slot 9 (riceCracker)
-[3235924467] = {"RSitem10", "toggle"}, -- Rhombus Item Slot 10 (veggieSticks)
-[3235924468] = {"RSitem5", "toggle"}, -- Rhombus Item Slot 5 (kebab)
-[3235924469] = {"RSitem6", "toggle"}, -- Rhombus Item Slot 6 (risotto)
+[3235924464] = {"RSitem5", "toggle"}, -- Rhombus Item Slot 5 (kebab)
+[3235924465] = {"RSitem6", "toggle"}, -- Rhombus Item Slot 6 (risotto)
+[3235924466] = {"RSitem7", "toggle"}, -- Rhombus Item Slot 7 (spicyBun)
+[3235924467] = {"RSitem8", "toggle"}, -- Rhombus Item Slot 8 (fruitDrink)
+[3235924468] = {"RSitem9", "toggle"}, -- Rhombus Item Slot 9 (riceCracker)
+[3235924469] = {"RSitem10", "toggle"}, -- Rhombus Item Slot 10 (veggieSticks)
 [3235924470] = {"RSitem11", "toggle"}, -- Rhombus Item Slot 11 (iceCream)
 [3235924471] = {"RSitem12", "toggle"}, -- Rhombus Item Slot 12 (lemonJuice)
 [3235924472] = {"RSitem14", "toggle"}, -- Rhombus Item Slot 14 (peanuts)

@@ -834,7 +834,7 @@
                         ],
                         "access_rules":
                         [
-                            "$newLock|3235824202|WhiteKey"
+                            "$newLock|3235824202|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -989,7 +989,7 @@
                         ],
                         "access_rules":
                         [
-                            "$newLock|3235824206|WhiteKey"
+                            "$newLock|3235824206|whiteKey"
                         ],
                         "item_count": 1
                     }

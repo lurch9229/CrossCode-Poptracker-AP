@@ -2086,5 +2086,38 @@
         "codes": "auto_tab"
       }
     ]
+  },
+  {
+    "name": "Progressive Dungeon Unlock",
+    "type": "consumable",
+    "loop": "false",
+    "overlay_background": "#000",
+    "codes": "progDunUnlock",
+    "max_quantity": 4,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Progressive Overworld Unlock",
+    "type": "consumable",
+    "loop": "false",
+    "overlay_background": "#000",
+    "codes": "progOverUnlock",
+    "max_quantity": 6,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Progressive Area Unlock",
+    "type": "consumable",
+    "loop": "false",
+    "overlay_background": "#000",
+    "codes": "progAreaUnlock",
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
   }
 ]

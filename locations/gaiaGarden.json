@@ -86,7 +86,7 @@
                         "name": "Bronze Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "questShuffle"
                         ],
                         "access_rules":
                         [
@@ -117,7 +117,7 @@
                         "name": "Silver Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "questShuffle"
                         ],
                         "access_rules":
                         [
@@ -2039,7 +2039,7 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
+                        "visibility_rules":
                         [
                             ""
                         ],
@@ -2155,7 +2155,7 @@
                         ],
                         "access_rules":
                         [
-                            "eleWave, GG-turret-1"
+                            "GG-turret-1"
                         ],
                         "item_count": 1
                     },
@@ -2167,7 +2167,7 @@
                         ],
                         "access_rules":
                         [
-                            "eleWave, GG-turret-2"
+                            "GG-turret-2"
                         ],
                         "item_count": 1
                     }
