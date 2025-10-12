@@ -1,5 +1,37 @@
 # Changelog
 
+0.7.1
+
+Sogeki Once again Coming in with some fixes
+
+    Autotracking
+
+        - Fixed Sapphire Ridge Item Shop IDs
+
+        - Auto-tabbing should now work
+
+        - Fixed Progressive Gear
+
+    Logic
+
+        - Add Heat and Cold requirement for "Tropical Chill" quest
+        
+        - Add Heat and Cold requirement for "Gaia's Garden - Chilled Den" chest
+
+        - Fix ineffective added logic for gate locked by chest in Temple Mnes and Faj'ro Temple
+
+        - Add logic for gate locked by chest in So'najiz Temple
+
+        - Add Guild Pass requirement for entering the Observatory
+
+        - Fix base key required for "So'najiz Temple - Trial of Persistence Upper Left" & "So'najiz Temple - Trial of Persistence Upper Right" chests
+
+    Layouts
+
+        - Add element icons to locations giving element in vanilla
+
+        - Change icon for "Circuit Override" to icon for "SP Upgrade" (Sprites by Reiji)
+
 0.7.0
 
 All the work in this version was done by Sogeki and is greatly appreciated.
