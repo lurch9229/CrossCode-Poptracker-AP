@@ -262,7 +262,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824340 ,sonajizKey:1"
+                            "$newLock|3235824340,sonajizKey:1"
                         ],
                         "item_count": 1
                     }
@@ -402,8 +402,8 @@
             },
             {
                 "name": "So'najiz Temple - Chamber of Shock",
-                "chest_unopened_img": "images/icons/circuitGrid.png",
-                "chest_opened_img": "images/icons/circuitGrid_o.png",
+                "chest_unopened_img": "images/icons/eleShock_o.png",
+                "chest_opened_img": "images/icons/eleShock_x.png",
                 "map_locations": 
 				[
                     {
@@ -414,8 +414,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region27",
-                    "$regionOpen14_4"
+                    "$region27, $newLock|3235824338|radiantKey",
+                    "$regionOpen14_4, $newLock|3235824338|radiantKey"
                 ],
                 "sections": 
 				[
@@ -447,8 +447,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region27",
-                    "$regionOpen14_5"
+                    "$region27, $newLock|3235824338|radiantKey",
+                    "$regionOpen14_5, $newLock|3235824338|radiantKey"
                 ],
                 "sections": 
 				[

@@ -1067,7 +1067,7 @@
                         "chest_opened_img": "images/food/SweetTeaOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1084,7 +1084,7 @@
                         "chest_opened_img": "images/food/ChiliOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1101,7 +1101,58 @@
                         "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit3",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Berry Tea Type - 3299 Credits",
+                        "chest_unopened_img": "images/food/SweetTea.png",
+                        "chest_opened_img": "images/food/SweetTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit1",
+                            "$typeSweetTea",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chili Con Carne Type - 1099 Credits",
+                        "chest_unopened_img": "images/food/Chili.png",
+                        "chest_opened_img": "images/food/ChiliOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit2",
+                            "$typeChiliCon",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 2199 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules":
                         [
@@ -1280,67 +1331,6 @@
                       "map": "WorldMap",
                       "x": 190,
                       "y": 143
-                    }
-                ]
-            }
-        ]
-    },
-//Trail Shop Map
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nSweet Berry Tea Slot - 3299 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 158,
-                      "y": 653
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Slot - 1099 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 158,
-                      "y": 673
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nSweet Lemonjuice Slot - 2199 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 158,
-                      "y": 693
                     }
                 ]
             }

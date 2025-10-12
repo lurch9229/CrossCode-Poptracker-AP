@@ -986,10 +986,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region3",
-                            "$regionOpen3"
-                        ],
+                [
+                    "$region3_1",
+                    "$regionOpen3_2"
+                ],
                 "sections": 
 				[
                     {

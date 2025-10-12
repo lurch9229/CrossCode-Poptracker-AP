@@ -7,7 +7,7 @@
     "item_size": "35,35",
     "rows": 
     [
-      ["eleHeat","eleCold","eleShock","eleWave","overrideCircuit"],
+      ["eleHeat","eleCold","eleShock","eleWave","spUpgrade"],
       ["sandShade","flameShade","iceShade","boltShade", "guildPass"],
       ["leafShade","dropShade","seedShade","starShade","meteorShade"],
       ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],

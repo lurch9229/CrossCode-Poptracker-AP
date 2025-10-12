@@ -57,6 +57,8 @@ if (string.find(Tracker.ActiveVariantUID, "items_only")) then
             Tracker:AddLocations("locations/zirvitarTemple.json")
             Tracker:AddLocations("locations/grandKryskajo.json")
             Tracker:AddLocations("locations/vermillionWastes.json")
+            Tracker:AddLocations("locations/shopSlots.json")
+            Tracker:AddLocations("locations/shopTypes.json")
         end
     end
 end

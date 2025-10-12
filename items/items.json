@@ -175,6 +175,31 @@
 	  "swap_actions": false
   },
   {
+    "name": "SP Upgrade",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/items/spu-0b.png",
+        "codes": "spUpgrade, sp0"
+      },
+      {
+        "img": "images/items/spu-1b.png",
+        "codes": "spUpgrade, sp1"
+      },
+      {
+        "img": "images/items/spu-2b.png",
+        "codes": "spUpgrade, sp2"
+      },
+      {
+        "img": "images/items/spu-3b.png",
+        "codes": "spUpgrade, sp3"
+      }
+    ]
+  },
+  {
     "name": "Mine Master Key",
     "type": "toggle",
     "img": "images/dungeons/ccMkey.png",
@@ -459,17 +484,12 @@
       },
       {
         "img": "images/settings/shopShuffleType.png",
-        "codes": "op_SS,settingShopShuffleType,shopShuffle",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/shopShuffleType.png",
-        "codes": "op_SS,settingShopShuffleType,shopShuffle",
+        "codes": "op_SS,settingShopShuffleType,shopShuffleTypes",
         "inherit_codes": false
       },
       {
         "img": "images/settings/shopShuffleSlot.png",
-        "codes": "op_SS,settingShopShuffleSlot,shopShuffle",
+        "codes": "op_SS,settingShopShuffleSlot,shopShuffleSlot",
         "inherit_codes": false
       }
       

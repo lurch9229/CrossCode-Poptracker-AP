@@ -306,7 +306,7 @@
                         ],
                         "access_rules": 
                         [
-                            "eleHeat"
+                            "eleHeat, eleCold"
                         ],
                         "item_count": 1
                     },
@@ -526,7 +526,7 @@
                         "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -543,7 +543,7 @@
                         "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -560,7 +560,7 @@
                         "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -577,7 +577,7 @@
                         "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -594,7 +594,7 @@
                         "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -611,7 +611,7 @@
                         "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -628,7 +628,7 @@
                         "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -645,7 +645,7 @@
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -662,7 +662,7 @@
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -679,7 +679,7 @@
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -696,7 +696,7 @@
                         "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -713,7 +713,7 @@
                         "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -730,7 +730,7 @@
                         "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -747,7 +747,7 @@
                         "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -764,7 +764,7 @@
                         "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -781,7 +781,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -798,7 +798,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -815,7 +815,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -832,7 +832,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -849,7 +849,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -866,7 +866,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -883,7 +883,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -900,7 +900,398 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon8",
+                            "$typeTiBoots",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem5",
+                            "$typeKebab",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem6",
+                            "$typeRisotto",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Type - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem13",
+                            "$typeCoffee",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem14",
+                            "$typePeanuts",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Type - 450 Credits",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem15",
+                            "$typeMix",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon1",
+                            "$typeSilHelm",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Goggles Type - 46750 Credits",
+                        "chest_unopened_img": "images/weapon/titanHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon2",
+                            "$typeTiHelm",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Type - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon3",
+                            "$typeSilEdge",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Edge Type - 46475 Credits",
+                        "chest_unopened_img": "images/weapon/titanEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon4",
+                            "$typeTiEdge",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Type - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon5",
+                            "$typeSilMail",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Mail Type - 46925 Credits",
+                        "chest_unopened_img": "images/weapon/titanMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon6",
+                            "$typeTiMail",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon7",
+                            "$typeSilBoots",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Boots Type - 46750 Credits",
+                        "chest_unopened_img": "images/weapon/titanBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
@@ -941,7 +1332,7 @@
                         "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -958,7 +1349,7 @@
                         "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -975,7 +1366,7 @@
                         "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -992,7 +1383,7 @@
                         "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1009,7 +1400,7 @@
                         "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1026,7 +1417,7 @@
                         "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1043,7 +1434,7 @@
                         "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1060,7 +1451,7 @@
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1077,7 +1468,7 @@
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1094,7 +1485,7 @@
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1111,7 +1502,7 @@
                         "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1128,7 +1519,7 @@
                         "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1145,7 +1536,7 @@
                         "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1162,7 +1553,7 @@
                         "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1179,7 +1570,262 @@
                         "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor15",
+                            "$typeMix",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor3",
+                            "$typeTea",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor4",
+                            "$typeWater",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor5",
+                            "$typeKebab",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor6",
+                            "$typeRisotto",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor7",
+                            "$typeBun",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Type - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor13",
+                            "$typeCoffee",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor14",
+                            "$typePeanuts",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Type - 450 Credits",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules":
                         [
@@ -1215,7 +1861,24 @@
                         "chest_opened_img": "images/food/OneUpOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEcalzone1, GG-mush-2",
+                            "$typeOneUp, GG-mush-2",
+                            "settingShopReceiveShops, basinCalzone, GG-mush-2",
+                            "settingShopReceiveOff, GG-mush-2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "One Up Type - 60000 Credits",
+                        "chest_unopened_img": "images/food/OneUp.png",
+                        "chest_opened_img": "images/food/OneUpOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules":
                         [
@@ -1454,787 +2117,6 @@
                       "map": "WorldMap",
                       "x": 279,
                       "y": 112
-                    }
-                ]
-            }
-        ]
-    },
-    //Basin Keep Shops Map
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Slot - 100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 38
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 56
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 76
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Slot - 222 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 98
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Slot - 650 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 118
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 138
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 158
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 178
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 198
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 218
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 240
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 260
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 280
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 300
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSnack Mix Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 320
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 378
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Titan Goggles Slot - 46750 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Slot - 46750 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 398
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 418
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Titan Edge Slot - 46475 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Slot - 46475 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 438
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 458
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Titan Mail Slot - 46925 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Slot - 46925 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 478
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 498
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Weapon & Item Shop/Titan Boots Slot - 46750 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Slot - 46750 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 513
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Sandwich Slot - 100 Credits",
-                        "name": "Basin Keep - Vending Machine\nSandwich Slot - 100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 653
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Slot - 300 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 673
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Slot - 250 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 693
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Just Water Slot - 222 Credits",
-                        "name": "Basin Keep - Vending Machine\nJust Water Slot - 222 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 713
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Kebab Roll Slot - 650 Credits",
-                        "name": "Basin Keep - Vending Machine\nKebab Roll Slot - 650 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 733
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Meaty Risotto Slot - 650 Credits",
-                        "name": "Basin Keep - Vending Machine\nMeaty Risotto Slot - 650 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 753
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Spicy Bun Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nSpicy Bun Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 773
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Fruit Drink Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nFruit Drink Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 793
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Rice Cracker Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nRice Cracker Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 813
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Veggie Sticks Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 833
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 853
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 880
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 902
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Salted Peanuts Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 922
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Vending Machine/Snack Mix Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSnack Mix Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 942
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Slot - 60000 Credits",
-                        "name": "Basin Keep - Calzonr Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 1127
                     }
                 ]
             }

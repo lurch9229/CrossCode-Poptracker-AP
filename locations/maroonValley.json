@@ -1020,7 +1020,7 @@
                         ],
                         "access_rules":
                         [
-                            "$newLock|3235824175|whiteKey, eleHeat, eleCold, cursedCoin"
+                            "$newLock|3235824176|whiteKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
                     }
@@ -1051,7 +1051,7 @@
                         ],
                         "access_rules":
                         [
-                            "$newLock|3235824176|whiteKey, eleHeat, eleCold, cursedCoin"
+                            "$newLock|3235824175|whiteKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
                     }

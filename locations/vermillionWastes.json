@@ -395,7 +395,7 @@
                         "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -412,7 +412,7 @@
                         "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -429,7 +429,7 @@
                         "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -446,7 +446,7 @@
                         "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -463,7 +463,7 @@
                         "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -480,7 +480,7 @@
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -497,7 +497,7 @@
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -514,7 +514,7 @@
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -531,7 +531,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -548,7 +548,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -565,7 +565,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -582,7 +582,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -599,7 +599,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -616,7 +616,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -633,7 +633,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -650,7 +650,279 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon8",
+                            "$typeSilBoots",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem5",
+                            "$typeBun",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem6",
+                            "$typeFruit",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem7",
+                            "$typeCracker",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem8",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Goggles Type - 15850 Credits",
+                        "chest_unopened_img": "images/weapon/steelHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon1",
+                            "$typeStHelm",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon2",
+                            "$typeSilHelm",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Edge Type - 15800 Credits",
+                        "chest_unopened_img": "images/weapon/steelEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon3",
+                            "$typeStEdge",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Type - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon4",
+                            "$typeSilEdge",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Mail Type - 16100 Credits",
+                        "chest_unopened_img": "images/weapon/steelMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon5",
+                            "$typeStMail",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Type - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon6",
+                            "$typeSilMail",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Boots Type - 15950 Credits",
+                        "chest_unopened_img": "images/weapon/steelBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon7",
+                            "$typeStBoots",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
@@ -823,347 +1095,6 @@
                         "map": "WorldMap",
                         "x": 480,
                         "y": 212
-                    }
-                ]
-            }
-        ]
-    },
-    //Wasteland Shop Map
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSandwich Slot - 100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 38
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 56
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 76
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nJust Water Slot - 222 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 98
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 118
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 138
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 158
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 178
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 398
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 378
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 438
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 418
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 478
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 458
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 513
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 498
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Vermillion Tower/The Creator",
-                        "name": "Vermillion Tower - The Creator"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 480,
-                        "y": 193
                     }
                 ]
             }

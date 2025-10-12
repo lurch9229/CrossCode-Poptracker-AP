@@ -718,10 +718,10 @@
                     }
                 ],
                 "access_rules": 
-                    [
-                        "$region2, $canGrind",
-                        "$regionOpen2, $canGrind"
-                    ],
+                [
+                    "$region2, $canGrind",
+                    "$regionOpen2, $canGrind"
+                ],
                 "sections": [
                     {
                         "name": "Sandwich Slot - 100 Credits",
@@ -729,7 +729,7 @@
                         "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -746,7 +746,7 @@
                         "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -763,7 +763,7 @@
                         "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -780,7 +780,7 @@
                         "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -797,7 +797,7 @@
                         "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -814,7 +814,7 @@
                         "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -831,7 +831,7 @@
                         "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -848,7 +848,7 @@
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -865,7 +865,7 @@
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -882,7 +882,7 @@
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -899,7 +899,7 @@
                         "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -916,7 +916,7 @@
                         "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -933,7 +933,7 @@
                         "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -950,7 +950,7 @@
                         "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -967,7 +967,7 @@
                         "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -977,231 +977,259 @@
                             "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rookie Harbor - Item Shop Types",
-                "chest_unopened_img": "images/icons/quest_open.png",
-                "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 127,
-                        "y": 348
-                    }
-                ],
-                "access_rules": 
-                    [
-                        "$region2, $canGrind",
-                        "$regionOpen2, $canGrind"
-                    ],
-                "sections": [
+                    },
                     {
                         "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveSlots"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeSandwich"
+                            "$RHitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "name": "Hi-Sandwich Type - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeHiSandwich"
+                            "$RHitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "name": "Green Leaf Tea Type - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeTea"
+                            "$RHitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Just Water Slot - 222 Credits",
+                        "name": "Just Water Type - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeWater"
+                            "$RHitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "name": "Kebab Roll Type - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Kebab.png",
                         "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeKebab, iceShade"
+                            "$RHitem5, iceShade",
+                            "$typeKebab, iceShade",
+                            "settingShopReceiveShops, rookieItemShop, iceShade",
+                            "settingShopReceiveOff, iceShade"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "name": "Meaty Risotto Type - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Risotto.png",
                         "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeRisotto, iceShade"
+                            "$RHitem6, iceShade",
+                            "$typeRisotto, iceShade",
+                            "settingShopReceiveShops, rookieItemShop, iceShade",
+                            "settingShopReceiveOff, iceShade"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Spicy Bun Slot - 200 Credits",
+                        "name": "Spicy Bun Type - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeBun"
+                            "$RHitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Fruit Drink Slot - 200 Credits",
+                        "name": "Fruit Drink Type - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeFruit"
+                            "$RHitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },                    
                     {
-                        "name": "Rice Cracker Slot - 200 Credits",
+                        "name": "Rice Cracker Type - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeCracker"
+                            "$RHitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "name": "Veggie Sticks Type - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeVeggie"
+                            "$RHitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, rookieItemShop",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Bergen Ice Cream Slot - 450 Credits Have Red Flame",
+                        "name": "Bergen Ice Cream Type - 450 Credits Have Red Flame",
                         "chest_unopened_img": "images/food/IceCream.png",
                         "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeIcecream, flameShade"
+                            "$RHitem11, flameShade",
+                            "$typeIcecream, flameShade",
+                            "settingShopReceiveShops, rookieItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
+                        "name": "Sweet Lemonjuice Type - 450 Credits Have Red Flame",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeLemonjuice, flameShade"
+                            "$RHitem12, flameShade",
+                            "$typeLemonjuice, flameShade",
+                            "settingShopReceiveShops, rookieItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Cup o' Coffee Slot - 450 Credits Have Green Seed",
+                        "name": "Cup o' Coffee Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Coffee.png",
                         "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeCoffee, seedShade"
+                            "$RHitem13, seedShade",
+                            "$typeCoffee, seedShade",
+                            "settingShopReceiveShops, rookieItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "name": "Salted Peanuts Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Peanuts.png",
                         "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typePeanuts, seedShade"
+                            "$RHitem14, seedShade",
+                            "$typePeanuts, seedShade",
+                            "settingShopReceiveShops, rookieItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Snack Mix Slot - 450 Credits Have Green Seed",
+                        "name": "Snack Mix Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/SnackMix.png",
                         "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveTypes"
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
-                            "$typeMix, seedShade"
+                            "$RHitem15, seedShade",
+                            "$typeMix, seedShade",
+                            "settingShopReceiveShops, rookieItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     }
@@ -1230,7 +1258,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1247,7 +1275,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1264,7 +1292,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1281,7 +1309,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1298,7 +1326,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1315,7 +1343,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1332,7 +1360,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1349,7 +1377,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1366,7 +1394,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1383,7 +1411,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1400,7 +1428,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1417,7 +1445,211 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon12, flameShade",
+                            "$typeSilBoots, flameShade",
+                            "settingShopReceiveShops, rookieWeaponShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Goggles Type - 850 Credits",
+                        "chest_unopened_img": "images/weapon/bronzeHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon1",
+                            "$typeBrHelm",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Goggles Type - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon2",
+                            "$typeIrHelm",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Type - 29450 Credits Have Red Flame",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon3, flameShade",
+                            "$typeSilHelm, flameShade",
+                            "settingShopReceiveShops, rookieWeaponShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Edge Type - 800 Credits",
+                        "chest_unopened_img": "images/weapon/bronzeEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon4",
+                            "$typeBrEdge",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Edge Type - 4500 Credits",
+                        "chest_unopened_img": "images/weapon/ironEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon5",
+                            "$typeIrEdge",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Type - 29375 Credits Have Red Flame",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon6, flameShade",
+                            "$typeSilEdge, flameShade",
+                            "settingShopReceiveShops, rookieWeaponShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Mail Type - 900 Credits",
+                        "chest_unopened_img": "images/weapon/bronzeMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon7",
+                            "$typeBrMail",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Mail Type - 4800 Credits",
+                        "chest_unopened_img": "images/weapon/ironMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon8",
+                            "$typeIrMail",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Type - 29725 Credits Have Red Flame",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon9, flameShade",
+                            "$typeSilMail, flameShade",
+                            "settingShopReceiveShops, rookieWeaponShop, flameShade",
+                            "settingShopReceiveOff, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Boots Type - 850 Credits",
+                        "chest_unopened_img": "images/weapon/bronzeBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon10",
+                            "$typeBrBoots",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Boots Type - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHweapon11",
+                            "$typeIrBoots",
+                            "settingShopReceiveShops, rookieWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Type - 29450 Credits Have Red Flame",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
@@ -1439,11 +1671,10 @@
                         "y": 149
                     }
                 ],
-                "access_rules": 
-                    [
-                        "$region19",
-                        "$regionOpen8"
-                    ],
+                "access_rules": [
+                    "$region19",
+                    "$regionOpen8"
+                ],
                 "sections": [
                     {
                         "name": "Silver Chest",
@@ -1465,7 +1696,7 @@
                         "chest_opened_img": "images/food/RisingStarOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1482,7 +1713,7 @@
                         "chest_opened_img": "images/food/DkPepperOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1499,7 +1730,7 @@
                         "chest_opened_img": "images/food/MaultascheOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1516,7 +1747,7 @@
                         "chest_opened_img": "images/food/SpaetzleOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1533,7 +1764,7 @@
                         "chest_opened_img": "images/food/DurianOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1550,7 +1781,7 @@
                         "chest_opened_img": "images/food/PengoPopOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1567,7 +1798,7 @@
                         "chest_opened_img": "images/food/BeatZeroOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1584,7 +1815,7 @@
                         "chest_opened_img": "images/food/WerewolfStickOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1601,7 +1832,7 @@
                         "chest_opened_img": "images/food/MooncakeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1618,7 +1849,7 @@
                         "chest_opened_img": "images/food/WillisWaldmahlOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1635,7 +1866,7 @@
                         "chest_opened_img": "images/food/PumpkinSpiceOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1652,7 +1883,7 @@
                         "chest_opened_img": "images/food/GuacamoleToastOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1669,7 +1900,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1686,7 +1917,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1703,7 +1934,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1720,7 +1951,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1737,7 +1968,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1754,7 +1985,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1771,7 +2002,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -1788,7 +2019,347 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon8",
+                            "$typeSilBoots",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rising Super Star Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/RisingStar.png",
+                        "chest_opened_img": "images/food/RisingStarOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef1",
+                            "$typeRisingStar",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dk Pepper Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/DkPepper.png",
+                        "chest_opened_img": "images/food/DkPepperOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef2",
+                            "$typePepper",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Maultasche Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/Maultasche.png",
+                        "chest_opened_img": "images/food/MaultascheOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef3",
+                            "$typeMaultasche",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Spaetzle Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/Spaetzle.png",
+                        "chest_opened_img": "images/food/SpaetzleOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef4",
+                            "$typeSpaetzle",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Durian Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/Durian.png",
+                        "chest_opened_img": "images/food/DurianOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef5",
+                            "$typeDurian",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "PengoPop Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/PengoPop.png",
+                        "chest_opened_img": "images/food/PengoPopOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef6",
+                            "$typePengo",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Beat-0-Type Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/BeatZero.png",
+                        "chest_opened_img": "images/food/BeatZeroOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef7",
+                            "$typeBeatZero",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Werewolf Stick Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/WerewolfStick.png",
+                        "chest_opened_img": "images/food/WerewolfStickOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef8",
+                            "$typeWerewolf",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mooncake Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/Mooncake.png",
+                        "chest_opened_img": "images/food/MooncakeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef9",
+                            "$typeMooncake",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Willis Waldmahl Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/WillisWaldmahl.png",
+                        "chest_opened_img": "images/food/WillisWaldmahlOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef10",
+                            "$typeWillis",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin Spiced Coffee Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/PumpkinSpice.png",
+                        "chest_opened_img": "images/food/PumpkinSpiceOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef11",
+                            "$typePumpkin",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Guacamole Toast Type - 9999 Credits",
+                        "chest_unopened_img": "images/food/GuacamoleToast.png",
+                        "chest_opened_img": "images/food/GuacamoleToastOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHchef12",
+                            "$typeToast",
+                            "settingShopReceiveShops, rookieBackerChef",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Goggles Type - 15850 Credits",
+                        "chest_unopened_img": "images/weapon/steelHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon1",
+                            "$typeStHelm",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon2",
+                            "$typeSilHelm",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Edge Type - 15800 Credits",
+                        "chest_unopened_img": "images/weapon/steelEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon3",
+                            "$typeStEdge",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Type - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon4",
+                            "$typeSilEdge",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Mail Type - 16100 Credits",
+                        "chest_unopened_img": "images/weapon/steelMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon5",
+                            "$typeStMail",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Type - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon6",
+                            "$typeSilMail",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Boots Type - 15950 Credits",
+                        "chest_unopened_img": "images/weapon/steelBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHbackWeapon7",
+                            "$typeStBoots",
+                            "settingShopReceiveShops, rookieBackerWeapon",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
@@ -1824,7 +2395,24 @@
                         "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RHtara1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, RookieTaraShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 2500 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
@@ -2183,967 +2771,6 @@
                       "map": "WorldMap",
                       "x": 279,
                       "y": 192
-                    }
-                ]
-            }
-        ]
-    },
-    //Rookie Harbor Shops Map
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Rookie Harbor - Item Shop\nSandwich Slot - 100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 38
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Slot - 300 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 56
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 76
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Rookie Harbor - Item Shop\nJust Water Slot - 222 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 98
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
-                        "name": "Rookie Harbor - Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 118
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
-                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 138
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 158
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nFruit Drink Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 178
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nRice Cracker Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 198
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 218
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Bergen Ice Cream Slot - 450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Red Flame"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 240
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Slot - 450 Credits Have Red Flame"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 260
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 280
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 300
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 320
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Bronze Goggles Slot - 850 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Slot - 850 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 378
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Slot - 4700 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 398
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Silver Goggles Slot - 29450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapom Shop\nSilver Goggles Slot - 29450 Credits Have Red Flame"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 418
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Bronze Edge Slot - 800 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Slot - 800 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 438
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Iron Edge Slot - 4500 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Slot - 4500 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 458
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Silver Edge Slot - 29375 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Slot - 29375 Credits Have Red Flame"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 478
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Bronze Mail Slot - 900 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Slot - 900 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 498
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Iron Mail Slot - 4800 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Slot - 4800 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 518
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Silver Mail Slot - 29725 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Slot - 29725 Credits Have Red Flame"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 538
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Bronze Boots Slot - 850 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Slot - 800 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 558
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Iron Boots Slot - 4700 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Slot - 4700 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 578
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Weapon Shop/Silver Boots Slot - 29450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Slot - 29450 Credits Have Red Flame"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 598
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nRising Super Star Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 654
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Dk Pepper Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nDk Pepper Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 674
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nMaultacshe Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 694
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 712
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Durian Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nDurian Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 732
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nPengoPop Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 752
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 770
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nWerewolf Stick Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 789
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nMooncake Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 808
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 827
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 846
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Slot - 9999 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nGuacamole Toast Slot - 9999 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 865
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Slot - 15850 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Goggles Slot - 15850 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 920
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Slot - 29450 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Goggles Slot - 29450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 939
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Slot - 15800 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Edge Slot - 15800 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 958
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Slot - 29375 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Edge Slot - 29375 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 977
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Slot - 16100 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Mail Slot - 16100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 996
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Slot - 29725 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Mail Slot - 29725 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 1015
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Slot - 15950 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Boots Slot - 15950 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 1034
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Slot - 29450 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Boots Slot - 29450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 1053
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Tara's Shop/Sandwich Slot - 2500 Credits",
-                        "name": "Rookie Harbor - Tara's Shop\nSandwich Slot - 2500 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 1127
                     }
                 ]
             }

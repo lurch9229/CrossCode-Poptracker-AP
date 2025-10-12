@@ -117,8 +117,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region17half",
-                    "$regionOpen7_6"
+                    "$region17half, $newLock|3235824211|whiteKey",
+                    "$regionOpen7_6, $newLock|3235824211|whiteKey"
                 ],
                 "sections": 
 				[
@@ -150,8 +150,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region17half",
-                    "$regionOpen7_6"                    
+                    "$region17half, $newLock|3235824211|whiteKey",
+                    "$regionOpen7_6, $newLock|3235824211|whiteKey"                    
                 ],
                 "sections":
 				[
@@ -282,8 +282,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region17half",
-                    "$regionOpen7_6"
+                    "$region17half, $newLock|3235824211|whiteKey",
+                    "$regionOpen7_6, $newLock|3235824211|whiteKey"
                 ],
                 "sections": 
 				[
@@ -315,8 +315,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region17",
-                    "$regionOpen7_5"
+                    "$region17, $newLock|3235824211|whiteKey",
+                    "$regionOpen7_5, $newLock|3235824211|whiteKey"
                 ],
                 "sections": 
 				[
@@ -348,8 +348,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region17half",
-                    "$regionOpen7_6"
+                    "$region17half, $newLock|3235824211|whiteKey",
+                    "$regionOpen7_6, $newLock|3235824211|whiteKey"
                 ],
                 "sections": 
 				[
@@ -381,8 +381,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region18",
-                    "$regionOpen7_7"
+                    "$region18, $newLock|3235824211|whiteKey",
+                    "$regionOpen7_7, $newLock|3235824211|whiteKey"
                 ],
                 "sections": 
 				[
@@ -724,8 +724,8 @@
             },
             {
                 "name": "Faj'ro Temple 2F - Chamber of Ice",
-                "chest_unopened_img": "images/icons/circuitGrid.png",
-                "chest_opened_img": "images/icons/circuitGrid_o.png",
+                "chest_unopened_img": "images/icons/eleCold_o.png",
+                "chest_opened_img": "images/icons/eleCold_x.png",
                 "map_locations": 
 				[
                     {

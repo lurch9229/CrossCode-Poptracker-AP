@@ -326,7 +326,7 @@
                         "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -343,7 +343,7 @@
                         "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -360,7 +360,7 @@
                         "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -377,7 +377,7 @@
                         "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -394,7 +394,7 @@
                         "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -411,7 +411,7 @@
                         "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -428,7 +428,7 @@
                         "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -445,7 +445,7 @@
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -462,7 +462,7 @@
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -479,7 +479,7 @@
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -496,7 +496,7 @@
                         "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -513,7 +513,7 @@
                         "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -530,7 +530,7 @@
                         "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -547,7 +547,7 @@
                         "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -564,7 +564,262 @@
                         "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem15",
+                            "$typeMix",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem5",
+                            "$typeKebab",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem6",
+                            "$typeRisotto",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Type - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem13",
+                            "$typeCoffee",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$RSitem14",
+                            "$typePeanuts",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Type - 450 Credits",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules":
                         [
@@ -602,7 +857,7 @@
                         "chest_opened_img": "images/food/RisingStarOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -619,7 +874,7 @@
                         "chest_opened_img": "images/food/DkPepperOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -636,7 +891,7 @@
                         "chest_opened_img": "images/food/MaultascheOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -653,7 +908,7 @@
                         "chest_opened_img": "images/food/SpaetzleOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -670,7 +925,7 @@
                         "chest_opened_img": "images/food/DurianOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -687,7 +942,7 @@
                         "chest_opened_img": "images/food/PengoPopOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -704,7 +959,7 @@
                         "chest_opened_img": "images/food/BeatZeroOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -721,7 +976,7 @@
                         "chest_opened_img": "images/food/WerewolfStickOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -738,7 +993,7 @@
                         "chest_opened_img": "images/food/MooncakeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -755,7 +1010,7 @@
                         "chest_opened_img": "images/food/WillisWaldmahlOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -772,7 +1027,7 @@
                         "chest_opened_img": "images/food/PumpkinSpiceOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -789,7 +1044,211 @@
                         "chest_opened_img": "images/food/GuacamoleToastOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef12",
+                            "$typeToast",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rising Super Star Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/RisingStar.png",
+                        "chest_opened_img": "images/food/RisingStarOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef1",
+                            "$typeRisingStar",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dk Pepper Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/DkPepper.png",
+                        "chest_opened_img": "images/food/DkPepperOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef2",
+                            "$typePepper",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Maultasche Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/Maultasche.png",
+                        "chest_opened_img": "images/food/MaultascheOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef3",
+                            "$typeMaultasche",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Spaetzle Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/Spaetzle.png",
+                        "chest_opened_img": "images/food/SpaetzleOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef4",
+                            "$typeSpaetzle",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Durian Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/Durian.png",
+                        "chest_opened_img": "images/food/DurianOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef5",
+                            "$typeDurian",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "PengoPop Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/PengoPop.png",
+                        "chest_opened_img": "images/food/PengoPopOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef6",
+                            "$typePengo",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Beat-0-Type Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/BeatZero.png",
+                        "chest_opened_img": "images/food/BeatZeroOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef7",
+                            "$typeBeatZero",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Werewolf Stick Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/WerewolfStick.png",
+                        "chest_opened_img": "images/food/WerewolfStickOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef8",
+                            "$typeWerewolf",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mooncake Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/Mooncake.png",
+                        "chest_opened_img": "images/food/MooncakeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef9",
+                            "$typeMooncake",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Willis Waldmahl Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/WillisWaldmahl.png",
+                        "chest_opened_img": "images/food/WillisWaldmahlOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef10",
+                            "$typeWillis",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin Spiced Coffee Type - 7777 Credits",
+                        "chest_unopened_img": "images/food/PumpkinSpice.png",
+                        "chest_opened_img": "images/food/PumpkinSpiceOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSchef11",
+                            "$typePumpkin",
+                            "settingShopReceiveShops, rhombusChef",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Guacamole Toast Type - 9999 Credits",
+                        "chest_unopened_img": "images/food/GuacamoleToast.png",
+                        "chest_opened_img": "images/food/GuacamoleToastOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
@@ -827,7 +1286,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -844,7 +1303,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -861,7 +1320,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -878,7 +1337,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -895,7 +1354,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -912,7 +1371,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -929,7 +1388,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules": 
                         [
@@ -946,7 +1405,143 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon8",
+                            "$typeLaBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Goggles Type - 71350 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon1",
+                            "$typeCoHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Goggles Type - 104750 Credits",
+                        "chest_unopened_img": "images/weapon/laserHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon2",
+                            "$typeLaHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Edge Type - 70975 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon3",
+                            "$typeCoEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Edge Type - 104500 Credits",
+                        "chest_unopened_img": "images/weapon/laserEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon4",
+                            "$typeLaEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Mail Type - 71925 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon5",
+                            "$typeCoMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Mail Type - 105000 Credits",
+                        "chest_unopened_img": "images/weapon/laserMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon6",
+                            "$typeLaMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cobalt Boots Type - 71350 Credits",
+                        "chest_unopened_img": "images/weapon/cobaltBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RSweapon7",
+                            "$typeCoBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Boots Type - 104750 Credits",
+                        "chest_unopened_img": "images/weapon/laserBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
@@ -984,7 +1579,24 @@
                         "chest_opened_img": "images/weapon/ChestDetectorOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RScurio1",
+                            "$typeDetector",
+                            "settingShopReceiveShops, rhombusCurio",
+                            "settingShopReceiveOff" 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chest Detector Type - 33333 Credits",
+                        "chest_unopened_img": "images/weapon/ChestDetector.png",
+                        "chest_opened_img": "images/weapon/ChestDetectorOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules": 
                         [
@@ -1105,728 +1717,6 @@
                       "map": "WorldMap",
                       "x": 279,
                       "y": 254
-                    }
-                ]
-            }
-        ]
-    },
-    //Rhombus Square Shop Map
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Rhombus Square - Item Shop\nSandwich Slot - 100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 38
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Slot - 300 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 56
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 76
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Rhombus Square - Item Shop\nJust Water Slot - 222 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 98
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Rhombus Square - Item Shop\nKebab Roll Slot - 650 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 118
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Rhombus Square - Item Shop\nMeaty Risotto Slot - 650 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 138
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nSpicy Bun Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 158
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nFruit Drink Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 178
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nRice Cracker Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 198
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 218
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 240
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 260
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 280
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 300
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 320
-                    }
-                ]
-            }
-        ]
-    },
-    
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 378
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Weapon Shop/Laser Goggles Slot - 104750 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Goggles Slot - 104750 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 398
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Weapon Shop/Cobalt Edge Slot - 70975 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Edge Slot - 70975 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 418
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Weapon Shop/Laser Edge Slot - 104500 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Edge Slot - 104500 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 438
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Weapon Shop/Cobalt Mail Slot - 71925 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Mail Slot - 71925 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 458
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Weapon Shop/Laser Mail Slot - 105000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Mail Slot - 105000 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 478
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Weapon Shop/Cobalt Boots Slot - 71350 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Boots Slot - 71350 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 493
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Weapon Shop/Laser Boots Slot - 104750 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Boots Slot - 104750 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 513
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Rising Super Star Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nRising Super Star Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 654
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Dk Pepper Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nDk Pepper Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 674
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Maultasche Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nMaultacshe Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 694
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 712
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Durian Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nDurian Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 732
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/PengoPop Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nPengoPop Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 752
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 770
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Werewolf Stick Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nWerewolf Stick Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 789
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Mooncake Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nMooncake Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 808
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Willis Waldmahl Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 827
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 846
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Backer Chef Shop/Guacamole Toast Slot - 9999 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nGuacamole Toast Slot - 9999 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 865
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rhombus Square - Curio Shop/Chest Detector Slot - 33333 Credits",
-                        "name": "Rhombus Square - Curio Shop\nChest Detector Slot - 33333 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 1127
                     }
                 ]
             }

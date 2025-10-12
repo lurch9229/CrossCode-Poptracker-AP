@@ -171,8 +171,8 @@
             },
             {
                 "name": "Zir'vitar Temple 2F - Chamber of Wave",
-                "chest_unopened_img": "images/icons/circuitGrid.png",
-                "chest_opened_img": "images/icons/circuitGrid_o.png",
+                "chest_unopened_img": "images/icons/eleWave_o.png",
+                "chest_opened_img": "images/icons/eleWave_x.png",
                 "map_locations": 
 				[
                     {

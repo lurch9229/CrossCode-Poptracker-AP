@@ -348,8 +348,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9",
-                    "$regionOpen4_6"
+                    "$region9, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[
@@ -381,8 +381,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9",
-                    "$regionOpen4_6"
+                    "$region9, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[
@@ -600,8 +600,8 @@
             },
             {
                 "name": "Temple Mine U3 - Chamber of Fire",
-                "chest_unopened_img": "images/icons/circuitGrid.png",
-                "chest_opened_img": "images/icons/circuitGrid_o.png",
+                "chest_unopened_img": "images/icons/eleHeat_o.png",
+                "chest_opened_img": "images/icons/eleHeat_x.png",
                 "map_locations": 
 				[
                     {
@@ -645,8 +645,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9",
-                    "$regionOpen4_6"
+                    "$region9, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[
@@ -678,8 +678,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region10",
-                    "$regionOpen4_7"
+                    "$region10, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_7, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[
@@ -711,8 +711,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9",
-                    "$regionOpen4_6"
+                    "$region9, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[
@@ -744,8 +744,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9",
-                    "$regionOpen4_6"
+                    "$region9, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[
@@ -777,8 +777,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9",
-                    "$regionOpen4_6"
+                    "$region9, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[
@@ -810,8 +810,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9",
-                    "$regionOpen4_6"
+                    "$region9, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[
@@ -843,8 +843,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region9",
-                    "$regionOpen4_6"
+                    "$region9, $newLock|3235824114|thiefKey",
+                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
                 ],
                 "sections": 
 				[

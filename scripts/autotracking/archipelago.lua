@@ -188,7 +188,7 @@ function onClear(slot_data)
     -- get auto tabbing
     if Archipelago.PlayerNumber > -1 then
         --local data_storage_list = ({"area"})
-        local data_storage_list = ({"CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area"})
+        local data_storage_list = ({"CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName"})
 
         Archipelago:SetNotify(data_storage_list)
         Archipelago:Get(data_storage_list)
@@ -300,6 +300,7 @@ function onLocation(location_id, location_name)
     
     if obj then
         manualHostedItems(location_id)
+        manualShopTypes(location_id)
         if v[1]:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
         else
@@ -395,7 +396,7 @@ function onSetReply(key, value, _)
         print(string.format("called retrieved: %s, %s", key, value))
     end
 
-    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area" then
+    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
         splitedArea = {}
         index = 1
 
@@ -459,7 +460,7 @@ function retrieved(key, value)
         print(string.format("called retrieved: %s, %s", key, value))
     end
 
-    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area" then
+    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
         splitedArea = {}
         index = 1
 
@@ -1031,6 +1032,480 @@ function manualHostedItems(location_id)
     end
 end
 
+function manualShopTypes(location_id)
+    local objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Sandwich Type - 100 Credits")
+
+    if location_id == 3235824525 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Tara's Shop/Sandwich Type - 2500 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824527 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824529 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824531 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824533 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824535 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824537 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824539 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824541 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Kebab Roll Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Kebab Roll Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Kebab Roll Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824543 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Meaty Risotto Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Meaty Risotto Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Meaty Risotto Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Meaty Risotto Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824545 then
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Bergen Ice Cream Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Bergen Ice Cream Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Bergen Ice Cream Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Bergen Ice Cream Type - 450 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Bergen Ice Cream Type - 450 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824547 then
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Sweet Lemonjuice Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Sweet Lemonjuice Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Sweet Lemonjuice Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824549 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Salted Peanuts Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Salted Peanuts Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Salted Peanuts Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Salted Peanuts Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824551 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Cup o' Coffee Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Cup o' Coffee Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824553 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Snack Mix Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Vending Machine/Snack Mix Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Item Shop/Snack Mix Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Snack Mix Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Snack Mix Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Snack Mix Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Snack Mix Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824555 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Goggles Type - 850 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824557 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Edge Type - 800 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824559 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Mail Type - 900 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824561 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Boots Type - 850 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824563 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Iron Goggles Type - 4700 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Weapon Shop/Iron Goggles Type - 4700 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Iron Goggles Type - 4700 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824565 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Iron Edge Type - 4500 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Weapon Shop/Iron Edge Type - 4500 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Iron Edge Type - 4500 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824567 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Iron Mail Type - 4800 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Weapon Shop/Iron Mail Type - 4800 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Iron Mail Type - 4800 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824569 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Iron Boots Type - 4700 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Weapon Shop/Iron Boots Type - 4700 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Iron Boots Type - 4700 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824571 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Type - 29450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Silver Goggles Type - 29450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Silver Goggles Type - 29450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Silver Goggles Type - 29450 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824573 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Type - 29375 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Silver Edge Type - 29375 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Silver Edge Type - 29375 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Silver Edge Type - 29375 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824575 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Type - 29725 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Silver Mail Type - 29725 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Silver Mail Type - 29725 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Silver Mail Type - 29725 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824577 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Type - 29450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Silver Boots Type - 29450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Silver Boots Type - 29450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Silver Boots Type - 29450 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824579 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Type - 15850 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Steel Goggles Type - 15850 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Steel Goggles Type - 15850 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824581 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Type - 15800 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Steel Edge Type - 15800 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Steel Edge Type - 15800 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824583 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Type - 16100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Steel Mail Type - 16100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Steel Mail Type - 16100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824585 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Type - 15950 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Steel Boots Type - 15950 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Steel Boots Type - 15950 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824592 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Rising Super Star Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824594 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Dk Pepper Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Dk Pepper Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824596 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Cheese Spaetzle Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824598 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Maultasche Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824600 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Durian Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Durian Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824602 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/PengoPop Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824604 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Spicy Beat-0-Type Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824606 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Werewolf Stick Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824608 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Mooncake Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824610 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Type - 9999 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Guacamole Toast Type - 9999 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824612 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Willis Waldmahl Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824614 then
+        objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824635 then
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824697 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Goggles Type - 46750 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Type - 46750 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824699 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Edge Type - 46475 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Type - 46475 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824701 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Mail Type - 46925 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Type - 46925 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824703 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Boots Type - 46750 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Type - 46750 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824705 then
+        objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Type - 60000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824711 then
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Type - 71350 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Goggles Type - 71350 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824713 then
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Type - 70975 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Edge Type - 70975 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824715 then
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Type - 71925 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Mail Type - 71925 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824717 then
+        objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Type - 71350 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Boots Type - 71350 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824734 then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Goggles Type - 104750 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824736 then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Edge Type - 104500 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824738 then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Mail Type - 105000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824740 then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Boots Type - 104750 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824757 then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Curio ShopChest Detector Type - 33333 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -1040,5 +1515,3 @@ Archipelago:AddLocationHandler("location handler", onLocation)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
 Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
 Archipelago:AddRetrievedHandler("retrieved", retrieved)
-
-
