@@ -1,5 +1,48 @@
 # Changelog
 
+0.8.0
+
+Sogeki cooked with this update
+
+    Layout
+
+        - Add hint highlight to locations
+            A location with a progression item hinted is highlighted in yellow/gold
+            A location with an useful item hinted is highlighted in blue
+            A location with a filler item hinted is highlighted in gray
+            A location with a trap item hinted is highlited in red
+            If the "quality" of the item is unknown, the location will be highlighted based on the hint priority
+
+        - Added East and West Pass for Gaia Garden
+        - Add missing shop slot/type references to world map
+
+    Settings
+
+        - Rhombus Hub Unlock
+        - Closed Gaia
+
+    Autotracking
+
+        - Fix location ID for "Bergen Ice Cream Slot", "Sweet Lemonjuice Slot", "Kebab Roll Slot", "Meaty Risotto Slot" for Ba'kii Kum Item Shop
+        - Fix function call for Steel tier items calling nonexisting VM() function instead of VW()
+
+    Logic 
+
+        - Add Open Mode access logic for "Henry Trailblazing" Quest in Autumn's Rise
+        - Add shop slot availability logic for "You've Got Mail" Quest in Bergen Trail
+        - Fix manual tracking for "Sweet Berry Tea" and "Sweet Lemonjuice" in the Hermit shop for "Sending Shop Types"
+        - Add any element requirement for "Zir'vitar Temple GF - Hoodwink" chest
+        - Use Thief Key instead of White Key for "Maroon Valley - Cursed Temple Treasure Room" chest
+        - Require Green Leaf Shade for "Pathway 3 Schneider - Guild Pass" and "The Observatory - Inside The Observatory"
+        - Require 3 keys for "So'najiz Temple - Slowing Attraction" chest instead of 1
+        - Remove Wave element requirement to access "Gaia's Garden - Royal Grove Lower Right" chest
+        - Add logic for "Mushroom Kingdom" quest when "Quest Shuffle" setting is off
+        - Remove normal keys requirement for "Star Shade", "Circuit Override" and "SP Upgrade" locations in Grand Krys'Kajo
+        - Add Cold and Heat requirement for checks in Grand Krys'Kajo
+        - Add canGrind() logic to all shop types in Shop/Type page
+        - Revamp Crocus Pocus quest logic to be inline with CCMWR new logic
+        - Add "Maroon Tree Defender" quest to always quest
+        
 0.7.1
 
 Sogeki Once again Coming in with some fixes
