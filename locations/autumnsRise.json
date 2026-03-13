@@ -677,10 +677,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region3",
-                            "$regionOpen3"
-                        ],
+                [
+                    "$region3",
+                    "$regionOpen3"
+                ],
                 "sections": 
 				[
                     {
@@ -1000,7 +1000,7 @@
                         ],
                         "access_rules": 
                         [
-                            "dkar5"
+                            "dkar1, dkar2, dkar3, dkar4, dkar5"
                         ],
                         "item_count": 1
                     }
@@ -1020,7 +1020,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region3"
+                    "$region3",
+                    "$regionOpen3"
                 ],
                 "sections": 
 				[

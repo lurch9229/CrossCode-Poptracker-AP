@@ -204,7 +204,7 @@
                         "name": "Maroon Tree Defender",
                         "visibility_rules": 
                         [
-                            "questShuffle"
+                            ""
                         ],
                         "access_rules":
                         [
@@ -221,7 +221,8 @@
                         ],
                         "access_rules":
                         [
-                            "botanics-2"
+                            "botanics-2, $region2",
+                            "botanics-2, $regionOpen2, $botanics50"
                         ],
                         "item_count": 1
                     }
@@ -468,7 +469,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-booze-1"  
+                            "MV-booze-1"
                         ],
                         "item_count": 1
                     }
@@ -1433,6 +1434,90 @@
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
                         "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Sandwich Type - 100 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Type - 100 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Type - 300 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Type - 250 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Just Water Type - 222 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Type - 222 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Type - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Type - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Spicy Bun Type - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Fruit Drink Type - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Rice Cracker Type - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Veggie Sticks Type - 200 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Type - 450 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Type - 450 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Type - 4700 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Type - 4700 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Goggles Type - 15850 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Type - 15850 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Edge Type - 4500 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Type - 4500 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Edge Type - 15800 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Type - 15800 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Mail Type - 4800 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Type - 4800 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Mail Type - 16100 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Type - 16100 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Boots Type - 4700 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Type - 4700 Credits"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Type - 15950 Credits",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Type - 15950 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Arid Breeze HQ/Blasting Shells",

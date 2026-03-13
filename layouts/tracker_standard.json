@@ -12,6 +12,7 @@
       ["leafShade","dropShade","seedShade","starShade","meteorShade"],
       ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
       ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"],
+      ["gaiaWest", "gaiaEast", "", "", ""],
       ["brokenGauntlet", "brokenShield", "brokenSword", "brokenDeck", "brokenChakram"]
     ]
   },
@@ -266,6 +267,38 @@
             ],
             "item_size": 95,
             "margin": "-5,100,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["op_RH"]
+            ],
+            "item_size": 95,
+            "margin": "-200,134,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["op_GG"]
+            ],
+            "item_size": 95,
+            "margin": "-5,134,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["op_G"]
+            ],
+            "item_size": 95,
+            "margin": "-200,175,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["auto_tab"]
+            ],
+            "item_size": 95,
+            "margin": "-5,175,-2,-12"
           }
         ]
       }

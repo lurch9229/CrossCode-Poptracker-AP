@@ -699,8 +699,8 @@
                         ],
                         "access_rules": 
                         [
-                            "botanics-4, $region33",
-                            "botanics-4, $retionOpen4_1_1, $regionOpen5, $regionOpen9, $regionOpen11, $regionOpen16, $regionOpen20"
+                            "botanics-4, $region2, $region33",
+                            "botanics-4, $regionOpen2, $botanics100"
                         ],
                         "item_count": 1
                     }
@@ -2672,6 +2672,194 @@
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Slot - 29450 Credits",
                         "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Boots Slot - 29450 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Sandwich Type - 100 Credits",
+                        "name": "Rookie Harbor - Item Shop\nSandwich Type - 100 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Hi-Sandwich Type - 300 Credits",
+                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Type - 300 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Green Leaf Tea Type - 250 Credits",
+                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Type - 250 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Just Water Type - 222 Credits",
+                        "name": "Rookie Harbor - Item Shop\nJust Water Type - 222 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice",
+                        "name": "Rookie Harbor - Item Shop\nKebab Roll Type - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice",
+                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Type - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Spicy Bun Type - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Fruit Drink Type - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nFruit Drink Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Rice Cracker Type - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nRice Cracker Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Veggie Sticks Type - 200 Credits",
+                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Bergen Ice Cream Type - 450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Type - 450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Type - 450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Item Shop/Snack Mix Type - 450 Credits Have Green Seed",
+                        "name": "Rookie Harbor - Item Shop\nSnack Mix Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Goggles Type - 850 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Type - 850 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Goggles Type - 4700 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Type - 4700 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Goggles Type - 29450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Goggles Type - 29450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Edge Type - 800 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Type - 800 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Edge Type - 4500 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Type - 4500 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Edge Type - 29375 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Type - 29375 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Mail Type - 900 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Type - 900 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Mail Type - 4800 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Type - 4800 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Mail Type - 29725 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Type - 29725 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Bronze Boots Type - 850 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Type - 850 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Iron Boots Type - 4700 Credits",
+                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Type - 4700 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Weapon Shop/Silver Boots Type - 29450 Credits Have Red Flame",
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Type - 29450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nRising Super Star Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/DK Pepper Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDK Pepper Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMaultasche Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nCheese Spaetzle Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Durian Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDurian Super Star Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPengoPop Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSpicy Beat-0-Type Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWerewolf Stick Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMooncake Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWillis Waldmahl Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPumpkin Spiced Coffee Type - 7777 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Type - 9999 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nGuacamole Toast Type - 9999 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Type - 15850 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Goggles Type - 15850 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Type - 29450 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Goggles Type - 29450 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Type - 15800 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Edge Type - 15800 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Type - 29375 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Edge Type - 29375 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Type - 16100 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Mail Type - 16100 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Type - 29725 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Mail Type - 29725 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Type - 15950 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Boots Type - 15950 Credits"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Type - 29450 Credits",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Boots Type - 29450 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Seeker Hub/Faction Introductions",

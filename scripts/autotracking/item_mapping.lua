@@ -6,13 +6,17 @@ ITEM_MAPPING =
 [3235824002] = {"eleShock", "toggle"}, -- Shock Element, progression
 [3235824003] = {"eleWave", "toggle"}, -- Wave Element, progression
 
+-- Upgrades
+[3235824004] = {"spUpgrade", "progressive"}, -- SP Upgrade, useful
+[3235824005] = {"gaiaWest", "toggle"}, -- Remove Gaia's Garden West barrier, progression
+[3235824006] = {"gaiaEast", "toggle"}, -- Remove Gaia's Garden East barrier, progression
+
 -- Progresssive Area
 [3235824050] = {"progAreaUnlock", "consumable"}, -- Progressive Area Unlock, progression
 [3235824051] = {"progOverUnlock", "consumable"}, -- Progressive Overworld Unlock, progression
 [3235824052] = {"progDunUnlock", "consumable"}, -- Progressive Dungeon Unlock, progression
 
 -- Progressive Equipments
-[3235824004] = {"spUpgrade", "progressive"}, -- SP Upgrade, useful
 --[3235824060] = {"progAllHeads", "progressive"}, -- Progressive All-Purpose Heads, useful
 --[3235824061] = {"progDefHeads", "progressive"}, -- Progressive Defense Heads, useful
 --[3235824062] = {"progOffHeads", "progressive"}, -- Progressive Offense Heads, useful
@@ -35,6 +39,7 @@ ITEM_MAPPING =
 --[3235824092] = {"progOffLegs", "progressive"}, -- Progressive Offense Legs, useful
 --[3235824093] = {"progLegs", "progressive"}, -- Progressive Legs, useful
 
+-- Key Items
 [3235824233] = {"brokenGauntlet", "toggle"}, -- Broken Gauntlet, progression
 [3235824235] = {"insightDisc", "toggle"}, -- Disc of Insight , progression
 [3235824237] = {"brokenShield", "toggle"}, -- Broken Shield, progression
@@ -214,10 +219,10 @@ ITEM_MAPPING =
 [3235924354] = {"BKitem8", "toggle"}, -- Bakii Item Slot 8 (fruitDrink)
 [3235924355] = {"BKitem9", "toggle"}, -- Bakii Item Slot 9 (riceCracker)
 [3235924356] = {"BKitem10", "toggle"}, -- Bakii Item Slot 10 (veggieSticks)
-[3235924357] = {"BKitem5", "toggle"}, -- Bakii Item Slot 5 (kebab)
-[3235924358] = {"BKitem6", "toggle"}, -- Bakii Item Slot 6 (risotto)
-[3235924359] = {"BKitem11", "toggle"}, -- Bakii Item Slot 11 (iceCream)
-[3235924360] = {"BKitem12", "toggle"}, -- Bakii Item Slot 12 (lemonJuice)
+[3235924357] = {"BKitem11", "toggle"}, -- Bakii Item Slot 11 (iceCream)
+[3235924358] = {"BKitem12", "toggle"}, -- Bakii Item Slot 12 (lemonJuice)
+[3235924359] = {"BKitem5", "toggle"}, -- Bakii Item Slot 5 (kebab)
+[3235924360] = {"BKitem6", "toggle"}, -- Bakii Item Slot 6 (risotto)
 [3235924361] = {"BKitem14", "toggle"}, -- Bakii Item Slot 14 (peanuts)
 [3235924362] = {"BKitem13", "toggle"}, -- Bakii Item Slot 13 (coffee)
 [3235924363] = {"BKitem15", "toggle"}, -- Bakii Item Slot 15 (snackMix)
@@ -378,14 +383,12 @@ ITEM_MAPPING =
 [3235924505] = {"VWitem5", "toggle"}, -- Vermillion Item Slot 5 (spicyBun)
 [3235924506] = {"VWitem6", "toggle"}, -- Vermillion Item Slot 6 (fruitDrink)
 [3235924507] = {"VWitem7", "toggle"}, -- Vermillion Item Slot 7 (riceCracker)
-[3235924508] = {"VWitem7", "toggle"}, -- Vermillion Item Slot 8 (veggieSticks)
+[3235924508] = {"VWitem8", "toggle"}, -- Vermillion Item Slot 8 (veggieSticks)
 -- Rhombus Cobalt Set
 [3235924509] = {"RSweapon1", "toggle"}, -- Rhombus Weapon Slot 8 (coHelm)
 [3235924510] = {"RSweapon3", "toggle"}, -- Rhombus Weapon Slot 8 (coEdge)
 [3235924511] = {"RSweapon5", "toggle"}, -- Rhombus Weapon Slot 8 (coMail)
 [3235924512] = {"RSweapon7", "toggle"}, -- Rhombus Weapon Slot 8 (coBoots)
 
-[3235824337] = {"shinyOrb", "toggle"},
-
-
+[3235824337] = {"shinyOrb", "toggle"}
 }

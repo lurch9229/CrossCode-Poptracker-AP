@@ -28,6 +28,18 @@
     "codes": "eleWave"
   },
   {
+    "name": "West Gaia Pass",
+    "type": "toggle",
+    "img": "images/items/gaiaWestPass.png",
+    "codes": "gaiaWest"
+  },
+  {
+    "name": "East Gaia Pass",
+    "type": "toggle",
+    "img": "images/items/gaiaEastPass.png",
+    "codes": "gaiaEast"
+  },
+  {
     "name": "Thief Key",
     "type": "toggle",
     "img": "images/items/thiefKey.png",
@@ -438,6 +450,45 @@
     ]
   },
   {
+    "name": "Rhombus Hub",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/rhombusHubClosed.png",
+        "codes": "op_RH, settingsRhombusHubClose"
+      },
+      {
+        "img": "images/settings/rhombusHubOpen.png",
+        "codes": "op_RH, settingsRhombusHubOpen",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Closed Gaia's Garden",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/gaiaOpen.png",
+        "codes": "op_GG, settingsGaiaGardenOpen, gaiaOpen"
+      },
+      {
+        "img": "images/settings/gaiaMinClosed.png",
+        "codes": "op_GG, settingsGaiaGardenMinimalClose, gaiaClosed",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/gaiaFullClosed.png",
+        "codes": "op_GG, settingsGaiaGardenFullClose, gaiaClosed",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Dungeon Keyrings",
     "type": "progressive",
     "allow_disabled": false,
@@ -537,6 +588,29 @@
       {
         "img": "images/settings/chestLocksOn.png",
         "codes": "op_CL,settingChestLockOn",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goal",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/goalCreator.png",
+        "codes": "op_G,settingGoalCreator"
+      },
+      {
+        "img": "images/settings/goalMonkey.png",
+        "codes": "op_G,settingGoalMonkey",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/goalObservatory.png",
+        "codes": "op_G,settingGoalObservatory",
         "inherit_codes": false
       }
     ]
@@ -2073,39 +2147,12 @@
     "codes": "shinyOrb"
   },
   {
-    "name": "Chest Locks",
-    "type": "progressive",
-    "codes": "auto_tab",
-    "loop": false,
-    "allow_disabled": false,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/settings/settingChestLocksOff.png",
-        "codes": "op_CL, settingChestLocksOff"
-      },
-      {
-        "img": "images/settings/settingChestLocksOn.png",
-        "codes": "op_CL, settingChestLocksOn"
-      }
-    ]
-  },
-  {
     "name": "Auto Tab Switching",
-    "type": "progressive",
+    "type": "toggle",
     "codes": "auto_tab",
-    "loop": false,
-    "allow_disabled": false,
-    "initial_stage_idx": 1,
-    "stages": [
-      {
-        "img": "images/settings/autoTabOff.png"
-      },
-      {
-        "img": "images/settings/autoTabOn.png",
-        "codes": "auto_tab"
-      }
-    ]
+    "img": "images/settings/autoTabOn.png",
+    "disabled_img": "images/settings/autoTabOff.png",
+    "initial_active_state": "true"
   },
   {
     "name": "Progressive Dungeon Unlock",

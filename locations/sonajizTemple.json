@@ -19,7 +19,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Left"
                 ],
                 "sections":
 				[
@@ -118,7 +118,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Left"
                 ],
                 "sections":
 				[
@@ -250,7 +250,7 @@
                 "access_rules": 
                 [
                     "$region26",
-                    "$regionOpen10"
+                    "$regionOpen10_Left"
                 ],
                 "sections":
 				[
@@ -262,7 +262,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824340,sonajizKey:1"
+                            "$newLock|3235824340,sonajizKey:3"
                         ],
                         "item_count": 1
                     }
@@ -414,8 +414,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region27, $newLock|3235824338|radiantKey",
-                    "$regionOpen14_4, $newLock|3235824338|radiantKey"
+                    "$region27",
+                    "$regionOpen14_4"
                 ],
                 "sections": 
 				[
@@ -447,8 +447,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region27, $newLock|3235824338|radiantKey",
-                    "$regionOpen14_5, $newLock|3235824338|radiantKey"
+                    "$region27",
+                    "$regionOpen14_5"
                 ],
                 "sections": 
 				[

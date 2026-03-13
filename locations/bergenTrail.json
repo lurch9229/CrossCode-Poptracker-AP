@@ -897,7 +897,11 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "settingShopReceiveOff,   $brMailOff",
+                            "settingShopReceiveTypes, $brMailType",
+                            "settingShopReceiveSlots, $brMailSlot",
+                            "settingShopReceiveShops, $brMailShop"
+
                         ],
                         "item_count": 1
                     }
@@ -1247,15 +1251,27 @@
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits",
-                        "name": "Bergen Trail - Hermit Shop - Sweet Berry Tea - 3299 Credits"
+                        "name": "Bergen Trail - Hermit Shop\nSweet Berry Tea Slot - 3299 Credits"
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits",
-                        "name": "Bergen Trail - Hermit Shop - Chili Con Carne - 1099 Credits"
+                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Slot - 1099 Credits"
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
-                        "name": "Bergen Trail - Hermit Shop - Sweet Lemonjuice - 2199 Credits"
+                        "name": "Bergen Trail - Hermit Shop\nSweet Lemonjuice Slot - 2199 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits",
+                        "name": "Bergen Trail - Hermit Shop\nSweet Berry Tea Type - 3299 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits",
+                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Type - 1099 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits",
+                        "name": "Bergen Trail - Hermit Shop\nSweet Lemonjuice Type - 2199 Credits"
                     },
                     {
                         "ref": "Bergen Trail - Spike Heights Upper/Chest",

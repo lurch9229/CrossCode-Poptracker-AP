@@ -182,11 +182,11 @@ function regionOpen3()
 end
 
 function regionOpen3_1()
-  return regionOpen2() and has ("minePass")
+  return regionOpen3() and has ("minePass")
 end
 
 function regionOpen3_2()
-  return regionOpen2() and has ("guildPass")
+  return regionOpen3() and has ("guildPass")
 end
 
 function regionOpen4_1()
@@ -210,7 +210,7 @@ function regionOpen4_4()
 end
 
 function regionOpen4_5()
-  return regionOpen4_4() and mineKeyTotal(4)
+  return regionOpen4_4() and mineKeyTotal(5)
 end
 
 function regionOpen4_6()
@@ -226,7 +226,7 @@ function regionOpen4_8()
 end
 
 function regionOpen5()
-  return regionOpen3() and has ("iceShade")
+  return (regionOpen3() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has ("iceShade")
 end
 
 function regionOpen6()
@@ -282,7 +282,27 @@ function regionOpen9_1()
 end
 
 function regionOpen10()
-  return regionOpen9() and has ("seedShade")
+  return (regionOpen9() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has ("seedShade")
+end
+
+function regionOpen10_Left()
+  return regionOpen10() and (has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest")))
+end
+
+function regionOpen10_Right()
+  return regionOpen10() and (has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast")))
+end
+
+function regionOpen10_Middle()
+  return regionOpen10_Right() or regionOpen10_Left()
+end
+
+function regionOpen10_Grove()
+  return regionOpen10_Left() and (has("gaiaOpen") or has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("dropShade")))
+end
+
+function regionOpen10_Infested()
+  return regionOpen10_Right() and (has("gaiaOpen") or has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("boltShade")))
 end
 
 function regionOpen11()
@@ -290,11 +310,11 @@ function regionOpen11()
 end
 
 function regionOpen12()
-  return regionOpen10()
+  return regionOpen10_Middle()
 end
 
 function regionOpen13_1()
-  return zirvitarKeyTotal(2) and regionOpen10()
+  return zirvitarKeyTotal(2) and regionOpen10_Right()
 end
 
 function regionOpen13_2()
@@ -302,11 +322,11 @@ function regionOpen13_2()
 end
 
 function regionOpen14_1()
-  return sonajizKeyTotal(1) and regionOpen10() and (has("eleHeat") or has("eleCold") or has ("eleWave") or has ("eleShock"))
+  return sonajizKeyTotal(1) and regionOpen10_Left() and (has("eleHeat") or has("eleCold") or has ("eleWave") or has ("eleShock"))
 end
 
 function regionOpen14_2()
-  return regionOpen10() and sonajizKeyTotal(3) and has("eleHeat")
+  return regionOpen10_Left() and sonajizKeyTotal(3) and has("eleHeat")
 end
 
 function regionOpen14_3()
@@ -322,7 +342,7 @@ function regionOpen14_5()
 end
 
 function regionOpen15_1()
-  return regionOpen12() and (has ("boltShade") and has ("dropShade") and has ("eleWave") and has ("eleShock"))
+  return regionOpen12() and (has ("boltShade") and has ("dropShade") and has ("eleWave") and has ("eleShock") and has ("eleCold") and has ("eleHeat"))
 end
 
 function regionOpen15_2()
@@ -330,11 +350,11 @@ function regionOpen15_2()
 end
 
 function regionOpen15_3()
-  return regionOpen15_2() and has ("kryskajoMaster")
+  return regionOpen15_1() and has ("kryskajoMaster")
 end
 
 function regionOpen16()
-  return regionOpen9() and has ("starShade")
+  return (regionOpen9() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has ("starShade")
 end
 
 function regionOpen17()
@@ -439,7 +459,13 @@ end
 -- Misc --
 
 function canGrind()
-  return has ("leafShade") or has ("flameShade")
+  return has ("leafShade") or has ("flameShade") or (has("settingsRhombusHubOpen") and has("iceShade"))
+                                                 or (has("settingsRhombusHubOpen") and has("seedShade"))
+                                                 or (has("settingsRhombusHubOpen") and has("starShade"))
+end
+
+function anyElement()
+  return has("eleHeat") or has("eleCold") or has("eleShock") or has("eleWave")
 end
 
 -- Shop Logic --
@@ -1748,7 +1774,7 @@ function silHelmOff()
 end
 
 function stHelmOff()
-  return RH_5() or BK_1() or VM()
+  return RH_5() or BK_1() or VW()
 end
 
 function tiHelmOff()
@@ -1776,7 +1802,7 @@ function silEdgeOff()
 end
 
 function stEdgeOff()
-  return RH_5() or BK_1() or VM()
+  return RH_5() or BK_1() or VW()
 end
 
 function tiEdgeOff()
@@ -1804,7 +1830,7 @@ function silMailOff()
 end
 
 function stMailOff()
-  return RH_5() or BK_1() or VM()
+  return RH_5() or BK_1() or VW()
 end
 
 function tiMailOff()
@@ -1832,7 +1858,7 @@ function silBootsOff()
 end
 
 function stBootsOff()
-  return RH_5() or BK_1() or VM()
+  return RH_5() or BK_1() or VW()
 end
 
 function tiBootsOff()
@@ -1987,7 +2013,7 @@ function silHelmType()
 end
 
 function stHelmType()
-  return typeStHelm() and (RH_5() or BK_1() or VM())
+  return typeStHelm() and (RH_5() or BK_1() or VW())
 end
 
 function tiHelmType()
@@ -2015,7 +2041,7 @@ function silEdgeType()
 end
 
 function stEdgeType()
-  return typeStEdge() and (RH_5() or BK_1() or VM())
+  return typeStEdge() and (RH_5() or BK_1() or VW())
 end
 
 function tiEdgeType()
@@ -2043,7 +2069,7 @@ function silMailType()
 end
 
 function stMailType()
-  return typeStMail() and (RH_5() or BK_1() or VM())
+  return typeStMail() and (RH_5() or BK_1() or VW())
 end
 
 function tiMailType()
@@ -2071,7 +2097,7 @@ function silBootsType()
 end
 
 function stBootsType()
-  return typeStBoots() and (RH_5() or BK_1() or VM())
+  return typeStBoots() and (RH_5() or BK_1() or VW())
 end
 
 function tiBootsType()
@@ -2860,6 +2886,42 @@ end
 
 function chestDetectorSlot()
   return (RScurio1() and RS())
+end
+
+
+-- Botanics logic
+function countBotanics()
+  count = 0
+  if regionOpen3() then count = count + 20 end
+  if regionOpen4_4() then count = count + 6 end
+  if regionOpen5() then count = count + 18 end
+  if regionOpen8() then count = count + 7 end
+  if regionOpen10() then count = count + 5 end
+  if regionOpen10_Middle() then count = count + 1 end
+  if regionOpen10_Left() then count = count + 6 end
+  if regionOpen10_Right() then count = count + 2 end
+  if regionOpen10_Infested() then count = count + 1 end
+  if regionOpen16() then count = count + 9 end
+  if regionOpen20() then count = count + 1 end
+  if regionOpen11() then count = count + 1 end
+
+  return count
+end
+
+function botanics25()
+  return countBotanics() >= 20
+end
+
+function botanics50()
+  return countBotanics() >= 39
+end
+
+function botanics75()
+  return countBotanics() >= 58
+end
+
+function botanics100()
+  return countBotanics() >= 77
 end
 
 -- Shop Types Global Handler

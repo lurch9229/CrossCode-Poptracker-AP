@@ -19,7 +19,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Right"
                 ],
                 "sections":
 				[
@@ -118,7 +118,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Right"
                 ],
                 "sections":
 				[
@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824322"
+                            "$newLock|3235824322, $anyElement"
                         ],
                         "item_count": 1
                     }
@@ -269,7 +269,7 @@
                         "name": "Zir'vitar Temple 1F - Haunted Waves - Bronze Chest"
                     },
                     {
-                        "ref": "Zir'vitar Temple Gf - Hoodwink/Chest",
+                        "ref": "Zir'vitar Temple GF - Hoodwink/Chest",
                         "name": "Zir'vitar Temple GF - Hoodwink - Chest"
                     },
                     {

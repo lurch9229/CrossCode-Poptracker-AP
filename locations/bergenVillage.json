@@ -401,7 +401,8 @@
                         ],
                         "access_rules":
                         [
-                            "floraDisc, botanics-1"
+                            "floraDisc, botanics-1, $region2",
+                            "floraDisc, botanics-1, $regionOpen2, $botanics25"
                         ],
                         "item_count": 1
                     }
@@ -1720,6 +1721,71 @@
                     {
                         "ref": "Bergen Village - Weapon Shop/Iron Boots Slot - 4700 Credits",
                         "name": "Bergen Village - Weapon Shop\nIron Boots Slot - 4700 Credits"
+                    },
+
+                    {
+                        "ref": "Bergen Village - Item Shop/Sandwich Type - 100 Credits",
+                        "name": "Bergen Village - Item Shop\nSandwich Type - 100 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Hi-Sandwich Type - 300 Credits",
+                        "name": "Bergen Village - Item Shop\nHi-Sandwich Type - 300 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Green Leaf Tea Type - 250 Credits",
+                        "name": "Bergen Village - Item Shop\nGreen Leaf Tea Type - 250 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Just Water Type - 222 Credits",
+                        "name": "Bergen Village - Item Shop\nJust Water Type - 222 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Kebab Roll Type - 650 Credits",
+                        "name": "Bergen Village - Item Shop\nKebab Roll Type - 650 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Spicy Bun Type - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nSpicy Bun Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Fruit Drink Type - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nFruit Drink Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Rice Cracker Type - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nRice Cracker Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Veggie Sticks Type - 200 Credits",
+                        "name": "Bergen Village - Item Shop\nVeggie Sticks Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Bergen Ice Cream Type - 450 Credits Have Red Flame",
+                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Type - 450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame",
+                        "name": "Bergen Village - Item Shop\nSweet Lemonjuice Type - 450 Credits Have Red Flame"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Goggles Type - 4700 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Goggles Type - 4700 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Edge Type - 4500 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Edge Type - 4500 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Mail Type - 4800 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Mail Type - 4800 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Boots Type - 4700 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Boots Type - 4700 Credits"
                     }
                 ],
                 "map_locations": [

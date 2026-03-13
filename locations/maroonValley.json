@@ -1082,7 +1082,7 @@
                         ],
                         "access_rules":
                         [
-                            "$newLock|3235824177|whiteKey, eleHeat, eleCold, cursedCoin"
+                            "$newLock|3235824177|thiefKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
                     }

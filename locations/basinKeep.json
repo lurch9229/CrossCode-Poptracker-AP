@@ -233,7 +233,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
@@ -264,7 +264,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
@@ -275,7 +275,8 @@
                         ],
                         "access_rules": 
                         [
-                            "GG-mush-1, eleWave"
+                            "GG-mush-1, eleWave",
+                            "settingQuestShuffleOff, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -295,7 +296,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
@@ -338,7 +339,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
@@ -381,7 +382,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
@@ -435,7 +436,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$region2",
+                            "$regionOpen2, $regionOpen10_Infested"
                         ],
                         "item_count": 1
                     }
@@ -497,7 +499,8 @@
                         ],
                         "access_rules": 
                         [
-                            "botanics-3"
+                            "botanics-3, $region2",
+                            "botanics-3, $regionOpen2, $botanics75"
                         ],
                         "item_count": 1
                     }
@@ -1852,7 +1855,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
@@ -1917,7 +1920,7 @@
                     },
                     {
                         "ref": "Basin Keep - Pond Slums Center/Gold Chest",
-                        "name": "Basin Keep - Pond Slums Center  - Gold Chest"
+                        "name": "Basin Keep - Pond Slums Center - Gold Chest"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Sandwich Slot - 100 Credits",
@@ -2057,7 +2060,147 @@
                     },
                     {
                         "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Slot - 60000 Credits",
-                        "name": "Basin Keep - Calzonr Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
+                        "name": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Sandwich Type - 100 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Type - 100 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Type - 300 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Type - 250 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Just Water Type - 222 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Type - 222 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Kebab Roll Type - 650 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Type - 650 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Spicy Bun Type - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Fruit Drink Type - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Rice Cracker Type - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Veggie Sticks Type - 200 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Bergen Ice Cream Type - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Sweet Lemonjuice Type - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Goggles Type - 29450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Type - 29450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Goggles Type - 46750 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Type - 46750 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Edge Type - 29375 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Type - 29375 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Edge Type - 46475 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Type - 46475 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Mail Type - 29725 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Type - 29725 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Mail Type - 46925 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Type - 46925 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Silver Boots Type - 29450 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Type - 29450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Weapon & Item Shop/Titan Boots Type - 46750 Credits",
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Type - 46750 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Sandwich Type - 100 Credits",
+                        "name": "Basin Keep - Vending Machine\nSandwich Type - 100 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Hi-Sandwich Type - 300 Credits",
+                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Type - 300 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Green Leaf Tea Type - 250 Credits",
+                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Type - 250 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Just Water Type - 222 Credits",
+                        "name": "Basin Keep - Vending Machine\nJust Water Type - 222 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Kebab Roll Type - 650 Credits",
+                        "name": "Basin Keep - Vending Machine\nKebab Roll Type - 650 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Spicy Bun Type - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nSpicy Bun Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Fruit Drink Type - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nFruit Drink Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Rice Cracker Type - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nRice Cracker Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Veggie Sticks Type - 200 Credits",
+                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Bergen Ice Cream Type - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Sweet Lemonjuice Type - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Cup o' Coffee Type - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Salted Peanuts Type - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Vending Machine/Snack Mix Type - 450 Credits",
+                        "name": "Basin Keep - Vending Machine\nSnack Mix Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Type - 60000 Credits",
+                        "name": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'\nOne Up Type - 60000 Credits"
                     },
                     {
                         "ref": "Basin Keep - Police HQ/Hostage Situation",
