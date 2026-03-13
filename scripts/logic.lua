@@ -210,7 +210,7 @@ function regionOpen4_4()
 end
 
 function regionOpen4_5()
-  return regionOpen4_4() and mineKeyTotal(4)
+  return regionOpen4_4() and mineKeyTotal(5)
 end
 
 function regionOpen4_6()
@@ -2886,6 +2886,42 @@ end
 
 function chestDetectorSlot()
   return (RScurio1() and RS())
+end
+
+
+-- Botanics logic
+function countBotanics()
+  count = 0
+  if regionOpen3() then count = count + 20 end
+  if regionOpen4_4() then count = count + 6 end
+  if regionOpen5() then count = count + 18 end
+  if regionOpen8() then count = count + 7 end
+  if regionOpen10() then count = count + 5 end
+  if regionOpen10_Middle() then count = count + 1 end
+  if regionOpen10_Left() then count = count + 6 end
+  if regionOpen10_Right() then count = count + 2 end
+  if regionOpen10_Infested() then count = count + 1 end
+  if regionOpen16() then count = count + 9 end
+  if regionOpen20() then count = count + 1 end
+  if regionOpen11() then count = count + 1 end
+
+  return count
+end
+
+function botanics25()
+  return countBotanics() >= 20
+end
+
+function botanics50()
+  return countBotanics() >= 39
+end
+
+function botanics75()
+  return countBotanics() >= 58
+end
+
+function botanics100()
+  return countBotanics() >= 77
 end
 
 -- Shop Types Global Handler

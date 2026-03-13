@@ -401,7 +401,8 @@
                         ],
                         "access_rules":
                         [
-                            "floraDisc, botanics-1"
+                            "floraDisc, botanics-1, $region2",
+                            "floraDisc, botanics-1, $regionOpen2, $botanics25"
                         ],
                         "item_count": 1
                     }

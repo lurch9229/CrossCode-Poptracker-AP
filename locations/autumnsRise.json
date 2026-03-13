@@ -677,10 +677,10 @@
                     }
                 ],
                 "access_rules": 
-                        [
-                            "$region3",
-                            "$regionOpen3"
-                        ],
+                [
+                    "$region3",
+                    "$regionOpen3"
+                ],
                 "sections": 
 				[
                     {

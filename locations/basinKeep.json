@@ -499,7 +499,8 @@
                         ],
                         "access_rules": 
                         [
-                            "botanics-3"
+                            "botanics-3, $region2",
+                            "botanics-3, $regionOpen2, $botanics75"
                         ],
                         "item_count": 1
                     }

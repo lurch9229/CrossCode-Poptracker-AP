@@ -699,8 +699,8 @@
                         ],
                         "access_rules": 
                         [
-                            "botanics-4, $region33",
-                            "botanics-4, $retionOpen4_1_1, $regionOpen5, $regionOpen9, $regionOpen11, $regionOpen16, $regionOpen20"
+                            "botanics-4, $region2, $region33",
+                            "botanics-4, $regionOpen2, $botanics100"
                         ],
                         "item_count": 1
                     }
