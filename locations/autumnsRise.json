@@ -387,7 +387,7 @@
                 "sections": 
 				[
                     {
-                        "name": "Guild Pass",
+                        "name": "Guild Pass (Meet Lukas at the Obelisk)",
                         "visibility_rules": 
                         [
                             ""
@@ -1165,8 +1165,8 @@
                         "name": "Autumn's Rise - Pathway 3 Upper - Chest"
                     },
                     {
-                        "ref": "Autumn's Rise - Pathway 3 Schneider/Guild Pass",
-                        "name": "Autumn's Rise - Pathway 3 Schneider - Guild Pass"
+                        "ref": "Autumn's Rise - Pathway 3 Schneider/Guild Pass (Meet Lukas at the Obelisk)",
+                        "name": "Autumn's Rise - Pathway 3 Schneider - Guild Pass (Meet Lukas at the Obelisk)"
                     },
                     {
                         "ref": "Autumn's Rise - Obelisk Lake Lower/Chest",

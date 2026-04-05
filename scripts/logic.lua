@@ -9,6 +9,36 @@ function has(item, amount)
   end
 end
 
+function newLockLogic(location_id, defaultKey)
+    -- If tracker is in stage 0
+    if Tracker:FindObjectForCode("op_CL").CurrentStage == 0 then
+        if defaultKey == nil then
+            return true
+        else
+            return Tracker:FindObjectForCode(defaultKey).Active
+        end
+    -- If tracker is in stage 1
+    elseif Tracker:FindObjectForCode("op_CL").CurrentStage == 1 then
+        if slotIds[location_id] == nil then
+            if defaultKey == nil then
+                -- print(location_id,"setting on, no slot ID and no default key")
+                return true
+            else
+                -- print(location_id,"setting on, Returning active status for default key, no slot ID:", defaultKey)
+                return Tracker:FindObjectForCode(defaultKey).Active
+            end
+        else
+            if slotIds[location_id] == "Default" then
+                -- print(location_id,"setting on, slot ID is default lock")
+                return true
+            else
+                -- print(location_id, "setting on, Returning active status for key mapping:", keyMapping[slotIds[location_id]])
+                return Tracker:FindObjectForCode(keyMapping[slotIds[location_id]]).Active
+            end
+        end
+    end
+end
+
 --------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------REGIONS-----------------------------------------------------------------
@@ -334,7 +364,7 @@ function regionOpen14_3()
 end
 
 function regionOpen14_4()
-  return regionOpen14_3() and has("radiantKey") and sonajizKeyTotal(4)
+  return regionOpen14_3() and newLockLogic("3235824338", "radiantKey") and sonajizKeyTotal(4)
 end
 
 function regionOpen14_5()
@@ -2924,6 +2954,36 @@ function botanics100()
   return countBotanics() >= 77
 end
 
+
+-- Quest logic
+function FactionIntroductions()
+  return true
+end
+
+function SmallTimeDelivery()
+  return true
+end
+
+function BullGrab()
+  return SmallTimeDelivery() and has("RH-delivery")
+end
+
+function NewMetal()
+  return BullGrab() and has("RH-Bull") and has("eleHeat") and has("eleCold") and has("flameShade")
+end
+
+function DiggingForData()
+  return true
+end
+
+function ItCanDigButItCantHide()
+  return DiggingForData() and has("RH-data-digging")
+end
+
+function PointsOfPower()
+  return ItCanDigButItCantHide and has("RH-hillkat") and has("eleHeat") and has("eleCold") and has("flameShade")
+end
+
 -- Shop Types Global Handler
 
 -- function ReplaceShopMapping()
@@ -2940,3 +3000,4 @@ end
 -- end
 
 -- ScriptHost:AddWatchForCode("<shop_option> Change", "<shop_option>", ReplaceShopMapping)
+

@@ -364,7 +364,7 @@ LOCATION_MAPPING =
 [3235824344] = {"@So'najiz Temple/So'najiz Temple - Flaming Conveyance/Chest"},
 -- NPCs
 [3235824345] = {"@Autumn's Rise/Autumn's Rise - Ending Pathway Talatu/Disc of Flora"},
-[3235824346] = {"@Autumn's Rise/Autumn's Rise - Pathway 3 Schneider/Guild Pass"},
+[3235824346] = {"@Autumn's Rise/Autumn's Rise - Pathway 3 Schneider/Guild Pass (Meet Lukas at the Obelisk)"},
 [3235824347] = {"@Bergen Village/Bergen Village - Temple Mine Entrance/Mine Guard"},
 [3235824348] = {"@Bergen Village/Bergen Village - Seeker Hub/Mine Detector"},
 [3235824349] = {"@Temple Mine/Temple Mine GF - Post Boss Statue/Blue Ice Shade"},

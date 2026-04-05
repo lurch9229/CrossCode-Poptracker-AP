@@ -2119,7 +2119,8 @@
                         ],
                         "access_rules":
                         [
-                            "eleWave"
+                            "$region2, eleWave",
+                            "$regionOpen2, $regionOpen10_Infested, $regionOpen10_Grove, eleWave"
                         ],
                         "item_count": 1
                     },
@@ -2145,7 +2146,7 @@
                         "access_rules":
                         [
                             "$region2",
-                            "$regionOpen2, $regionOpen10_Middle"
+                            "$regionOpen2, $regionOpen10_Infested, $regionOpen10_Left"
                         ],
                         "item_count": 1
                     },
