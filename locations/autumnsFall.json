@@ -14,20 +14,17 @@
                         "y": 308
                     }
                 ],
-                "access_rules": 
-                        [
-                            "$region31",
-                            "$regionOpen16"
-                        ],
+                "access_rules": [
+                    "$region31",
+                    "$regionOpen16"
+                ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824037|radiantKey"
                         ],
                         "item_count": 1
@@ -45,20 +42,17 @@
                         "y": 454
                     }
                 ],
-                "access_rules": 
-                        [
-                            "$region20",
-                            "$regionOpen9"
-                        ],
+                "access_rules": [
+                    "$region20",
+                    "$regionOpen9"
+                ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824038"
                         ],
                         "item_count": 1
@@ -76,22 +70,19 @@
                         "y": 458
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824039"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -107,22 +98,19 @@
                         "y": 458
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824040|whiteKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -138,22 +126,19 @@
                         "y": 407
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824041"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -169,22 +154,19 @@
                         "y": 448
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824044"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -200,22 +182,19 @@
                         "y": 405
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824042"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -231,22 +210,19 @@
                         "y": 370
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824043"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -262,22 +238,19 @@
                         "y": 263
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824045"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -293,22 +266,19 @@
                         "y": 303
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824046|radiantKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -324,22 +294,19 @@
                         "y": 324
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824048"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -355,22 +322,19 @@
                         "y": 313
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824047|whiteKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -386,22 +350,19 @@
                         "y": 250
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824049|whiteKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -417,22 +378,19 @@
                         "y": 294
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824050|whiteKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -448,22 +406,19 @@
                         "y": 196
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824051"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -479,22 +434,19 @@
                         "y": 100
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824052|thiefKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -510,22 +462,19 @@
                         "y": 309
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824053"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -541,22 +490,19 @@
                         "y": 370
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824055"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -572,22 +518,19 @@
                         "y": 366
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824054"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -603,22 +546,19 @@
                         "y": 440
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824058|thiefKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -634,22 +574,19 @@
                         "y": 461
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824056|whiteKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -665,22 +602,19 @@
                         "y": 418
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824057|radiantKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -696,22 +630,19 @@
                         "y": 237
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824061"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -727,22 +658,19 @@
                         "y": 230
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824060"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -758,22 +686,19 @@
                         "y": 103
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824059|radiantKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -789,22 +714,19 @@
                         "y": 305
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824063|thiefKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -820,22 +742,19 @@
                         "y": 289
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824062|whiteKey"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -851,22 +770,19 @@
                         "y": 195
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824064"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -882,159 +798,156 @@
                         "y": 282
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region20",
                     "$regionOpen9"
                 ],
                 "sections": [
                     {
                         "name": "Chase Hologram Frobbit",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
             }
         ]
     },
-     //Autumns Rise World Map
+    //Autumns Rise World Map
     {
         "item_count": 1,
         "children": [
-        {
-            "sections": [
             {
-                "ref": "Autumn's Fall - Southern Exit Lower/Chest",
-                "name": "Autumn's Fall - Southern Exit Lower - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Southern Exit Center/Chest",
-                "name": "Autumn's Fall - Southern Exit Center - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Southern Exit Upper/Chest",
-                "name": "Autumn's Fall - Southern Exit Upper - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Ruined Path Upper/Chest",
-                "name": "Autumn's Fall - Ruined Path Upper - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Ruined Path Lower/Gold Chest",
-                "name": "Autumn's Fall - Ruined Path Lower - Gold Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Eastern Exit Right/Chest",
-                "name": "Autumn's Fall - Eastern Exit Right - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Eastern Exit Center/Silver Chest",
-                "name": "Autumn's Fall - Eastern Exit Center - Silver Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Ancient Center Upper/Silver Chest",
-                "name": "Autumn's Fall - Ancient Center Upper - Silver Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Ancient Center Left/Silver Chest",
-                "name": "Autumn's Fall - Ancient Center Left - Silver Chest"
-            },            
-            {
-                "ref": "Autumn's Fall - Lake Cave 1/Chest",
-                "name": "Autumn's Fall - Lake Cave 1 - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Lake Cave 2/Chest",
-                "name": "Autumn's Fall - Lake Cave 2 - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Lake Cave 3/Silver Chest",
-                "name": "Autumn's Fall - Lake Cave 3 - Silver Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Lake Cave 4/Chest",
-                "name": "Autumn's Fall - Lake Cave 4 - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Para Island 1/Chest",
-                "name": "Autumn's Fall - Para Island 1 - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Secluded Path Right/Chest",
-                "name": "Autumn's Fall - Secluded Path Right - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Secluded Path Left/Chest",
-                "name": "Autumn's Fall - Secluded Path Left - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Secluded Path Upper/Gold Chest",
-                "name": "Autumn's Fall - Secluded Path Upper - Gold Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Northern Exit Lower/Chest",
-                "name": "Autumn's Fall - Northern Exit Lower - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Northern Exit Upper/Bronze Chest",
-                "name": "Autumn's Fall - Northern Exit Upper - Bronze Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Pillar Isle Left/Chest",
-                "name": "Autumn's Fall - Pillar Isle Left - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Pillar Isle Upper/Chest",
-                "name": "Autumn's Fall - Pillar Isle Upper/Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Pillar Isle Right/Chest",
-                "name": "Autumn's Fall - Pillar Isle Right - Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Village Remains Upper/Gold Chest",
-                "name": "Autumn's Fall - Village Remains Upper - Gold Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Village Remains Left/Silver Chest",
-                "name": "Autumn's Fall - Village Remains Left - Silver Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Village Remains Right/Bronze Chest",
-                "name": "Autumn's Fall - Village Remains Right - Bronze Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Villa of Terror Right/Silver Chest",
-                "name": "Autumn's Fall - Villa of Terror Right - Silver Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Villa of Terror Left/Bronze Chest",
-                "name": "Autumn's Fall - Villa of Terror Left - Bronze Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Ruby Tunnel/Gold Chest",
-                "name": "Autumn's Fall - Ruby Tunnel - Gold Chest"
-            },
-            {
-                "ref": "Autumn's Fall - Ancient Center/Chase Hologram Frobbit",
-                "name": "Autumn's Fall - Ancient Center - Chase Hologram Frobbit"
+                "sections": [
+                    {
+                        "ref": "Autumn's Fall - Ruby Tunnel/Gold Chest",
+                        "name": "Autumn's Fall - Ruby Tunnel - Gold Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Lake Cave 1/Chest",
+                        "name": "Autumn's Fall - Lake Cave 1 - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Lake Cave 2/Chest",
+                        "name": "Autumn's Fall - Lake Cave 2 - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Lake Cave 3/Silver Chest",
+                        "name": "Autumn's Fall - Lake Cave 3 - Silver Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Lake Cave 4/Chest",
+                        "name": "Autumn's Fall - Lake Cave 4 - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Southern Exit Lower/Chest",
+                        "name": "Autumn's Fall - Southern Exit Lower - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Southern Exit Center/Chest",
+                        "name": "Autumn's Fall - Southern Exit Center - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Southern Exit Upper/Chest",
+                        "name": "Autumn's Fall - Southern Exit Upper - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Ruined Path Upper/Chest",
+                        "name": "Autumn's Fall - Ruined Path Upper - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Ruined Path Lower/Gold Chest",
+                        "name": "Autumn's Fall - Ruined Path Lower - Gold Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Eastern Exit Right/Chest",
+                        "name": "Autumn's Fall - Eastern Exit Right - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Eastern Exit Center/Silver Chest",
+                        "name": "Autumn's Fall - Eastern Exit Center - Silver Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Ancient Center Upper/Silver Chest",
+                        "name": "Autumn's Fall - Ancient Center Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Ancient Center Left/Silver Chest",
+                        "name": "Autumn's Fall - Ancient Center Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Northern Exit Lower/Chest",
+                        "name": "Autumn's Fall - Northern Exit Lower - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Northern Exit Upper/Bronze Chest",
+                        "name": "Autumn's Fall - Northern Exit Upper - Bronze Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Pillar Isle Upper/Chest",
+                        "name": "Autumn's Fall - Pillar Isle Upper - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Pillar Isle Left/Chest",
+                        "name": "Autumn's Fall - Pillar Isle Left - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Pillar Isle Right/Chest",
+                        "name": "Autumn's Fall - Pillar Isle Right - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Village Remains Right/Bronze Chest",
+                        "name": "Autumn's Fall - Village Remains Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Village Remains Left/Silver Chest",
+                        "name": "Autumn's Fall - Village Remains Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Village Remains Upper/Gold Chest",
+                        "name": "Autumn's Fall - Village Remains Upper - Gold Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Secluded Path Right/Chest",
+                        "name": "Autumn's Fall - Secluded Path Right - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Secluded Path Left/Chest",
+                        "name": "Autumn's Fall - Secluded Path Left - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Secluded Path Upper/Gold Chest",
+                        "name": "Autumn's Fall - Secluded Path Upper - Gold Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Villa of Terror Left/Bronze Chest",
+                        "name": "Autumn's Fall - Villa of Terror Left - Bronze Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Villa of Terror Right/Silver Chest",
+                        "name": "Autumn's Fall - Villa of Terror Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Para Island 1/Chest",
+                        "name": "Autumn's Fall - Para Island 1 - Chest"
+                    },
+                    {
+                        "ref": "Autumn's Fall - Ancient Center/Chase Hologram Frobbit",
+                        "name": "Autumn's Fall - Ancient Center - Chase Hologram Frobbit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 289,
+                        "y": 163
+                    }
+                ]
             }
-        ],
-        "map_locations": [
-          {
-            "map": "WorldMap",
-            "x": 289,
-            "y": 163
-          }
         ]
-      }
-    ]
-  }
+    }
 ]

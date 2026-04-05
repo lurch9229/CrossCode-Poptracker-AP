@@ -2,35 +2,29 @@
     {
         "name": "So'najiz Temple",
         "color": "#FFFFFF",
-        "children": 
-		[
+        "children": [
             {
                 "name": "So'najiz Temple - Principle of Conveyance",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 800,
                         "y": 245
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Left"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824333"
                         ],
                         "item_count": 1
@@ -41,29 +35,24 @@
                 "name": "So'najiz Temple - Trial of Persistence Upper Right",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 495,
                         "y": 245
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_2"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824335"
                         ],
                         "item_count": 1
@@ -74,29 +63,24 @@
                 "name": "So'najiz Temple - Trial of Persistence Lower Right",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 495,
                         "y": 275
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_3"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824334"
                         ],
                         "item_count": 1
@@ -107,29 +91,24 @@
                 "name": "So'najiz Temple - Trial of Persistence Rightmost",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 530,
                         "y": 260
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Left"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824336"
                         ],
                         "item_count": 1
@@ -140,29 +119,24 @@
                 "name": "So'najiz Temple - Trial of Persistence Upper Left",
                 "chest_unopened_img": "images/icons/chest_silver_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 195,
                         "y": 241
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_3"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824337|whiteKey"
                         ],
                         "item_count": 1
@@ -173,29 +147,24 @@
                 "name": "So'najiz Temple - Trial of Persistence Lower Left",
                 "chest_unopened_img": "images/icons/chest_gold_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 195,
                         "y": 277
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_3"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824338|radiantKey"
                         ],
                         "item_count": 1
@@ -206,29 +175,24 @@
                 "name": "So'najiz Temple - Moving Attraction",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 534,
                         "y": 113
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_1"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824339"
                         ],
                         "item_count": 1
@@ -239,29 +203,24 @@
                 "name": "So'najiz Temple - Slowing Attraction",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 352,
                         "y": 110
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen10_Left"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824340,sonajizKey:3"
                         ],
                         "item_count": 1
@@ -272,29 +231,24 @@
                 "name": "So'najiz Temple - Attracting Conveyance",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 192,
                         "y": 118
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_2"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824342"
                         ],
                         "item_count": 1
@@ -305,29 +259,24 @@
                 "name": "So'najiz Temple - Flaming Conveyance",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 400,
                         "y": 400
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_2"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824344"
                         ],
                         "item_count": 1
@@ -338,29 +287,24 @@
                 "name": "So'najiz Temple - Fast Conveyance",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 510,
                         "y": 450
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_1"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824343"
                         ],
                         "item_count": 1
@@ -371,29 +315,24 @@
                 "name": "So'najiz Temple - Standing Attraction",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 560,
                         "y": 52
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region26",
                     "$regionOpen14_1"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules":
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824341"
                         ],
                         "item_count": 1
@@ -404,29 +343,24 @@
                 "name": "So'najiz Temple - Chamber of Shock",
                 "chest_unopened_img": "images/icons/eleShock_o.png",
                 "chest_opened_img": "images/icons/eleShock_x.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 133,
                         "y": 258
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region27",
                     "$regionOpen14_4"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Element",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -437,42 +371,35 @@
                 "name": "So'najiz Temple - Post Boss Statue",
                 "chest_unopened_img": "images/icons/statue_o.png",
                 "chest_opened_img": "images/icons/statue_x.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sonajiz_Temple",
                         "x": 55,
                         "y": 140
-                    }              
+                    }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region27",
                     "$regionOpen14_5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Azure Drop Shade",
                         "clear_as_group": true,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "eleShock"
                         ],
                         "item_count": 0
                     },
                     {
                         "name": "Circuit Override",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "eleShock"
                         ],
                         "item_count": 1
@@ -492,12 +419,24 @@
                         "name": "So'najiz Temple - Principle of Conveyance - Chest"
                     },
                     {
+                        "ref": "So'najiz Temple - Trial of Persistence Upper Right/Chest",
+                        "name": "So'najiz Temple - Trial of Persistence Upper Right - Chest"
+                    },
+                    {
+                        "ref": "So'najiz Temple - Trial of Persistence Lower Right/Chest",
+                        "name": "So'najiz Temple - Trial of Persistence Lower Right - Chest"
+                    },
+                    {
                         "ref": "So'najiz Temple - Trial of Persistence Rightmost/Chest",
                         "name": "So'najiz Temple - Trial of Persistence Rightmost - Chest"
                     },
                     {
-                        "ref": "So'najiz Temple - Standing Attraction/Chest",
-                        "name": "So'najiz Temple - Standing Attraction - Chest"
+                        "ref": "So'najiz Temple - Trial of Persistence Upper Left/Silver Chest",
+                        "name": "So'najiz Temple - Trial of Persistence Upper Left - Silver Chest"
+                    },
+                    {
+                        "ref": "So'najiz Temple - Trial of Persistence Lower Left/Gold Chest",
+                        "name": "So'najiz Temple - Trial of Persistence Lower Left - Gold Chest"
                     },
                     {
                         "ref": "So'najiz Temple - Moving Attraction/Chest",
@@ -508,33 +447,20 @@
                         "name": "So'najiz Temple - Slowing Attraction - Chest"
                     },
                     {
-                        "ref": "So'najiz Temple - Trial of Persistence Lower Right/Chest",
-                        "name": "So'najiz Temple - Trial of Persistence Lower Right - Chest"
-                    },
-                    {
-                        "ref": "So'najiz Temple - Fast Conveyance/Chest",
-                        "name": "So'najiz Temple - Fast Conveyance - Chest"
+                        "ref": "So'najiz Temple - Attracting Conveyance/Chest",
+                        "name": "So'najiz Temple - Attracting Conveyance - Chest"
                     },
                     {
                         "ref": "So'najiz Temple - Flaming Conveyance/Chest",
                         "name": "So'najiz Temple - Flaming Conveyance - Chest"
                     },
                     {
-                        "ref": "So'najiz Temple - Attracting Conveyance/Chest",
-                        "name": "So'najiz Temple - Attracting Conveyance - Chest"
+                        "ref": "So'najiz Temple - Fast Conveyance/Chest",
+                        "name": "So'najiz Temple - Fast Conveyance - Chest"
                     },
                     {
-                        "ref": "So'najiz Temple - Trial of Persistence Upper Right/Chest",
-                        "name": "So'najiz Temple - Trial of Persistence Upper Right - Chest"
-                    },
-                    
-                    {
-                        "ref": "So'najiz Temple - Trial of Persistence Upper Left/Silver Chest",
-                        "name": "So'najiz Temple - Trial of Persistence Upper Left - Silver Chest"
-                    },
-                    {
-                        "ref": "So'najiz Temple - Trial of Persistence Lower Left/Gold Chest",
-                        "name": "So'najiz Temple - Trial of Persistence Lower Left - Gold Chest"
+                        "ref": "So'najiz Temple - Standing Attraction/Chest",
+                        "name": "So'najiz Temple - Standing Attraction - Chest"
                     },
                     {
                         "ref": "So'najiz Temple - Chamber of Shock/Element",
@@ -542,14 +468,18 @@
                     },
                     {
                         "ref": "So'najiz Temple - Post Boss Statue/Azure Drop Shade",
-                        "name": "So'najiz Temple - Post Boss Statue - Azure Drop Shade & Override"
+                        "name": "So'najiz Temple - Post Boss Statue - Azure Drop Shade"
+                    },
+                    {
+                        "ref": "So'najiz Temple - Post Boss Statue/Circuit Override",
+                        "name": "So'najiz Temple - Post Boss Statue - Circuit Override"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 250,
-                      "y": 83
+                        "map": "WorldMap",
+                        "x": 250,
+                        "y": 83
                     }
                 ]
             }

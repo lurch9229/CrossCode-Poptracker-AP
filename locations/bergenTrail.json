@@ -14,20 +14,17 @@
                         "y": 76
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824078"
                         ],
                         "item_count": 1
@@ -45,22 +42,19 @@
                         "y": 630
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824079, eleHeat"
-                        ],                        
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -76,20 +70,17 @@
                         "y": 577
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824080|whiteKey, eleHeat"
                         ],
                         "item_count": 1
@@ -107,20 +98,17 @@
                         "y": 320
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824081 ,eleHeat"
                         ],
                         "item_count": 1
@@ -138,20 +126,17 @@
                         "y": 875
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824083"
                         ],
                         "item_count": 1
@@ -169,20 +154,17 @@
                         "y": 875
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824082"
                         ],
                         "item_count": 1
@@ -200,22 +182,19 @@
                         "y": 806
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824084"
-                        ], 
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -231,20 +210,17 @@
                         "y": 788
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824085"
                         ],
                         "item_count": 1
@@ -262,20 +238,17 @@
                         "y": 741
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824086"
                         ],
                         "item_count": 1
@@ -293,20 +266,17 @@
                         "y": 715
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824087"
                         ],
                         "item_count": 1
@@ -324,20 +294,17 @@
                         "y": 755
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824088"
                         ],
                         "item_count": 1
@@ -355,20 +322,17 @@
                         "y": 677
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824089"
                         ],
                         "item_count": 1
@@ -386,20 +350,17 @@
                         "y": 627
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824091"
                         ],
                         "item_count": 1
@@ -417,20 +378,17 @@
                         "y": 498
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824090"
                         ],
                         "item_count": 1
@@ -448,23 +406,19 @@
                         "y": 620
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824092|radiantKey"
                         ],
-                        
                         "item_count": 1
                     }
                 ]
@@ -480,20 +434,17 @@
                         "y": 578
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824093"
                         ],
                         "item_count": 1
@@ -511,20 +462,17 @@
                         "y": 472
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824094"
                         ],
                         "item_count": 1
@@ -542,20 +490,17 @@
                         "y": 495
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824095"
                         ],
                         "item_count": 1
@@ -573,20 +518,17 @@
                         "y": 450
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824096"
                         ],
                         "item_count": 1
@@ -604,20 +546,17 @@
                         "y": 510
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824097|thiefKey, eleHeat"
                         ],
                         "item_count": 1
@@ -635,20 +574,17 @@
                         "y": 320
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824098|whiteKey, eleHeat"
                         ],
                         "item_count": 1
@@ -666,20 +602,17 @@
                         "y": 265
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824099"
                         ],
                         "item_count": 1
@@ -697,20 +630,17 @@
                         "y": 230
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824100"
                         ],
                         "item_count": 1
@@ -728,20 +658,17 @@
                         "y": 335
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824101"
                         ],
                         "item_count": 1
@@ -759,20 +686,17 @@
                         "y": 955
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824522, BV-kidding, eleHeat, iceShade"
                         ],
                         "item_count": 1
@@ -790,20 +714,17 @@
                         "y": 285
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824102|thiefKey, eleHeat"
                         ],
                         "item_count": 1
@@ -821,20 +742,17 @@
                         "y": 310
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824103"
                         ],
                         "item_count": 1
@@ -852,20 +770,17 @@
                         "y": 35
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824104"
                         ],
                         "item_count": 1
@@ -883,25 +798,21 @@
                         "y": 945
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "You've Got Mail",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "settingShopReceiveOff,   $brMailOff",
                             "settingShopReceiveTypes, $brMailType",
                             "settingShopReceiveSlots, $brMailSlot",
                             "settingShopReceiveShops, $brMailShop"
-
                         ],
                         "item_count": 1
                     }
@@ -918,20 +829,17 @@
                         "y": 450
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Round and Round 2",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "AR-parkour"
                         ],
                         "item_count": 1
@@ -949,20 +857,17 @@
                         "y": 910
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "The Legendary Bunny",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -980,68 +885,57 @@
                         "y": 760
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Trailblazing Finish",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "eleHeat"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Collect",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Defeat",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Landmarks",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Data Probe",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "eleHeat"
                         ],
                         "item_count": 1
@@ -1059,8 +953,7 @@
                         "y": 476
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
@@ -1069,12 +962,10 @@
                         "name": "Sweet Berry Tea Slot - 3299 Credits",
                         "chest_unopened_img": "images/food/SweetTea.png",
                         "chest_opened_img": "images/food/SweetTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BThermit1",
                             "$typeSweetTea",
                             "settingShopReceiveShops, bergenHermitShop",
@@ -1086,12 +977,10 @@
                         "name": "Chili Con Carne Slot - 1099 Credits",
                         "chest_unopened_img": "images/food/Chili.png",
                         "chest_opened_img": "images/food/ChiliOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BThermit2",
                             "$typeChiliCon",
                             "settingShopReceiveShops, bergenHermitShop",
@@ -1103,12 +992,10 @@
                         "name": "Sweet Lemonjuice Slot - 2199 Credits",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BThermit3",
                             "$typeLemonjuice",
                             "settingShopReceiveShops, bergenHermitShop",
@@ -1120,12 +1007,10 @@
                         "name": "Sweet Berry Tea Type - 3299 Credits",
                         "chest_unopened_img": "images/food/SweetTea.png",
                         "chest_opened_img": "images/food/SweetTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BThermit1",
                             "$typeSweetTea",
                             "settingShopReceiveShops, bergenHermitShop",
@@ -1137,12 +1022,10 @@
                         "name": "Chili Con Carne Type - 1099 Credits",
                         "chest_unopened_img": "images/food/Chili.png",
                         "chest_opened_img": "images/food/ChiliOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BThermit2",
                             "$typeChiliCon",
                             "settingShopReceiveShops, bergenHermitShop",
@@ -1154,12 +1037,10 @@
                         "name": "Sweet Lemonjuice Type - 2199 Credits",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BThermit3",
                             "$typeLemonjuice",
                             "settingShopReceiveShops, bergenHermitShop",
@@ -1178,48 +1059,32 @@
             {
                 "sections": [
                     {
-                        "ref": "Bergen Trail - Entrance Left/Chest",
-                        "name": "Bergen Trail - Entrance Left - Chest"
-                    },
-                    {
-                        "ref": "Bergen Trail - Entrance Right/Chest",
-                        "name": "Bergen Trail - Entrance Right - Chest"
-                    },
-                    {
-                        "ref": "Bergen Trail - Rising Path 1/Chest",
-                        "name": "Bergen Trail - Rising Path 1 - Chest"
-                    },
-                    {
-                        "ref": "Bergen Trail - Rising Path 2/Chest",
-                        "name": "Bergen Trail - Rising Path 2 - Chest"
-                    },
-                    {
-                        "ref": "Bergen Trail - Old Plateau/Gold Chest",
-                        "name": "Bergen Trail - Old Plateau - Gold Chest"
+                        "ref": "Bergen Trail - Abandoned Cave/Chest",
+                        "name": "Bergen Trail - Abandoned Cave - Chest"
                     },
                     {
                         "ref": "Bergen Trail - Frozen Cave/Chest",
                         "name": "Bergen Trail - Frozen Cave - Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Rising Path 3 Left/Chest",
-                        "name": "Bergen Trail - Rising Path 3 Left - Chest"
+                        "ref": "Bergen Trail - Abandoned Ground/Silver Chest",
+                        "name": "Bergen Trail - Abandoned Ground - Silver Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Rising Path 3 Right/Chest",
-                        "name": "Bergen Trail - Rising Path 3 Right - Chest"
+                        "ref": "Bergen Trail - Pengpeng Den/Chest",
+                        "name": "Bergen Trail - Pengpeng Den - Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Windy Climb/Chest",
-                        "name": "Bergen Trail - Windy Climb - Chest"
+                        "ref": "Bergen Trail - Entrance Right/Chest",
+                        "name": "Bergen Trail - Entrance Right - Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Rising Path 4 Upper/Chest",
-                        "name": "Bergen Trail - Rising Path 4 Upper - Chest"
+                        "ref": "Bergen Trail - Entrance Left/Chest",
+                        "name": "Bergen Trail - Entrance Left - Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Rising Path 4 Lower/Chest",
-                        "name": "Bergen Trail - Rising Path 4 Lower - Chest"
+                        "ref": "Bergen Trail - Rising Path 1/Chest",
+                        "name": "Bergen Trail - Rising Path 1 - Chest"
                     },
                     {
                         "ref": "Bergen Trail - Off Road 1 Lower/Chest",
@@ -1250,28 +1115,20 @@
                         "name": "Bergen Trail - Off Road 3 Upper - Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nSweet Berry Tea Slot - 3299 Credits"
+                        "ref": "Bergen Trail - Old Plateau/Gold Chest",
+                        "name": "Bergen Trail - Old Plateau - Gold Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Slot - 1099 Credits"
+                        "ref": "Bergen Trail - Rising Path 2/Chest",
+                        "name": "Bergen Trail - Rising Path 2 - Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nSweet Lemonjuice Slot - 2199 Credits"
+                        "ref": "Bergen Trail - Rising Path 3 Left/Chest",
+                        "name": "Bergen Trail - Rising Path 3 Left - Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nSweet Berry Tea Type - 3299 Credits"
-                    },
-                    {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Type - 1099 Credits"
-                    },
-                    {
-                        "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nSweet Lemonjuice Type - 2199 Credits"
+                        "ref": "Bergen Trail - Rising Path 3 Right/Chest",
+                        "name": "Bergen Trail - Rising Path 3 Right - Chest"
                     },
                     {
                         "ref": "Bergen Trail - Spike Heights Upper/Chest",
@@ -1282,36 +1139,40 @@
                         "name": "Bergen Trail - Spike Heights Lower - Bronze Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Bergen Waterfalls/Chest",
-                        "name": "Bergen Trail - Bergen Waterfalls - Chest"
-                    },
-                    {
-                        "ref": "Bergen Trail - Rising Path 5/Chest",
-                        "name": "Bergen Trail - Rising Path 5 - Chest"
-                    },
-                    {
-                        "ref": "Bergen Trail - Abandoned Cave/Chest",
-                        "name": "Bergen Trail - Abandoned Cave - Chest"
-                    },
-                    {
                         "ref": "Bergen Trail - Icy Cauldron/Silver Chest",
                         "name": "Bergen Trail - Icy Cauldron - Silver Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Abandoned Ground/Silver Chest",
-                        "name": "Bergen Trail - Abandoned Ground - Silver Chest"
+                        "ref": "Bergen Trail - Bergen Waterfalls/Chest",
+                        "name": "Bergen Trail - Bergen Waterfalls - Chest"
                     },
                     {
-                        "ref": "Bergen Trail - PengPeng Den/Chest",
-                        "name": "Bergen Trail - PengPeng Den - Chest"
+                        "ref": "Bergen Trail - Rising Path 4 Upper/Chest",
+                        "name": "Bergen Trail - Rising Path 4 Upper - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 4 Lower/Chest",
+                        "name": "Bergen Trail - Rising Path 4 Lower - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Horn Cave 2/Chest",
+                        "name": "Bergen Trail - Horn Cave 2 - Chest"
                     },
                     {
                         "ref": "Bergen Trail - Lofty Heights/Bronze Chest",
                         "name": "Bergen Trail - Lofty Heights - Bronze Chest"
                     },
                     {
-                        "ref": "Bergen Trail - Megan98/You've got Mail",
-                        "name": "Bergen Trail - Megan98 - You've got Mail"
+                        "ref": "Bergen Trail - Windy Climb/Chest",
+                        "name": "Bergen Trail - Windy Climb - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Rising Path 5/Chest",
+                        "name": "Bergen Trail - Rising Path 5 - Chest"
+                    },
+                    {
+                        "ref": "Bergen Trail - Megan98/You've Got Mail",
+                        "name": "Bergen Trail - Megan98 - You've Got Mail"
                     },
                     {
                         "ref": "Bergen Trail - Game Tester/Round and Round 2",
@@ -1320,6 +1181,10 @@
                     {
                         "ref": "Bergen Trail - Jean/The Legendary Bunny",
                         "name": "Bergen Trail - Jean - The Legendary Bunny"
+                    },
+                    {
+                        "ref": "Bergen Trail - Henry the Researcher/Trailblazing Finish",
+                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Finish"
                     },
                     {
                         "ref": "Bergen Trail - Henry the Researcher/Trailblazing Collect",
@@ -1338,15 +1203,35 @@
                         "name": "Bergen Trail - Henry the Researcher - Trailblazing Data Probe"
                     },
                     {
-                        "ref": "Bergen Trail - Henry the Researcher/Trailblazing Finish",
-                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Finish"
+                        "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits",
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Berry Tea Slot - 3299 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits",
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Chili Con Carne Slot - 1099 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Lemonjuice Slot - 2199 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits",
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Berry Tea Type - 3299 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits",
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Chili Con Carne Type - 1099 Credits"
+                    },
+                    {
+                        "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits",
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Lemonjuice Type - 2199 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 190,
-                      "y": 143
+                        "map": "WorldMap",
+                        "x": 190,
+                        "y": 143
                     }
                 ]
             }

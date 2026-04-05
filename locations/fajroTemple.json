@@ -2,35 +2,29 @@
     {
         "name": "Faj'ro Temple",
         "color": "#FFFFFF",
-        "children": 
-		[
+        "children": [
             {
                 "name": "Faj'ro Temple GF - Right Chamber 1",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_GF",
                         "x": 255,
                         "y": 192
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region14",
                     "$regionOpen7_2"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824224"
                         ],
                         "item_count": 1
@@ -41,29 +35,24 @@
                 "name": "Faj'ro Temple 3F - Bottom Chamber",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_3F",
                         "x": 122,
                         "y": 310
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17",
                     "$regionOpen7_5"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824209"
                         ],
                         "item_count": 1
@@ -74,29 +63,24 @@
                 "name": "Faj'ro Temple 3F - Large Fire Chamber Left",
                 "chest_unopened_img": "images/icons/chest_bronze_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_3F",
                         "x": 105,
                         "y": 160
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17half",
                     "$regionOpen7_5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824210|thiefKey"
                         ],
                         "item_count": 1
@@ -107,29 +91,24 @@
                 "name": "Faj'ro Temple 3F - Large Fire Chamber Right",
                 "chest_unopened_img": "images/icons/chest_silver_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_3F",
                         "x": 155,
                         "y": 160
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17half, $newLock|3235824211|whiteKey",
                     "$regionOpen7_6, $newLock|3235824211|whiteKey"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824211|whiteKey"
                         ],
                         "item_count": 1
@@ -140,29 +119,24 @@
                 "name": "Faj'ro Temple 3F - Test of Wisdom",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_3F",
                         "x": 223,
                         "y": 350
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17half, $newLock|3235824211|whiteKey",
-                    "$regionOpen7_6, $newLock|3235824211|whiteKey"                    
+                    "$regionOpen7_6, $newLock|3235824211|whiteKey"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824212"
                         ],
                         "item_count": 1
@@ -173,29 +147,24 @@
                 "name": "Faj'ro Temple 4F - West Pathway",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 65,
                         "y": 260
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17",
                     "$regionOpen7_5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824213"
                         ],
                         "item_count": 1
@@ -206,29 +175,24 @@
                 "name": "Faj'ro Temple 4F - Test of Surprise",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 95,
                         "y": 395
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17",
                     "$regionOpen7_5"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824214"
                         ],
                         "item_count": 1
@@ -239,29 +203,24 @@
                 "name": "Faj'ro Temple 4F - West Chamber 1",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 147,
                         "y": 183
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17half",
                     "$regionOpen7_6"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824215"
                         ],
                         "item_count": 1
@@ -272,29 +231,24 @@
                 "name": "Faj'ro Temple 4F - East Chamber 1",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 255,
                         "y": 183
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17half, $newLock|3235824211|whiteKey",
                     "$regionOpen7_6, $newLock|3235824211|whiteKey"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824216"
                         ],
                         "item_count": 1
@@ -305,29 +259,24 @@
                 "name": "Faj'ro Temple 4F - East Pathway",
                 "chest_unopened_img": "images/icons/chest_silver_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 350,
                         "y": 315
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17, $newLock|3235824211|whiteKey",
                     "$regionOpen7_5, $newLock|3235824211|whiteKey"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824217|whiteKey"
                         ],
                         "item_count": 1
@@ -338,29 +287,24 @@
                 "name": "Faj'ro Temple 4F - Test of Memory",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 375,
                         "y": 410
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region17half, $newLock|3235824211|whiteKey",
                     "$regionOpen7_6, $newLock|3235824211|whiteKey"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824218"
                         ],
                         "item_count": 1
@@ -371,29 +315,24 @@
                 "name": "Faj'ro Temple 4F - Chamber of Prosperity",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 215,
                         "y": 295
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region18, $newLock|3235824211|whiteKey",
                     "$regionOpen7_7, $newLock|3235824211|whiteKey"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824219"
                         ],
                         "item_count": 1
@@ -404,29 +343,24 @@
                 "name": "Faj'ro Temple GF - Left Chamber 1",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_GF",
                         "x": 120,
                         "y": 320
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region13",
                     "$regionOpen7_1"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824220"
                         ],
                         "item_count": 1
@@ -437,29 +371,24 @@
                 "name": "Faj'ro Temple GF - Fire and Sand 2",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_GF",
                         "x": 60,
                         "y": 265
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region14",
                     "$regionOpen7_2"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824221"
                         ],
                         "item_count": 1
@@ -470,29 +399,24 @@
                 "name": "Faj'ro Temple GF - Balance Room 2 Left",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_GF",
                         "x": 97,
                         "y": 155
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region14",
                     "$regionOpen7_2"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824223"
                         ],
                         "item_count": 1
@@ -503,29 +427,24 @@
                 "name": "Faj'ro Temple GF - Balance Room 2 Right",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_GF",
                         "x": 300,
                         "y": 155
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region14",
                     "$regionOpen7_2"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824222"
                         ],
                         "item_count": 1
@@ -536,29 +455,24 @@
                 "name": "Faj'ro Temple GF - Right Chamber 2",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_GF",
                         "x": 270,
                         "y": 353
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region14",
                     "$regionOpen7_2"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824225"
                         ],
                         "item_count": 1
@@ -569,29 +483,24 @@
                 "name": "Faj'ro Temple GF - Test of Memory Right Room",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_GF",
                         "x": 40,
                         "y": 120
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region14",
                     "$regionOpen7_2"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824227"
                         ],
                         "item_count": 1
@@ -602,29 +511,24 @@
                 "name": "Faj'ro Temple GF - Test of Memory Left Room",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_GF",
                         "x": 355,
                         "y": 120
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region14",
                     "$regionOpen7_2"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824226"
                         ],
                         "item_count": 1
@@ -635,54 +539,45 @@
                 "name": "Faj'ro Temple 4F - Post Boss Statue",
                 "chest_unopened_img": "images/icons/statue_o.png",
                 "chest_opened_img": "images/icons/statue_x.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 215,
                         "y": 125
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region19",
                     "$regionOpen7_8"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Red Flame Shade",
                         "clear_as_group": true,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 0
                     },
                     {
                         "name": "Circuit Override",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "SP Upgrade",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -693,29 +588,24 @@
                 "name": "Faj'ro Temple 1F - Right Chamber 1",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_1F",
                         "x": 227,
                         "y": 248
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region15",
                     "$regionOpen7_3"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824208"
                         ],
                         "item_count": 1
@@ -726,29 +616,24 @@
                 "name": "Faj'ro Temple 2F - Chamber of Ice",
                 "chest_unopened_img": "images/icons/eleCold_o.png",
                 "chest_opened_img": "images/icons/eleCold_x.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Fajro_Temple_2F",
                         "x": 325,
                         "y": 121
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region16",
                     "$regionOpen7_4"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Element",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -763,6 +648,54 @@
         "children": [
             {
                 "sections": [
+                    {
+                        "ref": "Faj'ro Temple GF - Right Chamber 1/Chest",
+                        "name": "Faj'ro Temple GF - Right Chamber 1 - Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 3F - Bottom Chamber/Chest",
+                        "name": "Faj'ro Temple 3F - Bottom Chamber - Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 3F - Large Fire Chamber Left/Bronze Chest",
+                        "name": "Faj'ro Temple 3F - Large Fire Chamber Left - Bronze Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 3F - Large Fire Chamber Right/Silver Chest",
+                        "name": "Faj'ro Temple 3F - Large Fire Chamber Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 3F - Test of Wisdom/Chest",
+                        "name": "Faj'ro Temple 3F - Test of Wisdom - Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - West Pathway/Chest",
+                        "name": "Faj'ro Temple 4F - West Pathway - Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - Test of Surprise/Chest",
+                        "name": "Faj'ro Temple 4F - Test of Surprise - Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - West Chamber 1/Chest",
+                        "name": "Faj'ro Temple 4F - West Chamber 1 - Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - East Chamber 1/Chest",
+                        "name": "Faj'ro Temple 4F - East Chamber 1 - Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - East Pathway/Silver Chest",
+                        "name": "Faj'ro Temple 4F - East Pathway - Silver Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - Test of Memory/Chest",
+                        "name": "Faj'ro Temple 4F - Test of Memory - Chest"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - Chamber of Prosperity/Chest",
+                        "name": "Faj'ro Temple 4F - Chamber of Prosperity - Chest"
+                    },
                     {
                         "ref": "Faj'ro Temple GF - Left Chamber 1/Chest",
                         "name": "Faj'ro Temple GF - Left Chamber 1 - Chest"
@@ -780,83 +713,43 @@
                         "name": "Faj'ro Temple GF - Balance Room 2 Right - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Test of Memory Left Room/Chest",
-                        "name": "Faj'ro Temple GF - Test of Memory Left Room - Chest"
+                        "ref": "Faj'ro Temple GF - Right Chamber 2/Chest",
+                        "name": "Faj'ro Temple GF - Right Chamber 2 - Chest"
                     },
                     {
                         "ref": "Faj'ro Temple GF - Test of Memory Right Room/Chest",
                         "name": "Faj'ro Temple GF - Test of Memory Right Room - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Right Chamber 1/Chest",
-                        "name": "Faj'ro Temple GF - Right Chamber 1 - Chest"
+                        "ref": "Faj'ro Temple GF - Test of Memory Left Room/Chest",
+                        "name": "Faj'ro Temple GF - Test of Memory Left Room - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple GF - Right Chamber 2/Chest",
-                        "name": "Faj'ro Temple GF - Right Chamber 2 - Chest"
+                        "ref": "Faj'ro Temple 4F - Post Boss Statue/Red Flame Shade",
+                        "name": "Faj'ro Temple 4F - Post Boss Statue - Red Flame Shade"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - Post Boss Statue/Circuit Override",
+                        "name": "Faj'ro Temple 4F - Post Boss Statue - Circuit Override"
+                    },
+                    {
+                        "ref": "Faj'ro Temple 4F - Post Boss Statue/SP Upgrade",
+                        "name": "Faj'ro Temple 4F - Post Boss Statue - SP Upgrade"
                     },
                     {
                         "ref": "Faj'ro Temple 1F - Right Chamber 1/Chest",
                         "name": "Faj'ro Temple 1F - Right Chamber 1 - Chest"
                     },
                     {
-                        "ref": "Faj'ro Temple 3F - Bottom Chamber/Chest",
-                        "name": "Faj'ro Temple 3F - Bottom Chamber - Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 4F - West Pathway/Chest",
-                        "name": "Faj'ro Temple 4F - West Pathway - Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 4F - Test of Surprise/Chest",
-                        "name": "Faj'ro Temple 4F - Test of Surprise - Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 4F - West Chamber 1/Chest",
-                        "name": "Faj'ro Temple 4F - West Chamber 1 - Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 3F - Large Fire Chamber Left/Bronze Chest",
-                        "name": "Faj'ro Temple 3F - Large Fire Chamber Left - Bronze Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 3F - Large Fire Chamber Right/Silver Chest",
-                        "name": "Faj'ro Temple 3F - Large Fire Chamber Right - Silver Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 4F - East Chamber 1/Chest",
-                        "name": "Faj'ro Temple 4F - East Chamber 1 - Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 4F - East Pathway/Silver Chest",
-                        "name": "Faj'ro Temple 4F - East Pathway - Silver Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 4F - Test of Memory/Chest",
-                        "name": "Faj'ro Temple 4F - Test of Memory - Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 3F - Test of Wisdom/Chest",
-                        "name": "Faj'ro Temple 3F - Test of Wisdom - Chest"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 4F - Chamber of Prosperity/Chest",
-                        "name": "Faj'ro Temple 4F - Chamber of Prosperity - Chest"
-                    },
-                    {
                         "ref": "Faj'ro Temple 2F - Chamber of Ice/Element",
                         "name": "Faj'ro Temple 2F - Chamber of Ice - Element"
-                    },
-                    {
-                        "ref": "Faj'ro Temple 4F - Post Boss Statue/Red Flame Shade",
-                        "name": "Faj'ro Temple 4F - Post Boss Statue - Red Flame Shade & Override"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 110,
-                      "y": 123
+                        "map": "WorldMap",
+                        "x": 110,
+                        "y": 123
                     }
                 ]
             }

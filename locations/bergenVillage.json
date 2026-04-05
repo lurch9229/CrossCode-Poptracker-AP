@@ -14,20 +14,17 @@
                         "y": 1042
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824067|thiefKey, eleHeat"
                         ],
                         "item_count": 1
@@ -45,20 +42,17 @@
                         "y": 977
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824065"
                         ],
                         "item_count": 1
@@ -76,8 +70,7 @@
                         "y": 993
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
@@ -86,12 +79,10 @@
                         "name": "Bronze Chest",
                         "chest_unopened_img": "images/icons/chest_bronze_x.png",
                         "chest_opened_img": "images/icons/chest_o.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824077, eleHeat, BT-bunny, thiefKey",
                             "$newLock|3235824077, mineKey:1, BT-bunny, thiefKey"
                         ],
@@ -110,20 +101,17 @@
                         "y": 800
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824066|thiefKey, eleHeat"
                         ],
                         "item_count": 1
@@ -141,20 +129,17 @@
                         "y": 740
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824068|radiantKey"
                         ],
                         "item_count": 1
@@ -172,20 +157,17 @@
                         "y": 961
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824076"
                         ],
                         "item_count": 1
@@ -203,20 +185,17 @@
                         "y": 433
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824069"
                         ],
                         "item_count": 1
@@ -234,20 +213,17 @@
                         "y": 595
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824071|whiteKey"
                         ],
                         "item_count": 1
@@ -265,20 +241,17 @@
                         "y": 450
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824072"
                         ],
                         "item_count": 1
@@ -296,20 +269,17 @@
                         "y": 485
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824070, eleHeat"
                         ],
                         "item_count": 1
@@ -327,20 +297,17 @@
                         "y": 315
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824073"
                         ],
                         "item_count": 1
@@ -356,8 +323,7 @@
                         "y": 285
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
@@ -366,12 +332,10 @@
                         "name": "Mine Detector",
                         "chest_unopened_img": "images/icons/quest_open.png",
                         "chest_opened_img": "images/icons/quest_done.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -380,12 +344,10 @@
                         "name": "Digging up the Past",
                         "chest_unopened_img": "images/icons/quest_open.png",
                         "chest_opened_img": "images/icons/quest_done.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "eleHeat, $region10",
                             "eleHeat, $regionOpen4_7"
                         ],
@@ -395,12 +357,10 @@
                         "name": "Crocus Pocus 25%",
                         "chest_unopened_img": "images/icons/quest_open.png",
                         "chest_opened_img": "images/icons/quest_done.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "floraDisc, botanics-1, $region2",
                             "floraDisc, botanics-1, $regionOpen2, $botanics25"
                         ],
@@ -419,20 +379,17 @@
                         "y": 695
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824074"
                         ],
                         "item_count": 1
@@ -450,20 +407,17 @@
                         "y": 695
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824075|thiefKey"
                         ],
                         "item_count": 1
@@ -481,20 +435,17 @@
                         "y": 173
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region4",
                     "$regionOpen4_1"
                 ],
                 "sections": [
                     {
                         "name": "Mine Guard",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -512,104 +463,87 @@
                         "y": 460
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Trial of Aspiration",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Challenge of Aspiration",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-asp-trial"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Challenge of Aspiration (Timed)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-asp-challenge"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Challenge of Aspiration (Shieldless)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-asp-challenge"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trial of Progression",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-asp-trial, iceShade, eleHeat"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Challenge of Progression",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-prog-trial"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Challenge of Progression (Timed)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-prog-challenge"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Challenge of Progression (Frosty)",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-prog-challenge"
                         ],
                         "item_count": 1
@@ -627,44 +561,37 @@
                         "y": 165
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Filthy Frobbits",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Explosive Debugging",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-frobbits, iceShade, eleHeat"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Preemptive Debugging",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-EX-mine, iceShade, eleHeat"
                         ],
                         "item_count": 1
@@ -682,32 +609,27 @@
                         "y": 917
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Kidding Around",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Goatfather",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-kidding, eleHeat, iceShade"
                         ],
                         "item_count": 1
@@ -725,32 +647,27 @@
                         "y": 385
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "Fancy Tophat",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Heating the Hermit",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-hat, eleHeat, iceShade, minePass"
                         ],
                         "item_count": 1
@@ -768,20 +685,17 @@
                         "y": 540
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region4",
                     "$regionOpen4_1"
                 ],
                 "sections": [
                     {
                         "name": "Building a Base",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "eleHeat, BT-bunny",
                             "mineKey:1, BT-bunny"
                         ],
@@ -789,12 +703,10 @@
                     },
                     {
                         "name": "Pushing Bases",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "BV-omni-build"
                         ],
                         "item_count": 1
@@ -812,20 +724,17 @@
                         "y": 661
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
                 "sections": [
                     {
                         "name": "A Promise is a Promise 2",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "brokenShield"
                         ],
                         "item_count": 1
@@ -841,8 +750,7 @@
                         "y": 370
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
@@ -851,16 +759,14 @@
                         "name": "Sandwich Slot - 100 Credits",
                         "chest_unopened_img": "images/food/Sandwich.png",
                         "chest_opened_img": "images/food/SandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem1",
                             "$typeSandwich",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -868,16 +774,14 @@
                         "name": "Hi-Sandwich Slot - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem2",
                             "$typeHiSandwich",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -885,16 +789,14 @@
                         "name": "Green Leaf Tea Slot - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem3",
                             "$typeTea",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -902,16 +804,14 @@
                         "name": "Just Water Slot - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem4",
                             "$typeWater",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -919,16 +819,14 @@
                         "name": "Kebab Roll Slot - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Kebab.png",
                         "chest_opened_img": "images/food/KebabOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem5, iceShade",
                             "$typeKebab, iceShade",
                             "settingShopReceiveShops, bergenItemShop, iceShade",
-                            "settingShopReceiveOff, iceShade"  
+                            "settingShopReceiveOff, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -936,16 +834,14 @@
                         "name": "Meaty Risotto Slot - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Risotto.png",
                         "chest_opened_img": "images/food/RisottoOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem6, iceShade",
                             "$typeRisotto, iceShade",
                             "settingShopReceiveShops, bergenItemShop, iceShade",
-                            "settingShopReceiveOff, iceShade"  
+                            "settingShopReceiveOff, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -953,16 +849,14 @@
                         "name": "Spicy Bun Slot - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem7",
                             "$typeBun",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -970,16 +864,14 @@
                         "name": "Fruit Drink Slot - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem8",
                             "$typeFruit",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -987,16 +879,14 @@
                         "name": "Rice Cracker Slot - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem9",
                             "$typeCracker",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1004,16 +894,14 @@
                         "name": "Veggie Sticks Slot - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem10",
                             "$typeVeggie",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1021,16 +909,14 @@
                         "name": "Bergen Ice Cream Slot - 450 Credits Have Red Flame",
                         "chest_unopened_img": "images/food/IceCream.png",
                         "chest_opened_img": "images/food/IceCreamOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem11, flameShade",
                             "$typeIcecream, flameShade",
                             "settingShopReceiveShops, bergenItemShop, flameShade",
-                            "settingShopReceiveOff, flameShade"  
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1038,16 +924,14 @@
                         "name": "Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem12, flameShade",
                             "$typeLemonjuice, flameShade",
                             "settingShopReceiveShops, bergenItemShop, flameShade",
-                            "settingShopReceiveOff, flameShade"  
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1055,16 +939,14 @@
                         "name": "Cup o' Coffee Slot - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Coffee.png",
                         "chest_opened_img": "images/food/CoffeeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem13, seedShade",
                             "$typeCoffee, seedShade",
                             "settingShopReceiveShops, bergenItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1072,16 +954,14 @@
                         "name": "Salted Peanuts Slot - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Peanuts.png",
                         "chest_opened_img": "images/food/PeanutsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem14, seedShade",
                             "$typePeanuts, seedShade",
                             "settingShopReceiveShops, bergenItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1089,16 +969,14 @@
                         "name": "Snack Mix Slot - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/SnackMix.png",
                         "chest_opened_img": "images/food/SnackMixOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem15, seedShade",
                             "$typeMix, seedShade",
                             "settingShopReceiveShops, bergenItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1106,16 +984,14 @@
                         "name": "Sandwich Type - 100 Credits",
                         "chest_unopened_img": "images/food/Sandwich.png",
                         "chest_opened_img": "images/food/SandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem1",
                             "$typeSandwich",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1123,16 +999,14 @@
                         "name": "Hi-Sandwich Type - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem2",
                             "$typeHiSandwich",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1140,16 +1014,14 @@
                         "name": "Green Leaf Tea Type - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem3",
                             "$typeTea",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1157,16 +1029,14 @@
                         "name": "Just Water Type - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem4",
                             "$typeWater",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1174,16 +1044,14 @@
                         "name": "Kebab Roll Type - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Kebab.png",
                         "chest_opened_img": "images/food/KebabOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem5, iceShade",
                             "$typeKebab, iceShade",
                             "settingShopReceiveShops, bergenItemShop, iceShade",
-                            "settingShopReceiveOff, iceShade"  
+                            "settingShopReceiveOff, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -1191,16 +1059,14 @@
                         "name": "Meaty Risotto Type - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Risotto.png",
                         "chest_opened_img": "images/food/RisottoOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem6, iceShade",
                             "$typeRisotto, iceShade",
                             "settingShopReceiveShops, bergenItemShop, iceShade",
-                            "settingShopReceiveOff, iceShade"  
+                            "settingShopReceiveOff, iceShade"
                         ],
                         "item_count": 1
                     },
@@ -1208,16 +1074,14 @@
                         "name": "Spicy Bun Type - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem7",
                             "$typeBun",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1225,16 +1089,14 @@
                         "name": "Fruit Drink Type - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem8",
                             "$typeFruit",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1242,16 +1104,14 @@
                         "name": "Rice Cracker Type - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem9",
                             "$typeCracker",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1259,16 +1119,14 @@
                         "name": "Veggie Sticks Type - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem10",
                             "$typeVeggie",
                             "settingShopReceiveShops, bergenItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1276,16 +1134,14 @@
                         "name": "Bergen Ice Cream Type - 450 Credits Have Red Flame",
                         "chest_unopened_img": "images/food/IceCream.png",
                         "chest_opened_img": "images/food/IceCreamOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem11, flameShade",
                             "$typeIcecream, flameShade",
                             "settingShopReceiveShops, bergenItemShop, flameShade",
-                            "settingShopReceiveOff, flameShade"  
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1293,16 +1149,14 @@
                         "name": "Sweet Lemonjuice Type - 450 Credits Have Red Flame",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem12, flameShade",
                             "$typeLemonjuice, flameShade",
                             "settingShopReceiveShops, bergenItemShop, flameShade",
-                            "settingShopReceiveOff, flameShade"  
+                            "settingShopReceiveOff, flameShade"
                         ],
                         "item_count": 1
                     },
@@ -1310,16 +1164,14 @@
                         "name": "Cup o' Coffee Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Coffee.png",
                         "chest_opened_img": "images/food/CoffeeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem13, seedShade",
                             "$typeCoffee, seedShade",
                             "settingShopReceiveShops, bergenItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1327,16 +1179,14 @@
                         "name": "Salted Peanuts Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Peanuts.png",
                         "chest_opened_img": "images/food/PeanutsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem14, seedShade",
                             "$typePeanuts, seedShade",
                             "settingShopReceiveShops, bergenItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1344,16 +1194,14 @@
                         "name": "Snack Mix Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/SnackMix.png",
                         "chest_opened_img": "images/food/SnackMixOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVitem15, seedShade",
                             "$typeMix, seedShade",
                             "settingShopReceiveShops, bergenItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     }
@@ -1370,8 +1218,7 @@
                         "y": 370
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region3",
                     "$regionOpen3"
                 ],
@@ -1380,16 +1227,14 @@
                         "name": "Iron Goggles Slot - 4700 Credits",
                         "chest_unopened_img": "images/weapon/ironHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVweapon1",
                             "$typeIrHelm",
                             "settingShopReceiveShops, bergenWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1397,16 +1242,14 @@
                         "name": "Iron Edge Slot - 4500 Credits",
                         "chest_unopened_img": "images/weapon/ironEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVweapon2",
                             "$typeIrEdge",
                             "settingShopReceiveShops, bergenWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1414,16 +1257,14 @@
                         "name": "Iron Mail Slot - 4800 Credits",
                         "chest_unopened_img": "images/weapon/ironMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVweapon3",
                             "$typeIrMail",
                             "settingShopReceiveShops, bergenWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1431,16 +1272,14 @@
                         "name": "Iron Boots Slot - 4700 Credits",
                         "chest_unopened_img": "images/weapon/ironBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVweapon4",
                             "$typeIrBoots",
                             "settingShopReceiveShops, bergenWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1448,16 +1287,14 @@
                         "name": "Iron Goggles Type - 4700 Credits",
                         "chest_unopened_img": "images/weapon/ironHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVweapon1",
                             "$typeIrHelm",
                             "settingShopReceiveShops, bergenWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1465,16 +1302,14 @@
                         "name": "Iron Edge Type - 4500 Credits",
                         "chest_unopened_img": "images/weapon/ironEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVweapon2",
                             "$typeIrEdge",
                             "settingShopReceiveShops, bergenWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1482,16 +1317,14 @@
                         "name": "Iron Mail Type - 4800 Credits",
                         "chest_unopened_img": "images/weapon/ironMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVweapon3",
                             "$typeIrMail",
                             "settingShopReceiveShops, bergenWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1499,16 +1332,14 @@
                         "name": "Iron Boots Type - 4700 Credits",
                         "chest_unopened_img": "images/weapon/ironBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BVweapon4",
                             "$typeIrBoots",
                             "settingShopReceiveShops, bergenWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }
@@ -1523,16 +1354,16 @@
             {
                 "sections": [
                     {
-                        "ref": "Bergen Village South - Storage Room/Chest",
-                        "name": "Bergen Village South - Storage Room - Chest"
+                        "ref": "Bergen Village South - Behind Ice In South/Bronze Chest",
+                        "name": "Bergen Village South - Behind Ice In South - Bronze Chest"
                     },
                     {
                         "ref": "Bergen Village South - On Top Of Bergen Bar/Chest",
                         "name": "Bergen Village South - On Top Of Bergen Bar - Chest"
                     },
                     {
-                        "ref": "Bergen Village South - Behind Ice In South/Bronze Chest",
-                        "name": "Bergen Village South - Behind Ice In South - Bronze Chest"
+                        "ref": "Bergen Village - Omni Gliders Basement/Bronze Chest",
+                        "name": "Bergen Village - Omni Gliders Basement - Bronze Chest"
                     },
                     {
                         "ref": "Bergen Village South - Behind Ice In East/Bronze Chest",
@@ -1543,8 +1374,16 @@
                         "name": "Bergen Village South - Top West Roof - Gold Chest"
                     },
                     {
+                        "ref": "Bergen Village South - Storage Room/Chest",
+                        "name": "Bergen Village South - Storage Room - Chest"
+                    },
+                    {
                         "ref": "Bergen Village North - On Ledge Near Trader Den/Chest",
                         "name": "Bergen Village North - On Ledge Near Trader Den - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village North - On Ledge In Lower East/Silver Chest",
+                        "name": "Bergen Village North - On Ledge In Lower East - Silver Chest"
                     },
                     {
                         "ref": "Bergen Village North - Roof Of Eastern Archway/Chest",
@@ -1555,36 +1394,36 @@
                         "name": "Bergen Village North - Hidden Cave In West - Chest"
                     },
                     {
-                        "ref": "Bergen Village North - On Ledge In Lower East/Silver Chest",
-                        "name": "Bergen Village North - On Ledge In Lower East - Silver Chest"
-                    },
-                    {
                         "ref": "Bergen Village - Diving Railway/Chest",
-                        "name": "Bergen Village South - Diving Railway - Chest"
+                        "name": "Bergen Village - Diving Railway - Chest"
                     },
                     {
                         "ref": "Bergen Village - Seeker Hub/Mine Detector",
                         "name": "Bergen Village - Seeker Hub - Mine Detector"
                     },
                     {
-                        "ref": "Bergen Village - Seeker Hub Basement Left/Chest",
-                        "name": "Bergen Village - Seeker Hub Basement Left - Chest"
+                        "ref": "Bergen Village - Seeker Hub/Digging up the Past",
+                        "name": "Bergen Village - Seeker Hub - Digging up the Past"
                     },
                     {
-                        "ref": "Bergen Village - Seeker Hub Basement Right/Bronze Chest",
-                        "name": "Bergen Village Seeker Hub Basement Right - Bronze Chest"
+                        "ref": "Bergen Village - Seeker Hub/Crocus Pocus 25%",
+                        "name": "Bergen Village - Seeker Hub - Crocus Pocus 25%"
+                    },
+                    {
+                        "ref": "Bergen Village - Seeker Hub Cellar Left/Chest",
+                        "name": "Bergen Village - Seeker Hub Cellar Left - Chest"
+                    },
+                    {
+                        "ref": "Bergen Village - Seeker Hub Cellar Right/Bronze Chest",
+                        "name": "Bergen Village - Seeker Hub Cellar Right - Bronze Chest"
                     },
                     {
                         "ref": "Bergen Village - Temple Mine Entrance/Mine Guard",
                         "name": "Bergen Village - Temple Mine Entrance - Mine Guard"
                     },
                     {
-                        "ref": "Bergen Village - Seeker Hub/Digging up the Past",
-                        "name": "Bergen Village - Seeker Hub - Digging up the Past"
-                    },
-                    {
                         "ref": "Bergen Village - Monastery/Trial of Aspiration",
-                        "name": "Bergen Village - Acsension Spirits - Trial of Aspiration"
+                        "name": "Bergen Village - Monastery - Trial of Aspiration"
                     },
                     {
                         "ref": "Bergen Village - Monastery/Challenge of Aspiration",
@@ -1592,7 +1431,7 @@
                     },
                     {
                         "ref": "Bergen Village - Monastery/Challenge of Aspiration (Timed)",
-                        "name": "Bergen Village - Acsension Spirits - Challenge of Aspiration (Timed)"
+                        "name": "Bergen Village - Monastery - Challenge of Aspiration (Timed)"
                     },
                     {
                         "ref": "Bergen Village - Monastery/Challenge of Aspiration (Shieldless)",
@@ -1655,10 +1494,6 @@
                         "name": "Bergen Village - Ketin D'Kar - A Promise is a Promise 2"
                     },
                     {
-                        "ref": "Bergen Village - Seeker Hub/Crocus Pocus 25%",
-                        "name": "Bergen Village - Seeker Hub - Crocus Pocus 25%"
-                    },
-                    {
                         "ref": "Bergen Village - Item Shop/Sandwich Slot - 100 Credits",
                         "name": "Bergen Village - Item Shop\nSandwich Slot - 100 Credits"
                     },
@@ -1675,8 +1510,12 @@
                         "name": "Bergen Village - Item Shop\nJust Water Slot - 222 Credits"
                     },
                     {
-                        "ref": "Bergen Village - Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Bergen Village - Item Shop\nKebab Roll Slot - 650 Credits"
+                        "ref": "Bergen Village - Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
+                        "name": "Bergen Village - Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
+                        "name": "Bergen Village - Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Bergen Village - Item Shop/Spicy Bun Slot - 200 Credits",
@@ -1704,25 +1543,16 @@
                     },
                     {
                         "ref": "Bergen Village - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Green Seed"
+                        "name": "Bergen Village - Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
                     },
                     {
-                        "ref": "Bergen Village - Weapon Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Goggles Slot - 4700 Credits"
+                        "ref": "Bergen Village - Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
                     },
                     {
-                        "ref": "Bergen Village - Weapon Shop/Iron Edge Slot - 4500 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Edge Slot - 4500 Credits"
+                        "ref": "Bergen Village - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
                     },
-                    {
-                        "ref": "Bergen Village - Weapon Shop/Iron Mail Slot - 4800 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Mail Slot - 4800 Credits"
-                    },
-                    {
-                        "ref": "Bergen Village - Weapon Shop/Iron Boots Slot - 4700 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Boots Slot - 4700 Credits"
-                    },
-
                     {
                         "ref": "Bergen Village - Item Shop/Sandwich Type - 100 Credits",
                         "name": "Bergen Village - Item Shop\nSandwich Type - 100 Credits"
@@ -1740,8 +1570,12 @@
                         "name": "Bergen Village - Item Shop\nJust Water Type - 222 Credits"
                     },
                     {
-                        "ref": "Bergen Village - Item Shop/Kebab Roll Type - 650 Credits",
-                        "name": "Bergen Village - Item Shop\nKebab Roll Type - 650 Credits"
+                        "ref": "Bergen Village - Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice",
+                        "name": "Bergen Village - Item Shop\nKebab Roll Type - 650 Credits Have Blue Ice"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice",
+                        "name": "Bergen Village - Item Shop\nMeaty Risotto Type - 650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Bergen Village - Item Shop/Spicy Bun Type - 200 Credits",
@@ -1769,7 +1603,31 @@
                     },
                     {
                         "ref": "Bergen Village - Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed",
-                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Type - 450 Credits Have Green Seed"
+                        "name": "Bergen Village - Item Shop\nCup o' Coffee Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nSalted Peanuts Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Bergen Village - Item Shop/Snack Mix Type - 450 Credits Have Green Seed",
+                        "name": "Bergen Village - Item Shop\nSnack Mix Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Goggles Slot - 4700 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Goggles Slot - 4700 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Edge Slot - 4500 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Edge Slot - 4500 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Mail Slot - 4800 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Mail Slot - 4800 Credits"
+                    },
+                    {
+                        "ref": "Bergen Village - Weapon Shop/Iron Boots Slot - 4700 Credits",
+                        "name": "Bergen Village - Weapon Shop\nIron Boots Slot - 4700 Credits"
                     },
                     {
                         "ref": "Bergen Village - Weapon Shop/Iron Goggles Type - 4700 Credits",
@@ -1790,9 +1648,9 @@
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 180,
-                      "y": 114
+                        "map": "WorldMap",
+                        "x": 180,
+                        "y": 114
                     }
                 ]
             }

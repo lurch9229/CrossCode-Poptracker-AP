@@ -14,20 +14,17 @@
                         "y": 350
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824174, whiteKey"
                         ],
                         "item_count": 1
@@ -45,20 +42,17 @@
                         "y": 375
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824173|radiantKey"
                         ],
                         "item_count": 1
@@ -76,20 +70,17 @@
                         "y": 406
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region12",
                     "$regionOpen6"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824178"
                         ],
                         "item_count": 1
@@ -107,20 +98,17 @@
                         "y": 345
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824180"
                         ],
                         "item_count": 1
@@ -138,20 +126,17 @@
                         "y": 357
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824179"
                         ],
                         "item_count": 1
@@ -169,20 +154,17 @@
                         "y": 431
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824182"
                         ],
                         "item_count": 1
@@ -200,20 +182,17 @@
                         "y": 430
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824181"
                         ],
                         "item_count": 1
@@ -231,20 +210,17 @@
                         "y": 450
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824183"
                         ],
                         "item_count": 1
@@ -262,20 +238,17 @@
                         "y": 225
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824185"
                         ],
                         "item_count": 1
@@ -293,20 +266,17 @@
                         "y": 275
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824184"
                         ],
                         "item_count": 1
@@ -324,20 +294,17 @@
                         "y": 310
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824187"
                         ],
                         "item_count": 1
@@ -355,20 +322,17 @@
                         "y": 360
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824186"
                         ],
                         "item_count": 1
@@ -382,24 +346,21 @@
                 "map_locations": [
                     {
                         "map": "Maroon_Valley",
-                        "x": 715, 
+                        "x": 715,
                         "y": 451
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824188|thiefKey"
                         ],
                         "item_count": 1
@@ -417,20 +378,17 @@
                         "y": 100
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824189"
                         ],
                         "item_count": 1
@@ -448,20 +406,17 @@
                         "y": 61
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824190"
                         ],
                         "item_count": 1
@@ -479,20 +434,17 @@
                         "y": 65
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824192"
                         ],
                         "item_count": 1
@@ -510,20 +462,17 @@
                         "y": 115
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824191|thiefKey"
                         ],
                         "item_count": 1
@@ -541,20 +490,17 @@
                         "y": 222
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824193"
                         ],
                         "item_count": 1
@@ -572,20 +518,17 @@
                         "y": 210
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824194"
                         ],
                         "item_count": 1
@@ -603,20 +546,17 @@
                         "y": 350
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824195"
                         ],
                         "item_count": 1
@@ -634,20 +574,17 @@
                         "y": 358
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824196"
                         ],
                         "item_count": 1
@@ -665,20 +602,17 @@
                         "y": 377
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824197|thiefKey"
                         ],
                         "item_count": 1
@@ -696,20 +630,17 @@
                         "y": 199
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824198"
                         ],
                         "item_count": 1
@@ -727,20 +658,17 @@
                         "y": 255
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824199"
                         ],
                         "item_count": 1
@@ -758,20 +686,17 @@
                         "y": 270
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824200"
                         ],
                         "item_count": 1
@@ -789,20 +714,17 @@
                         "y": 205
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824201"
                         ],
                         "item_count": 1
@@ -820,20 +742,17 @@
                         "y": 120
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824202|whiteKey"
                         ],
                         "item_count": 1
@@ -851,20 +770,17 @@
                         "y": 53
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824204"
                         ],
                         "item_count": 1
@@ -882,20 +798,17 @@
                         "y": 43
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824203"
                         ],
                         "item_count": 1
@@ -913,20 +826,17 @@
                         "y": 123
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824205"
                         ],
                         "item_count": 1
@@ -944,20 +854,17 @@
                         "y": 62
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824207"
                         ],
                         "item_count": 1
@@ -975,20 +882,17 @@
                         "y": 40
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824206|whiteKey"
                         ],
                         "item_count": 1
@@ -1006,20 +910,17 @@
                         "y": 350
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824176|whiteKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
@@ -1037,20 +938,17 @@
                         "y": 375
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824175|whiteKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
@@ -1068,20 +966,17 @@
                         "y": 450
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824177|thiefKey, eleHeat, eleCold, cursedCoin"
                         ],
                         "item_count": 1
@@ -1099,68 +994,57 @@
                         "y": 65
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
                 "sections": [
                     {
                         "name": "Trailblazing Finish",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Collect",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Defeat",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Landmarks",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Data Probe",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -1176,63 +1060,16 @@
             {
                 "sections": [
                     {
-                        "ref": "Maroon Valley - Rising Railway/Chest",
-                        "name": "Maroon Valley - Rising Railway - Chest"
+                        "ref": "Maroon Valley - Mystery Cave Upper/Silver Chest",
+                        "name": "Maroon Valley - Mystery Cave Upper - Silver Chest"
                     },
                     {
-                        "ref": "Maroon Valley - East Entrance/Chest",
-                        "name": "Maroon Valley - East Entrance - Chest"
+                        "ref": "Maroon Valley - Mystery Cave Lower/Gold Chest",
+                        "name": "Maroon Valley - Mystery Cave Lower - Gold Chest"
                     },
                     {
-                        "ref": "Maroon Valley - Dusty Path Upper/Chest",
-                        "name": "Maroon Valley - Dusty Path Upper - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Crossroad Center/Chest",
-                        "name": "Maroon Valley - Crossroad Center - Chest"
-                    },{
-                        "ref": "Maroon Valley - Vivid Path Upper/Chest",
-                        "name": "Maroon Valley - Vivid Path Upper - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Vivid Path Lower/Chest 2",
-                        "name": "Maroon Valley - Vivid Path Lower - Chest 2"
-                    },
-                    {
-                        "ref": "Maroon Valley - Maroon Oasis Upper/Chest 1",
-                        "name": "Maroon Valley - Maroon Oasis Upper - Chest 1"
-                    },
-                    {
-                        "ref": "Maroon Valley - Maroon Oasis Center/Chest 2",
-                        "name": "Maroon Valley - Maroon Oasis Center - Chest 2"
-                    },
-                    {
-                        "ref": "Maroon Valley - Bright Path/Bronze Chest",
-                        "name": "Maroon Valley - Bright Path - Bronze Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Long Piece/Chest",
-                        "name": "Maroon Valley - Long Piece - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Barren Land/Chest",
-                        "name": "Maroon Valley - Barren Land - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Crossroad Left/Chest",
-                        "name": "Maroon Valley - Crossroad Left - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Dusty Path Center/Bronze Chest",
-                        "name": "Maroon Valley - Dusty Path Center - Bronze Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Overpass Upper/Chest",
-                        "name": "Maroon Valley - Overpass Upper - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Overpass Left/Chest",
-                        "name": "Maroon Valley - Overpass Left - Chest"
+                        "ref": "Maroon Valley - Maroon Cave 1/Chest",
+                        "name": "Maroon Valley - Maroon Cave 1 - Chest"
                     },
                     {
                         "ref": "Maroon Valley - River Cliff Left/Chest",
@@ -1247,12 +1084,60 @@
                         "name": "Maroon Valley - Endless Pit Right - Chest"
                     },
                     {
+                        "ref": "Maroon Valley - Endless Pit Center/Chest",
+                        "name": "Maroon Valley - Endless Pit Center - Chest"
+                    },
+                    {
                         "ref": "Maroon Valley - Endless Pit Left/Chest",
                         "name": "Maroon Valley - Endless Pit Left - Chest"
                     },
                     {
-                        "ref": "Maroon Valley - Endless Pit Center/Chest",
-                        "name": "Maroon Valley - Endless Pit Center - Chest"
+                        "ref": "Maroon Valley - Vivid Path Upper/Chest",
+                        "name": "Maroon Valley - Vivid Path Upper - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Vivid Path Lower/Chest",
+                        "name": "Maroon Valley - Vivid Path Lower - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Maroon Oasis Upper/Chest",
+                        "name": "Maroon Valley - Maroon Oasis Upper - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Maroon Oasis Center/Chest",
+                        "name": "Maroon Valley - Maroon Oasis Center - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Bright Path/Bronze Chest",
+                        "name": "Maroon Valley - Bright Path - Bronze Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Rising Railway/Chest",
+                        "name": "Maroon Valley - Rising Railway - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - East Entrance/Chest",
+                        "name": "Maroon Valley - East Entrance - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Dusty Path Upper/Chest",
+                        "name": "Maroon Valley - Dusty Path Upper - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Dusty Path Center/Bronze Chest",
+                        "name": "Maroon Valley - Dusty Path Center - Bronze Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Crossroad Center/Chest",
+                        "name": "Maroon Valley - Crossroad Center - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Crossroad Left/Chest",
+                        "name": "Maroon Valley - Crossroad Left - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Long Piece/Chest",
+                        "name": "Maroon Valley - Long Piece - Chest"
                     },
                     {
                         "ref": "Maroon Valley - Barren Arcs Center/Chest",
@@ -1263,8 +1148,36 @@
                         "name": "Maroon Valley - Barren Arcs Left - Bronze Chest"
                     },
                     {
+                        "ref": "Maroon Valley - Barren Land/Chest",
+                        "name": "Maroon Valley - Barren Land - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Overpass Upper/Chest",
+                        "name": "Maroon Valley - Overpass Upper - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Overpass Left/Chest",
+                        "name": "Maroon Valley - Overpass Left - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Paw Cliffs Lower/Chest",
+                        "name": "Maroon Valley - Paw Cliffs Lower - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Paw Cliffs Upper/Silver Chest",
+                        "name": "Maroon Valley - Paw Cliffs Upper - Silver Chest"
+                    },
+                    {
                         "ref": "Maroon Valley - Torn Road Right/Chest",
                         "name": "Maroon Valley - Torn Road Right - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - Torn Road Center/Chest",
+                        "name": "Maroon Valley - Torn Road Center - Chest"
+                    },
+                    {
+                        "ref": "Maroon Valley - West Entrance/Chest",
+                        "name": "Maroon Valley - West Entrance - Chest"
                     },
                     {
                         "ref": "Maroon Valley - Fractured Path Right/Chest",
@@ -1287,32 +1200,8 @@
                         "name": "Maroon Valley - Cursed Temple Treasure Room - Bronze Chest"
                     },
                     {
-                        "ref": "Maroon Valley - Torn Road Center/Chest",
-                        "name": "Maroon Valley - Torn Road Center - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Paw Cliffs Lower/Chest",
-                        "name": "Maroon Valley - Paw Cliffs Lower - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Paw Cliffs Upper/Silver Chest",
-                        "name": "Maroon Valley - Paw Cliffs Upper - Silver Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - West Entrance/Chest",
-                        "name": "Maroon Valley - West Entrance - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Maroon Cave 1/Chest",
-                        "name": "Maroon Valley - Maroon Cave 1 - Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Mystery Cave Upper/Silver Chest",
-                        "name": "Maroon Valley - Mystery Cave Upper - Silver Chest"
-                    },
-                    {
-                        "ref": "Maroon Valley - Mystery Cave Lower/Gold Chest",
-                        "name": "Maroon Valley - Mystery Cave Lower - Gold Chest"
+                        "ref": "Maroon Valley - Henry the Researcher/Trailblazing Finish",
+                        "name": "Maroon Valley - Henry the Researcher - Trailblazing Finish"
                     },
                     {
                         "ref": "Maroon Valley - Henry the Researcher/Trailblazing Collect",
@@ -1329,17 +1218,13 @@
                     {
                         "ref": "Maroon Valley - Henry the Researcher/Trailblazing Data Probe",
                         "name": "Maroon Valley - Henry the Researcher - Trailblazing Data Probe"
-                    },
-                    {
-                        "ref": "Maroon Valley - Henry the Researcher/Trailblazing Finish",
-                        "name": "Maroon Valley - Henry the Researcher - Trailblazing Finish"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 129,
-                      "y": 143
+                        "map": "WorldMap",
+                        "x": 129,
+                        "y": 143
                     }
                 ]
             }

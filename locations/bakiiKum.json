@@ -2,35 +2,29 @@
     {
         "name": "Ba'kii Kum",
         "color": "#FFFFFF",
-        "children": 
-		[
+        "children": [
             {
                 "name": "Ba'kii Kum - Solar Farm Upper",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 346,
                         "y": 93
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824228"
                         ],
                         "item_count": 1
@@ -41,29 +35,24 @@
                 "name": "Ba'kii Kum - Solar Farm Lower",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 290,
                         "y": 332
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824229"
                         ],
                         "item_count": 1
@@ -74,29 +63,24 @@
                 "name": "Ba'kii Kum - Market East",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 327,
                         "y": 563
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824230"
                         ],
                         "item_count": 1
@@ -107,29 +91,24 @@
                 "name": "Ba'kii Kum - Market West",
                 "chest_unopened_img": "images/icons/chest_bronze_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 60,
                         "y": 495
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824231|thiefKey"
                         ],
                         "item_count": 1
@@ -140,29 +119,24 @@
                 "name": "Ba'kii Kum - Dusty Home",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 260,
                         "y": 553
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Cursed Coin",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "eleCold"
                         ],
                         "item_count": 1
@@ -173,41 +147,34 @@
                 "name": "Ba'kii Kum - Seeker Hub",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 388,
                         "y": 427
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Maroon Cave Pass",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Maroon Tree Defender",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$region12, eleHeat",
                             "$regionOpen6, eleHeat"
                         ],
@@ -215,12 +182,10 @@
                     },
                     {
                         "name": "Crocus Pocus 50%",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "botanics-2, $region2",
                             "botanics-2, $regionOpen2, $botanics50"
                         ],
@@ -232,29 +197,24 @@
                 "name": "Ba'kii Kum - Bazaar House",
                 "chest_unopened_img": "images/icons/chest_silver_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 80,
                         "y": 415
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824232|whiteKey"
                         ],
                         "item_count": 1
@@ -265,29 +225,24 @@
                 "name": "Ba'kii Kum - Market Statue",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 110,
                         "y": 500
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region12",
                     "$regionOpen6"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Yellow Sand Shade",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "MV-tree-done, shinyOrb",
                             "settingQuestShuffleOff, shinyOrb"
                         ],
@@ -299,53 +254,44 @@
                 "name": "Ba'kii Kum - Arid Breeze HQ",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 162,
                         "y": 432
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Blasting Shells",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
-                            ""  
+                        "access_rules": [
+                            ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hot Trail",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "MV-blasting, flameShade, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Waves of Sand",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "MV-hot-trail, eleWave, meteorShade"
                         ],
                         "item_count": 1
@@ -356,42 +302,35 @@
                 "name": "Ba'kii Kum - Guard HQ",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 173,
                         "y": 225
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Shady Theft",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
-                            ""  
+                        "access_rules": [
+                            ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Just Deserts",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
-                            "MV-thief, flameShade, eleHeat, eleCold"  
+                        "access_rules": [
+                            "MV-thief, flameShade, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     }
@@ -401,41 +340,34 @@
                 "name": "Ba'kii Kum - Kney'tehab",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 110,
                         "y": 460
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Crate Hate",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
-                            ""  
+                        "access_rules": [
+                            ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Steamy Booze",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "MV-crate, flameShade, eleHeat, eleCold, regionOpen3"
                         ],
                         "item_count": 1
@@ -446,29 +378,24 @@
                 "name": "Ba'kii Kum - Ryda",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 60,
                         "y": 390
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Steamy Challenge",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "MV-booze-1"
                         ],
                         "item_count": 1
@@ -479,30 +406,25 @@
                 "name": "Ba'kii Kum - Ketin D'kar",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 180,
                         "y": 537
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "A Promise is a Promise 3",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
-                            "brokenSword"  
+                        "access_rules": [
+                            "brokenSword"
                         ],
                         "item_count": 1
                     }
@@ -512,31 +434,26 @@
                 "name": "Ba'kii Kum - Weapon & Item Shop",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Bakii_Kum",
                         "x": 271,
                         "y": 468
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region11",
                     "$regionOpen5"
                 ],
-                "sections": 
-				[                    
+                "sections": [
                     {
                         "name": "Sandwich Slot - 100 Credits",
                         "chest_unopened_img": "images/food/Sandwich.png",
                         "chest_opened_img": "images/food/SandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem1",
                             "$typeSandwich",
                             "settingShopReceiveShops, bakiiItemShop",
@@ -548,16 +465,14 @@
                         "name": "Hi-Sandwich Slot - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem2",
                             "$typeHiSandwich",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -565,16 +480,14 @@
                         "name": "Green Leaf Tea Slot - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem3",
                             "$typeTea",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -582,16 +495,14 @@
                         "name": "Just Water Slot - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem4",
                             "$typeWater",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -599,12 +510,10 @@
                         "name": "Kebab Roll Slot - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Kebab.png",
                         "chest_opened_img": "images/food/KebabOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem5, flameShade",
                             "$typeKebab, flameShade",
                             "settingShopReceiveShops, bakiiItemShop, flameShade",
@@ -616,12 +525,10 @@
                         "name": "Meaty Risotto Slot - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Risotto.png",
                         "chest_opened_img": "images/food/RisottoOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem6, flameShade",
                             "$typeRisotto, flameShade",
                             "settingShopReceiveShops, bakiiItemShop, flameShade",
@@ -633,16 +540,14 @@
                         "name": "Spicy Bun Slot - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem7",
                             "$typeBun",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -650,12 +555,10 @@
                         "name": "Fruit Drink Slot - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem8",
                             "$typeFruit",
                             "settingShopReceiveShops, bakiiItemShop",
@@ -667,16 +570,14 @@
                         "name": "Rice Cracker Slot - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem9",
                             "$typeCracker",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -684,16 +585,14 @@
                         "name": "Veggie Sticks Slot - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem10",
                             "$typeVeggie",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -701,16 +600,14 @@
                         "name": "Bergen Ice Cream Slot - 450 Credits",
                         "chest_unopened_img": "images/food/IceCream.png",
                         "chest_opened_img": "images/food/IceCreamOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem11",
                             "$typeIcecream",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -718,16 +615,14 @@
                         "name": "Sweet Lemonjuice Slot - 450 Credits",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem12",
                             "$typeLemonjuice",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -735,16 +630,14 @@
                         "name": "Cup o' Coffee Slot - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Coffee.png",
                         "chest_opened_img": "images/food/CoffeeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem13, seedShade",
                             "$typeCoffee, seedShade",
                             "settingShopReceiveShops, bakiiItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -752,16 +645,14 @@
                         "name": "Salted Peanuts Slot - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Peanuts.png",
                         "chest_opened_img": "images/food/PeanutsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem14, seedShade",
                             "$typePeanuts, seedShade",
                             "settingShopReceiveShops, bakiiItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -769,12 +660,10 @@
                         "name": "Snack Mix Slot - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/SnackMix.png",
                         "chest_opened_img": "images/food/SnackMixOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem15, seedShade",
                             "$typeMix, seedShade",
                             "settingShopReceiveShops, bakiiItemShop, seedShade",
@@ -786,16 +675,14 @@
                         "name": "Iron Goggles Slot - 4700 Credits",
                         "chest_unopened_img": "images/weapon/ironHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon1",
                             "$typeIrHelm",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -803,16 +690,14 @@
                         "name": "Steel Goggles Slot - 15850 Credits",
                         "chest_unopened_img": "images/weapon/steelHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon2",
                             "$typeStHelm",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -820,12 +705,10 @@
                         "name": "Iron Edge Slot - 4500 Credits",
                         "chest_unopened_img": "images/weapon/ironEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon3",
                             "$typeIrEdge",
                             "settingShopReceiveShops, bakiiWeaponShop",
@@ -837,16 +720,14 @@
                         "name": "Steel Edge Slot - 15800 Credits",
                         "chest_unopened_img": "images/weapon/steelEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon4",
                             "$typeStEdge",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -854,16 +735,14 @@
                         "name": "Iron Mail Slot - 4800 Credits",
                         "chest_unopened_img": "images/weapon/ironMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon5",
                             "$typeIrMail",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -871,16 +750,14 @@
                         "name": "Steel Mail Slot - 16100 Credits",
                         "chest_unopened_img": "images/weapon/steelMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon6",
                             "$typeStMail",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -888,16 +765,14 @@
                         "name": "Iron Boots Slot - 4700 Credits",
                         "chest_unopened_img": "images/weapon/ironBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon7",
                             "$typeIrBoots",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -905,16 +780,14 @@
                         "name": "Steel Boots Slot - 15950 Credits",
                         "chest_unopened_img": "images/weapon/steelBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon8",
                             "$typeStBoots",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"   
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -922,12 +795,10 @@
                         "name": "Sandwich Type - 100 Credits",
                         "chest_unopened_img": "images/food/Sandwich.png",
                         "chest_opened_img": "images/food/SandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem1",
                             "$typeSandwich",
                             "settingShopReceiveShops, bakiiItemShop",
@@ -939,16 +810,14 @@
                         "name": "Hi-Sandwich Type - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem2",
                             "$typeHiSandwich",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -956,16 +825,14 @@
                         "name": "Green Leaf Tea Type - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem3",
                             "$typeTea",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -973,16 +840,14 @@
                         "name": "Just Water Type - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem4",
                             "$typeWater",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -990,12 +855,10 @@
                         "name": "Kebab Roll Type - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Kebab.png",
                         "chest_opened_img": "images/food/KebabOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem5, flameShade",
                             "$typeKebab, flameShade",
                             "settingShopReceiveShops, bakiiItemShop, flameShade",
@@ -1007,12 +870,10 @@
                         "name": "Meaty Risotto Type - 650 Credits Have Blue Ice",
                         "chest_unopened_img": "images/food/Risotto.png",
                         "chest_opened_img": "images/food/RisottoOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem6, flameShade",
                             "$typeRisotto, flameShade",
                             "settingShopReceiveShops, bakiiItemShop, flameShade",
@@ -1024,16 +885,14 @@
                         "name": "Spicy Bun Type - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem7",
                             "$typeBun",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1041,12 +900,10 @@
                         "name": "Fruit Drink Type - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem8",
                             "$typeFruit",
                             "settingShopReceiveShops, bakiiItemShop",
@@ -1058,16 +915,14 @@
                         "name": "Rice Cracker Type - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem9",
                             "$typeCracker",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1075,16 +930,14 @@
                         "name": "Veggie Sticks Type - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem10",
                             "$typeVeggie",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1092,16 +945,14 @@
                         "name": "Bergen Ice Cream Type - 450 Credits",
                         "chest_unopened_img": "images/food/IceCream.png",
                         "chest_opened_img": "images/food/IceCreamOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem11",
                             "$typeIcecream",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1109,16 +960,14 @@
                         "name": "Sweet Lemonjuice Type - 450 Credits",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem12",
                             "$typeLemonjuice",
                             "settingShopReceiveShops, bakiiItemShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1126,16 +975,14 @@
                         "name": "Cup o' Coffee Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Coffee.png",
                         "chest_opened_img": "images/food/CoffeeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem13, seedShade",
                             "$typeCoffee, seedShade",
                             "settingShopReceiveShops, bakiiItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1143,16 +990,14 @@
                         "name": "Salted Peanuts Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/Peanuts.png",
                         "chest_opened_img": "images/food/PeanutsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem14, seedShade",
                             "$typePeanuts, seedShade",
                             "settingShopReceiveShops, bakiiItemShop, seedShade",
-                            "settingShopReceiveOff, seedShade"  
+                            "settingShopReceiveOff, seedShade"
                         ],
                         "item_count": 1
                     },
@@ -1160,12 +1005,10 @@
                         "name": "Snack Mix Type - 450 Credits Have Green Seed",
                         "chest_unopened_img": "images/food/SnackMix.png",
                         "chest_opened_img": "images/food/SnackMixOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKitem15, seedShade",
                             "$typeMix, seedShade",
                             "settingShopReceiveShops, bakiiItemShop, seedShade",
@@ -1177,16 +1020,14 @@
                         "name": "Iron Goggles Type - 4700 Credits",
                         "chest_unopened_img": "images/weapon/ironHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon1",
                             "$typeIrHelm",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1194,16 +1035,14 @@
                         "name": "Steel Goggles Type - 15850 Credits",
                         "chest_unopened_img": "images/weapon/steelHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon2",
                             "$typeStHelm",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1211,12 +1050,10 @@
                         "name": "Iron Edge Type - 4500 Credits",
                         "chest_unopened_img": "images/weapon/ironEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon3",
                             "$typeIrEdge",
                             "settingShopReceiveShops, bakiiWeaponShop",
@@ -1228,16 +1065,14 @@
                         "name": "Steel Edge Type - 15800 Credits",
                         "chest_unopened_img": "images/weapon/steelEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon4",
                             "$typeStEdge",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1245,16 +1080,14 @@
                         "name": "Iron Mail Type - 4800 Credits",
                         "chest_unopened_img": "images/weapon/ironMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon5",
                             "$typeIrMail",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1262,16 +1095,14 @@
                         "name": "Steel Mail Type - 16100 Credits",
                         "chest_unopened_img": "images/weapon/steelMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon6",
                             "$typeStMail",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1279,16 +1110,14 @@
                         "name": "Iron Boots Type - 4700 Credits",
                         "chest_unopened_img": "images/weapon/ironBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon7",
                             "$typeIrBoots",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"    
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1296,16 +1125,14 @@
                         "name": "Steel Boots Type - 15950 Credits",
                         "chest_unopened_img": "images/weapon/steelBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$BKweapon8",
                             "$typeStBoots",
                             "settingShopReceiveShops, bakiiWeaponShop",
-                            "settingShopReceiveOff"   
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }
@@ -1333,11 +1160,7 @@
                     },
                     {
                         "ref": "Ba'kii Kum - Market West/Bronze Chest",
-                        "name": "Ba'kii Kum - Market West - Chest"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Bazaar House/Silver Chest",
-                        "name": "Ba'kii Kum - Bazaar House - SIlver Chest"
+                        "name": "Ba'kii Kum - Market West - Bronze Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Dusty Home/Cursed Coin",
@@ -1348,8 +1171,56 @@
                         "name": "Ba'kii Kum - Seeker Hub - Maroon Cave Pass"
                     },
                     {
+                        "ref": "Ba'kii Kum - Seeker Hub/Maroon Tree Defender",
+                        "name": "Ba'kii Kum - Seeker Hub - Maroon Tree Defender"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Seeker Hub/Crocus Pocus 50%",
+                        "name": "Ba'kii Kum - Seeker Hub - Crocus Pocus 50%"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Bazaar House/Silver Chest",
+                        "name": "Ba'kii Kum - Bazaar House - Silver Chest"
+                    },
+                    {
                         "ref": "Ba'kii Kum - Market Statue/Yellow Sand Shade",
                         "name": "Ba'kii Kum - Market Statue - Yellow Sand Shade"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Arid Breeze HQ/Blasting Shells",
+                        "name": "Ba'kii Kum - Arid Breeze HQ - Blasting Shells"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Arid Breeze HQ/Hot Trail",
+                        "name": "Ba'kii Kum - Arid Breeze HQ - Hot Trail"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Arid Breeze HQ/Waves of Sand",
+                        "name": "Ba'kii Kum - Arid Breeze HQ - Waves of Sand"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Guard HQ/Shady Theft",
+                        "name": "Ba'kii Kum - Guard HQ - Shady Theft"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Guard HQ/Just Deserts",
+                        "name": "Ba'kii Kum - Guard HQ - Just Deserts"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Kney'tehab/Crate Hate",
+                        "name": "Ba'kii Kum - Kney'tehab - Crate Hate"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Kney'tehab/Steamy Booze",
+                        "name": "Ba'kii Kum - Kney'tehab - Steamy Booze"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Ryda/Steamy Challenge",
+                        "name": "Ba'kii Kum - Ryda - Steamy Challenge"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Ketin D'kar/A Promise is a Promise 3",
+                        "name": "Ba'kii Kum - Ketin D'kar - A Promise is a Promise 3"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Sandwich Slot - 100 Credits",
@@ -1401,7 +1272,15 @@
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Slot - 4700 Credits",
@@ -1485,7 +1364,15 @@
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Type - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Type - 450 Credits Have Green Seed"
+                    },
+                    {
+                        "ref": "Ba'kii Kum - Weapon & Item Shop/Snack Mix Type - 450 Credits Have Green Seed",
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Type - 450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Type - 4700 Credits",
@@ -1518,60 +1405,16 @@
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Type - 15950 Credits",
                         "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Type - 15950 Credits"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Arid Breeze HQ/Blasting Shells",
-                        "name": "Ba'kii Kum - Arid Breeze HQ - Blasting Shells"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Arid Breeze HQ/Hot Trail",
-                        "name": "Ba'kii Kum - Arid Breeze HQ - Hot Trail"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Arid Breeze HQ/Waves of Sand",
-                        "name": "Ba'kii Kum - Arid Breeze HQ - Waves of Sand"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Guard HQ/Shady Theft",
-                        "name": "Ba'kii Kum - Guard HQ - Shady Theft"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Guard HQ/Just Deserts",
-                        "name": "Ba'kii Kum - Guard HQ - Just Deserts"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Kney'tehab/Crate Hate",
-                        "name": "Ba'kii Kum - Kney'tehab - Crate Hate"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Kney'tehab/Steamy Booze",
-                        "name": "Ba'kii Kum - Kney'tehab - Steamy Booze"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Ryda/Steamy Challenge",
-                        "name": "Ba'kii Kum - Ryda - Steamy Challenge"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Seeker Hub/Maroon Tree Defender",
-                        "name": "Ba'kii Kum - Seeker Hub - Maroon Tree Defender"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Ketin D'kar/A Promise is a Promise 3",
-                        "name": "Ba'kii Kum - Ketin D'kar - A Promise is a Promise 3"
-                    },
-                    {
-                        "ref": "Ba'kii Kum - Seeker Hub/Crocus Pocus 50%",
-                        "name": "Ba'kii Kum - Seeker Hub - Crocus Pocus 50%"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 110,
-                      "y": 164
+                        "map": "WorldMap",
+                        "x": 110,
+                        "y": 164
                     }
                 ]
             }
         ]
-    }    
-]  
+    }
+]

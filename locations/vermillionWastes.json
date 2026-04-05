@@ -14,8 +14,7 @@
                         "y": 293
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -24,12 +23,10 @@
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824000|thiefKey, eleHeat, eleCold"
                         ],
                         "item_count": 1
@@ -47,8 +44,7 @@
                         "y": 231
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -57,12 +53,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824001, eleHeat, eleCold"
                         ],
                         "item_count": 1
@@ -80,8 +74,7 @@
                         "y": 520
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -90,12 +83,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824002"
                         ],
                         "item_count": 1
@@ -113,8 +104,7 @@
                         "y": 235
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -123,12 +113,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824003"
                         ],
                         "item_count": 1
@@ -146,8 +134,7 @@
                         "y": 350
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -156,12 +143,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824004"
                         ],
                         "item_count": 1
@@ -179,8 +164,7 @@
                         "y": 270
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -189,12 +173,10 @@
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824005|whiteKey"
                         ],
                         "item_count": 1
@@ -212,8 +194,7 @@
                         "y": 280
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -222,12 +203,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824006"
                         ],
                         "item_count": 1
@@ -245,8 +224,7 @@
                         "y": 370
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -255,12 +233,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824007"
                         ],
                         "item_count": 1
@@ -278,8 +254,7 @@
                         "y": 142
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -288,12 +263,10 @@
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824008|thiefKey"
                         ],
                         "item_count": 1
@@ -311,8 +284,7 @@
                         "y": 137
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -321,12 +293,10 @@
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824009"
                         ],
                         "item_count": 1
@@ -344,8 +314,7 @@
                         "y": 380
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region22,vwLockOff",
                     "$regionOpen18, vwLockOff",
                     "$region22,vwLockOn, meteorShade",
@@ -354,12 +323,10 @@
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824010|thiefKey"
                         ],
                         "item_count": 1
@@ -377,28 +344,24 @@
                         "y": 337
                     }
                 ],
-                "access_rules": 
-                        [
-                            "$region22,vwLockOff",
-                            "$regionOpen18, vwLockOff",
-                            "$region22,vwLockOn, meteorShade",
-                            "$regionOpen18, vwLockOn, meteorShade"
-                        ],
-                "visibility_rules": 
-                        [
-                            ""
-                        ],
+                "access_rules": [
+                    "$region22,vwLockOff",
+                    "$regionOpen18, vwLockOff",
+                    "$region22,vwLockOn, meteorShade",
+                    "$regionOpen18, vwLockOn, meteorShade"
+                ],
+                "visibility_rules": [
+                    ""
+                ],
                 "sections": [
                     {
                         "name": "Sandwich Slot - 100 Credits",
                         "chest_unopened_img": "images/food/Sandwich.png",
                         "chest_opened_img": "images/food/SandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem1",
                             "$typeSandwich",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -410,12 +373,10 @@
                         "name": "Hi-Sandwich Slot - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem2",
                             "$typeHiSandwich",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -427,12 +388,10 @@
                         "name": "Green Leaf Tea Slot - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem3",
                             "$typeTea",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -444,12 +403,10 @@
                         "name": "Just Water Slot - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem4",
                             "$typeWater",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -461,12 +418,10 @@
                         "name": "Spicy Bun Slot - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem5",
                             "$typeBun",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -478,29 +433,25 @@
                         "name": "Fruit Drink Slot - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem6",
                             "$typeFruit",
                             "settingShopReceiveShops, vermillionItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
-                    },                    
+                    },
                     {
                         "name": "Rice Cracker Slot - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem7",
                             "$typeCracker",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -512,12 +463,10 @@
                         "name": "Veggie Sticks Slot - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem8",
                             "$typeVeggie",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -529,12 +478,10 @@
                         "name": "Steel Goggles Slot - 15850 Credits",
                         "chest_unopened_img": "images/weapon/steelHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon1",
                             "$typeStHelm",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -546,12 +493,10 @@
                         "name": "Silver Goggles Slot - 29450 Credits",
                         "chest_unopened_img": "images/weapon/silverHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon2",
                             "$typeSilHelm",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -563,12 +508,10 @@
                         "name": "Steel Edge Slot - 15800 Credits",
                         "chest_unopened_img": "images/weapon/steelEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon3",
                             "$typeStEdge",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -580,12 +523,10 @@
                         "name": "Silver Edge Slot - 29375 Credits",
                         "chest_unopened_img": "images/weapon/silverEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon4",
                             "$typeSilEdge",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -597,12 +538,10 @@
                         "name": "Steel Mail Slot - 16100 Credits",
                         "chest_unopened_img": "images/weapon/steelMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon5",
                             "$typeStMail",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -614,12 +553,10 @@
                         "name": "Silver Mail Slot - 29725 Credits",
                         "chest_unopened_img": "images/weapon/silverMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon6",
                             "$typeSilMail",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -631,12 +568,10 @@
                         "name": "Steel Boots Slot - 15950 Credits",
                         "chest_unopened_img": "images/weapon/steelBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon7",
                             "$typeStBoots",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -648,12 +583,10 @@
                         "name": "Silver Boots Slot - 29450 Credits",
                         "chest_unopened_img": "images/weapon/silverBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon8",
                             "$typeSilBoots",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -665,12 +598,10 @@
                         "name": "Sandwich Type - 100 Credits",
                         "chest_unopened_img": "images/food/Sandwich.png",
                         "chest_opened_img": "images/food/SandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem1",
                             "$typeSandwich",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -682,12 +613,10 @@
                         "name": "Hi-Sandwich Type - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem2",
                             "$typeHiSandwich",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -699,12 +628,10 @@
                         "name": "Green Leaf Tea Type - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem3",
                             "$typeTea",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -716,12 +643,10 @@
                         "name": "Just Water Type - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem4",
                             "$typeWater",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -733,12 +658,10 @@
                         "name": "Spicy Bun Type - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem5",
                             "$typeBun",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -750,29 +673,25 @@
                         "name": "Fruit Drink Type - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem6",
                             "$typeFruit",
                             "settingShopReceiveShops, vermillionItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
-                    },                    
+                    },
                     {
                         "name": "Rice Cracker Type - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem7",
                             "$typeCracker",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -784,12 +703,10 @@
                         "name": "Veggie Sticks Type - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWitem8",
                             "$typeVeggie",
                             "settingShopReceiveShops, vermillionItemShop",
@@ -801,12 +718,10 @@
                         "name": "Steel Goggles Type - 15850 Credits",
                         "chest_unopened_img": "images/weapon/steelHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon1",
                             "$typeStHelm",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -818,12 +733,10 @@
                         "name": "Silver Goggles Type - 29450 Credits",
                         "chest_unopened_img": "images/weapon/silverHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon2",
                             "$typeSilHelm",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -835,12 +748,10 @@
                         "name": "Steel Edge Type - 15800 Credits",
                         "chest_unopened_img": "images/weapon/steelEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon3",
                             "$typeStEdge",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -852,12 +763,10 @@
                         "name": "Silver Edge Type - 29375 Credits",
                         "chest_unopened_img": "images/weapon/silverEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon4",
                             "$typeSilEdge",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -869,12 +778,10 @@
                         "name": "Steel Mail Type - 16100 Credits",
                         "chest_unopened_img": "images/weapon/steelMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon5",
                             "$typeStMail",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -886,12 +793,10 @@
                         "name": "Silver Mail Type - 29725 Credits",
                         "chest_unopened_img": "images/weapon/silverMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon6",
                             "$typeSilMail",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -903,12 +808,10 @@
                         "name": "Steel Boots Type - 15950 Credits",
                         "chest_unopened_img": "images/weapon/steelBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon7",
                             "$typeStBoots",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -920,12 +823,10 @@
                         "name": "Silver Boots Type - 29450 Credits",
                         "chest_unopened_img": "images/weapon/silverBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$VWweapon8",
                             "$typeSilBoots",
                             "settingShopReceiveShops, vermillionWeaponShop",
@@ -946,8 +847,7 @@
                         "y": 85
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region34, vwLockOff, settingVTGateOpen",
                     "$region34, vwLockOff, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
                     "$region34, vwLockOff, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
@@ -965,16 +865,13 @@
                     "$regionOpen19, vwLockOn, meteorShade, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
                     "$regionOpen19, vwLockOn, meteorShade, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "The Creator",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "eleHeat, eleCold, eleWave, eleShock"
                         ],
                         "item_count": 1
@@ -990,32 +887,8 @@
             {
                 "sections": [
                     {
-                        "ref": "Vermillion Wasteland - East Town Lower/Chest",
-                        "name": "Vermillion Wateland - East Town Lower - Chest"
-                    },
-                    {
-                        "ref": "Vermillion Wasteland - East Town Center/Chest",
-                        "name": "Vermillion Wasteland - East Town Center - Chest" 
-                    },
-                    {
-                        "ref": "Vermillion Wasteland - East Town Left/Silver Chest",
-                        "name": "Vermillion Wasteland East Town Left - Silver Chest"
-                    },
-                    {
-                        "ref": "Vermillion Wasteland - West Town Upper Right/Bronze Chest",
-                        "name": "Vermillion Wasteland - West Town Upper Right - Bronze Chest"
-                    },
-                    {
-                        "ref": "Vermillion Wasteland - West Town Lower/ Bronze Chest",
-                        "name": "Vermillion Wasteland - West Town Lower - Bronze Chest"
-                    },
-                    {
-                        "ref": "Vermillion Wasteland - West Town Upper Left/Chest",
-                        "name":"Vermillion Wasteland - West Town Upper Left - Chest"
-                    },
-                    {
                         "ref": "Vermillion Wasteland - Spiral Cliff Center/Bronze Chest",
-                        "name":"Vermillion Wasteland - Spiral Cliff Center - Bronze Chest"
+                        "name": "Vermillion Wasteland - Spiral Cliff Center - Bronze Chest"
                     },
                     {
                         "ref": "Vermillion Wasteland - Spiral Cliff Upper/Chest",
@@ -1024,6 +897,38 @@
                     {
                         "ref": "Vermillion Wasteland - Storage Basement/Chest",
                         "name": "Vermillion Wasteland - Storage Basement - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Crimson Lake Upper/Chest",
+                        "name": "Vermillion Wasteland - Crimson Lake Upper - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Crimson Lake Lower/Chest",
+                        "name": "Vermillion Wasteland - Crimson Lake Lower - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - East Town Left/Silver Chest",
+                        "name": "Vermillion Wasteland - East Town Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - East Town Center/Chest",
+                        "name": "Vermillion Wasteland - East Town Center - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - East Town Lower/Chest",
+                        "name": "Vermillion Wasteland - East Town Lower - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - West Town Upper Right/Bronze Chest",
+                        "name": "Vermillion Wasteland - West Town Upper Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - West Town Upper Left/Chest",
+                        "name": "Vermillion Wasteland - West Town Upper Left - Chest"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - West Town Lower/Bronze Chest",
+                        "name": "Vermillion Wasteland - West Town Lower - Bronze Chest"
                     },
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Sandwich Slot - 100 Credits",
@@ -1152,6 +1057,10 @@
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Boots Type - 29450 Credits",
                         "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Boots Type - 29450 Credits"
+                    },
+                    {
+                        "ref": "Vermillion Wasteland - Vermillion Tower/The Creator",
+                        "name": "Vermillion Wasteland - Vermillion Tower - The Creator"
                     }
                 ],
                 "map_locations": [
