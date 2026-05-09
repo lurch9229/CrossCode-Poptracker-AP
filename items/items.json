@@ -624,13 +624,13 @@
   {
     "name": "Rookie Backer Chef",
     "type": "toggle",
-    "img": "images/shops/rookieBackerChef.png",
+    "img": "images/shops/rookieItemsOn.png",
     "codes": "rookieBackerChef"
   },
   {
     "name": "Rookie Backer Weapon",
     "type": "toggle",
-    "img": "images/shops/rookieBackerWeapon.png",
+    "img": "images/shops/rookieWeaponsOn.png",
     "codes": "rookieBackerWeapon"
   },
   {
@@ -2186,5 +2186,250 @@
     "initial_quantity": 0,
     "increment": 1,
 	  "swap_actions": false
+  },
+  {
+    "name": "H_item_1",
+    "type": "toggle",
+    "codes": "Hitem1"
+  },
+  {
+    "name": "H_item_2",
+    "type": "toggle",
+    "codes": "Hitem2"
+  },
+  {
+    "name": "H_item_3",
+    "type": "toggle",
+    "codes": "Hitem3"
+  },
+  {
+    "name": "H_item_4",
+    "type": "toggle",
+    "codes": "Hitem4"
+  },
+  {
+    "name": "H_item_5",
+    "type": "toggle",
+    "codes": "Hitem5"
+  },
+  {
+    "name": "H_item_6",
+    "type": "toggle",
+    "codes": "Hitem6"
+  },
+  {
+    "name": "H_item_7",
+    "type": "toggle",
+    "codes": "Hitem7"
+  },
+  {
+    "name": "H_item_8",
+    "type": "toggle",
+    "codes": "Hitem8"
+  },
+  {
+    "name": "H_item_9",
+    "type": "toggle",
+    "codes": "Hitem9"
+  },
+  {
+    "name": "H_item_10",
+    "type": "toggle",
+    "codes": "Hitem10"
+  },
+  {
+    "name": "H_item_11",
+    "type": "toggle",
+    "codes": "Hitem11"
+  },
+  {
+    "name": "H_item_12",
+    "type": "toggle",
+    "codes": "Hitem12"
+  },
+  {
+    "name": "H_item_13",
+    "type": "toggle",
+    "codes": "Hitem13"
+  },
+  {
+    "name": "H_item_14",
+    "type": "toggle",
+    "codes": "Hitem14"
+  },
+  {
+    "name": "H_item_15",
+    "type": "toggle",
+    "codes": "Hitem15"
+  },
+  {
+    "name": "H_weapon_1",
+    "type": "toggle",
+    "codes": "Hweapon1"
+  },
+  {
+    "name": "H_weapon_2",
+    "type": "toggle",
+    "codes": "Hweapon2"
+  },
+  {
+    "name": "H_weapon_3",
+    "type": "toggle",
+    "codes": "Hweapon3"
+  },
+  {
+    "name": "H_weapon_4",
+    "type": "toggle",
+    "codes": "Hweapon4"
+  },
+  {
+    "name": "H_weapon_5",
+    "type": "toggle",
+    "codes": "Hweapon5"
+  },
+  {
+    "name": "H_weapon_6",
+    "type": "toggle",
+    "codes": "Hweapon6"
+  },
+  {
+    "name": "H_weapon_7",
+    "type": "toggle",
+    "codes": "Hweapon7"
+  },
+  {
+    "name": "H_weapon_8",
+    "type": "toggle",
+    "codes": "Hweapon8"
+  },
+  {
+    "name": "AA_weapon_5",
+    "type": "toggle",
+    "codes": "AAweapon5"
+  },
+  {
+    "name": "AA_weapon_6",
+    "type": "toggle",
+    "codes": "AAweapon6"
+  },
+  {
+    "name": "AA_weapon_7",
+    "type": "toggle",
+    "codes": "AAweapon7"
+  },
+  {
+    "name": "AA_weapon_8",
+    "type": "toggle",
+    "codes": "AAweapon8"
+  },
+  {
+    "name": "GZ_item_1",
+    "type": "toggle",
+    "codes": "GZitem1"
+  },
+  {
+    "name": "GZ_item_2",
+    "type": "toggle",
+    "codes": "GZitem2"
+  },
+  {
+    "name": "GZ_item_3",
+    "type": "toggle",
+    "codes": "GZitem3"
+  },
+  {
+    "name": "GZ_item_4",
+    "type": "toggle",
+    "codes": "GZitem4"
+  },
+  {
+    "name": "GZ_item_5",
+    "type": "toggle",
+    "codes": "GZitem5"
+  },
+  {
+    "name": "GZ_item_6",
+    "type": "toggle",
+    "codes": "GZitem6"
+  },
+  {
+    "name": "RS_weapon_9",
+    "type": "toggle",
+    "codes": "RSweapon9"
+  },
+  {
+    "name": "RS_weapon_10",
+    "type": "toggle",
+    "codes": "RSweapon10"
+  },
+  {
+    "name": "RS_weapon_11",
+    "type": "toggle",
+    "codes": "RSweapon11"
+  },
+  {
+    "name": "RS_weapon_12",
+    "type": "toggle",
+    "codes": "RSweapon12"
+  },
+  {
+    "name": "Homestedt Item Shop",
+    "type": "toggle",
+    "img": "images/shops/dlcItemsOn.png",
+    "codes": "homestedtItemShop"
+  },
+  {
+    "name": "Homestedt Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/dlcWeaponOn.png",
+    "codes": "homestedtWeaponShop"
+  },
+  {
+    "name": "Azure Archipelago Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/dlcWeaponOn.png",
+    "codes": "azureWeaponShop"
+  },
+  {
+    "name": "Goat Shop",
+    "type": "toggle",
+    "img": "images/shops/dlcItemsOn.png",
+    "codes": "goatShop"
+  },
+  {
+    "name": "Cross Goggles",
+    "type": "toggle",
+    "img": "images/weapon/crossHelm.png",
+    "codes": "crHelm"
+  },
+  {
+    "name": "Cross Edge",
+    "type": "toggle",
+    "img": "images/weapon/crossEdge.png",
+    "codes": "crEdge"
+  },
+  {
+    "name": "Cross Mail",
+    "type": "toggle",
+    "img": "images/weapon/crossMail.png",
+    "codes": "crMail"
+  },
+  {
+    "name": "Cross Boots",
+    "type": "toggle",
+    "img": "images/weapon/crossBoots.png",
+    "codes": "crBoots"
+  },
+  {
+    "name": "Goat Cheese",
+    "type": "toggle",
+    "img": "images/food/GoatCheese.png",
+    "codes": "goatCheese"
+  },
+  {
+    "name": "Goat Milk",
+    "type": "toggle",
+    "img": "images/food/GoatMilk.png",
+    "codes": "goatMilk"
   }
 ]

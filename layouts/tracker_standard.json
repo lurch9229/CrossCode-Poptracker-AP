@@ -438,6 +438,13 @@
                           "type": "map",
                           "maps": ["Vermillion_Wasteland"]
                         }
+                      },
+                      {
+                        "title": "Azure Archipelago",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Azure_Archipelago"]
+                        }
                       }
                     ]
                   },
@@ -478,6 +485,13 @@
                         "content": {
                           "type": "map",
                           "maps": ["Rhombus_Square"]
+                        }
+                      },
+                      {
+                        "title": "Homestedt",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Homestedt"]
                         }
                       }
                     ]
@@ -603,7 +617,48 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    {
+                        "title": "Ku'lero Temple",
+                        "type": "tabbed",
+                        "tabs": [
+                          {
+                            "title": "GF",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_GF"]
+                            }
+                          },
+                          {
+                            "title": "U1",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_U1"]
+                            }
+                          },
+                          {
+                            "title": "U2",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_U2"]
+                            }
+                          },
+                          {
+                            "title": "U3",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_U3"]
+                            }
+                          },
+                          {
+                            "title": "U8",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_U8"]
+                            }
+                          }
+                        ]
+                      }
                   ]
                 },
                 {

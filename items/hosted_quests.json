@@ -394,5 +394,65 @@
     "name": "Maroon Tree Host",
     "type": "toggle",
     "codes": "MV-tree-done"
+  },
+  {
+    "name": "Beach Fight Host",
+    "type": "toggle",
+    "codes": "AA-beach"
+  },
+  {
+    "name": "Wrath of Goat Host",
+    "type": "toggle",
+    "codes": "BV-wrath"
+  },
+  {
+    "name": "Trial of Ascension Host",
+    "type": "toggle",
+    "codes": "BV-asc-trial"
+  },
+  {
+    "name": "Challenge of Ascension Host",
+    "type": "toggle",
+    "codes": "BV-asc-challenge"
+  },
+  {
+    "name": "Spritual Drinks Host",
+    "type": "toggle",
+    "codes": "MV-booze-3"
+  },
+  {
+    "name": "In Cawhoofs Host",
+    "type": "toggle",
+    "codes": "BK-cawhoofs"
+  },
+  {
+    "name": "Riches with Fridges Host",
+    "type": "toggle",
+    "codes": "BK-riches"
+  },
+  {
+    "name": "Lots and On the Run Host",
+    "type": "toggle",
+    "codes": "RS-run"
+  },
+  {
+    "name": "Trouble on the Highway Host",
+    "type": "toggle",
+    "codes": "RS-highway"
+  },
+  {
+    "name": "Tremors of the Past Host",
+    "type": "toggle",
+    "codes": "RS-tremor"
+  },
+  {
+    "name": "Wetter Work Host",
+    "type": "toggle",
+    "codes": "RH-smuggle-3"
+  },
+  {
+    "name": "Salty Detox Host",
+    "type": "toggle",
+    "codes": "BK-salty"
   }
 ]
