@@ -1686,10 +1686,10 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$BKEcalzone1, GG-mush-2",
-                            "$typeOneUp, GG-mush-2",
-                            "settingShopReceiveShops, basinCalzone, GG-mush-2",
-                            "settingShopReceiveOff, GG-mush-2"
+                            "$BKEcalzone1, has|pondPass",
+                            "$typeOneUp, has|pondPass",
+                            "settingShopReceiveShops, basinCalzone, has|pondPass",
+                            "settingShopReceiveOff, has|pondPass"
                         ],
                         "item_count": 1
                     },
@@ -1701,10 +1701,10 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$BKEcalzone1, GG-mush-2",
-                            "$typeOneUp, GG-mush-2",
-                            "settingShopReceiveShops, basinCalzone, GG-mush-2",
-                            "settingShopReceiveOff, GG-mush-2"
+                            "$BKEcalzone1, has|pondPass",
+                            "$typeOneUp, has|pondPass",
+                            "settingShopReceiveShops, basinCalzone, has|pondPass",
+                            "settingShopReceiveOff, has|pondPass"
                         ],
                         "item_count": 1
                     }

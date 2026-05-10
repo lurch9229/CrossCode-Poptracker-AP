@@ -1657,8 +1657,12 @@ end
 
 -- Rhombus Square Shops Reachable
 
-function RS()
+function RS_1()
   return region33() or regionOpen20()
+end
+
+function RS_2()
+  return RS_1() and has("settingDlcOn") and has("BV-wrath")
 end
 
 -- Vermillion Wasteland Shops Reachable
@@ -1667,116 +1671,131 @@ function VW()
   return (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
 end
 
+-- Homestedt Shops Reachable
+
+function HS_1()
+  return regionOpenDLC1() and has("settingDlcOn")
+end
+
+function HS_2()
+  return HS_1() and has("settingDlcOn") and regionOpenDLC_Beach()
+end
+
+-- Azure Archipelago Shops Reachable
+
+function AA()
+  return regionOpenDLC_Beach() and has("settingDlcOn")
+end
 
 -- Shop Send Type
 -- Shop Receive Off
 
 function sandwichOff()
-  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or RS_2() or HS_1()
 end
 
 function hiSandwichOff()
-  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or RS_2() or HS_1()
 end
 
 function greenTeaOff()
-  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or RS_2() or HS_1()
 end
 
 function justWaterOff()
-  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or RS_2() or HS_1()
 end
 
 function kebabOff()
-  return RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS()
+  return RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS_1() or HS_1()
 end
 
 function risottoOff()
-  return RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS()
+  return RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS_1() or HS_1()
 end
 
 function spicyBunOff()
-  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or HS_1()
 end
 
 function fruitDrinkOff()
-  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or HS_1()
 end
 
 function crackerOff()
-  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or HS_1()
 end
 
 function veggieSticksOff()
-  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or HS_1()
 end
 
 function iceCreamOff()
-  return RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS()
+  return RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS_1() or HS_1()
 end
 
 function lemonJuiceOff()
-  return RH_3() or BT() or BV_3() or BK_1() or BKE_1() or SR() or RS()
+  return RH_3() or BT() or BV_3() or BK_1() or BKE_1() or SR() or RS_1() or HS_1()
 end
 
 function coffeeOff()
-  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS()
+  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1() or HS_1()
 end
 
 function peanutsOff()
-  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS()
+  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1() or HS_1()
 end
 
 function snackMixOff()
-  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS()
+  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1() or HS_1()
 end
 
 function risingStarOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function dkPepperOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function maultascheOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function spaetzleOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function durianOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function pengoPopOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function beatZeroOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function werewolfOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function mooncakeOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function willisOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function pumpkinCoffeeOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function toastOff()
-  return RH_5() or RS()
+  return RH_5() or RS_1()
 end
 
 function sweetTeaOff()
@@ -1789,6 +1808,14 @@ end
 
 function oneUpOff()
   return BKE_2()
+end
+
+function goatCheeseOff()
+  return HS_2()
+end
+
+function goatMilkOff()
+  return HS_2()
 end
 
 function brHelmOff()
@@ -1812,11 +1839,15 @@ function tiHelmOff()
 end
 
 function coHelmOff()
-  return SR() or RS()
+  return SR() or RS_1()
 end
 
 function laHelmOff()
-  return RS()
+  return RS_1() or HS_1()
+end
+
+function crHelmOff()
+  return RS_1() or HS_2() or AA()
 end
 
 function brEdgeOff()
@@ -1840,11 +1871,15 @@ function tiEdgeOff()
 end
 
 function coEdgeOff()
-  return SR() or RS()
+  return SR() or RS_1()
 end
 
 function laEdgeOff()
-  return RS()
+  return RS_1() or HS_1()
+end
+
+function crEdgeOff()
+  return RS_1() or HS_2() or AA()
 end
 
 function brMailOff()
@@ -1868,11 +1903,15 @@ function tiMailOff()
 end
 
 function coMailOff()
-  return SR() or RS()
+  return SR() or RS_1()
 end
 
 function laMailOff()
-  return RS()
+  return RS_1() or HS_1()
+end
+
+function crMailOff()
+  return RS_1() or HS_2() or AA()
 end
 
 function brBootsOff()
@@ -1896,126 +1935,130 @@ function tiBootsOff()
 end
 
 function coBootsOff()
-  return SR() or RS()
+  return SR() or RS_1()
 end
 
 function laBootsOff()
-  return RS()
+  return RS_1() or HS_1()
+end
+
+function crBootsOff()
+  return RS_1() or HS_2() or AA()
 end
 
 function chestDetectorOff()
-  return RS()
+  return RS_1()
 end
 
 
 -- Shop Receive Type
 
 function sandwichType()
-  return typeSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+  return typeSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
 end
 
 function hiSandwichType()
-  return typeHiSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+  return typeHiSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
 end
 
 function greenTeaType()
-  return typeTea() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+  return typeTea() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
 end
 
 function justWaterType()
-  return typeWater() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+  return typeWater() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
 end
 
 function kebabType()
-  return typeKebab() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS())
+  return typeKebab() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS_1())
 end
 
 function risottoType()
-  return typeRisotto() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS())
+  return typeRisotto() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS_1())
 end
 
 function spicyBunType()
-  return typeBun() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+  return typeBun() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
 end
 
 function fruitDrinkType()
-  return typeFruit() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+  return typeFruit() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
 end
 
 function crackerType()
-  return typeCracker() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+  return typeCracker() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
 end
 
 function veggieSticksType()
-  return typeVeggie() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+  return typeVeggie() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
 end
 
 function iceCreamType()
-  return typeIcecream() and (RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS())
+  return typeIcecream() and (RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS_1())
 end
 
 function lemonJuiceType()
-  return typeLemonjuice() and (RH_3() or BT() or BV_3() or BK_1() or BKE_1() or SR() or RS())
+  return typeLemonjuice() and (RH_3() or BT() or BV_3() or BK_1() or BKE_1() or SR() or RS_1())
 end
 
 function coffeeType()
-  return typeCoffee() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS())
+  return typeCoffee() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1())
 end
 
 function peanutsType()
-  return typePeanuts() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS())
+  return typePeanuts() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1())
 end
 
 function snackMixType()
-  return typeMix() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS())
+  return typeMix() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1())
 end
 
 function risingStarType()
-  return typeRisingStar() and (RH_5() or RS())
+  return typeRisingStar() and (RH_5() or RS_1())
 end
 
 function dkPepperType()
-  return typePepper() and (RH_5() or RS())
+  return typePepper() and (RH_5() or RS_1())
 end
 
 function maultascheType()
-  return typeMaultasche() and (RH_5() or RS())
+  return typeMaultasche() and (RH_5() or RS_1())
 end
 
 function spaetzleType()
-  return typeSpaetzle() and (RH_5() or RS())
+  return typeSpaetzle() and (RH_5() or RS_1())
 end
 
 function durianType()
-  return typeDurian() and (RH_5() or RS())
+  return typeDurian() and (RH_5() or RS_1())
 end
 
 function pengoPopType()
-  return typePengo() and (RH_5() or RS())
+  return typePengo() and (RH_5() or RS_1())
 end
 
 function beatZeroType()
-  return typeBeatZero() and (RH_5() or RS())
+  return typeBeatZero() and (RH_5() or RS_1())
 end
 
 function werewolfType()
-  return typeWerewolf() and (RH_5() or RS())
+  return typeWerewolf() and (RH_5() or RS_1())
 end
 
 function mooncakeType()
-  return typeMooncake() and (RH_5() or RS())
+  return typeMooncake() and (RH_5() or RS_1())
 end
 
 function willisType()
-  return typeWillis() and (RH_5() or RS())
+  return typeWillis() and (RH_5() or RS_1())
 end
 
 function pumpkinCoffeeType()
-  return typePumpkin() and (RH_5() or RS())
+  return typePumpkin() and (RH_5() or RS_1())
 end
 
 function toastType()
-  return typeToast() and (RH_5() or RS())
+  return typeToast() and (RH_5() or RS_1())
 end
 
 function sweetTeaType()
@@ -2051,11 +2094,11 @@ function tiHelmType()
 end
 
 function coHelmType()
-  return typeCoHelm() and (SR() or RS())
+  return typeCoHelm() and (SR() or RS_1())
 end
 
 function laHelmType()
-  return typeLaHelm() and (RS())
+  return typeLaHelm() and (RS_1())
 end
 
 function brEdgeType()
@@ -2079,11 +2122,11 @@ function tiEdgeType()
 end
 
 function coEdgeType()
-  return typeCoEdge() and (SR() or RS())
+  return typeCoEdge() and (SR() or RS_1())
 end
 
 function laEdgeType()
-  return typeLaEdge() and (RS())
+  return typeLaEdge() and (RS_1())
 end
 
 function brMailType()
@@ -2107,11 +2150,11 @@ function tiMailType()
 end
 
 function coMailType()
-  return typeCoMail() and (SR() or RS())
+  return typeCoMail() and (SR() or RS_1())
 end
 
 function laMailType()
-  return typeLaMail() and (RS())
+  return typeLaMail() and (RS_1())
 end
 
 function brBootsType()
@@ -2135,15 +2178,15 @@ function tiBootsType()
 end
 
 function coBootsType()
-  return typeCoBoots() and (SR() or RS())
+  return typeCoBoots() and (SR() or RS_1())
 end
 
 function laBootsType()
-  return typeLaBoots() and (RS())
+  return typeLaBoots() and (RS_1())
 end
 
 function chestDetectorType()
-  return typeDetector() and (RS())
+  return typeDetector() and (RS_1())
 end
 
 -- Shop Receive Shop
@@ -2156,7 +2199,7 @@ function sandwichShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())    or
+         (has("rhombusItemShop") and RS_1())    or
          (has("vermillionItemShop") and VW())
 end
 
@@ -2167,7 +2210,7 @@ function hiSandwichShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())    or
+         (has("rhombusItemShop") and RS_1())    or
          (has("vermillionItemShop") and VW())
 end
 
@@ -2178,7 +2221,7 @@ function greenTeaShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())    or
+         (has("rhombusItemShop") and RS_1())    or
          (has("vermillionItemShop") and VW())
 end
 
@@ -2189,7 +2232,7 @@ function justWaterShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())    or
+         (has("rhombusItemShop") and RS_1())    or
          (has("vermillionItemShop") and VW())
 end
 
@@ -2200,7 +2243,7 @@ function kebabShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())
+         (has("rhombusItemShop") and RS_1())
 end
 
 function risottoShop()
@@ -2210,7 +2253,7 @@ function risottoShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())
+         (has("rhombusItemShop") and RS_1())
 end
 
 function spicyBunShop()
@@ -2220,7 +2263,7 @@ function spicyBunShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())    or
+         (has("rhombusItemShop") and RS_1())    or
          (has("vermillionItemShop") and VW())
 end
 
@@ -2231,7 +2274,7 @@ function fruitDrinkShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())    or
+         (has("rhombusItemShop") and RS_1())    or
          (has("vermillionItemShop") and VW())
 end
 
@@ -2242,7 +2285,7 @@ function crackerShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())    or
+         (has("rhombusItemShop") and RS_1())    or
          (has("vermillionItemShop") and VW())
 end
 
@@ -2253,7 +2296,7 @@ function veggieSticksShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())    or
+         (has("rhombusItemShop") and RS_1())    or
          (has("vermillionItemShop") and VW())
 end
 
@@ -2264,7 +2307,7 @@ function iceCreamShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())
+         (has("rhombusItemShop") and RS_1())
 end
 
 function lemonJuiceShop()
@@ -2275,7 +2318,7 @@ function lemonJuiceShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())
+         (has("rhombusItemShop") and RS_1())
 end
 
 function coffeeShop()
@@ -2285,7 +2328,7 @@ function coffeeShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())
+         (has("rhombusItemShop") and RS_1())
 end
 
 function peanutsShop()
@@ -2295,7 +2338,7 @@ function peanutsShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())
+         (has("rhombusItemShop") and RS_1())
 end
 
 function snackMixShop()
@@ -2305,67 +2348,67 @@ function snackMixShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS())
+         (has("rhombusItemShop") and RS_1())
 end
 
 function risingStarShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function dkPepperShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function maultascheShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function spaetzleShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function durianShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function pengoPopShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function beatZeroShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function werewolfShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function mooncakeShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function willisShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function pumpkinCoffeeShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function toastShop()
   return (has("rookieBackerChef") and RH_5()) or
-         (has("rhombusChef") and RS())
+         (has("rhombusChef") and RS_1())
 end
 
 function sweetTeaShop()
@@ -2410,11 +2453,11 @@ end
 
 function coHelmShop()
   return (has("sapphireWeaponShop") and SR()) or
-         (has("rhombusWeaponShop") and RS())
+         (has("rhombusWeaponShop") and RS_1())
 end
 
 function laHelmShop()
-  return (has("rhombusWeaponShop") and RS())
+  return (has("rhombusWeaponShop") and RS_1())
 end
 
 function brEdgeShop()
@@ -2447,11 +2490,11 @@ end
 
 function coEdgeShop()
   return (has("sapphireWeaponShop") and SR()) or
-         (has("rhombusWeaponShop") and RS())
+         (has("rhombusWeaponShop") and RS_1())
 end
 
 function laEdgeShop()
-  return (has("rhombusWeaponShop") and RS())
+  return (has("rhombusWeaponShop") and RS_1())
 end
 
 function brMailShop()
@@ -2484,11 +2527,11 @@ end
 
 function coMailShop()
   return (has("sapphireWeaponShop") and SR()) or
-         (has("rhombusWeaponShop") and RS())
+         (has("rhombusWeaponShop") and RS_1())
 end
 
 function laMailShop()
-  return (has("rhombusWeaponShop") and RS())
+  return (has("rhombusWeaponShop") and RS_1())
 end
 
 function brBootsShop()
@@ -2521,15 +2564,15 @@ end
 
 function coBootsShop()
   return (has("sapphireWeaponShop") and SR()) or
-         (has("rhombusWeaponShop") and RS())
+         (has("rhombusWeaponShop") and RS_1())
 end
 
 function laBootsShop()
-  return (has("rhombusWeaponShop") and RS())
+  return (has("rhombusWeaponShop") and RS_1())
 end
 
 function chestDetectorShop()
-  return (has("rhombusCurio") and RS())
+  return (has("rhombusCurio") and RS_1())
 end
 
 -- Shop Receive Slot
@@ -2542,7 +2585,7 @@ function sandwichSlot()
          (BKEvendor1() and BKE_1()) or
          (BKEitem1() and BKE_1())   or
          (SRitem1() and SR())       or
-         (RSitem1() and RS())       or
+         (RSitem1() and RS_1())       or
          (VWitem1() and VW())
 end
 
@@ -2553,7 +2596,7 @@ function hiSandwichSlot()
          (BKEvendor2() and BKE_1()) or
          (BKEitem2() and BKE_1())   or
          (SRitem2() and SR())       or
-         (RSitem2() and RS())       or
+         (RSitem2() and RS_1())       or
          (VWitem2() and VW())
 end
 
@@ -2564,7 +2607,7 @@ function greenTeaSlot()
          (BKEvendor3() and BKE_1()) or
          (BKEitem3() and BKE_1())   or
          (SRitem3() and SR())       or
-         (RSitem3() and RS())       or
+         (RSitem3() and RS_1())       or
          (VWitem3() and VW())
 end
 
@@ -2575,7 +2618,7 @@ function justWaterSlot()
          (BKEvendor4() and BKE_1()) or
          (BKEitem4() and BKE_1())   or
          (SRitem4() and SR())       or
-         (RSitem4() and RS())       or
+         (RSitem4() and RS_1())       or
          (VWitem4() and VW())
 end
 
@@ -2586,7 +2629,7 @@ function kebabSlot()
          (BKEvendor5() and BKE_1()) or
          (BKEitem5() and BKE_1())   or
          (SRitem5() and SR())       or
-         (RSitem5() and RS())
+         (RSitem5() and RS_1())
 end
 
 function risottoSlot()
@@ -2596,7 +2639,7 @@ function risottoSlot()
          (BKEvendor6() and BKE_1()) or
          (BKEitem6() and BKE_1())   or
          (SRitem6() and SR())       or
-         (RSitem6() and RS())
+         (RSitem6() and RS_1())
 end
 
 function spicyBunSlot()
@@ -2606,7 +2649,7 @@ function spicyBunSlot()
          (BKEvendor7() and BKE_1()) or
          (BKEitem7() and BKE_1())   or
          (SRitem7() and SR())       or
-         (RSitem7() and RS())       or
+         (RSitem7() and RS_1())       or
          (VWitem5() and VW())
 end
 
@@ -2617,7 +2660,7 @@ function fruitDrinkSlot()
          (BKEvendor8() and BKE_1()) or
          (BKEitem8() and BKE_1())   or
          (SRitem8() and SR())       or
-         (RSitem8() and RS())       or
+         (RSitem8() and RS_1())       or
          (VWitem6() and VW())
 end
 
@@ -2628,7 +2671,7 @@ function crackerSlot()
          (BKEvendor9() and BKE_1()) or
          (BKEitem9() and BKE_1())   or
          (SRitem9() and SR())       or
-         (RSitem9() and RS())       or
+         (RSitem9() and RS_1())       or
          (VWitem7() and VW())
 end
 
@@ -2639,7 +2682,7 @@ function veggieSticksSlot()
          (BKEvendor10() and BKE_1()) or
          (BKEitem10() and BKE_1())   or
          (SRitem10() and SR())       or
-         (RSitem10() and RS())       or
+         (RSitem10() and RS_1())       or
          (VWitem8() and VW())
 end
 
@@ -2650,7 +2693,7 @@ function iceCreamSlot()
          (BKEvendor11() and BKE_1()) or
          (BKEitem11() and BKE_1())   or
          (SRitem11() and SR())       or
-         (RSitem11() and RS())
+         (RSitem11() and RS_1())
 end
 
 function lemonJuiceSlot()
@@ -2661,7 +2704,7 @@ function lemonJuiceSlot()
          (BKEvendor12() and BKE_1()) or
          (BKEitem12() and BKE_1())   or
          (SRitem12() and SR())       or
-         (RSitem12() and RS())
+         (RSitem12() and RS_1())
 end
 
 function coffeeSlot()
@@ -2671,7 +2714,7 @@ function coffeeSlot()
          (BKEvendor13() and BKE_1()) or
          (BKEitem13() and BKE_1())   or
          (SRitem13() and SR())       or
-         (RSitem13() and RS())
+         (RSitem13() and RS_1())
 end
 
 function peanutsSlot()
@@ -2681,7 +2724,7 @@ function peanutsSlot()
          (BKEvendor14() and BKE_1()) or
          (BKEitem14() and BKE_1())   or
          (SRitem14() and SR())       or
-         (RSitem14() and RS())
+         (RSitem14() and RS_1())
 end
 
 function snackMixSlot()
@@ -2691,67 +2734,67 @@ function snackMixSlot()
          (BKEvendor15() and BKE_1()) or
          (BKEitem15() and BKE_1())   or
          (SRitem15() and SR())       or
-         (RSitem15() and RS())
+         (RSitem15() and RS_1())
 end
 
 function risingStarSlot()
   return (RHchef1() and RH_5()) or
-         (RSchef1() and RS())
+         (RSchef1() and RS_1())
 end
 
 function dkPepperSlot()
   return (RHchef2() and RH_5()) or
-         (RSchef2() and RS())
+         (RSchef2() and RS_1())
 end
 
 function maultascheSlot()
   return (RHchef3() and RH_5()) or
-         (RSchef3() and RS())
+         (RSchef3() and RS_1())
 end
 
 function spaetzleSlot()
   return (RHchef4() and RH_5()) or
-         (RSchef4() and RS())
+         (RSchef4() and RS_1())
 end
 
 function durianSlot()
   return (RHchef5() and RH_5()) or
-         (RSchef5() and RS())
+         (RSchef5() and RS_1())
 end
 
 function pengoPopSlot()
   return (RHchef6() and RH_5()) or
-         (RSchef6() and RS())
+         (RSchef6() and RS_1())
 end
 
 function beatZeroSlot()
   return (RHchef7() and RH_5()) or
-         (RSchef7() and RS())
+         (RSchef7() and RS_1())
 end
 
 function werewolfSlot()
   return (RHchef8() and RH_5()) or
-         (RSchef8() and RS())
+         (RSchef8() and RS_1())
 end
 
 function mooncakeSlot()
   return (RHchef9() and RH_5()) or
-         (RSchef9() and RS())
+         (RSchef9() and RS_1())
 end
 
 function willisSlot()
   return (RHchef10() and RH_5()) or
-         (RSchef10() and RS())
+         (RSchef10() and RS_1())
 end
 
 function pumpkinCoffeeSlot()
   return (RHchef11() and RH_5()) or
-         (RSchef11() and RS())
+         (RSchef11() and RS_1())
 end
 
 function toastSlot()
   return (RHchef12() and RH_5()) or
-         (RSchef12() and RS())
+         (RSchef12() and RS_1())
 end
 
 function sweetTeaSlot()
@@ -2796,11 +2839,11 @@ end
 
 function coHelmSlot()
   return (SRweapon2() and SR()) or
-         (RSweapon1() and RS())
+         (RSweapon1() and RS_1())
 end
 
 function laHelmSlot()
-  return (RSweapon2() and RS())
+  return (RSweapon2() and RS_1())
 end
 
 function brEdgeSlot()
@@ -2833,11 +2876,11 @@ end
 
 function coEdgeSlot()
   return (SRweapon4() and SR()) or
-         (RSweapon3() and RS())
+         (RSweapon3() and RS_1())
 end
 
 function laEdgeSlot()
-  return (RSweapon4() and RS())
+  return (RSweapon4() and RS_1())
 end
 
 function brMailSlot()
@@ -2870,11 +2913,11 @@ end
 
 function coMailSlot()
   return (SRweapon6() and SR()) or
-         (RSweapon5() and RS())
+         (RSweapon5() and RS_1())
 end
 
 function laMailSlot()
-  return (RSweapon6() and RS())
+  return (RSweapon6() and RS_1())
 end
 
 function brBootsSlot()
@@ -2907,15 +2950,15 @@ end
 
 function coBootsSlot()
   return (SRweapon8() and SR()) or
-         (RSweapon7() and RS())
+         (RSweapon7() and RS_1())
 end
 
 function laBootsSlot()
-  return (RSweapon8() and RS())
+  return (RSweapon8() and RS_1())
 end
 
 function chestDetectorSlot()
-  return (RScurio1() and RS())
+  return (RScurio1() and RS_1())
 end
 
 
@@ -2984,20 +3027,70 @@ function PointsOfPower()
   return ItCanDigButItCantHide and has("RH-hillkat") and has("eleHeat") and has("eleCold") and has("flameShade")
 end
 
--- Shop Types Global Handler
 
--- function ReplaceShopMapping()
---   local shop_option = Tracker:FindObjectForCode("<shop_option>").Active
---   if shop_option then -- == true\
---     LOCATION_MAPPING[<ID here>] = {@location1, @location2, ....}
---     LOCATION_MAPPING[<other ID here>] = {@location1, @location2, ....}
---     LOCATION_MAPPING[<more other ID here>] = {@location1, @location2, ....}
---   else 
---     LOCATION_MAPPING[<ID here>] = {@location1}
---     LOCATION_MAPPING[<other ID here>] = {@location2}
---     LOCATION_MAPPING[<more other ID here>] = {....}
---   end
--- end
 
--- ScriptHost:AddWatchForCode("<shop_option> Change", "<shop_option>", ReplaceShopMapping)
+-- DLC Logic
 
+function regionOpenDLC1()
+  return regionOpen3() and has("guildPass")
+end
+
+function regionOpenDLC_Beach()
+  return regionOpen20() and has("azurePass")
+end
+
+function regionOpenDLC_DungeonEntry()
+  return regionOpen16_1() and has("ancientShade")
+end
+
+function regionOpenDLC_DungeonEntry_1F()
+  return regionOpenDLC_DungeonEntry() and has("eleWave") and has("kuleroKey", 3)
+end
+
+function regionOpenDLC_DungeonEntry_1L()
+  return regionOpenDLC_DungeonEntry() and has("kuleroKey", 3)
+end
+
+function regionOpenDLC_DungeonEntry_1R()
+  return regionOpenDLC_DungeonEntry() and (has("eleWave") and has("kuleroKey", 2) or (has("kuleroKey", 3)))
+end
+
+function regionOpenDLC_DungeonGF_R()
+  return regionOpenDLC_DungeonEntry() and has("eleHeat") and has("eleCold") and has("eleShock")
+end
+
+function regionOpenDLC_DungeonGF_L()
+  return regionOpenDLC_DungeonEntry() and has("eleHeat") and has("eleCold") and has("eleWave")
+end
+
+function regionOpenDLC_DungeonMain()
+  return regionOpenDLC_DungeonGF_R() or regionOpenDLC_DungeonGF_L()
+end
+
+function regionOpenDLC_DungeonU2_R()
+  return regionOpenDLC_DungeonMain() and has("eleHeat") and has("eleCold") and has("eleShock")
+end
+
+function regionOpenDLC_DungeonU2_R_1()
+  return regionOpenDLC_DungeonU2_R() and has("eleWave")
+end
+
+function regionOpenDLC_DungeonU2_L()
+  return regionOpenDLC_DungeonMain() and has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave")
+end
+
+function regionOpenDLC_DungeonU2_L_1()
+  return regionOpenDLC_DungeonU2_L() and has("kuleroKey", 3)
+end
+
+function regionOpenDLC_DungeonU3_L()
+  return regionOpenDLC_DungeonMain() and has("eleHeat") and has("eleCold") and has("eleShock")
+end
+
+function regionOpenDLC_DungeonU3_R()
+  return regionOpenDLC_DungeonMain() and has("eleWave") and has("eleShock")
+end
+
+function regionOpenDLC_DungeonBoss()
+  return regionOpenDLC_DungeonMain() and has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and has("kuleroMaster")
+end

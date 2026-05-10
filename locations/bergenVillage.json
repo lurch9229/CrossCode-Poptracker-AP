@@ -348,8 +348,8 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat, $region10",
-                            "eleHeat, $regionOpen4_7"
+                            "eleHeat, $region10|mineDetect",
+                            "eleHeat, $regionOpen4_7 $has|mineDetect"
                         ],
                         "item_count": 1
                     },

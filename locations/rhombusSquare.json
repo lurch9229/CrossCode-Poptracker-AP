@@ -116,13 +116,13 @@
                 ]
             },
             {
-                "name": "Rhombus Square - South Arch",
+                "name": "Rhombus Square - South Arch Right",
                 "chest_unopened_img": "images/icons/chest_gold_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 339,
+                        "x": 461,
                         "y": 530
                     }
                 ],
@@ -150,7 +150,7 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 461,
+                        "x": 594,
                         "y": 530
                     }
                 ],
@@ -1437,8 +1437,8 @@
                         "name": "Rhombus Square - Garden Boulevard South - Silver Chest"
                     },
                     {
-                        "ref": "Rhombus Square - South Arch/Gold Chest",
-                        "name": "Rhombus Square - South Arch - Gold Chest"
+                        "ref": "Rhombus Square - South Arch Right/Gold Chest",
+                        "name": "Rhombus Square - South Arch Right - Gold Chest"
                     },
                     {
                         "ref": "Rhombus Square - Lloyd Passage/Silver Chest",

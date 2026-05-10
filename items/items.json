@@ -385,6 +385,25 @@
     "type": "toggle",
     "img": "images/items/chakram.png",
     "codes": "brokenChakram"
+  },  
+  {
+    "name": "DLC",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/.png",
+        "codes": "op_DLC,settingDlcOff"
+      },
+      {
+        "img": "images/settings/.png",
+        "codes": "op_DLC,settingDlcOn",
+        "inherit_codes": false
+      }
+      
+    ]
   },
   {
     "name": "Open Mode",
