@@ -408,6 +408,7 @@
   {
     "name": "VT Gate",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -435,6 +436,7 @@
   {
     "name": "Quest Shuffle",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -452,6 +454,7 @@
   {
     "name": "Rhombus Hub",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -469,6 +472,7 @@
   {
     "name": "Closed Gaia's Garden",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -491,6 +495,7 @@
   {
     "name": "Dungeon Keyrings",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -508,6 +513,7 @@
   {
     "name": "Vermillion Wasteland Lock",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -593,6 +599,24 @@
     ]
   },
   {
+    "name": "Botanity",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/botanityOff.png",
+        "codes": "op_B,settingBotanityOff"
+      },
+      {
+        "img": "images/settings/botanityOn.png",
+        "codes": "op_B,settingBotanityOn",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Goal",
     "type": "progressive",
     "initial_stage_idx": 0,
@@ -611,6 +635,11 @@
       {
         "img": "images/settings/goalObservatory.png",
         "codes": "op_G,settingGoalObservatory",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/goalDiorbis.png",
+        "codes": "op_G,settingGoalDiorbis",
         "inherit_codes": false
       }
     ]
@@ -2144,7 +2173,8 @@
   {
     "name": "Shiny Orb",
     "type": "toggle",
-    "codes": "shinyOrb"
+    "codes": "shinyOrb",
+    "img": "images/items/shinyOrb.png"
   },
   {
     "name": "Auto Tab Switching",
@@ -2431,5 +2461,79 @@
     "type": "toggle",
     "img": "images/food/GoatMilk.png",
     "codes": "goatMilk"
+  },
+  {
+    "name": "Azure Archipelago Pass",
+    "type": "toggle",
+    "img": "images/items/azurePass.png",
+    "codes": "azurePass"
+  },
+  {
+    "name": "Macguffin Coin",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/mcCoin.png",
+    "overlay_background": "#000",
+    "max_quantity": 3,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false,
+    "codes": "mcCoin"
+  },
+  {
+    "name": "Everlasting Amber",
+    "type": "toggle",
+    "img": "images/items/everAmber.png",
+    "codes": "everAmber"
+  },
+  {
+    "name": "Tremor Engine",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/tremorEngine.png",
+    "overlay_background": "#000",
+    "max_quantity": 4,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false,
+    "codes": "tremorEngine"
+  },
+  {
+    "name": "Humming Razor",
+    "type": "toggle",
+    "img": "images/items/hummingRazor.png",
+    "codes": "hummingRazor"
+  },
+  {
+    "name": "Ku'lero Temple Label",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/kuleroLabel.png",
+    "codes": "kuleroLabel"
+  },
+  {
+    "name": "Ku'lero Master Key",
+    "type": "toggle",
+    "img": "images/dungeons/ccMkey.png",
+    "codes": "kuleroMaster",
+    "swap_actions": false
+  },
+  {
+    "name": "Ku'lero Key",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/dungeons/ccKey.png",
+    "overlay_background": "#000",
+    "codes": "kuleroKey",
+    "max_quantity": 3,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Mine Detector",
+    "type": "toggle",
+    "img": "images/items/mineDetect.png",
+    "codes": "mineDetect"
   }
 ]

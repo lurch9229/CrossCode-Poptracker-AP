@@ -151,14 +151,9 @@ function onClear(slot_data)
     end
 
     if slot_data['options']['questRando'] then
-        local obj = Tracker:FindObjectForCode("op_QS")
-        if obj then
-            if slot_data['options']['questRando'] == true then
-                obj.CurrentStage = 1
-            else
-                obj.CurrentStage = 0
-            end
-        end
+        Tracker:FindObjectForCode("op_QS").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_QS").CurrentStage = 0
     end
 
     if slot_data['mode'] then
@@ -170,7 +165,7 @@ function onClear(slot_data)
     end
 
     if slot_data['options']["keyrings"] then 
-        if slot_data['options']["keyrings"][1] ~= nil then 
+        if slot_data['options']["keyrings"][1] ~= nil then
             Tracker:FindObjectForCode("op_KR").CurrentStage = 1
         else
             Tracker:FindObjectForCode("op_KR").CurrentStage = 0
@@ -179,19 +174,19 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_KR").CurrentStage = 0
     end
 
-    if slot_data['options']["meteorPassage"] then 
+    if slot_data['options']["meteorPassage"] then
         Tracker:FindObjectForCode("op_VW").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_VW").CurrentStage = 0
     end
 
-    if slot_data['options']["chestClearanceLevels"] then 
+    if slot_data['options']["chestClearanceLevels"] then
         Tracker:FindObjectForCode("op_CL").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_CL").CurrentStage = 0
     end
 
-    if slot_data['options']["rhombusHubUnlock"] then 
+    if slot_data['options']["rhombusHubUnlock"] then
         Tracker:FindObjectForCode("op_RH").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RH").CurrentStage = 0

@@ -8,12 +8,13 @@
     "rows": 
     [
       ["eleHeat","eleCold","eleShock","eleWave","spUpgrade"],
-      ["sandShade","flameShade","iceShade","boltShade", "guildPass"],
-      ["leafShade","dropShade","seedShade","starShade","meteorShade"],
-      ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
-      ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"],
-      ["gaiaWest", "gaiaEast", "", "", ""],
-      ["brokenGauntlet", "brokenShield", "brokenSword", "brokenDeck", "brokenChakram"]
+      ["leafShade","iceShade","sandShade","flameShade","seedShade"],
+      ["boltShade","dropShade","starShade","meteorShade","ancientShade"],
+      ["insightDisc","floraDisc","thiefKey", "whiteKey","radiantKey"],
+      ["minePass","maroonPass","cursedCoin","pondPass","dojoKey"],
+      ["mineDetect","guildPass","gaiaWest","gaiaEast","azurePass"],
+      ["brokenGauntlet","brokenShield","brokenSword","brokenDeck","brokenChakram"],
+      ["shinyOrb","mcCoin","everAmber","tremorEngine","hummingRazor"]
     ]
   },
 
@@ -191,6 +192,37 @@
             "margin": "-7,-64,-2,-12"
           }
         ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kuleroLabel"]
+            ],
+            "item_size": 105,
+            "margin": "-2,-14,0,-70"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kuleroKey"]
+            ],
+            "item_size": 30,
+            "margin": "0,-15,0,-70"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kuleroMaster"]
+            ],
+            "item_size": 30,
+            "margin": "-7,-15,-2,-70"
+          }
+        ]
       }
     ]
   },
@@ -207,7 +239,7 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["settingOpenModeOpen"]
+              ["op_OM"]
             ],
             "item_size": 100,
             "margin": "-2,2"
@@ -215,7 +247,7 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["settingVTGateOpen"]
+              ["op_VT"]
             ],
             "item_size": 100,
             "margin": "-2,2,-2,-12"
@@ -223,7 +255,7 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["settingQuestShuffleOff"]
+              ["op_QS"]
             ],
             "item_size": 102,
             "margin": "-214,35,-2,-12"
@@ -231,7 +263,7 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["settingKeyringsOff"]
+              ["op_KR"]
             ],
             "item_size": 90,
             "margin": "-5,35,-2,-12"
@@ -255,7 +287,7 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["vwLockOff"]
+              ["op_VW"]
             ],
             "item_size": 95,
             "margin": "-210,100,-2,-12"
@@ -295,10 +327,18 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["auto_tab"]
+              ["op_B"]
             ],
             "item_size": 95,
             "margin": "-5,175,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["auto_tab"]
+            ],
+            "item_size": 95,
+            "margin": "-200,216,-2,-12"
           }
         ]
       }
@@ -668,6 +708,11 @@
                     "type": "layout",
                     "key": "shop_layout"
                   }
+                },
+                {
+                  "title": "Botanics",
+                  "type":"map",
+                  "maps": ["Botanics_Map"]
                 }
               ]
             }

@@ -214,6 +214,12 @@
     "location_size": 20,
     "location_border_thickness": 3,
     "img": "images/maps/Kulero_U8.png"
+  },
+  {
+    "name": "Botanics_Map",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Botanics_Map3.png"
   }
 ]
 

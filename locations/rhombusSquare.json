@@ -10,8 +10,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 60,
-                        "y": 180
+                        "x": 285, 
+                        "y": 422  
                     }
                 ],
                 "access_rules": [
@@ -38,8 +38,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 300,
-                        "y": 180
+                        "x": 505,
+                        "y": 408
                     }
                 ],
                 "access_rules": [
@@ -66,8 +66,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 413,
-                        "y": 85
+                        "x": 600,
+                        "y": 310
                     }
                 ],
                 "access_rules": [
@@ -94,8 +94,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 490,
-                        "y": 259
+                        "x": 685,
+                        "y": 481
                     }
                 ],
                 "access_rules": [
@@ -122,8 +122,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 247,
-                        "y": 320
+                        "x": 339,
+                        "y": 530
                     }
                 ],
                 "access_rules": [
@@ -150,8 +150,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 385,
-                        "y": 326
+                        "x": 461,
+                        "y": 530
                     }
                 ],
                 "access_rules": [
@@ -178,8 +178,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 72,
-                        "y": 532
+                        "x": 301,
+                        "y": 723
                     }
                 ],
                 "access_rules": [
@@ -206,8 +206,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 250,
-                        "y": 618
+                        "x": 457,
+                        "y": 808
                     }
                 ],
                 "access_rules": [
@@ -234,8 +234,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 390,
-                        "y": 366
+                        "x": 597,
+                        "y": 565
                     }
                 ],
                 "access_rules": [
@@ -262,8 +262,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 617,
-                        "y": 122
+                        "x": 805,
+                        "y": 335
                     }
                 ],
                 "access_rules": [
@@ -730,8 +730,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 647,
-                        "y": 122
+                        "x": 835,
+                        "y": 335
                     }
                 ],
                 "access_rules": [
@@ -1108,8 +1108,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 743,
-                        "y": 122
+                        "x": 925,
+                        "y": 335
                     }
                 ],
                 "access_rules": [
@@ -1366,8 +1366,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 866,
-                        "y": 122
+                        "x": 1036,
+                        "y": 335
                     }
                 ],
                 "access_rules": [
