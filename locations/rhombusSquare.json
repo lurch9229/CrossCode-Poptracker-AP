@@ -235,7 +235,8 @@
                     {
                         "map": "Rhombus_Square",
                         "x": 597,
-                        "y": 565
+                        "y": 565,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -263,7 +264,8 @@
                     {
                         "map": "Rhombus_Square",
                         "x": 805,
-                        "y": 335
+                        "y": 335,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -731,7 +733,8 @@
                     {
                         "map": "Rhombus_Square",
                         "x": 835,
-                        "y": 335
+                        "y": 335,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1109,7 +1112,8 @@
                     {
                         "map": "Rhombus_Square",
                         "x": 925,
-                        "y": 335
+                        "y": 335,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1367,7 +1371,8 @@
                     {
                         "map": "Rhombus_Square",
                         "x": 1036,
-                        "y": 335
+                        "y": 335,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1743,8 +1748,9 @@
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 279,
-                        "y": 254
+                        "x": 280,
+                        "y": 253,
+                        "shape": "diamond"
                     }
                 ]
             }

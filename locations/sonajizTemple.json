@@ -347,7 +347,8 @@
                     {
                         "map": "Sonajiz_Temple",
                         "x": 133,
-                        "y": 258
+                        "y": 258,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -375,7 +376,8 @@
                     {
                         "map": "Sonajiz_Temple",
                         "x": 55,
-                        "y": 140
+                        "y": 140,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -479,7 +481,8 @@
                     {
                         "map": "WorldMap",
                         "x": 250,
-                        "y": 83
+                        "y": 83,
+                        "shape": "trapezoid"
                     }
                 ]
             }

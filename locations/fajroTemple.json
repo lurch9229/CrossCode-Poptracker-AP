@@ -543,7 +543,8 @@
                     {
                         "map": "Fajro_Temple_4F",
                         "x": 215,
-                        "y": 125
+                        "y": 125,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -620,7 +621,8 @@
                     {
                         "map": "Fajro_Temple_2F",
                         "x": 325,
-                        "y": 121
+                        "y": 121,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -749,7 +751,8 @@
                     {
                         "map": "WorldMap",
                         "x": 110,
-                        "y": 123
+                        "y": 123,
+                        "shape": "trapezoid"
                     }
                 ]
             }

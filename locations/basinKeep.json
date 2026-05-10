@@ -120,8 +120,8 @@
                 "map_locations": [
                     {
                         "map": "Basin_Keep",
-                        "x": 710,
-                        "y": 415
+                        "x": 750,
+                        "y": 400
                     }
                 ],
                 "access_rules": [
@@ -140,7 +140,24 @@
                             "$newLock|3235824302|radiantKey"
                         ],
                         "item_count": 1
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Basin Keep - Police HQ",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 700,
+                        "y": 415,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "access_rules": [
+                    "$region23",
+                    "$regionOpen10"
+                ],
+                "sections": [
                     {
                         "name": "Hostage Situation",
                         "chest_unopened_img": "images/icons/quest_open.png",
@@ -203,7 +220,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 1455,
-                        "y": 460
+                        "y": 460,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -231,7 +249,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 1370,
-                        "y": 230
+                        "y": 230,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -260,7 +279,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 305,
-                        "y": 530
+                        "y": 530,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -298,7 +318,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 535,
-                        "y": 590
+                        "y": 590,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -336,7 +357,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 870,
-                        "y": 415
+                        "y": 415,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -374,7 +396,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 860,
-                        "y": 610
+                        "y": 610,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -403,7 +426,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 90,
-                        "y": 385
+                        "y": 385,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -431,7 +455,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 820,
-                        "y": 142
+                        "y": 142,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -460,7 +485,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 950,
-                        "y": 230
+                        "y": 230,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1168,12 +1194,14 @@
                     {
                         "map": "Basin_Keep",
                         "x": 1050,
-                        "y": 450
+                        "y": 450,
+                        "shape": "diamond"
                     },
                     {
                         "map": "Basin_Keep",
                         "x": 565,
-                        "y": 685
+                        "y": 685,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1641,7 +1669,8 @@
                     {
                         "map": "Basin_Keep",
                         "x": 1330,
-                        "y": 230
+                        "y": 230,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -2082,7 +2111,8 @@
                     {
                         "map": "WorldMap",
                         "x": 279,
-                        "y": 112
+                        "y": 112,
+                        "shape": "diamond"
                     }
                 ]
             }

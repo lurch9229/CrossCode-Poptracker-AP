@@ -263,7 +263,8 @@
                     {
                         "map": "Grand_Kryskajo",
                         "x": 242,
-                        "y": 75
+                        "y": 75,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -364,7 +365,8 @@
                     {
                         "map": "WorldMap",
                         "x": 279,
-                        "y": 73
+                        "y": 73,
+                        "shape": "trapezoid"
                     }
                 ]
             }

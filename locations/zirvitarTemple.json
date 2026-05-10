@@ -151,7 +151,8 @@
                     {
                         "map": "Zirvitar_Temple",
                         "x": 682,
-                        "y": 202
+                        "y": 202,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -179,7 +180,8 @@
                     {
                         "map": "Zirvitar_Temple",
                         "x": 711,
-                        "y": 57
+                        "y": 57,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -255,7 +257,8 @@
                     {
                         "map": "WorldMap",
                         "x": 309,
-                        "y": 83
+                        "y": 83,
+                        "shape": "trapezoid"
                     }
                 ]
             }

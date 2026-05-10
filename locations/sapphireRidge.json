@@ -683,7 +683,8 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 615,
-                        "y": 1298
+                        "y": 1298,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -1103,7 +1104,8 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 803,
-                        "y": 272
+                        "y": 272,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -1271,7 +1273,8 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 158,
-                        "y": 1050
+                        "y": 1050,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -1299,7 +1302,8 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 224,
-                        "y": 840
+                        "y": 840,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -1327,7 +1331,8 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 30,
-                        "y": 1090
+                        "y": 1090,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -1355,7 +1360,8 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 660,
-                        "y": 1050
+                        "y": 1050,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1613,7 +1619,8 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 560,
-                        "y": 1050
+                        "y": 1050,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [

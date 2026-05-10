@@ -991,7 +991,8 @@
                     {
                         "map": "Maroon_Valley",
                         "x": 655,
-                        "y": 65
+                        "y": 65,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [

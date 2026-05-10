@@ -341,7 +341,8 @@
                     {
                         "map": "Vermillion_Wasteland",
                         "x": 588,
-                        "y": 337
+                        "y": 337,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -844,7 +845,8 @@
                     {
                         "map": "Vermillion_Wasteland",
                         "x": 758,
-                        "y": 85
+                        "y": 85,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [

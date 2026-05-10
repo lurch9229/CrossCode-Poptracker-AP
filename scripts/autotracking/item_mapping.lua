@@ -76,6 +76,8 @@ ITEM_MAPPING =
 [3235824556] = {"largeEmber", "toggle"}, -- Very Large Ember, progression
 [3235824597] = {"oldBlueprint", "toggle"}, -- Old Blueprint, progressive
 [3235824615] = {"brokenChakram", "toggle"}, -- Broken Chakrams, progressive
+[3235824337] = {"shinyOrb", "toggle"}, -- Shiny orb
+[3235824566] = {"mineDetect", "toggle"}, -- Mine detector
 -- Shops
 
 -- Rookie Items
@@ -390,9 +392,17 @@ ITEM_MAPPING =
 [3235924511] = {"RSweapon5", "toggle"}, -- Rhombus Weapon Slot 5 (coMail)
 [3235924512] = {"RSweapon7", "toggle"}, -- Rhombus Weapon Slot 7 (coBoots)
 
-[3235824337] = {"shinyOrb", "toggle"},
-
 -- DLC
+-- Key Items
+[3235824113] = {"hummingRazor", "toggle"}, -- Humming Razor
+[3235824283] = {"everAmber", "toggle"}, -- Everlasting Amber
+[3235824481] = {"tremorEngine", "consumable"}, -- Tremor Engine
+[3235824660] = {"kuleroKey", "consumable"}, -- Ku'lero Key
+[3235824722] = {"mcCoin", "consumable"}, -- Macguffin Coin
+[3235824724] = {"kuleroMaster", "toggle"}, -- Ku'lero Master Key
+[3235824726] = {"azurePass", "toggle"}, -- Azure Archipelago Pass
+[3235824727] = {"ancientShade", "toggle"}, -- Ancient Shade
+
 -- Homestedt Items
 [3235924513] = {"homestedtItemShop", "toggle"}, -- Homestedt Item Shop Unlock
 [3235924514] = {"Hitem1", "toggle"}, -- Homestedt Item Slot 1 (sandwich)

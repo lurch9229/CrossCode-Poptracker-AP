@@ -123,7 +123,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 260,
-                        "y": 553
+                        "y": 553,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -151,7 +152,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 388,
-                        "y": 427
+                        "y": 427,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -229,7 +231,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 110,
-                        "y": 500
+                        "y": 500,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -258,7 +261,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 162,
-                        "y": 432
+                        "y": 432,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -306,7 +310,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 173,
-                        "y": 225
+                        "y": 225,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -344,7 +349,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 110,
-                        "y": 460
+                        "y": 460,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -382,7 +388,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 60,
-                        "y": 390
+                        "y": 390,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -410,7 +417,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 180,
-                        "y": 537
+                        "y": 537,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -438,7 +446,8 @@
                     {
                         "map": "Bakii_Kum",
                         "x": 271,
-                        "y": 468
+                        "y": 468,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1411,7 +1420,8 @@
                     {
                         "map": "WorldMap",
                         "x": 110,
-                        "y": 164
+                        "y": 164,
+                        "shape": "diamond"
                     }
                 ]
             }

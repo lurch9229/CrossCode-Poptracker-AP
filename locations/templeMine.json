@@ -515,7 +515,8 @@
                     {
                         "map": "Temple_Mine_U3",
                         "x": 293,
-                        "y": 78
+                        "y": 78,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -739,7 +740,8 @@
                     {
                         "map": "Temple_Mine_GF",
                         "x": 294,
-                        "y": 80
+                        "y": 80,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -895,7 +897,8 @@
                     {
                         "map": "WorldMap",
                         "x": 180,
-                        "y": 90
+                        "y": 90,
+                        "shape": "trapezoid"
                     }
                 ]
             }

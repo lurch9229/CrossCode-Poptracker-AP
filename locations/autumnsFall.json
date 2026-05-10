@@ -795,7 +795,8 @@
                     {
                         "map": "Autumns_Fall",
                         "x": 370,
-                        "y": 282
+                        "y": 282,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [

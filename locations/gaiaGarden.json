@@ -1495,7 +1495,8 @@
                     {
                         "map": "Gaias_Garden",
                         "x": 595,
-                        "y": 1350
+                        "y": 1350,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -1897,7 +1898,8 @@
                     {
                         "map": "Gaias_Garden",
                         "x": 605,
-                        "y": 1150
+                        "y": 1150,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -1970,7 +1972,8 @@
                     {
                         "map": "Gaias_Garden",
                         "x": 405,
-                        "y": 375
+                        "y": 375,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [

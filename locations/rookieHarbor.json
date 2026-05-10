@@ -67,7 +67,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 360,
-                        "y": 260
+                        "y": 260,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -229,7 +230,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 340,
-                        "y": 305
+                        "y": 305,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -278,7 +280,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 288,
-                        "y": 420
+                        "y": 420,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -327,7 +330,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 454,
-                        "y": 305
+                        "y": 305,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -376,7 +380,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 62,
-                        "y": 300
+                        "y": 300,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -424,7 +429,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 280,
-                        "y": 730
+                        "y": 730,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -452,7 +458,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 128,
-                        "y": 430
+                        "y": 430,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -502,7 +509,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 302,
-                        "y": 360
+                        "y": 360,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -530,7 +538,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 400,
-                        "y": 580
+                        "y": 580,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -578,7 +587,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 275,
-                        "y": 320
+                        "y": 320,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -606,7 +616,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 272,
-                        "y": 80
+                        "y": 80,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -635,7 +646,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 127,
-                        "y": 348
+                        "y": 348,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1103,7 +1115,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 117,
-                        "y": 403
+                        "y": 403,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1478,8 +1491,8 @@
                 "map_locations": [
                     {
                         "map": "Rookie_Harbor",
-                        "x": 262,
-                        "y": 149
+                        "x": 240,
+                        "y": 140
                     }
                 ],
                 "access_rules": [
@@ -1498,7 +1511,24 @@
                             "$newLock|3235824314|whiteKey"
                         ],
                         "item_count": 1
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Rookie Harbor - Backer Weapon & Chef Shop",
+                "map_locations": [
+                    {
+                        "map": "Rookie_Harbor",
+                        "x": 282,
+                        "y": 145,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    "$region19",
+                    "$regionOpen8"
+                ],
+                "sections": [
                     {
                         "name": "Rising Super Star Slot - 7777 Credits",
                         "chest_unopened_img": "images/food/RisingStar.png",
@@ -2109,7 +2139,8 @@
                     {
                         "map": "Rookie_Harbor",
                         "x": 471,
-                        "y": 395
+                        "y": 395,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -2674,7 +2705,8 @@
                     {
                         "map": "WorldMap",
                         "x": 279,
-                        "y": 192
+                        "y": 192,
+                        "shape": "diamond"
                     }
                 ]
             }

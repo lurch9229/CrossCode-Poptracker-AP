@@ -795,7 +795,8 @@
                     {
                         "map": "Bergen_Trail",
                         "x": 595,
-                        "y": 945
+                        "y": 945,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -826,7 +827,8 @@
                     {
                         "map": "Bergen_Trail",
                         "x": 415,
-                        "y": 450
+                        "y": 450,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -854,7 +856,8 @@
                     {
                         "map": "Bergen_Trail",
                         "x": 665,
-                        "y": 910
+                        "y": 910,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -882,7 +885,8 @@
                     {
                         "map": "Bergen_Trail",
                         "x": 620,
-                        "y": 760
+                        "y": 760,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -950,7 +954,8 @@
                     {
                         "map": "Bergen_Trail",
                         "x": 485,
-                        "y": 476
+                        "y": 476,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [

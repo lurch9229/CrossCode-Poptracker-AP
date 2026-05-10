@@ -404,7 +404,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 191,
-                        "y": 695
+                        "y": 695,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -432,7 +433,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 373,
-                        "y": 173
+                        "y": 173,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -460,7 +462,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 652,
-                        "y": 460
+                        "y": 460,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -558,7 +561,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 419,
-                        "y": 165
+                        "y": 165,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -606,7 +610,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 510,
-                        "y": 917
+                        "y": 917,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -644,7 +649,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 410,
-                        "y": 385
+                        "y": 385,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -682,7 +688,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 475,
-                        "y": 540
+                        "y": 540,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -721,7 +728,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 438,
-                        "y": 661
+                        "y": 661,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -747,7 +755,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 560,
-                        "y": 370
+                        "y": 370,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1215,7 +1224,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 520,
-                        "y": 370
+                        "y": 370,
+                        "shape": "diamond"
                     }
                 ],
                 "access_rules": [
@@ -1650,7 +1660,8 @@
                     {
                         "map": "WorldMap",
                         "x": 180,
-                        "y": 114
+                        "y": 114,
+                        "shape": "diamond"
                     }
                 ]
             }
