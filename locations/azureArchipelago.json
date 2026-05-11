@@ -18,7 +18,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -27,7 +27,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824798|radiantKey"
+                            "$newLock|3235824798|radiantKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -48,7 +48,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -57,7 +57,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824799|radiantKey"
+                            "$newLock|3235824799|radiantKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -78,7 +78,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -108,7 +108,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -117,7 +117,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824801|radiantKey"
+                            "$newLock|3235824801|radiantKey, $has|mcCoin|3"
                         ],
                         "item_count": 1
                     }
@@ -138,7 +138,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -147,7 +147,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824802|whiteKey"
+                            "$newLock|3235824802|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -168,7 +168,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -198,7 +198,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -228,7 +228,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -258,7 +258,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -267,7 +267,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824806|thiefKey"
+                            "$newLock|3235824806|thiefKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -288,7 +288,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -318,7 +318,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -348,7 +348,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -378,7 +378,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -387,7 +387,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824810|radiantKey"
+                            "$newLock|3235824810|radiantKey, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     }
@@ -409,7 +409,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach, eleHeat, eleCold"
                 ],
                 "sections": [
                     {
@@ -461,7 +461,7 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach, eleHeat, eleCold, eleWave, eleShock"
                 ],
                 "sections": [
                     {
@@ -492,7 +492,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC_Beach"
                 ],
                 "sections": [
                     {
@@ -503,9 +503,9 @@
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon9",
+                            "$AAweapon1",
                             "$typeCrHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, azureWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -518,9 +518,9 @@
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon10",
+                            "$AAweapon2",
                             "$typeCrEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, azureWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -533,9 +533,9 @@
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon11",
+                            "$AAweapon3",
                             "$typeCrMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, azureWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -548,9 +548,9 @@
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon12",
+                            "$AAweapon4",
                             "$typeCrBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, azureWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -563,9 +563,9 @@
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon9",
+                            "$AAweapon1",
                             "$typeCrHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, azureWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -578,9 +578,9 @@
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon10",
+                            "$AAweapon2",
                             "$typeCrEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, azureWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -593,9 +593,9 @@
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon11",
+                            "$AAweapon3",
                             "$typeCrMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, azureWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -608,9 +608,9 @@
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon12",
+                            "$AAweapon4",
                             "$typeCrBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, azureWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1

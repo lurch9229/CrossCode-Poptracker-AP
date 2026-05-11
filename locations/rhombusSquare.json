@@ -1547,7 +1547,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1577,7 +1577,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1607,7 +1607,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1637,7 +1637,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1646,7 +1646,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824814|whiteKey"
+                            "$newLock|3235824814|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1667,7 +1667,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1676,7 +1676,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824815|radiantKey"
+                            "$newLock|3235824815|radiantKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1697,7 +1697,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1706,7 +1706,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824816|whiteKey"
+                            "$newLock|3235824816|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1727,7 +1727,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1758,16 +1758,16 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
-                        "name": "Lots and On the Run",
+                        "name": "Lost and On the Run",
                         "visibility_rules": [
                             ""
                         ],
                         "access_rules": [
-                            ""
+                            "$regionOpen3, $regionOpen5, $regionopen10_Infested, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -1789,7 +1789,7 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1820,7 +1820,7 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpen20"
                 ],
                 "sections": [
                     {
@@ -1829,7 +1829,7 @@
                             ""
                         ],
                         "access_rules": [
-                            ""
+                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $regionOpen10_Right, $regionOpen16"
                         ],
                         "item_count": 1
                     }
@@ -1848,7 +1848,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canGrind"
+                    "$regionOpen20, $canGrind, BV-wrath"
                 ],
                 "sections": [
                     {

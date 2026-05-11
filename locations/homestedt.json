@@ -18,7 +18,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {
@@ -27,7 +27,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824792|whiteKey"
+                            "$newLock|3235824792|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -48,7 +48,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {
@@ -57,7 +57,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824793|whiteKey"
+                            "$newLock|3235824793|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -78,7 +78,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {
@@ -108,7 +108,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {
@@ -138,7 +138,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {
@@ -147,7 +147,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824796|radiantKey"
+                            "$newLock|3235824796|radiantKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -168,7 +168,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {
@@ -177,7 +177,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824797|whiteKey"
+                            "$newLock|3235824797|whiteKey, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -199,7 +199,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {
@@ -230,7 +230,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {
@@ -241,9 +241,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem1",
+                            "$HSitem1",
                             "$typeSandwich",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -256,9 +256,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem2",
+                            "$HSitem2",
                             "$typeHiSandwich",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -271,9 +271,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem3",
+                            "$HSitem3",
                             "$typeTea",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -286,9 +286,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem4",
+                            "$HSitem4",
                             "$typeWater",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -301,9 +301,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem5",
+                            "$HSitem5",
                             "$typeKebab",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -316,9 +316,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem6",
+                            "$HSitem6",
                             "$typeRisotto",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -331,9 +331,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem7",
+                            "$HSitem7",
                             "$typeBun",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -346,9 +346,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem8",
+                            "$HSitem8",
                             "$typeFruit",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -361,9 +361,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem9",
+                            "$HSitem9",
                             "$typeCracker",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -376,9 +376,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem10",
+                            "$HSitem10",
                             "$typeVeggie",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -391,9 +391,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem11",
+                            "$HSitem11",
                             "$typeIcecream",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -406,9 +406,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem12",
+                            "$HSitem12",
                             "$typeLemonjuice",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -421,9 +421,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem13",
+                            "$HSitem13",
                             "$typeCoffee",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -436,9 +436,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem14",
+                            "$HSitem14",
                             "$typePeanuts",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -451,9 +451,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSitem15",
+                            "$HSitem15",
                             "$typeMix",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -466,9 +466,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem1",
+                            "$HSitem1",
                             "$typeSandwich",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -481,9 +481,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem2",
+                            "$HSitem2",
                             "$typeHiSandwich",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -496,9 +496,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem3",
+                            "$HSitem3",
                             "$typeTea",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -511,9 +511,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem4",
+                            "$HSitem4",
                             "$typeWater",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -526,9 +526,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem5",
+                            "$HSitem5",
                             "$typeKebab",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -541,9 +541,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem6",
+                            "$HSitem6",
                             "$typeRisotto",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -556,9 +556,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem7",
+                            "$HSitem7",
                             "$typeBun",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -571,9 +571,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem8",
+                            "$HSitem8",
                             "$typeFruit",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -586,9 +586,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem9",
+                            "$HSitem9",
                             "$typeCracker",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -601,9 +601,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem10",
+                            "$HSitem10",
                             "$typeVeggie",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -616,9 +616,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem11",
+                            "$HSitem11",
                             "$typeIcecream",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -631,9 +631,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem12",
+                            "$HSitem12",
                             "$typeLemonjuice",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -646,9 +646,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem13",
+                            "$HSitem13",
                             "$typeCoffee",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -661,9 +661,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem14",
+                            "$HSitem14",
                             "$typePeanuts",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -676,9 +676,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSitem15",
+                            "$HSitem15",
                             "$typeMix",
-                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveShops, homestedtItemShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -712,9 +712,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSweapon2",
+                            "$HSweapon1",
                             "$typeLaHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -727,9 +727,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSweapon4",
+                            "$HSweapon2",
                             "$typeLaEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -742,9 +742,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSweapon6",
+                            "$HSweapon3",
                             "$typeLaMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -757,9 +757,9 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$RSweapon8",
+                            "$HSweapon4",
                             "$typeLaBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -773,9 +773,9 @@
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon9",
+                            "$HSweapon5",
                             "$typeCrHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -788,9 +788,9 @@
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon10",
+                            "$HSweapon6",
                             "$typeCrEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -803,9 +803,9 @@
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon11",
+                            "$HSweapon7",
                             "$typeCrMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -818,9 +818,9 @@
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon12",
+                            "$HSweapon8",
                             "$typeCrBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -833,9 +833,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSweapon2",
+                            "$HSweapon1",
                             "$typeLaHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -848,9 +848,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSweapon4",
+                            "$HSweapon2",
                             "$typeLaEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -863,9 +863,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSweapon6",
+                            "$HSweapon3",
                             "$typeLaMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -878,9 +878,9 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$RSweapon8",
+                            "$HSweapon4",
                             "$typeLaBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -893,9 +893,9 @@
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon9",
+                            "$HSweapon5",
                             "$typeCrHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -908,9 +908,9 @@
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon10",
+                            "$HSweapon6",
                             "$typeCrEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -923,9 +923,9 @@
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon11",
+                            "$HSweapon7",
                             "$typeCrMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -938,9 +938,9 @@
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon12",
+                            "$HSweapon8",
                             "$typeCrBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveShops, homestedtWeaponShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
@@ -949,7 +949,7 @@
             }
         ]
     },
-    //Rhombus Square World Map
+    //homestedt Square World Map
     {
         "item_count": 1,
         "children": [

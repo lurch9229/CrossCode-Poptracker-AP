@@ -190,7 +190,8 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen10_Left",
+                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested"
                         ],
                         "item_count": 1
                     },
@@ -202,7 +203,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "GG-escort, $regionOpenDLC_Beach, eleCold, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -338,7 +339,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "GG-snowman, eleShock, $regionOpen10_Right, $regionOpen10_Infested, $regionOpen16"
                         ],
                         "item_count": 1
                     }

@@ -425,7 +425,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "RH-smuggle-2, eleWave"
                         ],
                         "item_count": 1
                     }

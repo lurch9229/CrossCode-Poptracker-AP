@@ -1865,6 +1865,12 @@ function manualHostedItems(location_id)
             objItem.Active = true
         end
 
+    elseif location_id == 3235824411 then
+        local objItem = Tracker:FindObjectForCode("BV-Goat")
+        if objItem then
+            objItem.Active = true
+        end
+
     end
 end
 

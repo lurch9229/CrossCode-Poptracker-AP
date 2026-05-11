@@ -401,6 +401,11 @@
     "codes": "AA-beach"
   },
   {
+    "name": "The Goatfather Host",
+    "type": "toggle",
+    "codes": "BV-goat"
+  },
+  {
     "name": "Wrath of Goat Host",
     "type": "toggle",
     "codes": "BV-wrath"

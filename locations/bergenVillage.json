@@ -497,7 +497,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-asp-challenge"
+                            "BV-asp-trial"
                         ],
                         "item_count": 1
                     },
@@ -507,7 +507,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-asp-challenge"
+                            "BV-asp-trial"
                         ],
                         "item_count": 1
                     },
@@ -537,7 +537,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-prog-challenge"
+                            "BV-prog-trial"
                         ],
                         "item_count": 1
                     },
@@ -547,7 +547,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-prog-challenge"
+                            "BV-prog-trial"
                         ],
                         "item_count": 1
                     },
@@ -557,7 +557,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "BV-prog-trial"
                         ],
                         "item_count": 1
                     },
@@ -567,7 +567,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "BV-asc-trial"
                         ],
                         "item_count": 1
                     },
@@ -577,7 +577,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "BV-asc-trial"
                         ],
                         "item_count": 1
                     },
@@ -587,7 +587,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "BV-asc-trial"
                         ],
                         "item_count": 1
                     }
@@ -685,7 +685,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            ""
+                            "BK-cawhoofs, $regionOpen20"
                         ],
                         "item_count": 1
                     }
