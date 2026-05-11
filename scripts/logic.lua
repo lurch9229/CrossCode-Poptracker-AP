@@ -3277,6 +3277,7 @@ end
 -- Botanics logic
 function countBotanics()
   count = 0
+
   if regionOpen3() then count = count + 20 end
   if regionOpen4_4() then count = count + 6 end
   if regionOpen5() then count = count + 18 end
@@ -3290,23 +3291,26 @@ function countBotanics()
   if regionOpen20() then count = count + 1 end
   if regionOpen11() then count = count + 1 end
 
+  if has("settingDlcOn") and regionOpenDLC_Beach() then count = count + 6 end
+  if has("settingDlcOn") and regionOpenDLC_DungeonEntry() then count = count + 5 end
+  
   return count
 end
 
 function botanics25()
-  return countBotanics() >= 20
+  return countBotanics() / Tracker:ProviderCountForCode("op_BA") >= 0.25
 end
 
 function botanics50()
-  return countBotanics() >= 39
+  return countBotanics() / Tracker:ProviderCountForCode("op_BA") >= 0.50
 end
 
 function botanics75()
-  return countBotanics() >= 58
+  return countBotanics() / Tracker:ProviderCountForCode("op_BA") >= 0.75
 end
 
 function botanics100()
-  return countBotanics() >= 77
+  return countBotanics() / Tracker:ProviderCountForCode("op_BA") >= 1.00
 end
 
 

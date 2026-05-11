@@ -221,6 +221,8 @@ function onClear(slot_data)
                 obj.CurrentStage = 1
             elseif slot_data['options']['goal'] == "observatory" then
                 obj.CurrentStage = 2
+            elseif slot_data['options']['goal'] == "diorbis" then
+                obj.CurrentStage = 3
             else
                 obj.CurrentStage = 0
             end
@@ -231,7 +233,31 @@ function onClear(slot_data)
             obj.CurrentStage = 0
         end
     end
-    
+
+    if slot_data['options']['botanics_completion_amount'] then
+        Tracker:FindObjectForCode("op_BA").AcquiredCount = slot_data['options']['botanics_completion_amount']
+    else
+        Tracker:FindObjectForCode("op_BA").AcquiredCount = 77
+    end
+
+    if slot_data['options']["enable_dlc"] then
+        Tracker:FindObjectForCode("op_DLC").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_DLC").CurrentStage = 0
+    end
+
+    if slot_data['options']["botanity"] then
+        Tracker:FindObjectForCode("op_B").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_B").CurrentStage = 0
+    end
+
+    if slot_data['options']["allow_booster_grinding"] then
+        Tracker:FindObjectForCode("op_AB").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_AB").CurrentStage = 0
+    end
+
 
     PROG_A_UNLOCK = slot_data['options']["progressiveChains"]["3235824050"]
     PROG_D_UNLOCK = slot_data['options']["progressiveChains"]["3235824052"]

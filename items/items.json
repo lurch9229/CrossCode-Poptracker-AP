@@ -385,7 +385,7 @@
     "type": "toggle",
     "img": "images/items/chakram.png",
     "codes": "brokenChakram"
-  },  
+  },
   {
     "name": "DLC",
     "type": "progressive",
@@ -400,6 +400,25 @@
       {
         "img": "images/settings/.png",
         "codes": "op_DLC,settingDlcOn",
+        "inherit_codes": false
+      }
+      
+    ]
+  },
+  {
+    "name": "Allow Booster",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/.png",
+        "codes": "op_AB,settingBoosterOff"
+      },
+      {
+        "img": "images/settings/.png",
+        "codes": "op_AB,settingBoosterOn",
         "inherit_codes": false
       }
       
@@ -662,6 +681,17 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Botanics Amount",
+    "type": "consumable",
+    "loop": "false",
+    "overlay_background": "#000",
+    "codes": "op_BA,settingBotanicsAmount",
+    "max_quantity": 88,
+    "initial_quantity": 1,
+    "increment": 1,
+	  "swap_actions": false
   },
   {
     "name": "Rookie Item Shop",
