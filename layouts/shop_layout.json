@@ -10,7 +10,7 @@
       ["rookieItemShop","bergenItemShop", "bakiiItemShop", "basinItemShop", "sapphireItemShop", "rhombusItemShop", "vermillionItemShop", "homestedtItemShop"],
       ["rookieWeaponShop", "bergenWeaponShop", "bakiiWeaponShop", "basinWeaponShop", "sapphireWeaponShop", "rhombusWeaponShop", "vermillionWeaponShop", "homestedtWeaponShop"],
       ["rookieBackerChef", "bergenHermitShop", "", "basinVendor", "", "rhombusChef", "", "azureWeaponShop"],
-      ["rookieBackerWeapon", "", "", "", "", "", "", "goatShop"],
+      ["rookieBackerWeapon", "", "", "", "", "", "", "rhombusGoatShop"],
       ["rookieTaraShop", "", "", "basinCalzone", "", "rhombusCurio", "", ""]
     ]
   },

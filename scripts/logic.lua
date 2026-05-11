@@ -46,19 +46,19 @@ end
 --------------------------------------------------------------------------------------------------------------------------
  
 function region2()
-  return has ("settingOpenModeClosed")
+  return has("settingOpenModeClosed")
 end
 
 function region3()
-  return region2() and has ("leafShade")
+  return region2() and has("leafShade")
 end
 
 function region3_1()
-  return region3() and has ("guildPass")
+  return region3() and has("guildPass")
 end
 
 function region4()
-  return region3() and (has ("minePass") and has ("guildPass"))
+  return region3() and (has("minePass") and has("guildPass"))
 end
 
 function region5()
@@ -79,7 +79,7 @@ function region8()
 end
 
 function region9()
-  return region7() and has ("eleHeat")
+  return region7() and has("eleHeat")
 end
 
 function region10()
@@ -87,15 +87,15 @@ function region10()
 end
 
 function region11()
-  return region10() and (has ("mineMaster") and has ("iceShade"))
+  return region10() and (has("mineMaster") and has("iceShade"))
 end
 
 function region12()
-  return region11()  and has ("maroonPass")
+  return region11()  and has("maroonPass")
 end
 
 function region13()
-  return region12() and (has ("eleHeat") and has("sandShade"))
+  return region12() and (has("eleHeat") and has("sandShade"))
 end
 
 function region14()
@@ -111,7 +111,7 @@ function region16()
 end
 
 function region17()
-  return region16() and has ("eleCold")
+  return region16() and has("eleCold")
 end
 
 function region17half()
@@ -123,23 +123,23 @@ function region18()
 end
 
 function region19()
-  return region17half() and has ("fajroMaster")
+  return region17half() and has("fajroMaster")
 end
 
 function region20()
-  return region19() and has ("flameShade")
+  return region19() and has("flameShade")
 end
 
 function region21()
-  return region20() and has ("seedShade")
+  return region20() and has("seedShade")
 end
 
 function region23()
-  return region21() and (has ("eleHeat") and has ("eleCold"))
+  return region21() and (has("eleHeat") and has("eleCold"))
 end
 
 function region24()
-  return region21() and has ("pondPass")
+  return region21() and has("pondPass")
 end
 
 function region25()
@@ -151,11 +151,11 @@ function region26()
 end
 
 function region27()
-  return region26() and sonajizKeyTotal(4) and (has ("radiantKey"))
+  return region26() and sonajizKeyTotal(4) and (has("radiantKey"))
 end
 
 function region28()
-  return region23() and (has ("eleWave") and has ("eleShock") and has ("dropShade") and has ("boltShade"))
+  return region23() and (has("eleWave") and has("eleShock") and has("dropShade") and has("boltShade"))
 end
 
 function region29()
@@ -163,11 +163,11 @@ function region29()
 end
 
 function region30()
-  return region28() and has ("kryskajoMaster")
+  return region28() and has("kryskajoMaster")
 end
 
 function region31()
-  return region30() and has ("starShade")
+  return region30() and has("starShade")
 end
 
 function region22()
@@ -175,52 +175,52 @@ function region22()
 end
 
 function region32()
-  return region31() and has ("dojoKey")
+  return region31() and has("dojoKey")
 end
 
 function region33()
-  return region32() and has ("meteorShade")
+  return region32() and has("meteorShade")
 end
 
 function region34()
   return region22() and
-    (has ("settingVTGateOpen") and
-        has ("eleHeat") and
-          has ("eleCold") and
-            has ("elewave") and 
-              has ("eleShock")) 
+    (has("settingVTGateOpen") and
+        has("eleHeat") and
+          has("eleCold") and
+            has("elewave") and 
+              has("eleShock")) 
   or        
     region22() and 
-      (has ("eleHeat") and 
-        has ("eleCold") and 
-          has ("eleWave") and 
-            has ("eleShock") and
-              has ("minesWon") and
-                has ("fajroWon") and
-                  has ("sonajizWon") and
-                    has ("zirvitarWon"))
+      (has("eleHeat") and 
+        has("eleCold") and 
+          has("eleWave") and 
+            has("eleShock") and
+              has("minesWon") and
+                has("fajroWon") and
+                  has("sonajizWon") and
+                    has("zirvitarWon"))
 end
 
 -- Open Mode Logic
 
 function regionOpen2()
-  return has ("settingOpenModeOpen")
+  return has("settingOpenModeOpen")
 end
 
 function regionOpen3()
-  return regionOpen2() and has ("leafShade")
+  return regionOpen2() and has("leafShade")
 end
 
 function regionOpen3_1()
-  return regionOpen3() and has ("minePass")
+  return regionOpen3() and has("minePass")
 end
 
 function regionOpen3_2()
-  return regionOpen3() and has ("guildPass")
+  return regionOpen3() and has("guildPass")
 end
 
 function regionOpen4_1()
-  return regionOpen3() and has ("minePass")
+  return regionOpen3() and has("minePass")
 end
 
 function retionOpen4_1_1()
@@ -244,7 +244,7 @@ function regionOpen4_5()
 end
 
 function regionOpen4_6()
-  return regionOpen4_4() and has ("eleHeat")
+  return regionOpen4_4() and has("eleHeat")
 end
 
 function regionOpen4_7()
@@ -252,19 +252,19 @@ function regionOpen4_7()
 end
 
 function regionOpen4_8()
-  return regionOpen4_1() and has ("mineMaster")
+  return regionOpen4_1() and has("mineMaster")
 end
 
 function regionOpen5()
-  return (regionOpen3() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has ("iceShade")
+  return (regionOpen3() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has("iceShade")
 end
 
 function regionOpen6()
-  return regionOpen5() and has ("maroonPass")
+  return regionOpen5() and has("maroonPass")
 end
 
 function regionOpen7_1()
-  return regionOpen5() and (has ("sandShade") and has ("eleHeat"))
+  return regionOpen5() and (has("sandShade") and has("eleHeat"))
 end
 
 function regionOpen7_2()
@@ -280,7 +280,7 @@ function regionOpen7_4()
 end
 
 function regionOpen7_5()
-  return regionOpen7_4() and has ("eleCold")
+  return regionOpen7_4() and has("eleCold")
 end
 
 function regionOpen7_6()
@@ -292,27 +292,27 @@ function regionOpen7_7()
 end
 
 function regionOpen7_8()
-  return regionOpen7_5() and has ("fajroMaster")
+  return regionOpen7_5() and has("fajroMaster")
 end
 
 function regionOpen8()
-  return regionOpen2() and has ("flameShade")
+  return regionOpen2() and has("flameShade")
 end
 
 function regionOpen9()
-  return regionOpen2() and has ("flameShade")
+  return regionOpen2() and has("flameShade")
 end
 
 function regionOpen20()
-  return regionOpen2() and has ("meteorShade")
+  return regionOpen2() and has("meteorShade")
 end
 
 function regionOpen9_1()
-  return regionOpen9() and has ("seedShade")
+  return regionOpen9() and has("seedShade")
 end
 
 function regionOpen10()
-  return (regionOpen9() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has ("seedShade")
+  return (regionOpen9() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has("seedShade")
 end
 
 function regionOpen10_Left()
@@ -336,7 +336,7 @@ function regionOpen10_Infested()
 end
 
 function regionOpen11()
-  return regionOpen10() and has ("pondPass")
+  return regionOpen10() and has("pondPass")
 end
 
 function regionOpen12()
@@ -348,11 +348,11 @@ function regionOpen13_1()
 end
 
 function regionOpen13_2()
-  return regionOpen13_1() and has ("eleWave")
+  return regionOpen13_1() and has("eleWave")
 end
 
 function regionOpen14_1()
-  return sonajizKeyTotal(1) and regionOpen10_Left() and (has("eleHeat") or has("eleCold") or has ("eleWave") or has ("eleShock"))
+  return sonajizKeyTotal(1) and regionOpen10_Left() and (has("eleHeat") or has("eleCold") or has("eleWave") or has("eleShock"))
 end
 
 function regionOpen14_2()
@@ -360,7 +360,7 @@ function regionOpen14_2()
 end
 
 function regionOpen14_3()
-  return regionOpen14_2() and has ("eleCold")
+  return regionOpen14_2() and has("eleCold")
 end
 
 function regionOpen14_4()
@@ -372,7 +372,7 @@ function regionOpen14_5()
 end
 
 function regionOpen15_1()
-  return regionOpen12() and (has ("boltShade") and has ("dropShade") and has ("eleWave") and has ("eleShock") and has ("eleCold") and has ("eleHeat"))
+  return regionOpen12() and (has("boltShade") and has("dropShade") and has("eleWave") and has("eleShock") and has("eleCold") and has("eleHeat"))
 end
 
 function regionOpen15_2()
@@ -380,15 +380,15 @@ function regionOpen15_2()
 end
 
 function regionOpen15_3()
-  return regionOpen15_1() and has ("kryskajoMaster")
+  return regionOpen15_1() and has("kryskajoMaster")
 end
 
 function regionOpen16()
-  return (regionOpen9() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has ("starShade")
+  return (regionOpen9() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has("starShade")
 end
 
 function regionOpen17()
-  return regionOpen16() and has ("dojoKey")
+  return regionOpen16() and has("dojoKey")
 end
 
 function regionOpen18()
@@ -396,27 +396,27 @@ function regionOpen18()
 end
 
 function regionOpen16_1()
-  return regionOpen16() and has ("meteorShade")
+  return regionOpen16() and has("meteorShade")
 end
 
 function regionOpen19()
   return 
     regionOpen18() and 
-      (has ("settingVTGateOpen") and
-        has ("eleHeat") and
-          has ("eleCold") and
-            has ("elewave") and 
-              has ("eleShock")) 
+      (has("settingVTGateOpen") and
+        has("eleHeat") and
+          has("eleCold") and
+            has("elewave") and 
+              has("eleShock")) 
   or        
     regionOpen18() and 
-      (has ("eleHeat") and 
-        has ("eleCold") and 
-          has ("eleWave") and 
-            has ("eleShock") and
-              has ("minesWon") and
-                has ("fajroWon") and
-                  has ("sonajizWon") and
-                    has ("zirvitarWon"))
+      (has("eleHeat") and 
+        has("eleCold") and 
+          has("eleWave") and 
+            has("eleShock") and
+              has("minesWon") and
+                has("fajroWon") and
+                  has("sonajizWon") and
+                    has("zirvitarWon"))
 end
 
 -- Dungeon Keys
@@ -489,7 +489,7 @@ end
 -- Misc --
 
 function canGrind()
-  return has ("leafShade") or has ("flameShade") or (has("settingsRhombusHubOpen") and has("iceShade"))
+  return has("leafShade") or has("flameShade") or (has("settingsRhombusHubOpen") and has("iceShade"))
                                                  or (has("settingsRhombusHubOpen") and has("seedShade"))
                                                  or (has("settingsRhombusHubOpen") and has("starShade"))
 end
@@ -505,1079 +505,1257 @@ end
 -- Rookie Harbor Shops
 
 function RHitem1()
-  return has ("settingShopReceiveSlots") and has ("RHitem1")
+  return has("settingShopReceiveSlots") and has("RHitem1")
 end
 
 function RHitem2()
-  return has ("settingShopReceiveSlots") and has ("RHitem2")
+  return has("settingShopReceiveSlots") and has("RHitem2")
 end
 
 function RHitem3()
-  return has ("settingShopReceiveSlots") and has ("RHitem3")
+  return has("settingShopReceiveSlots") and has("RHitem3")
 end
 
 function RHitem4()
-  return has ("settingShopReceiveSlots") and has ("RHitem4")
+  return has("settingShopReceiveSlots") and has("RHitem4")
 end
 
 function RHitem5()
-  return has ("settingShopReceiveSlots") and has ("RHitem5")
+  return has("settingShopReceiveSlots") and has("RHitem5")
 end
 
 function RHitem6()
-  return has ("settingShopReceiveSlots") and has ("RHitem6")
+  return has("settingShopReceiveSlots") and has("RHitem6")
 end
 
 function RHitem7()
-  return has ("settingShopReceiveSlots") and has ("RHitem7")
+  return has("settingShopReceiveSlots") and has("RHitem7")
 end
 
 function RHitem8()
-  return has ("settingShopReceiveSlots") and has ("RHitem8")
+  return has("settingShopReceiveSlots") and has("RHitem8")
 end
 
 function RHitem9()
-  return has ("settingShopReceiveSlots") and has ("RHitem9")
+  return has("settingShopReceiveSlots") and has("RHitem9")
 end
 
 function RHitem10()
-  return has ("settingShopReceiveSlots") and has ("RHitem10")
+  return has("settingShopReceiveSlots") and has("RHitem10")
 end
 
 function RHitem11()
-  return has ("settingShopReceiveSlots") and has ("RHitem11")
+  return has("settingShopReceiveSlots") and has("RHitem11")
 end
 
 function RHitem12()
-  return has ("settingShopReceiveSlots") and has ("RHitem12")
+  return has("settingShopReceiveSlots") and has("RHitem12")
 end
 
 function RHitem13()
-  return has ("settingShopReceiveSlots") and has ("RHitem13")
+  return has("settingShopReceiveSlots") and has("RHitem13")
 end
 
 function RHitem14()
-  return has ("settingShopReceiveSlots") and has ("RHitem14")
+  return has("settingShopReceiveSlots") and has("RHitem14")
 end
 
 function RHitem15()
-  return has ("settingShopReceiveSlots") and has ("Rhitem15")
+  return has("settingShopReceiveSlots") and has("Rhitem15")
 end
 
 function RHweapon1()
-  return has ("settingShopReceiveSlots") and has ("RHweapon1")
+  return has("settingShopReceiveSlots") and has("RHweapon1")
 end
 
 function RHweapon2()
-  return has ("settingShopReceiveSlots") and has ("RHweapon2")
+  return has("settingShopReceiveSlots") and has("RHweapon2")
 end
 
 function RHweapon3()
-  return has ("settingShopReceiveSlots") and has ("RHweapon3")
+  return has("settingShopReceiveSlots") and has("RHweapon3")
 end
 
 function RHweapon4()
-  return has ("settingShopReceiveSlots") and has ("RHweapon4")
+  return has("settingShopReceiveSlots") and has("RHweapon4")
 end
 
 function RHweapon5()
-  return has ("settingShopReceiveSlots") and has ("RHweapon5")
+  return has("settingShopReceiveSlots") and has("RHweapon5")
 end
 
 function RHweapon6()
-  return has ("settingShopReceiveSlots") and has ("RHweapon6")
+  return has("settingShopReceiveSlots") and has("RHweapon6")
 end
 
 function RHweapon7()
-  return has ("settingShopReceiveSlots") and has ("RHweapon7")
+  return has("settingShopReceiveSlots") and has("RHweapon7")
 end
 
 function RHweapon8()
-  return has ("settingShopReceiveSlots") and has ("RHweapon8")
+  return has("settingShopReceiveSlots") and has("RHweapon8")
 end
 
 function RHweapon9()
-  return has ("settingShopReceiveSlots") and has ("RHweapon9")
+  return has("settingShopReceiveSlots") and has("RHweapon9")
 end
 
 function RHweapon10()
-  return has ("settingShopReceiveSlots") and has ("RHweapon10")
+  return has("settingShopReceiveSlots") and has("RHweapon10")
 end
 
 function RHweapon11()
-  return has ("settingShopReceiveSlots") and has ("RHweapon11")
+  return has("settingShopReceiveSlots") and has("RHweapon11")
 end
 
 function RHweapon12()
-  return has ("settingShopReceiveSlots") and has ("RHweapon12")
+  return has("settingShopReceiveSlots") and has("RHweapon12")
 end
 
 function RHchef1()
-  return has ("settingShopReceiveSlots") and has ("RHchef1")
+  return has("settingShopReceiveSlots") and has("RHchef1")
 end
 
 function RHchef2()
-  return has ("settingShopReceiveSlots") and has ("RHchef2")
+  return has("settingShopReceiveSlots") and has("RHchef2")
 end
 
 function RHchef3()
-  return has ("settingShopReceiveSlots") and has ("RHchef3")
+  return has("settingShopReceiveSlots") and has("RHchef3")
 end
 
 function RHchef4()
-  return has ("settingShopReceiveSlots") and has ("RHchef4")
+  return has("settingShopReceiveSlots") and has("RHchef4")
 end
 
 function RHchef5()
-  return has ("settingShopReceiveSlots") and has ("RHchef5")
+  return has("settingShopReceiveSlots") and has("RHchef5")
 end
 
 function RHchef6()
-  return has ("settingShopReceiveSlots") and has ("RHchef6")
+  return has("settingShopReceiveSlots") and has("RHchef6")
 end
 
 function RHchef7()
-  return has ("settingShopReceiveSlots") and has ("RHchef7")
+  return has("settingShopReceiveSlots") and has("RHchef7")
 end
 
 function RHchef8()
-  return has ("settingShopReceiveSlots") and has ("RHchef8")
+  return has("settingShopReceiveSlots") and has("RHchef8")
 end
 
 function RHchef9()
-  return has ("settingShopReceiveSlots") and has ("RHchef9")
+  return has("settingShopReceiveSlots") and has("RHchef9")
 end
 
 function RHchef10()
-  return has ("settingShopReceiveSlots") and has ("RHchef10")
+  return has("settingShopReceiveSlots") and has("RHchef10")
 end
 
 function RHchef11()
-  return has ("settingShopReceiveSlots") and has ("RHchef11")
+  return has("settingShopReceiveSlots") and has("RHchef11")
 end
 
 function RHchef12()
-  return has ("settingShopReceiveSlots") and has ("RHchef12")
+  return has("settingShopReceiveSlots") and has("RHchef12")
 end
 
 function RHbackWeapon1()
-  return has ("settingShopReceiveSlots") and has ("RHbackWeapon1")
+  return has("settingShopReceiveSlots") and has("RHbackWeapon1")
 end
 
 function RHbackWeapon2()
-  return has ("settingShopReceiveSlots") and has ("RHbackWeapon2")
+  return has("settingShopReceiveSlots") and has("RHbackWeapon2")
 end
 
 function RHbackWeapon3()
-  return has ("settingShopReceiveSlots") and has ("RHbackWeapon3")
+  return has("settingShopReceiveSlots") and has("RHbackWeapon3")
 end
 
 function RHbackWeapon4()
-  return has ("settingShopReceiveSlots") and has ("RHbackWeapon4")
+  return has("settingShopReceiveSlots") and has("RHbackWeapon4")
 end
 
 function RHbackWeapon5()
-  return has ("settingShopReceiveSlots") and has ("RHbackWeapon5")
+  return has("settingShopReceiveSlots") and has("RHbackWeapon5")
 end
 
 function RHbackWeapon6()
-  return has ("settingShopReceiveSlots") and has ("RHbackWeapon6")
+  return has("settingShopReceiveSlots") and has("RHbackWeapon6")
 end
 
 function RHbackWeapon7()
-  return has ("settingShopReceiveSlots") and has ("RHbackWeapon7")
+  return has("settingShopReceiveSlots") and has("RHbackWeapon7")
 end
 
 function RHbackWeapon8()
-  return has ("settingShopReceiveSlots") and has ("RHbackWeapon8")
+  return has("settingShopReceiveSlots") and has("RHbackWeapon8")
 end
 
 function RHtara1()
-  return has ("settingShopReceiveSlots") and has ("RHtara1")
+  return has("settingShopReceiveSlots") and has("RHtara1")
 end
 
 -- Bergen Trail Shops
 
 function BThermit1()
-  return has ("settingShopReceiveSlots") and has ("BThermit1")
+  return has("settingShopReceiveSlots") and has("BThermit1")
 end
 
 function BThermit2()
-  return has ("settingShopReceiveSlots") and has ("BThermit2")
+  return has("settingShopReceiveSlots") and has("BThermit2")
 end
 
 function BThermit3()
-  return has ("settingShopReceiveSlots") and has ("BThermit3")
+  return has("settingShopReceiveSlots") and has("BThermit3")
 end
 
 -- Bergen Village Shops
 
 function BVitem1()
-  return has ("settingShopReceiveSlots") and has ("BVitem1")
+  return has("settingShopReceiveSlots") and has("BVitem1")
 end
 
 function BVitem2()
-  return has ("settingShopReceiveSlots") and has ("BVitem2")
+  return has("settingShopReceiveSlots") and has("BVitem2")
 end
 
 function BVitem3()
-  return has ("settingShopReceiveSlots") and has ("BVitem3")
+  return has("settingShopReceiveSlots") and has("BVitem3")
 end
 
 function BVitem4()
-  return has ("settingShopReceiveSlots") and has ("BVitem4")
+  return has("settingShopReceiveSlots") and has("BVitem4")
 end
 
 function BVitem5()
-  return has ("settingShopReceiveSlots") and has ("BVitem5")
+  return has("settingShopReceiveSlots") and has("BVitem5")
 end
 
 function BVitem6()
-  return has ("settingShopReceiveSlots") and has ("BVitem6")
+  return has("settingShopReceiveSlots") and has("BVitem6")
 end
 
 function BVitem7()
-  return has ("settingShopReceiveSlots") and has ("BVitem7")
+  return has("settingShopReceiveSlots") and has("BVitem7")
 end
 
 function BVitem8()
-  return has ("settingShopReceiveSlots") and has ("BVitem8")
+  return has("settingShopReceiveSlots") and has("BVitem8")
 end
 
 function BVitem9()
-  return has ("settingShopReceiveSlots") and has ("BVitem9")
+  return has("settingShopReceiveSlots") and has("BVitem9")
 end
 
 function BVitem10()
-  return has ("settingShopReceiveSlots") and has ("BVitem10")
+  return has("settingShopReceiveSlots") and has("BVitem10")
 end
 
 function BVitem11()
-  return has ("settingShopReceiveSlots") and has ("BVitem11")
+  return has("settingShopReceiveSlots") and has("BVitem11")
 end
 
 function BVitem12()
-  return has ("settingShopReceiveSlots") and has ("BVitem12")
+  return has("settingShopReceiveSlots") and has("BVitem12")
 end
 
 function BVitem13()
-  return has ("settingShopReceiveSlots") and has ("BVitem13")
+  return has("settingShopReceiveSlots") and has("BVitem13")
 end
 
 function BVitem14()
-  return has ("settingShopReceiveSlots") and has ("BVitem14")
+  return has("settingShopReceiveSlots") and has("BVitem14")
 end
 
 function BVitem15()
-  return has ("settingShopReceiveSlots") and has ("BVitem15")
+  return has("settingShopReceiveSlots") and has("BVitem15")
 end
 
 function BVweapon1()
-  return has ("settingShopReceiveSlots") and has ("BVweapon1")
+  return has("settingShopReceiveSlots") and has("BVweapon1")
 end
 
 function BVweapon2()
-  return has ("settingShopReceiveSlots") and has ("BVweapon2")
+  return has("settingShopReceiveSlots") and has("BVweapon2")
 end
 
 function BVweapon3()
-  return has ("settingShopReceiveSlots") and has ("BVweapon3")
+  return has("settingShopReceiveSlots") and has("BVweapon3")
 end
 
 function BVweapon4()
-  return has ("settingShopReceiveSlots") and has ("BVweapon4")
+  return has("settingShopReceiveSlots") and has("BVweapon4")
 end
 
 -- Bakii Kum Shops
 
 function BKitem1()
-  return has ("settingShopReceiveSlots") and has ("BKitem1")
+  return has("settingShopReceiveSlots") and has("BKitem1")
 end
 
 function BKitem2()
-  return has ("settingShopReceiveSlots") and has ("BKitem2")
+  return has("settingShopReceiveSlots") and has("BKitem2")
 end
 
 function BKitem3()
-  return has ("settingShopReceiveSlots") and has ("BKitem3")
+  return has("settingShopReceiveSlots") and has("BKitem3")
 end
 
 function BKitem4()
-  return has ("settingShopReceiveSlots") and has ("BKitem4")
+  return has("settingShopReceiveSlots") and has("BKitem4")
 end
 
 function BKitem5()
-  return has ("settingShopReceiveSlots") and has ("BKitem5")
+  return has("settingShopReceiveSlots") and has("BKitem5")
 end
 
 function BKitem6()
-  return has ("settingShopReceiveSlots") and has ("BKitem6")
+  return has("settingShopReceiveSlots") and has("BKitem6")
 end
 
 function BKitem7()
-  return has ("settingShopReceiveSlots") and has ("BKitem7")
+  return has("settingShopReceiveSlots") and has("BKitem7")
 end
 
 function BKitem8()
-  return has ("settingShopReceiveSlots") and has ("BKitem8")
+  return has("settingShopReceiveSlots") and has("BKitem8")
 end
 
 function BKitem9()
-  return has ("settingShopReceiveSlots") and has ("BKitem9")
+  return has("settingShopReceiveSlots") and has("BKitem9")
 end
 
 function BKitem10()
-  return has ("settingShopReceiveSlots") and has ("BKitem10")
+  return has("settingShopReceiveSlots") and has("BKitem10")
 end
 
 function BKitem11()
-  return has ("settingShopReceiveSlots") and has ("BKitem11")
+  return has("settingShopReceiveSlots") and has("BKitem11")
 end
 
 function BKitem12()
-  return has ("settingShopReceiveSlots") and has ("BKitem12")
+  return has("settingShopReceiveSlots") and has("BKitem12")
 end
 
 function BKitem13()
-  return has ("settingShopReceiveSlots") and has ("BKitem13")
+  return has("settingShopReceiveSlots") and has("BKitem13")
 end
 
 function BKitem14()
-  return has ("settingShopReceiveSlots") and has ("BKitem14")
+  return has("settingShopReceiveSlots") and has("BKitem14")
 end
 
 function BKitem15()
-  return has ("settingShopReceiveSlots") and has ("BKitem15")
+  return has("settingShopReceiveSlots") and has("BKitem15")
 end
 
 function BKweapon1()
-  return has ("settingShopReceiveSlots") and has ("BKweapon1")
+  return has("settingShopReceiveSlots") and has("BKweapon1")
 end
 
 function BKweapon2()
-  return has ("settingShopReceiveSlots") and has ("BKweapon2")
+  return has("settingShopReceiveSlots") and has("BKweapon2")
 end
 
 function BKweapon3()
-  return has ("settingShopReceiveSlots") and has ("BKweapon3")
+  return has("settingShopReceiveSlots") and has("BKweapon3")
 end
 
 function BKweapon4()
-  return has ("settingShopReceiveSlots") and has ("BKweapon4")
+  return has("settingShopReceiveSlots") and has("BKweapon4")
 end
 
 function BKweapon5()
-  return has ("settingShopReceiveSlots") and has ("BKweapon5")
+  return has("settingShopReceiveSlots") and has("BKweapon5")
 end
 
 function BKweapon6()
-  return has ("settingShopReceiveSlots") and has ("BKweapon6")
+  return has("settingShopReceiveSlots") and has("BKweapon6")
 end
 
 function BKweapon7()
-  return has ("settingShopReceiveSlots") and has ("BKweapon7")
+  return has("settingShopReceiveSlots") and has("BKweapon7")
 end
 
 function BKweapon8()
-  return has ("settingShopReceiveSlots") and has ("BKweapon8")
+  return has("settingShopReceiveSlots") and has("BKweapon8")
 end
 
 -- Basin Keep Shops
 
 function BKEitem1()
-  return has ("settingShopReceiveSlots") and has ("BKEitem1")
+  return has("settingShopReceiveSlots") and has("BKEitem1")
 end
 
 function BKEitem2()
-  return has ("settingShopReceiveSlots") and has ("BKEitem2")
+  return has("settingShopReceiveSlots") and has("BKEitem2")
 end
 
 function BKEitem3()
-  return has ("settingShopReceiveSlots") and has ("BKEitem3")
+  return has("settingShopReceiveSlots") and has("BKEitem3")
 end
 
 function BKEitem4()
-  return has ("settingShopReceiveSlots") and has ("BKEitem4")
+  return has("settingShopReceiveSlots") and has("BKEitem4")
 end
 
 function BKEitem5()
-  return has ("settingShopReceiveSlots") and has ("BKEitem5")
+  return has("settingShopReceiveSlots") and has("BKEitem5")
 end
 
 function BKEitem6()
-  return has ("settingShopReceiveSlots") and has ("BKEitem6")
+  return has("settingShopReceiveSlots") and has("BKEitem6")
 end
 
 function BKEitem7()
-  return has ("settingShopReceiveSlots") and has ("BKEitem7")
+  return has("settingShopReceiveSlots") and has("BKEitem7")
 end
 
 function BKEitem8()
-  return has ("settingShopReceiveSlots") and has ("BKEitem8")
+  return has("settingShopReceiveSlots") and has("BKEitem8")
 end
 
 function BKEitem9()
-  return has ("settingShopReceiveSlots") and has ("BKEitem9")
+  return has("settingShopReceiveSlots") and has("BKEitem9")
 end
 
 function BKEitem10()
-  return has ("settingShopReceiveSlots") and has ("BKEitem10")
+  return has("settingShopReceiveSlots") and has("BKEitem10")
 end
 
 function BKEitem11()
-  return has ("settingShopReceiveSlots") and has ("BKEitem11")
+  return has("settingShopReceiveSlots") and has("BKEitem11")
 end
 
 function BKEitem12()
-  return has ("settingShopReceiveSlots") and has ("BKEitem12")
+  return has("settingShopReceiveSlots") and has("BKEitem12")
 end
 
 function BKEitem13()
-  return has ("settingShopReceiveSlots") and has ("BKEitem13")
+  return has("settingShopReceiveSlots") and has("BKEitem13")
 end
 
 function BKEitem14()
-  return has ("settingShopReceiveSlots") and has ("BKEitem14")
+  return has("settingShopReceiveSlots") and has("BKEitem14")
 end
 
 function BKEitem15()
-  return has ("settingShopReceiveSlots") and has ("BKEitem15")
+  return has("settingShopReceiveSlots") and has("BKEitem15")
 end
 
 function BKEweapon1()
-  return has ("settingShopReceiveSlots") and has ("BKEweapon1")
+  return has("settingShopReceiveSlots") and has("BKEweapon1")
 end
 
 function BKEweapon2()
-  return has ("settingShopReceiveSlots") and has ("BKEweapon2")
+  return has("settingShopReceiveSlots") and has("BKEweapon2")
 end
 
 function BKEweapon3()
-  return has ("settingShopReceiveSlots") and has ("BKEweapon3")
+  return has("settingShopReceiveSlots") and has("BKEweapon3")
 end
 
 function BKEweapon4()
-  return has ("settingShopReceiveSlots") and has ("BKEweapon4")
+  return has("settingShopReceiveSlots") and has("BKEweapon4")
 end
 function BKEweapon5()
-  return has ("settingShopReceiveSlots") and has ("BKEweapon5")
+  return has("settingShopReceiveSlots") and has("BKEweapon5")
 end
 
 function BKEweapon6()
-  return has ("settingShopReceiveSlots") and has ("BKEweapon6")
+  return has("settingShopReceiveSlots") and has("BKEweapon6")
 end
 
 function BKEweapon7()
-  return has ("settingShopReceiveSlots") and has ("BKEweapon7")
+  return has("settingShopReceiveSlots") and has("BKEweapon7")
 end
 
 function BKEweapon8()
-  return has ("settingShopReceiveSlots") and has ("BKEweapon8")
+  return has("settingShopReceiveSlots") and has("BKEweapon8")
 end
 
 function BKEvendor1()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor1")
+  return has("settingShopReceiveSlots") and has("BKEvendor1")
 end
 
 function BKEvendor2()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor2")
+  return has("settingShopReceiveSlots") and has("BKEvendor2")
 end
 
 function BKEvendor3()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor3")
+  return has("settingShopReceiveSlots") and has("BKEvendor3")
 end
 
 function BKEvendor4()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor4")
+  return has("settingShopReceiveSlots") and has("BKEvendor4")
 end
 
 function BKEvendor5()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor5")
+  return has("settingShopReceiveSlots") and has("BKEvendor5")
 end
 
 function BKEvendor6()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor6")
+  return has("settingShopReceiveSlots") and has("BKEvendor6")
 end
 
 function BKEvendor7()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor7")
+  return has("settingShopReceiveSlots") and has("BKEvendor7")
 end
 
 function BKEvendor8()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor8")
+  return has("settingShopReceiveSlots") and has("BKEvendor8")
 end
 
 function BKEvendor9()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor9")
+  return has("settingShopReceiveSlots") and has("BKEvendor9")
 end
 
 function BKEvendor10()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor10")
+  return has("settingShopReceiveSlots") and has("BKEvendor10")
 end
 
 function BKEvendor11()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor11")
+  return has("settingShopReceiveSlots") and has("BKEvendor11")
 end
 
 function BKEvendor12()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor12")
+  return has("settingShopReceiveSlots") and has("BKEvendor12")
 end
 
 function BKEvendor13()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor13")
+  return has("settingShopReceiveSlots") and has("BKEvendor13")
 end
 
 function BKEvendor14()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor14")
+  return has("settingShopReceiveSlots") and has("BKEvendor14")
 end
 
 function BKEvendor15()
-  return has ("settingShopReceiveSlots") and has ("BKEvendor15")
+  return has("settingShopReceiveSlots") and has("BKEvendor15")
 end
 
 function BKEcalzone1()
-  return has ("settingShopReceiveSlots") and has ("BKEcalzone1")
+  return has("settingShopReceiveSlots") and has("BKEcalzone1")
 end
 
 -- Sapphire Ridge Shops
 
 function SRitem1()
-  return has ("settingShopReceiveSlots") and has ("SRitem1")
+  return has("settingShopReceiveSlots") and has("SRitem1")
 end
 
 function SRitem2()
-  return has ("settingShopReceiveSlots") and has ("SRitem2")
+  return has("settingShopReceiveSlots") and has("SRitem2")
 end
 
 function SRitem3()
-  return has ("settingShopReceiveSlots") and has ("SRitem3")
+  return has("settingShopReceiveSlots") and has("SRitem3")
 end
 
 function SRitem4()
-  return has ("settingShopReceiveSlots") and has ("SRitem4")
+  return has("settingShopReceiveSlots") and has("SRitem4")
 end
 
 function SRitem5()
-  return has ("settingShopReceiveSlots") and has ("SRitem5")
+  return has("settingShopReceiveSlots") and has("SRitem5")
 end
 
 function SRitem6()
-  return has ("settingShopReceiveSlots") and has ("SRitem6")
+  return has("settingShopReceiveSlots") and has("SRitem6")
 end
 
 function SRitem7()
-  return has ("settingShopReceiveSlots") and has ("SRitem7")
+  return has("settingShopReceiveSlots") and has("SRitem7")
 end
 
 function SRitem8()
-  return has ("settingShopReceiveSlots") and has ("SRitem8")
+  return has("settingShopReceiveSlots") and has("SRitem8")
 end
 
 function SRitem9()
-  return has ("settingShopReceiveSlots") and has ("SRitem9")
+  return has("settingShopReceiveSlots") and has("SRitem9")
 end
 
 function SRitem10()
-  return has ("settingShopReceiveSlots") and has ("SRitem10")
+  return has("settingShopReceiveSlots") and has("SRitem10")
 end
 
 function SRitem11()
-  return has ("settingShopReceiveSlots") and has ("SRitem11")
+  return has("settingShopReceiveSlots") and has("SRitem11")
 end
 
 function SRitem12()
-  return has ("settingShopReceiveSlots") and has ("SRitem12")
+  return has("settingShopReceiveSlots") and has("SRitem12")
 end
 
 function SRitem13()
-  return has ("settingShopReceiveSlots") and has ("SRitem13")
+  return has("settingShopReceiveSlots") and has("SRitem13")
 end
 
 function SRitem14()
-  return has ("settingShopReceiveSlots") and has ("SRitem14")
+  return has("settingShopReceiveSlots") and has("SRitem14")
 end
 
 function SRitem15()
-  return has ("settingShopReceiveSlots") and has ("SRitem15")
+  return has("settingShopReceiveSlots") and has("SRitem15")
 end
 
 function SRweapon1()
-  return has ("settingShopReceiveSlots") and has ("SRweapon1")
+  return has("settingShopReceiveSlots") and has("SRweapon1")
 end
 
 function SRweapon2()
-  return has ("settingShopReceiveSlots") and has ("SRweapon2")
+  return has("settingShopReceiveSlots") and has("SRweapon2")
 end
 
 function SRweapon3()
-  return has ("settingShopReceiveSlots") and has ("SRweapon3")
+  return has("settingShopReceiveSlots") and has("SRweapon3")
 end
 
 function SRweapon4()
-  return has ("settingShopReceiveSlots") and has ("SRweapon4")
+  return has("settingShopReceiveSlots") and has("SRweapon4")
 end
 function SRweapon5()
-  return has ("settingShopReceiveSlots") and has ("SRweapon5")
+  return has("settingShopReceiveSlots") and has("SRweapon5")
 end
 
 function SRweapon6()
-  return has ("settingShopReceiveSlots") and has ("SRweapon6")
+  return has("settingShopReceiveSlots") and has("SRweapon6")
 end
 
 function SRweapon7()
-  return has ("settingShopReceiveSlots") and has ("SRweapon7")
+  return has("settingShopReceiveSlots") and has("SRweapon7")
 end
 
 function SRweapon8()
-  return has ("settingShopReceiveSlots") and has ("SRweapon8")
+  return has("settingShopReceiveSlots") and has("SRweapon8")
 end
 
 -- Rhombus Square Shops
 
 function RSitem1()
-  return has ("settingShopReceiveSlots") and has ("RSitem1")
+  return has("settingShopReceiveSlots") and has("RSitem1")
 end
 
 function RSitem2()
-  return has ("settingShopReceiveSlots") and has ("RSitem2")
+  return has("settingShopReceiveSlots") and has("RSitem2")
 end
 
 function RSitem3()
-  return has ("settingShopReceiveSlots") and has ("RSitem3")
+  return has("settingShopReceiveSlots") and has("RSitem3")
 end
 
 function RSitem4()
-  return has ("settingShopReceiveSlots") and has ("RSitem4")
+  return has("settingShopReceiveSlots") and has("RSitem4")
 end
 
 function RSitem5()
-  return has ("settingShopReceiveSlots") and has ("RSitem5")
+  return has("settingShopReceiveSlots") and has("RSitem5")
 end
 
 function RSitem6()
-  return has ("settingShopReceiveSlots") and has ("RSitem6")
+  return has("settingShopReceiveSlots") and has("RSitem6")
 end
 
 function RSitem7()
-  return has ("settingShopReceiveSlots") and has ("RSitem7")
+  return has("settingShopReceiveSlots") and has("RSitem7")
 end
 
 function RSitem8()
-  return has ("settingShopReceiveSlots") and has ("RSitem8")
+  return has("settingShopReceiveSlots") and has("RSitem8")
 end
 
 function RSitem9()
-  return has ("settingShopReceiveSlots") and has ("RSitem9")
+  return has("settingShopReceiveSlots") and has("RSitem9")
 end
 
 function RSitem10()
-  return has ("settingShopReceiveSlots") and has ("RSitem10")
+  return has("settingShopReceiveSlots") and has("RSitem10")
 end
 
 function RSitem11()
-  return has ("settingShopReceiveSlots") and has ("RSitem11")
+  return has("settingShopReceiveSlots") and has("RSitem11")
 end
 
 function RSitem12()
-  return has ("settingShopReceiveSlots") and has ("RSitem12")
+  return has("settingShopReceiveSlots") and has("RSitem12")
 end
 
 function RSitem13()
-  return has ("settingShopReceiveSlots") and has ("RSitem13")
+  return has("settingShopReceiveSlots") and has("RSitem13")
 end
 
 function RSitem14()
-  return has ("settingShopReceiveSlots") and has ("RSitem14")
+  return has("settingShopReceiveSlots") and has("RSitem14")
 end
 
 function RSitem15()
-  return has ("settingShopReceiveSlots") and has ("RSitem15")
+  return has("settingShopReceiveSlots") and has("RSitem15")
 end
 
 function RSweapon1()
-  return has ("settingShopReceiveSlots") and has ("RSweapon1")
+  return has("settingShopReceiveSlots") and has("RSweapon1")
 end
 
 function RSweapon2()
-  return has ("settingShopReceiveSlots") and has ("RSweapon2")
+  return has("settingShopReceiveSlots") and has("RSweapon2")
 end
 
 function RSweapon3()
-  return has ("settingShopReceiveSlots") and has ("RSweapon3")
+  return has("settingShopReceiveSlots") and has("RSweapon3")
 end
 
 function RSweapon4()
-  return has ("settingShopReceiveSlots") and has ("RSweapon4")
+  return has("settingShopReceiveSlots") and has("RSweapon4")
 end
+
 function RSweapon5()
-  return has ("settingShopReceiveSlots") and has ("RSweapon5")
+  return has("settingShopReceiveSlots") and has("RSweapon5")
 end
 
 function RSweapon6()
-  return has ("settingShopReceiveSlots") and has ("RSweapon6")
+  return has("settingShopReceiveSlots") and has("RSweapon6")
 end
 
 function RSweapon7()
-  return has ("settingShopReceiveSlots") and has ("RSweapon7")
+  return has("settingShopReceiveSlots") and has("RSweapon7")
 end
 
 function RSweapon8()
-  return has ("settingShopReceiveSlots") and has ("RSweapon8")
+  return has("settingShopReceiveSlots") and has("RSweapon8")
+end
+
+function RSweapon9()
+  return has("settingShopReceiveSlots") and has("RSweapon9") and has("settingDlcOn")
+end
+
+function RSweapon10()
+  return has("settingShopReceiveSlots") and has("RSweapon10") and has("settingDlcOn")
+end
+
+function RSweapon11()
+  return has("settingShopReceiveSlots") and has("RSweapon11") and has("settingDlcOn")
+end
+
+function RSweapon12()
+  return has("settingShopReceiveSlots") and has("RSweapon12") and has("settingDlcOn")
 end
 
 function RSchef1()
-  return has ("settingShopReceiveSlots") and has ("RSchef1")
+  return has("settingShopReceiveSlots") and has("RSchef1")
 end
 
 function RSchef2()
-  return has ("settingShopReceiveSlots") and has ("RSchef2")
+  return has("settingShopReceiveSlots") and has("RSchef2")
 end
 
 function RSchef3()
-  return has ("settingShopReceiveSlots") and has ("RSchef3")
+  return has("settingShopReceiveSlots") and has("RSchef3")
 end
 
 function RSchef4()
-  return has ("settingShopReceiveSlots") and has ("RSchef4")
+  return has("settingShopReceiveSlots") and has("RSchef4")
 end
 
 function RSchef5()
-  return has ("settingShopReceiveSlots") and has ("RSchef5")
+  return has("settingShopReceiveSlots") and has("RSchef5")
 end
 
 function RSchef6()
-  return has ("settingShopReceiveSlots") and has ("RSchef6")
+  return has("settingShopReceiveSlots") and has("RSchef6")
 end
 
 function RSchef7()
-  return has ("settingShopReceiveSlots") and has ("RSchef7")
+  return has("settingShopReceiveSlots") and has("RSchef7")
 end
 
 function RSchef8()
-  return has ("settingShopReceiveSlots") and has ("RSchef8")
+  return has("settingShopReceiveSlots") and has("RSchef8")
 end
 
 function RSchef9()
-  return has ("settingShopReceiveSlots") and has ("RSchef9")
+  return has("settingShopReceiveSlots") and has("RSchef9")
 end
 
 function RSchef10()
-  return has ("settingShopReceiveSlots") and has ("RSchef10")
+  return has("settingShopReceiveSlots") and has("RSchef10")
 end
 
 function RSchef11()
-  return has ("settingShopReceiveSlots") and has ("RSchef11")
+  return has("settingShopReceiveSlots") and has("RSchef11")
 end
 
 function RSchef12()
-  return has ("settingShopReceiveSlots") and has ("RSchef12")
+  return has("settingShopReceiveSlots") and has("RSchef12")
 end
 
 function RScurio1()
-  return has ("settingShopReceiveSlots") and has ("RScurio1")
+  return has("settingShopReceiveSlots") and has("RScurio1")
+end
+
+function RSgoat1()
+  return has("settingShopReceiveSlots") and has("RSgoat1") and has("settingDlcOn")
+end
+
+function RSgoat2()
+  return has("settingShopReceiveSlots") and has("RSgoat2") and has("settingDlcOn")
+end
+
+function RSgoat3()
+  return has("settingShopReceiveSlots") and has("RSgoat3") and has("settingDlcOn")
+end
+
+function RSgoat4()
+  return has("settingShopReceiveSlots") and has("RSgoat4") and has("settingDlcOn")
+end
+
+function RSgoat5()
+  return has("settingShopReceiveSlots") and has("RSgoat5") and has("settingDlcOn")
+end
+
+function RSgoat6()
+  return has("settingShopReceiveSlots") and has("RSgoat6") and has("settingDlcOn")
 end
 
 -- Vermillion Wasteland Shops
 
 function VWitem1()
-  return has ("settingShopReceiveSlots") and has ("VWitem1")
+  return has("settingShopReceiveSlots") and has("VWitem1")
 end
 
 function VWitem2()
-  return has ("settingShopReceiveSlots") and has ("VWitem2")
+  return has("settingShopReceiveSlots") and has("VWitem2")
 end
 
 function VWitem3()
-  return has ("settingShopReceiveSlots") and has ("VWitem3")
+  return has("settingShopReceiveSlots") and has("VWitem3")
 end
 
 function VWitem4()
-  return has ("settingShopReceiveSlots") and has ("VWitem4")
+  return has("settingShopReceiveSlots") and has("VWitem4")
 end
 
 function VWitem5()
-  return has ("settingShopReceiveSlots") and has ("VWitem5")
+  return has("settingShopReceiveSlots") and has("VWitem5")
 end
 
 function VWitem6()
-  return has ("settingShopReceiveSlots") and has ("VWitem6")
+  return has("settingShopReceiveSlots") and has("VWitem6")
 end
 
 function VWitem7()
-  return has ("settingShopReceiveSlots") and has ("VWitem7")
+  return has("settingShopReceiveSlots") and has("VWitem7")
 end
 
 function VWitem8()
-  return has ("settingShopReceiveSlots") and has ("VWitem8")
+  return has("settingShopReceiveSlots") and has("VWitem8")
 end
 
 function VWweapon1()
-  return has ("settingShopReceiveSlots") and has ("VWweapon1")
+  return has("settingShopReceiveSlots") and has("VWweapon1")
 end
 
 function VWweapon2()
-  return has ("settingShopReceiveSlots") and has ("VWweapon2")
+  return has("settingShopReceiveSlots") and has("VWweapon2")
 end
 
 function VWweapon3()
-  return has ("settingShopReceiveSlots") and has ("VWweapon3")
+  return has("settingShopReceiveSlots") and has("VWweapon3")
 end
 
 function VWweapon4()
-  return has ("settingShopReceiveSlots") and has ("VWweapon4")
+  return has("settingShopReceiveSlots") and has("VWweapon4")
 end
 function VWweapon5()
-  return has ("settingShopReceiveSlots") and has ("VWweapon5")
+  return has("settingShopReceiveSlots") and has("VWweapon5")
 end
 
 function VWweapon6()
-  return has ("settingShopReceiveSlots") and has ("VWweapon6")
+  return has("settingShopReceiveSlots") and has("VWweapon6")
 end
 
 function VWweapon7()
-  return has ("settingShopReceiveSlots") and has ("VWweapon7")
+  return has("settingShopReceiveSlots") and has("VWweapon7")
 end
 
 function VWweapon8()
-  return has ("settingShopReceiveSlots") and has ("VWweapon8")
+  return has("settingShopReceiveSlots") and has("VWweapon8")
 end
+
+-- Homestedt Shops
+
+function HSitem1()
+  return has("settingShopReceiveSlots") and has("HSitem1") and has("settingDlcOn")
+end
+
+function HSitem2()
+  return has("settingShopReceiveSlots") and has("HSitem2") and has("settingDlcOn")
+end
+
+function HSitem3()
+  return has("settingShopReceiveSlots") and has("HSitem3") and has("settingDlcOn")
+end
+
+function HSitem4()
+  return has("settingShopReceiveSlots") and has("HSitem4") and has("settingDlcOn")
+end
+
+function HSitem5()
+  return has("settingShopReceiveSlots") and has("HSitem5") and has("settingDlcOn")
+end
+
+function HSitem6()
+  return has("settingShopReceiveSlots") and has("HSitem6") and has("settingDlcOn")
+end
+
+function HSitem7()
+  return has("settingShopReceiveSlots") and has("HSitem7") and has("settingDlcOn")
+end
+
+function HSitem8()
+  return has("settingShopReceiveSlots") and has("HSitem8") and has("settingDlcOn")
+end
+
+function HSitem9()
+  return has("settingShopReceiveSlots") and has("HSitem9") and has("settingDlcOn")
+end
+
+function HSitem10()
+  return has("settingShopReceiveSlots") and has("HSitem10") and has("settingDlcOn")
+end
+
+function HSitem11()
+  return has("settingShopReceiveSlots") and has("HSitem11") and has("settingDlcOn")
+end
+
+function HSitem12()
+  return has("settingShopReceiveSlots") and has("HSitem12") and has("settingDlcOn")
+end
+
+function HSitem13()
+  return has("settingShopReceiveSlots") and has("HSitem13") and has("settingDlcOn")
+end
+
+function HSitem14()
+  return has("settingShopReceiveSlots") and has("HSitem14") and has("settingDlcOn")
+end
+
+function HSitem15()
+  return has("settingShopReceiveSlots") and has("HSitem15") and has("settingDlcOn")
+end
+
+function HSweapon1()
+  return has("settingShopReceiveSlots") and has("HSweapon1") and has("settingDlcOn")
+end
+
+function HSweapon2()
+  return has("settingShopReceiveSlots") and has("HSweapon2") and has("settingDlcOn")
+end
+
+function HSweapon3()
+  return has("settingShopReceiveSlots") and has("HSweapon3") and has("settingDlcOn")
+end
+
+function HSweapon4()
+  return has("settingShopReceiveSlots") and has("HSweapon4") and has("settingDlcOn")
+end
+
+function HSweapon5()
+  return has("settingShopReceiveSlots") and has("HSweapon5") and has("settingDlcOn")
+end
+
+function HSweapon6()
+  return has("settingShopReceiveSlots") and has("HSweapon6") and has("settingDlcOn")
+end
+
+function HSweapon7()
+  return has("settingShopReceiveSlots") and has("HSweapon7") and has("settingDlcOn")
+end
+
+function HSweapon8()
+  return has("settingShopReceiveSlots") and has("HSweapon8") and has("settingDlcOn")
+end
+
+-- Azure Archipelago Shops
+
+function AAweapon1()
+  return has("settingShopReceiveSlots") and has("AAweapon1") and has("settingDlcOn")
+end
+
+function AAweapon2()
+  return has("settingShopReceiveSlots") and has("AAweapon2") and has("settingDlcOn")
+end
+
+function AAweapon3()
+  return has("settingShopReceiveSlots") and has("AAweapon3") and has("settingDlcOn")
+end
+
+function AAweapon4()
+  return has("settingShopReceiveSlots") and has("AAweapon4") and has("settingDlcOn")
+end
+
 
 -- Type Shuffle
 
 function typeSandwich()
-  return has ("settingShopReceiveTypes") and has ("sandwich")
+  return has("settingShopReceiveTypes") and has("sandwich")
 end
 
 function typeHiSandwich()
-  return has ("settingShopReceiveTypes") and has ("hiSandwich")
+  return has("settingShopReceiveTypes") and has("hiSandwich")
 end
 
 function typeTea()
-  return has ("settingShopReceiveTypes") and has ("greenTea")
+  return has("settingShopReceiveTypes") and has("greenTea")
 end
 
 function typeWater()
-  return has ("settingShopReceiveTypes") and has ("justWater")
+  return has("settingShopReceiveTypes") and has("justWater")
 end
 
 function typeKebab()
-  return has ("settingShopReceiveTypes") and has ("kebab")
+  return has("settingShopReceiveTypes") and has("kebab")
 end
 
 function typeRisotto()
-  return has ("settingShopReceiveTypes") and has ("risotto")
+  return has("settingShopReceiveTypes") and has("risotto")
 end
 
 function typeBun()
-  return has ("settingShopReceiveTypes") and has ("spicyBun")
+  return has("settingShopReceiveTypes") and has("spicyBun")
 end
 
 function typeFruit()
-  return has ("settingShopReceiveTypes") and has ("fruitDrink")
+  return has("settingShopReceiveTypes") and has("fruitDrink")
 end
 
 function typeCracker()
-  return has ("settingShopReceiveTypes") and has ("cracker")
+  return has("settingShopReceiveTypes") and has("cracker")
 end
 
 function typeVeggie()
-  return has ("settingShopReceiveTypes") and has ("veggieSticks")
+  return has("settingShopReceiveTypes") and has("veggieSticks")
 end
 
 function typeIcecream()
-  return has ("settingShopReceiveTypes") and has ("iceCream")
+  return has("settingShopReceiveTypes") and has("iceCream")
 end
 
 function typeLemonjuice()
-  return has ("settingShopReceiveTypes") and has ("lemonjuice")
+  return has("settingShopReceiveTypes") and has("lemonjuice")
 end
 
 function typeCoffee()
-  return has ("settingShopReceiveTypes") and has ("coffee")
+  return has("settingShopReceiveTypes") and has("coffee")
 end
 
 function typePeanuts()
-  return has ("settingShopReceiveTypes") and has ("peanuts")
+  return has("settingShopReceiveTypes") and has("peanuts")
 end
 
 function typeMix()
-  return has ("settingShopReceiveTypes") and has ("snackMix")
+  return has("settingShopReceiveTypes") and has("snackMix")
 end
 
 function typeRisingStar()
-  return has ("settingShopReceiveTypes") and has ("risingStar")
+  return has("settingShopReceiveTypes") and has("risingStar")
 end
 
 function typePepper()
-  return has ("settingShopReceiveTypes") and has ("dkPepper")
+  return has("settingShopReceiveTypes") and has("dkPepper")
 end
 
 function typeMaultasche()
-  return has ("settingShopReceiveTypes") and has ("maultasche")
+  return has("settingShopReceiveTypes") and has("maultasche")
 end
 
 function typeSpaetzle()
-  return has ("settingShopReceiveTypes") and has ("spaetzle")
+  return has("settingShopReceiveTypes") and has("spaetzle")
 end
 
 function typeDurian()
-  return has ("settingShopReceiveTypes") and has ("durian")
+  return has("settingShopReceiveTypes") and has("durian")
 end
 
 function typePengo()
-  return has ("settingShopReceiveTypes") and has ("pengoPop")
+  return has("settingShopReceiveTypes") and has("pengoPop")
 end
 
 function typeBeatZero()
-  return has ("settingShopReceiveTypes") and has ("beatZero")
+  return has("settingShopReceiveTypes") and has("beatZero")
 end
 
 function typeWerewolf()
-  return has ("settingShopReceiveTypes") and has ("werewolf")
+  return has("settingShopReceiveTypes") and has("werewolf")
 end
 
 function typeMooncake()
-  return has ("settingShopReceiveTypes") and has ("mooncake")
+  return has("settingShopReceiveTypes") and has("mooncake")
 end
 
 function typeWillis()
-  return has ("settingShopReceiveTypes") and has ("willis")
+  return has("settingShopReceiveTypes") and has("willis")
 end
 
 function typePumpkin()
-  return has ("settingShopReceiveTypes") and has ("pumpkinCoffee")
+  return has("settingShopReceiveTypes") and has("pumpkinCoffee")
 end
 
 function typeToast()
-  return has ("settingShopReceiveTypes") and has ("toast")
+  return has("settingShopReceiveTypes") and has("toast")
 end
 
 function typeOneUp()
-  return has ("settingShopReceiveTypes") and has ("oneUp")
+  return has("settingShopReceiveTypes") and has("oneUp")
 end
 
 function typeChiliCon()
-  return has ("settingShopReceiveTypes") and has ("chili")
+  return has("settingShopReceiveTypes") and has("chili")
 end
 
 function typeSweetTea()
-  return has ("settingShopReceiveTypes") and has ("sweetTea")
+  return has("settingShopReceiveTypes") and has("sweetTea")
+end
+
+function typeGoatCheese()
+  return has("settingShopReceiveTypes") and has("goatCheese") and has("settingDlcOn")
+end
+
+function typeGoatMilk()
+  return has("settingShopReceiveTypes") and has("goatMilk") and has("settingDlcOn")
 end
 
 function typeDetector()
-  return has ("settingShopReceiveTypes") and has ("chestDetector")
+  return has("settingShopReceiveTypes") and has("chestDetector")
 end
 
 function typeBrHelm()
-  return has ("settingShopReceiveTypes") and has ("brHelm")
+  return has("settingShopReceiveTypes") and has("brHelm")
 end
 
 function typeBrEdge()
-  return has ("settingShopReceiveTypes") and has ("brEdge")
+  return has("settingShopReceiveTypes") and has("brEdge")
 end
 
 function typeBrMail()
-  return has ("settingShopReceiveTypes") and has ("brMail")
+  return has("settingShopReceiveTypes") and has("brMail")
 end
 
 function typeBrBoots()
-  return has ("settingShopReceiveTypes") and has ("brBoots")
+  return has("settingShopReceiveTypes") and has("brBoots")
 end
 
 function typeIrHelm()
-  return has ("settingShopReceiveTypes") and has ("irHelm")
+  return has("settingShopReceiveTypes") and has("irHelm")
 end
 
 function typeIrEdge()
-  return has ("settingShopReceiveTypes") and has ("irEdge")
+  return has("settingShopReceiveTypes") and has("irEdge")
 end
 
 function typeIrMail()
-  return has ("settingShopReceiveTypes") and has ("irMail")
+  return has("settingShopReceiveTypes") and has("irMail")
 end
 
 function typeIrBoots()
-  return has ("settingShopReceiveTypes") and has ("irBoots")
+  return has("settingShopReceiveTypes") and has("irBoots")
 end
 
 function typeSilHelm()
-  return has ("settingShopReceiveTypes") and has ("silHelm")
+  return has("settingShopReceiveTypes") and has("silHelm")
 end
 
 function typeSilEdge()
-  return has ("settingShopReceiveTypes") and has ("silEdge")
+  return has("settingShopReceiveTypes") and has("silEdge")
 end
 
 function typeSilMail()
-  return has ("settingShopReceiveTypes") and has ("silMail")
+  return has("settingShopReceiveTypes") and has("silMail")
 end
 
 function typeSilBoots()
-  return has ("settingShopReceiveTypes") and has ("silBoots")
+  return has("settingShopReceiveTypes") and has("silBoots")
 end
 
 function typeStHelm()
-  return has ("settingShopReceiveTypes") and has ("stHelm")
+  return has("settingShopReceiveTypes") and has("stHelm")
 end
 
 function typeStEdge()
-  return has ("settingShopReceiveTypes") and has ("stEdge")
+  return has("settingShopReceiveTypes") and has("stEdge")
 end
 
 function typeStMail()
-  return has ("settingShopReceiveTypes") and has ("stMail")
+  return has("settingShopReceiveTypes") and has("stMail")
 end
 
 function typeStBoots()
-  return has ("settingShopReceiveTypes") and has ("stBoots")
+  return has("settingShopReceiveTypes") and has("stBoots")
 end
 
 function typeTiHelm()
-  return has ("settingShopReceiveTypes") and has ("tiHelm")
+  return has("settingShopReceiveTypes") and has("tiHelm")
 end
 
 function typeTiEdge()
-  return has ("settingShopReceiveTypes") and has ("tiEdge")
+  return has("settingShopReceiveTypes") and has("tiEdge")
 end
 
 function typeTiMail()
-  return has ("settingShopReceiveTypes") and has ("tiMail")
+  return has("settingShopReceiveTypes") and has("tiMail")
 end
 
 function typeTiBoots()
-  return has ("settingShopReceiveTypes") and has ("tiBoots")
+  return has("settingShopReceiveTypes") and has("tiBoots")
 end
 
 function typeCoHelm()
-  return has ("settingShopReceiveTypes") and has ("coHelm")
+  return has("settingShopReceiveTypes") and has("coHelm")
 end
 
 function typeCoEdge()
-  return has ("settingShopReceiveTypes") and has ("coEdge")
+  return has("settingShopReceiveTypes") and has("coEdge")
 end
 
 function typeCoMail()
-  return has ("settingShopReceiveTypes") and has ("coMail")
+  return has("settingShopReceiveTypes") and has("coMail")
 end
 
 function typeCoBoots()
-  return has ("settingShopReceiveTypes") and has ("coBoots")
+  return has("settingShopReceiveTypes") and has("coBoots")
 end
 
 function typeLaHelm()
-  return has ("settingShopReceiveTypes") and has ("laHelm")
+  return has("settingShopReceiveTypes") and has("laHelm")
 end
 
 function typeLaEdge()
-  return has ("settingShopReceiveTypes") and has ("laEdge")
+  return has("settingShopReceiveTypes") and has("laEdge")
 end
 
 function typeLaMail()
-  return has ("settingShopReceiveTypes") and has ("laMail")
+  return has("settingShopReceiveTypes") and has("laMail")
 end
 
 function typeLaBoots()
-  return has ("settingShopReceiveTypes") and has ("laBoots")
+  return has("settingShopReceiveTypes") and has("laBoots")
+end
+
+function typeCrHelm()
+  return has("settingShopReceiveTypes") and has("crHelm") and has("settingDlcOn")
+end
+
+function typeCrEdge()
+  return has("settingShopReceiveTypes") and has("crEdge") and has("settingDlcOn")
+end
+
+function typeCrMail()
+  return has("settingShopReceiveTypes") and has("crMail") and has("settingDlcOn")
+end
+
+function typeCrBoots()
+  return has("settingShopReceiveTypes") and has("crBoots") and has("settingDlcOn")
 end
 
 -- Shop Reach
@@ -1954,63 +2132,63 @@ end
 -- Shop Receive Type
 
 function sandwichType()
-  return typeSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
+  return typeSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or RS_2() or HS_1())
 end
 
 function hiSandwichType()
-  return typeHiSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
+  return typeHiSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or RS_2() or HS_1())
 end
 
 function greenTeaType()
-  return typeTea() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
+  return typeTea() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or RS_2() or HS_1())
 end
 
 function justWaterType()
-  return typeWater() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
+  return typeWater() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or RS_2() or HS_1())
 end
 
 function kebabType()
-  return typeKebab() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS_1())
+  return typeKebab() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS_1() or HS_1())
 end
 
 function risottoType()
-  return typeRisotto() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS_1())
+  return typeRisotto() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS_1() or HS_1())
 end
 
 function spicyBunType()
-  return typeBun() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
+  return typeBun() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or HS_1())
 end
 
 function fruitDrinkType()
-  return typeFruit() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
+  return typeFruit() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or HS_1())
 end
 
 function crackerType()
-  return typeCracker() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
+  return typeCracker() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or HS_1())
 end
 
 function veggieSticksType()
-  return typeVeggie() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW())
+  return typeVeggie() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS_1() or VW() or HS_1())
 end
 
 function iceCreamType()
-  return typeIcecream() and (RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS_1())
+  return typeIcecream() and (RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS_1() or HS_1())
 end
 
 function lemonJuiceType()
-  return typeLemonjuice() and (RH_3() or BT() or BV_3() or BK_1() or BKE_1() or SR() or RS_1())
+  return typeLemonjuice() and (RH_3() or BT() or BV_3() or BK_1() or BKE_1() or SR() or RS_1() or HS_1())
 end
 
 function coffeeType()
-  return typeCoffee() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1())
+  return typeCoffee() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1() or HS_1())
 end
 
 function peanutsType()
-  return typePeanuts() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1())
+  return typePeanuts() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1() or HS_1())
 end
 
 function snackMixType()
-  return typeMix() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1())
+  return typeMix() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS_1() or HS_1())
 end
 
 function risingStarType()
@@ -2069,6 +2247,14 @@ function chiliType()
   return typeChiliCon() and (BT())
 end
 
+function goatCheeseType()
+  return typeGoatCheese() and (HS_2())
+end
+
+function goatMilkType()
+  return typeGoatMilk() and (HS_2())
+end
+
 function oneUpType()
   return typeOneUp() and (BKE_2())
 end
@@ -2098,7 +2284,11 @@ function coHelmType()
 end
 
 function laHelmType()
-  return typeLaHelm() and (RS_1())
+  return typeLaHelm() and (RS_1() or HS_1())
+end
+
+function crHelmType()
+  return typeCrHelm() and (RS_1() or HS_2() or AA())
 end
 
 function brEdgeType()
@@ -2126,7 +2316,11 @@ function coEdgeType()
 end
 
 function laEdgeType()
-  return typeLaEdge() and (RS_1())
+  return typeLaEdge() and (RS_1() or HS_1())
+end
+
+function crEdgeType()
+  return typeCrEdge() and (RS_1() or HS_2() or AA())
 end
 
 function brMailType()
@@ -2154,7 +2348,11 @@ function coMailType()
 end
 
 function laMailType()
-  return typeLaMail() and (RS_1())
+  return typeLaMail() and (RS_1() or HS_1())
+end
+
+function crMailType()
+  return typeCrMail() and (RS_1() or HS_2() or AA())
 end
 
 function brBootsType()
@@ -2182,7 +2380,11 @@ function coBootsType()
 end
 
 function laBootsType()
-  return typeLaBoots() and (RS_1())
+  return typeLaBoots() and (RS_1() or HS_1())
+end
+
+function crBootsType()
+  return typeCrBoots() and (RS_1() or HS_2() or AA())
 end
 
 function chestDetectorType()
@@ -2199,8 +2401,10 @@ function sandwichShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())    or
-         (has("vermillionItemShop") and VW())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("vermillionItemShop") and VW()) or
+         (has("rhombusGoatShop") and RS_2())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function hiSandwichShop()
@@ -2210,8 +2414,10 @@ function hiSandwichShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())    or
-         (has("vermillionItemShop") and VW())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("vermillionItemShop") and VW()) or
+         (has("rhombusGoatShop") and RS_2())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function greenTeaShop()
@@ -2221,8 +2427,10 @@ function greenTeaShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())    or
-         (has("vermillionItemShop") and VW())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("vermillionItemShop") and VW()) or
+         (has("rhombusGoatShop") and RS_2())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function justWaterShop()
@@ -2232,8 +2440,10 @@ function justWaterShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())    or
-         (has("vermillionItemShop") and VW())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("vermillionItemShop") and VW()) or
+         (has("rhombusGoatShop") and RS_2())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function kebabShop()
@@ -2243,7 +2453,8 @@ function kebabShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function risottoShop()
@@ -2253,7 +2464,8 @@ function risottoShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function spicyBunShop()
@@ -2263,8 +2475,9 @@ function spicyBunShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())    or
-         (has("vermillionItemShop") and VW())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("vermillionItemShop") and VW())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function fruitDrinkShop()
@@ -2274,8 +2487,9 @@ function fruitDrinkShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())    or
-         (has("vermillionItemShop") and VW())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("vermillionItemShop") and VW()) or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function crackerShop()
@@ -2285,8 +2499,9 @@ function crackerShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())    or
-         (has("vermillionItemShop") and VW())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("vermillionItemShop") and VW()) or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function veggieSticksShop()
@@ -2296,8 +2511,9 @@ function veggieSticksShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())    or
-         (has("vermillionItemShop") and VW())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("vermillionItemShop") and VW()) or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function iceCreamShop()
@@ -2307,7 +2523,8 @@ function iceCreamShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function lemonJuiceShop()
@@ -2318,7 +2535,8 @@ function lemonJuiceShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function coffeeShop()
@@ -2328,7 +2546,8 @@ function coffeeShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function peanutsShop()
@@ -2338,7 +2557,8 @@ function peanutsShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function snackMixShop()
@@ -2348,7 +2568,8 @@ function snackMixShop()
          (has("basinItemShop") and BKE_1())   or
          (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
-         (has("rhombusItemShop") and RS_1())
+         (has("rhombusItemShop") and RS_1())  or
+         (has("homestedtItemShop") and HS_1())
 end
 
 function risingStarShop()
@@ -2419,6 +2640,14 @@ function chiliShop()
   return (has("bergenHermitShop") and BT())
 end
 
+function goatCheeseShop()
+  return (has("rhombusGoatShop") and RS_2())
+end
+
+function goatMilkShop()
+  return (has("rhombusGoatShop") and RS_2())
+end
+
 function oneUpShop()
   return (has("basinCalzone") and BKE_2())
 end
@@ -2429,25 +2658,25 @@ end
 
 function irHelmShop()
   return (has("rookieWeaponShop") and RH_1()) or
-         (has("bergenWeaponShop") and BV_1()) or 
+         (has("bergenWeaponShop") and BV_1()) or
          (has("bakiiWeaponShop") and BK_1())
 end
 
 function silHelmShop()
   return (has("rookieWeaponShop") and RH_3())   or
          (has("rookieBackerWeapon") and RH_5()) or
-         (has("basinWeaponShop") and BKE_1())   or 
+         (has("basinWeaponShop") and BKE_1())   or
          (has("vermillionWeaponShop") and VW())
 end
 
 function stHelmShop()
   return (has("rookieBackerWeapon") and RH_5()) or
-         (has("bakiiWeaponShop") and BK_1())    or 
+         (has("bakiiWeaponShop") and BK_1())    or
          (has("vermillionWeaponShop") and VW())
 end
 
 function tiHelmShop()
-  return (has("basinWeaponShop") and BKE_1()) or 
+  return (has("basinWeaponShop") and BKE_1()) or
          (has("sapphireWeaponShop") and SR())
 end
 
@@ -2457,7 +2686,14 @@ function coHelmShop()
 end
 
 function laHelmShop()
-  return (has("rhombusWeaponShop") and RS_1())
+  return (has("rhombusWeaponShop") and RS_1()) or
+         (has("homestedtWeaponShop") and HS_1())
+end
+
+function crHelmShop()
+  return (has("rhombusWeaponShop") and RS_1()) or
+         (has("azureWeaponShop") and AA())     or
+         (has("homestedtWeaponShop") and HS_2())
 end
 
 function brEdgeShop()
@@ -2494,7 +2730,14 @@ function coEdgeShop()
 end
 
 function laEdgeShop()
-  return (has("rhombusWeaponShop") and RS_1())
+  return (has("rhombusWeaponShop") and RS_1()) or
+         (has("homestedtWeaponShop") and HS_1())
+end
+
+function crEdgeShop()
+  return (has("rhombusWeaponShop") and RS_1()) or
+         (has("azureWeaponShop") and AA())     or
+         (has("homestedtWeaponShop") and HS_2())
 end
 
 function brMailShop()
@@ -2531,7 +2774,14 @@ function coMailShop()
 end
 
 function laMailShop()
-  return (has("rhombusWeaponShop") and RS_1())
+  return (has("rhombusWeaponShop") and RS_1()) or
+         (has("homestedtWeaponShop") and HS_1())
+end
+
+function crMailShop()
+  return (has("rhombusWeaponShop") and RS_1()) or
+         (has("azureWeaponShop") and AA())     or
+         (has("homestedtWeaponShop") and HS_2())
 end
 
 function brBootsShop()
@@ -2568,7 +2818,14 @@ function coBootsShop()
 end
 
 function laBootsShop()
-  return (has("rhombusWeaponShop") and RS_1())
+  return (has("rhombusWeaponShop") and RS_1()) or
+         (has("homestedtWeaponShop") and HS_1())
+end
+
+function crBootsShop()
+  return (has("rhombusWeaponShop") and RS_1()) or
+         (has("azureWeaponShop") and AA())     or
+         (has("homestedtWeaponShop") and HS_2())
 end
 
 function chestDetectorShop()
@@ -2585,8 +2842,10 @@ function sandwichSlot()
          (BKEvendor1() and BKE_1()) or
          (BKEitem1() and BKE_1())   or
          (SRitem1() and SR())       or
-         (RSitem1() and RS_1())       or
-         (VWitem1() and VW())
+         (RSitem1() and RS_1())     or
+         (VWitem1() and VW())       or
+         (RSgoat1() and RS_2())     or
+         (HSitem1() and HS_1())
 end
 
 function hiSandwichSlot()
@@ -2596,8 +2855,10 @@ function hiSandwichSlot()
          (BKEvendor2() and BKE_1()) or
          (BKEitem2() and BKE_1())   or
          (SRitem2() and SR())       or
-         (RSitem2() and RS_1())       or
-         (VWitem2() and VW())
+         (RSitem2() and RS_1())     or
+         (VWitem2() and VW())       or
+         (RSgoat2() and RS_2())     or
+         (HSitem2() and HS_1())
 end
 
 function greenTeaSlot()
@@ -2607,8 +2868,10 @@ function greenTeaSlot()
          (BKEvendor3() and BKE_1()) or
          (BKEitem3() and BKE_1())   or
          (SRitem3() and SR())       or
-         (RSitem3() and RS_1())       or
-         (VWitem3() and VW())
+         (RSitem3() and RS_1())     or
+         (VWitem3() and VW())       or
+         (RSgoat3() and RS_2())     or
+         (HSitem3() and HS_1())
 end
 
 function justWaterSlot()
@@ -2618,8 +2881,10 @@ function justWaterSlot()
          (BKEvendor4() and BKE_1()) or
          (BKEitem4() and BKE_1())   or
          (SRitem4() and SR())       or
-         (RSitem4() and RS_1())       or
-         (VWitem4() and VW())
+         (RSitem4() and RS_1())     or
+         (VWitem4() and VW())       or
+         (RSgoat4() and RS_2())     or
+         (HSitem4() and HS_1())
 end
 
 function kebabSlot()
@@ -2629,7 +2894,8 @@ function kebabSlot()
          (BKEvendor5() and BKE_1()) or
          (BKEitem5() and BKE_1())   or
          (SRitem5() and SR())       or
-         (RSitem5() and RS_1())
+         (RSitem5() and RS_1())     or
+         (HSitem5() and HS_1())
 end
 
 function risottoSlot()
@@ -2639,7 +2905,8 @@ function risottoSlot()
          (BKEvendor6() and BKE_1()) or
          (BKEitem6() and BKE_1())   or
          (SRitem6() and SR())       or
-         (RSitem6() and RS_1())
+         (RSitem6() and RS_1())     or
+         (HSitem6() and HS_1())
 end
 
 function spicyBunSlot()
@@ -2649,8 +2916,9 @@ function spicyBunSlot()
          (BKEvendor7() and BKE_1()) or
          (BKEitem7() and BKE_1())   or
          (SRitem7() and SR())       or
-         (RSitem7() and RS_1())       or
-         (VWitem5() and VW())
+         (RSitem7() and RS_1())     or
+         (VWitem5() and VW())       or
+         (HSitem7() and HS_1())
 end
 
 function fruitDrinkSlot()
@@ -2660,8 +2928,9 @@ function fruitDrinkSlot()
          (BKEvendor8() and BKE_1()) or
          (BKEitem8() and BKE_1())   or
          (SRitem8() and SR())       or
-         (RSitem8() and RS_1())       or
-         (VWitem6() and VW())
+         (RSitem8() and RS_1())     or
+         (VWitem6() and VW())       or
+         (HSitem8() and HS_1())
 end
 
 function crackerSlot()
@@ -2671,8 +2940,9 @@ function crackerSlot()
          (BKEvendor9() and BKE_1()) or
          (BKEitem9() and BKE_1())   or
          (SRitem9() and SR())       or
-         (RSitem9() and RS_1())       or
-         (VWitem7() and VW())
+         (RSitem9() and RS_1())     or
+         (VWitem7() and VW())       or
+         (HSitem9() and HS_1())
 end
 
 function veggieSticksSlot()
@@ -2682,8 +2952,9 @@ function veggieSticksSlot()
          (BKEvendor10() and BKE_1()) or
          (BKEitem10() and BKE_1())   or
          (SRitem10() and SR())       or
-         (RSitem10() and RS_1())       or
-         (VWitem8() and VW())
+         (RSitem10() and RS_1())     or
+         (VWitem8() and VW())        or
+         (HSitem10() and HS_1())
 end
 
 function iceCreamSlot()
@@ -2693,7 +2964,8 @@ function iceCreamSlot()
          (BKEvendor11() and BKE_1()) or
          (BKEitem11() and BKE_1())   or
          (SRitem11() and SR())       or
-         (RSitem11() and RS_1())
+         (RSitem11() and RS_1())     or
+         (HSitem11() and HS_1())
 end
 
 function lemonJuiceSlot()
@@ -2704,7 +2976,8 @@ function lemonJuiceSlot()
          (BKEvendor12() and BKE_1()) or
          (BKEitem12() and BKE_1())   or
          (SRitem12() and SR())       or
-         (RSitem12() and RS_1())
+         (RSitem12() and RS_1())     or
+         (HSitem12() and HS_1())
 end
 
 function coffeeSlot()
@@ -2714,7 +2987,8 @@ function coffeeSlot()
          (BKEvendor13() and BKE_1()) or
          (BKEitem13() and BKE_1())   or
          (SRitem13() and SR())       or
-         (RSitem13() and RS_1())
+         (RSitem13() and RS_1())     or
+         (HSitem13() and HS_1())
 end
 
 function peanutsSlot()
@@ -2724,7 +2998,8 @@ function peanutsSlot()
          (BKEvendor14() and BKE_1()) or
          (BKEitem14() and BKE_1())   or
          (SRitem14() and SR())       or
-         (RSitem14() and RS_1())
+         (RSitem14() and RS_1())     or
+         (HSitem14() and HS_1())
 end
 
 function snackMixSlot()
@@ -2734,7 +3009,8 @@ function snackMixSlot()
          (BKEvendor15() and BKE_1()) or
          (BKEitem15() and BKE_1())   or
          (SRitem15() and SR())       or
-         (RSitem15() and RS_1())
+         (RSitem15() and RS_1())     or
+         (HSitem15() and HS_1())
 end
 
 function risingStarSlot()
@@ -2805,6 +3081,14 @@ function chiliSlot()
   return (BThermit2() and BT())
 end
 
+function goatCheeseSlot()
+  return (RSgoat5() and RS_2())
+end
+
+function goatMilkSlot()
+  return (RSgoat6() and RS_2())
+end
+
 function oneUpSlot()
   return (BKEcalzone1() and BKE_2())
 end
@@ -2815,25 +3099,25 @@ end
 
 function irHelmSlot()
   return (RHweapon2() and RH_1()) or
-         (BVweapon1() and BV_1()) or 
+         (BVweapon1() and BV_1()) or
          (BKweapon1() and BK_1())
 end
 
 function silHelmSlot()
   return (RHweapon3() and RH_3())     or
          (RHbackWeapon2() and RH_5()) or
-         (BKEweapon1() and BKE_1())   or 
+         (BKEweapon1() and BKE_1())   or
          (VWweapon2() and VW())
 end
 
 function stHelmSlot()
   return (RHbackWeapon1() and RH_5()) or
-         (BKweapon2() and BK_1())     or 
+         (BKweapon2() and BK_1())     or
          (VWweapon1() and VW())
 end
 
 function tiHelmSlot()
-  return (BKEweapon2() and BKE_1()) or 
+  return (BKEweapon2() and BKE_1()) or
          (SRweapon1() and SR())
 end
 
@@ -2843,7 +3127,14 @@ function coHelmSlot()
 end
 
 function laHelmSlot()
-  return (RSweapon2() and RS_1())
+  return (RSweapon2() and RS_1()) or
+         (HSweapon1() and HS_1())
+end
+
+function crHelmSlot()
+  return (RSweapon9() and RS_1()) or
+         (HSweapon5() and HS_2()) or
+         (AAweapon1() and AA())
 end
 
 function brEdgeSlot()
@@ -2852,25 +3143,25 @@ end
 
 function irEdgeSlot()
   return (RHweapon5() and RH_1()) or
-         (BVweapon2() and BV_1()) or 
+         (BVweapon2() and BV_1()) or
          (BKweapon3() and BK_1())
 end
 
 function silEdgeSlot()
   return (RHweapon6() and RH_3())     or
          (RHbackWeapon4() and RH_5()) or
-         (BKEweapon3() and BKE_1())   or 
+         (BKEweapon3() and BKE_1())   or
          (VWweapon5() and VW())
 end
 
 function stEdgeSlot()
   return (RHbackWeapon3() and RH_5()) or
-         (BKweapon4() and BK_1())     or 
+         (BKweapon4() and BK_1())     or
          (VWweapon3() and VW())
 end
 
 function tiEdgeSlot()
-  return (BKEweapon4() and BKE_1()) or 
+  return (BKEweapon4() and BKE_1()) or
          (SRweapon3() and SR())
 end
 
@@ -2880,7 +3171,14 @@ function coEdgeSlot()
 end
 
 function laEdgeSlot()
-  return (RSweapon4() and RS_1())
+  return (RSweapon4() and RS_1()) or
+         (HSweapon2() and HS_1())
+end
+
+function crEdgeSlot()
+  return (RSweapon10() and RS_1()) or
+         (HSweapon6() and HS_2()) or
+         (AAweapon2() and AA())
 end
 
 function brMailSlot()
@@ -2889,25 +3187,25 @@ end
 
 function irMailSlot()
   return (RHweapon8() and RH_1()) or
-         (BVweapon3() and BV_1()) or 
+         (BVweapon3() and BV_1()) or
          (BKweapon5() and BK_1())
 end
 
 function silMailSlot()
   return (RHweapon9() and RH_3())     or
          (RHbackWeapon6() and RH_5()) or
-         (BKEweapon5() and BKE_1())   or 
+         (BKEweapon5() and BKE_1())   or
          (VWweapon7() and VW())
 end
 
 function stMailSlot()
   return (RHbackWeapon5() and RH_5()) or
-         (BKweapon6() and BK_1())     or 
+         (BKweapon6() and BK_1())     or
          (VWweapon5() and VW())
 end
 
 function tiMailSlot()
-  return (BKEweapon6() and BKE_1()) or 
+  return (BKEweapon6() and BKE_1()) or
          (SRweapon5() and SR())
 end
 
@@ -2917,7 +3215,14 @@ function coMailSlot()
 end
 
 function laMailSlot()
-  return (RSweapon6() and RS_1())
+  return (RSweapon6() and RS_1()) or
+         (HSweapon3() and HS_1())
+end
+
+function crMailSlot()
+  return (RSweapon11() and RS_1()) or
+         (HSweapon7() and HS_2()) or
+         (AAweapon3() and AA())
 end
 
 function brBootsSlot()
@@ -2926,25 +3231,25 @@ end
 
 function irBootsSlot()
   return (RHweapon11() and RH_1()) or
-         (BVweapon4() and BV_1())  or 
+         (BVweapon4() and BV_1())  or
          (BKweapon7() and BK_1())
 end
 
 function silBootsSlot()
   return (RHweapon12() and RH_3())    or
          (RHbackWeapon8() and RH_5()) or
-         (BKEweapon7() and BKE_1())   or 
-         (VWweapon9() and VW())
+         (BKEweapon7() and BKE_1())   or
+         (VWweapon8() and VW())
 end
 
 function stBootsSlot()
   return (RHbackWeapon7() and RH_5()) or
-         (BKweapon8() and BK_1())     or 
+         (BKweapon8() and BK_1())     or
          (VWweapon7() and VW())
 end
 
 function tiBootsSlot()
-  return (BKEweapon8() and BKE_1()) or 
+  return (BKEweapon8() and BKE_1()) or
          (SRweapon7() and SR())
 end
 
@@ -2954,7 +3259,14 @@ function coBootsSlot()
 end
 
 function laBootsSlot()
-  return (RSweapon8() and RS_1())
+  return (RSweapon8() and RS_1()) or
+         (HSweapon4() and HS_1())
+end
+
+function crBootsSlot()
+  return (RSweapon12() and RS_1()) or
+         (HSweapon8() and HS_2()) or
+         (AAweapon4() and AA())
 end
 
 function chestDetectorSlot()

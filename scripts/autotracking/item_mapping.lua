@@ -432,23 +432,23 @@ ITEM_MAPPING =
 -- [] = {"Hweapon8", "toggle"}, -- Homestedt Slot 8 (crBoots)
 -- Azure Achipelago Weapons
 [3235924534] = {"azureWeaponShop", "toggle"}, -- Azure Archipelago Weapon Shop Unlock
-[3235924535] = {"AAweapon5", "toggle"}, -- Azure Archipelago Slot 5 (crHelm)
+[3235924535] = {"AAweapon1", "toggle"}, -- Azure Archipelago Slot 1 (crHelm)
 [3235924536] = {"crHelm", "toggle"}, -- Global Cross Goggles Slot
-[3235924537] = {"AAweapon6", "toggle"}, -- Azure Archipelago Slot 6 (crEdge)
+[3235924537] = {"AAweapon2", "toggle"}, -- Azure Archipelago Slot 2 (crEdge)
 [3235924538] = {"crEdge", "toggle"}, -- Global Cross Edge Slot
-[3235924539] = {"AAweapon7", "toggle"}, -- Azure Archipelago Slot 7 (crMail)
+[3235924539] = {"AAweapon3", "toggle"}, -- Azure Archipelago Slot 3 (crMail)
 [3235924540] = {"crMail", "toggle"}, -- Global Cross Mail Slot
-[3235924541] = {"AAweapon8", "toggle"}, -- Azur Archipelago Slot 8 (crBoots)
+[3235924541] = {"AAweapon4", "toggle"}, -- Azur Archipelago Slot 4 (crBoots)
 [3235924542] = {"crBoots", "toggle"}, -- Global Cross Boots Slot
 -- Goat Zira
-[3235924543] = {"goatShop", "toggle"}, -- Goat Zira Shop Unlock
-[3235924544] = {"GZitem1", "toggle"}, -- Goat Zira Slot 1 (sandwich)
-[3235924545] = {"GZitem2", "toggle"}, -- Goat Zira Slot 2 (hi-sandwich)
-[3235924546] = {"GZitem3", "toggle"}, -- Goat Zira Slot 3 (leafTea)
-[3235924547] = {"GZitem4", "toggle"}, -- Goat Zira Slot 4 (water)
-[3235924548] = {"GZitem5", "toggle"}, -- Goat Zira Slot 5 (goatCheese)
+[3235924543] = {"rhombusGoatShop", "toggle"}, -- Goat Zira Shop Unlock
+[3235924544] = {"RSgoat1", "toggle"}, -- Goat Zira Slot 1 (sandwich)
+[3235924545] = {"RSgoat2", "toggle"}, -- Goat Zira Slot 2 (hi-sandwich)
+[3235924546] = {"RSgoat3", "toggle"}, -- Goat Zira Slot 3 (leafTea)
+[3235924547] = {"RSgoat4", "toggle"}, -- Goat Zira Slot 4 (water)
+[3235924548] = {"RSgoat5", "toggle"}, -- Goat Zira Slot 5 (goatCheese)
 [3235924549] = {"goatCheese", "toggle"}, -- Global Goat Cheese Slot
-[3235924550] = {"GZitem6", "toggle"}, -- Goat Zira Slot 6 (goatMilk)
+[3235924550] = {"RSgoat6", "toggle"}, -- Goat Zira Slot 6 (goatMilk)
 [3235924551] = {"goatMilk", "toggle"}, -- Global Goat Milk Slot
 -- Rhombus Weapons
 [3235924552] = {"RSweapon9", "toggle"}, -- Rhombus Weapon Slot 9 (crHelm)

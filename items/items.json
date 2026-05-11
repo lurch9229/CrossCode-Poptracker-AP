@@ -2237,169 +2237,169 @@
 	  "swap_actions": false
   },
   {
-    "name": "H_item_1",
+    "name": "HS_item_1",
     "type": "toggle",
-    "codes": "Hitem1"
+    "codes": "HSitem1"
   },
   {
-    "name": "H_item_2",
+    "name": "HS_item_2",
     "type": "toggle",
-    "codes": "Hitem2"
+    "codes": "HSitem2"
   },
   {
-    "name": "H_item_3",
+    "name": "HS_item_3",
     "type": "toggle",
-    "codes": "Hitem3"
+    "codes": "HSitem3"
   },
   {
-    "name": "H_item_4",
+    "name": "HS_item_4",
     "type": "toggle",
-    "codes": "Hitem4"
+    "codes": "HSitem4"
   },
   {
-    "name": "H_item_5",
+    "name": "HS_item_5",
     "type": "toggle",
-    "codes": "Hitem5"
+    "codes": "HSitem5"
   },
   {
-    "name": "H_item_6",
+    "name": "HS_item_6",
     "type": "toggle",
-    "codes": "Hitem6"
+    "codes": "HSitem6"
   },
   {
-    "name": "H_item_7",
+    "name": "HS_item_7",
     "type": "toggle",
-    "codes": "Hitem7"
+    "codes": "HSitem7"
   },
   {
-    "name": "H_item_8",
+    "name": "HS_item_8",
     "type": "toggle",
-    "codes": "Hitem8"
+    "codes": "HSitem8"
   },
   {
-    "name": "H_item_9",
+    "name": "HS_item_9",
     "type": "toggle",
-    "codes": "Hitem9"
+    "codes": "HSitem9"
   },
   {
-    "name": "H_item_10",
+    "name": "HS_item_10",
     "type": "toggle",
-    "codes": "Hitem10"
+    "codes": "HSitem10"
   },
   {
-    "name": "H_item_11",
+    "name": "HS_item_11",
     "type": "toggle",
-    "codes": "Hitem11"
+    "codes": "HSitem11"
   },
   {
-    "name": "H_item_12",
+    "name": "HS_item_12",
     "type": "toggle",
-    "codes": "Hitem12"
+    "codes": "HSitem12"
   },
   {
-    "name": "H_item_13",
+    "name": "HS_item_13",
     "type": "toggle",
-    "codes": "Hitem13"
+    "codes": "HSitem13"
   },
   {
-    "name": "H_item_14",
+    "name": "HS_item_14",
     "type": "toggle",
-    "codes": "Hitem14"
+    "codes": "HSitem14"
   },
   {
-    "name": "H_item_15",
+    "name": "HS_item_15",
     "type": "toggle",
-    "codes": "Hitem15"
+    "codes": "HSitem15"
   },
   {
-    "name": "H_weapon_1",
+    "name": "HS_weapon_1",
     "type": "toggle",
-    "codes": "Hweapon1"
+    "codes": "HSweapon1"
   },
   {
-    "name": "H_weapon_2",
+    "name": "HS_weapon_2",
     "type": "toggle",
-    "codes": "Hweapon2"
+    "codes": "HSweapon2"
   },
   {
-    "name": "H_weapon_3",
+    "name": "HS_weapon_3",
     "type": "toggle",
-    "codes": "Hweapon3"
+    "codes": "HSweapon3"
   },
   {
-    "name": "H_weapon_4",
+    "name": "HS_weapon_4",
     "type": "toggle",
-    "codes": "Hweapon4"
+    "codes": "HSweapon4"
   },
   {
-    "name": "H_weapon_5",
+    "name": "HS_weapon_5",
     "type": "toggle",
-    "codes": "Hweapon5"
+    "codes": "HSweapon5"
   },
   {
-    "name": "H_weapon_6",
+    "name": "HS_weapon_6",
     "type": "toggle",
-    "codes": "Hweapon6"
+    "codes": "HSweapon6"
   },
   {
-    "name": "H_weapon_7",
+    "name": "HS_weapon_7",
     "type": "toggle",
-    "codes": "Hweapon7"
+    "codes": "HSweapon7"
   },
   {
-    "name": "H_weapon_8",
+    "name": "HS_weapon_8",
     "type": "toggle",
-    "codes": "Hweapon8"
+    "codes": "HSweapon8"
   },
   {
-    "name": "AA_weapon_5",
+    "name": "AA_weapon_1",
     "type": "toggle",
-    "codes": "AAweapon5"
+    "codes": "AAweapon1"
   },
   {
-    "name": "AA_weapon_6",
+    "name": "AA_weapon_2",
     "type": "toggle",
-    "codes": "AAweapon6"
+    "codes": "AAweapon2"
   },
   {
-    "name": "AA_weapon_7",
+    "name": "AA_weapon_3",
     "type": "toggle",
-    "codes": "AAweapon7"
+    "codes": "AAweapon3"
   },
   {
-    "name": "AA_weapon_8",
+    "name": "AA_weapon_4",
     "type": "toggle",
-    "codes": "AAweapon8"
+    "codes": "AAweapon4"
   },
   {
-    "name": "GZ_item_1",
+    "name": "RS_goat_1",
     "type": "toggle",
-    "codes": "GZitem1"
+    "codes": "RSgoat1"
   },
   {
-    "name": "GZ_item_2",
+    "name": "RS_goat_2",
     "type": "toggle",
-    "codes": "GZitem2"
+    "codes": "RSgoat2"
   },
   {
-    "name": "GZ_item_3",
+    "name": "RS_goat_3",
     "type": "toggle",
-    "codes": "GZitem3"
+    "codes": "RSgoat3"
   },
   {
-    "name": "GZ_item_4",
+    "name": "RS_goat_4",
     "type": "toggle",
-    "codes": "GZitem4"
+    "codes": "RSgoat4"
   },
   {
-    "name": "GZ_item_5",
+    "name": "RS_goat_5",
     "type": "toggle",
-    "codes": "GZitem5"
+    "codes": "RSgoat5"
   },
   {
-    "name": "GZ_item_6",
+    "name": "RS_goat_6",
     "type": "toggle",
-    "codes": "GZitem6"
+    "codes": "RSgoat6"
   },
   {
     "name": "RS_weapon_9",
@@ -2443,7 +2443,7 @@
     "name": "Goat Shop",
     "type": "toggle",
     "img": "images/shops/dlcItemsOn.png",
-    "codes": "goatShop"
+    "codes": "rhombusGoatShop"
   },
   {
     "name": "Cross Goggles",
