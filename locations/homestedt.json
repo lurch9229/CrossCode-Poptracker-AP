@@ -1,0 +1,971 @@
+[
+    {
+        "name": "Homestedt",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Homestedt - Entrance Left",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824792|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Homestedt - Entrance Upper",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824793|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Homestedt - Center Upper Right",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824794|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Homestedt - Center Upper Left",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824795|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Homestedt - Center Bottom Right",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824796|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Homestedt - Center Bottom Left",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824797|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Homestedt - Entrance",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Azure Archipelago Pass",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Homestedt - Item Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "diamond"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Sandwich Slot - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Slot - 650 Credits",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem5",
+                            "$typeKebab",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Slot - 650 Credits",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem6",
+                            "$typeRisotto",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Slot - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem13",
+                            "$typeCoffee",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem14",
+                            "$typePeanuts",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Slot - 450 Credits",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSitem15",
+                            "$typeMix",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem5",
+                            "$typeKebab",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem6",
+                            "$typeRisotto",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Type - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem13",
+                            "$typeCoffee",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem14",
+                            "$typePeanuts",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Type - 450 Credits",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSitem15",
+                            "$typeMix",
+                            "settingShopReceiveShops, rhombusItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Homestedt - Weapon Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Homestedt",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "diamond"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Laser Goggles Slot - 104750 Credits",
+                        "chest_unopened_img": "images/weapon/laserHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSweapon2",
+                            "$typeLaHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Edge Slot - 104500 Credits",
+                        "chest_unopened_img": "images/weapon/laserEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSweapon4",
+                            "$typeLaEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Mail Slot - 105000 Credits",
+                        "chest_unopened_img": "images/weapon/laserMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSweapon6",
+                            "$typeLaMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Boots Slot - 104750 Credits",
+                        "chest_unopened_img": "images/weapon/laserBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot"
+                        ],
+                        "access_rules": [
+                            "$RSweapon8",
+                            "$typeLaBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    /*
+                    {
+                        "name": "Cross Goggles Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon9",
+                            "$typeCrHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Edge Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon10",
+                            "$typeCrEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Mail Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon11",
+                            "$typeCrMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Boots Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon12",
+                            "$typeCrBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },*/
+                    {
+                        "name": "Laser Goggles Type - 104750 Credits",
+                        "chest_unopened_img": "images/weapon/laserHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSweapon2",
+                            "$typeLaHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Edge Type - 104500 Credits",
+                        "chest_unopened_img": "images/weapon/laserEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSweapon4",
+                            "$typeLaEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Mail Type - 105000 Credits",
+                        "chest_unopened_img": "images/weapon/laserMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSweapon6",
+                            "$typeLaMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laser Boots Type - 104750 Credits",
+                        "chest_unopened_img": "images/weapon/laserBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": [
+                            "$RSweapon8",
+                            "$typeLaBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },/*
+                    {
+                        "name": "Cross Goggles Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon9",
+                            "$typeCrHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Edge Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon10",
+                            "$typeCrEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Mail Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon11",
+                            "$typeCrMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Boots Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon12",
+                            "$typeCrBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    }*/
+                ]
+            }
+        ]
+    },
+    //Rhombus Square World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

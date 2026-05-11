@@ -1,0 +1,641 @@
+[
+    {
+        "name": "Azure Archipelago",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Azure Archipelago - Sandy Bar Lower",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824798|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Sandy Bar Upper Right",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824799|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Isle of Legend Left",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824800|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Isle of Legend MacGuffin",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824801|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - UFO Island",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824802|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Rough Lagoon",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824803|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Shallow Shore Left",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824804|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Shallow Shore Right",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824805|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Calm Pocket",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824806|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Bird Skull Approach Left",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824807|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Bird Skull Approach Right",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824808|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Dover's Cliffs",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824809|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Altar of the Key",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824810|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Beach Statue",
+                "chest_unopened_img": "images/icons/statue_o.png",
+                "chest_opened_img": "images/icons/statue_x.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Shade",
+                        "clear_as_group": true,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 0
+                    },
+                    {
+                        "name": "Circuit Override",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "SP Upgrade",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Son of the Beach",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle, settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Beach Fight",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Archipelago - Weapon Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Azure_Archipelago",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "diamond"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Cross Goggles Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon9",
+                            "$typeCrHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Edge Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon10",
+                            "$typeCrEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Mail Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon11",
+                            "$typeCrMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Boots Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon12",
+                            "$typeCrBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Goggles Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon9",
+                            "$typeCrHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Edge Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon10",
+                            "$typeCrEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Mail Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon11",
+                            "$typeCrMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Boots Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon12",
+                            "$typeCrBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Rhombus Square World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

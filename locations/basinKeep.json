@@ -181,6 +181,30 @@
                             "GG-hostage, boltShade, dropShade, eleWave, eleShock"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "In Cawhoofs",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salty Detox",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -305,6 +329,16 @@
                         ],
                         "access_rules": [
                             "GG-chill, boltShade, dropShade, eleShock, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Riches with Fridges",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
                         ],
                         "item_count": 1
                     }

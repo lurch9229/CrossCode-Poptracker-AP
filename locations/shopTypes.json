@@ -1949,6 +1949,204 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "name": "Goat Cheese Type",
+                "chest_unopened_img": "images/food/GoatCheese.png",
+                "chest_opened_img": "images/food/GoatCheeseOff.png",
+                "map_locations": [
+                    {
+                        "map": "TypesMap",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "shopShuffleTypes, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$canGrind"
+                ],
+                "sections": [
+                    {
+                        "name": "Buy A 'Goat Cheese' From Any Item Shop",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "settingShopReceiveOff,   $goatCheeseOff",
+                            "settingShopReceiveTypes, $goatCheeseType",
+                            "settingShopReceiveSlots, $goatCheeseSlot",
+                            "settingShopReceiveShops, $goatCheeseShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Goat Milk Type",
+                "chest_unopened_img": "images/food/GoatMilk.png",
+                "chest_opened_img": "images/food/GoatMilkOff.png",
+                "map_locations": [
+                    {
+                        "map": "TypesMap",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "shopShuffleTypes, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$canGrind"
+                ],
+                "sections": [
+                    {
+                        "name": "Buy A 'Goat Milk' From Any Item Shop",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "settingShopReceiveOff,   $goatMilkOff",
+                            "settingShopReceiveTypes, $goatMilkType",
+                            "settingShopReceiveSlots, $goatMilkSlot",
+                            "settingShopReceiveShops, $goatMilkShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cross Goggles Type",
+                "chest_unopened_img": "images/shops/crossHelm.png",
+                "chest_opened_img": "images/shops/helmOff.png",
+                "map_locations": [
+                    {
+                        "map": "TypesMap",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "shopShuffleTypes, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$canGrind"
+                ],
+                "sections": [
+                    {
+                        "name": "Buy A 'Cross Goggles' From Any Item Shop",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "settingShopReceiveOff,   $crHelmOff",
+                            "settingShopReceiveTypes, $crHelmType",
+                            "settingShopReceiveSlots, $crHelmSlot",
+                            "settingShopReceiveShops, $crHelmShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cross Edge Type",
+                "chest_unopened_img": "images/shops/crossEdge.png",
+                "chest_opened_img": "images/shops/edgeOff.png",
+                "map_locations": [
+                    {
+                        "map": "TypesMap",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "shopShuffleTypes, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$canGrind"
+                ],
+                "sections": [
+                    {
+                        "name": "Buy A 'Cross Edge' From Any Item Shop",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "settingShopReceiveOff,   $crEdgeOff",
+                            "settingShopReceiveTypes, $crEdgeType",
+                            "settingShopReceiveSlots, $crEdgeSlot",
+                            "settingShopReceiveShops, $crEdgeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cross Mail Type",
+                "chest_unopened_img": "images/shops/crossMail.png",
+                "chest_opened_img": "images/shops/mailOff.png",
+                "map_locations": [
+                    {
+                        "map": "TypesMap",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "shopShuffleTypes, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$canGrind"
+                ],
+                "sections": [
+                    {
+                        "name": "Buy A 'Cross Mail' From Any Item Shop",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "settingShopReceiveOff,   $crMailOff",
+                            "settingShopReceiveTypes, $crMailType",
+                            "settingShopReceiveSlots, $crMailSlot",
+                            "settingShopReceiveShops, $crMailShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cross Boots Type",
+                "chest_unopened_img": "images/shops/crossBoots.png",
+                "chest_opened_img": "images/shops/bootsOff.png",
+                "map_locations": [
+                    {
+                        "map": "TypesMap",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "shopShuffleTypes, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$canGrind"
+                ],
+                "sections": [
+                    {
+                        "name": "Buy A 'Cross Boots' From Any Item Shop",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "settingShopReceiveOff,   $crBootsOff",
+                            "settingShopReceiveTypes, $crBootsType",
+                            "settingShopReceiveSlots, $crBootsSlot",
+                            "settingShopReceiveShops, $crBootsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
             }
         ]
     }

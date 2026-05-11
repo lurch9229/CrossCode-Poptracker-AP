@@ -377,6 +377,16 @@
                             "MV-crate, flameShade, eleHeat, eleCold, regionOpen3"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Spritual Drinks",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },

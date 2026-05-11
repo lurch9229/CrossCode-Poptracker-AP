@@ -1,0 +1,989 @@
+[
+    {
+        "name": "Ku'lero Temple",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Ku'lero Temple GF - Comet Trail Right",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824818|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Comet Trail Left",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824819|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Outlook",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824820|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Longleg Vale Upper",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824821|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Longleg Cale Right",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824822|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Crystal Den Right",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824823|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Crystal Den Key",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824824"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Crystal Den Left",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824825|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Cracked Pillars Right",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824826|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Cracked Pillars Key",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824827"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Cracked Pillars Left",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824828|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Water Grave Right",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824829|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Water Grave Left",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824830|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U2 - Shard Trial West Key",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U2",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824831"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U3 - Load Barring Pillars Master Key",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U3",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824832"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U8 - The Rise MacGuffin Coin",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U8",
+                        "x": 0, 
+                        "y": 0  
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824833|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Elevator Left",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Elevator",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple GF - Elevator Right",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_GF",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Elevator",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U1 - The Monk",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U1",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gynthar",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U2 - Elevator Left",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U2",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Elevator",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U2 - Elevator Right",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U2",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Elevator",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U2 - Birds Left",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U2",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Birds",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U2 - Birds Right",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U2",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Birds",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U3 - Elevator Left",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U3",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Elevator",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U3 - Elevator Right",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U3",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Elevator",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple U8 - The Rise",
+                "chest_unopened_img": "images/icons/.png",
+                "chest_opened_img": "images/icons/.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_U8",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Di'orbis",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple - Son of the Beach",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle, settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Beach Fight",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ku'lero Temple - Weapon Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Kulero_Temple_",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "diamond"
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Cross Goggles Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon9",
+                            "$typeCrHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Edge Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon10",
+                            "$typeCrEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Mail Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon11",
+                            "$typeCrMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Boots Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon12",
+                            "$typeCrBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Goggles Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon9",
+                            "$typeCrHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Edge Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon10",
+                            "$typeCrEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Mail Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon11",
+                            "$typeCrMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Boots Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon12",
+                            "$typeCrBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    //Rhombus Square World Map
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]

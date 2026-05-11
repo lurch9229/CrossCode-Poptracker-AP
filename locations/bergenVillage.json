@@ -550,6 +550,46 @@
                             "BV-prog-challenge"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Trial of Ascension",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Ascension",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Ascension (Timed)",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge of Ascension (Frosty)",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -636,6 +676,16 @@
                         ],
                         "access_rules": [
                             "BV-kidding, eleHeat, iceShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wrath of Goat",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
                         ],
                         "item_count": 1
                     }

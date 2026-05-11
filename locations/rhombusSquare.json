@@ -1242,6 +1242,66 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Cross Goggles Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon9",
+                            "$typeCrHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Edge Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon10",
+                            "$typeCrEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Mail Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon11",
+                            "$typeCrMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Boots Slot - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon12",
+                            "$typeCrBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Cobalt Goggles Type - 71350 Credits",
                         "chest_unopened_img": "images/weapon/cobaltHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
@@ -1360,6 +1420,66 @@
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Cross Goggles Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon9",
+                            "$typeCrHelm",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Edge Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon10",
+                            "$typeCrEdge",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Mail Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon11",
+                            "$typeCrMail",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cross Boots Type - 150000 Credits",
+                        "chest_unopened_img": "images/weapon/crossBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSweapon12",
+                            "$typeCrBoots",
+                            "settingShopReceiveShops, rhombusWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -1406,6 +1526,507 @@
                             "$RScurio1",
                             "$typeDetector",
                             "settingShopReceiveShops, rhombusCurio",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - South Arch Left",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824811|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - SW beach",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824812|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Garden Terrace",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824813|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Open PVP Fields",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824814|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - North Arch",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gold Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824815|radiantKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Cliff Exhibition Upper",
+                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824816|whiteKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Cliff Exhibition Right",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "visibility_rules": [
+                    "settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235824817|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Priel",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle, settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Lots and On the Run",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Captain Curtis",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle, settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Trouble on the Highway",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Nánii Tremoire",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle, settingDlcOn"
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Tremors of the Past",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhombus Square - Goat Zira's Shop",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Rhombus_Square",
+                        "x": 0,
+                        "y": 0,
+                        "shape": "diamond"
+                    }
+                ],
+                "access_rules": [
+                    "$canGrind"
+                ],
+                "sections": [
+                    {
+                        "name": "Sandwich Slot - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Slot - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Slot - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat3",
+                            "$typeTea",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Slot - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat4",
+                            "$typeWater",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Goat Cheese Slot - 4500 Credits",
+                        "chest_unopened_img": "images/food/GoatCheese.png",
+                        "chest_opened_img": "images/food/GoatCheeseOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat5",
+                            "$typeGoatCheese",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Goat Milk Slot - 4500 Credits",
+                        "chest_unopened_img": "images/food/GoatMilk.png",
+                        "chest_opened_img": "images/food/GoatMilkOff.png",
+                        "visibility_rules": [
+                            "shopShuffleSlot, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat6",
+                            "$typeGoatMilk",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat3",
+                            "$typeTea",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat4",
+                            "$typeWater",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Goat Cheese Type - 4500 Credits",
+                        "chest_unopened_img": "images/food/GoatCheese.png",
+                        "chest_opened_img": "images/food/GoatCheeseOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat5",
+                            "$typeGoatCheese",
+                            "settingShopReceiveShops, rhombusGoatShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Goat Milk Type - 4500 Credits",
+                        "chest_unopened_img": "images/food/GoatMilk.png",
+                        "chest_opened_img": "images/food/GoatMilkOff.png",
+                        "visibility_rules": [
+                            "shopShuffleTypes, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "$RSgoat6",
+                            "$typeGoatMilk",
+                            "settingShopReceiveShops, rhombusGoatShop",
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1

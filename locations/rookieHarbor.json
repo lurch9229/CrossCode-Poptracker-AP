@@ -418,6 +418,16 @@
                             "RH-smuggle-1, flameShade"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Wetter Work",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
