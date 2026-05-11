@@ -1678,7 +1678,7 @@ function HS_1()
 end
 
 function HS_2()
-  return HS_1() and has("settingDlcOn") and regionOpenDLC_Beach()
+  return HS_1() and regionOpenDLC_Beach() and has("settingDlcOn")
 end
 
 -- Azure Archipelago Shops Reachable
