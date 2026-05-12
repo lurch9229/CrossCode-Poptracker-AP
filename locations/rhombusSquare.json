@@ -1539,8 +1539,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0
+                        "x": 339,
+                        "y": 530
                     }
                 ],
                 "visibility_rules": [
@@ -1569,8 +1569,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0
+                        "x": 217,
+                        "y": 812
                     }
                 ],
                 "visibility_rules": [
@@ -1599,8 +1599,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0
+                        "x": 219,
+                        "y": 449
                     }
                 ],
                 "visibility_rules": [
@@ -1629,8 +1629,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0
+                        "x": 270,
+                        "y": 167
                     }
                 ],
                 "visibility_rules": [
@@ -1659,8 +1659,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0
+                        "x": 441,
+                        "y": 65
                     }
                 ],
                 "visibility_rules": [
@@ -1689,8 +1689,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0
+                        "x": 642,
+                        "y": 99
                     }
                 ],
                 "visibility_rules": [
@@ -1719,8 +1719,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0
+                        "x": 680,
+                        "y": 161
                     }
                 ],
                 "visibility_rules": [
@@ -1749,8 +1749,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0,
+                        "x": 358,
+                        "y": 475,
                         "shape": "trapezoid"
                     }
                 ],
@@ -1780,8 +1780,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0,
+                        "x": 356,
+                        "y": 146,
                         "shape": "trapezoid"
                     }
                 ],
@@ -1811,8 +1811,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0,
+                        "x": 481,
+                        "y": 107,
                         "shape": "trapezoid"
                     }
                 ],
@@ -1842,8 +1842,8 @@
                 "map_locations": [
                     {
                         "map": "Rhombus_Square",
-                        "x": 0,
-                        "y": 0,
+                        "x": 572,
+                        "y": 141,
                         "shape": "diamond"
                     }
                 ],
@@ -2326,6 +2326,22 @@
                         "name": "Rhombus Square - Weapon Shop\nLaser Boots Slot - 104750 Credits"
                     },
                     {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Goggles Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Slot - 150000 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Edge Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Edge Slot - 150000 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Mail Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Mail Slot - 150000 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Boots Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Boots Slot - 150000 Credits"
+                    },
+                    {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Goggles Type - 71350 Credits",
                         "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Type - 71350 Credits"
                     },
@@ -2358,13 +2374,117 @@
                         "name": "Rhombus Square - Weapon Shop\nLaser Boots Type - 104750 Credits"
                     },
                     {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Type - 150000 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Edge Type - 150000 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Mail Type - 150000 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Boots Type - 150000 Credits"
+                    },
+                    {
                         "ref": "Rhombus Square - Curio Shop/Chest Detector Slot - 33333 Credits",
                         "name": "Rhombus Square - Curio Shop\nChest Detector Slot - 33333 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Curio Shop/Chest Detector Type - 33333 Credits",
                         "name": "Rhombus Square - Curio Shop\nChest Detector Type - 33333 Credits"
-                    }
+                    },
+                    {
+                        "ref": "Rhombus Square - South Arch Left/Gold Chest",
+                        "name": "Rhombus Square - South Arch Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - SW beach/Silver Chest",
+                        "name": "Rhombus Square - SW beach - Silver Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Garden Terrace/Gold Chest",
+                        "name": "Rhombus Square - Garden Terrace - Gold Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Open PVP Fields/Silver Chest",
+                        "name": "Rhombus Square - Open PVP Fields - Silver Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - North Arch/Gold Chest",
+                        "name": "Rhombus Square - North Arch - Gold Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Cliff Exhibition Upper/Silver Chest",
+                        "name": "Rhombus Square - Cliff Exhibition Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Cliff Exhibition Right/Silver Chest",
+                        "name": "Rhombus Square - Cliff Exhibition Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Rhombus Square - Priel/Lost and On the Run",
+                        "name": "Rhombus Square - Priel - Lost and On the Run"
+                    },
+                    {
+                        "ref": "Rhombus Square - Captain Curtis/Trouble on the Highway",
+                        "name": "Rhombus Square - Captain Curtis - Trouble on the Highway"
+                    },
+                    {
+                        "ref": "Rhombus Square - Nánii Tremoire/Tremors of the Past",
+                        "name": "Rhombus Square - Nánii Tremoire - Tremors of the Past"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Sandwich Slot - 100 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nSandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nHi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Just Water Slot - 222 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nJust Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Goat Cheese Slot - 4500 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Cheese Slot - 4500 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Goat Milk Slot - 4500 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Milk Slot - 4500 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Sandwich Type - 100 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nSandwich Type - 100 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Hi-Sandwich Type - 300 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nHi-Sandwich Type - 300 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Green Leaf Tea Type - 250 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGreen Leaf Tea Type - 250 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Just Water Type - 222 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nJust Water Type - 222 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Goat Cheese Type - 4500 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Cheese Type - 4500 Credits"
+                    },
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Goat Milk Type - 4500 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Milk Type - 4500 Credits"
+                    },
                 ],
                 "map_locations": [
                     {

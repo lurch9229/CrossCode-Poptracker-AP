@@ -625,14 +625,112 @@
         "children": [
             {
                 "sections": [
-                    
+                    {
+                        "ref": "Azure Archipelago - Sandy Bar Lower/Gold Chest",
+                        "name": "Azure Archipelago - Sandy Bar Lower - Gold Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Sandy Bar Upper Right/Gold Chest",
+                        "name": "Azure Archipelago - Sandy Bar Upper Right - Gold Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Isle of Legend Left/Silver Chest",
+                        "name": "Azure Archipelago - Isle of Legend Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Isle of Legend MacGuffin/Gold Chest",
+                        "name": "Azure Archipelago - Isle of Legend MacGuffin - Gold Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - UFO Island/Silver Chest",
+                        "name": "Azure Archipelago - UFO Island - Silver Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Rough Lagoon/Silver Chest",
+                        "name": "Azure Archipelago - Rough Lagoon - Silver Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Shallow Shore Left/Bronze Chest",
+                        "name": "Azure Archipelago - Shallow Shore Left - Bronze Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Shallow Shore Right/Gold Chest",
+                        "name": "Azure Archipelago - Shallow Shore Right - Gold Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Calm Pocket/Bronze Chest",
+                        "name": "Azure Archipelago - Calm Pocket - Bronze Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Bird Skull Approach Left/Bronze Chest",
+                        "name": "Azure Archipelago - Bird Skull Approach Left - Bronze Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Bird Skull Approach Right/Silver Chest",
+                        "name": "Azure Archipelago - Bird Skull Approach Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Dover's Cliffs/Silver Chest",
+                        "name": "Azure Archipelago - Dover's Cliffs - Silver Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Altar of the Key/Gold Chest",
+                        "name": "Azure Archipelago - Altar of the Key - Gold Chest"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Beach Statue/Ancient Shade",
+                        "name": "Azure Archipelago - Beach Statue - Ancient Shade"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Beach Statue/Circuit Override",
+                        "name": "Azure Archipelago - Beach Statue - Circuit Override"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Beach Statue/SP Upgrade",
+                        "name": "Azure Archipelago - Beach Statue - SP Upgrade"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Son of the Beach/Beach Fight",
+                        "name": "Azure Archipelago - Son of the Beach - Beach Fight"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Goggles Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Slot - 150000 Credits"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Edge Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Slot - 150000 Credits"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Mail Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Slot - 150000 Credits"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Boots Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Slot - 150000 Credits"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Goggles Type - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Type - 150000 Credits"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Edge Type - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Type - 150000 Credits"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Mail Type - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Type - 150000 Credits"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Boots Type - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Type - 150000 Credits"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "WorldMap",
                         "x": 239,
-                        "y": 273,
-                        "shape": "diamond"
+                        "y": 273
                     }
                 ]
             }

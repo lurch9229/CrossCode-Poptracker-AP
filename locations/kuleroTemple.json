@@ -10,8 +10,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 445, 
+                        "y": 700  
                     }
                 ],
                 "visibility_rules": [
@@ -40,8 +40,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 329, 
+                        "y": 743  
                     }
                 ],
                 "visibility_rules": [
@@ -70,8 +70,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 490, 
+                        "y": 454  
                     }
                 ],
                 "visibility_rules": [
@@ -100,8 +100,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 152, 
+                        "y": 348  
                     }
                 ],
                 "visibility_rules": [
@@ -130,8 +130,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 205, 
+                        "y": 384  
                     }
                 ],
                 "visibility_rules": [
@@ -160,8 +160,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 235, 
+                        "y": 166  
                     }
                 ],
                 "visibility_rules": [
@@ -190,8 +190,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 145, 
+                        "y": 106  
                     }
                 ],
                 "visibility_rules": [
@@ -220,8 +220,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 59, 
+                        "y": 170  
                     }
                 ],
                 "visibility_rules": [
@@ -250,8 +250,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 730, 
+                        "y": 394  
                     }
                 ],
                 "visibility_rules": [
@@ -280,8 +280,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 716, 
+                        "y": 431  
                     }
                 ],
                 "visibility_rules": [
@@ -310,8 +310,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 596, 
+                        "y": 422  
                     }
                 ],
                 "visibility_rules": [
@@ -340,8 +340,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 722, 
+                        "y": 126  
                     }
                 ],
                 "visibility_rules": [
@@ -370,8 +370,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 591, 
+                        "y": 108  
                     }
                 ],
                 "visibility_rules": [
@@ -400,8 +400,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U2",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 56, 
+                        "y": 160  
                     }
                 ],
                 "visibility_rules": [
@@ -430,8 +430,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U3",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 286, 
+                        "y": 189  
                     }
                 ],
                 "visibility_rules": [
@@ -460,8 +460,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U8",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 19, 
+                        "y": 237  
                     }
                 ],
                 "visibility_rules": [
@@ -490,8 +490,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0,
-                        "y": 0,
+                        "x": 292,
+                        "y": 231,
                         "shape": "trapezoid"
                     }
                 ],
@@ -521,8 +521,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_GF",
-                        "x": 0,
-                        "y": 0,
+                        "x": 503,
+                        "y": 231,
                         "shape": "trapezoid"
                     }
                 ],
@@ -552,8 +552,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U1",
-                        "x": 0,
-                        "y": 0,
+                        "x": 210,
+                        "y": 229,
                         "shape": "trapezoid"
                     }
                 ],
@@ -583,8 +583,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U2",
-                        "x": 0,
-                        "y": 0,
+                        "x": 316,
+                        "y": 250,
                         "shape": "trapezoid"
                     }
                 ],
@@ -614,8 +614,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U2",
-                        "x": 0,
-                        "y": 0,
+                        "x": 481,
+                        "y": 212,
                         "shape": "trapezoid"
                     }
                 ],
@@ -645,8 +645,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U2",
-                        "x": 0,
-                        "y": 0,
+                        "x": 384,
+                        "y": 125,
                         "shape": "trapezoid"
                     }
                 ],
@@ -676,8 +676,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U2",
-                        "x": 0,
-                        "y": 0,
+                        "x": 515,
+                        "y": 476,
                         "shape": "trapezoid"
                     }
                 ],
@@ -707,8 +707,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U3",
-                        "x": 0,
-                        "y": 0,
+                        "x": 203,
+                        "y": 194,
                         "shape": "trapezoid"
                     }
                 ],
@@ -738,8 +738,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U3",
-                        "x": 0,
-                        "y": 0,
+                        "x": 366,
+                        "y": 77,
                         "shape": "trapezoid"
                     }
                 ],
@@ -769,8 +769,8 @@
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U8",
-                        "x": 0,
-                        "y": 0,
+                        "x": 106,
+                        "y": 138,
                         "shape": "trapezoid"
                     }
                 ],
@@ -778,7 +778,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "regionOpenDLC_DungeonBoss"
                 ],
                 "sections": [
                     {
@@ -792,178 +792,6 @@
                         "item_count": 1
                     }
                 ]
-            },
-            {
-                "name": "Ku'lero Temple - Son of the Beach",
-                "chest_unopened_img": "images/icons/quest_open.png",
-                "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": [
-                    {
-                        "map": "Kulero_Temple_",
-                        "x": 0,
-                        "y": 0,
-                        "shape": "trapezoid"
-                    }
-                ],
-                "visibility_rules": [
-                    "questShuffle, settingDlcOn"
-                ],
-                "access_rules": [
-                    ""
-                ],
-                "sections": [
-                    {
-                        "name": "Beach Fight",
-                        "visibility_rules": [
-                            ""
-                        ],
-                        "access_rules": [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Ku'lero Temple - Weapon Shop",
-                "chest_unopened_img": "images/icons/quest_open.png",
-                "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": [
-                    {
-                        "map": "Kulero_Temple_",
-                        "x": 0,
-                        "y": 0,
-                        "shape": "diamond"
-                    }
-                ],
-                "visibility_rules": [
-                    "settingDlcOn"
-                ],
-                "access_rules": [
-                    ""
-                ],
-                "sections": [
-                    {
-                        "name": "Cross Goggles Slot - 150000 Credits",
-                        "chest_unopened_img": "images/weapon/crossHelm.png",
-                        "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": [
-                            "shopShuffleSlot, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "$RSweapon9",
-                            "$typeCrHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cross Edge Slot - 150000 Credits",
-                        "chest_unopened_img": "images/weapon/crossEdge.png",
-                        "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": [
-                            "shopShuffleSlot, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "$RSweapon10",
-                            "$typeCrEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cross Mail Slot - 150000 Credits",
-                        "chest_unopened_img": "images/weapon/crossMail.png",
-                        "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": [
-                            "shopShuffleSlot, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "$RSweapon11",
-                            "$typeCrMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cross Boots Slot - 150000 Credits",
-                        "chest_unopened_img": "images/weapon/crossBoots.png",
-                        "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": [
-                            "shopShuffleSlot, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "$RSweapon12",
-                            "$typeCrBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cross Goggles Type - 150000 Credits",
-                        "chest_unopened_img": "images/weapon/crossHelm.png",
-                        "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": [
-                            "shopShuffleTypes, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "$RSweapon9",
-                            "$typeCrHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cross Edge Type - 150000 Credits",
-                        "chest_unopened_img": "images/weapon/crossEdge.png",
-                        "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": [
-                            "shopShuffleTypes, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "$RSweapon10",
-                            "$typeCrEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cross Mail Type - 150000 Credits",
-                        "chest_unopened_img": "images/weapon/crossMail.png",
-                        "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": [
-                            "shopShuffleTypes, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "$RSweapon11",
-                            "$typeCrMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cross Boots Type - 150000 Credits",
-                        "chest_unopened_img": "images/weapon/crossBoots.png",
-                        "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": [
-                            "shopShuffleTypes, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "$RSweapon12",
-                            "$typeCrBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
-                        ],
-                        "item_count": 1
-                    }
-                ]
             }
         ]
     },
@@ -973,14 +801,117 @@
         "children": [
             {
                 "sections": [
-                    
+                    {
+                        "ref": "Ku'lero Temple GF - Comet Trail Right/Silver Chest",
+                        "name": "Ku'lero Temple GF - Comet Trail Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Comet Trail Left/Silver Chest",
+                        "name": "Ku'lero Temple GF - Comet Trail Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Outlook/Bronze Chest",
+                        "name": "Ku'lero Temple GF - Outlook - Bronze Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Longleg Vale Upper/Gold Chest",
+                        "name": "Ku'lero Temple GF - Longleg Vale Upper - Gold Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Longleg Vale Right/Bronze Chest",
+                        "name": "Ku'lero Temple GF - Longleg Vale Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Crystal Den Right/Bronze Chest",
+                        "name": "Ku'lero Temple GF - Crystal Den Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Crystal Den Key/Chest",
+                        "name": "Ku'lero Temple GF - Crystal Den Key - Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Crystal Den Left/Gold Chest",
+                        "name": "Ku'lero Temple GF - Crystal Den Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Cracked Pillars Right/Bronze Chest",
+                        "name": "Ku'lero Temple GF - Cracked Pillars Right - Bronze Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Cracked Pillars Key/Chest",
+                        "name": "Ku'lero Temple GF - Cracked Pillars Key - Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Cracked Pillars Left/Gold Chest",
+                        "name": "Ku'lero Temple GF - Cracked Pillars Left - Gold Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Water Grave Right/Gold Chest",
+                        "name": "Ku'lero Temple GF - Water Grave Right - Gold Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Water Grave Left/Bronze Chest",
+                        "name": "Ku'lero Temple GF - Water Grave Left - Bronze Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U2 - Shard Trial West Key/Chest",
+                        "name": "Ku'lero Temple U2 - Shard Trial West Key - Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U3 - Load Barring Pillars Master Key/Chest",
+                        "name": "Ku'lero Temple U3 - Load Barring Pillars Master Key - Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U8 - The Rise MacGuffin Coin/Gold Chest",
+                        "name": "Ku'lero Temple U8 - The Rise MacGuffin Coin - Gold Chest"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Elevator Left/Elevator",
+                        "name": "Ku'lero Temple GF - Elevator Left - Elevator"
+                    },
+                    {
+                        "ref": "Ku'lero Temple GF - Elevator Right/Elevator",
+                        "name": "Ku'lero Temple GF - Elevator Right - Elevator"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U1 - The Monk/Gynthar",
+                        "name": "Ku'lero Temple U1 - The Monk - Gynthar"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U2 - Elevator Left/Elevator",
+                        "name": "Ku'lero Temple U2 - Elevator Left - Elevator"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U2 - Elevator Right/Elevator",
+                        "name": "Ku'lero Temple U2 - Elevator Right - Elevator"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U2 - Birds Left/Birds",
+                        "name": "Ku'lero Temple U2 - Birds Left - Birds"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U2 - Birds Right/Birds",
+                        "name": "Ku'lero Temple U2 - Birds Right - Birds"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U3 - Elevator Left/Elevator",
+                        "name": "Ku'lero Temple U3 - Elevator Left - Elevator"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U3 - Elevator Right/Elevator",
+                        "name": "Ku'lero Temple U3 - Elevator Right - Elevator"
+                    },
+                    {
+                        "ref": "Ku'lero Temple U8 - The Rise/Di'orbis",
+                        "name": "Ku'lero Temple U8 - The Rise - Di'orbis"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 0,
-                        "y": 0,
-                        "shape": "diamond"
+                        "x": 60,
+                        "y": 93,
+                        "shape": "trapezoid"
                     }
                 ]
             }

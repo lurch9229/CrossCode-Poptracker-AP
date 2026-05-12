@@ -1,7 +1,7 @@
 import jstyleson
 import json
 
-f = open('locations/homestedt.json')
+f = open('locations/rhombusSquare.json')
 text = f.read()
 f.close()
 
