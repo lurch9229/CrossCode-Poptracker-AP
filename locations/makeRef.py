@@ -1,7 +1,7 @@
 import jstyleson
 import json
 
-f = open('locations/zirvitarTemple.json')
+f = open('locations/homestedt.json')
 text = f.read()
 f.close()
 

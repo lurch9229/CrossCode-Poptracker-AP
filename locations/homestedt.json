@@ -10,8 +10,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 196, 
+                        "y": 550
                     }
                 ],
                 "visibility_rules": [
@@ -40,8 +40,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 287, 
+                        "y": 452
                     }
                 ],
                 "visibility_rules": [
@@ -70,8 +70,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 463, 
+                        "y": 250  
                     }
                 ],
                 "visibility_rules": [
@@ -100,8 +100,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 66, 
+                        "y": 177 
                     }
                 ],
                 "visibility_rules": [
@@ -130,8 +130,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 446, 
+                        "y": 407  
                     }
                 ],
                 "visibility_rules": [
@@ -160,8 +160,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 63, 
+                        "y": 404  
                     }
                 ],
                 "visibility_rules": [
@@ -190,8 +190,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0,
-                        "y": 0,
+                        "x": 259,
+                        "y": 577,
                         "shape": "trapezoid"
                     }
                 ],
@@ -221,8 +221,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0,
-                        "y": 0,
+                        "x": 99,
+                        "y": 365,
                         "shape": "diamond"
                     }
                 ],
@@ -692,8 +692,8 @@
                 "map_locations": [
                     {
                         "map": "Homestedt",
-                        "x": 0,
-                        "y": 0,
+                        "x": 161,
+                        "y": 365,
                         "shape": "diamond"
                     }
                 ],
@@ -955,13 +955,192 @@
         "children": [
             {
                 "sections": [
-                    
+                    {
+                        "ref": "Homestedt - Entrance Left/Silver Chest",
+                        "name": "Homestedt - Entrance Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Homestedt - Entrance Upper/Silver Chest",
+                        "name": "Homestedt - Entrance Upper - Silver Chest"
+                    },
+                    {
+                        "ref": "Homestedt - Center Upper Right/Silver Chest",
+                        "name": "Homestedt - Center Upper Right - Silver Chest"
+                    },
+                    {
+                        "ref": "Homestedt - Center Upper Left/Silver Chest",
+                        "name": "Homestedt - Center Upper Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Homestedt - Center Bottom Right/Gold Chest",
+                        "name": "Homestedt - Center Bottom Right - Gold Chest"
+                    },
+                    {
+                        "ref": "Homestedt - Center Bottom Left/Silver Chest",
+                        "name": "Homestedt - Center Bottom Left - Silver Chest"
+                    },
+                    {
+                        "ref": "Homestedt - Entrance/Azure Archipelago Pass",
+                        "name": "Homestedt - Entrance - Azure Archipelago Pass"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Homestedt - Item Shop - Sandwich Slot - 100 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Homestedt - Item Shop - Hi-Sandwich Slot - 300 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Homestedt - Item Shop - Green Leaf Tea Slot - 250 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Homestedt - Item Shop - Just Water Slot - 222 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Homestedt - Item Shop - Kebab Roll Slot - 650 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Meaty Risotto Slot - 650 Credits",
+                        "name": "Homestedt - Item Shop - Meaty Risotto Slot - 650 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop - Spicy Bun Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop - Fruit Drink Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop - Rice Cracker Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop - Veggie Sticks Slot - 200 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop - Bergen Ice Cream Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop - Sweet Lemonjuice Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop - Cup o' Coffee Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Salted Peanuts Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop - Salted Peanuts Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Snack Mix Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop - Snack Mix Slot - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Sandwich Type - 100 Credits",
+                        "name": "Homestedt - Item Shop - Sandwich Type - 100 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Hi-Sandwich Type - 300 Credits",
+                        "name": "Homestedt - Item Shop - Hi-Sandwich Type - 300 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Green Leaf Tea Type - 250 Credits",
+                        "name": "Homestedt - Item Shop - Green Leaf Tea Type - 250 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Just Water Type - 222 Credits",
+                        "name": "Homestedt - Item Shop - Just Water Type - 222 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Kebab Roll Type - 650 Credits",
+                        "name": "Homestedt - Item Shop - Kebab Roll Type - 650 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Meaty Risotto Type - 650 Credits",
+                        "name": "Homestedt - Item Shop - Meaty Risotto Type - 650 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Spicy Bun Type - 200 Credits",
+                        "name": "Homestedt - Item Shop - Spicy Bun Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Fruit Drink Type - 200 Credits",
+                        "name": "Homestedt - Item Shop - Fruit Drink Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Rice Cracker Type - 200 Credits",
+                        "name": "Homestedt - Item Shop - Rice Cracker Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Veggie Sticks Type - 200 Credits",
+                        "name": "Homestedt - Item Shop - Veggie Sticks Type - 200 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Bergen Ice Cream Type - 450 Credits",
+                        "name": "Homestedt - Item Shop - Bergen Ice Cream Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Sweet Lemonjuice Type - 450 Credits",
+                        "name": "Homestedt - Item Shop - Sweet Lemonjuice Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Cup o' Coffee Type - 450 Credits",
+                        "name": "Homestedt - Item Shop - Cup o' Coffee Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Salted Peanuts Type - 450 Credits",
+                        "name": "Homestedt - Item Shop - Salted Peanuts Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Item Shop/Snack Mix Type - 450 Credits",
+                        "name": "Homestedt - Item Shop - Snack Mix Type - 450 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Goggles Slot - 104750 Credits",
+                        "name": "Homestedt - Weapon Shop - Laser Goggles Slot - 104750 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Edge Slot - 104500 Credits",
+                        "name": "Homestedt - Weapon Shop - Laser Edge Slot - 104500 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Mail Slot - 105000 Credits",
+                        "name": "Homestedt - Weapon Shop - Laser Mail Slot - 105000 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Boots Slot - 104750 Credits",
+                        "name": "Homestedt - Weapon Shop - Laser Boots Slot - 104750 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Goggles Type - 104750 Credits",
+                        "name": "Homestedt - Weapon Shop - Laser Goggles Type - 104750 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Edge Type - 104500 Credits",
+                        "name": "Homestedt - Weapon Shop - Laser Edge Type - 104500 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Mail Type - 105000 Credits",
+                        "name": "Homestedt - Weapon Shop - Laser Mail Type - 105000 Credits"
+                    },
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Boots Type - 104750 Credits",
+                        "name": "Homestedt - Weapon Shop - Laser Boots Type - 104750 Credits"
+                    }
                 ],
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 0,
-                        "y": 0,
+                        "x": 230,
+                        "y": 143,
                         "shape": "diamond"
                     }
                 ]

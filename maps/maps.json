@@ -175,14 +175,14 @@
   },
   {
     "name": "Homestedt",
-    "location_size": 16,
-    "location_border_thickness": 1,
+    "location_size": 22,
+    "location_border_thickness": 3,
     "img": "images/maps/Homestedt_Map.png"
   },
   {
     "name": "Azure_Archipelago",
-    "location_size": 16,
-    "location_border_thickness": 1,
+    "location_size": 20,
+    "location_border_thickness": 2,
     "img": "images/maps/Azure_Archipelago_Map.png"
   },
   {

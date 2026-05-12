@@ -10,8 +10,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 859, 
+                        "y": 386  
                     }
                 ],
                 "visibility_rules": [
@@ -40,8 +40,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 939, 
+                        "y": 293  
                     }
                 ],
                 "visibility_rules": [
@@ -70,8 +70,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 683, 
+                        "y": 130  
                     }
                 ],
                 "visibility_rules": [
@@ -100,8 +100,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 792, 
+                        "y": 114  
                     }
                 ],
                 "visibility_rules": [
@@ -130,8 +130,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 480, 
+                        "y": 46  
                     }
                 ],
                 "visibility_rules": [
@@ -160,8 +160,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 276, 
+                        "y": 196  
                     }
                 ],
                 "visibility_rules": [
@@ -190,8 +190,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 54, 
+                        "y": 295  
                     }
                 ],
                 "visibility_rules": [
@@ -220,8 +220,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 190, 
+                        "y": 350  
                     }
                 ],
                 "visibility_rules": [
@@ -250,8 +250,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 306, 
+                        "y": 492  
                     }
                 ],
                 "visibility_rules": [
@@ -280,8 +280,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 416, 
+                        "y": 465  
                     }
                 ],
                 "visibility_rules": [
@@ -310,8 +310,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 539, 
+                        "y": 470  
                     }
                 ],
                 "visibility_rules": [
@@ -340,8 +340,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 611, 
+                        "y": 390  
                     }
                 ],
                 "visibility_rules": [
@@ -370,8 +370,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0, 
-                        "y": 0  
+                        "x": 436, 
+                        "y": 290  
                     }
                 ],
                 "visibility_rules": [
@@ -400,8 +400,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0,
-                        "y": 0,
+                        "x": 477,
+                        "y": 281,
                         "shape": "trapezoid"
                     }
                 ],
@@ -452,8 +452,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0,
-                        "y": 0,
+                        "x": 906,
+                        "y": 295,
                         "shape": "trapezoid"
                     }
                 ],
@@ -483,8 +483,8 @@
                 "map_locations": [
                     {
                         "map": "Azure_Archipelago",
-                        "x": 0,
-                        "y": 0,
+                        "x": 920,
+                        "y": 329,
                         "shape": "diamond"
                     }
                 ],
@@ -630,8 +630,8 @@
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 0,
-                        "y": 0,
+                        "x": 239,
+                        "y": 273,
                         "shape": "diamond"
                     }
                 ]
