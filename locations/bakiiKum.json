@@ -379,7 +379,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Spritual Drinks",
+                        "name": "Spiritual Drinks",
                         "visibility_rules": [
                             "questShuffle, settingDlcOn"
                         ],

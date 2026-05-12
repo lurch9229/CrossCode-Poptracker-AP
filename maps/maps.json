@@ -217,8 +217,8 @@
   },
   {
     "name": "Botanics_Map",
-    "location_size": 20,
-    "location_border_thickness": 3,
+    "location_size": 35,
+    "location_border_thickness": 4,
     "img": "images/maps/Botanics_Map3.png"
   }
 ]

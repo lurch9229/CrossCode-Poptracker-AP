@@ -89,10 +89,10 @@
           "v_alignment": "stretch",
           "margin": "0, 0, 0, 0",
           "content": [
-              {
-                  "type": "tabbed",
-                  "dock": "top",
-                  "tabs": [
+            {
+              "type": "tabbed",
+              "dock": "top",
+              "tabs": [
                 {
                   "title": "Slots",
                   "content": {
@@ -100,7 +100,7 @@
                     "maps": ["ShopMap"]
                   }
                 },   	            
-					      {
+                {
                   "title": "Types",
                   "content": {
                     "type": "map",

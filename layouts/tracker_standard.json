@@ -719,8 +719,11 @@
                 },
                 {
                   "title": "Botanics",
-                  "type":"map",
-                  "maps": ["Botanics_Map"]
+                  "type": "array",
+                  "content": {
+                    "type":"map",
+                    "maps": ["Botanics_Map"]
+                  }
                 }
               ]
             }

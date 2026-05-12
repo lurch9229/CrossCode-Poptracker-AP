@@ -36,6 +36,7 @@ elseif (string.find(Tracker.ActiveVariantUID, "world_map")) then
     Tracker:AddLocations("locations/homestedt.json")
     Tracker:AddLocations("locations/azureArchipelago.json")
     Tracker:AddLocations("locations/kuleroTemple.json")
+    Tracker:AddLocations("locations/botanics.json")
 elseif (string.find(Tracker.ActiveVariantUID,"map_tracker")) then
     Tracker:AddMaps("maps/maps.json")
     Tracker:AddLayouts("layouts/tracker_standard.json")
@@ -63,6 +64,7 @@ elseif (string.find(Tracker.ActiveVariantUID,"map_tracker")) then
     Tracker:AddLocations("locations/homestedt.json")
     Tracker:AddLocations("locations/azureArchipelago.json")
     Tracker:AddLocations("locations/kuleroTemple.json")
+    Tracker:AddLocations("locations/botanics.json")
 end
 
 -- Autotracking AP
