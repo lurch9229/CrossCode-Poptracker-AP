@@ -701,7 +701,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    ""
+                    "$regionOpenDLC1"
                 ],
                 "sections": [
                     {

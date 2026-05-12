@@ -335,10 +335,18 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["auto_tab"]
+              ["op_DLC"]
             ],
             "item_size": 95,
             "margin": "-200,216,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["auto_tab"]
+            ],
+            "item_size": 95,
+            "margin": "-5,216,-2,-12"
           }
         ]
       }

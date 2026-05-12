@@ -314,7 +314,7 @@ LOCATION_MAPPING =
 [3235824299] = {"@Basin Keep/Basin Keep - Pond Slums Center/Silver Chest"},
 [3235824300] = {"@Basin Keep/Basin Keep - Pond Slums Upper/Gold Chest"},
 [3235824301] = {"@Gaia's Garden/Gaia's Garden - Basin Keep Entrance/Chest"},
-[3235824302] = {"@Basin Keep/Basin Keep - Police HQ/Gold Chest"},
+[3235824302] = {"@Basin Keep/Basin Keep - Police HQ Chest/Gold Chest"},
 [3235824303] = {"@Basin Keep/Basin Keep - Seeker Hub GF/Silver Chest"},
 -- Rhombus Chests
 [3235824304] = {"@Rhombus Square/Rhombus Square - Arena Plaza East/Bronze Chest"},
@@ -328,7 +328,7 @@ LOCATION_MAPPING =
 -- Rookie Chests
 [3235824312] = {"@Rookie Harbor/Rookie Harbor - Marketplace/Chest"},
 [3235824313] = {"@Rookie Harbor/Rookie Harbor - Falling Exit/Chest"},
-[3235824314] = {"@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Chest"},
+[3235824314] = {"@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop Chest/Silver Chest"},
 [3235824315] = {"@Rookie Harbor/Rookie Harbor - Dusty Storage/Silver Chest"},
 [3235824316] = {"@Rookie Harbor/Rookie Harbor - South Harbor/Gold Chest"},
 [3235824317] = {"@Rookie Harbor/Rookie Harbor - Beginner's Arc Upper/Chest"},

@@ -394,11 +394,11 @@
     "loop": false,
     "stages": [
       {
-        "img": "images/settings/.png",
+        "img": "images/settings/dlcOff.png",
         "codes": "op_DLC,settingDlcOff"
       },
       {
-        "img": "images/settings/.png",
+        "img": "images/settings/dlcOn.png",
         "codes": "op_DLC,settingDlcOn",
         "inherit_codes": false
       }

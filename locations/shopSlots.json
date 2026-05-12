@@ -4146,5 +4146,746 @@
                 ]
             }
         ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Homestedt - Item Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Homestedt - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Homestedt - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Homestedt - Item Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Homestedt - Item Shop\nKebab Roll Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Meaty Risotto Slot - 650 Credits",
+                        "name": "Homestedt - Item Shop\nMeaty Risotto Slot - 650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop\nSpicy Bun Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop\nFruit Drink Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop\nRice Cracker Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 198
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 218
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nCup o' Coffee Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Salted Peanuts Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nSalted Peanuts Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Snack Mix Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nSnack Mix Slot - 450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Goggles Slot - 104750 Credits",
+                        "name": "Homestedt - Weapon Shop\nLaser Goggles Slot - 104750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Edge Slot - 104500 Credits",
+                        "name": "Homestedt - Weapon Shop\nLaser Edge Slot - 104500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Mail Slot - 105000 Credits",
+                        "name": "Homestedt - Weapon Shop\nLaser Mail Slot - 105000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Boots Slot - 104750 Credits",
+                        "name": "Homestedt - Weapon Shop\nLaser Boots Slot - 104750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 438
+                    }
+                ]
+            }
+        ]
+    },/*
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Cross Goggles Slot - 150000 Credits",
+                        "name": "Homestedt - Weapon Shop\nCross Goggles Mail Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 458
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Cross Edge Slot - 150000 Credits",
+                        "name": "Homestedt - Weapon Shop\nCross Edge Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 478
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Cross Mail Slot - 150000 Credits",
+                        "name": "Homestedt - Weapon Shop\nCross Mail Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 498
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Cross Boots Slot - 150000 Credits",
+                        "name": "Homestedt - Weapon Shop\nCross Boots Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 513
+                    }
+                ]
+            }
+        ]
+    },*/
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Goggles Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Edge Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 674
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Mail Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 694
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Boots Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 712
+                    }
+                ]
+            }
+        ]
+    },
+        {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Sandwich Slot - 100 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nSandwich Slot - 100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 920
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nHi-Sandwich Slot - 300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 939
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGreen Leaf Tea Slot - 250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 958
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Just Water Slot - 222 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nJust Water Slot - 222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 977
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Goat Cheese Slot - 4500 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Cheese Slot - 4500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 996
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Goat Milk Slot - 4500 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Milk Slot - 4500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 1015
+                    }
+                ]
+            }
+        ]
+    },
+    ,
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Goggles Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 538
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Edge Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Edge Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 558
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Mail Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Mail Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 578
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Boots Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Boots Slot - 150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 598
+                    }
+                ]
+            }
+        ]
     }
 ]
