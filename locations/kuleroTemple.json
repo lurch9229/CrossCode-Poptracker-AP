@@ -764,8 +764,8 @@
             },
             {
                 "name": "Ku'lero Temple U8 - The Rise",
-                "chest_unopened_img": "images/icons/.png",
-                "chest_opened_img": "images/icons/.png",
+                "chest_unopened_img": "images/icons/diorbis_o.png",
+                "chest_opened_img": "images/icons/diorbis_x.png",
                 "map_locations": [
                     {
                         "map": "Kulero_Temple_U8",
@@ -775,7 +775,7 @@
                     }
                 ],
                 "visibility_rules": [
-                    "settingDlcOn"
+                    "settingDlcOn, settingGoalDiorbis"
                 ],
                 "access_rules": [
                     "regionOpenDLC_DungeonBoss"
@@ -792,6 +792,43 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Cone Sprout/Alpha Cone Sprout",
+                                "name": "Botanics - Alpha Cone Sprout\nAlpha Cone Sprout"
+                            },
+                            {
+                                "ref": "Botanics - Beta Cone Sprout/Beta Cone Sprout",
+                                "name": "Botanics - Beta Cone Sprout\nBeta Cone Sprout"
+                            },
+                            {
+                                "ref": "Botanics - Gamma Cone Sprout/Gamma Cone Sprout",
+                                "name": "Botanics - Gamma Cone Sprout\nGamma Cone Sprout"
+                            },
+                            {
+                                "ref": "Botanics - Delta Cone Sprout/Delta Cone Sprout",
+                                "name": "Botanics - Delta Cone Sprout\nDelta Cone Sprout"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Shard/Alpha Shard",
+                                "name": "Botanics - Alpha Shard\nAlpha Shard"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Kulero_Temple_GF",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -803,107 +840,127 @@
                 "sections": [
                     {
                         "ref": "Ku'lero Temple GF - Comet Trail Right/Silver Chest",
-                        "name": "Ku'lero Temple GF - Comet Trail Right - Silver Chest"
+                        "name": "Ku'lero Temple GF - Comet Trail Right\nSilver Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Comet Trail Left/Silver Chest",
-                        "name": "Ku'lero Temple GF - Comet Trail Left - Silver Chest"
+                        "name": "Ku'lero Temple GF - Comet Trail Left\nSilver Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Outlook/Bronze Chest",
-                        "name": "Ku'lero Temple GF - Outlook - Bronze Chest"
+                        "name": "Ku'lero Temple GF - Outlook\nBronze Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Longleg Vale Upper/Gold Chest",
-                        "name": "Ku'lero Temple GF - Longleg Vale Upper - Gold Chest"
+                        "name": "Ku'lero Temple GF - Longleg Vale Upper\nGold Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Longleg Vale Right/Bronze Chest",
-                        "name": "Ku'lero Temple GF - Longleg Vale Right - Bronze Chest"
+                        "name": "Ku'lero Temple GF - Longleg Vale Right\nBronze Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Crystal Den Right/Bronze Chest",
-                        "name": "Ku'lero Temple GF - Crystal Den Right - Bronze Chest"
+                        "name": "Ku'lero Temple GF - Crystal Den Right\nBronze Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Crystal Den Key/Chest",
-                        "name": "Ku'lero Temple GF - Crystal Den Key - Chest"
+                        "name": "Ku'lero Temple GF - Crystal Den Key\nChest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Crystal Den Left/Gold Chest",
-                        "name": "Ku'lero Temple GF - Crystal Den Left - Gold Chest"
+                        "name": "Ku'lero Temple GF - Crystal Den Left\nGold Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Cracked Pillars Right/Bronze Chest",
-                        "name": "Ku'lero Temple GF - Cracked Pillars Right - Bronze Chest"
+                        "name": "Ku'lero Temple GF - Cracked Pillars Right\nBronze Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Cracked Pillars Key/Chest",
-                        "name": "Ku'lero Temple GF - Cracked Pillars Key - Chest"
+                        "name": "Ku'lero Temple GF - Cracked Pillars Key\nChest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Cracked Pillars Left/Gold Chest",
-                        "name": "Ku'lero Temple GF - Cracked Pillars Left - Gold Chest"
+                        "name": "Ku'lero Temple GF - Cracked Pillars Left\nGold Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Water Grave Right/Gold Chest",
-                        "name": "Ku'lero Temple GF - Water Grave Right - Gold Chest"
+                        "name": "Ku'lero Temple GF - Water Grave Right\nGold Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Water Grave Left/Bronze Chest",
-                        "name": "Ku'lero Temple GF - Water Grave Left - Bronze Chest"
+                        "name": "Ku'lero Temple GF - Water Grave Left\nBronze Chest"
                     },
                     {
                         "ref": "Ku'lero Temple U2 - Shard Trial West Key/Chest",
-                        "name": "Ku'lero Temple U2 - Shard Trial West Key - Chest"
+                        "name": "Ku'lero Temple U2 - Shard Trial West Key\nChest"
                     },
                     {
                         "ref": "Ku'lero Temple U3 - Load Barring Pillars Master Key/Chest",
-                        "name": "Ku'lero Temple U3 - Load Barring Pillars Master Key - Chest"
+                        "name": "Ku'lero Temple U3 - Load Barring Pillars Master Key\nChest"
                     },
                     {
                         "ref": "Ku'lero Temple U8 - The Rise MacGuffin Coin/Gold Chest",
-                        "name": "Ku'lero Temple U8 - The Rise MacGuffin Coin - Gold Chest"
+                        "name": "Ku'lero Temple U8 - The Rise MacGuffin Coin\nGold Chest"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Elevator Left/Elevator",
-                        "name": "Ku'lero Temple GF - Elevator Left - Elevator"
+                        "name": "Ku'lero Temple GF - Elevator Left\nElevator"
                     },
                     {
                         "ref": "Ku'lero Temple GF - Elevator Right/Elevator",
-                        "name": "Ku'lero Temple GF - Elevator Right - Elevator"
+                        "name": "Ku'lero Temple GF - Elevator Right\nElevator"
                     },
                     {
                         "ref": "Ku'lero Temple U1 - The Monk/Gynthar",
-                        "name": "Ku'lero Temple U1 - The Monk - Gynthar"
+                        "name": "Ku'lero Temple U1 - The Monk\nGynthar"
                     },
                     {
                         "ref": "Ku'lero Temple U2 - Elevator Left/Elevator",
-                        "name": "Ku'lero Temple U2 - Elevator Left - Elevator"
+                        "name": "Ku'lero Temple U2 - Elevator Left\nElevator"
                     },
                     {
                         "ref": "Ku'lero Temple U2 - Elevator Right/Elevator",
-                        "name": "Ku'lero Temple U2 - Elevator Right - Elevator"
+                        "name": "Ku'lero Temple U2 - Elevator Right\nElevator"
                     },
                     {
                         "ref": "Ku'lero Temple U2 - Birds Left/Birds",
-                        "name": "Ku'lero Temple U2 - Birds Left - Birds"
+                        "name": "Ku'lero Temple U2 - Birds Left\nBirds"
                     },
                     {
                         "ref": "Ku'lero Temple U2 - Birds Right/Birds",
-                        "name": "Ku'lero Temple U2 - Birds Right - Birds"
+                        "name": "Ku'lero Temple U2 - Birds Right\nBirds"
                     },
                     {
                         "ref": "Ku'lero Temple U3 - Elevator Left/Elevator",
-                        "name": "Ku'lero Temple U3 - Elevator Left - Elevator"
+                        "name": "Ku'lero Temple U3 - Elevator Left\nElevator"
                     },
                     {
                         "ref": "Ku'lero Temple U3 - Elevator Right/Elevator",
-                        "name": "Ku'lero Temple U3 - Elevator Right - Elevator"
+                        "name": "Ku'lero Temple U3 - Elevator Right\nElevator"
                     },
                     {
                         "ref": "Ku'lero Temple U8 - The Rise/Di'orbis",
-                        "name": "Ku'lero Temple U8 - The Rise - Di'orbis"
+                        "name": "Ku'lero Temple U8 - The Rise\nDi'orbis"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Cone Sprout/Alpha Cone Sprout",
+                        "name": "Botanics - Alpha Cone Sprout\nAlpha Cone Sprout"
+                    },
+                    {
+                        "ref": "Botanics - Beta Cone Sprout/Beta Cone Sprout",
+                        "name": "Botanics - Beta Cone Sprout\nBeta Cone Sprout"
+                    },
+                    {
+                        "ref": "Botanics - Gamma Cone Sprout/Gamma Cone Sprout",
+                        "name": "Botanics - Gamma Cone Sprout\nGamma Cone Sprout"
+                    },
+                    {
+                        "ref": "Botanics - Delta Cone Sprout/Delta Cone Sprout",
+                        "name": "Botanics - Delta Cone Sprout\nDelta Cone Sprout"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Shard/Alpha Shard",
+                        "name": "Botanics - Alpha Shard\nAlpha Shard"
                     }
                 ],
                 "map_locations": [

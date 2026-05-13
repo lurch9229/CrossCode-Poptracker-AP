@@ -314,51 +314,51 @@
                 "sections": [
                     {
                         "ref": "Grand Krys'kajo - East Branch Upper/Chest",
-                        "name": "Grand Krys'kajo - East Branch Upper - Chest"
+                        "name": "Grand Krys'kajo - East Branch Upper\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo - East Branch Right/Chest",
-                        "name": "Grand Krys'kajo - East Branch Right - Chest"
+                        "name": "Grand Krys'kajo - East Branch Right\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo - East Branch Lower/Gold Chest",
-                        "name": "Grand Krys'kajo - East Branch Lower - Gold Chest"
+                        "name": "Grand Krys'kajo - East Branch Lower\nGold Chest"
                     },
                     {
                         "ref": "Grand Krys'kajo - West Branch Lower/Chest",
-                        "name": "Grand Krys'kajo - West Branch Lower - Chest"
+                        "name": "Grand Krys'kajo - West Branch Lower\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo - West Branch Upper/Chest",
-                        "name": "Grand Krys'kajo - West Branch Upper - Chest"
+                        "name": "Grand Krys'kajo - West Branch Upper\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo - Falling Leaves/Chest",
-                        "name": "Grand Krys'kajo - Falling Leaves - Chest"
+                        "name": "Grand Krys'kajo - Falling Leaves\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo - Branch Conveyance/Chest",
-                        "name": "Grand Krys'kajo - Branch Conveyance - Chest"
+                        "name": "Grand Krys'kajo - Branch Conveyance\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo - Branch Transmit Right/Chest",
-                        "name": "Grand Krys'kajo - Branch Transmit Right - Chest"
+                        "name": "Grand Krys'kajo - Branch Transmit Right\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo - Branch Transmit Left/Chest",
-                        "name": "Grand Krys'kajo - Branch Transmit Left - Chest"
+                        "name": "Grand Krys'kajo - Branch Transmit Left\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo 4F - Post Boss Statue/Star Shade",
-                        "name": "Grand Krys'kajo 4F - Post Boss Statue - Star Shade"
+                        "name": "Grand Krys'kajo 4F - Post Boss Statue\nStar Shade"
                     },
                     {
                         "ref": "Grand Krys'kajo 4F - Post Boss Statue/Circuit Override",
-                        "name": "Grand Krys'kajo 4F - Post Boss Statue - Circuit Override"
+                        "name": "Grand Krys'kajo 4F - Post Boss Statue\nCircuit Override"
                     },
                     {
                         "ref": "Grand Krys'kajo 4F - Post Boss Statue/SP Upgrade",
-                        "name": "Grand Krys'kajo 4F - Post Boss Statue - SP Upgrade"
+                        "name": "Grand Krys'kajo 4F - Post Boss Statue\nSP Upgrade"
                     }
                 ],
                 "map_locations": [

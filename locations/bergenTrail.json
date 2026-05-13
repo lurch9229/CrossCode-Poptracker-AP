@@ -1054,6 +1054,75 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Feather Bush/Alpha Feather Bush",
+                                "name": "Botanics - Alpha Feather Bush\nAlpha Feather Bush"
+                            },
+                            {
+                                "ref": "Botanics - Beta Feather Bush/Beta Feather Bush",
+                                "name": "Botanics - Beta Feather Bush\nBeta Feather Bush"
+                            },
+                            {
+                                "ref": "Botanics - Omega Feather Bush/Omega Feather Bush",
+                                "name": "Botanics - Omega Feather Bush\nOmega Feather Bush"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Pike Shrub/Alpha Pike Shrub",
+                                "name": "Botanics - Alpha Pike Shrub\nAlpha Pike Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Beta Pike Shrub/Beta Pike Shrub",
+                                "name": "Botanics - Beta Pike Shrub\nBeta Pike Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Omega Pike Shrub/Omega Pike Shrub",
+                                "name": "Botanics - Omega Pike Shrub\nOmega Pike Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Plume Bush/Alpha Plume Bush",
+                                "name": "Botanics - Alpha Plume Bush\nAlpha Plume Bush"
+                            },
+                            {
+                                "ref": "Botanics - Beta Plume Bush/Beta Plume Bush",
+                                "name": "Botanics - Beta Plume Bush\nBeta Plume Bush"
+                            },
+                            {
+                                "ref": "Botanics - Omega Plume Bush/Omega Plume Bush",
+                                "name": "Botanics - Omega Plume Bush\nOmega Plume Bush"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Lance Shrub/Alpha Lance Shrub",
+                                "name": "Botanics - Alpha Lance Shrub\nAlpha Lance Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Beta Lance Shrub/Beta Lance Shrub",
+                                "name": "Botanics - Beta Lance Shrub\nBeta Lance Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Omega Lance Shrub/Omega Lance Shrub",
+                                "name": "Botanics - Omega Lance Shrub\nOmega Lance Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Diamond Ice/Diamond Ice",
+                                "name": "Botanics - Diamond Ice\nDiamond Ice"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Bergen_Trail",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -1065,171 +1134,223 @@
                 "sections": [
                     {
                         "ref": "Bergen Trail - Abandoned Cave/Chest",
-                        "name": "Bergen Trail - Abandoned Cave - Chest"
+                        "name": "Bergen Trail - Abandoned Cave\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Frozen Cave/Chest",
-                        "name": "Bergen Trail - Frozen Cave - Chest"
+                        "name": "Bergen Trail - Frozen Cave\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Abandoned Ground/Silver Chest",
-                        "name": "Bergen Trail - Abandoned Ground - Silver Chest"
+                        "name": "Bergen Trail - Abandoned Ground\nSilver Chest"
                     },
                     {
                         "ref": "Bergen Trail - Pengpeng Den/Chest",
-                        "name": "Bergen Trail - Pengpeng Den - Chest"
+                        "name": "Bergen Trail - Pengpeng Den\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Entrance Right/Chest",
-                        "name": "Bergen Trail - Entrance Right - Chest"
+                        "name": "Bergen Trail - Entrance Right\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Entrance Left/Chest",
-                        "name": "Bergen Trail - Entrance Left - Chest"
+                        "name": "Bergen Trail - Entrance Left\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Rising Path 1/Chest",
-                        "name": "Bergen Trail - Rising Path 1 - Chest"
+                        "name": "Bergen Trail - Rising Path 1\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Off Road 1 Lower/Chest",
-                        "name": "Bergen Trail - Off Road 1 Lower - Chest"
+                        "name": "Bergen Trail - Off Road 1 Lower\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Off Road 1 Upper/Chest",
-                        "name": "Bergen Trail - Off Road 1 Upper - Chest"
+                        "name": "Bergen Trail - Off Road 1 Upper\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Off Road 2 Center/Chest",
-                        "name": "Bergen Trail - Off Road 2 Center - Chest"
+                        "name": "Bergen Trail - Off Road 2 Center\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Off Road 2 Lower/Chest",
-                        "name": "Bergen Trail - Off Road 2 Lower - Chest"
+                        "name": "Bergen Trail - Off Road 2 Lower\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Off Road 2 Upper/Chest",
-                        "name": "Bergen Trail - Off Road 2 Upper - Chest"
+                        "name": "Bergen Trail - Off Road 2 Upper\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Off Road 3 Lower/Chest",
-                        "name": "Bergen Trail - Off Road 3 Lower - Chest"
+                        "name": "Bergen Trail - Off Road 3 Lower\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Off Road 3 Upper/Chest",
-                        "name": "Bergen Trail - Off Road 3 Upper - Chest"
+                        "name": "Bergen Trail - Off Road 3 Upper\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Old Plateau/Gold Chest",
-                        "name": "Bergen Trail - Old Plateau - Gold Chest"
+                        "name": "Bergen Trail - Old Plateau\nGold Chest"
                     },
                     {
                         "ref": "Bergen Trail - Rising Path 2/Chest",
-                        "name": "Bergen Trail - Rising Path 2 - Chest"
+                        "name": "Bergen Trail - Rising Path 2\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Rising Path 3 Left/Chest",
-                        "name": "Bergen Trail - Rising Path 3 Left - Chest"
+                        "name": "Bergen Trail - Rising Path 3 Left\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Rising Path 3 Right/Chest",
-                        "name": "Bergen Trail - Rising Path 3 Right - Chest"
+                        "name": "Bergen Trail - Rising Path 3 Right\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Spike Heights Upper/Chest",
-                        "name": "Bergen Trail - Spike Heights Upper - Chest"
+                        "name": "Bergen Trail - Spike Heights Upper\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Spike Heights Lower/Bronze Chest",
-                        "name": "Bergen Trail - Spike Heights Lower - Bronze Chest"
+                        "name": "Bergen Trail - Spike Heights Lower\nBronze Chest"
                     },
                     {
                         "ref": "Bergen Trail - Icy Cauldron/Silver Chest",
-                        "name": "Bergen Trail - Icy Cauldron - Silver Chest"
+                        "name": "Bergen Trail - Icy Cauldron\nSilver Chest"
                     },
                     {
                         "ref": "Bergen Trail - Bergen Waterfalls/Chest",
-                        "name": "Bergen Trail - Bergen Waterfalls - Chest"
+                        "name": "Bergen Trail - Bergen Waterfalls\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Rising Path 4 Upper/Chest",
-                        "name": "Bergen Trail - Rising Path 4 Upper - Chest"
+                        "name": "Bergen Trail - Rising Path 4 Upper\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Rising Path 4 Lower/Chest",
-                        "name": "Bergen Trail - Rising Path 4 Lower - Chest"
+                        "name": "Bergen Trail - Rising Path 4 Lower\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Horn Cave 2/Chest",
-                        "name": "Bergen Trail - Horn Cave 2 - Chest"
+                        "name": "Bergen Trail - Horn Cave 2\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Lofty Heights/Bronze Chest",
-                        "name": "Bergen Trail - Lofty Heights - Bronze Chest"
+                        "name": "Bergen Trail - Lofty Heights\nBronze Chest"
                     },
                     {
                         "ref": "Bergen Trail - Windy Climb/Chest",
-                        "name": "Bergen Trail - Windy Climb - Chest"
+                        "name": "Bergen Trail - Windy Climb\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Rising Path 5/Chest",
-                        "name": "Bergen Trail - Rising Path 5 - Chest"
+                        "name": "Bergen Trail - Rising Path 5\nChest"
                     },
                     {
                         "ref": "Bergen Trail - Megan98/You've Got Mail",
-                        "name": "Bergen Trail - Megan98 - You've Got Mail"
+                        "name": "Bergen Trail - Megan98\nYou've Got Mail"
                     },
                     {
                         "ref": "Bergen Trail - Game Tester/Round and Round 2",
-                        "name": "Bergen Trail - Game Tester - Round and Round 2"
+                        "name": "Bergen Trail - Game Tester\nRound and Round 2"
                     },
                     {
                         "ref": "Bergen Trail - Jean/The Legendary Bunny",
-                        "name": "Bergen Trail - Jean - The Legendary Bunny"
+                        "name": "Bergen Trail - Jean\nThe Legendary Bunny"
                     },
                     {
                         "ref": "Bergen Trail - Henry the Researcher/Trailblazing Finish",
-                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Finish"
+                        "name": "Bergen Trail - Henry the Researcher\nTrailblazing Finish"
                     },
                     {
                         "ref": "Bergen Trail - Henry the Researcher/Trailblazing Collect",
-                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Collect"
+                        "name": "Bergen Trail - Henry the Researcher\nTrailblazing Collect"
                     },
                     {
                         "ref": "Bergen Trail - Henry the Researcher/Trailblazing Defeat",
-                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Defeat"
+                        "name": "Bergen Trail - Henry the Researcher\nTrailblazing Defeat"
                     },
                     {
                         "ref": "Bergen Trail - Henry the Researcher/Trailblazing Landmarks",
-                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Landmarks"
+                        "name": "Bergen Trail - Henry the Researcher\nTrailblazing Landmarks"
                     },
                     {
                         "ref": "Bergen Trail - Henry the Researcher/Trailblazing Data Probe",
-                        "name": "Bergen Trail - Henry the Researcher - Trailblazing Data Probe"
+                        "name": "Bergen Trail - Henry the Researcher\nTrailblazing Data Probe"
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits",
-                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Berry Tea Slot - 3299 Credits"
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Berry Tea Slot\n3299 Credits"
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits",
-                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Chili Con Carne Slot - 1099 Credits"
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Chili Con Carne Slot\n1099 Credits"
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
-                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Lemonjuice Slot - 2199 Credits"
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Lemonjuice Slot\n2199 Credits"
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits",
-                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Berry Tea Type - 3299 Credits"
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Berry Tea Type\n3299 Credits"
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits",
-                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Chili Con Carne Type - 1099 Credits"
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Chili Con Carne Type\n1099 Credits"
                     },
                     {
                         "ref": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits",
-                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Lemonjuice Type - 2199 Credits"
+                        "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished) - Sweet Lemonjuice Type\n2199 Credits"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Feather Bush/Alpha Feather Bush",
+                        "name": "Botanics - Alpha Feather Bush\nAlpha Feather Bush"
+                    },
+                    {
+                        "ref": "Botanics - Beta Feather Bush/Beta Feather Bush",
+                        "name": "Botanics - Beta Feather Bush\nBeta Feather Bush"
+                    },
+                    {
+                        "ref": "Botanics - Omega Feather Bush/Omega Feather Bush",
+                        "name": "Botanics - Omega Feather Bush\nOmega Feather Bush"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Pike Shrub/Alpha Pike Shrub",
+                        "name": "Botanics - Alpha Pike Shrub\nAlpha Pike Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Beta Pike Shrub/Beta Pike Shrub",
+                        "name": "Botanics - Beta Pike Shrub\nBeta Pike Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Omega Pike Shrub/Omega Pike Shrub",
+                        "name": "Botanics - Omega Pike Shrub\nOmega Pike Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Plume Bush/Alpha Plume Bush",
+                        "name": "Botanics - Alpha Plume Bush\nAlpha Plume Bush"
+                    },
+                    {
+                        "ref": "Botanics - Beta Plume Bush/Beta Plume Bush",
+                        "name": "Botanics - Beta Plume Bush\nBeta Plume Bush"
+                    },
+                    {
+                        "ref": "Botanics - Omega Plume Bush/Omega Plume Bush",
+                        "name": "Botanics - Omega Plume Bush\nOmega Plume Bush"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Lance Shrub/Alpha Lance Shrub",
+                        "name": "Botanics - Alpha Lance Shrub\nAlpha Lance Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Beta Lance Shrub/Beta Lance Shrub",
+                        "name": "Botanics - Beta Lance Shrub\nBeta Lance Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Omega Lance Shrub/Omega Lance Shrub",
+                        "name": "Botanics - Omega Lance Shrub\nOmega Lance Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Diamond Ice/Diamond Ice",
+                        "name": "Botanics - Diamond Ice\nDiamond Ice"
                     }
                 ],
                 "map_locations": [

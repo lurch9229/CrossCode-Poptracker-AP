@@ -1051,6 +1051,91 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Dry Cactone/Alpha Dry Cactone",
+                                "name": "Botanics - Alpha Dry Cactone\nAlpha Dry Cactone"
+                            },
+                            {
+                                "ref": "Botanics - Beta Dry Cactone/Beta Dry Cactone",
+                                "name": "Botanics - Beta Dry Cactone\nBeta Dry Cactone"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Dry Shrub/Alpha Dry Shrub",
+                                "name": "Botanics - Alpha Dry Shrub\nAlpha Dry Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Beta Dry Shrub/Beta Dry Shrub",
+                                "name": "Botanics - Beta Dry Shrub\nBeta Dry Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Omega Dry Shrub/Omega Dry Shrub",
+                                "name": "Botanics - Omega Dry Shrub\nOmega Dry Shrub"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Cactone/Alpha Cactone",
+                                "name": "Botanics - Alpha Cactone\nAlpha Cactone"
+                            },
+                            {
+                                "ref": "Botanics - Beta Cactone/Beta Cactone",
+                                "name": "Botanics - Beta Cactone\nBeta Cactone"
+                            },
+                            {
+                                "ref": "Botanics - Omega Cactone/Omega Cactone",
+                                "name": "Botanics - Omega Cactone\nOmega Cactone"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Palmapple/Alpha Palmapple",
+                                "name": "Botanics - Alpha Palmapple\nAlpha Palmapple"
+                            },
+                            {
+                                "ref": "Botanics - Beta Palmapple/Beta Palmapple",
+                                "name": "Botanics - Beta Palmapple\nBeta Palmapple"
+                            },
+                            {
+                                "ref": "Botanics - Omega Palmapple/Omega Palmapple",
+                                "name": "Botanics - Omega Palmapple\nOmega Palmapple"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Ant Hill/Alpha Ant Hill",
+                                "name": "Botanics - Alpha Ant Hill\nAlpha Ant Hill"
+                            },
+                            {
+                                "ref": "Botanics - Beta Ant Hill/Beta Ant Hill",
+                                "name": "Botanics - Beta Ant Hill\nBeta Ant Hill"
+                            },
+                            {
+                                "ref": "Botanics - Omega Ant Hill/Omega Ant Hill",
+                                "name": "Botanics - Omega Ant Hill\nOmega Ant Hill"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Bone Pile/Alpha Bone Pile",
+                                "name": "Botanics - Alpha Bone Pile\nAlpha Bone Pile"
+                            },
+                            {
+                                "ref": "Botanics - Beta Bone Pile/Beta Bone Pile",
+                                "name": "Botanics - Beta Bone Pile\nBeta Bone Pile"
+                            },
+                            {
+                                "ref": "Botanics - Omega Bone Pile/Omega Bone Pile",
+                                "name": "Botanics - Omega Bone Pile\nOmega Bone Pile"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Maroon_Valley",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -1062,163 +1147,231 @@
                 "sections": [
                     {
                         "ref": "Maroon Valley - Mystery Cave Upper/Silver Chest",
-                        "name": "Maroon Valley - Mystery Cave Upper - Silver Chest"
+                        "name": "Maroon Valley - Mystery Cave Upper\nSilver Chest"
                     },
                     {
                         "ref": "Maroon Valley - Mystery Cave Lower/Gold Chest",
-                        "name": "Maroon Valley - Mystery Cave Lower - Gold Chest"
+                        "name": "Maroon Valley - Mystery Cave Lower\nGold Chest"
                     },
                     {
                         "ref": "Maroon Valley - Maroon Cave 1/Chest",
-                        "name": "Maroon Valley - Maroon Cave 1 - Chest"
+                        "name": "Maroon Valley - Maroon Cave 1\nChest"
                     },
                     {
                         "ref": "Maroon Valley - River Cliff Left/Chest",
-                        "name": "Maroon Valley - River Cliff Left - Chest"
+                        "name": "Maroon Valley - River Cliff Left\nChest"
                     },
                     {
                         "ref": "Maroon Valley - River Cliff Right/Chest",
-                        "name": "Maroon Valley - River Cliff Right - Chest"
+                        "name": "Maroon Valley - River Cliff Right\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Endless Pit Right/Chest",
-                        "name": "Maroon Valley - Endless Pit Right - Chest"
+                        "name": "Maroon Valley - Endless Pit Right\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Endless Pit Center/Chest",
-                        "name": "Maroon Valley - Endless Pit Center - Chest"
+                        "name": "Maroon Valley - Endless Pit Center\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Endless Pit Left/Chest",
-                        "name": "Maroon Valley - Endless Pit Left - Chest"
+                        "name": "Maroon Valley - Endless Pit Left\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Vivid Path Upper/Chest",
-                        "name": "Maroon Valley - Vivid Path Upper - Chest"
+                        "name": "Maroon Valley - Vivid Path Upper\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Vivid Path Lower/Chest",
-                        "name": "Maroon Valley - Vivid Path Lower - Chest"
+                        "name": "Maroon Valley - Vivid Path Lower\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Maroon Oasis Upper/Chest",
-                        "name": "Maroon Valley - Maroon Oasis Upper - Chest"
+                        "name": "Maroon Valley - Maroon Oasis Upper\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Maroon Oasis Center/Chest",
-                        "name": "Maroon Valley - Maroon Oasis Center - Chest"
+                        "name": "Maroon Valley - Maroon Oasis Center\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Bright Path/Bronze Chest",
-                        "name": "Maroon Valley - Bright Path - Bronze Chest"
+                        "name": "Maroon Valley - Bright Path\nBronze Chest"
                     },
                     {
                         "ref": "Maroon Valley - Rising Railway/Chest",
-                        "name": "Maroon Valley - Rising Railway - Chest"
+                        "name": "Maroon Valley - Rising Railway\nChest"
                     },
                     {
                         "ref": "Maroon Valley - East Entrance/Chest",
-                        "name": "Maroon Valley - East Entrance - Chest"
+                        "name": "Maroon Valley - East Entrance\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Dusty Path Upper/Chest",
-                        "name": "Maroon Valley - Dusty Path Upper - Chest"
+                        "name": "Maroon Valley - Dusty Path Upper\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Dusty Path Center/Bronze Chest",
-                        "name": "Maroon Valley - Dusty Path Center - Bronze Chest"
+                        "name": "Maroon Valley - Dusty Path Center\nBronze Chest"
                     },
                     {
                         "ref": "Maroon Valley - Crossroad Center/Chest",
-                        "name": "Maroon Valley - Crossroad Center - Chest"
+                        "name": "Maroon Valley - Crossroad Center\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Crossroad Left/Chest",
-                        "name": "Maroon Valley - Crossroad Left - Chest"
+                        "name": "Maroon Valley - Crossroad Left\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Long Piece/Chest",
-                        "name": "Maroon Valley - Long Piece - Chest"
+                        "name": "Maroon Valley - Long Piece\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Barren Arcs Center/Chest",
-                        "name": "Maroon Valley - Barren Arcs Center - Chest"
+                        "name": "Maroon Valley - Barren Arcs Center\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Barren Arcs Left/Bronze Chest",
-                        "name": "Maroon Valley - Barren Arcs Left - Bronze Chest"
+                        "name": "Maroon Valley - Barren Arcs Left\nBronze Chest"
                     },
                     {
                         "ref": "Maroon Valley - Barren Land/Chest",
-                        "name": "Maroon Valley - Barren Land - Chest"
+                        "name": "Maroon Valley - Barren Land\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Overpass Upper/Chest",
-                        "name": "Maroon Valley - Overpass Upper - Chest"
+                        "name": "Maroon Valley - Overpass Upper\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Overpass Left/Chest",
-                        "name": "Maroon Valley - Overpass Left - Chest"
+                        "name": "Maroon Valley - Overpass Left\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Paw Cliffs Lower/Chest",
-                        "name": "Maroon Valley - Paw Cliffs Lower - Chest"
+                        "name": "Maroon Valley - Paw Cliffs Lower\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Paw Cliffs Upper/Silver Chest",
-                        "name": "Maroon Valley - Paw Cliffs Upper - Silver Chest"
+                        "name": "Maroon Valley - Paw Cliffs Upper\nSilver Chest"
                     },
                     {
                         "ref": "Maroon Valley - Torn Road Right/Chest",
-                        "name": "Maroon Valley - Torn Road Right - Chest"
+                        "name": "Maroon Valley - Torn Road Right\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Torn Road Center/Chest",
-                        "name": "Maroon Valley - Torn Road Center - Chest"
+                        "name": "Maroon Valley - Torn Road Center\nChest"
                     },
                     {
                         "ref": "Maroon Valley - West Entrance/Chest",
-                        "name": "Maroon Valley - West Entrance - Chest"
+                        "name": "Maroon Valley - West Entrance\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Fractured Path Right/Chest",
-                        "name": "Maroon Valley - Fractured Path Right - Chest"
+                        "name": "Maroon Valley - Fractured Path Right\nChest"
                     },
                     {
                         "ref": "Maroon Valley - Fractured Path Upper/Silver Chest",
-                        "name": "Maroon Valley - Fractured Path Upper - Silver Chest"
+                        "name": "Maroon Valley - Fractured Path Upper\nSilver Chest"
                     },
                     {
                         "ref": "Maroon Valley - Cursed Temple Upper/Silver Chest",
-                        "name": "Maroon Valley - Cursed Temple Upper - Silver Chest"
+                        "name": "Maroon Valley - Cursed Temple Upper\nSilver Chest"
                     },
                     {
                         "ref": "Maroon Valley - Cursed Temple Lower/Silver Chest",
-                        "name": "Maroon Valley - Cursed Temple Lower - Silver Chest"
+                        "name": "Maroon Valley - Cursed Temple Lower\nSilver Chest"
                     },
                     {
                         "ref": "Maroon Valley - Cursed Temple Treasure Room/Bronze Chest",
-                        "name": "Maroon Valley - Cursed Temple Treasure Room - Bronze Chest"
+                        "name": "Maroon Valley - Cursed Temple Treasure Room\nBronze Chest"
                     },
                     {
                         "ref": "Maroon Valley - Henry the Researcher/Trailblazing Finish",
-                        "name": "Maroon Valley - Henry the Researcher - Trailblazing Finish"
+                        "name": "Maroon Valley - Henry the Researcher\nTrailblazing Finish"
                     },
                     {
                         "ref": "Maroon Valley - Henry the Researcher/Trailblazing Collect",
-                        "name": "Maroon Valley - Henry the Researcher - Trailblazing Collect"
+                        "name": "Maroon Valley - Henry the Researcher\nTrailblazing Collect"
                     },
                     {
                         "ref": "Maroon Valley - Henry the Researcher/Trailblazing Defeat",
-                        "name": "Maroon Valley - Henry the Researcher - Trailblazing Defeat"
+                        "name": "Maroon Valley - Henry the Researcher\nTrailblazing Defeat"
                     },
                     {
                         "ref": "Maroon Valley - Henry the Researcher/Trailblazing Landmarks",
-                        "name": "Maroon Valley - Henry the Researcher - Trailblazing Landmarks"
+                        "name": "Maroon Valley - Henry the Researcher\nTrailblazing Landmarks"
                     },
                     {
                         "ref": "Maroon Valley - Henry the Researcher/Trailblazing Data Probe",
-                        "name": "Maroon Valley - Henry the Researcher - Trailblazing Data Probe"
+                        "name": "Maroon Valley - Henry the Researcher\nTrailblazing Data Probe"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Dry Cactone/Alpha Dry Cactone",
+                        "name": "Botanics - Alpha Dry Cactone\nAlpha Dry Cactone"
+                    },
+                    {
+                        "ref": "Botanics - Beta Dry Cactone/Beta Dry Cactone",
+                        "name": "Botanics - Beta Dry Cactone\nBeta Dry Cactone"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Dry Shrub/Alpha Dry Shrub",
+                        "name": "Botanics - Alpha Dry Shrub\nAlpha Dry Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Beta Dry Shrub/Beta Dry Shrub",
+                        "name": "Botanics - Beta Dry Shrub\nBeta Dry Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Omega Dry Shrub/Omega Dry Shrub",
+                        "name": "Botanics - Omega Dry Shrub\nOmega Dry Shrub"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Cactone/Alpha Cactone",
+                        "name": "Botanics - Alpha Cactone\nAlpha Cactone"
+                    },
+                    {
+                        "ref": "Botanics - Beta Cactone/Beta Cactone",
+                        "name": "Botanics - Beta Cactone\nBeta Cactone"
+                    },
+                    {
+                        "ref": "Botanics - Omega Cactone/Omega Cactone",
+                        "name": "Botanics - Omega Cactone\nOmega Cactone"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Palmapple/Alpha Palmapple",
+                        "name": "Botanics - Alpha Palmapple\nAlpha Palmapple"
+                    },
+                    {
+                        "ref": "Botanics - Beta Palmapple/Beta Palmapple",
+                        "name": "Botanics - Beta Palmapple\nBeta Palmapple"
+                    },
+                    {
+                        "ref": "Botanics - Omega Palmapple/Omega Palmapple",
+                        "name": "Botanics - Omega Palmapple\nOmega Palmapple"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Ant Hill/Alpha Ant Hill",
+                        "name": "Botanics - Alpha Ant Hill\nAlpha Ant Hill"
+                    },
+                    {
+                        "ref": "Botanics - Beta Ant Hill/Beta Ant Hill",
+                        "name": "Botanics - Beta Ant Hill\nBeta Ant Hill"
+                    },
+                    {
+                        "ref": "Botanics - Omega Ant Hill/Omega Ant Hill",
+                        "name": "Botanics - Omega Ant Hill\nOmega Ant Hill"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Bone Pile/Alpha Bone Pile",
+                        "name": "Botanics - Alpha Bone Pile\nAlpha Bone Pile"
+                    },
+                    {
+                        "ref": "Botanics - Beta Bone Pile/Beta Bone Pile",
+                        "name": "Botanics - Beta Bone Pile\nBeta Bone Pile"
+                    },
+                    {
+                        "ref": "Botanics - Omega Bone Pile/Omega Bone Pile",
+                        "name": "Botanics - Omega Bone Pile\nOmega Bone Pile"
                     }
                 ],
                 "map_locations": [

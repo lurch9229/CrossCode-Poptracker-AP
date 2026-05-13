@@ -2002,6 +2002,83 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Puff Plant/Alpha Puff Plant",
+                                "name": "Botanics - Alpha Puff Plant\nAlpha Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Beta Puff Plant/Beta Puff Plant",
+                                "name": "Botanics - Beta Puff Plant\nBeta Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Omega Puff Plant/Omega Puff Plant",
+                                "name": "Botanics - Omega Puff Plant\nOmega Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Closed Baraleles/Alpha Closed Baraleles",
+                                "name": "Botanics - Alpha Closed Baraleles\nAlpha Closed Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Beta Closed Baraleles/Beta Closed Baraleles",
+                                "name": "Botanics - Beta Closed Baraleles\nBeta Closed Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Bee Hive/Bee Hive",
+                                "name": "Botanics - Bee Hive\nBee Hive"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Open Baraleles/Alpha Open Baraleles",
+                                "name": "Botanics - Alpha Open Baraleles\nAlpha Open Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Beta Open Baraleles/Beta Open Baraleles",
+                                "name": "Botanics - Beta Open Baraleles\nBeta Open Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Omega Open Baraleles/Omega Open Baraleles",
+                                "name": "Botanics - Omega Open Baraleles\nOmega Open Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Vivid Puff Plant/Alpha Vivid Puff Plant",
+                                "name": "Botanics - Alpha Vivid Puff Plant\nAlpha Vivid Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Beta Vivid Puff Plant/Beta Vivid Puff Plant",
+                                "name": "Botanics - Beta Vivid Puff Plant\nBeta Vivid Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Omega Vivid Puff Plant/Omega Vivid Puff Plant",
+                                "name": "Botanics - Omega Vivid Puff Plant\nOmega Vivid Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Virus Shroom/Alpha Virus Shroom",
+                                "name": "Botanics - Alpha Virus Shroom\nAlpha Virus Shroom"
+                            },
+                            {
+                                "ref": "Botanics - Beta Virus Shroom/Beta Virus Shroom",
+                                "name": "Botanics - Beta Virus Shroom\nBeta Virus Shroom"
+                            },
+                            {
+                                "ref": "Botanics - Omega Virus Shroom/Omega Virus Shroom",
+                                "name": "Botanics - Omega Virus Shroom\nOmega Virus Shroom"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Gaias_Garden",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -2013,303 +2090,363 @@
                 "sections": [
                     {
                         "ref": "Gaia's Garden - Dripping Cave/Silver Chest",
-                        "name": "Gaia's Garden - Dripping Cave - Silver Chest"
+                        "name": "Gaia's Garden - Dripping Cave\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Tranquility Pond/Gold Chest",
-                        "name": "Gaia's Garden - Tranquility Pond - Gold Chest"
+                        "name": "Gaia's Garden - Tranquility Pond\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Cavern Left/Bronze Chest",
-                        "name": "Gaia's Garden - Infested Cavern Left - Bronze Chest"
+                        "name": "Gaia's Garden - Infested Cavern Left\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Cavern Right/Silver Chest",
-                        "name": "Gaia's Garden - Infested Cavern Right - Silver Chest"
+                        "name": "Gaia's Garden - Infested Cavern Right\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil West Lower Right/Bronze Chest",
-                        "name": "Gaia's Garden - V'rda Vil West Lower Right - Bronze Chest"
+                        "name": "Gaia's Garden - V'rda Vil West Lower Right\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil West Upper/Silver Chest",
-                        "name": "Gaia's Garden - V'rda Vil West Upper - Silver Chest"
+                        "name": "Gaia's Garden - V'rda Vil West Upper\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil West Lower Left/Gold Chest",
-                        "name": "Gaia's Garden - V'rda Vil West Lower Left - Gold Chest"
+                        "name": "Gaia's Garden - V'rda Vil West Lower Left\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil East Right/Bronze Chest",
-                        "name": "Gaia's Garden - V'rda Vil East Right - Bronze Chest"
+                        "name": "Gaia's Garden - V'rda Vil East Right\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil East Lower/Silver Chest",
-                        "name": "Gaia's Garden - V'rda Vil East Lower - Silver Chest"
+                        "name": "Gaia's Garden - V'rda Vil East Lower\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil North Left/Silver Chest",
-                        "name": "Gaia's Garden - V'rda Vil North Left - Silver Chest"
+                        "name": "Gaia's Garden - V'rda Vil North Left\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil North Right/Gold Chest",
-                        "name": "Gaia's Garden - V'rda Vil North Right - Gold Chest"
+                        "name": "Gaia's Garden - V'rda Vil North Right\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Chief's Den Upper/Bronze Chest",
-                        "name": "Gaia's Garden - Chief's Den Upper - Bronze Chest"
+                        "name": "Gaia's Garden - Chief's Den Upper\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Chief's Den Center/Silver Chest",
-                        "name": "Gaia's Garden - Chief's Den Center - Silver Chest"
+                        "name": "Gaia's Garden - Chief's Den Center\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Chief's Den Lower/Gold Chest",
-                        "name": "Gaia's Garden - Chief's Den Lower - Gold Chest"
+                        "name": "Gaia's Garden - Chief's Den Lower\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Grand Krys'kajo Entrance/Bronze Chest",
-                        "name": "Gaia's Garden - Grand Krys'kajo Entrance - Bronze Chest"
+                        "name": "Gaia's Garden - Grand Krys'kajo Entrance\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - So'najiz Temple Entrance/Silver Chest",
-                        "name": "Gaia's Garden - So'najiz Temple Entrance - Silver Chest"
+                        "name": "Gaia's Garden - So'najiz Temple Entrance\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Basin Keep Entrance/Chest",
-                        "name": "Gaia's Garden - Basin Keep Entrance - Chest"
+                        "name": "Gaia's Garden - Basin Keep Entrance\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Covert Path Upper/Chest",
-                        "name": "Gaia's Garden - Covert Path Upper - Chest"
+                        "name": "Gaia's Garden - Covert Path Upper\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Covert Path Lower/Chest",
-                        "name": "Gaia's Garden - Covert Path Lower - Chest"
+                        "name": "Gaia's Garden - Covert Path Lower\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Royal Grove Upper Left/Chest",
-                        "name": "Gaia's Garden - Royal Grove Upper Left - Chest"
+                        "name": "Gaia's Garden - Royal Grove Upper Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Royal Grove Upper Right/Chest",
-                        "name": "Gaia's Garden - Royal Grove Upper Right - Chest"
+                        "name": "Gaia's Garden - Royal Grove Upper Right\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Royal Grove Lower Left/Chest",
-                        "name": "Gaia's Garden - Royal Grove Lower Left - Chest"
+                        "name": "Gaia's Garden - Royal Grove Lower Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Royal Grove Lower Right/Silver Chest",
-                        "name": "Gaia's Garden - Royal Grove Lower Right - Silver Chest"
+                        "name": "Gaia's Garden - Royal Grove Lower Right\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Calm Backyard Left/Chest",
-                        "name": "Gaia's Garden - Calm Backyard Left - Chest"
+                        "name": "Gaia's Garden - Calm Backyard Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Calm Backyard Right/Chest",
-                        "name": "Gaia's Garden - Calm Backyard Right - Chest"
+                        "name": "Gaia's Garden - Calm Backyard Right\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Lost Shrine GF/Chest",
-                        "name": "Gaia's Garden - Lost Shrine GF - Chest"
+                        "name": "Gaia's Garden - Lost Shrine GF\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Lost Shrine U1/Gold Chest",
-                        "name": "Gaia's Garden - Lost Shrine U1 - Gold Chest"
+                        "name": "Gaia's Garden - Lost Shrine U1\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Lost Shrine U2/Silver Chest",
-                        "name": "Gaia's Garden - Lost Shrine U2 - Silver Chest"
+                        "name": "Gaia's Garden - Lost Shrine U2\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Chilled Den/Silver Chest",
-                        "name": "Gaia's Garden - Chilled Den - Silver Chest"
+                        "name": "Gaia's Garden - Chilled Den\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Lost Lookout Lower/Chest",
-                        "name": "Gaia's Garden - Lost Lookout Lower - Chest"
+                        "name": "Gaia's Garden - Lost Lookout Lower\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Lost Lookout Center/Chest",
-                        "name": "Gaia's Garden - Lost Lookout Center - Chest"
+                        "name": "Gaia's Garden - Lost Lookout Center\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Lost Lookout Upper/Chest",
-                        "name": "Gaia's Garden - Lost Lookout Upper - Chest"
+                        "name": "Gaia's Garden - Lost Lookout Upper\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Seared Lake Left/Chest",
-                        "name": "Gaia's Garden - Seared Lake Left - Chest"
+                        "name": "Gaia's Garden - Seared Lake Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Seared Lake Right/Chest",
-                        "name": "Gaia's Garden - Seared Lake Right - Chest"
+                        "name": "Gaia's Garden - Seared Lake Right\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes South Upper Right/Chest",
-                        "name": "Gaia's Garden - Infested Marshes South Upper Right - Chest"
+                        "name": "Gaia's Garden - Infested Marshes South Upper Right\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes South Upper Left/Chest",
-                        "name": "Gaia's Garden - Infested Marshes South Upper Left - Chest"
+                        "name": "Gaia's Garden - Infested Marshes South Upper Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes South Lower Right/Chest",
-                        "name": "Gaia's Garden - Infested Marshes South Lower Right - Chest"
+                        "name": "Gaia's Garden - Infested Marshes South Lower Right\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes South Lower Left/Chest",
-                        "name": "Gaia's Garden - Infested Marshes South Lower Left - Chest"
+                        "name": "Gaia's Garden - Infested Marshes South Lower Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes North Upper Center/Chest",
-                        "name": "Gaia's Garden - Infested Marshes North Upper Center - Chest"
+                        "name": "Gaia's Garden - Infested Marshes North Upper Center\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes North Lower Left/Chest",
-                        "name": "Gaia's Garden - Infested Marshes North Lower Left - Chest"
+                        "name": "Gaia's Garden - Infested Marshes North Lower Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes North Upper Right/Silver Chest",
-                        "name": "Gaia's Garden - Infested Marshes North Upper Right - Silver Chest"
+                        "name": "Gaia's Garden - Infested Marshes North Upper Right\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes North Lower Right/Silver Chest",
-                        "name": "Gaia's Garden - Infested Marshes North Lower Right - Silver Chest"
+                        "name": "Gaia's Garden - Infested Marshes North Lower Right\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Overgrown Path Right/Bronze Chest",
-                        "name": "Gaia's Garden - Overgrown Path Right - Bronze Chest"
+                        "name": "Gaia's Garden - Overgrown Path Right\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Overgrown Path Left/Bronze Chest",
-                        "name": "Gaia's Garden - Overgrown Path Left - Bronze Chest"
+                        "name": "Gaia's Garden - Overgrown Path Left\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Drizzle Bosk Lower/Chest",
-                        "name": "Gaia's Garden - Drizzle Bosk Lower - Chest"
+                        "name": "Gaia's Garden - Drizzle Bosk Lower\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Drizzle Bosk Center/Chest",
-                        "name": "Gaia's Garden - Drizzle Bosk Center - Chest"
+                        "name": "Gaia's Garden - Drizzle Bosk Center\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Drizzle Bosk Right/Gold Chest",
-                        "name": "Gaia's Garden - Drizzle Bosk Right - Gold Chest"
+                        "name": "Gaia's Garden - Drizzle Bosk Right\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Wet Passage Upper/Chest",
-                        "name": "Gaia's Garden - Wet Passage Upper - Chest"
+                        "name": "Gaia's Garden - Wet Passage Upper\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Wet Passage Lower/Bronze Chest",
-                        "name": "Gaia's Garden - Wet Passage Lower - Bronze Chest"
+                        "name": "Gaia's Garden - Wet Passage Lower\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - River's Bed Left/Chest",
-                        "name": "Gaia's Garden - River's Bed Left - Chest"
+                        "name": "Gaia's Garden - River's Bed Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - River's Bed Right/Silver Chest",
-                        "name": "Gaia's Garden - River's Bed Right - Silver Chest"
+                        "name": "Gaia's Garden - River's Bed Right\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Jungle Entrance Lower/Chest",
-                        "name": "Gaia's Garden - Jungle Entrance Lower - Chest"
+                        "name": "Gaia's Garden - Jungle Entrance Lower\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Jungle Entrance Left/Chest",
-                        "name": "Gaia's Garden - Jungle Entrance Left - Chest"
+                        "name": "Gaia's Garden - Jungle Entrance Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Jungle Entrance Apollo/Apollo Duel East Pass",
-                        "name": "Gaia's Garden - Jungle Entrance Apollo - Apollo Duel East Pass"
+                        "name": "Gaia's Garden - Jungle Entrance Apollo\nApollo Duel East Pass"
                     },
                     {
                         "ref": "Gaia's Garden - Jungle Entrance Apollo/Apollo Duel West Pass",
-                        "name": "Gaia's Garden - Jungle Entrance Apollo - Apollo Duel West Pass"
+                        "name": "Gaia's Garden - Jungle Entrance Apollo\nApollo Duel West Pass"
                     },
                     {
                         "ref": "Gaia's Garden - Crossroad Right/Chest",
-                        "name": "Gaia's Garden - Crossroad Right - Chest"
+                        "name": "Gaia's Garden - Crossroad Right\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Crossroad Left/Gold Chest",
-                        "name": "Gaia's Garden - Crossroad Left - Gold Chest"
+                        "name": "Gaia's Garden - Crossroad Left\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Tying Greens Upper/Chest",
-                        "name": "Gaia's Garden - Tying Greens Upper - Chest"
+                        "name": "Gaia's Garden - Tying Greens Upper\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Tying Greens Lower/Chest",
-                        "name": "Gaia's Garden - Tying Greens Lower - Chest"
+                        "name": "Gaia's Garden - Tying Greens Lower\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Peridot Approach Upper/Chest",
-                        "name": "Gaia's Garden - Peridot Approach Upper - Chest"
+                        "name": "Gaia's Garden - Peridot Approach Upper\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Peridot Approach Lower/Silver Chest",
-                        "name": "Gaia's Garden - Peridot Approach Lower - Silver Chest"
+                        "name": "Gaia's Garden - Peridot Approach Lower\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Splitting Stumps Upper/Chest",
-                        "name": "Gaia's Garden - Splitting Stumps Upper - Chest"
+                        "name": "Gaia's Garden - Splitting Stumps Upper\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Splitting Stumps Lower/Chest",
-                        "name": "Gaia's Garden - Splitting Stumps Lower - Chest"
+                        "name": "Gaia's Garden - Splitting Stumps Lower\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Clinging River Right/Silver Chest",
-                        "name": "Gaia's Garden - Clinging River Right - Silver Chest"
+                        "name": "Gaia's Garden - Clinging River Right\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Clinging River Left/Gold Chest",
-                        "name": "Gaia's Garden - Clinging River Left - Gold Chest"
+                        "name": "Gaia's Garden - Clinging River Left\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Ringing River Upper/Chest",
-                        "name": "Gaia's Garden - Ringing River Upper - Chest"
+                        "name": "Gaia's Garden - Ringing River Upper\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Ringing River Lower/Bronze Chest",
-                        "name": "Gaia's Garden - Ringing River Lower - Bronze Chest"
+                        "name": "Gaia's Garden - Ringing River Lower\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Old Timber/Chest",
-                        "name": "Gaia's Garden - Old Timber - Chest"
+                        "name": "Gaia's Garden - Old Timber\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Finish",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Finish"
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Finish"
                     },
                     {
                         "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Collect",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Collect"
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Collect"
                     },
                     {
                         "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Defeat",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Defeat"
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Defeat"
                     },
                     {
                         "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Landmarks",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Landmarks"
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Landmarks"
                     },
                     {
                         "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Data Probe",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Data Probe"
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Data Probe"
                     },
                     {
                         "ref": "Gaia's Garden - Pathhacker/Turret Defense Challenge 1",
-                        "name": "Gaia's Garden - Pathhacker - Turret Defense Challenge 1"
+                        "name": "Gaia's Garden - Pathhacker\nTurret Defense Challenge 1"
                     },
                     {
                         "ref": "Gaia's Garden - Pathhacker/Turret Defense Challenge 2",
-                        "name": "Gaia's Garden - Pathhacker - Turret Defense Challenge 2"
+                        "name": "Gaia's Garden - Pathhacker\nTurret Defense Challenge 2"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Puff Plant/Alpha Puff Plant",
+                        "name": "Botanics - Alpha Puff Plant\nAlpha Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Beta Puff Plant/Beta Puff Plant",
+                        "name": "Botanics - Beta Puff Plant\nBeta Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Omega Puff Plant/Omega Puff Plant",
+                        "name": "Botanics - Omega Puff Plant\nOmega Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Closed Baraleles/Alpha Closed Baraleles",
+                        "name": "Botanics - Alpha Closed Baraleles\nAlpha Closed Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Beta Closed Baraleles/Beta Closed Baraleles",
+                        "name": "Botanics - Beta Closed Baraleles\nBeta Closed Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Bee Hive/Bee Hive",
+                        "name": "Botanics - Bee Hive\nBee Hive"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Open Baraleles/Alpha Open Baraleles",
+                        "name": "Botanics - Alpha Open Baraleles\nAlpha Open Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Beta Open Baraleles/Beta Open Baraleles",
+                        "name": "Botanics - Beta Open Baraleles\nBeta Open Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Omega Open Baraleles/Omega Open Baraleles",
+                        "name": "Botanics - Omega Open Baraleles\nOmega Open Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Vivid Puff Plant/Alpha Vivid Puff Plant",
+                        "name": "Botanics - Alpha Vivid Puff Plant\nAlpha Vivid Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Beta Vivid Puff Plant/Beta Vivid Puff Plant",
+                        "name": "Botanics - Beta Vivid Puff Plant\nBeta Vivid Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Omega Vivid Puff Plant/Omega Vivid Puff Plant",
+                        "name": "Botanics - Omega Vivid Puff Plant\nOmega Vivid Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Virus Shroom/Alpha Virus Shroom",
+                        "name": "Botanics - Alpha Virus Shroom\nAlpha Virus Shroom"
+                    },
+                    {
+                        "ref": "Botanics - Beta Virus Shroom/Beta Virus Shroom",
+                        "name": "Botanics - Beta Virus Shroom\nBeta Virus Shroom"
+                    },
+                    {
+                        "ref": "Botanics - Omega Virus Shroom/Omega Virus Shroom",
+                        "name": "Botanics - Omega Virus Shroom\nOmega Virus Shroom"
                     }
                 ],
                 "map_locations": [

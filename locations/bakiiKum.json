@@ -1160,6 +1160,27 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Sprout of Space/Sprout of Space",
+                                "name": "Botanics - Sprout of Space\nSprout of Space"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Bakii_Kum",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -1171,263 +1192,267 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Solar Farm Upper/Chest",
-                        "name": "Ba'kii Kum - Solar Farm Upper - Chest"
+                        "name": "Ba'kii Kum - Solar Farm Upper\nChest"
                     },
                     {
                         "ref": "Ba'kii Kum - Solar Farm Lower/Chest",
-                        "name": "Ba'kii Kum - Solar Farm Lower - Chest"
+                        "name": "Ba'kii Kum - Solar Farm Lower\nChest"
                     },
                     {
                         "ref": "Ba'kii Kum - Market East/Chest",
-                        "name": "Ba'kii Kum - Market East - Chest"
+                        "name": "Ba'kii Kum - Market East\nChest"
                     },
                     {
                         "ref": "Ba'kii Kum - Market West/Bronze Chest",
-                        "name": "Ba'kii Kum - Market West - Bronze Chest"
+                        "name": "Ba'kii Kum - Market West\nBronze Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Dusty Home/Cursed Coin",
-                        "name": "Ba'kii Kum - Dusty Home - Cursed Coin"
+                        "name": "Ba'kii Kum - Dusty Home\nCursed Coin"
                     },
                     {
                         "ref": "Ba'kii Kum - Seeker Hub/Maroon Cave Pass",
-                        "name": "Ba'kii Kum - Seeker Hub - Maroon Cave Pass"
+                        "name": "Ba'kii Kum - Seeker Hub\nMaroon Cave Pass"
                     },
                     {
                         "ref": "Ba'kii Kum - Seeker Hub/Maroon Tree Defender",
-                        "name": "Ba'kii Kum - Seeker Hub - Maroon Tree Defender"
+                        "name": "Ba'kii Kum - Seeker Hub\nMaroon Tree Defender"
                     },
                     {
                         "ref": "Ba'kii Kum - Seeker Hub/Crocus Pocus 50%",
-                        "name": "Ba'kii Kum - Seeker Hub - Crocus Pocus 50%"
+                        "name": "Ba'kii Kum - Seeker Hub\nCrocus Pocus 50%"
                     },
                     {
                         "ref": "Ba'kii Kum - Bazaar House/Silver Chest",
-                        "name": "Ba'kii Kum - Bazaar House - Silver Chest"
+                        "name": "Ba'kii Kum - Bazaar House\nSilver Chest"
                     },
                     {
                         "ref": "Ba'kii Kum - Market Statue/Yellow Sand Shade",
-                        "name": "Ba'kii Kum - Market Statue - Yellow Sand Shade"
+                        "name": "Ba'kii Kum - Market Statue\nYellow Sand Shade"
                     },
                     {
                         "ref": "Ba'kii Kum - Arid Breeze HQ/Blasting Shells",
-                        "name": "Ba'kii Kum - Arid Breeze HQ - Blasting Shells"
+                        "name": "Ba'kii Kum - Arid Breeze HQ\nBlasting Shells"
                     },
                     {
                         "ref": "Ba'kii Kum - Arid Breeze HQ/Hot Trail",
-                        "name": "Ba'kii Kum - Arid Breeze HQ - Hot Trail"
+                        "name": "Ba'kii Kum - Arid Breeze HQ\nHot Trail"
                     },
                     {
                         "ref": "Ba'kii Kum - Arid Breeze HQ/Waves of Sand",
-                        "name": "Ba'kii Kum - Arid Breeze HQ - Waves of Sand"
+                        "name": "Ba'kii Kum - Arid Breeze HQ\nWaves of Sand"
                     },
                     {
                         "ref": "Ba'kii Kum - Guard HQ/Shady Theft",
-                        "name": "Ba'kii Kum - Guard HQ - Shady Theft"
+                        "name": "Ba'kii Kum - Guard HQ\nShady Theft"
                     },
                     {
                         "ref": "Ba'kii Kum - Guard HQ/Just Deserts",
-                        "name": "Ba'kii Kum - Guard HQ - Just Deserts"
+                        "name": "Ba'kii Kum - Guard HQ\nJust Deserts"
                     },
                     {
                         "ref": "Ba'kii Kum - Kney'tehab/Crate Hate",
-                        "name": "Ba'kii Kum - Kney'tehab - Crate Hate"
+                        "name": "Ba'kii Kum - Kney'tehab\nCrate Hate"
                     },
                     {
                         "ref": "Ba'kii Kum - Kney'tehab/Steamy Booze",
-                        "name": "Ba'kii Kum - Kney'tehab - Steamy Booze"
+                        "name": "Ba'kii Kum - Kney'tehab\nSteamy Booze"
                     },
                     {
                         "ref": "Ba'kii Kum - Ryda/Steamy Challenge",
-                        "name": "Ba'kii Kum - Ryda - Steamy Challenge"
+                        "name": "Ba'kii Kum - Ryda\nSteamy Challenge"
                     },
                     {
                         "ref": "Ba'kii Kum - Ketin D'kar/A Promise is a Promise 3",
-                        "name": "Ba'kii Kum - Ketin D'kar - A Promise is a Promise 3"
+                        "name": "Ba'kii Kum - Ketin D'kar\nA Promise is a Promise 3"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Slot\n100 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Slot\n300 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Slot\n222 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Slot\n650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Slot\n650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Slot\n200 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Slot\n200 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Slot\n200 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Slot\n200 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot\n450 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Slot\n450 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Slot\n450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Slot\n450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Slot\n450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Slot - 4700 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Slot\n4700 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Slot\n15850 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Edge Slot - 4500 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Slot - 4500 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Slot\n4500 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Slot\n15800 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Mail Slot - 4800 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Slot - 4800 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Slot\n4800 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Slot\n16100 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Boots Slot - 4700 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Slot - 4700 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Slot\n4700 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Slot\n15950 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Sandwich Type - 100 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Type - 100 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Type\n100 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Type - 300 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Type\n300 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Type - 250 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Type\n250 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Just Water Type - 222 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Type - 222 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Type\n222 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Type - 650 Credits Have Blue Ice"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Type\n650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Type - 650 Credits Have Blue Ice"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Type\n650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Spicy Bun Type - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Type - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Type\n200 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Fruit Drink Type - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Type - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Type\n200 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Rice Cracker Type - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Type - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Type\n200 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Veggie Sticks Type - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Type - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Type\n200 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Type - 450 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Type - 450 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Type\n450 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Type - 450 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Type - 450 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Type\n450 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Type - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Type\n450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Type - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Type\n450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Snack Mix Type - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Type - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Type\n450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Type - 4700 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Type - 4700 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Type\n4700 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Goggles Type - 15850 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Type - 15850 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Type\n15850 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Edge Type - 4500 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Type - 4500 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Type\n4500 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Edge Type - 15800 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Type - 15800 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Type\n15800 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Mail Type - 4800 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Type - 4800 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Type\n4800 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Mail Type - 16100 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Type - 16100 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Type\n16100 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Boots Type - 4700 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Type - 4700 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Type\n4700 Credits"
                     },
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Type - 15950 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Type - 15950 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Type\n15950 Credits"
+                    },
+                    {
+                        "ref": "Botanics - Sprout of Space/Sprout of Space",
+                        "name": "Botanics - Sprout of Space\nSprout of Space"
                     }
                 ],
                 "map_locations": [

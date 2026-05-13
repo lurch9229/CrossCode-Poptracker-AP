@@ -222,35 +222,35 @@
                 "sections": [
                     {
                         "ref": "Zir'vitar Temple 1F - Moving Transmit Left/Chest",
-                        "name": "Zir'vitar Temple 1F - Moving Transmit Left - Chest"
+                        "name": "Zir'vitar Temple 1F - Moving Transmit Left\nChest"
                     },
                     {
                         "ref": "Zir'vitar Temple 1F - Moving Transmit Right/Chest",
-                        "name": "Zir'vitar Temple 1F - Moving Transmit Right - Chest"
+                        "name": "Zir'vitar Temple 1F - Moving Transmit Right\nChest"
                     },
                     {
                         "ref": "Zir'vitar Temple 1F - Haunted Waves/Bronze Chest",
-                        "name": "Zir'vitar Temple 1F - Haunted Waves - Bronze Chest"
+                        "name": "Zir'vitar Temple 1F - Haunted Waves\nBronze Chest"
                     },
                     {
                         "ref": "Zir'vitar Temple GF - Hoodwink/Chest",
-                        "name": "Zir'vitar Temple GF - Hoodwink - Chest"
+                        "name": "Zir'vitar Temple GF - Hoodwink\nChest"
                     },
                     {
                         "ref": "Zir'vitar Temple GF - Spinning Transmit/Bronze Chest",
-                        "name": "Zir'vitar Temple GF - Spinning Transmit - Bronze Chest"
+                        "name": "Zir'vitar Temple GF - Spinning Transmit\nBronze Chest"
                     },
                     {
                         "ref": "Zir'vitar Temple 2F - Chamber of Wave/Element",
-                        "name": "Zir'vitar Temple 2F - Chamber of Wave - Element"
+                        "name": "Zir'vitar Temple 2F - Chamber of Wave\nElement"
                     },
                     {
                         "ref": "Zir'vitar Temple 3F - Post Boss Statue/Purple Bolt Shade",
-                        "name": "Zir'vitar Temple 3F - Post Boss Statue - Purple Bolt Shade"
+                        "name": "Zir'vitar Temple 3F - Post Boss Statue\nPurple Bolt Shade"
                     },
                     {
                         "ref": "Zir'vitar Temple 3F - Post Boss Statue/Circuit Override",
-                        "name": "Zir'vitar Temple 3F - Post Boss Statue - Circuit Override"
+                        "name": "Zir'vitar Temple 3F - Post Boss Statue\nCircuit Override"
                     }
                 ],
                 "map_locations": [

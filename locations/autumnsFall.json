@@ -815,6 +815,47 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics/Botanics - Alpha Sphere Plant/Alpha Sphere Plant",
+                                "name": "Botanics/Botanics - Alpha Sphere Plant\nAlpha Sphere Plant"
+                            },
+                            {
+                                "ref": "Botanics/Botanics - Beta Sphere Plant/Beta Sphere Plant",
+                                "name": "Botanics/Botanics - Beta Sphere Plant\nBeta Sphere Plant"
+                            },
+                            {
+                                "ref": "Botanics/Botanics - Omega Sphere Plant/Omega Sphere Plant",
+                                "name": "Botanics/Botanics - Omega Sphere Plant\nOmega Sphere Plant"
+                            },
+                            {
+                                "ref": "Botanics/Botanics - Alpha Water Cutlass/Alpha Water Cutlass",
+                                "name": "Botanics/Botanics - Alpha Water Cutlass\nAlpha Water Cutlass"
+                            },
+                            {
+                                "ref": "Botanics/Botanics - Beta Water Cutlass/Beta Water Cutlass",
+                                "name": "Botanics/Botanics - Beta Water Cutlass\nBeta Water Cutlass"
+                            },
+                            {
+                                "ref": "Botanics/Botanics - Omega Water Cutlass/Omega Water Cutlass",
+                                "name": "Botanics/Botanics - Omega Water Cutlass\nOmega Water Cutlass"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Autumns_Fall",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -826,119 +867,143 @@
                 "sections": [
                     {
                         "ref": "Autumn's Fall - Ruby Tunnel/Gold Chest",
-                        "name": "Autumn's Fall - Ruby Tunnel - Gold Chest"
+                        "name": "Autumn's Fall - Ruby Tunnel\nGold Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Lake Cave 1/Chest",
-                        "name": "Autumn's Fall - Lake Cave 1 - Chest"
+                        "name": "Autumn's Fall - Lake Cave 1\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Lake Cave 2/Chest",
-                        "name": "Autumn's Fall - Lake Cave 2 - Chest"
+                        "name": "Autumn's Fall - Lake Cave 2\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Lake Cave 3/Silver Chest",
-                        "name": "Autumn's Fall - Lake Cave 3 - Silver Chest"
+                        "name": "Autumn's Fall - Lake Cave 3\nSilver Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Lake Cave 4/Chest",
-                        "name": "Autumn's Fall - Lake Cave 4 - Chest"
+                        "name": "Autumn's Fall - Lake Cave 4\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Southern Exit Lower/Chest",
-                        "name": "Autumn's Fall - Southern Exit Lower - Chest"
+                        "name": "Autumn's Fall - Southern Exit Lower\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Southern Exit Center/Chest",
-                        "name": "Autumn's Fall - Southern Exit Center - Chest"
+                        "name": "Autumn's Fall - Southern Exit Center\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Southern Exit Upper/Chest",
-                        "name": "Autumn's Fall - Southern Exit Upper - Chest"
+                        "name": "Autumn's Fall - Southern Exit Upper\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Ruined Path Upper/Chest",
-                        "name": "Autumn's Fall - Ruined Path Upper - Chest"
+                        "name": "Autumn's Fall - Ruined Path Upper\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Ruined Path Lower/Gold Chest",
-                        "name": "Autumn's Fall - Ruined Path Lower - Gold Chest"
+                        "name": "Autumn's Fall - Ruined Path Lower\nGold Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Eastern Exit Right/Chest",
-                        "name": "Autumn's Fall - Eastern Exit Right - Chest"
+                        "name": "Autumn's Fall - Eastern Exit Right\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Eastern Exit Center/Silver Chest",
-                        "name": "Autumn's Fall - Eastern Exit Center - Silver Chest"
+                        "name": "Autumn's Fall - Eastern Exit Center\nSilver Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Ancient Center Upper/Silver Chest",
-                        "name": "Autumn's Fall - Ancient Center Upper - Silver Chest"
+                        "name": "Autumn's Fall - Ancient Center Upper\nSilver Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Ancient Center Left/Silver Chest",
-                        "name": "Autumn's Fall - Ancient Center Left - Silver Chest"
+                        "name": "Autumn's Fall - Ancient Center Left\nSilver Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Northern Exit Lower/Chest",
-                        "name": "Autumn's Fall - Northern Exit Lower - Chest"
+                        "name": "Autumn's Fall - Northern Exit Lower\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Northern Exit Upper/Bronze Chest",
-                        "name": "Autumn's Fall - Northern Exit Upper - Bronze Chest"
+                        "name": "Autumn's Fall - Northern Exit Upper\nBronze Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Pillar Isle Upper/Chest",
-                        "name": "Autumn's Fall - Pillar Isle Upper - Chest"
+                        "name": "Autumn's Fall - Pillar Isle Upper\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Pillar Isle Left/Chest",
-                        "name": "Autumn's Fall - Pillar Isle Left - Chest"
+                        "name": "Autumn's Fall - Pillar Isle Left\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Pillar Isle Right/Chest",
-                        "name": "Autumn's Fall - Pillar Isle Right - Chest"
+                        "name": "Autumn's Fall - Pillar Isle Right\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Village Remains Right/Bronze Chest",
-                        "name": "Autumn's Fall - Village Remains Right - Bronze Chest"
+                        "name": "Autumn's Fall - Village Remains Right\nBronze Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Village Remains Left/Silver Chest",
-                        "name": "Autumn's Fall - Village Remains Left - Silver Chest"
+                        "name": "Autumn's Fall - Village Remains Left\nSilver Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Village Remains Upper/Gold Chest",
-                        "name": "Autumn's Fall - Village Remains Upper - Gold Chest"
+                        "name": "Autumn's Fall - Village Remains Upper\nGold Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Secluded Path Right/Chest",
-                        "name": "Autumn's Fall - Secluded Path Right - Chest"
+                        "name": "Autumn's Fall - Secluded Path Right\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Secluded Path Left/Chest",
-                        "name": "Autumn's Fall - Secluded Path Left - Chest"
+                        "name": "Autumn's Fall - Secluded Path Left\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Secluded Path Upper/Gold Chest",
-                        "name": "Autumn's Fall - Secluded Path Upper - Gold Chest"
+                        "name": "Autumn's Fall - Secluded Path Upper\nGold Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Villa of Terror Left/Bronze Chest",
-                        "name": "Autumn's Fall - Villa of Terror Left - Bronze Chest"
+                        "name": "Autumn's Fall - Villa of Terror Left\nBronze Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Villa of Terror Right/Silver Chest",
-                        "name": "Autumn's Fall - Villa of Terror Right - Silver Chest"
+                        "name": "Autumn's Fall - Villa of Terror Right\nSilver Chest"
                     },
                     {
                         "ref": "Autumn's Fall - Para Island 1/Chest",
-                        "name": "Autumn's Fall - Para Island 1 - Chest"
+                        "name": "Autumn's Fall - Para Island 1\nChest"
                     },
                     {
                         "ref": "Autumn's Fall - Ancient Center/Chase Hologram Frobbit",
-                        "name": "Autumn's Fall - Ancient Center - Chase Hologram Frobbit"
+                        "name": "Autumn's Fall - Ancient Center\nChase Hologram Frobbit"
+                    },
+                    {
+                        "ref": "Botanics/Botanics - Alpha Sphere Plant/Alpha Sphere Plant",
+                        "name": "Botanics/Botanics - Alpha Sphere Plant\nAlpha Sphere Plant"
+                    },
+                    {
+                        "ref": "Botanics/Botanics - Beta Sphere Plant/Beta Sphere Plant",
+                        "name": "Botanics/Botanics - Beta Sphere Plant\nBeta Sphere Plant"
+                    },
+                    {
+                        "ref": "Botanics/Botanics - Omega Sphere Plant/Omega Sphere Plant",
+                        "name": "Botanics/Botanics - Omega Sphere Plant\nOmega Sphere Plant"
+                    },
+                    {
+                        "ref": "Botanics/Botanics - Alpha Water Cutlass/Alpha Water Cutlass",
+                        "name": "Botanics/Botanics - Alpha Water Cutlass\nAlpha Water Cutlass"
+                    },
+                    {
+                        "ref": "Botanics/Botanics - Beta Water Cutlass/Beta Water Cutlass",
+                        "name": "Botanics/Botanics - Beta Water Cutlass\nBeta Water Cutlass"
+                    },
+                    {
+                        "ref": "Botanics/Botanics - Omega Water Cutlass/Omega Water Cutlass",
+                        "name": "Botanics/Botanics - Omega Water Cutlass\nOmega Water Cutlass"
                     }
                 ],
                 "map_locations": [

@@ -616,6 +616,47 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Coral Blub/Alpha Coral Blub",
+                                "name": "Botanics - Alpha Coral Blub\nAlpha Coral Blub"
+                            },
+                            {
+                                "ref": "Botanics - Beta Coral Bulb/Beta Coral Bulb",
+                                "name": "Botanics - Beta Coral Bulb\nBeta Coral Bulb"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Keen Sprout/Alpha Keen Sprout",
+                                "name": "Botanics - Alpha Keen Sprout\nAlpha Keen Sprout"
+                            },
+                            {
+                                "ref": "Botanics - Beta Keen Sprout/Beta Keen Sprout",
+                                "name": "Botanics - Beta Keen Sprout\nBeta Keen Sprout"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Fossil Stone/Alpha Fossil Stone",
+                                "name": "Botanics - Alpha Fossil Stone\nAlpha Fossil Stone"
+                            },
+                            {
+                                "ref": "Botanics - Beta Fossil Stone/Beta Fossil Stone",
+                                "name": "Botanics - Beta Fossil Stone\nBeta Fossil Stone"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Azure_Archipelago",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -627,103 +668,127 @@
                 "sections": [
                     {
                         "ref": "Azure Archipelago - Sandy Bar Lower/Gold Chest",
-                        "name": "Azure Archipelago - Sandy Bar Lower - Gold Chest"
+                        "name": "Azure Archipelago - Sandy Bar Lower\nGold Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Sandy Bar Upper Right/Gold Chest",
-                        "name": "Azure Archipelago - Sandy Bar Upper Right - Gold Chest"
+                        "name": "Azure Archipelago - Sandy Bar Upper Right\nGold Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Isle of Legend Left/Silver Chest",
-                        "name": "Azure Archipelago - Isle of Legend Left - Silver Chest"
+                        "name": "Azure Archipelago - Isle of Legend Left\nSilver Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Isle of Legend MacGuffin/Gold Chest",
-                        "name": "Azure Archipelago - Isle of Legend MacGuffin - Gold Chest"
+                        "name": "Azure Archipelago - Isle of Legend MacGuffin\nGold Chest"
                     },
                     {
                         "ref": "Azure Archipelago - UFO Island/Silver Chest",
-                        "name": "Azure Archipelago - UFO Island - Silver Chest"
+                        "name": "Azure Archipelago - UFO Island\nSilver Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Rough Lagoon/Silver Chest",
-                        "name": "Azure Archipelago - Rough Lagoon - Silver Chest"
+                        "name": "Azure Archipelago - Rough Lagoon\nSilver Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Shallow Shore Left/Bronze Chest",
-                        "name": "Azure Archipelago - Shallow Shore Left - Bronze Chest"
+                        "name": "Azure Archipelago - Shallow Shore Left\nBronze Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Shallow Shore Right/Gold Chest",
-                        "name": "Azure Archipelago - Shallow Shore Right - Gold Chest"
+                        "name": "Azure Archipelago - Shallow Shore Right\nGold Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Calm Pocket/Bronze Chest",
-                        "name": "Azure Archipelago - Calm Pocket - Bronze Chest"
+                        "name": "Azure Archipelago - Calm Pocket\nBronze Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Bird Skull Approach Left/Bronze Chest",
-                        "name": "Azure Archipelago - Bird Skull Approach Left - Bronze Chest"
+                        "name": "Azure Archipelago - Bird Skull Approach Left\nBronze Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Bird Skull Approach Right/Silver Chest",
-                        "name": "Azure Archipelago - Bird Skull Approach Right - Silver Chest"
+                        "name": "Azure Archipelago - Bird Skull Approach Right\nSilver Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Dover's Cliffs/Silver Chest",
-                        "name": "Azure Archipelago - Dover's Cliffs - Silver Chest"
+                        "name": "Azure Archipelago - Dover's Cliffs\nSilver Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Altar of the Key/Gold Chest",
-                        "name": "Azure Archipelago - Altar of the Key - Gold Chest"
+                        "name": "Azure Archipelago - Altar of the Key\nGold Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Beach Statue/Ancient Shade",
-                        "name": "Azure Archipelago - Beach Statue - Ancient Shade"
+                        "name": "Azure Archipelago - Beach Statue\nAncient Shade"
                     },
                     {
                         "ref": "Azure Archipelago - Beach Statue/Circuit Override",
-                        "name": "Azure Archipelago - Beach Statue - Circuit Override"
+                        "name": "Azure Archipelago - Beach Statue\nCircuit Override"
                     },
                     {
                         "ref": "Azure Archipelago - Beach Statue/SP Upgrade",
-                        "name": "Azure Archipelago - Beach Statue - SP Upgrade"
+                        "name": "Azure Archipelago - Beach Statue\nSP Upgrade"
                     },
                     {
                         "ref": "Azure Archipelago - Son of the Beach/Beach Fight",
-                        "name": "Azure Archipelago - Son of the Beach - Beach Fight"
+                        "name": "Azure Archipelago - Son of the Beach\nBeach Fight"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Goggles Slot - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Slot - 150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Slot\n150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Edge Slot - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Slot - 150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Slot\n150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Mail Slot - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Slot - 150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Slot\n150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Boots Slot - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Slot - 150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Slot\n150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Goggles Type - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Type - 150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Type\n150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Edge Type - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Type - 150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Type\n150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Mail Type - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Type - 150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Type\n150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Boots Type - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Type - 150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Type\n150000 Credits"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Coral Blub/Alpha Coral Blub",
+                        "name": "Botanics - Alpha Coral Blub\nAlpha Coral Blub"
+                    },
+                    {
+                        "ref": "Botanics - Beta Coral Bulb/Beta Coral Bulb",
+                        "name": "Botanics - Beta Coral Bulb\nBeta Coral Bulb"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Keen Sprout/Alpha Keen Sprout",
+                        "name": "Botanics - Alpha Keen Sprout\nAlpha Keen Sprout"
+                    },
+                    {
+                        "ref": "Botanics - Beta Keen Sprout/Beta Keen Sprout",
+                        "name": "Botanics - Beta Keen Sprout\nBeta Keen Sprout"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Fossil Stone/Alpha Fossil Stone",
+                        "name": "Botanics - Alpha Fossil Stone\nAlpha Fossil Stone"
+                    },
+                    {
+                        "ref": "Botanics - Beta Fossil Stone/Beta Fossil Stone",
+                        "name": "Botanics - Beta Fossil Stone\nBeta Fossil Stone"
                     }
                 ],
                 "map_locations": [

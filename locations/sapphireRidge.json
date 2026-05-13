@@ -2079,6 +2079,59 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Bamboo/Alpha Bamboo",
+                                "name": "Botanics - Alpha Bamboo\nAlpha Bamboo"
+                            },
+                            {
+                                "ref": "Botanics - Beta Bamboo/Beta Bamboo",
+                                "name": "Botanics - Beta Bamboo\nBeta Bamboo"
+                            },
+                            {
+                                "ref": "Botanics - Omega Bamboo/Omega Bamboo",
+                                "name": "Botanics - Omega Bamboo\nOmega Bamboo"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Ridge Flower/Alpha Ridge Flower",
+                                "name": "Botanics - Alpha Ridge Flower\nAlpha Ridge Flower"
+                            },
+                            {
+                                "ref": "Botanics - Beta Ridge Flower/Beta Ridge Flower",
+                                "name": "Botanics - Beta Ridge Flower\nBeta Ridge Flower"
+                            },
+                            {
+                                "ref": "Botanics - Omega Ridge Flower/Omega Ridge Flower",
+                                "name": "Botanics - Omega Ridge Flower\nOmega Ridge Flower"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Crystal/Alpha Crystal",
+                                "name": "Botanics - Alpha Crystal\nAlpha Crystal"
+                            },
+                            {
+                                "ref": "Botanics - Beta Crystal/Beta Crystal",
+                                "name": "Botanics - Beta Crystal\nBeta Crystal"
+                            },
+                            {
+                                "ref": "Botanics - Omega Crystal/Omega Crystal",
+                                "name": "Botanics - Omega Crystal\nOmega Crystal"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sapphire_Ridge",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -2090,379 +2143,415 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - The Barracks/Bronze Chest",
-                        "name": "Sapphire Ridge - The Barracks - Bronze Chest"
+                        "name": "Sapphire Ridge - The Barracks\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - The Bellow/Gold Chest",
-                        "name": "Sapphire Ridge - The Bellow - Gold Chest"
+                        "name": "Sapphire Ridge - The Bellow\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Sapphire Tunnel/Gold Chest",
-                        "name": "Sapphire Ridge - Sapphire Tunnel - Gold Chest"
+                        "name": "Sapphire Ridge - Sapphire Tunnel\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Eroded Passage Upper/Chest",
-                        "name": "Sapphire Ridge - Eroded Passage Upper - Chest"
+                        "name": "Sapphire Ridge - Eroded Passage Upper\nChest"
                     },
                     {
                         "ref": "Sapphire Ridge - Eroded Passage Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Eroded Passage Lower - Silver Chest"
+                        "name": "Sapphire Ridge - Eroded Passage Lower\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Spider Chasm Lower/Bronze Chest",
-                        "name": "Sapphire Ridge - Spider Chasm Lower - Bronze Chest"
+                        "name": "Sapphire Ridge - Spider Chasm Lower\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Spider Chasm Upper/Gold Chest",
-                        "name": "Sapphire Ridge - Spider Chasm Upper - Gold Chest"
+                        "name": "Sapphire Ridge - Spider Chasm Upper\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Narrow Passage Right/Bronze Chest",
-                        "name": "Sapphire Ridge - Narrow Passage Right - Bronze Chest"
+                        "name": "Sapphire Ridge - Narrow Passage Right\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Narrow Passage Left/Silver Chest",
-                        "name": "Sapphire Ridge - Narrow Passage Left - Silver Chest"
+                        "name": "Sapphire Ridge - Narrow Passage Left\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Wheel Passage Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - Wheel Passage Upper - Bronze Chest"
+                        "name": "Sapphire Ridge - Wheel Passage Upper\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Wheel Passage Lower/Gold Chest",
-                        "name": "Sapphire Ridge - Wheel Passage Lower - Gold Chest"
+                        "name": "Sapphire Ridge - Wheel Passage Lower\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Exterior Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - Cave Inn Exterior Upper - Bronze Chest"
+                        "name": "Sapphire Ridge - Cave Inn Exterior Upper\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Exterior Lower/Gold Chest",
-                        "name": "Sapphire Ridge - Cave Inn Exterior Lower - Gold Chest"
+                        "name": "Sapphire Ridge - Cave Inn Exterior Lower\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Interior 1F/Chest",
-                        "name": "Sapphire Ridge - Cave Inn Interior 1F - Chest"
+                        "name": "Sapphire Ridge - Cave Inn Interior 1F\nChest"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Interior Storage/Gold Chest",
-                        "name": "Sapphire Ridge - Cave Inn Interior Storage - Gold Chest"
+                        "name": "Sapphire Ridge - Cave Inn Interior Storage\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Western Exit Upper/Chest",
-                        "name": "Sapphire Ridge - Western Exit Upper - Chest"
+                        "name": "Sapphire Ridge - Western Exit Upper\nChest"
                     },
                     {
                         "ref": "Sapphire Ridge - Western Exit Lower/Bronze Chest",
-                        "name": "Sapphire Ridge - Western Exit Lower - Bronze Chest"
+                        "name": "Sapphire Ridge - Western Exit Lower\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - North West Path Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - North West Path Upper - Bronze Chest"
+                        "name": "Sapphire Ridge - North West Path Upper\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - North West Path Lower/Silver Chest",
-                        "name": "Sapphire Ridge - North West Path Lower - Silver Chest"
+                        "name": "Sapphire Ridge - North West Path Lower\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - River Road Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - River Road Upper - Bronze Chest"
+                        "name": "Sapphire Ridge - River Road Upper\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - River Road Center/Gold Chest",
-                        "name": "Sapphire Ridge - River Road Center - Gold Chest"
+                        "name": "Sapphire Ridge - River Road Center\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - River Road Lower/Bronze Chest",
-                        "name": "Sapphire Ridge - River Road Lower - Bronze Chest"
+                        "name": "Sapphire Ridge - River Road Lower\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Tranquil Bamboo Upper/Chest",
-                        "name": "Sapphire Ridge - Tranquil Bamboo Upper - Chest"
+                        "name": "Sapphire Ridge - Tranquil Bamboo Upper\nChest"
                     },
                     {
                         "ref": "Sapphire Ridge - Tranquil Bamboo Lower/Bronze Chest",
-                        "name": "Sapphire Ridge - Tranquil Bamboo Lower - Bronze Chest"
+                        "name": "Sapphire Ridge - Tranquil Bamboo Lower\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Tranquil Bamboo Vagabond/Old Dojo Key",
-                        "name": "Sapphire Ridge - Tranquil Bamboo Vagabond - Old Dojo Key"
+                        "name": "Sapphire Ridge - Tranquil Bamboo Vagabond\nOld Dojo Key"
                     },
                     {
                         "ref": "Sapphire Ridge - Bamboo Thicket Upper/Silver Chest",
-                        "name": "Sapphire Ridge - Bamboo Thicket Upper - Silver Chest"
+                        "name": "Sapphire Ridge - Bamboo Thicket Upper\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Bamboo Thicket Center/Gold Chest",
-                        "name": "Sapphire Ridge - Bamboo Thicket Center - Gold Chest"
+                        "name": "Sapphire Ridge - Bamboo Thicket Center\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - North East Path Upper/Silver Chest",
-                        "name": "Sapphire Ridge - North East Path Upper - Silver Chest"
+                        "name": "Sapphire Ridge - North East Path Upper\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - North East Path Lower/Gold Chest",
-                        "name": "Sapphire Ridge - North East Path Lower - Gold Chest"
+                        "name": "Sapphire Ridge - North East Path Lower\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Flower Lake Left/Gold Chest",
-                        "name": "Sapphire Ridge - Flower Lake Left - Gold Chest"
+                        "name": "Sapphire Ridge - Flower Lake Left\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Flower Lake Right/Gold Chest",
-                        "name": "Sapphire Ridge - Flower Lake Right - Gold Chest"
+                        "name": "Sapphire Ridge - Flower Lake Right\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Carved Pathway Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - Carved Pathway Upper - Bronze Chest"
+                        "name": "Sapphire Ridge - Carved Pathway Upper\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Carved Pathway Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Carved Pathway Lower - Silver Chest"
+                        "name": "Sapphire Ridge - Carved Pathway Lower\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Carved Pathway Center/Gold Chest",
-                        "name": "Sapphire Ridge - Carved Pathway Center - Gold Chest"
+                        "name": "Sapphire Ridge - Carved Pathway Center\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - High Ground Upper/Silver Chest",
-                        "name": "Sapphire Ridge - High Ground Upper - Silver Chest"
+                        "name": "Sapphire Ridge - High Ground Upper\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - High Ground Lower/Gold Chest",
-                        "name": "Sapphire Ridge - High Ground Lower - Gold Chest"
+                        "name": "Sapphire Ridge - High Ground Lower\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Old Dojo Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Old Dojo Lower - Silver Chest"
+                        "name": "Sapphire Ridge - Old Dojo Lower\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Old Dojo Left/Gold Chest",
-                        "name": "Sapphire Ridge - Old Dojo Left - Gold Chest"
+                        "name": "Sapphire Ridge - Old Dojo Left\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Old Dojo Upper/Gold Chest",
-                        "name": "Sapphire Ridge - Old Dojo Upper - Gold Chest"
+                        "name": "Sapphire Ridge - Old Dojo Upper\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Old Dojo Interior/Meteor Shade",
-                        "name": "Sapphire Ridge - Old Dojo Interior - Meteor Shade"
+                        "name": "Sapphire Ridge - Old Dojo Interior\nMeteor Shade"
                     },
                     {
                         "ref": "Sapphire Ridge - Dream Pond/Gold Chest",
-                        "name": "Sapphire Ridge - Dream Pond - Gold Chest"
+                        "name": "Sapphire Ridge - Dream Pond\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Ascension Temple Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Ascension Temple Lower - Silver Chest"
+                        "name": "Sapphire Ridge - Ascension Temple Lower\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Ascension Temple Upper Right/Silver Chest",
-                        "name": "Sapphire Ridge - Ascension Temple Upper Right - Silver Chest"
+                        "name": "Sapphire Ridge - Ascension Temple Upper Right\nSilver Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Ascension Temple Upper Left/Gold Chest",
-                        "name": "Sapphire Ridge - Ascension Temple Upper Left - Gold Chest"
+                        "name": "Sapphire Ridge - Ascension Temple Upper Left\nGold Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Baton Pond/Bronze Chest",
-                        "name": "Sapphire Ridge - Baton Pond - Bronze Chest"
+                        "name": "Sapphire Ridge - Baton Pond\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Baxton Addi/Henry Trailblazing",
-                        "name": "Sapphire Ridge - Baxton Addi - Henry Trailblazing"
+                        "name": "Sapphire Ridge - Baxton Addi\nHenry Trailblazing"
                     },
                     {
                         "ref": "Sapphire Ridge - PuellaDocta/Last Minute Help Needed",
-                        "name": "Sapphire Ridge - PuellaDocta - Last Minute Help Needed"
+                        "name": "Sapphire Ridge - PuellaDocta\nLast Minute Help Needed"
                     },
                     {
                         "ref": "Sapphire Ridge - Kat (Storage Balcony)/An Unfortunate Series of Features",
-                        "name": "Sapphire Ridge - Kat (Storage Balcony) - An Unfortunate Series of Features"
+                        "name": "Sapphire Ridge - Kat (Storage Balcony)\nAn Unfortunate Series of Features"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Slot - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot - 46750 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot\n46750 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot\n71350 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Slot - 46475 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot - 46475 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot\n46475 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Slot - 70975 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot - 70975 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot\n70975 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Slot - 46925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot - 46925 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot\n46925 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Slot - 71925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot - 71925 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot\n71925 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Slot - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot - 46750 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot\n46750 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Slot - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot - 71350 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot\n71350 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Type - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Type - 46750 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Type\n46750 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Type - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Type - 71350 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Type\n71350 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Type - 46475 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Type - 46475 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Type\n46475 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Type - 70975 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Type - 70975 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Type\n70975 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Type - 46925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Type - 46925 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Type\n46925 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Type - 71925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Type - 71925 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Type\n71925 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Type - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Type - 46750 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Type\n46750 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Type - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Type - 71350 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Type\n71350 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot\n100 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot\n300 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot\n222 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot - 650 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot\n650 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Slot - 650 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Slot\n650 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot\n200 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot\n200 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot\n200 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot\n200 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Slot\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Type - 100 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Type - 100 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Type\n100 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Type - 300 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Type - 300 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Type\n300 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Type - 250 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Type - 250 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Type\n250 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Type - 222 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Type - 222 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Type\n222 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Type - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Type - 650 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Type\n650 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Meaty Risotto Type - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Type - 650 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Type\n650 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Type - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Type - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Type\n200 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Type - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Type - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Type\n200 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Type - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Type - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Type\n200 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Type - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Type - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Type\n200 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Type - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Type - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Type\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Type - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Type - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Type\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Type - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Type - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Type\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Salted Peanuts Type - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Type - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Type\n450 Credits"
                     },
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Type - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Type - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Type\n450 Credits"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Bamboo/Alpha Bamboo",
+                        "name": "Botanics - Alpha Bamboo\nAlpha Bamboo"
+                    },
+                    {
+                        "ref": "Botanics - Beta Bamboo/Beta Bamboo",
+                        "name": "Botanics - Beta Bamboo\nBeta Bamboo"
+                    },
+                    {
+                        "ref": "Botanics - Omega Bamboo/Omega Bamboo",
+                        "name": "Botanics - Omega Bamboo\nOmega Bamboo"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Ridge Flower/Alpha Ridge Flower",
+                        "name": "Botanics - Alpha Ridge Flower\nAlpha Ridge Flower"
+                    },
+                    {
+                        "ref": "Botanics - Beta Ridge Flower/Beta Ridge Flower",
+                        "name": "Botanics - Beta Ridge Flower\nBeta Ridge Flower"
+                    },
+                    {
+                        "ref": "Botanics - Omega Ridge Flower/Omega Ridge Flower",
+                        "name": "Botanics - Omega Ridge Flower\nOmega Ridge Flower"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Crystal/Alpha Crystal",
+                        "name": "Botanics - Alpha Crystal\nAlpha Crystal"
+                    },
+                    {
+                        "ref": "Botanics - Beta Crystal/Beta Crystal",
+                        "name": "Botanics - Beta Crystal\nBeta Crystal"
+                    },
+                    {
+                        "ref": "Botanics - Omega Crystal/Omega Crystal",
+                        "name": "Botanics - Omega Crystal\nOmega Crystal"
                     }
                 ],
                 "map_locations": [

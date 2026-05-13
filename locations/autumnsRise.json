@@ -954,6 +954,47 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Ball Plant/Alpha Ball Plant",
+                                "name": "Botanics - Alpha Ball Plant\nAlpha Ball Plant"
+                            },
+                            {
+                                "ref": "Botanics - Beta Ball Plant/Beta Ball Plant",
+                                "name": "Botanics - Beta Ball Plant\nBeta Ball Plant"
+                            },
+                            {
+                                "ref": "Botanics - Omega Ball Plant/Omega Ball Plant",
+                                "name": "Botanics - Omega Ball Plant\nOmega Ball Plant"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Water Blades/Alpha Water Blades",
+                                "name": "Botanics - Alpha Water Blades\nAlpha Water Blades"
+                            },
+                            {
+                                "ref": "Botanics - Beta Water Blades/Beta Water Blades",
+                                "name": "Botanics - Beta Water Blades\nBeta Water Blades"
+                            },
+                            {
+                                "ref": "Botanics - Omega Water Blades/Omega Water Blades",
+                                "name": "Botanics - Omega Water Blades\nOmega Water Blades"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Autumns_Rise",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -963,153 +1004,177 @@
         "children": [
             {
                 "sections": [
-                                        {
+                    {
                         "ref": "Autumn's Rise - Entrance/Chest",
-                        "name": "Autumn's Rise - Entrance - Chest"
+                        "name": "Autumn's Rise - Entrance\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Quiet Passage 1/Chest",
-                        "name": "Autumn's Rise - Quiet Passage 1 - Chest"
+                        "name": "Autumn's Rise - Quiet Passage 1\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Quiet Passage 2/Chest",
-                        "name": "Autumn's Rise - Quiet Passage 2 - Chest"
+                        "name": "Autumn's Rise - Quiet Passage 2\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Hedgehag's Den/Defeat Sanic",
-                        "name": "Autumn's Rise - Hedgehag's Den - Defeat Sanic"
+                        "name": "Autumn's Rise - Hedgehag's Den\nDefeat Sanic"
                     },
                     {
                         "ref": "Autumn's Rise - Drippy Den/Chest",
-                        "name": "Autumn's Rise - Drippy Den - Chest"
+                        "name": "Autumn's Rise - Drippy Den\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Normal Clearing Lower/Chest",
-                        "name": "Autumn's Rise - Normal Clearing Lower - Chest"
+                        "name": "Autumn's Rise - Normal Clearing Lower\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Normal Clearing Left/Chest",
-                        "name": "Autumn's Rise - Normal Clearing Left - Chest"
+                        "name": "Autumn's Rise - Normal Clearing Left\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Old Observatory/Chest",
-                        "name": "Autumn's Rise - Old Observatory - Chest"
+                        "name": "Autumn's Rise - Old Observatory\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 1/Chest",
-                        "name": "Autumn's Rise - Pathway 1 - Chest"
+                        "name": "Autumn's Rise - Pathway 1\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 2/Chest",
-                        "name": "Autumn's Rise - Pathway 2 - Chest"
+                        "name": "Autumn's Rise - Pathway 2\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 3 Upper/Chest",
-                        "name": "Autumn's Rise - Pathway 3 Upper - Chest"
+                        "name": "Autumn's Rise - Pathway 3 Upper\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 3 Schneider/Guild Pass (Meet Lukas at the Obelisk)",
-                        "name": "Autumn's Rise - Pathway 3 Schneider - Guild Pass (Meet Lukas at the Obelisk)"
+                        "name": "Autumn's Rise - Pathway 3 Schneider\nGuild Pass (Meet Lukas at the Obelisk)"
                     },
                     {
                         "ref": "Autumn's Rise - Off Road 1 Right/Chest",
-                        "name": "Autumn's Rise - Off Road 1 Right - Chest"
+                        "name": "Autumn's Rise - Off Road 1 Right\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Off Road 2/Chest",
-                        "name": "Autumn's Rise - Off Road 2 - Chest"
+                        "name": "Autumn's Rise - Off Road 2\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 6 Center/Chest",
-                        "name": "Autumn's Rise - Pathway 6 Center - Chest"
+                        "name": "Autumn's Rise - Pathway 6 Center\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 6 Right/Chest",
-                        "name": "Autumn's Rise - Pathway 6 Right - Chest"
+                        "name": "Autumn's Rise - Pathway 6 Right\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 6 Left/Chest",
-                        "name": "Autumn's Rise - Pathway 6 Left - Chest"
+                        "name": "Autumn's Rise - Pathway 6 Left\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 7 Upper/Chest",
-                        "name": "Autumn's Rise - Pathway 7 Upper - Chest"
+                        "name": "Autumn's Rise - Pathway 7 Upper\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 7 Left/Chest",
-                        "name": "Autumn's Rise - Pathway 7 Left - Chest"
+                        "name": "Autumn's Rise - Pathway 7 Left\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Ending Pathway Lower/Chest",
-                        "name": "Autumn's Rise - Ending Pathway Lower - Chest"
+                        "name": "Autumn's Rise - Ending Pathway Lower\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Ending Pathway Talatu/Disc of Flora",
-                        "name": "Autumn's Rise - Ending Pathway Talatu - Disc of Flora"
+                        "name": "Autumn's Rise - Ending Pathway Talatu\nDisc of Flora"
                     },
                     {
                         "ref": "Autumn's Rise - Obelisk Lake Lower/Chest",
-                        "name": "Autumn's Rise - Obelisk Lake Lower - Chest"
+                        "name": "Autumn's Rise - Obelisk Lake Lower\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Obelisk Lake Upper/Bronze Chest",
-                        "name": "Autumn's Rise - Obelisk Lake Upper - Bronze Chest"
+                        "name": "Autumn's Rise - Obelisk Lake Upper\nBronze Chest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 4 Upper/Chest",
-                        "name": "Autumn's Rise - Pathway 4 Upper - Chest"
+                        "name": "Autumn's Rise - Pathway 4 Upper\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 4 Center/Chest",
-                        "name": "Autumn's Rise - Pathway 4 Center - Chest"
+                        "name": "Autumn's Rise - Pathway 4 Center\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 4 Lower/Chest",
-                        "name": "Autumn's Rise - Pathway 4 Lower - Chest"
+                        "name": "Autumn's Rise - Pathway 4 Lower\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 5 Lower/Chest",
-                        "name": "Autumn's Rise - Pathway 5 Lower - Chest"
+                        "name": "Autumn's Rise - Pathway 5 Lower\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Pathway 5 Upper/Chest",
-                        "name": "Autumn's Rise - Pathway 5 Upper - Chest"
+                        "name": "Autumn's Rise - Pathway 5 Upper\nChest"
                     },
                     {
                         "ref": "Autumn's Rise - Humble Helper/First Steps",
-                        "name": "Autumn's Rise - Humble Helper - First Steps"
+                        "name": "Autumn's Rise - Humble Helper\nFirst Steps"
                     },
                     {
                         "ref": "Autumn's Rise - Humble Helper/A Few More Steps",
-                        "name": "Autumn's Rise - Humble Helper - A Few More Steps"
+                        "name": "Autumn's Rise - Humble Helper\nA Few More Steps"
                     },
                     {
                         "ref": "Autumn's Rise - The Observatory/Inside the Observatory",
-                        "name": "Autumn's Rise - The Observatory - Inside the Observatory"
+                        "name": "Autumn's Rise - The Observatory\nInside the Observatory"
                     },
                     {
                         "ref": "Autumn's Rise - Henry the Researcher/Trailblazing Finish",
-                        "name": "Autumn's Rise - Henry the Researcher - Trailblazing Finish"
+                        "name": "Autumn's Rise - Henry the Researcher\nTrailblazing Finish"
                     },
                     {
                         "ref": "Autumn's Rise - Henry the Researcher/Trailblazing Collect",
-                        "name": "Autumn's Rise - Henry the Researcher - Trailblazing Collect"
+                        "name": "Autumn's Rise - Henry the Researcher\nTrailblazing Collect"
                     },
                     {
                         "ref": "Autumn's Rise - Henry the Researcher/Trailblazing Defeat",
-                        "name": "Autumn's Rise - Henry the Researcher - Trailblazing Defeat"
+                        "name": "Autumn's Rise - Henry the Researcher\nTrailblazing Defeat"
                     },
                     {
                         "ref": "Autumn's Rise - Henry the Researcher/Trailblazing Landmarks",
-                        "name": "Autumn's Rise - Henry the Researcher - Trailblazing Landmarks"
+                        "name": "Autumn's Rise - Henry the Researcher\nTrailblazing Landmarks"
                     },
                     {
                         "ref": "Autumn's Rise - Henry the Researcher/Trailblazing Data Probe",
-                        "name": "Autumn's Rise - Henry the Researcher - Trailblazing Data Probe"
+                        "name": "Autumn's Rise - Henry the Researcher\nTrailblazing Data Probe"
                     },
                     {
                         "ref": "Autumn's Rise - Game Tester/Round and Round",
-                        "name": "Autumn's Rise - Game Tester - Round and Round"
+                        "name": "Autumn's Rise - Game Tester\nRound and Round"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Ball Plant/Alpha Ball Plant",
+                        "name": "Botanics - Alpha Ball Plant\nAlpha Ball Plant"
+                    },
+                    {
+                        "ref": "Botanics - Beta Ball Plant/Beta Ball Plant",
+                        "name": "Botanics - Beta Ball Plant\nBeta Ball Plant"
+                    },
+                    {
+                        "ref": "Botanics - Omega Ball Plant/Omega Ball Plant",
+                        "name": "Botanics - Omega Ball Plant\nOmega Ball Plant"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Water Blades/Alpha Water Blades",
+                        "name": "Botanics - Alpha Water Blades\nAlpha Water Blades"
+                    },
+                    {
+                        "ref": "Botanics - Beta Water Blades/Beta Water Blades",
+                        "name": "Botanics - Beta Water Blades\nBeta Water Blades"
+                    },
+                    {
+                        "ref": "Botanics - Omega Water Blades/Omega Water Blades",
+                        "name": "Botanics - Omega Water Blades\nOmega Water Blades"
                     }
                 ],
                 "map_locations": [
