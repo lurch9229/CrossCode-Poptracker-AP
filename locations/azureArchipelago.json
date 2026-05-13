@@ -465,7 +465,17 @@
                 ],
                 "sections": [
                     {
-                        "name": "Beach Fight",
+                        "name": "Beach Fight - Reward 1",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beach Fight - Reward 2",
                         "visibility_rules": [
                             ""
                         ],
@@ -731,40 +741,44 @@
                         "name": "Azure Archipelago - Beach Statue\nSP Upgrade"
                     },
                     {
-                        "ref": "Azure Archipelago - Son of the Beach/Beach Fight",
-                        "name": "Azure Archipelago - Son of the Beach\nBeach Fight"
+                        "ref": "Azure Archipelago - Son of the Beach/Beach Fight - Reward 1",
+                        "name": "Azure Archipelago - Son of the Beach\nBeach Fight - Reward 1"
+                    },
+                    {
+                        "ref": "Azure Archipelago - Son of the Beach/Beach Fight - Reward 2",
+                        "name": "Azure Archipelago - Son of the Beach\nBeach Fight - Reward 2"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Goggles Slot - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Slot\n150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Slot - 150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Edge Slot - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Slot\n150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Slot - 150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Mail Slot - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Slot\n150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Slot - 150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Boots Slot - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Slot\n150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Slot - 150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Goggles Type - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Type\n150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Type - 150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Edge Type - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Type\n150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Type - 150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Mail Type - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Type\n150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Type - 150000 Credits"
                     },
                     {
                         "ref": "Azure Archipelago - Weapon Shop/Cross Boots Type - 150000 Credits",
-                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Type\n150000 Credits"
+                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Type - 150000 Credits"
                     },
                     {
                         "ref": "Botanics - Alpha Coral Blub/Alpha Coral Blub",

@@ -808,7 +808,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "First Steps",
+                        "name": "First Steps - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -818,7 +818,27 @@
                         "item_count": 1
                     },
                     {
-                        "name": "A Few More Steps",
+                        "name": "First Steps - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Few More Steps - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "AR-first"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Few More Steps - Reward 2",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -944,7 +964,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Round and Round",
+                        "name": "Round and Round - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Round and Round - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Round and Round - Reward 3",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -1117,12 +1157,20 @@
                         "name": "Autumn's Rise - Pathway 5 Upper\nChest"
                     },
                     {
-                        "ref": "Autumn's Rise - Humble Helper/First Steps",
-                        "name": "Autumn's Rise - Humble Helper\nFirst Steps"
+                        "ref": "Autumn's Rise - Humble Helper/First Steps - Reward 1",
+                        "name": "Autumn's Rise - Humble Helper\nFirst Steps - Reward 1"
                     },
                     {
-                        "ref": "Autumn's Rise - Humble Helper/A Few More Steps",
-                        "name": "Autumn's Rise - Humble Helper\nA Few More Steps"
+                        "ref": "Autumn's Rise - Humble Helper/First Steps - Reward 2",
+                        "name": "Autumn's Rise - Humble Helper\nFirst Steps - Reward 2"
+                    },
+                    {
+                        "ref": "Autumn's Rise - Humble Helper/A Few More Steps - Reward 1",
+                        "name": "Autumn's Rise - Humble Helper\nA Few More Steps - Reward 1"
+                    },
+                    {
+                        "ref": "Autumn's Rise - Humble Helper/A Few More Steps - Reward 2",
+                        "name": "Autumn's Rise - Humble Helper\nA Few More Steps - Reward 2"
                     },
                     {
                         "ref": "Autumn's Rise - The Observatory/Inside the Observatory",
@@ -1149,8 +1197,16 @@
                         "name": "Autumn's Rise - Henry the Researcher\nTrailblazing Data Probe"
                     },
                     {
-                        "ref": "Autumn's Rise - Game Tester/Round and Round",
-                        "name": "Autumn's Rise - Game Tester\nRound and Round"
+                        "ref": "Autumn's Rise - Game Tester/Round and Round - Reward 1",
+                        "name": "Autumn's Rise - Game Tester\nRound and Round - Reward 1"
+                    },
+                    {
+                        "ref": "Autumn's Rise - Game Tester/Round and Round - Reward 2",
+                        "name": "Autumn's Rise - Game Tester\nRound and Round - Reward 2"
+                    },
+                    {
+                        "ref": "Autumn's Rise - Game Tester/Round and Round - Reward 3",
+                        "name": "Autumn's Rise - Game Tester\nRound and Round - Reward 3"
                     },
                     {
                         "ref": "Botanics - Alpha Ball Plant/Alpha Ball Plant",

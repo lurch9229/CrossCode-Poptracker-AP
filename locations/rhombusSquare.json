@@ -1762,7 +1762,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lost and On the Run",
+                        "name": "Lost and On the Run - Reward 1",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$regionOpen3, $regionOpen5, $regionopen10_Infested, eleHeat"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lost and On the Run - Reward 2",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$regionOpen3, $regionOpen5, $regionopen10_Infested, eleHeat"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lost and On the Run - Reward 3",
                         "visibility_rules": [
                             ""
                         ],
@@ -1793,7 +1813,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Trouble on the Highway",
+                        "name": "Trouble on the Highway - Reward 1",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trouble on the Highway - Reward 2",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trouble on the Highway - Reward 3",
                         "visibility_rules": [
                             ""
                         ],
@@ -1824,7 +1864,17 @@
                 ],
                 "sections": [
                     {
-                        "name": "Tremors of the Past",
+                        "name": "Tremors of the Past - Reward 1",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $regionOpen10_Right, $regionOpen16"
+                        ],
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Tremors of the Past - Reward 2",
                         "visibility_rules": [
                             ""
                         ],
@@ -2102,323 +2152,323 @@
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Rhombus Square - Item Shop\nSandwich Slot\n100 Credits"
+                        "name": "Rhombus Square - Item Shop\nSandwich Slot - 100 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Slot\n300 Credits"
+                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Slot - 300 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Slot\n250 Credits"
+                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Rhombus Square - Item Shop\nJust Water Slot\n222 Credits"
+                        "name": "Rhombus Square - Item Shop\nJust Water Slot - 222 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Rhombus Square - Item Shop\nKebab Roll Slot\n650 Credits"
+                        "name": "Rhombus Square - Item Shop\nKebab Roll Slot - 650 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Rhombus Square - Item Shop\nMeaty Risotto Slot\n650 Credits"
+                        "name": "Rhombus Square - Item Shop\nMeaty Risotto Slot - 650 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nSpicy Bun Slot\n200 Credits"
+                        "name": "Rhombus Square - Item Shop\nSpicy Bun Slot - 200 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nFruit Drink Slot\n200 Credits"
+                        "name": "Rhombus Square - Item Shop\nFruit Drink Slot - 200 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nRice Cracker Slot\n200 Credits"
+                        "name": "Rhombus Square - Item Shop\nRice Cracker Slot - 200 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Slot\n200 Credits"
+                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Slot - 200 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Slot\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Slot - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Slot\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Slot - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Slot\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Slot - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Slot\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Slot - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Sandwich Type - 100 Credits",
-                        "name": "Rhombus Square - Item Shop\nSandwich Type\n100 Credits"
+                        "name": "Rhombus Square - Item Shop\nSandwich Type - 100 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Hi-Sandwich Type - 300 Credits",
-                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Type\n300 Credits"
+                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Type - 300 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Green Leaf Tea Type - 250 Credits",
-                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Type\n250 Credits"
+                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Type - 250 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Just Water Type - 222 Credits",
-                        "name": "Rhombus Square - Item Shop\nJust Water Type\n222 Credits"
+                        "name": "Rhombus Square - Item Shop\nJust Water Type - 222 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Kebab Roll Type - 650 Credits",
-                        "name": "Rhombus Square - Item Shop\nKebab Roll Type\n650 Credits"
+                        "name": "Rhombus Square - Item Shop\nKebab Roll Type - 650 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Meaty Risotto Type - 650 Credits",
-                        "name": "Rhombus Square - Item Shop\nMeaty Risotto Type\n650 Credits"
+                        "name": "Rhombus Square - Item Shop\nMeaty Risotto Type - 650 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Spicy Bun Type - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nSpicy Bun Type\n200 Credits"
+                        "name": "Rhombus Square - Item Shop\nSpicy Bun Type - 200 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Fruit Drink Type - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nFruit Drink Type\n200 Credits"
+                        "name": "Rhombus Square - Item Shop\nFruit Drink Type - 200 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Rice Cracker Type - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nRice Cracker Type\n200 Credits"
+                        "name": "Rhombus Square - Item Shop\nRice Cracker Type - 200 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Veggie Sticks Type - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Type\n200 Credits"
+                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Type - 200 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Bergen Ice Cream Type - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Type\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Type - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Sweet Lemonjuice Type - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Type\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Type - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Cup o' Coffee Type - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Type\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Type - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Salted Peanuts Type - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Type\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Type - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Item Shop/Snack Mix Type - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSnack Mix Type\n450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSnack Mix Type - 450 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Rising Super Star Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nRising Super Star Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nRising Super Star Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Dk Pepper Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nDk Pepper Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nDk Pepper Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Maultasche Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nMaultasche Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nMaultasche Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nCheese Spaetzle Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Durian Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nDurian Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nDurian Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/PengoPop Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nPengoPop Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nPengoPop Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nSpicy Beat-0-Type Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Werewolf Stick Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nWerewolf Stick Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nWerewolf Stick Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Mooncake Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nMooncake Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nMooncake Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Willis Waldmahl Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nWillis Waldmahl Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nPumpkin Spiced Coffee Slot\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Guacamole Toast Slot - 9999 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nGuacamole Toast Slot\n9999 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nGuacamole Toast Slot - 9999 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Rising Super Star Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nRising Super Star Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nRising Super Star Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Dk Pepper Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nDk Pepper Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nDk Pepper Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Maultasche Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nMaultasche Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nMaultasche Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Cheese Spaetzle Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nCheese Spaetzle Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nCheese Spaetzle Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Durian Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nDurian Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nDurian Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/PengoPop Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nPengoPop Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nPengoPop Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Spicy Beat-0-Type Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nSpicy Beat-0-Type Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nSpicy Beat-0-Type Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Werewolf Stick Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nWerewolf Stick Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nWerewolf Stick Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Mooncake Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nMooncake Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nMooncake Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Willis Waldmahl Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nWillis Waldmahl Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nWillis Waldmahl Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nPumpkin Spiced Coffee Type\n7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nPumpkin Spiced Coffee Type - 7777 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Guacamole Toast Type - 9999 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nGuacamole Toast Type\n9999 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nGuacamole Toast Type - 9999 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Slot\n71350 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Goggles Slot - 104750 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Goggles Slot\n104750 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Goggles Slot - 104750 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Edge Slot - 70975 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Edge Slot\n70975 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Edge Slot - 70975 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Edge Slot - 104500 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Edge Slot\n104500 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Edge Slot - 104500 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Mail Slot - 71925 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Mail Slot\n71925 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Mail Slot - 71925 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Mail Slot - 105000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Mail Slot\n105000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Mail Slot - 105000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Boots Slot - 71350 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Boots Slot\n71350 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Boots Slot - 71350 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Boots Slot - 104750 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Boots Slot\n104750 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Boots Slot - 104750 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cross Goggles Slot - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Slot\n150000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Slot - 150000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cross Edge Slot - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Edge Slot\n150000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCross Edge Slot - 150000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cross Mail Slot - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Mail Slot\n150000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCross Mail Slot - 150000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cross Boots Slot - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Boots Slot\n150000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCross Boots Slot - 150000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Goggles Type - 71350 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Type\n71350 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Type - 71350 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Goggles Type - 104750 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Goggles Type\n104750 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Goggles Type - 104750 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Edge Type - 70975 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Edge Type\n70975 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Edge Type - 70975 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Edge Type - 104500 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Edge Type\n104500 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Edge Type - 104500 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Mail Type - 71925 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Mail Type\n71925 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Mail Type - 71925 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Mail Type - 105000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Mail Type\n105000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Mail Type - 105000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Boots Type - 71350 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Boots Type\n71350 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Boots Type - 71350 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Boots Type - 104750 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Boots Type\n104750 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Boots Type - 104750 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Type\n150000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Type - 150000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Edge Type\n150000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCross Edge Type - 150000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Mail Type\n150000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCross Mail Type - 150000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Boots Type\n150000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCross Boots Type - 150000 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Curio Shop/Chest Detector Slot - 33333 Credits",
-                        "name": "Rhombus Square - Curio Shop\nChest Detector Slot\n33333 Credits"
+                        "name": "Rhombus Square - Curio Shop\nChest Detector Slot - 33333 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Curio Shop/Chest Detector Type - 33333 Credits",
-                        "name": "Rhombus Square - Curio Shop\nChest Detector Type\n33333 Credits"
+                        "name": "Rhombus Square - Curio Shop\nChest Detector Type - 33333 Credits"
                     },
                     {
                         "ref": "Rhombus Square - South Arch Left/Gold Chest",
@@ -2449,64 +2499,84 @@
                         "name": "Rhombus Square - Cliff Exhibition Right\nSilver Chest"
                     },
                     {
-                        "ref": "Rhombus Square - Priel/Lost and On the Run",
-                        "name": "Rhombus Square - Priel\nLost and On the Run"
+                        "ref": "Rhombus Square - Priel/Lost and On the Run - Reward 1",
+                        "name": "Rhombus Square - Priel\nLost and On the Run - Reward 1"
                     },
                     {
-                        "ref": "Rhombus Square - Captain Curtis/Trouble on the Highway",
-                        "name": "Rhombus Square - Captain Curtis\nTrouble on the Highway"
+                        "ref": "Rhombus Square - Priel/Lost and On the Run - Reward 2",
+                        "name": "Rhombus Square - Priel\nLost and On the Run - Reward 2"
                     },
                     {
-                        "ref": "Rhombus Square - Nánii Tremoire/Tremors of the Past",
-                        "name": "Rhombus Square - Nánii Tremoire\nTremors of the Past"
+                        "ref": "Rhombus Square - Priel/Lost and On the Run - Reward 3",
+                        "name": "Rhombus Square - Priel\nLost and On the Run - Reward 3"
+                    },
+                    {
+                        "ref": "Rhombus Square - Captain Curtis/Trouble on the Highway - Reward 1",
+                        "name": "Rhombus Square - Captain Curtis\nTrouble on the Highway - Reward 1"
+                    },
+                    {
+                        "ref": "Rhombus Square - Captain Curtis/Trouble on the Highway - Reward 2",
+                        "name": "Rhombus Square - Captain Curtis\nTrouble on the Highway - Reward 2"
+                    },
+                    {
+                        "ref": "Rhombus Square - Captain Curtis/Trouble on the Highway - Reward 3",
+                        "name": "Rhombus Square - Captain Curtis\nTrouble on the Highway - Reward 3"
+                    },
+                    {
+                        "ref": "Rhombus Square - Nánii Tremoire/Tremors of the Past - Reward 1",
+                        "name": "Rhombus Square - Nánii Tremoire\nTremors of the Past - Reward 1"
+                    },
+                    {
+                        "ref": "Rhombus Square - Nánii Tremoire/Tremors of the Past - Reward 2",
+                        "name": "Rhombus Square - Nánii Tremoire\nTremors of the Past - Reward 2"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Sandwich Slot - 100 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nSandwich Slot\n100 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nSandwich Slot - 100 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nHi-Sandwich Slot\n300 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nHi-Sandwich Slot - 300 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nGreen Leaf Tea Slot\n250 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nGreen Leaf Tea Slot - 250 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Just Water Slot - 222 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nJust Water Slot\n222 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nJust Water Slot - 222 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Goat Cheese Slot - 4500 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Cheese Slot\n4500 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Cheese Slot - 4500 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Goat Milk Slot - 4500 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Milk Slot\n4500 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Milk Slot - 4500 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Sandwich Type - 100 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nSandwich Type\n100 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nSandwich Type - 100 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Hi-Sandwich Type - 300 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nHi-Sandwich Type\n300 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nHi-Sandwich Type - 300 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Green Leaf Tea Type - 250 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nGreen Leaf Tea Type\n250 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nGreen Leaf Tea Type - 250 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Just Water Type - 222 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nJust Water Type\n222 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nJust Water Type - 222 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Goat Cheese Type - 4500 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Cheese Type\n4500 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Cheese Type - 4500 Credits"
                     },
                     {
                         "ref": "Rhombus Square - Goat Zira's Shop/Goat Milk Type - 4500 Credits",
-                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Milk Type\n4500 Credits"
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Milk Type - 4500 Credits"
                     },
                     {
                         "ref": "Botanics - Sprout of Ages/Sprout of Ages",

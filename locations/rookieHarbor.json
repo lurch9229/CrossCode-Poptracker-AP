@@ -240,7 +240,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Small Time Delivery",
+                        "name": "Small Time Delivery - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -250,7 +250,17 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bull Grab",
+                        "name": "Small Time Delivery - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bull Grab - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -260,7 +270,38 @@
                         "item_count": 1
                     },
                     {
-                        "name": "New Metal",
+                        "name": "Bull Grab - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "RH-delivery"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bull Grab - Reward 3",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "RH-delivery"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "New Metal - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "$region20, $region8, RH-Bull, eleHeat, eleCold, flameShade",
+                            "$regionOpen9, $regionOpen4_5, RH-Bull, eleHeat, eleCold, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "New Metal - Reward 2",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -300,7 +341,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "It can dig but it can't hide",
+                        "name": "It can dig but it can't hide - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -310,7 +351,28 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Points of Power",
+                        "name": "It can dig but it can't hide - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "RH-data-digging"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Points of Power - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "$region20, RH-hillkat, eleHeat, eleCold, flameShade",
+                            "$regionOpen9, RH-hillkat, eleHeat, eleCold, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Points of Power - Reward 2",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -340,7 +402,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sickly Trees",
+                        "name": "Sickly Trees - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -350,7 +412,17 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Intensive Tree Care",
+                        "name": "Sickly Trees - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Intensive Tree Care - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -360,7 +432,49 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bull on Fire",
+                        "name": "Intensive Tree Care - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "RH-tree-1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Intensive Tree Care - Reward 3",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "RH-tree-1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bull on Fire - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "$region20, RH-tree-2, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-tree-2, flameShade, eleHeat, eleCold"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bull on Fire - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "$region20, RH-tree-2, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-tree-2, flameShade, eleHeat, eleCold"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bull on Fire - Reward 3",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -390,7 +504,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Petty Crime Hunter",
+                        "name": "Petty Crime Hunter - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -400,7 +514,17 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Smuggle Trouble",
+                        "name": "Petty Crime Hunter - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smuggle Trouble - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -410,7 +534,17 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Wet Work",
+                        "name": "Smuggle Trouble - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "RH-petty"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wet Work - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -420,7 +554,37 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Wetter Work",
+                        "name": "Wet Work - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "RH-smuggle-1, flameShade"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wetter Work - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "RH-smuggle-2, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wetter Work - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "RH-smuggle-2, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wetter Work - Reward 3",
                         "visibility_rules": [
                             "questShuffle, settingDlcOn"
                         ],
@@ -478,7 +642,17 @@
                 ],
                 "sections": [
                     {
-                        "name": "Wood 'n' Steaks",
+                        "name": "Wood 'n' Steaks - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wood 'n' Steaks - Reward 2",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -2256,60 +2430,132 @@
                         "name": "Rookie Harbor - Beginner's Arc Upper\nChest"
                     },
                     {
-                        "ref": "Rookie Harbor - Mr Nomsworth/Small Time Delivery",
-                        "name": "Rookie Harbor - Mr Nomsworth\nSmall Time Delivery"
+                        "ref": "Rookie Harbor - Mr Nomsworth/Small Time Delivery - Reward 1",
+                        "name": "Rookie Harbor - Mr Nomsworth\nSmall Time Delivery - Reward 1"
                     },
                     {
-                        "ref": "Rookie Harbor - Mr Nomsworth/Bull Grab",
-                        "name": "Rookie Harbor - Mr Nomsworth\nBull Grab"
+                        "ref": "Rookie Harbor - Mr Nomsworth/Small Time Delivery - Reward 2",
+                        "name": "Rookie Harbor - Mr Nomsworth\nSmall Time Delivery - Reward 2"
                     },
                     {
-                        "ref": "Rookie Harbor - Mr Nomsworth/New Metal",
-                        "name": "Rookie Harbor - Mr Nomsworth\nNew Metal"
+                        "ref": "Rookie Harbor - Mr Nomsworth/Bull Grab - Reward 1",
+                        "name": "Rookie Harbor - Mr Nomsworth\nBull Grab - Reward 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/Bull Grab - Reward 2",
+                        "name": "Rookie Harbor - Mr Nomsworth\nBull Grab - Reward 2"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/Bull Grab - Reward 3",
+                        "name": "Rookie Harbor - Mr Nomsworth\nBull Grab - Reward 3"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/New Metal - Reward 1",
+                        "name": "Rookie Harbor - Mr Nomsworth\nNew Metal - Reward 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Mr Nomsworth/New Metal - Reward 2",
+                        "name": "Rookie Harbor - Mr Nomsworth\nNew Metal - Reward 2"
                     },
                     {
                         "ref": "Rookie Harbor - Falldivers/Digging for Data",
                         "name": "Rookie Harbor - Falldivers\nDigging for Data"
                     },
                     {
-                        "ref": "Rookie Harbor - Falldivers/It can dig but it can't hide",
-                        "name": "Rookie Harbor - Falldivers\nIt can dig but it can't hide"
+                        "ref": "Rookie Harbor - Falldivers/It can dig but it can't hide - Reward 1",
+                        "name": "Rookie Harbor - Falldivers\nIt can dig but it can't hide - Reward 1"
                     },
                     {
-                        "ref": "Rookie Harbor - Falldivers/Points of Power",
-                        "name": "Rookie Harbor - Falldivers\nPoints of Power"
+                        "ref": "Rookie Harbor - Falldivers/It can dig but it can't hide - Reward 2",
+                        "name": "Rookie Harbor - Falldivers\nIt can dig but it can't hide - Reward 2"
                     },
                     {
-                        "ref": "Rookie Harbor - Fruits of Autumn/Sickly Trees",
-                        "name": "Rookie Harbor - Fruits of Autumn\nSickly Trees"
+                        "ref": "Rookie Harbor - Falldivers/Points of Power - Reward 1",
+                        "name": "Rookie Harbor - Falldivers\nPoints of Power - Reward 1"
                     },
                     {
-                        "ref": "Rookie Harbor - Fruits of Autumn/Intensive Tree Care",
-                        "name": "Rookie Harbor - Fruits of Autumn\nIntensive Tree Care"
+                        "ref": "Rookie Harbor - Falldivers/Points of Power - Reward 2",
+                        "name": "Rookie Harbor - Falldivers\nPoints of Power - Reward 2"
                     },
                     {
-                        "ref": "Rookie Harbor - Fruits of Autumn/Bull on Fire",
-                        "name": "Rookie Harbor - Fruits of Autumn\nBull on Fire"
+                        "ref": "Rookie Harbor - Fruits of Autumn/Sickly Trees - Reward 1",
+                        "name": "Rookie Harbor - Fruits of Autumn\nSickly Trees - Reward 1"
                     },
                     {
-                        "ref": "Rookie Harbor - Guard HQ/Petty Crime Hunter",
-                        "name": "Rookie Harbor - Guard HQ\nPetty Crime Hunter"
+                        "ref": "Rookie Harbor - Fruits of Autumn/Sickly Trees - Reward 2",
+                        "name": "Rookie Harbor - Fruits of Autumn\nSickly Trees - Reward 2"
                     },
                     {
-                        "ref": "Rookie Harbor - Guard HQ/Smuggle Trouble",
-                        "name": "Rookie Harbor - Guard HQ\nSmuggle Trouble"
+                        "ref": "Rookie Harbor - Fruits of Autumn/Intensive Tree Care - Reward 1",
+                        "name": "Rookie Harbor - Fruits of Autumn\nIntensive Tree Care - Reward 1"
                     },
                     {
-                        "ref": "Rookie Harbor - Guard HQ/Wet Work",
-                        "name": "Rookie Harbor - Guard HQ\nWet Work"
+                        "ref": "Rookie Harbor - Fruits of Autumn/Intensive Tree Care - Reward 2",
+                        "name": "Rookie Harbor - Fruits of Autumn\nIntensive Tree Care - Reward 2"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Intensive Tree Care - Reward 3",
+                        "name": "Rookie Harbor - Fruits of Autumn\nIntensive Tree Care - Reward 3"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Bull on Fire - Reward 1",
+                        "name": "Rookie Harbor - Fruits of Autumn\nBull on Fire - Reward 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Bull on Fire - Reward 2",
+                        "name": "Rookie Harbor - Fruits of Autumn\nBull on Fire - Reward 2"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Fruits of Autumn/Bull on Fire - Reward 3",
+                        "name": "Rookie Harbor - Fruits of Autumn\nBull on Fire - Reward 3"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Petty Crime Hunter - Reward 1",
+                        "name": "Rookie Harbor - Guard HQ\nPetty Crime Hunter - Reward 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Petty Crime Hunter - Reward 2",
+                        "name": "Rookie Harbor - Guard HQ\nPetty Crime Hunter - Reward 2"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Smuggle Trouble - Reward 1",
+                        "name": "Rookie Harbor - Guard HQ\nSmuggle Trouble - Reward 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Smuggle Trouble - Reward 2",
+                        "name": "Rookie Harbor - Guard HQ\nSmuggle Trouble - Reward 2"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Wet Work - Reward 1",
+                        "name": "Rookie Harbor - Guard HQ\nWet Work - Reward 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Wet Work - Reward 2",
+                        "name": "Rookie Harbor - Guard HQ\nWet Work - Reward 2"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Wetter Work - Reward 1",
+                        "name": "Rookie Harbor - Guard HQ\nWetter Work - Reward 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Wetter Work - Reward 2",
+                        "name": "Rookie Harbor - Guard HQ\nWetter Work - Reward 2"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Guard HQ/Wetter Work - Reward 3",
+                        "name": "Rookie Harbor - Guard HQ\nWetter Work - Reward 3"
                     },
                     {
                         "ref": "Rookie Harbor - Sk8r Boi/Railing Rider",
                         "name": "Rookie Harbor - Sk8r Boi\nRailing Rider"
                     },
                     {
-                        "ref": "Rookie Harbor - Ms. Selena Teak/Wood 'n' Steaks",
-                        "name": "Rookie Harbor - Ms. Selena Teak\nWood 'n' Steaks"
+                        "ref": "Rookie Harbor - Ms. Selena Teak/Wood 'n' Steaks - Reward 1",
+                        "name": "Rookie Harbor - Ms. Selena Teak\nWood 'n' Steaks - Reward 1"
+                    },
+                    {
+                        "ref": "Rookie Harbor - Ms. Selena Teak/Wood 'n' Steaks - Reward 2",
+                        "name": "Rookie Harbor - Ms. Selena Teak\nWood 'n' Steaks - Reward 2"
                     },
                     {
                         "ref": "Rookie Harbor - Ms. Selena Teak/Meating Expectations",
@@ -2329,11 +2575,11 @@
                     },
                     {
                         "ref": "Rookie Harbor - Master Sensei/Training - VRP",
-                        "name": "Rookie Harbor - Master Sensei - Training\nVRP"
+                        "name": "Rookie Harbor - Master Sensei\nTraining - VRP"
                     },
                     {
                         "ref": "Rookie Harbor - Master Sensei/Training - VPI",
-                        "name": "Rookie Harbor - Master Sensei - Training\nVPI"
+                        "name": "Rookie Harbor - Master Sensei\nTraining - VPI"
                     },
                     {
                         "ref": "Rookie Harbor - Ketin D'Kar/A Promise is a Promise",
@@ -2345,391 +2591,391 @@
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Rookie Harbor - Item Shop\nSandwich Slot\n100 Credits"
+                        "name": "Rookie Harbor - Item Shop\nSandwich Slot - 100 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Slot\n300 Credits"
+                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Slot - 300 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Slot\n250 Credits"
+                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Rookie Harbor - Item Shop\nJust Water Slot\n222 Credits"
+                        "name": "Rookie Harbor - Item Shop\nJust Water Slot - 222 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
-                        "name": "Rookie Harbor - Item Shop\nKebab Roll Slot\n650 Credits Have Blue Ice"
+                        "name": "Rookie Harbor - Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
-                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Slot\n650 Credits Have Blue Ice"
+                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Slot\n200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Slot - 200 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nFruit Drink Slot\n200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nFruit Drink Slot - 200 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nRice Cracker Slot\n200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nRice Cracker Slot - 200 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Slot\n200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Slot - 200 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Bergen Ice Cream Slot - 450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Slot\n450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Slot\n450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Slot - 450 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Slot\n450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Slot\n450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot\n450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Sandwich Type - 100 Credits",
-                        "name": "Rookie Harbor - Item Shop\nSandwich Type\n100 Credits"
+                        "name": "Rookie Harbor - Item Shop\nSandwich Type - 100 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Hi-Sandwich Type - 300 Credits",
-                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Type\n300 Credits"
+                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Type - 300 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Green Leaf Tea Type - 250 Credits",
-                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Type\n250 Credits"
+                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Type - 250 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Just Water Type - 222 Credits",
-                        "name": "Rookie Harbor - Item Shop\nJust Water Type\n222 Credits"
+                        "name": "Rookie Harbor - Item Shop\nJust Water Type - 222 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice",
-                        "name": "Rookie Harbor - Item Shop\nKebab Roll Type\n650 Credits Have Blue Ice"
+                        "name": "Rookie Harbor - Item Shop\nKebab Roll Type - 650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice",
-                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Type\n650 Credits Have Blue Ice"
+                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Type - 650 Credits Have Blue Ice"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Spicy Bun Type - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Type\n200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Type - 200 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Fruit Drink Type - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nFruit Drink Type\n200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nFruit Drink Type - 200 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Rice Cracker Type - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nRice Cracker Type\n200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nRice Cracker Type - 200 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Veggie Sticks Type - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Type\n200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Type - 200 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Bergen Ice Cream Type - 450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Type\n450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Type - 450 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Type\n450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Type - 450 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Type\n450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Type - 450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Type\n450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Type - 450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Rookie Harbor - Item Shop/Snack Mix Type - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSnack Mix Type\n450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nSnack Mix Type - 450 Credits Have Green Seed"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Goggles Slot - 850 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Slot\n850 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Slot - 850 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Slot\n4700 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Slot - 4700 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Goggles Slot - 29450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Goggles Slot\n29450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Goggles Slot - 29450 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Edge Slot - 800 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Slot\n800 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Slot - 800 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Edge Slot - 4500 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Slot\n4500 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Slot - 4500 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Edge Slot - 29375 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Slot\n29375 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Slot - 29375 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Mail Slot - 900 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Slot\n900 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Slot - 900 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Mail Slot - 4800 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Slot\n4800 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Slot - 4800 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Mail Slot - 29725 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Slot\n29725 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Slot - 29725 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Boots Slot - 850 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Slot\n850 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Slot - 850 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Boots Slot - 4700 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Slot\n4700 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Slot - 4700 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Boots Slot - 29450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Slot\n29450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Slot - 29450 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Goggles Type - 850 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Type\n850 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Type - 850 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Goggles Type - 4700 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Type\n4700 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Type - 4700 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Goggles Type - 29450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Goggles Type\n29450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Goggles Type - 29450 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Edge Type - 800 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Type\n800 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Type - 800 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Edge Type - 4500 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Type\n4500 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Type - 4500 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Edge Type - 29375 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Type\n29375 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Type - 29375 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Mail Type - 900 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Type\n900 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Type - 900 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Mail Type - 4800 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Type\n4800 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Type - 4800 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Mail Type - 29725 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Type\n29725 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Type - 29725 Credits Have Red Flame"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Boots Type - 850 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Type\n850 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Type - 850 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Boots Type - 4700 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Type\n4700 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Type - 4700 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Boots Type - 29450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Type\n29450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Type - 29450 Credits Have Red Flame"
                     },
                     {
-                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Chest",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Chest"
+                        "ref": "Rookie Harbor - Backer Weapon & Chef Shop Chest/Silver Chest",
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop Chest\nSilver Chest"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nRising Super Star Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nRising Super Star Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Dk Pepper Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDk Pepper Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDk Pepper Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMaultasche Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMaultasche Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nCheese Spaetzle Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Durian Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDurian Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDurian Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPengoPop Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPengoPop Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSpicy Beat-0-Type Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWerewolf Stick Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWerewolf Stick Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMooncake Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMooncake Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWillis Waldmahl Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPumpkin Spiced Coffee Slot\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Slot - 9999 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nGuacamole Toast Slot\n9999 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nGuacamole Toast Slot - 9999 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Slot - 15850 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Goggles Slot\n15850 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Goggles Slot - 15850 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Slot - 29450 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Goggles Slot\n29450 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Goggles Slot - 29450 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Slot - 15800 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Edge Slot\n15800 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Edge Slot - 15800 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Slot - 29375 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Edge Slot\n29375 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Edge Slot - 29375 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Slot - 16100 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Mail Slot\n16100 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Mail Slot - 16100 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Slot - 29725 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Mail Slot\n29725 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Mail Slot - 29725 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Slot - 15950 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Boots Slot\n15950 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Boots Slot - 15950 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Slot - 29450 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Boots Slot\n29450 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Boots Slot - 29450 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nRising Super Star Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nRising Super Star Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Dk Pepper Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDk Pepper Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDk Pepper Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMaultasche Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMaultasche Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nCheese Spaetzle Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nCheese Spaetzle Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Durian Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDurian Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nDurian Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPengoPop Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPengoPop Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSpicy Beat-0-Type Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSpicy Beat-0-Type Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWerewolf Stick Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWerewolf Stick Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMooncake Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nMooncake Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWillis Waldmahl Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nWillis Waldmahl Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPumpkin Spiced Coffee Type\n7777 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nPumpkin Spiced Coffee Type - 7777 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Type - 9999 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nGuacamole Toast Type\n9999 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nGuacamole Toast Type - 9999 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Type - 15850 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Goggles Type\n15850 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Goggles Type - 15850 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Type - 29450 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Goggles Type\n29450 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Goggles Type - 29450 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Type - 15800 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Edge Type\n15800 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Edge Type - 15800 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Type - 29375 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Edge Type\n29375 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Edge Type - 29375 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Type - 16100 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Mail Type\n16100 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Mail Type - 16100 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Type - 29725 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Mail Type\n29725 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Mail Type - 29725 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Type - 15950 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Boots Type\n15950 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSteel Boots Type - 15950 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Type - 29450 Credits",
-                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Boots Type\n29450 Credits"
+                        "name": "Rookie Harbor - Backer Weapon & Chef Shop\nSilver Boots Type - 29450 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Tara's Shop/Sandwich Slot - 2500 Credits",
-                        "name": "Rookie Harbor - Tara's Shop\nSandwich Slot\n2500 Credits"
+                        "name": "Rookie Harbor - Tara's Shop\nSandwich Slot - 2500 Credits"
                     },
                     {
                         "ref": "Rookie Harbor - Tara's Shop/Sandwich Type - 2500 Credits",
-                        "name": "Rookie Harbor - Tara's Shop\nSandwich Type\n2500 Credits"
+                        "name": "Rookie Harbor - Tara's Shop\nSandwich Type - 2500 Credits"
                     },
                     {
                         "ref": "Botanics - Sprout of Truth/Sprout of Truth",

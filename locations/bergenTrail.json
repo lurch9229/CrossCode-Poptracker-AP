@@ -805,7 +805,20 @@
                 ],
                 "sections": [
                     {
-                        "name": "You've Got Mail",
+                        "name": "You've Got Mail - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "settingShopReceiveOff,   $brMailOff",
+                            "settingShopReceiveTypes, $brMailType",
+                            "settingShopReceiveSlots, $brMailSlot",
+                            "settingShopReceiveShops, $brMailShop"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "You've Got Mail - Reward 2",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -837,7 +850,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Round and Round 2",
+                        "name": "Round and Round 2 - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "AR-parkour"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Round and Round 2 - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "AR-parkour"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Round and Round 2 - Reward 3",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -1245,12 +1278,24 @@
                         "name": "Bergen Trail - Rising Path 5\nChest"
                     },
                     {
-                        "ref": "Bergen Trail - Megan98/You've Got Mail",
-                        "name": "Bergen Trail - Megan98\nYou've Got Mail"
+                        "ref": "Bergen Trail - Megan98/You've Got Mail - Reward 1",
+                        "name": "Bergen Trail - Megan98\nYou've Got Mail - Reward 1"
                     },
                     {
-                        "ref": "Bergen Trail - Game Tester/Round and Round 2",
-                        "name": "Bergen Trail - Game Tester\nRound and Round 2"
+                        "ref": "Bergen Trail - Megan98/You've Got Mail - Reward 2",
+                        "name": "Bergen Trail - Megan98\nYou've Got Mail - Reward 2"
+                    },
+                    {
+                        "ref": "Bergen Trail - Game Tester/Round and Round 2 - Reward 1",
+                        "name": "Bergen Trail - Game Tester\nRound and Round 2 - Reward 1"
+                    },
+                    {
+                        "ref": "Bergen Trail - Game Tester/Round and Round 2 - Reward 2",
+                        "name": "Bergen Trail - Game Tester\nRound and Round 2 - Reward 2"
+                    },
+                    {
+                        "ref": "Bergen Trail - Game Tester/Round and Round 2 - Reward 3",
+                        "name": "Bergen Trail - Game Tester\nRound and Round 2 - Reward 3"
                     },
                     {
                         "ref": "Bergen Trail - Jean/The Legendary Bunny",

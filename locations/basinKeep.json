@@ -159,7 +159,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hostage Situation",
+                        "name": "Hostage Situation - Reward 1",
                         "chest_unopened_img": "images/icons/quest_open.png",
                         "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": [
@@ -171,7 +171,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "High Crating",
+                        "name": "Hostage Situation - Reward 2",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "High Crating - Reward 1",
                         "chest_unopened_img": "images/icons/quest_open.png",
                         "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": [
@@ -183,7 +195,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "In Cawhoofs",
+                        "name": "High Crating - Reward 2",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "GG-hostage, boltShade, dropShade, eleWave, eleShock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "In Cawhoofs - Reward 1",
                         "chest_unopened_img": "images/icons/quest_open.png",
                         "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": [
@@ -196,7 +220,57 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Salty Detox",
+                        "name": "In Cawhoofs - Reward 2",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen10_Left",
+                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "In Cawhoofs - Reward 3",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen10_Left",
+                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salty Detox - Reward 1",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "GG-escort, $regionOpenDLC_Beach, eleCold, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salty Detox - Reward 2",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "GG-escort, $regionOpenDLC_Beach, eleCold, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salty Detox - Reward 3",
                         "chest_unopened_img": "images/icons/quest_open.png",
                         "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": [
@@ -314,7 +388,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Tropical Chill",
+                        "name": "Tropical Chill - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "eleHeat, eleCold"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tropical Chill - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "eleHeat, eleCold"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tropical Chill - Reward 3",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -334,7 +428,27 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Riches with Fridges",
+                        "name": "Riches with Fridges - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "GG-snowman, eleShock, $regionOpen10_Right, $regionOpen10_Infested, $regionOpen16"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Riches with Fridges - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "GG-snowman, eleShock, $regionOpen10_Right, $regionOpen10_Infested, $regionOpen16"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Riches with Fridges - Reward 3",
                         "visibility_rules": [
                             "questShuffle, settingDlcOn"
                         ],
@@ -363,7 +477,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lakeside Escort",
+                        "name": "Lakeside Escort - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -373,7 +487,47 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Rooting for Power",
+                        "name": "Lakeside Escort - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lakeside Escort - Reward 3",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rooting for Power - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "GG-escort, boltShade, dropShade, eleShock, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rooting for Power - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "GG-escort, boltShade, dropShade, eleShock, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rooting for Power - Reward 3",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -402,7 +556,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Turret Defense",
+                        "name": "Turret Defense - Reward 1",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -412,7 +566,27 @@
                         "item_count": 1
                     },
                     {
-                        "name": "An Original Idea",
+                        "name": "Turret Defense - Reward 2",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "An Original Idea - Reward 1",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "GG-turret-1, boltShade, dropShade, eleWave, eleShock"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "An Original Idea - Reward 2",
                         "visibility_rules": [
                             "questShuffle"
                         ],
@@ -1791,16 +1965,48 @@
                         "name": "Basin Keep - Pond Slums Upper\nGold Chest"
                     },
                     {
-                        "ref": "Basin Keep - Police HQ/Gold Chest",
-                        "name": "Basin Keep - Police HQ\nGold Chest"
+                        "ref": "Basin Keep - Police HQ Chest/Gold Chest",
+                        "name": "Basin Keep - Police HQ Chest\nGold Chest"
                     },
                     {
-                        "ref": "Basin Keep - Police HQ/Hostage Situation",
-                        "name": "Basin Keep - Police HQ\nHostage Situation"
+                        "ref": "Basin Keep - Police HQ/Hostage Situation - Reward 1",
+                        "name": "Basin Keep - Police HQ\nHostage Situation - Reward 1"
                     },
                     {
-                        "ref": "Basin Keep - Police HQ/High Crating",
-                        "name": "Basin Keep - Police HQ\nHigh Crating"
+                        "ref": "Basin Keep - Police HQ/Hostage Situation - Reward 2",
+                        "name": "Basin Keep - Police HQ\nHostage Situation - Reward 2"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/High Crating - Reward 1",
+                        "name": "Basin Keep - Police HQ\nHigh Crating - Reward 1"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/High Crating - Reward 2",
+                        "name": "Basin Keep - Police HQ\nHigh Crating - Reward 2"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/In Cawhoofs - Reward 1",
+                        "name": "Basin Keep - Police HQ\nIn Cawhoofs - Reward 1"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/In Cawhoofs - Reward 2",
+                        "name": "Basin Keep - Police HQ\nIn Cawhoofs - Reward 2"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/In Cawhoofs - Reward 3",
+                        "name": "Basin Keep - Police HQ\nIn Cawhoofs - Reward 3"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/Salty Detox - Reward 1",
+                        "name": "Basin Keep - Police HQ\nSalty Detox - Reward 1"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/Salty Detox - Reward 2",
+                        "name": "Basin Keep - Police HQ\nSalty Detox - Reward 2"
+                    },
+                    {
+                        "ref": "Basin Keep - Police HQ/Salty Detox - Reward 3",
+                        "name": "Basin Keep - Police HQ\nSalty Detox - Reward 3"
                     },
                     {
                         "ref": "Basin Keep - Seeker Hub GF/Silver Chest",
@@ -1815,28 +2021,72 @@
                         "name": "Basin Keep - Calzone Basement\nMushroom Kingdom"
                     },
                     {
-                        "ref": "Basin Keep - Trade Partners HQ/Tropical Chill",
-                        "name": "Basin Keep - Trade Partners HQ\nTropical Chill"
+                        "ref": "Basin Keep - Trade Partners HQ/Tropical Chill - Reward 1",
+                        "name": "Basin Keep - Trade Partners HQ\nTropical Chill - Reward 1"
+                    },
+                    {
+                        "ref": "Basin Keep - Trade Partners HQ/Tropical Chill - Reward 2",
+                        "name": "Basin Keep - Trade Partners HQ\nTropical Chill - Reward 2"
+                    },
+                    {
+                        "ref": "Basin Keep - Trade Partners HQ/Tropical Chill - Reward 3",
+                        "name": "Basin Keep - Trade Partners HQ\nTropical Chill - Reward 3"
                     },
                     {
                         "ref": "Basin Keep - Trade Partners HQ/Melting this Cold Fiend",
                         "name": "Basin Keep - Trade Partners HQ\nMelting this Cold Fiend"
                     },
                     {
-                        "ref": "Basin Keep - Gardeners HQ/Lakeside Escort",
-                        "name": "Basin Keep - Gardeners HQ\nLakeside Escort"
+                        "ref": "Basin Keep - Trade Partners HQ/Riches with Fridges - Reward 1",
+                        "name": "Basin Keep - Trade Partners HQ\nRiches with Fridges - Reward 1"
                     },
                     {
-                        "ref": "Basin Keep - Gardeners HQ/Rooting for Power",
-                        "name": "Basin Keep - Gardeners HQ\nRooting for Power"
+                        "ref": "Basin Keep - Trade Partners HQ/Riches with Fridges - Reward 2",
+                        "name": "Basin Keep - Trade Partners HQ\nRiches with Fridges - Reward 2"
                     },
                     {
-                        "ref": "Basin Keep - Woodland Vanguard HQ/Turret Defense",
-                        "name": "Basin Keep - Woodland Vanguard HQ\nTurret Defense"
+                        "ref": "Basin Keep - Trade Partners HQ/Riches with Fridges - Reward 3",
+                        "name": "Basin Keep - Trade Partners HQ\nRiches with Fridges - Reward 3"
                     },
                     {
-                        "ref": "Basin Keep - Woodland Vanguard HQ/An Original Idea",
-                        "name": "Basin Keep - Woodland Vanguard HQ\nAn Original Idea"
+                        "ref": "Basin Keep - Gardeners HQ/Lakeside Escort - Reward 1",
+                        "name": "Basin Keep - Gardeners HQ\nLakeside Escort - Reward 1"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Lakeside Escort - Reward 2",
+                        "name": "Basin Keep - Gardeners HQ\nLakeside Escort - Reward 2"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Lakeside Escort - Reward 3",
+                        "name": "Basin Keep - Gardeners HQ\nLakeside Escort - Reward 3"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Rooting for Power - Reward 1",
+                        "name": "Basin Keep - Gardeners HQ\nRooting for Power - Reward 1"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Rooting for Power - Reward 2",
+                        "name": "Basin Keep - Gardeners HQ\nRooting for Power - Reward 2"
+                    },
+                    {
+                        "ref": "Basin Keep - Gardeners HQ/Rooting for Power - Reward 3",
+                        "name": "Basin Keep - Gardeners HQ\nRooting for Power - Reward 3"
+                    },
+                    {
+                        "ref": "Basin Keep - Woodland Vanguard HQ/Turret Defense - Reward 1",
+                        "name": "Basin Keep - Woodland Vanguard HQ\nTurret Defense - Reward 1"
+                    },
+                    {
+                        "ref": "Basin Keep - Woodland Vanguard HQ/Turret Defense - Reward 2",
+                        "name": "Basin Keep - Woodland Vanguard HQ\nTurret Defense - Reward 2"
+                    },
+                    {
+                        "ref": "Basin Keep - Woodland Vanguard HQ/An Original Idea - Reward 1",
+                        "name": "Basin Keep - Woodland Vanguard HQ\nAn Original Idea - Reward 1"
+                    },
+                    {
+                        "ref": "Basin Keep - Woodland Vanguard HQ/An Original Idea - Reward 2",
+                        "name": "Basin Keep - Woodland Vanguard HQ\nAn Original Idea - Reward 2"
                     },
                     {
                         "ref": "Basin Keep - Mr Boosi Man/Pumpkin Land Superfun",
@@ -1852,315 +2102,315 @@
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Slot\n100 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Slot - 100 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Slot\n300 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Slot\n250 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Slot\n222 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Slot - 222 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Slot\n650 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Slot - 650 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nMeaty Risotto Slot\n650 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Slot\n200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Slot\n200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Slot\n200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Slot\n200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Slot\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Slot\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Slot\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSalted Peanuts Slot\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSnack Mix Slot\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSnack Mix Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Slot\n29450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Goggles Slot - 46750 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Slot\n46750 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Slot - 46750 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Slot\n29375 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Edge Slot - 46475 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Slot\n46475 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Slot - 46475 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Slot\n29725 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Mail Slot - 46925 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Slot\n46925 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Slot - 46925 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Slot\n29450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Boots Slot - 46750 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Slot\n46750 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Slot - 46750 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Sandwich Type - 100 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Type\n100 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Type - 100 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Type\n300 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Type - 300 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Type\n250 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Type - 250 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Just Water Type - 222 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Type\n222 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Type - 222 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Kebab Roll Type - 650 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Type\n650 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Type - 650 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Meaty Risotto Type - 650 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nMeaty Risotto Type\n650 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nMeaty Risotto Type - 650 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Spicy Bun Type - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Type\n200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Type - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Fruit Drink Type - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Type\n200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Type - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Rice Cracker Type - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Type\n200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Type - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Veggie Sticks Type - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Type\n200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Type - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Bergen Ice Cream Type - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Type\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Sweet Lemonjuice Type - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Type\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Type\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Salted Peanuts Type - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSalted Peanuts Type\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSalted Peanuts Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Snack Mix Type - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSnack Mix Type\n450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSnack Mix Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Goggles Type - 29450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Type\n29450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Type - 29450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Goggles Type - 46750 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Type\n46750 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Type - 46750 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Edge Type - 29375 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Type\n29375 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Type - 29375 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Edge Type - 46475 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Type\n46475 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Type - 46475 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Mail Type - 29725 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Type\n29725 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Type - 29725 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Mail Type - 46925 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Type\n46925 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Type - 46925 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Boots Type - 29450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Type\n29450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Type - 29450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Boots Type - 46750 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Type\n46750 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Type - 46750 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Sandwich Slot - 100 Credits",
-                        "name": "Basin Keep - Vending Machine\nSandwich Slot\n100 Credits"
+                        "name": "Basin Keep - Vending Machine\nSandwich Slot - 100 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Slot\n300 Credits"
+                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Slot - 300 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Slot\n250 Credits"
+                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Slot - 250 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Just Water Slot - 222 Credits",
-                        "name": "Basin Keep - Vending Machine\nJust Water Slot\n222 Credits"
+                        "name": "Basin Keep - Vending Machine\nJust Water Slot - 222 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Kebab Roll Slot - 650 Credits",
-                        "name": "Basin Keep - Vending Machine\nKebab Roll Slot\n650 Credits"
+                        "name": "Basin Keep - Vending Machine\nKebab Roll Slot - 650 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Meaty Risotto Slot - 650 Credits",
-                        "name": "Basin Keep - Vending Machine\nMeaty Risotto Slot\n650 Credits"
+                        "name": "Basin Keep - Vending Machine\nMeaty Risotto Slot - 650 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Spicy Bun Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nSpicy Bun Slot\n200 Credits"
+                        "name": "Basin Keep - Vending Machine\nSpicy Bun Slot - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Fruit Drink Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nFruit Drink Slot\n200 Credits"
+                        "name": "Basin Keep - Vending Machine\nFruit Drink Slot - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Rice Cracker Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nRice Cracker Slot\n200 Credits"
+                        "name": "Basin Keep - Vending Machine\nRice Cracker Slot - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Veggie Sticks Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Slot\n200 Credits"
+                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Slot - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Slot\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Slot\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Slot\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Salted Peanuts Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Slot\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Snack Mix Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSnack Mix Slot\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSnack Mix Slot - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Sandwich Type - 100 Credits",
-                        "name": "Basin Keep - Vending Machine\nSandwich Type\n100 Credits"
+                        "name": "Basin Keep - Vending Machine\nSandwich Type - 100 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Hi-Sandwich Type - 300 Credits",
-                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Type\n300 Credits"
+                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Type - 300 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Green Leaf Tea Type - 250 Credits",
-                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Type\n250 Credits"
+                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Type - 250 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Just Water Type - 222 Credits",
-                        "name": "Basin Keep - Vending Machine\nJust Water Type\n222 Credits"
+                        "name": "Basin Keep - Vending Machine\nJust Water Type - 222 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Kebab Roll Type - 650 Credits",
-                        "name": "Basin Keep - Vending Machine\nKebab Roll Type\n650 Credits"
+                        "name": "Basin Keep - Vending Machine\nKebab Roll Type - 650 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Meaty Risotto Type - 650 Credits",
-                        "name": "Basin Keep - Vending Machine\nMeaty Risotto Type\n650 Credits"
+                        "name": "Basin Keep - Vending Machine\nMeaty Risotto Type - 650 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Spicy Bun Type - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nSpicy Bun Type\n200 Credits"
+                        "name": "Basin Keep - Vending Machine\nSpicy Bun Type - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Fruit Drink Type - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nFruit Drink Type\n200 Credits"
+                        "name": "Basin Keep - Vending Machine\nFruit Drink Type - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Rice Cracker Type - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nRice Cracker Type\n200 Credits"
+                        "name": "Basin Keep - Vending Machine\nRice Cracker Type - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Veggie Sticks Type - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Type\n200 Credits"
+                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Type - 200 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Bergen Ice Cream Type - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Type\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Sweet Lemonjuice Type - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Type\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Cup o' Coffee Type - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Type\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Salted Peanuts Type - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Type\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Vending Machine/Snack Mix Type - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSnack Mix Type\n450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSnack Mix Type - 450 Credits"
                     },
                     {
                         "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Slot - 60000 Credits",
-                        "name": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'\nOne Up Slot\n60000 Credits"
+                        "name": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
                     },
                     {
                         "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Type - 60000 Credits",
-                        "name": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'\nOne Up Type\n60000 Credits"
+                        "name": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'\nOne Up Type - 60000 Credits"
                     },
                     {
                         "ref": "Botanics - Sprout of Spirit/Sprout of Spirit",
