@@ -234,30 +234,41 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['options']['botanics_completion_amount'] then
-        Tracker:FindObjectForCode("op_BA").AcquiredCount = slot_data['options']['botanics_completion_amount']
+    if slot_data['options']['botanicsCompletionAmount'] then
+        Tracker:FindObjectForCode("op_BA").AcquiredCount = slot_data['options']['botanicsCompletionAmount']
     else
         Tracker:FindObjectForCode("op_BA").AcquiredCount = 77
     end
 
-    if slot_data['options']["enable_dlc"] then
+    if slot_data['options']["dlcActive"] then
         Tracker:FindObjectForCode("op_DLC").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_DLC").CurrentStage = 0
     end
 
-    if slot_data['options']["botanity"] then
-        Tracker:FindObjectForCode("op_B").CurrentStage = 1
-    else
-        Tracker:FindObjectForCode("op_B").CurrentStage = 0
-    end
-
-    if slot_data['options']["allow_booster_grinding"] then
+    if slot_data['options']["allowBoosterGrinding"] then
         Tracker:FindObjectForCode("op_AB").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_AB").CurrentStage = 0
     end
 
+    if checkForBotanityLocation() then
+        Tracker:FindObjectForCode("op_B").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_B").CurrentStage = 0
+    end
+
+    if not checkForShopLocation() then
+        local obj = Tracker:FindObjectForCode("op_SR")
+        if obj then
+            obj.CurrentStage = 0
+        end
+
+        local obj = Tracker:FindObjectForCode("op_SS")
+        if obj then
+            obj.CurrentStage = 0
+        end
+    end
 
     PROG_A_UNLOCK = slot_data['options']["progressiveChains"]["3235824050"]
     PROG_D_UNLOCK = slot_data['options']["progressiveChains"]["3235824052"]
@@ -278,6 +289,38 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
+end
+
+function checkForBotanityLocation()
+    for _, value in ipairs(Archipelago.MissingLocations) do
+        if value == 3235824920 then
+            return true
+        end
+    end
+
+    for _, value in ipairs(Archipelago.CheckedLocations) do
+        if value == 3235824920 then
+            return true
+        end
+    end
+
+    return false
+end
+
+function checkForShopLocation()
+    for _, value in ipairs(Archipelago.MissingLocations) do
+        if value == 3235824524 or value == 3235824525 then
+            return true
+        end
+    end
+
+    for _, value in ipairs(Archipelago.CheckedLocations) do
+        if value == 3235824524 or value == 3235824525 then
+            return true
+        end
+    end
+
+    return false
 end
 
 -- called when an item gets collected

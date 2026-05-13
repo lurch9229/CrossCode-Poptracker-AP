@@ -1710,7 +1710,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Infested"
+                    "$regionOpen11"
                 ],
                 "sections": [
                     {
@@ -1721,10 +1721,10 @@
                             "shopShuffleSlot"
                         ],
                         "access_rules": [
-                            "$BKEcalzone1, has|pondPass",
-                            "$typeOneUp, has|pondPass",
-                            "settingShopReceiveShops, basinCalzone, has|pondPass",
-                            "settingShopReceiveOff, has|pondPass"
+                            "$BKEcalzone1",
+                            "$typeOneUp",
+                            "settingShopReceiveShops, basinCalzone",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1736,10 +1736,10 @@
                             "shopShuffleTypes"
                         ],
                         "access_rules": [
-                            "$BKEcalzone1, has|pondPass",
-                            "$typeOneUp, has|pondPass",
-                            "settingShopReceiveShops, basinCalzone, has|pondPass",
-                            "settingShopReceiveOff, has|pondPass"
+                            "$BKEcalzone1",
+                            "$typeOneUp",
+                            "settingShopReceiveShops, basinCalzone",
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }

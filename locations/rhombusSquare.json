@@ -1848,7 +1848,9 @@
                     }
                 ],
                 "access_rules": [
-                    "$regionOpen20, $canGrind, BV-wrath"
+                    "$regionOpen20, $canGrind, questShuffle, BV-wrath",
+                    "$regionOpen20, $canGrind, settingQuestShuffleOff, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested, iceShade, boltShade, dropShade",
+                    "$regionOpen20, $canGrind, settingQuestShuffleOff, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen10_Left, iceShade, boltShade, dropShade"
                 ],
                 "sections": [
                     {

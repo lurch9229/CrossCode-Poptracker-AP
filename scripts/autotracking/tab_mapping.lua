@@ -10,19 +10,22 @@ OVERWORLD_MAPPING =
     ["jungle"] = "Connections",
     ["forest"] = "Connections",
     ["arid"] = "Connections",
+    ["beach"] = "Connections",
     ["rookie-harbor"] = "Towns",
     ["bergen"] = "Towns",
     ["heat-village"] = "Towns",
     ["jungle-city"] = "Towns",
     ["rhombus-sqr"] = "Towns",
+    ["evo-village"] = "Towns",
     ["cold-dng"] = "Dungeons",
     ["heat-dng"] = "Dungeons",
     ["wave-dng"] = "Dungeons",
     ["shock-dng"] = "Dungeons",
-    ["tree-dng"] = "Dungeons"
+    ["tree-dng"] = "Dungeons",
+    ["final-dng"] = "Dungeons"
 }
 
-REGION_MAPPING = 
+REGION_MAPPING =
 {
     ["autumn"] = "Autumn's Rise",
     ["bergen-trail"] = "Bergen Trail",
@@ -31,16 +34,19 @@ REGION_MAPPING =
     ["jungle"] = "Gaia's Garden",
     ["forest"] = "Sapphire Ridge",
     ["arid"] = "Vermillion Wasteland",
+    ["beach"] = "Azure Archipelago",
     ["rookie-harbor"] = "Rookie Harbor",
     ["bergen"] = "Bergen Village",
     ["heat-village"] = "Ba'kii Kum",
     ["jungle-city"] = "Basin Keep",
     ["rhombus-sqr"] = "Rhombus Square",
+    ["evo-village"] = "Homestedt",
     ["cold-dng"] = "Temple Mine",
     ["heat-dng"] = "Faj'ro Temple",
     ["wave-dng"] = "So'najiz Temple",
     ["shock-dng"] = "Zir'vitar Temple",
-    ["tree-dng"] = "Grand Krys'kajo"
+    ["tree-dng"] = "Grand Krys'kajo",
+    ["final-dng"] = "Ku'lero Temple"
 }
 
 DUNGEON_MAPPING =
@@ -54,5 +60,10 @@ DUNGEON_MAPPING =
     ["heat-dng.f1"] = "1F",
     ["heat-dng.f2"] = "2F",
     ["heat-dng.f3"] = "3F",
-    ["heat-dng.f4"] = "4F"
+    ["heat-dng.f4"] = "4F",
+    ["final-dng.g"] = "GF",
+    ["final-dng.b1"] = "U1",
+    ["final-dng.b2"] = "U2",
+    ["final-dng.b3"] = "U3",
+    ["final-dng.b4"] = "U8"
 }

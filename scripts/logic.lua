@@ -486,6 +486,19 @@ function kryskajoKeyTotal(amount)
   return (kryskajoKeyAmount >= amount)
 end
 
+function kuleroKeyTotal(amount)
+  if has("settingKeyringsOn") then
+    kuleroKeyAmount=Tracker:ProviderCountForCode("kuleroKey")*3
+    count = Tracker:FindObjectForCode("kuleroKey")
+    if count.AcquiredCount > 0 then
+      count.AcquiredCount = 3
+    end
+  else
+    kuleroKeyAmount=Tracker:ProviderCountForCode("kuleroKey")*1
+  end
+  return (kuleroKeyAmount >= amount)
+end
+
 -- Misc --
 
 function canGrind()
@@ -3360,15 +3373,15 @@ function regionOpenDLC_DungeonEntry()
 end
 
 function regionOpenDLC_DungeonEntry_1F()
-  return regionOpenDLC_DungeonEntry() and has("eleWave") and has("kuleroKey", 3)
+  return regionOpenDLC_DungeonEntry() and has("eleWave") and kuleroKeyTotal(3)
 end
 
 function regionOpenDLC_DungeonEntry_1L()
-  return regionOpenDLC_DungeonEntry() and has("kuleroKey", 3)
+  return regionOpenDLC_DungeonEntry() and kuleroKeyTotal(3)
 end
 
 function regionOpenDLC_DungeonEntry_1R()
-  return regionOpenDLC_DungeonEntry() and (has("eleWave") and has("kuleroKey", 2) or (has("kuleroKey", 3)))
+  return regionOpenDLC_DungeonEntry() and ((has("eleWave") and kuleroKeyTotal(2)) or (kuleroKeyTotal(3)))
 end
 
 function regionOpenDLC_DungeonGF_R()

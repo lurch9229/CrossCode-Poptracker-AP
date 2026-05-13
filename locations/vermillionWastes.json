@@ -849,6 +849,9 @@
                         "shape": "trapezoid"
                     }
                 ],
+                "visibility_rules": [
+                    "settingGoalCreator"
+                ],
                 "access_rules": [
                     "$region34, vwLockOff, settingVTGateOpen",
                     "$region34, vwLockOff, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
