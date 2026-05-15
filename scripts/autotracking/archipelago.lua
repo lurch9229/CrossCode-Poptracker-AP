@@ -1309,32 +1309,32 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
     
     elseif location_code == "@Shop Types/Cross Goggles Type/Buy A 'Cross Goggles' From Any Item Shop" then
-        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Goggles Type - 150000 Credits")
-        objItem.Highlight = highlight_code
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Goggles Type - 150000 Credits")
+        --objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Goggles Type - 150000 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits")
         objItem.Highlight = highlight_code
 
     elseif location_code == "@Shop Types/Cross Edge Type/Buy A 'Cross Edge' From Any Item Shop" then
-        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Edge Type - 150000 Credits")
-        objItem.Highlight = highlight_code
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Edge Type - 150000 Credits")
+        --objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Edge Type - 150000 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits")
         objItem.Highlight = highlight_code
 
     elseif location_code == "@Shop Types/Cross Mail Type/Buy A 'Cross Mail' From Any Item Shop" then
-        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Mail Type - 150000 Credits")
-        objItem.Highlight = highlight_code
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Mail Type - 150000 Credits")
+        --objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Mail Type - 150000 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits")
         objItem.Highlight = highlight_code
 
     elseif location_code == "@Shop Types/Cross Boots Type/Buy A 'Cross Boots' From Any Item Shop" then
-        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Boots Type - 150000 Credits")
-        objItem.Highlight = highlight_code
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Boots Type - 150000 Credits")
+        --objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Boots Type - 150000 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits")
@@ -2466,29 +2466,29 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Curio Shop/Chest Detector Type - 33333 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824901 then
-        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Goggles Type - 150000 Credits")
-        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Goggles Type - 150000 Credits")
+        --objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Goggles Type - 150000 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824903 then
-        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Edge Type - 150000 Credits")
-        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Edge Type - 150000 Credits")
+        --objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Edge Type - 150000 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824905 then
-        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Mail Type - 150000 Credits")
-        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Mail Type - 150000 Credits")
+        --objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Mail Type - 150000 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824907 then
-        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Boots Type - 150000 Credits")
-        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Boots Type - 150000 Credits")
+        --objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Boots Type - 150000 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits")

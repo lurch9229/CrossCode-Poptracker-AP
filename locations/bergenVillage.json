@@ -83,8 +83,8 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "$newLock|3235824077, eleHeat, BT-bunny, thiefKey",
-                            "$newLock|3235824077, mineKey:1, BT-bunny, thiefKey"
+                            "$newLock|3235824077|thiefKey, minePass, eleHeat, BT-bunny",
+                            "$newLock|3235824077|thiefKey, minePass, mineKey:1, BT-bunny"
                         ],
                         "item_count": 1
                     }
@@ -320,7 +320,8 @@
                     {
                         "map": "Bergen_Village",
                         "x": 475,
-                        "y": 285
+                        "y": 285,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [
@@ -404,8 +405,7 @@
                     {
                         "map": "Bergen_Village",
                         "x": 191,
-                        "y": 695,
-                        "shape": "trapezoid"
+                        "y": 695
                     }
                 ],
                 "access_rules": [

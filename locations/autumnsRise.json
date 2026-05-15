@@ -207,8 +207,7 @@
                     {
                         "map": "Autumns_Rise",
                         "x": 250,
-                        "y": 880,
-                        "shape": "trapezoid"
+                        "y": 880
                     }
                 ],
                 "access_rules": [
@@ -857,7 +856,8 @@
                     {
                         "map": "Autumns_Rise",
                         "x": 259,
-                        "y": 798
+                        "y": 798,
+                        "shape": "trapezoid"
                     }
                 ],
                 "access_rules": [

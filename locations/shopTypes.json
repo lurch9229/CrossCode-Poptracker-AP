@@ -2018,7 +2018,7 @@
             },
             {
                 "name": "Cross Goggles Type",
-                "chest_unopened_img": "images/shops/crossHelm.png",
+                "chest_unopened_img": "images/weapon/crossHelm.png",
                 "chest_opened_img": "images/shops/helmOff.png",
                 "map_locations": [
                     {
@@ -2051,7 +2051,7 @@
             },
             {
                 "name": "Cross Edge Type",
-                "chest_unopened_img": "images/shops/crossEdge.png",
+                "chest_unopened_img": "images/weapon/crossEdge.png",
                 "chest_opened_img": "images/shops/edgeOff.png",
                 "map_locations": [
                     {
@@ -2084,7 +2084,7 @@
             },
             {
                 "name": "Cross Mail Type",
-                "chest_unopened_img": "images/shops/crossMail.png",
+                "chest_unopened_img": "images/weapon/crossMail.png",
                 "chest_opened_img": "images/shops/mailOff.png",
                 "map_locations": [
                     {
@@ -2117,7 +2117,7 @@
             },
             {
                 "name": "Cross Boots Type",
-                "chest_unopened_img": "images/shops/crossBoots.png",
+                "chest_unopened_img": "images/weapon/crossBoots.png",
                 "chest_opened_img": "images/shops/bootsOff.png",
                 "map_locations": [
                     {
