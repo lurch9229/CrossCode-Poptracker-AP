@@ -980,7 +980,7 @@
                 ]
             },
             {
-                "name": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)",
+                "name": "Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
                 "map_locations": [

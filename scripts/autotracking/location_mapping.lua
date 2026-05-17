@@ -1,4 +1,4 @@
-LOCATION_MAPPING = 
+LOCATION_MAPPING =
 {
 -- Vermillion Chests
 [3235824000] = {"@Vermillion Wasteland/Vermillion Wasteland - Spiral Cliff Center/Bronze Chest"},

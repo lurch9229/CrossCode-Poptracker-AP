@@ -969,7 +969,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame")
         objItem.Highlight = highlight_code
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Sweet Lemonjuice Type - 450 Credits")
         objItem.Highlight = highlight_code
@@ -1221,11 +1221,11 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
     
     elseif location_code == "@Shop Types/Chili Con Carne Type/Buy A 'Chili Con Carne' From Any Item Shop" then
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
         objItem.Highlight = highlight_code
     
     elseif location_code == "@Shop Types/Sweet Berry Tea Type/Buy A 'Sweet Berry Tea' From Any Item Shop" then
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits")
         objItem.Highlight = highlight_code
     
     elseif location_code == "@Shop Types/Titan Goggles Type/Buy A 'Titan Goggles' From Any Item Shop" then
@@ -2174,7 +2174,7 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Sweet Lemonjuice Type - 450 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -2394,10 +2394,10 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824635 then
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824638 then
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824697 then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Goggles Type - 46750 Credits")
