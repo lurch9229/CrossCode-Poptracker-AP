@@ -778,7 +778,7 @@
                     "settingDlcOn, settingGoalDiorbis"
                 ],
                 "access_rules": [
-                    "regionOpenDLC_DungeonBoss"
+                    "$regionOpenDLC_DungeonBoss"
                 ],
                 "sections": [
                     {
