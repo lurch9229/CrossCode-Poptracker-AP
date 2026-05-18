@@ -1331,5 +1331,8 @@ LOCATION_MAPPING =
 [241] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits"},
 [242] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits"},
 [243] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits"},
-[244] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits"}
+[244] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits"},
+
+[9998] = {"@Vermillion Wasteland/Vermillion Wasteland - Vermillion Tower/The Creator"},
+[9999] = {"@Ku'lero Temple/Ku'lero Temple U8 - The Rise/Di'orbis"},
 }

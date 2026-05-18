@@ -461,7 +461,7 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_Beach, eleHeat, eleCold, eleWave, eleShock"
+                    "$regionOpenDLC_Beach, $regionOpen15_1, eleHeat, eleCold, eleWave, eleShock"
                 ],
                 "sections": [
                     {

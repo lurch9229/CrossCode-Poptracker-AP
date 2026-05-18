@@ -289,9 +289,20 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
+
+    -- get status
+    if Archipelago.PlayerNumber > -1 then
+        STATUS_ID = "_read_client_status_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber
+
+        Archipelago:SetNotify({STATUS_ID})
+        Archipelago:Get({STATUS_ID})
+    end
 end
 
 function checkForBotanityLocation()
+    print(dump_table(Archipelago.MissingLocations))
+    print(dump_table(Archipelago.CheckedLocations))
+
     for _, value in ipairs(Archipelago.MissingLocations) do
         if value == 3235824920 then
             return true
@@ -395,10 +406,12 @@ function onItem(index, item_id, item_name, player_number)
             GLOBAL_ITEMS[v[1]] = 1
         end
     end
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
+
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here for local item tracking
     end
@@ -411,7 +424,7 @@ function onLocation(location_id, location_name)
     end
 
     local v = LOCATION_MAPPING[location_id]
-    
+
     if not v then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onLocation: could not find location mapping for id %s", location_id))
@@ -425,7 +438,7 @@ function onLocation(location_id, location_name)
     end
 
     local obj = Tracker:FindObjectForCode(v[1])
-    
+
     if obj then
         manualHostedItems(location_id)
         manualShopTypes(location_id)
@@ -526,9 +539,19 @@ function onSetReply(key, value, old_value)
 
     if value ~= old_value and key == HINTS_ID then
         for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then        
+            if hint.finding_player == Archipelago.PlayerNumber then
                 --updateHintsLocation(hint)
                 UpdateHintsHighlight(hint)
+            end
+        end
+    elseif key == STATUS_ID then
+        if value == 30 then
+            if Tracker:FindObjectForCode("op_G").CurrentStage == 0 then
+                objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Vermillion Tower/The Creator")
+                objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+            elseif Tracker:FindObjectForCode("op_G").CurrentStage == 3 then
+                objItem = Tracker:FindObjectForCode("@Ku'lero Temple/Ku'lero Temple U8 - The Rise/Di'orbis")
+                objItem.AvailableChestCount = objItem.AvailableChestCount - 1
             end
         end
     elseif key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
@@ -561,14 +584,14 @@ function onSetReply(key, value, old_value)
                 print("Overworld %s", CURRENT_ROOM)
             end
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-    
+
             if REGION_MAPPING[Region] then
                 CURRENT_ROOM = REGION_MAPPING[Region]
                 if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print("Region %s", CURRENT_ROOM)
                 end
                 Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-    
+
                 if DUNGEON_MAPPING[Floor] then
                     CURRENT_ROOM = DUNGEON_MAPPING[Floor]
                     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -583,7 +606,7 @@ function onSetReply(key, value, old_value)
                 print("Overworld %s", CURRENT_ROOM)
             end
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-            
+
             CURRENT_ROOM = "World Map"
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print("Region %s", CURRENT_ROOM)
@@ -603,6 +626,16 @@ function retrieved(key, value)
             if hint.finding_player == Archipelago.PlayerNumber then        
             --updateHintsLocation(hint)
                UpdateHintsHighlight(hint)
+            end
+        end
+    elseif key == STATUS_ID then
+        if value == 30 then
+            if Tracker:FindObjectForCode("op_G").CurrentStage == 0 then
+                objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Vermillion Tower/The Creator")
+                objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+            elseif Tracker:FindObjectForCode("op_G").CurrentStage == 3 then
+                objItem = Tracker:FindObjectForCode("@Ku'lero Temple/Ku'lero Temple U8 - The Rise/Di'orbis")
+                objItem.AvailableChestCount = objItem.AvailableChestCount - 1
             end
         end
     elseif key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
