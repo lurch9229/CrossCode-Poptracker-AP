@@ -1,0 +1,2648 @@
+[
+    {
+        "name": "Botanics",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Botanics - Alpha Ball Plant",
+                "chest_unopened_img": "images/plant/AlphaBallPlant.png",
+                "chest_opened_img": "images/plant/AlphaBallPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 45
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Ball Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Ball Plant",
+                "chest_unopened_img": "images/plant/BetaBallPlant.png",
+                "chest_opened_img": "images/plant/BetaBallPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 144
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Ball Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Ball Plant",
+                "chest_unopened_img": "images/plant/OmegaBallPlant.png",
+                "chest_opened_img": "images/plant/OmegaBallPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 245
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Ball Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Water Blades",
+                "chest_unopened_img": "images/plant/AlphaWaterBlades.png",
+                "chest_opened_img": "images/plant/AlphaWaterBlades.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 333
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Water Blades",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Water Blades",
+                "chest_unopened_img": "images/plant/BetaWaterBlades.png",
+                "chest_opened_img": "images/plant/BetaWaterBlades.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 434
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Water Blades",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Water Blades",
+                "chest_unopened_img": "images/plant/OmegaWaterBlades.png",
+                "chest_opened_img": "images/plant/OmegaWaterBlades.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 537
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Water Blades",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Feather Bush",
+                "chest_unopened_img": "images/plant/AlphaFeatherBush.png",
+                "chest_opened_img": "images/plant/AlphaFeatherBush.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 615
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Feather Bush",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Feather Bush",
+                "chest_unopened_img": "images/plant/BetaFeatherBush.png",
+                "chest_opened_img": "images/plant/BetaFeatherBush.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 753
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Feather Bush",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Feather Bush",
+                "chest_unopened_img": "images/plant/OmegaFeatherBush.png",
+                "chest_opened_img": "images/plant/OmegaFeatherBush.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 892
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Feather Bush",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Pike Shrub",
+                "chest_unopened_img": "images/plant/AlphaPikeShrub.png",
+                "chest_opened_img": "images/plant/AlphaPikeShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 1028
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Pike Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Pike Shrub",
+                "chest_unopened_img": "images/plant/BetaPikeShrub.png",
+                "chest_opened_img": "images/plant/BetaPikeShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 1159
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Pike Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Pike Shrub",
+                "chest_unopened_img": "images/plant/OmegaPikeShrub.png",
+                "chest_opened_img": "images/plant/OmegaPikeShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 1298
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Pike Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Plume Bush",
+                "chest_unopened_img": "images/plant/AlphaPlumeBush.png",
+                "chest_opened_img": "images/plant/AlphaPlumeBush.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 685
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Plume Bush",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Plume Bush",
+                "chest_unopened_img": "images/plant/BetaPlumeBush.png",
+                "chest_opened_img": "images/plant/BetaPlumeBush.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 823
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Plume Bush",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Plume Bush",
+                "chest_unopened_img": "images/plant/OmegaPlumeBush.png",
+                "chest_opened_img": "images/plant/OmegaPlumeBush.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 961
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Plume Bush",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Lance Shrub",
+                "chest_unopened_img": "images/plant/AlphaLanceShrub.png",
+                "chest_opened_img": "images/plant/AlphaLanceShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 1093
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Lance Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Lance Shrub",
+                "chest_unopened_img": "images/plant/BetaLanceShrub.png",
+                "chest_opened_img": "images/plant/BetaLanceShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 1230
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Lance Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Lance Shrub",
+                "chest_unopened_img": "images/plant/OmegaLanceShrub.png",
+                "chest_opened_img": "images/plant/OmegaLanceShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 1366
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Lance Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Diamond Ice",
+                "chest_unopened_img": "images/plant/DiamondIce.png",
+                "chest_opened_img": "images/plant/DiamondIce.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 0,
+                        "y": 1424
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Diamond Ice",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Egg Pot",
+                "chest_unopened_img": "images/plant/AlphaEggPot.png",
+                "chest_opened_img": "images/plant/AlphaEggPot.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 439
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen4_4"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Egg Pot",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Egg Pot",
+                "chest_unopened_img": "images/plant/BetaEggPot.png",
+                "chest_opened_img": "images/plant/BetaEggPot.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 509
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen4_4"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Egg Pot",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Gamma Egg Pot",
+                "chest_unopened_img": "images/plant/GammaEggPot.png",
+                "chest_opened_img": "images/plant/GammaEggPot.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 582
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen4_4"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Egg Pot",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Delta Egg Pot",
+                "chest_unopened_img": "images/plant/DeltaEggPot.png",
+                "chest_opened_img": "images/plant/DeltaEggPot.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 675
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen4_4"
+                ],
+                "sections": [
+                    {
+                        "name": "Delta Egg Pot",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Egg Pot A",
+                "chest_unopened_img": "images/plant/OmegaEggPotA.png",
+                "chest_opened_img": "images/plant/OmegaEggPotA.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 784
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen4_4"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Egg Pot A",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Egg Pot B",
+                "chest_unopened_img": "images/plant/OmegaEggPotB.png",
+                "chest_opened_img": "images/plant/OmegaEggPotB.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 888
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen4_4"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Egg Pot B",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Dry Cactone",
+                "chest_unopened_img": "images/plant/AlphaDryCactone.png",
+                "chest_opened_img": "images/plant/AlphaDryCactone.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 323
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Dry Cactone",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Dry Cactone",
+                "chest_unopened_img": "images/plant/BetaDryCactone.png",
+                "chest_opened_img": "images/plant/BetaDryCactone.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 388
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Dry Cactone",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Dry Shrub",
+                "chest_unopened_img": "images/plant/AlphaDryShrub.png",
+                "chest_opened_img": "images/plant/AlphaDryShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 45
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Dry Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Dry Shrub",
+                "chest_unopened_img": "images/plant/BetaDryShrub.png",
+                "chest_opened_img": "images/plant/BetaDryShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 144
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Dry Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Dry Shrub",
+                "chest_unopened_img": "images/plant/OmegaDryShrub.png",
+                "chest_opened_img": "images/plant/OmegaDryShrub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 247
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Dry Shrub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Cactone",
+                "chest_unopened_img": "images/plant/AlphaCactone.png",
+                "chest_opened_img": "images/plant/AlphaCactone.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 465
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Cactone",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Cactone",
+                "chest_unopened_img": "images/plant/BetaCactone.png",
+                "chest_opened_img": "images/plant/BetaCactone.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 566
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Cactone",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Cactone",
+                "chest_unopened_img": "images/plant/OmegaCactone.png",
+                "chest_opened_img": "images/plant/OmegaCactone.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 667
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Cactone",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Palmapple",
+                "chest_unopened_img": "images/plant/AlphaPalmapple.png",
+                "chest_opened_img": "images/plant/AlphaPalmapple.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 755
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Palmapple",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Palmapple",
+                "chest_unopened_img": "images/plant/BetaPalmapple.png",
+                "chest_opened_img": "images/plant/BetaPalmapple.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 856
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Palmapple",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Palmapple",
+                "chest_unopened_img": "images/plant/OmegaPalmapple.png",
+                "chest_opened_img": "images/plant/OmegaPalmapple.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 958
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Palmapple",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Ant Hill",
+                "chest_unopened_img": "images/plant/AlphaAntHill.png",
+                "chest_opened_img": "images/plant/AlphaAntHill.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 1045
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Ant Hill",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Ant Hill",
+                "chest_unopened_img": "images/plant/BetaAntHill.png",
+                "chest_opened_img": "images/plant/BetaAntHill.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 1146
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Ant Hill",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Ant Hill",
+                "chest_unopened_img": "images/plant/OmegaAntHill.png",
+                "chest_opened_img": "images/plant/OmegaAntHill.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 1247
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Ant Hill",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Bone Pile",
+                "chest_unopened_img": "images/plant/AlphaBonePile.png",
+                "chest_opened_img": "images/plant/AlphaBonePile.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 1336
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Bone Pile",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Bone Pile",
+                "chest_unopened_img": "images/plant/BetaBonePile.png",
+                "chest_opened_img": "images/plant/BetaBonePile.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 1436
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Bone Pile",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Bone Pile",
+                "chest_unopened_img": "images/plant/OmegaBonePile.png",
+                "chest_opened_img": "images/plant/OmegaBonePile.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 256,
+                        "y": 1538
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Bone Pile",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Sphere Plant",
+                "chest_unopened_img": "images/plant/AlphaSpherePlant.png",
+                "chest_opened_img": "images/plant/AlphaSpherePlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 45
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen8"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Sphere Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Sphere Plant",
+                "chest_unopened_img": "images/plant/BetaSpherePlant.png",
+                "chest_opened_img": "images/plant/BetaSpherePlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 144
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen8"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Sphere Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Sphere Plant",
+                "chest_unopened_img": "images/plant/OmegaSpherePlant.png",
+                "chest_opened_img": "images/plant/OmegaSpherePlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 247
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen8"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Sphere Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Water Cutlass",
+                "chest_unopened_img": "images/plant/AlphaWaterCutlass.png",
+                "chest_opened_img": "images/plant/AlphaWaterCutlass.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 335
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen8"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Water Cutlass",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Water Cutlass",
+                "chest_unopened_img": "images/plant/BetaWaterCutlass.png",
+                "chest_opened_img": "images/plant/BetaWaterCutlass.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 435
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen8"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Water Cutlass",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Water Cutlass",
+                "chest_unopened_img": "images/plant/OmegaWaterCutlass.png",
+                "chest_opened_img": "images/plant/OmegaWaterCutlass.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 537
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen8"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Water Cutlass",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Puff Plant",
+                "chest_unopened_img": "images/plant/AlphaPuffPlant.png",
+                "chest_opened_img": "images/plant/AlphaPuffPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 625
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Puff Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Puff Plant",
+                "chest_unopened_img": "images/plant/BetaPuffPlant.png",
+                "chest_opened_img": "images/plant/BetaPuffPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 727
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Puff Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Puff Plant",
+                "chest_unopened_img": "images/plant/OmegaPuffPlant.png",
+                "chest_opened_img": "images/plant/OmegaPuffPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 829
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Puff Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Closed Baraleles",
+                "chest_unopened_img": "images/plant/AlphaClosedBaraleles.png",
+                "chest_opened_img": "images/plant/AlphaClosedBaraleles.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 1004
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Closed Baraleles",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Closed Baraleles",
+                "chest_unopened_img": "images/plant/BetaClosedBaraleles.png",
+                "chest_opened_img": "images/plant/BetaClosedBaraleles.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 1091
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Closed Baraleles",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Bee Hive",
+                "chest_unopened_img": "images/plant/BeeHive.png",
+                "chest_opened_img": "images/plant/BeeHive.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 916
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Middle"
+                ],
+                "sections": [
+                    {
+                        "name": "Bee Hive",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Open Baraleles",
+                "chest_unopened_img": "images/plant/AlphaOpenBaraleles.png",
+                "chest_opened_img": "images/plant/AlphaOpenBaraleles.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 1178
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Left"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Open Baraleles",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Open Baraleles",
+                "chest_unopened_img": "images/plant/BetaOpenBaraleles.png",
+                "chest_opened_img": "images/plant/BetaOpenBaraleles.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 1280
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Left"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Open Baraleles",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Open Baraleles",
+                "chest_unopened_img": "images/plant/OmegaOpenBaraleles.png",
+                "chest_opened_img": "images/plant/OmegaOpenBaraleles.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 471,
+                        "y": 1380
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Left"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Open Baraleles",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Vivid Puff Plant",
+                "chest_unopened_img": "images/plant/AlphaVividPuffPlant.png",
+                "chest_opened_img": "images/plant/AlphaVividPuffPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 45
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Right"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Vivid Puff Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Vivid Puff Plant",
+                "chest_unopened_img": "images/plant/BetaVividPuffPlant.png",
+                "chest_opened_img": "images/plant/BetaVividPuffPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 146
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Right"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Vivid Puff Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Vivid Puff Plant",
+                "chest_unopened_img": "images/plant/OmegaVividPuffPlant.png",
+                "chest_opened_img": "images/plant/OmegaVividPuffPlant.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 247
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Right"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Vivid Puff Plant",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Virus Shroom",
+                "chest_unopened_img": "images/plant/AlphaVirusShroom.png",
+                "chest_opened_img": "images/plant/AlphaVirusShroom.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 335
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Right"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Virus Shroom",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Virus Shroom",
+                "chest_unopened_img": "images/plant/BetaVirusShroom.png",
+                "chest_opened_img": "images/plant/BetaVirusShroom.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 435
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Right"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Virus Shroom",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Virus Shroom",
+                "chest_unopened_img": "images/plant/OmegaVirusShroom.png",
+                "chest_opened_img": "images/plant/OmegaVirusShroom.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 538
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen10_Infested"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Virus Shroom",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Bamboo",
+                "chest_unopened_img": "images/plant/AlphaBamboo.png",
+                "chest_opened_img": "images/plant/AlphaBamboo.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 626
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Bamboo",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Bamboo",
+                "chest_unopened_img": "images/plant/BetaBamboo.png",
+                "chest_opened_img": "images/plant/BetaBamboo.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 727
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Bamboo",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Bamboo",
+                "chest_unopened_img": "images/plant/OmegaBamboo.png",
+                "chest_opened_img": "images/plant/OmegaBamboo.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 829
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Bamboo",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Ridge Flower",
+                "chest_unopened_img": "images/plant/AlphaRidgeFlower.png",
+                "chest_opened_img": "images/plant/AlphaRidgeFlower.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 916
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Ridge Flower",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Ridge Flower",
+                "chest_unopened_img": "images/plant/BetaRidgeFlower.png",
+                "chest_opened_img": "images/plant/BetaRidgeFlower.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 1017
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Ridge Flower",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Ridge Flower",
+                "chest_unopened_img": "images/plant/OmegaRidgeFlower.png",
+                "chest_opened_img": "images/plant/OmegaRidgeFlower.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 1119
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Ridge Flower",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Crystal",
+                "chest_unopened_img": "images/plant/AlphaCrystal.png",
+                "chest_opened_img": "images/plant/AlphaCrystal.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 1206
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Crystal",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Crystal",
+                "chest_unopened_img": "images/plant/BetaCrystal.png",
+                "chest_opened_img": "images/plant/BetaCrystal.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 1308
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Crystal",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Omega Crystal",
+                "chest_unopened_img": "images/plant/OmegaCrystal.png",
+                "chest_opened_img": "images/plant/OmegaCrystal.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 718,
+                        "y": 1408
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen16"
+                ],
+                "sections": [
+                    {
+                        "name": "Omega Crystal",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Sprout of Valor",
+                "chest_unopened_img": "images/plant/SproutofValor.png",
+                "chest_opened_img": "images/plant/SproutofValor.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 1236,
+                        "y": 110
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen3"
+                ],
+                "sections": [
+                    {
+                        "name": "Sprout of Valor",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Sprout of Space",
+                "chest_unopened_img": "images/plant/SproutofSpace.png",
+                "chest_opened_img": "images/plant/SproutofSpace.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 1236,
+                        "y": 183
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen5"
+                ],
+                "sections": [
+                    {
+                        "name": "Sprout of Space",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Sprout of Truth",
+                "chest_unopened_img": "images/plant/SproutofTruth.png",
+                "chest_opened_img": "images/plant/SproutofTruth.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 1236,
+                        "y": 37
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen8"
+                ],
+                "sections": [
+                    {
+                        "name": "Sprout of Truth",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Sprout of Spirit",
+                "chest_unopened_img": "images/plant/SproutofSpirit.png",
+                "chest_opened_img": "images/plant/SproutofSpirit.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 1236,
+                        "y": 257
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen11"
+                ],
+                "sections": [
+                    {
+                        "name": "Sprout of Spirit",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Sprout of Ages",
+                "chest_unopened_img": "images/plant/SproutofAges.png",
+                "chest_opened_img": "images/plant/SproutofAges.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 1236,
+                        "y": 330
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn"
+                ],
+                "access_rules": [
+                    "$regionOpen20"
+                ],
+                "sections": [
+                    {
+                        "name": "Sprout of Ages",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Cone Sprout",
+                "chest_unopened_img": "images/plant/AlphaConeSprout.png",
+                "chest_opened_img": "images/plant/AlphaConeSprout.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 975
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_DungeonEntry"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Cone Sprout",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Cone Sprout",
+                "chest_unopened_img": "images/plant/BetaConeSprout.png",
+                "chest_opened_img": "images/plant/BetaConeSprout.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 1051
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_DungeonEntry"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Cone Sprout",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Gamma Cone Sprout",
+                "chest_unopened_img": "images/plant/GammaConeSprout.png",
+                "chest_opened_img": "images/plant/GammaConeSprout.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 1129
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_DungeonEntry"
+                ],
+                "sections": [
+                    {
+                        "name": "Gamma Cone Sprout",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Delta Cone Sprout",
+                "chest_unopened_img": "images/plant/DeltaConeSprout.png",
+                "chest_opened_img": "images/plant/DeltaConeSprout.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 1216
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_DungeonEntry"
+                ],
+                "sections": [
+                    {
+                        "name": "Delta Cone Sprout",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Shard",
+                "chest_unopened_img": "images/plant/AlphaShard.png",
+                "chest_opened_img": "images/plant/AlphaShard.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 1319
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_DungeonEntry"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Shard",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Coral Blub",
+                "chest_unopened_img": "images/plant/AlphaCoralBlub.png",
+                "chest_opened_img": "images/plant/AlphaCoralBlub.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 35
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_Beach"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Coral Blub",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Coral Bulb",
+                "chest_unopened_img": "images/plant/BetaCoralBulb.png",
+                "chest_opened_img": "images/plant/BetaCoralBulb.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 104
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_Beach"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Coral Bulb",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Keen Sprout",
+                "chest_unopened_img": "images/plant/AlphaKeenSprout.png",
+                "chest_opened_img": "images/plant/AlphaKeenSprout.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 174
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_Beach"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Keen Sprout",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Keen Sprout",
+                "chest_unopened_img": "images/plant/BetaKeenSprout.png",
+                "chest_opened_img": "images/plant/BetaKeenSprout.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 240
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_Beach"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Keen Sprout",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Alpha Fossil Stone",
+                "chest_unopened_img": "images/plant/AlphaFossilStone.png",
+                "chest_opened_img": "images/plant/AlphaFossilStone.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 306
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_Beach"
+                ],
+                "sections": [
+                    {
+                        "name": "Alpha Fossil Stone",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Botanics - Beta Fossil Stone",
+                "chest_unopened_img": "images/plant/BetaFossilStone.png",
+                "chest_opened_img": "images/plant/BetaFossilStone.png",
+                "map_locations": [
+                    {
+                        "map": "Botanics_Map",
+                        "x": 965,
+                        "y": 370
+                    }
+                ],
+                "visibility_rules": [
+                    "settingBotanityOn, settingDlcOn"
+                ],
+                "access_rules": [
+                    "$regionOpenDLC_Beach"
+                ],
+                "sections": [
+                    {
+                        "name": "Beta Fossil Stone",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

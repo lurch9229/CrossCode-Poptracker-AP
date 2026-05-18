@@ -2,35 +2,29 @@
     {
         "name": "Zir'vitar Temple",
         "color": "#FFFFFF",
-        "children": 
-		[
+        "children": [
             {
                 "name": "Zir'vitar Temple 1F - Moving Transmit Left",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Zirvitar_Temple",
                         "x": 195,
                         "y": 320
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824319"
                         ],
                         "item_count": 1
@@ -41,29 +35,24 @@
                 "name": "Zir'vitar Temple 1F - Moving Transmit Right",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Zirvitar_Temple",
                         "x": 240,
                         "y": 320
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region25",
                     "$regionOpen13_1"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824320"
                         ],
                         "item_count": 1
@@ -74,29 +63,24 @@
                 "name": "Zir'vitar Temple 1F - Haunted Waves",
                 "chest_unopened_img": "images/icons/chest_bronze_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Zirvitar_Temple",
                         "x": 480,
                         "y": 328
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region25",
                     "$regionOpen13_1"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824321|thiefKey, eleWave"
                         ],
                         "item_count": 1
@@ -107,29 +91,24 @@
                 "name": "Zir'vitar Temple GF - Hoodwink",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Zirvitar_Temple",
                         "x": 618,
                         "y": 485
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
-                "sections":
-				[
+                "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824322, $anyElement"
                         ],
                         "item_count": 1
@@ -140,29 +119,24 @@
                 "name": "Zir'vitar Temple GF - Spinning Transmit",
                 "chest_unopened_img": "images/icons/chest_bronze_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Zirvitar_Temple",
                         "x": 708,
                         "y": 480
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region25",
                     "$regionOpen13_1"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824323|thiefKey, eleWave"
                         ],
                         "item_count": 1
@@ -173,29 +147,25 @@
                 "name": "Zir'vitar Temple 2F - Chamber of Wave",
                 "chest_unopened_img": "images/icons/eleWave_o.png",
                 "chest_opened_img": "images/icons/eleWave_x.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Zirvitar_Temple",
                         "x": 682,
-                        "y": 202
+                        "y": 202,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region25",
                     "$regionOpen13_1"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Element",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -206,42 +176,36 @@
                 "name": "Zir'vitar Temple 3F - Post Boss Statue",
                 "chest_unopened_img": "images/icons/statue_o.png",
                 "chest_opened_img": "images/icons/statue_x.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Zirvitar_Temple",
                         "x": 711,
-                        "y": 57
+                        "y": 57,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region25",
                     "$regionOpen13_2"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Purple Bolt Shade",
                         "clear_as_group": true,
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "eleWave"
                         ],
                         "item_count": 0
                     },
                     {
                         "name": "Circuit Override",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "eleWave"
                         ],
                         "item_count": 1
@@ -258,38 +222,43 @@
                 "sections": [
                     {
                         "ref": "Zir'vitar Temple 1F - Moving Transmit Left/Chest",
-                        "name": "Zir'vitar Temple 1F - Moving Transmit Left - Chest"
+                        "name": "Zir'vitar Temple 1F - Moving Transmit Left\nChest"
                     },
                     {
                         "ref": "Zir'vitar Temple 1F - Moving Transmit Right/Chest",
-                        "name": "Zir'vitar Temple 1F - Moving Transmit Right - Chest"
+                        "name": "Zir'vitar Temple 1F - Moving Transmit Right\nChest"
                     },
                     {
                         "ref": "Zir'vitar Temple 1F - Haunted Waves/Bronze Chest",
-                        "name": "Zir'vitar Temple 1F - Haunted Waves - Bronze Chest"
+                        "name": "Zir'vitar Temple 1F - Haunted Waves\nBronze Chest"
                     },
                     {
                         "ref": "Zir'vitar Temple GF - Hoodwink/Chest",
-                        "name": "Zir'vitar Temple GF - Hoodwink - Chest"
+                        "name": "Zir'vitar Temple GF - Hoodwink\nChest"
                     },
                     {
                         "ref": "Zir'vitar Temple GF - Spinning Transmit/Bronze Chest",
-                        "name": "Zir'vitar Temple GF - Spinning Transmit - Bronze Chest"
+                        "name": "Zir'vitar Temple GF - Spinning Transmit\nBronze Chest"
                     },
                     {
                         "ref": "Zir'vitar Temple 2F - Chamber of Wave/Element",
-                        "name": "Zir'vitar Temple 2F - Chamber of Wave - Element"
+                        "name": "Zir'vitar Temple 2F - Chamber of Wave\nElement"
                     },
                     {
                         "ref": "Zir'vitar Temple 3F - Post Boss Statue/Purple Bolt Shade",
-                        "name": "Zir'vitar Temple 3F - Post Boss Statue - Purple Bolt Shade & Circuit Override"
+                        "name": "Zir'vitar Temple 3F - Post Boss Statue\nPurple Bolt Shade"
+                    },
+                    {
+                        "ref": "Zir'vitar Temple 3F - Post Boss Statue/Circuit Override",
+                        "name": "Zir'vitar Temple 3F - Post Boss Statue\nCircuit Override"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 309,
-                      "y": 83
+                        "map": "WorldMap",
+                        "x": 309,
+                        "y": 83,
+                        "shape": "trapezoid"
                     }
                 ]
             }

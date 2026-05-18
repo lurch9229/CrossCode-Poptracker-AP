@@ -3,7 +3,6 @@
         "name": "Sapphire Ridge",
         "color": "#FFFFFF",
         "children": [
-
             {
                 "name": "Sapphire Ridge - The Barracks",
                 "chest_unopened_img": "images/icons/chest_bronze_x.png",
@@ -15,20 +14,17 @@
                         "y": 1200
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824130|thiefKey, eleShock"
                         ],
                         "item_count": 1
@@ -46,20 +42,17 @@
                         "y": 1017
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824131|radiantKey, eleShock, eleWave"
                         ],
                         "item_count": 1
@@ -75,22 +68,19 @@
                         "map": "Sapphire_Ridge",
                         "x": 160,
                         "y": 855
-                    }                    
+                    }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824132|radiantKey"
                         ],
                         "item_count": 1
@@ -108,20 +98,17 @@
                         "y": 664
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824134"
                         ],
                         "item_count": 1
@@ -139,20 +126,17 @@
                         "y": 720
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824133|whiteKey"
                         ],
                         "item_count": 1
@@ -170,20 +154,17 @@
                         "y": 834
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824135|thiefKey"
                         ],
                         "item_count": 1
@@ -201,20 +182,17 @@
                         "y": 732
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
-                "sections": [                    
+                "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824136|radiantKey"
                         ],
                         "item_count": 1
@@ -232,20 +210,17 @@
                         "y": 770
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824138|thiefKey"
                         ],
                         "item_count": 1
@@ -263,20 +238,17 @@
                         "y": 755
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824137|whiteKey"
                         ],
                         "item_count": 1
@@ -294,20 +266,17 @@
                         "y": 422
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824140|thiefKey"
                         ],
                         "item_count": 1
@@ -325,20 +294,17 @@
                         "y": 475
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824139|radiantKey"
                         ],
                         "item_count": 1
@@ -356,20 +322,17 @@
                         "y": 1130
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824150|thiefKey"
                         ],
                         "item_count": 1
@@ -387,20 +350,17 @@
                         "y": 1200
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824151|radiantKey"
                         ],
                         "item_count": 1
@@ -418,20 +378,17 @@
                         "y": 1105
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824141"
                         ],
                         "item_count": 1
@@ -449,20 +406,17 @@
                         "y": 1090
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824142|radiantKey"
                         ],
                         "item_count": 1
@@ -480,20 +434,17 @@
                         "y": 840
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824143"
                         ],
                         "item_count": 1
@@ -511,21 +462,17 @@
                         "y": 885
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
-
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824144|thiefKey"
                         ],
                         "item_count": 1
@@ -543,20 +490,17 @@
                         "y": 835
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824146|thiefKey"
                         ],
                         "item_count": 1
@@ -574,20 +518,17 @@
                         "y": 900
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824145|whiteKey"
                         ],
                         "item_count": 1
@@ -605,20 +546,17 @@
                         "y": 970
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824147|thiefKey"
                         ],
                         "item_count": 1
@@ -636,20 +574,17 @@
                         "y": 1070
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824148|radiantKey"
                         ],
                         "item_count": 1
@@ -667,20 +602,17 @@
                         "y": 1120
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824149|thiefKey"
                         ],
                         "item_count": 1
@@ -698,20 +630,17 @@
                         "y": 1252
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824153"
                         ],
                         "item_count": 1
@@ -729,20 +658,17 @@
                         "y": 1345
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824152|thiefKey"
                         ],
                         "item_count": 1
@@ -757,23 +683,21 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 615,
-                        "y": 1298
+                        "y": 1298,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Old Dojo Key",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -791,20 +715,17 @@
                         "y": 970
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824154|whiteKey"
                         ],
                         "item_count": 1
@@ -822,20 +743,17 @@
                         "y": 1028
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824155|radiantKey"
                         ],
                         "item_count": 1
@@ -853,20 +771,17 @@
                         "y": 828
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824156|whiteKey"
                         ],
                         "item_count": 1
@@ -884,20 +799,17 @@
                         "y": 897
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824157|radiantKey"
                         ],
                         "item_count": 1
@@ -915,20 +827,17 @@
                         "y": 743
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824158|radiantKey"
                         ],
                         "item_count": 1
@@ -946,20 +855,17 @@
                         "y": 715
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824159|radiantKey"
                         ],
                         "item_count": 1
@@ -977,20 +883,17 @@
                         "y": 585
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824162|thiefKey, eleShock"
                         ],
                         "item_count": 1
@@ -1008,20 +911,17 @@
                         "y": 675
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824161|whiteKey, eleShock"
                         ],
                         "item_count": 1
@@ -1039,20 +939,17 @@
                         "y": 630
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824160|radiantKey"
                         ],
                         "item_count": 1
@@ -1070,20 +967,17 @@
                         "y": 585
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824164|whiteKey, eleShock"
                         ],
                         "item_count": 1
@@ -1101,20 +995,17 @@
                         "y": 660
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824163|radiantKey, eleShock"
                         ],
                         "item_count": 1
@@ -1132,20 +1023,17 @@
                         "y": 480
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824165|whiteKey"
                         ],
                         "item_count": 1
@@ -1163,20 +1051,17 @@
                         "y": 460
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824166|radiantKey"
                         ],
                         "item_count": 1
@@ -1194,20 +1079,17 @@
                         "y": 410
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824167|radiantKey"
                         ],
                         "item_count": 1
@@ -1222,30 +1104,28 @@
                     {
                         "map": "Sapphire_Ridge",
                         "x": 803,
-                        "y": 272
+                        "y": 272,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region32",
                     "$regionOpen17"
                 ],
                 "sections": [
                     {
                         "name": "Meteor Shade",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     }
                 ]
             },
-			{
+            {
                 "name": "Sapphire Ridge - Dream Pond",
                 "chest_unopened_img": "images/icons/chest_gold_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
@@ -1256,20 +1136,17 @@
                         "y": 76
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region33",
                     "$regionOpen16_1"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824168|radiantKey"
                         ],
                         "item_count": 1
@@ -1287,20 +1164,17 @@
                         "y": 257
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region33",
                     "$regionOpen16_1"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824171|whiteKey, eleWave"
                         ],
                         "item_count": 1
@@ -1318,20 +1192,17 @@
                         "y": 180
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region33",
                     "$regionOpen16_1"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824170|whiteKey, eleWave"
                         ],
                         "item_count": 1
@@ -1349,20 +1220,17 @@
                         "y": 177
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region33",
                     "$regionOpen16_1"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824169|radiantKey, eleWave"
                         ],
                         "item_count": 1
@@ -1380,20 +1248,17 @@
                         "y": 1305
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824172|thiefKey"
                         ],
                         "item_count": 1
@@ -1404,29 +1269,25 @@
                 "name": "Sapphire Ridge - Baxton Addi",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
                         "x": 158,
-                        "y": 1050
+                        "y": 1050,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Henry Trailblazing",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "GG-TB-done, AR-TB-done, BT-TB-done, MV-TB-done, eleShock"
                         ],
                         "item_count": 1
@@ -1437,29 +1298,25 @@
                 "name": "Sapphire Ridge - PuellaDocta",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
                         "x": 224,
-                        "y": 840
+                        "y": 840,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Last Minute Help Needed",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "eleHeat, eleCold, eleWave, eleShock, meteorShade, guildPass"
                         ],
                         "item_count": 1
@@ -1470,29 +1327,25 @@
                 "name": "Sapphire Ridge - Kat (Storage Balcony)",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
                         "x": 30,
-                        "y": 1090
+                        "y": 1090,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "An Unfortunate Series of Features",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "iceShade, eleHeat, eleCold, eleShock, eleWave"
                         ],
                         "item_count": 1
@@ -1503,31 +1356,27 @@
                 "name": "Sapphire Ridge - Cave Inn Weapon Shop",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
                         "x": 660,
-                        "y": 1050
+                        "y": 1050,
+                        "shape": "diamond"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Titan Goggles Slot - 46750 Credits",
                         "chest_unopened_img": "images/weapon/titanHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon1",
                             "$typeTiHelm",
                             "settingShopReceiveShops, sapphireWeaponShop",
@@ -1539,16 +1388,14 @@
                         "name": "Cobalt Goggles Slot - 71350 Credits",
                         "chest_unopened_img": "images/weapon/cobaltHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon2",
                             "$typeCoHelm",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1556,16 +1403,14 @@
                         "name": "Titan Edge Slot - 46475 Credits",
                         "chest_unopened_img": "images/weapon/titanEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon3",
                             "$typeTiEdge",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1573,16 +1418,14 @@
                         "name": "Cobalt Edge Slot - 70975 Credits",
                         "chest_unopened_img": "images/weapon/cobaltEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon4",
                             "$typeCoEdge",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1590,16 +1433,14 @@
                         "name": "Titan Mail Slot - 46925 Credits",
                         "chest_unopened_img": "images/weapon/titanMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon5",
                             "$typeTiMail",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1607,16 +1448,14 @@
                         "name": "Cobalt Mail Slot - 71925 Credits",
                         "chest_unopened_img": "images/weapon/cobaltMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon6",
                             "$typeCoMail",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1624,16 +1463,14 @@
                         "name": "Titan Boots Slot - 46750 Credits",
                         "chest_unopened_img": "images/weapon/titanBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon7",
                             "$typeTiBoots",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1641,16 +1478,14 @@
                         "name": "Cobalt Boots Slot - 71350 Credits",
                         "chest_unopened_img": "images/weapon/cobaltBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon8",
                             "$typeCoBoots",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1658,12 +1493,10 @@
                         "name": "Titan Goggles Type - 46750 Credits",
                         "chest_unopened_img": "images/weapon/titanHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon1",
                             "$typeTiHelm",
                             "settingShopReceiveShops, sapphireWeaponShop",
@@ -1675,16 +1508,14 @@
                         "name": "Cobalt Goggles Type - 71350 Credits",
                         "chest_unopened_img": "images/weapon/cobaltHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon2",
                             "$typeCoHelm",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1692,16 +1523,14 @@
                         "name": "Titan Edge Type - 46475 Credits",
                         "chest_unopened_img": "images/weapon/titanEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon3",
                             "$typeTiEdge",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1709,16 +1538,14 @@
                         "name": "Cobalt Edge Type - 70975 Credits",
                         "chest_unopened_img": "images/weapon/cobaltEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon4",
                             "$typeCoEdge",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1726,16 +1553,14 @@
                         "name": "Titan Mail Type - 46925 Credits",
                         "chest_unopened_img": "images/weapon/titanMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon5",
                             "$typeTiMail",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1743,16 +1568,14 @@
                         "name": "Cobalt Mail Type - 71925 Credits",
                         "chest_unopened_img": "images/weapon/cobaltMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon6",
                             "$typeCoMail",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1760,16 +1583,14 @@
                         "name": "Titan Boots Type - 46750 Credits",
                         "chest_unopened_img": "images/weapon/titanBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon7",
                             "$typeTiBoots",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     },
@@ -1777,16 +1598,14 @@
                         "name": "Cobalt Boots Type - 71350 Credits",
                         "chest_unopened_img": "images/weapon/cobaltBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRweapon8",
                             "$typeCoBoots",
                             "settingShopReceiveShops, sapphireWeaponShop",
-                            "settingShopReceiveOff"  
+                            "settingShopReceiveOff"
                         ],
                         "item_count": 1
                     }
@@ -1796,31 +1615,27 @@
                 "name": "Sapphire Ridge - Cave Inn Item Shop",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
-                "map_locations": 
-				[
+                "map_locations": [
                     {
                         "map": "Sapphire_Ridge",
                         "x": 560,
-                        "y": 1050
+                        "y": 1050,
+                        "shape": "diamond"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region31",
                     "$regionOpen16"
                 ],
-                "sections": 
-				[
+                "sections": [
                     {
                         "name": "Sandwich Slot - 100 Credits",
                         "chest_unopened_img": "images/food/Sandwich.png",
                         "chest_opened_img": "images/food/SandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem1",
                             "$typeSandwich",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1832,12 +1647,10 @@
                         "name": "Hi-Sandwich Slot - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem2",
                             "$typeHiSandwich",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1849,12 +1662,10 @@
                         "name": "Green Leaf Tea Slot - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem3",
                             "$typeTea",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1866,12 +1677,10 @@
                         "name": "Just Water Slot - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem4",
                             "$typeWater",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1883,12 +1692,10 @@
                         "name": "Kebab Roll Slot - 650 Credits",
                         "chest_unopened_img": "images/food/Kebab.png",
                         "chest_opened_img": "images/food/KebabOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem5",
                             "$typeKebab",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1900,12 +1707,10 @@
                         "name": "Meaty Risotto Slot - 650 Credits",
                         "chest_unopened_img": "images/food/Risotto.png",
                         "chest_opened_img": "images/food/RisottoOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem6",
                             "$typeRisotto",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1917,12 +1722,10 @@
                         "name": "Spicy Bun Slot - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem7",
                             "$typeBun",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1934,12 +1737,10 @@
                         "name": "Fruit Drink Slot - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem8",
                             "$typeFruit",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1951,12 +1752,10 @@
                         "name": "Rice Cracker Slot - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem9",
                             "$typeCracker",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1968,12 +1767,10 @@
                         "name": "Veggie Sticks Slot - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem10",
                             "$typeVeggie",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -1985,12 +1782,10 @@
                         "name": "Bergen Ice Cream Slot - 450 Credits",
                         "chest_unopened_img": "images/food/IceCream.png",
                         "chest_opened_img": "images/food/IceCreamOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem11",
                             "$typeIcecream",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2002,12 +1797,10 @@
                         "name": "Sweet Lemonjuice Slot - 450 Credits",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem12",
                             "$typeLemonjuice",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2019,12 +1812,10 @@
                         "name": "Cup o' Coffee Slot - 450 Credits",
                         "chest_unopened_img": "images/food/Coffee.png",
                         "chest_opened_img": "images/food/CoffeeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem13",
                             "$typeCoffee",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2036,12 +1827,10 @@
                         "name": "Salted Peanuts Slot - 450 Credits",
                         "chest_unopened_img": "images/food/Peanuts.png",
                         "chest_opened_img": "images/food/PeanutsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem14",
                             "$typePeanuts",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2053,12 +1842,10 @@
                         "name": "Snack Mix Slot - 450 Credits",
                         "chest_unopened_img": "images/food/SnackMix.png",
                         "chest_opened_img": "images/food/SnackMixOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleSlot"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem15",
                             "$typeMix",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2070,12 +1857,10 @@
                         "name": "Sandwich Type - 100 Credits",
                         "chest_unopened_img": "images/food/Sandwich.png",
                         "chest_opened_img": "images/food/SandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem1",
                             "$typeSandwich",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2087,12 +1872,10 @@
                         "name": "Hi-Sandwich Type - 300 Credits",
                         "chest_unopened_img": "images/food/HiSandwich.png",
                         "chest_opened_img": "images/food/HiSandwichOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem2",
                             "$typeHiSandwich",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2104,12 +1887,10 @@
                         "name": "Green Leaf Tea Type - 250 Credits",
                         "chest_unopened_img": "images/food/GreenTea.png",
                         "chest_opened_img": "images/food/GreenTeaOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem3",
                             "$typeTea",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2121,12 +1902,10 @@
                         "name": "Just Water Type - 222 Credits",
                         "chest_unopened_img": "images/food/Water.png",
                         "chest_opened_img": "images/food/WaterOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem4",
                             "$typeWater",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2138,12 +1917,10 @@
                         "name": "Kebab Roll Type - 650 Credits",
                         "chest_unopened_img": "images/food/Kebab.png",
                         "chest_opened_img": "images/food/KebabOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem5",
                             "$typeKebab",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2155,12 +1932,10 @@
                         "name": "Meaty Risotto Type - 650 Credits",
                         "chest_unopened_img": "images/food/Risotto.png",
                         "chest_opened_img": "images/food/RisottoOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem6",
                             "$typeRisotto",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2172,12 +1947,10 @@
                         "name": "Spicy Bun Type - 200 Credits",
                         "chest_unopened_img": "images/food/SpicyBun.png",
                         "chest_opened_img": "images/food/SpicyBunOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem7",
                             "$typeBun",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2189,12 +1962,10 @@
                         "name": "Fruit Drink Type - 200 Credits",
                         "chest_unopened_img": "images/food/FruitDrink.png",
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem8",
                             "$typeFruit",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2206,12 +1977,10 @@
                         "name": "Rice Cracker Type - 200 Credits",
                         "chest_unopened_img": "images/food/RiceCracker.png",
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem9",
                             "$typeCracker",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2223,12 +1992,10 @@
                         "name": "Veggie Sticks Type - 200 Credits",
                         "chest_unopened_img": "images/food/VeggieSticks.png",
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem10",
                             "$typeVeggie",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2240,12 +2007,10 @@
                         "name": "Bergen Ice Cream Type - 450 Credits",
                         "chest_unopened_img": "images/food/IceCream.png",
                         "chest_opened_img": "images/food/IceCreamOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem11",
                             "$typeIcecream",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2257,12 +2022,10 @@
                         "name": "Sweet Lemonjuice Type - 450 Credits",
                         "chest_unopened_img": "images/food/Lemonade.png",
                         "chest_opened_img": "images/food/LemonadeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem12",
                             "$typeLemonjuice",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2274,12 +2037,10 @@
                         "name": "Cup o' Coffee Type - 450 Credits",
                         "chest_unopened_img": "images/food/Coffee.png",
                         "chest_opened_img": "images/food/CoffeeOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem13",
                             "$typeCoffee",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2291,12 +2052,10 @@
                         "name": "Salted Peanuts Type - 450 Credits",
                         "chest_unopened_img": "images/food/Peanuts.png",
                         "chest_opened_img": "images/food/PeanutsOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem14",
                             "$typePeanuts",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2308,12 +2067,10 @@
                         "name": "Snack Mix Type - 450 Credits",
                         "chest_unopened_img": "images/food/SnackMix.png",
                         "chest_opened_img": "images/food/SnackMixOff.png",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "shopShuffleTypes"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$SRitem15",
                             "$typeMix",
                             "settingShopReceiveShops, sapphireItemShop",
@@ -2322,376 +2079,486 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Bamboo/Alpha Bamboo",
+                                "name": "Botanics - Alpha Bamboo\nAlpha Bamboo"
+                            },
+                            {
+                                "ref": "Botanics - Beta Bamboo/Beta Bamboo",
+                                "name": "Botanics - Beta Bamboo\nBeta Bamboo"
+                            },
+                            {
+                                "ref": "Botanics - Omega Bamboo/Omega Bamboo",
+                                "name": "Botanics - Omega Bamboo\nOmega Bamboo"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Ridge Flower/Alpha Ridge Flower",
+                                "name": "Botanics - Alpha Ridge Flower\nAlpha Ridge Flower"
+                            },
+                            {
+                                "ref": "Botanics - Beta Ridge Flower/Beta Ridge Flower",
+                                "name": "Botanics - Beta Ridge Flower\nBeta Ridge Flower"
+                            },
+                            {
+                                "ref": "Botanics - Omega Ridge Flower/Omega Ridge Flower",
+                                "name": "Botanics - Omega Ridge Flower\nOmega Ridge Flower"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Crystal/Alpha Crystal",
+                                "name": "Botanics - Alpha Crystal\nAlpha Crystal"
+                            },
+                            {
+                                "ref": "Botanics - Beta Crystal/Beta Crystal",
+                                "name": "Botanics - Beta Crystal\nBeta Crystal"
+                            },
+                            {
+                                "ref": "Botanics - Omega Crystal/Omega Crystal",
+                                "name": "Botanics - Omega Crystal\nOmega Crystal"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sapphire_Ridge",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
-
     // Sapphire Ridge World Map
-    
     {
         "item_count": 1,
         "children": [
             {
                 "sections": [
-                    
-                    {
-                        "ref": "Sapphire Ridge - Sapphire Tunnel/Gold Chest",
-                        "name": "Sapphire Ridge - Sapphire Tunnel - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Western Exit Upper/Chest",
-                        "name": "Sapphire Ridge - Western Exit Upper - Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Western Exit Lower/Bronze Chest",
-                        "name": "Sapphire Ridge - Western Exit Lower - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - North West Path Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - North West Path Upper - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - North West Path Lower/Silver Chest",
-                        "name": "Sapphire Ridge - North West Path Lower - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - River Road Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - River Road Upper - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - River Road Lower/Bronze Chest",
-                        "name": "Sapphire Ridge - River Road Lower - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - River Road Center/Gold Chest",
-                        "name": "Sapphire Ridge - River Road Center - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Exterior Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - Cave Inn Exterior Upper - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Exterior Lower/Gold Chest",
-                        "name": "Sapphire Ridge - Cave Inn Exterior Lower - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Interior 1F/Chest",
-                        "name": "Sapphire Ridge - Cave Inn Interior 1F - Chest"
-                    },                    
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Interior Storage/Gold Chest",
-                        "name": "Sapphire Ridge - Cave Inn Interior Storage - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Tranquil Bamboo Upper/Chest",
-                        "name": "Sapphire Ridge - Tranquil Bamboo Upper - Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Tranquil Bamboo Lower/Bronze Chest",
-                        "name": "Sapphire Ridge - Tranquil Bamboo Lower - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Tranquil Bamboo Vagabond/Old Dojo Key",
-                        "name": "Sapphire Ridge - Tranquil Bamboo Vagabond - Old Dojo Key"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Bamboo Thicket Upper/Silver Chest",
-                        "name": "Sapphire Ridge - Bamboo Thicket Upper - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Bamboo Thicket Center/Gold Chest",
-                        "name": "Sapphire Ridge - Bamboo Thicket Center - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - North East Path Upper/Silver Chest",
-                        "name": "Sapphire Ridge - North East Path Upper - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - North East Path Lower/Gold Chest",
-                        "name": "Sapphire Ridge - North East Path Lower - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Spider Chasm Lower/Bronze Chest",
-                        "name": "Sapphire Ridge - Spider Chasm Lower - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Spider Chasm Upper/Gold Chest",
-                        "name": "Sapphire Ridge - Spider Chasm Upper - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - High Ground Upper/Silver Chest",
-                        "name": "Sapphire Ridge - High Ground Upper - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - High Ground Lower/Gold Chest",
-                        "name": "Sapphire Ridge - High Ground Lower - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Eroded Passage Upper/Chest",
-                        "name": "Sapphire Ridge - Eroded Passage Upper - Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Eroded Passage Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Eroded Passage Lower - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Narrow Passage Right/Bronze Chest",
-                        "name": "Sapphire Ridge - Narrow Passage Right - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Narrow Passage Left/Silver Chest",
-                        "name": "Sapphire Ridge - Narrow Passage Left - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Flower Lake Left/Gold Chest",
-                        "name": "Sapphire Ridge - Flower Lake Left - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Flower Lake Right/Gold Chest",
-                        "name": "Sapphire Ridge - Flower Lake Right - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Carved Pathway Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - Carved Pathway Upper - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Carved Pathway Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Carved Pathway Lower - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Carved Pathway Center/Gold Chest",
-                        "name": "Sapphire Ridge - Carved Pathway Center - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Wheel Passage Upper/Bronze Chest",
-                        "name": "Sapphire Ridge - Wheel Passage Upper - Bronze Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Wheel Passage Lower/Gold Chest",
-                        "name": "Sapphire Ridge - Wheel Passage Lower - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Old Dojo Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Old Dojo Lower - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Old Dojo Left/Gold Chest",
-                        "name": "Sapphire Ridge - Old Dojo Left - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Old Dojo Upper/Gold Chest",
-                        "name": "Sapphire Ridge - Old Dojo Upper - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Old Dojo Interior/Meteor Shade",
-                        "name": "Sapphire Ridge - Old Dojo Interior - Meteor Shade"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Dream Pond/Gold Chest",
-                        "name": "Sapphire Ridge - Dream Pond - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Ascension Temple Lower/Silver Chest",
-                        "name": "Sapphire Ridge - Ascension Temple Lower - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Ascension Temple Upper Right/Silver Chest",
-                        "name": "Sapphire Ridge - Ascension Temple Upper Right - Silver Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Ascension Temple Upper Left/Gold Chest",
-                        "name": "Sapphire Ridge - Ascension Temple Upper Left - Gold Chest"
-                    },
-                    {
-                        "ref": "Sapphire Ridge - Baton Pond/Bronze Chest",
-                        "name": "Sapphire Ridge - Baton Pond - Bronze Chest"
-                    },
                     {
                         "ref": "Sapphire Ridge - The Barracks/Bronze Chest",
-                        "name": "Sapphire Ridge - The Barracks - Bronze Chest"
+                        "name": "Sapphire Ridge - The Barracks\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - The Bellow/Gold Chest",
-                        "name": "Sapphire Ridge - The Bellow - Gold Chest"
+                        "name": "Sapphire Ridge - The Bellow\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot - 100 Credits"
+                        "ref": "Sapphire Ridge - Sapphire Tunnel/Gold Chest",
+                        "name": "Sapphire Ridge - Sapphire Tunnel\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "ref": "Sapphire Ridge - Eroded Passage Upper/Chest",
+                        "name": "Sapphire Ridge - Eroded Passage Upper\nChest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "ref": "Sapphire Ridge - Eroded Passage Lower/Silver Chest",
+                        "name": "Sapphire Ridge - Eroded Passage Lower\nSilver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot - 222 Credits"
+                        "ref": "Sapphire Ridge - Spider Chasm Lower/Bronze Chest",
+                        "name": "Sapphire Ridge - Spider Chasm Lower\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot - 650 Credits"
+                        "ref": "Sapphire Ridge - Spider Chasm Upper/Gold Chest",
+                        "name": "Sapphire Ridge - Spider Chasm Upper\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "ref": "Sapphire Ridge - Narrow Passage Right/Bronze Chest",
+                        "name": "Sapphire Ridge - Narrow Passage Right\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot - 200 Credits"
+                        "ref": "Sapphire Ridge - Narrow Passage Left/Silver Chest",
+                        "name": "Sapphire Ridge - Narrow Passage Left\nSilver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot - 200 Credits"
+                        "ref": "Sapphire Ridge - Wheel Passage Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - Wheel Passage Upper\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "ref": "Sapphire Ridge - Wheel Passage Lower/Gold Chest",
+                        "name": "Sapphire Ridge - Wheel Passage Lower\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                        "ref": "Sapphire Ridge - Cave Inn Exterior Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - Cave Inn Exterior Upper\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                        "ref": "Sapphire Ridge - Cave Inn Exterior Lower/Gold Chest",
+                        "name": "Sapphire Ridge - Cave Inn Exterior Lower\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot - 450 Credits"
+                        "ref": "Sapphire Ridge - Cave Inn Interior 1F/Chest",
+                        "name": "Sapphire Ridge - Cave Inn Interior 1F\nChest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Slot - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot - 46750 Credits"
+                        "ref": "Sapphire Ridge - Cave Inn Interior Storage/Gold Chest",
+                        "name": "Sapphire Ridge - Cave Inn Interior Storage\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
+                        "ref": "Sapphire Ridge - Western Exit Upper/Chest",
+                        "name": "Sapphire Ridge - Western Exit Upper\nChest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Slot - 46475 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot - 46475 Credits"
+                        "ref": "Sapphire Ridge - Western Exit Lower/Bronze Chest",
+                        "name": "Sapphire Ridge - Western Exit Lower\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Slot - 70975 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot - 70975 Credits"
+                        "ref": "Sapphire Ridge - North West Path Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - North West Path Upper\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Slot - 46925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot - 46925 Credits"
+                        "ref": "Sapphire Ridge - North West Path Lower/Silver Chest",
+                        "name": "Sapphire Ridge - North West Path Lower\nSilver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Slot - 71925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot - 71925 Credits"
+                        "ref": "Sapphire Ridge - River Road Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - River Road Upper\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Slot - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot - 46750 Credits"
+                        "ref": "Sapphire Ridge - River Road Center/Gold Chest",
+                        "name": "Sapphire Ridge - River Road Center\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Slot - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot - 71350 Credits"
+                        "ref": "Sapphire Ridge - River Road Lower/Bronze Chest",
+                        "name": "Sapphire Ridge - River Road Lower\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Type - 100 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Type - 100 Credits"
+                        "ref": "Sapphire Ridge - Tranquil Bamboo Upper/Chest",
+                        "name": "Sapphire Ridge - Tranquil Bamboo Upper\nChest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Type - 300 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Type - 300 Credits"
+                        "ref": "Sapphire Ridge - Tranquil Bamboo Lower/Bronze Chest",
+                        "name": "Sapphire Ridge - Tranquil Bamboo Lower\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Type - 250 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Type - 250 Credits"
+                        "ref": "Sapphire Ridge - Tranquil Bamboo Vagabond/Old Dojo Key",
+                        "name": "Sapphire Ridge - Tranquil Bamboo Vagabond\nOld Dojo Key"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Type - 222 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Type - 222 Credits"
+                        "ref": "Sapphire Ridge - Bamboo Thicket Upper/Silver Chest",
+                        "name": "Sapphire Ridge - Bamboo Thicket Upper\nSilver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Type - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Type - 650 Credits"
+                        "ref": "Sapphire Ridge - Bamboo Thicket Center/Gold Chest",
+                        "name": "Sapphire Ridge - Bamboo Thicket Center\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Type - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Type - 200 Credits"
+                        "ref": "Sapphire Ridge - North East Path Upper/Silver Chest",
+                        "name": "Sapphire Ridge - North East Path Upper\nSilver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Type - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Type - 200 Credits"
+                        "ref": "Sapphire Ridge - North East Path Lower/Gold Chest",
+                        "name": "Sapphire Ridge - North East Path Lower\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Type - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Type - 200 Credits"
+                        "ref": "Sapphire Ridge - Flower Lake Left/Gold Chest",
+                        "name": "Sapphire Ridge - Flower Lake Left\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Type - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Type - 200 Credits"
+                        "ref": "Sapphire Ridge - Flower Lake Right/Gold Chest",
+                        "name": "Sapphire Ridge - Flower Lake Right\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Type - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Type - 450 Credits"
+                        "ref": "Sapphire Ridge - Carved Pathway Upper/Bronze Chest",
+                        "name": "Sapphire Ridge - Carved Pathway Upper\nBronze Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Type - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Type - 450 Credits"
+                        "ref": "Sapphire Ridge - Carved Pathway Lower/Silver Chest",
+                        "name": "Sapphire Ridge - Carved Pathway Lower\nSilver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Type - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Type - 450 Credits"
+                        "ref": "Sapphire Ridge - Carved Pathway Center/Gold Chest",
+                        "name": "Sapphire Ridge - Carved Pathway Center\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Type - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Type - 46750 Credits"
+                        "ref": "Sapphire Ridge - High Ground Upper/Silver Chest",
+                        "name": "Sapphire Ridge - High Ground Upper\nSilver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Type - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Type - 71350 Credits"
+                        "ref": "Sapphire Ridge - High Ground Lower/Gold Chest",
+                        "name": "Sapphire Ridge - High Ground Lower\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Type - 46475 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Type - 46475 Credits"
+                        "ref": "Sapphire Ridge - Old Dojo Lower/Silver Chest",
+                        "name": "Sapphire Ridge - Old Dojo Lower\nSilver Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Type - 70975 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Type - 70975 Credits"
+                        "ref": "Sapphire Ridge - Old Dojo Left/Gold Chest",
+                        "name": "Sapphire Ridge - Old Dojo Left\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Type - 46925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Type - 46925 Credits"
+                        "ref": "Sapphire Ridge - Old Dojo Upper/Gold Chest",
+                        "name": "Sapphire Ridge - Old Dojo Upper\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Type - 71925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Type - 71925 Credits"
+                        "ref": "Sapphire Ridge - Old Dojo Interior/Meteor Shade",
+                        "name": "Sapphire Ridge - Old Dojo Interior\nMeteor Shade"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Type - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Type - 46750 Credits"
+                        "ref": "Sapphire Ridge - Dream Pond/Gold Chest",
+                        "name": "Sapphire Ridge - Dream Pond\nGold Chest"
                     },
                     {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Type - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Type - 71350 Credits"
+                        "ref": "Sapphire Ridge - Ascension Temple Lower/Silver Chest",
+                        "name": "Sapphire Ridge - Ascension Temple Lower\nSilver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Ascension Temple Upper Right/Silver Chest",
+                        "name": "Sapphire Ridge - Ascension Temple Upper Right\nSilver Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Ascension Temple Upper Left/Gold Chest",
+                        "name": "Sapphire Ridge - Ascension Temple Upper Left\nGold Chest"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Baton Pond/Bronze Chest",
+                        "name": "Sapphire Ridge - Baton Pond\nBronze Chest"
                     },
                     {
                         "ref": "Sapphire Ridge - Baxton Addi/Henry Trailblazing",
-                        "name": "Sapphire Ridge - Baxton Addi - Henry Trailblazing"
+                        "name": "Sapphire Ridge - Baxton Addi\nHenry Trailblazing"
                     },
                     {
                         "ref": "Sapphire Ridge - PuellaDocta/Last Minute Help Needed",
-                        "name": "Sapphire Ridge - PuellaDocta - Last Minute Help Needed"
+                        "name": "Sapphire Ridge - PuellaDocta\nLast Minute Help Needed"
                     },
                     {
                         "ref": "Sapphire Ridge - Kat (Storage Balcony)/An Unfortunate Series of Features",
-                        "name": "Sapphire Ridge - Kat (Storage Balcony) - An Unfortunate Series of Features"
+                        "name": "Sapphire Ridge - Kat (Storage Balcony)\nAn Unfortunate Series of Features"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Slot - 46750 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot\n46750 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot\n71350 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Slot - 46475 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot\n46475 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Slot - 70975 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot\n70975 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Slot - 46925 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot\n46925 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Slot - 71925 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot\n71925 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Slot - 46750 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot\n46750 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Slot - 71350 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot\n71350 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Type - 46750 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Type\n46750 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Type - 71350 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Type\n71350 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Type - 46475 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Type\n46475 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Type - 70975 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Type\n70975 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Type - 46925 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Type\n46925 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Type - 71925 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Type\n71925 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Type - 46750 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Type\n46750 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Type - 71350 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Type\n71350 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot\n100 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot\n300 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot\n250 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot\n222 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot\n650 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Meaty Risotto Slot - 650 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Slot\n650 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot\n200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot\n200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot\n200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot\n200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Salted Peanuts Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Slot\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Slot - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Type - 100 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Type\n100 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Type - 300 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Type\n300 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Type - 250 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Type\n250 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Type - 222 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Type\n222 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Type - 650 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Type\n650 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Meaty Risotto Type - 650 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Type\n650 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Type - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Type\n200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Type - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Type\n200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Type - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Type\n200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Type - 200 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Type\n200 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Type - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Type\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Type - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Type\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Type - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Type\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Salted Peanuts Type - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Type\n450 Credits"
+                    },
+                    {
+                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Type - 450 Credits",
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Type\n450 Credits"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Bamboo/Alpha Bamboo",
+                        "name": "Botanics - Alpha Bamboo\nAlpha Bamboo"
+                    },
+                    {
+                        "ref": "Botanics - Beta Bamboo/Beta Bamboo",
+                        "name": "Botanics - Beta Bamboo\nBeta Bamboo"
+                    },
+                    {
+                        "ref": "Botanics - Omega Bamboo/Omega Bamboo",
+                        "name": "Botanics - Omega Bamboo\nOmega Bamboo"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Ridge Flower/Alpha Ridge Flower",
+                        "name": "Botanics - Alpha Ridge Flower\nAlpha Ridge Flower"
+                    },
+                    {
+                        "ref": "Botanics - Beta Ridge Flower/Beta Ridge Flower",
+                        "name": "Botanics - Beta Ridge Flower\nBeta Ridge Flower"
+                    },
+                    {
+                        "ref": "Botanics - Omega Ridge Flower/Omega Ridge Flower",
+                        "name": "Botanics - Omega Ridge Flower\nOmega Ridge Flower"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Crystal/Alpha Crystal",
+                        "name": "Botanics - Alpha Crystal\nAlpha Crystal"
+                    },
+                    {
+                        "ref": "Botanics - Beta Crystal/Beta Crystal",
+                        "name": "Botanics - Beta Crystal\nBeta Crystal"
+                    },
+                    {
+                        "ref": "Botanics - Omega Crystal/Omega Crystal",
+                        "name": "Botanics - Omega Crystal\nOmega Crystal"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 365,
-                      "y": 140
+                        "map": "WorldMap",
+                        "x": 365,
+                        "y": 140
                     }
                 ]
             }

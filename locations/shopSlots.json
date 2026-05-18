@@ -7,14 +7,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Slot\n100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 38
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 38
                     }
                 ]
             }
@@ -27,14 +27,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Slot\n300 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 56
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 56
                     }
                 ]
             }
@@ -47,14 +47,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 76
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 76
                     }
                 ]
             }
@@ -67,14 +67,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Slot\n222 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 98
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 98
                     }
                 ]
             }
@@ -87,14 +87,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Slot\n650 Credits Have Blue Ice"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 118
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 118
                     }
                 ]
             }
@@ -107,14 +107,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Slot\n650 Credits Have Blue Ice"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 138
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 138
                     }
                 ]
             }
@@ -127,14 +127,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 158
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 158
                     }
                 ]
             }
@@ -147,14 +147,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 178
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 178
                     }
                 ]
             }
@@ -167,14 +167,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 198
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 198
                     }
                 ]
             }
@@ -187,14 +187,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 218
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 218
                     }
                 ]
             }
@@ -207,14 +207,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 240
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 240
                     }
                 ]
             }
@@ -227,14 +227,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 260
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 260
                     }
                 ]
             }
@@ -247,14 +247,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 280
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 280
                     }
                 ]
             }
@@ -267,14 +267,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 300
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 300
                     }
                 ]
             }
@@ -287,14 +287,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 320
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 320
                     }
                 ]
             }
@@ -307,14 +307,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Slot - 4700 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Slot\n4700 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 378
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 378
                     }
                 ]
             }
@@ -327,14 +327,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Slot\n15850 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 398
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 398
                     }
                 ]
             }
@@ -347,14 +347,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Edge Slot - 4500 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Slot - 4500 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Slot\n4500 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 418
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 418
                     }
                 ]
             }
@@ -367,14 +367,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Slot\n15800 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 438
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 438
                     }
                 ]
             }
@@ -387,14 +387,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Mail Slot - 4800 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Slot - 4800 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Slot\n4800 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 458
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 458
                     }
                 ]
             }
@@ -407,14 +407,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Slot\n16100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 478
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 478
                     }
                 ]
             }
@@ -427,14 +427,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Boots Slot - 4700 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Slot - 4700 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Slot\n4700 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 498
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 498
                     }
                 ]
             }
@@ -447,14 +447,14 @@
                 "sections": [
                     {
                         "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
+                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Slot\n15950 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 515
+                        "map": "ShopMap",
+                        "x": 300,
+                        "y": 515
                     }
                 ]
             }
@@ -468,14 +468,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSandwich Slot\n100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 38
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 38
                     }
                 ]
             }
@@ -488,14 +488,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nHi-Sandwich Slot\n300 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 56
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 56
                     }
                 ]
             }
@@ -508,14 +508,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 76
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 76
                     }
                 ]
             }
@@ -528,14 +528,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nJust Water Slot\n222 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 98
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 98
                     }
                 ]
             }
@@ -548,14 +548,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Slot - 650 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nKebab Roll Slot\n650 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 118
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 118
                     }
                 ]
             }
@@ -568,14 +568,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nMeaty Risotto Slot\n650 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 138
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 138
                     }
                 ]
             }
@@ -588,14 +588,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSpicy Bun Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 158
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 158
                     }
                 ]
             }
@@ -608,14 +608,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nFruit Drink Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 178
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 178
                     }
                 ]
             }
@@ -628,14 +628,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nRice Cracker Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 198
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 198
                     }
                 ]
             }
@@ -648,14 +648,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nVeggie Sticks Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 218
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 218
                     }
                 ]
             }
@@ -668,14 +668,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nBergen Ice Cream Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 240
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 240
                     }
                 ]
             }
@@ -688,14 +688,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSweet Lemonjuice Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 260
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 260
                     }
                 ]
             }
@@ -708,14 +708,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nCup o' Coffee Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 280
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 280
                     }
                 ]
             }
@@ -728,14 +728,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSalted Peanuts Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 300
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 300
                     }
                 ]
             }
@@ -748,14 +748,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSnack Mix Slot - 450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSnack Mix Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 320
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 320
                     }
                 ]
             }
@@ -768,14 +768,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Goggles Slot\n29450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 378
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 378
                     }
                 ]
             }
@@ -788,14 +788,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Goggles Slot - 46750 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Slot - 46750 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Goggles Slot\n46750 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 398
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 398
                     }
                 ]
             }
@@ -808,14 +808,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Edge Slot\n29375 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 418
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 418
                     }
                 ]
             }
@@ -828,14 +828,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Edge Slot - 46475 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Slot - 46475 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Edge Slot\n46475 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 438
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 438
                     }
                 ]
             }
@@ -848,14 +848,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Mail Slot\n29725 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 458
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 458
                     }
                 ]
             }
@@ -868,14 +868,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Mail Slot - 46925 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Slot - 46925 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Mail Slot\n46925 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 478
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 478
                     }
                 ]
             }
@@ -888,14 +888,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nSilver Boots Slot\n29450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 498
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 498
                     }
                 ]
             }
@@ -908,14 +908,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Weapon & Item Shop/Titan Boots Slot - 46750 Credits",
-                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Slot - 46750 Credits"
+                        "name": "Basin Keep - Weapon & Item Shop\nTitan Boots Slot\n46750 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 513
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 513
                     }
                 ]
             }
@@ -928,14 +928,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Sandwich Slot - 100 Credits",
-                        "name": "Basin Keep - Vending Machine\nSandwich Slot - 100 Credits"
+                        "name": "Basin Keep - Vending Machine\nSandwich Slot\n100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 653
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 653
                     }
                 ]
             }
@@ -948,14 +948,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Basin Keep - Vending Machine\nHi-Sandwich Slot\n300 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 673
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 673
                     }
                 ]
             }
@@ -968,14 +968,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Basin Keep - Vending Machine\nGreen Leaf Tea Slot\n250 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 693
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 693
                     }
                 ]
             }
@@ -988,14 +988,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Just Water Slot - 222 Credits",
-                        "name": "Basin Keep - Vending Machine\nJust Water Slot - 222 Credits"
+                        "name": "Basin Keep - Vending Machine\nJust Water Slot\n222 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 713
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 713
                     }
                 ]
             }
@@ -1008,14 +1008,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Kebab Roll Slot - 650 Credits",
-                        "name": "Basin Keep - Vending Machine\nKebab Roll Slot - 650 Credits"
+                        "name": "Basin Keep - Vending Machine\nKebab Roll Slot\n650 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 733
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 733
                     }
                 ]
             }
@@ -1028,14 +1028,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Meaty Risotto Slot - 650 Credits",
-                        "name": "Basin Keep - Vending Machine\nMeaty Risotto Slot - 650 Credits"
+                        "name": "Basin Keep - Vending Machine\nMeaty Risotto Slot\n650 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 753
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 753
                     }
                 ]
             }
@@ -1048,14 +1048,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Spicy Bun Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nSpicy Bun Slot - 200 Credits"
+                        "name": "Basin Keep - Vending Machine\nSpicy Bun Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 773
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 773
                     }
                 ]
             }
@@ -1068,14 +1068,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Fruit Drink Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nFruit Drink Slot - 200 Credits"
+                        "name": "Basin Keep - Vending Machine\nFruit Drink Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 793
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 793
                     }
                 ]
             }
@@ -1088,14 +1088,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Rice Cracker Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nRice Cracker Slot - 200 Credits"
+                        "name": "Basin Keep - Vending Machine\nRice Cracker Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 813
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 813
                     }
                 ]
             }
@@ -1108,14 +1108,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Veggie Sticks Slot - 200 Credits",
-                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Basin Keep - Vending Machine\nVeggie Sticks Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 833
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 833
                     }
                 ]
             }
@@ -1128,14 +1128,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Slot - 450 Credits"
+                        "name": "Basin Keep - Vending Machine\nBergen Ice Cream Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 853
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 853
                     }
                 ]
             }
@@ -1148,14 +1148,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Slot - 450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSweet Lemonjuice Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 880
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 880
                     }
                 ]
             }
@@ -1168,14 +1168,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Slot - 450 Credits"
+                        "name": "Basin Keep - Vending Machine\nCup o' Coffee Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 902
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 902
                     }
                 ]
             }
@@ -1188,14 +1188,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Salted Peanuts Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Slot - 450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSalted Peanuts Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 922
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 922
                     }
                 ]
             }
@@ -1208,14 +1208,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Vending Machine/Snack Mix Slot - 450 Credits",
-                        "name": "Basin Keep - Vending Machine\nSnack Mix Slot - 450 Credits"
+                        "name": "Basin Keep - Vending Machine\nSnack Mix Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 942
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 942
                     }
                 ]
             }
@@ -1228,14 +1228,14 @@
                 "sections": [
                     {
                         "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Slot - 60000 Credits",
-                        "name": "Basin Keep - Calzonr Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
+                        "name": "Basin Keep - Calzonr Shop After 'Mushroom Kingdom'\nOne Up Slot\n60000 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 442,
-                      "y": 1127
+                        "map": "ShopMap",
+                        "x": 442,
+                        "y": 1127
                     }
                 ]
             }
@@ -1249,14 +1249,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nSweet Berry Tea Slot - 3299 Credits"
+                        "name": "Bergen Trail - Hermit Shop\nSweet Berry Tea Slot\n3299 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 158,
-                      "y": 653
+                        "map": "ShopMap",
+                        "x": 158,
+                        "y": 653
                     }
                 ]
             }
@@ -1269,14 +1269,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Slot - 1099 Credits"
+                        "name": "Bergen Trail - Hermit Shop\nChili Con Carne Slot\n1099 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 158,
-                      "y": 673
+                        "map": "ShopMap",
+                        "x": 158,
+                        "y": 673
                     }
                 ]
             }
@@ -1289,14 +1289,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits",
-                        "name": "Bergen Trail - Hermit Shop\nSweet Lemonjuice Slot - 2199 Credits"
+                        "name": "Bergen Trail - Hermit Shop\nSweet Lemonjuice Slot\n2199 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 158,
-                      "y": 693
+                        "map": "ShopMap",
+                        "x": 158,
+                        "y": 693
                     }
                 ]
             }
@@ -1310,14 +1310,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Bergen Village - Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Bergen Village - Item Shop\nSandwich Slot\n100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 38
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 38
                     }
                 ]
             }
@@ -1330,14 +1330,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Bergen Village - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Bergen Village - Item Shop\nHi-Sandwich Slot\n300 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 56
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 56
                     }
                 ]
             }
@@ -1350,14 +1350,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Bergen Village - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Bergen Village - Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 76
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 76
                     }
                 ]
             }
@@ -1370,14 +1370,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Bergen Village - Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Bergen Village - Item Shop\nJust Water Slot\n222 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 98
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 98
                     }
                 ]
             }
@@ -1390,14 +1390,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
-                        "name": "Bergen Village - Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                        "name": "Bergen Village - Item Shop\nKebab Roll Slot\n650 Credits Have Blue Ice"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 118
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 118
                     }
                 ]
             }
@@ -1410,14 +1410,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
-                        "name": "Bergen Village - Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                        "name": "Bergen Village - Item Shop\nMeaty Risotto Slot\n650 Credits Have Blue Ice"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 138
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 138
                     }
                 ]
             }
@@ -1430,14 +1430,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Bergen Village - Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Bergen Village - Item Shop\nSpicy Bun Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 158
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 158
                     }
                 ]
             }
@@ -1450,14 +1450,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Bergen Village - Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Bergen Village - Item Shop\nFruit Drink Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 178
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 178
                     }
                 ]
             }
@@ -1470,14 +1470,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Bergen Village - Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Bergen Village - Item Shop\nRice Cracker Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 198
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 198
                     }
                 ]
             }
@@ -1490,14 +1490,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Bergen Village - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Bergen Village - Item Shop\nVeggie Sticks Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 218
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 218
                     }
                 ]
             }
@@ -1510,14 +1510,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Bergen Ice Cream Slot - 450 Credits Have Red Flame",
-                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Red Flame"
+                        "name": "Bergen Village - Item Shop\nBergen Ice Cream Slot\n450 Credits Have Red Flame"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 240
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 240
                     }
                 ]
             }
@@ -1530,14 +1530,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
-                        "name": "Bergen Village - Item Shop\nSweet Lemonjuice Slot - 450 Credits Have Red Flame"
+                        "name": "Bergen Village - Item Shop\nSweet Lemonjuice Slot\n450 Credits Have Red Flame"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 260
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 260
                     }
                 ]
             }
@@ -1550,14 +1550,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Bergen Village - Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                        "name": "Bergen Village - Item Shop\nCup o' Coffee Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 280
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 280
                     }
                 ]
             }
@@ -1570,14 +1570,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
-                        "name": "Bergen Village - Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                        "name": "Bergen Village - Item Shop\nSalted Peanuts Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 300
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 300
                     }
                 ]
             }
@@ -1590,14 +1590,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
-                        "name": "Bergen Village - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
+                        "name": "Bergen Village - Item Shop\nSnack Mix Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 320
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 320
                     }
                 ]
             }
@@ -1610,14 +1610,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Weapon Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Goggles Slot - 4700 Credits"
+                        "name": "Bergen Village - Weapon Shop\nIron Goggles Slot\n4700 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 378
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 378
                     }
                 ]
             }
@@ -1630,14 +1630,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Weapon Shop/Iron Edge Slot - 4500 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Edge Slot - 4500 Credits"
+                        "name": "Bergen Village - Weapon Shop\nIron Edge Slot\n4500 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 398
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 398
                     }
                 ]
             }
@@ -1650,14 +1650,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Weapon Shop/Iron Mail Slot - 4800 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Mail Slot - 4800 Credits"
+                        "name": "Bergen Village - Weapon Shop\nIron Mail Slot\n4800 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 418
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 418
                     }
                 ]
             }
@@ -1670,14 +1670,14 @@
                 "sections": [
                     {
                         "ref": "Bergen Village - Weapon Shop/Iron Boots Slot - 4700 Credits",
-                        "name": "Bergen Village - Weapon Shop\nIron Boots Slot - 4700 Credits"
+                        "name": "Bergen Village - Weapon Shop\nIron Boots Slot\n4700 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 155,
-                      "y": 438
+                        "map": "ShopMap",
+                        "x": 155,
+                        "y": 438
                     }
                 ]
             }
@@ -1691,14 +1691,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Rhombus Square - Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Rhombus Square - Item Shop\nSandwich Slot\n100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 38
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 38
                     }
                 ]
             }
@@ -1711,14 +1711,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Rhombus Square - Item Shop\nHi-Sandwich Slot\n300 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 56
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 56
                     }
                 ]
             }
@@ -1731,14 +1731,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Rhombus Square - Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 76
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 76
                     }
                 ]
             }
@@ -1751,14 +1751,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Rhombus Square - Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Rhombus Square - Item Shop\nJust Water Slot\n222 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 98
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 98
                     }
                 ]
             }
@@ -1771,14 +1771,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Rhombus Square - Item Shop\nKebab Roll Slot - 650 Credits"
+                        "name": "Rhombus Square - Item Shop\nKebab Roll Slot\n650 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 118
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 118
                     }
                 ]
             }
@@ -1791,14 +1791,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Rhombus Square - Item Shop\nMeaty Risotto Slot - 650 Credits"
+                        "name": "Rhombus Square - Item Shop\nMeaty Risotto Slot\n650 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 138
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 138
                     }
                 ]
             }
@@ -1811,14 +1811,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Rhombus Square - Item Shop\nSpicy Bun Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 158
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 158
                     }
                 ]
             }
@@ -1831,14 +1831,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Rhombus Square - Item Shop\nFruit Drink Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 178
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 178
                     }
                 ]
             }
@@ -1851,14 +1851,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Rhombus Square - Item Shop\nRice Cracker Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 198
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 198
                     }
                 ]
             }
@@ -1871,14 +1871,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Rhombus Square - Item Shop\nVeggie Sticks Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 218
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 218
                     }
                 ]
             }
@@ -1891,14 +1891,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                        "name": "Rhombus Square - Item Shop\nBergen Ice Cream Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 240
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 240
                     }
                 ]
             }
@@ -1911,14 +1911,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSweet Lemonjuice Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 260
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 260
                     }
                 ]
             }
@@ -1931,14 +1931,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Slot - 450 Credits"
+                        "name": "Rhombus Square - Item Shop\nCup o' Coffee Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 280
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 280
                     }
                 ]
             }
@@ -1951,14 +1951,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Slot - 450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSalted Peanuts Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 300
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 300
                     }
                 ]
             }
@@ -1971,20 +1971,19 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot - 450 Credits"
+                        "name": "Rhombus Square - Item Shop\nSnack Mix Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 320
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 320
                     }
                 ]
             }
         ]
     },
-    
     {
         "item_count": 1,
         "children": [
@@ -1992,14 +1991,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Goggles Slot\n71350 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 378
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 378
                     }
                 ]
             }
@@ -2012,14 +2011,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Goggles Slot - 104750 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Goggles Slot - 104750 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Goggles Slot\n104750 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 398
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 398
                     }
                 ]
             }
@@ -2032,14 +2031,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Edge Slot - 70975 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Edge Slot - 70975 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Edge Slot\n70975 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 418
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 418
                     }
                 ]
             }
@@ -2052,14 +2051,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Edge Slot - 104500 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Edge Slot - 104500 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Edge Slot\n104500 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 438
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 438
                     }
                 ]
             }
@@ -2072,14 +2071,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Mail Slot - 71925 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Mail Slot - 71925 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Mail Slot\n71925 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 458
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 458
                     }
                 ]
             }
@@ -2092,14 +2091,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Mail Slot - 105000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Mail Slot - 105000 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Mail Slot\n105000 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 478
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 478
                     }
                 ]
             }
@@ -2112,14 +2111,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Boots Slot - 71350 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCobalt Boots Slot - 71350 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nCobalt Boots Slot\n71350 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 493
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 493
                     }
                 ]
             }
@@ -2132,14 +2131,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Weapon Shop/Laser Boots Slot - 104750 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nLaser Boots Slot - 104750 Credits"
+                        "name": "Rhombus Square - Weapon Shop\nLaser Boots Slot\n104750 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 513
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 513
                     }
                 ]
             }
@@ -2152,14 +2151,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Rising Super Star Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nRising Super Star Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nRising Super Star Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 654
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 654
                     }
                 ]
             }
@@ -2172,14 +2171,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Dk Pepper Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nDk Pepper Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nDk Pepper Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 674
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 674
                     }
                 ]
             }
@@ -2192,14 +2191,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Maultasche Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nMaultacshe Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nMaultacshe Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 694
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 694
                     }
                 ]
             }
@@ -2212,14 +2211,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nCheese Spaetzle Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 712
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 712
                     }
                 ]
             }
@@ -2232,14 +2231,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Durian Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nDurian Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nDurian Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 732
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 732
                     }
                 ]
             }
@@ -2252,14 +2251,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/PengoPop Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nPengoPop Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nPengoPop Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 752
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 752
                     }
                 ]
             }
@@ -2272,14 +2271,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nSpicy Beat-0-Type Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 770
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 770
                     }
                 ]
             }
@@ -2292,14 +2291,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Werewolf Stick Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nWerewolf Stick Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nWerewolf Stick Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 789
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 789
                     }
                 ]
             }
@@ -2312,14 +2311,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Mooncake Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nMooncake Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nMooncake Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 808
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 808
                     }
                 ]
             }
@@ -2332,14 +2331,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Willis Waldmahl Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nWillis Waldmahl Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 827
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 827
                     }
                 ]
             }
@@ -2352,14 +2351,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nPumpkin Spiced Coffee Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 846
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 846
                     }
                 ]
             }
@@ -2372,14 +2371,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Backer Chef Shop/Guacamole Toast Slot - 9999 Credits",
-                        "name": "Rhombus Square - Backer Chef Shop\nGuacamole Toast Slot - 9999 Credits"
+                        "name": "Rhombus Square - Backer Chef Shop\nGuacamole Toast Slot\n9999 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 865
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 865
                     }
                 ]
             }
@@ -2392,14 +2391,14 @@
                 "sections": [
                     {
                         "ref": "Rhombus Square - Curio Shop/Chest Detector Slot - 33333 Credits",
-                        "name": "Rhombus Square - Curio Shop\nChest Detector Slot - 33333 Credits"
+                        "name": "Rhombus Square - Curio Shop\nChest Detector Slot\n33333 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 728,
-                      "y": 1127
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 1127
                     }
                 ]
             }
@@ -2413,14 +2412,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Rookie Harbor - Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Rookie Harbor - Item Shop\nSandwich Slot\n100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 38
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 38
                     }
                 ]
             }
@@ -2433,14 +2432,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Rookie Harbor - Item Shop\nHi-Sandwich Slot\n300 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 56
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 56
                     }
                 ]
             }
@@ -2453,14 +2452,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Rookie Harbor - Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 76
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 76
                     }
                 ]
             }
@@ -2473,14 +2472,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Rookie Harbor - Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Rookie Harbor - Item Shop\nJust Water Slot\n222 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 98
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 98
                     }
                 ]
             }
@@ -2493,14 +2492,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
-                        "name": "Rookie Harbor - Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
+                        "name": "Rookie Harbor - Item Shop\nKebab Roll Slot\n650 Credits Have Blue Ice"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 118
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 118
                     }
                 ]
             }
@@ -2513,14 +2512,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
-                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
+                        "name": "Rookie Harbor - Item Shop\nMeaty Risotto Slot\n650 Credits Have Blue Ice"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 138
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 138
                     }
                 ]
             }
@@ -2533,14 +2532,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nSpicy Bun Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 158
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 158
                     }
                 ]
             }
@@ -2553,14 +2552,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nFruit Drink Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 178
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 178
                     }
                 ]
             }
@@ -2573,14 +2572,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nRice Cracker Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 198
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 198
                     }
                 ]
             }
@@ -2593,14 +2592,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Rookie Harbor - Item Shop\nVeggie Sticks Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 218
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 218
                     }
                 ]
             }
@@ -2613,14 +2612,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Bergen Ice Cream Slot - 450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Slot - 450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Item Shop\nBergen Ice Cream Slot\n450 Credits Have Red Flame"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 240
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 240
                     }
                 ]
             }
@@ -2633,14 +2632,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Sweet Lemonjuice Slot - 450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Slot - 450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Item Shop\nSweet Lemonjuice Slot\n450 Credits Have Red Flame"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 260
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 260
                     }
                 ]
             }
@@ -2653,14 +2652,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nCup o' Coffee Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 280
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 280
                     }
                 ]
             }
@@ -2673,14 +2672,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nSalted Peanuts Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 300
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 300
                     }
                 ]
             }
@@ -2693,14 +2692,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
-                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
+                        "name": "Rookie Harbor - Item Shop\nSnack Mix Slot\n450 Credits Have Green Seed"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 320
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 320
                     }
                 ]
             }
@@ -2713,14 +2712,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Goggles Slot - 850 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Slot - 850 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Goggles Slot\n850 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 378
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 378
                     }
                 ]
             }
@@ -2733,14 +2732,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Slot - 4700 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Goggles Slot\n4700 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 398
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 398
                     }
                 ]
             }
@@ -2753,14 +2752,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Goggles Slot - 29450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapom Shop\nSilver Goggles Slot - 29450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapom Shop\nSilver Goggles Slot\n29450 Credits Have Red Flame"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 418
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 418
                     }
                 ]
             }
@@ -2773,14 +2772,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Edge Slot - 800 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Slot - 800 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Edge Slot\n800 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 438
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 438
                     }
                 ]
             }
@@ -2793,14 +2792,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Edge Slot - 4500 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Slot - 4500 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Edge Slot\n4500 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 458
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 458
                     }
                 ]
             }
@@ -2813,14 +2812,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Edge Slot - 29375 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Slot - 29375 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Edge Slot\n29375 Credits Have Red Flame"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 478
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 478
                     }
                 ]
             }
@@ -2833,14 +2832,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Mail Slot - 900 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Slot - 900 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Mail Slot\n900 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 498
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 498
                     }
                 ]
             }
@@ -2853,14 +2852,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Mail Slot - 4800 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Slot - 4800 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Mail Slot\n4800 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 518
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 518
                     }
                 ]
             }
@@ -2873,14 +2872,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Mail Slot - 29725 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Slot - 29725 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Mail Slot\n29725 Credits Have Red Flame"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 538
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 538
                     }
                 ]
             }
@@ -2893,14 +2892,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Bronze Boots Slot - 850 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Slot - 800 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nBronze Boots Slot\n800 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 558
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 558
                     }
                 ]
             }
@@ -2913,14 +2912,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Iron Boots Slot - 4700 Credits",
-                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Slot - 4700 Credits"
+                        "name": "Rookie Harbor - Weapon Shop\nIron Boots Slot\n4700 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 578
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 578
                     }
                 ]
             }
@@ -2933,14 +2932,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Weapon Shop/Silver Boots Slot - 29450 Credits Have Red Flame",
-                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Slot - 29450 Credits Have Red Flame"
+                        "name": "Rookie Harbor - Weapon Shop\nSilver Boots Slot\n29450 Credits Have Red Flame"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 598
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 598
                     }
                 ]
             }
@@ -2953,14 +2952,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nRising Super Star Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nRising Super Star Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 654
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 654
                     }
                 ]
             }
@@ -2973,14 +2972,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Dk Pepper Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nDk Pepper Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nDk Pepper Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 674
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 674
                     }
                 ]
             }
@@ -2993,14 +2992,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nMaultacshe Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nMaultacshe Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 694
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 694
                     }
                 ]
             }
@@ -3013,14 +3012,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nCheese Spaetzle Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nCheese Spaetzle Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 712
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 712
                     }
                 ]
             }
@@ -3033,14 +3032,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Durian Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nDurian Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nDurian Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 732
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 732
                     }
                 ]
             }
@@ -3053,14 +3052,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nPengoPop Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nPengoPop Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 752
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 752
                     }
                 ]
             }
@@ -3073,14 +3072,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nSpicy Beat-0-Type Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nSpicy Beat-0-Type Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 770
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 770
                     }
                 ]
             }
@@ -3093,14 +3092,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nWerewolf Stick Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nWerewolf Stick Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 789
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 789
                     }
                 ]
             }
@@ -3113,14 +3112,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nMooncake Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nMooncake Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 808
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 808
                     }
                 ]
             }
@@ -3133,14 +3132,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nWillis Waldmahl Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nWillis Waldmahl Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 827
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 827
                     }
                 ]
             }
@@ -3153,14 +3152,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Slot - 7777 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nPumpkin Spiced Coffee Slot - 7777 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nPumpkin Spiced Coffee Slot\n7777 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 846
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 846
                     }
                 ]
             }
@@ -3173,14 +3172,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Slot - 9999 Credits",
-                        "name": "Rookie Harbor - Backer Chef Shop\nGuacamole Toast Slot - 9999 Credits"
+                        "name": "Rookie Harbor - Backer Chef Shop\nGuacamole Toast Slot\n9999 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 865
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 865
                     }
                 ]
             }
@@ -3193,14 +3192,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Slot - 15850 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Goggles Slot - 15850 Credits"
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Goggles Slot\n15850 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 920
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 920
                     }
                 ]
             }
@@ -3213,14 +3212,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Slot - 29450 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Goggles Slot - 29450 Credits"
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Goggles Slot\n29450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 939
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 939
                     }
                 ]
             }
@@ -3233,14 +3232,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Slot - 15800 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Edge Slot - 15800 Credits"
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Edge Slot\n15800 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 958
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 958
                     }
                 ]
             }
@@ -3253,14 +3252,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Slot - 29375 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Edge Slot - 29375 Credits"
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Edge Slot\n29375 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 977
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 977
                     }
                 ]
             }
@@ -3273,14 +3272,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Slot - 16100 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Mail Slot - 16100 Credits"
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Mail Slot\n16100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 996
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 996
                     }
                 ]
             }
@@ -3293,14 +3292,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Slot - 29725 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Mail Slot - 29725 Credits"
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Mail Slot\n29725 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 1015
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 1015
                     }
                 ]
             }
@@ -3313,14 +3312,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Slot - 15950 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Boots Slot - 15950 Credits"
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSteel Boots Slot\n15950 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 1034
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 1034
                     }
                 ]
             }
@@ -3333,14 +3332,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Slot - 29450 Credits",
-                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Boots Slot - 29450 Credits"
+                        "name": "Rookie Harbor - Backer Weapon Shop\nSilver Boots Slot\n29450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 1053
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 1053
                     }
                 ]
             }
@@ -3353,14 +3352,14 @@
                 "sections": [
                     {
                         "ref": "Rookie Harbor - Tara's Shop/Sandwich Slot - 2500 Credits",
-                        "name": "Rookie Harbor - Tara's Shop\nSandwich Slot - 2500 Credits"
+                        "name": "Rookie Harbor - Tara's Shop\nSandwich Slot\n2500 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 11,
-                      "y": 1127
+                        "map": "ShopMap",
+                        "x": 11,
+                        "y": 1127
                     }
                 ]
             }
@@ -3374,14 +3373,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot\n100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 38
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 38
                     }
                 ]
             }
@@ -3394,14 +3393,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot\n300 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 56
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 56
                     }
                 ]
             }
@@ -3414,14 +3413,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 76
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 76
                     }
                 ]
             }
@@ -3434,14 +3433,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot\n222 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 98
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 98
                     }
                 ]
             }
@@ -3454,14 +3453,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot - 650 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot\n650 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 118
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 118
                     }
                 ]
             }
@@ -3474,14 +3473,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Slot - 650 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Slot\n650 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 138
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 138
                     }
                 ]
             }
@@ -3494,14 +3493,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 158
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 158
                     }
                 ]
             }
@@ -3514,14 +3513,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 178
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 178
                     }
                 ]
             }
@@ -3534,14 +3533,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 198
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 198
                     }
                 ]
             }
@@ -3554,14 +3553,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 218
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 218
                     }
                 ]
             }
@@ -3574,14 +3573,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 240
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 240
                     }
                 ]
             }
@@ -3594,14 +3593,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 260
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 260
                     }
                 ]
             }
@@ -3614,14 +3613,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 280
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 280
                     }
                 ]
             }
@@ -3634,14 +3633,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 300
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 300
                     }
                 ]
             }
@@ -3654,14 +3653,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot - 450 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot\n450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 320
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 320
                     }
                 ]
             }
@@ -3674,14 +3673,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Slot - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot - 46750 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot\n46750 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 378
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 378
                     }
                 ]
             }
@@ -3694,14 +3693,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot\n71350 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 398
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 398
                     }
                 ]
             }
@@ -3714,14 +3713,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Slot - 46475 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot - 46475 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot\n46475 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 418
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 418
                     }
                 ]
             }
@@ -3734,14 +3733,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Slot - 70975 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot - 70975 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot\n70975 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 438
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 438
                     }
                 ]
             }
@@ -3754,14 +3753,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Slot - 46925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot - 46925 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot\n46925 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 458
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 458
                     }
                 ]
             }
@@ -3774,14 +3773,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Slot - 71925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot - 71925 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot\n71925 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 478
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 478
                     }
                 ]
             }
@@ -3794,14 +3793,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Slot - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot - 46750 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot\n46750 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 498
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 498
                     }
                 ]
             }
@@ -3814,14 +3813,14 @@
                 "sections": [
                     {
                         "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Slot - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot - 71350 Credits"
+                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot\n71350 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 513
+                        "map": "ShopMap",
+                        "x": 585,
+                        "y": 513
                     }
                 ]
             }
@@ -3835,14 +3834,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSandwich Slot - 100 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSandwich Slot\n100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 38
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 38
                     }
                 ]
             }
@@ -3855,14 +3854,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nHi-Sandwich Slot\n300 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 56
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 56
                     }
                 ]
             }
@@ -3875,14 +3874,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nGreen Leaf Tea Slot\n250 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 76
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 76
                     }
                 ]
             }
@@ -3895,14 +3894,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nJust Water Slot - 222 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nJust Water Slot\n222 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 98
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 98
                     }
                 ]
             }
@@ -3915,14 +3914,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSpicy Bun Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 118
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 118
                     }
                 ]
             }
@@ -3935,14 +3934,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nFruit Drink Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 138
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 138
                     }
                 ]
             }
@@ -3955,14 +3954,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nRice Cracker Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 158
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 158
                     }
                 ]
             }
@@ -3975,14 +3974,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nVeggie Sticks Slot\n200 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 178
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 178
                     }
                 ]
             }
@@ -3995,14 +3994,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Goggles Slot\n15850 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 398
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 398
                     }
                 ]
             }
@@ -4015,14 +4014,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Goggles Slot - 29450 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Goggles Slot - 29450 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Goggles Slot\n29450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 378
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 378
                     }
                 ]
             }
@@ -4035,14 +4034,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Edge Slot\n15800 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 438
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 438
                     }
                 ]
             }
@@ -4055,14 +4054,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Edge Slot - 29375 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Edge Slot - 29375 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Edge Slot\n29375 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 418
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 418
                     }
                 ]
             }
@@ -4075,14 +4074,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Mail Slot\n16100 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 478
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 478
                     }
                 ]
             }
@@ -4095,14 +4094,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Mail Slot - 29725 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Mail Slot - 29725 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Mail Slot\n29725 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 458
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 458
                     }
                 ]
             }
@@ -4115,14 +4114,14 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSteel Boots Slot\n15950 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 513
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 513
                     }
                 ]
             }
@@ -4135,14 +4134,755 @@
                 "sections": [
                     {
                         "ref": "Vermillion Wasteland - Weapon & Item Shop/Silver Boots Slot - 29450 Credits",
-                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Boots Slot - 29450 Credits"
+                        "name": "Vermillion Wasteland - Weapon & Item Shop\nSilver Boots Slot\n29450 Credits"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "ShopMap",
-                      "x": 874,
-                      "y": 498
+                        "map": "ShopMap",
+                        "x": 874,
+                        "y": 498
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Sandwich Slot - 100 Credits",
+                        "name": "Homestedt - Item Shop\nSandwich Slot\n100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 38
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Homestedt - Item Shop\nHi-Sandwich Slot\n300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 56
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Homestedt - Item Shop\nGreen Leaf Tea Slot\n250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 76
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Just Water Slot - 222 Credits",
+                        "name": "Homestedt - Item Shop\nJust Water Slot\n222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 98
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Kebab Roll Slot - 650 Credits",
+                        "name": "Homestedt - Item Shop\nKebab Roll Slot\n650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 118
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Meaty Risotto Slot - 650 Credits",
+                        "name": "Homestedt - Item Shop\nMeaty Risotto Slot\n650 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 138
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Spicy Bun Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop\nSpicy Bun Slot\n200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 158
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Fruit Drink Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop\nFruit Drink Slot\n200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 178
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Rice Cracker Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop\nRice Cracker Slot\n200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 198
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Veggie Sticks Slot - 200 Credits",
+                        "name": "Homestedt - Item Shop\nVeggie Sticks Slot\n200 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 218
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Bergen Ice Cream Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nBergen Ice Cream Slot\n450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Sweet Lemonjuice Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nSweet Lemonjuice Slot\n450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Cup o' Coffee Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nCup o' Coffee Slot\n450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Salted Peanuts Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nSalted Peanuts Slot\n450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Item Shop/Snack Mix Slot - 450 Credits",
+                        "name": "Homestedt - Item Shop\nSnack Mix Slot\n450 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Goggles Slot - 104750 Credits",
+                        "name": "Homestedt - Weapon Shop\nLaser Goggles Slot\n104750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 378
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Edge Slot - 104500 Credits",
+                        "name": "Homestedt - Weapon Shop\nLaser Edge Slot\n104500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 398
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Mail Slot - 105000 Credits",
+                        "name": "Homestedt - Weapon Shop\nLaser Mail Slot\n105000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 418
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Laser Boots Slot - 104750 Credits",
+                        "name": "Homestedt - Weapon Shop\nLaser Boots Slot\n104750 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 438
+                    }
+                ]
+            }
+        ]
+    },/*
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Cross Goggles Slot - 150000 Credits",
+                        "name": "Homestedt - Weapon Shop\nCross Goggles Mail Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 458
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Cross Edge Slot - 150000 Credits",
+                        "name": "Homestedt - Weapon Shop\nCross Edge Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 478
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Cross Mail Slot - 150000 Credits",
+                        "name": "Homestedt - Weapon Shop\nCross Mail Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 498
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Homestedt - Weapon Shop/Cross Boots Slot - 150000 Credits",
+                        "name": "Homestedt - Weapon Shop\nCross Boots Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 513
+                    }
+                ]
+            }
+        ]
+    },*/
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Goggles Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Goggles Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Edge Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Edge Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 674
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Mail Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Mail Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 694
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Azure Archipelago - Weapon Shop/Cross Boots Slot - 150000 Credits",
+                        "name": "Azure Archipelago - Weapon Shop\nCross Boots Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 712
+                    }
+                ]
+            }
+        ]
+    },
+        {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Sandwich Slot - 100 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nSandwich Slot\n100 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 920
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Hi-Sandwich Slot - 300 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nHi-Sandwich Slot\n300 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 939
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Green Leaf Tea Slot - 250 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGreen Leaf Tea Slot\n250 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 958
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Just Water Slot - 222 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nJust Water Slot\n222 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 977
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Goat Cheese Slot - 4500 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Cheese Slot\n4500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 996
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Goat Zira's Shop/Goat Milk Slot - 4500 Credits",
+                        "name": "Rhombus Square - Goat Zira's Shop\nGoat Milk Slot\n4500 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 1015,
+                        "y": 1015
+                    }
+                ]
+            }
+        ]
+    },
+    ,
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Goggles Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 538
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Edge Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Edge Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 558
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Mail Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Mail Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 578
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "item_count": 1,
+        "children": [
+            {
+                "sections": [
+                    {
+                        "ref": "Rhombus Square - Weapon Shop/Cross Boots Slot - 150000 Credits",
+                        "name": "Rhombus Square - Weapon Shop\nCross Boots Slot\n150000 Credits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ShopMap",
+                        "x": 728,
+                        "y": 598
                     }
                 ]
             }

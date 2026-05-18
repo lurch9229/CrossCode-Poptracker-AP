@@ -14,20 +14,17 @@
                         "y": 740
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824233|whiteKey, eleWave"
                         ],
                         "item_count": 1
@@ -45,20 +42,17 @@
                         "y": 685
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824234|radiantKey, eleWave"
                         ],
                         "item_count": 1
@@ -76,20 +70,17 @@
                         "y": 1415
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region25",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824235|thiefKey, eleWave"
                         ],
                         "item_count": 1
@@ -107,20 +98,17 @@
                         "y": 1400
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824236|whiteKey, eleWave"
                         ],
                         "item_count": 1
@@ -138,20 +126,17 @@
                         "y": 1345
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824239|thiefKey"
                         ],
                         "item_count": 1
@@ -169,20 +154,17 @@
                         "y": 1235
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824238|whiteKey"
                         ],
                         "item_count": 1
@@ -200,20 +182,17 @@
                         "y": 1345
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824237|radiantKey"
                         ],
                         "item_count": 1
@@ -231,20 +210,17 @@
                         "y": 1290
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824240|thiefKey"
                         ],
                         "item_count": 1
@@ -262,20 +238,17 @@
                         "y": 1309
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824241|whiteKey, eleWave"
                         ],
                         "item_count": 1
@@ -293,20 +266,17 @@
                         "y": 1085
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824243|whiteKey"
                         ],
                         "item_count": 1
@@ -324,20 +294,17 @@
                         "y": 1055
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824242|radiantKey, eleWave"
                         ],
                         "item_count": 1
@@ -355,20 +322,17 @@
                         "y": 835
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824245|thiefKey"
                         ],
                         "item_count": 1
@@ -386,20 +350,17 @@
                         "y": 865
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824244|whiteKey"
                         ],
                         "item_count": 1
@@ -417,20 +378,17 @@
                         "y": 920
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824246|radiantKey, eleWave"
                         ],
                         "item_count": 1
@@ -448,20 +406,17 @@
                         "y": 156
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region28",
                     "$regionOpen10_Middle"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824247|thiefKey, boltShade, dropShade, eleWave"
                         ],
                         "item_count": 1
@@ -479,20 +434,17 @@
                         "y": 175
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Left"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824248|whiteKey"
                         ],
                         "item_count": 1
@@ -510,20 +462,17 @@
                         "y": 1055
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824301"
                         ],
                         "item_count": 1
@@ -541,20 +490,17 @@
                         "y": 650
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824250"
                         ],
                         "item_count": 1
@@ -572,20 +518,17 @@
                         "y": 775
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824249"
                         ],
                         "item_count": 1
@@ -603,20 +546,17 @@
                         "y": 420
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824254"
                         ],
                         "item_count": 1
@@ -634,20 +574,17 @@
                         "y": 455
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824253"
                         ],
                         "item_count": 1
@@ -665,20 +602,17 @@
                         "y": 520
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824252"
                         ],
                         "item_count": 1
@@ -696,20 +630,17 @@
                         "y": 543
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824251|whiteKey"
                         ],
                         "item_count": 1
@@ -727,20 +658,17 @@
                         "y": 435
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824255"
                         ],
                         "item_count": 1
@@ -758,20 +686,17 @@
                         "y": 415
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824256"
                         ],
                         "item_count": 1
@@ -789,20 +714,17 @@
                         "y": 295
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region28",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824257, eleWave, eleShock"
                         ],
                         "item_count": 1
@@ -820,20 +742,17 @@
                         "y": 1500
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824258|radiantKey, eleWave, eleShock"
                         ],
                         "item_count": 1
@@ -851,20 +770,17 @@
                         "y": 1545
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824259|whiteKey, eleWave, eleShock"
                         ],
                         "item_count": 1
@@ -882,20 +798,17 @@
                         "y": 1380
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824523|whiteKey, eleHeat, eleCold"
                         ],
                         "item_count": 1
@@ -913,20 +826,17 @@
                         "y": 590
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824261"
                         ],
                         "item_count": 1
@@ -944,20 +854,17 @@
                         "y": 560
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824260"
                         ],
                         "item_count": 1
@@ -975,20 +882,17 @@
                         "y": 532
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824262, eleWave"
                         ],
                         "item_count": 1
@@ -1002,25 +906,21 @@
                 "map_locations": [
                     {
                         "map": "Gaias_Garden",
-                       
                         "x": 800,
                         "y": 410
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824264"
                         ],
                         "item_count": 1
@@ -1034,25 +934,21 @@
                 "map_locations": [
                     {
                         "map": "Gaias_Garden",
-                       
                         "x": 937,
                         "y": 362
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824263"
                         ],
                         "item_count": 1
@@ -1070,20 +966,17 @@
                         "y": 390
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824268"
                         ],
                         "item_count": 1
@@ -1101,20 +994,17 @@
                         "y": 420
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824267"
                         ],
                         "item_count": 1
@@ -1132,20 +1022,17 @@
                         "y": 465
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824266, eleWave"
                         ],
                         "item_count": 1
@@ -1163,20 +1050,17 @@
                         "y": 470
                     }
                 ],
-                "access_rules":
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules":
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824265"
                         ],
                         "item_count": 1
@@ -1194,20 +1078,17 @@
                         "y": 227
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824270"
                         ],
                         "item_count": 1
@@ -1225,20 +1106,17 @@
                         "y": 325
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824269"
                         ],
                         "item_count": 1
@@ -1256,20 +1134,17 @@
                         "y": 235
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824272|whiteKey"
                         ],
                         "item_count": 1
@@ -1287,20 +1162,17 @@
                         "y": 335
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824271|whiteKey"
                         ],
                         "item_count": 1
@@ -1318,20 +1190,17 @@
                         "y": 1095
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824274|thiefKey, eleWave"
                         ],
                         "item_count": 1
@@ -1349,20 +1218,17 @@
                         "y": 1145
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Left"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824273|thiefKey, eleWave"
                         ],
                         "item_count": 1
@@ -1380,20 +1246,17 @@
                         "y": 975
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Left"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824276"
                         ],
                         "item_count": 1
@@ -1411,20 +1274,17 @@
                         "y": 885
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Left"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824277"
                         ],
                         "item_count": 1
@@ -1442,20 +1302,17 @@
                         "y": 870
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824275|radiantKey, eleWave"
                         ],
                         "item_count": 1
@@ -1473,20 +1330,17 @@
                         "y": 650
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824279"
                         ],
                         "item_count": 1
@@ -1504,20 +1358,17 @@
                         "y": 750
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824278|thiefKey, eleWave"
                         ],
                         "item_count": 1
@@ -1535,20 +1386,17 @@
                         "y": 515
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824281"
                         ],
                         "item_count": 1
@@ -1566,20 +1414,17 @@
                         "y": 520
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Middle"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824280|whiteKey, eleWave"
                         ],
                         "item_count": 1
@@ -1597,20 +1442,17 @@
                         "y": 1405
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824283"
                         ],
                         "item_count": 1
@@ -1628,20 +1470,17 @@
                         "y": 1360
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824282"
                         ],
                         "item_count": 1
@@ -1656,35 +1495,31 @@
                     {
                         "map": "Gaias_Garden",
                         "x": 595,
-                        "y": 1350
+                        "y": 1350,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10"
                 ],
                 "sections": [
                     {
                         "name": "Apollo Duel East Pass",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Apollo Duel West Pass",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             ""
                         ],
                         "item_count": 1
@@ -1702,20 +1537,17 @@
                         "y": 1130
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824285"
                         ],
                         "item_count": 1
@@ -1733,20 +1565,17 @@
                         "y": 1130
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824284|radiantKey"
                         ],
                         "item_count": 1
@@ -1764,20 +1593,17 @@
                         "y": 510
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Middle"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824287"
                         ],
                         "item_count": 1
@@ -1795,20 +1621,17 @@
                         "y": 580
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Middle"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824286"
                         ],
                         "item_count": 1
@@ -1826,20 +1649,17 @@
                         "y": 365
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Middle"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824289"
                         ],
                         "item_count": 1
@@ -1857,20 +1677,17 @@
                         "y": 430
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Middle"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824288|whiteKey, eleWave"
                         ],
                         "item_count": 1
@@ -1888,20 +1705,17 @@
                         "y": 1090
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824290, eleWave"
                         ],
                         "item_count": 1
@@ -1919,20 +1733,17 @@
                         "y": 1160
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824291"
                         ],
                         "item_count": 1
@@ -1950,20 +1761,17 @@
                         "y": 1000
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Silver Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824292|whiteKey"
                         ],
                         "item_count": 1
@@ -1981,20 +1789,17 @@
                         "y": 1015
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Gold Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824293|radiantKey, eleWave"
                         ],
                         "item_count": 1
@@ -2012,20 +1817,17 @@
                         "y": 710
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824295, eleWave"
                         ],
                         "item_count": 1
@@ -2043,20 +1845,17 @@
                         "y": 820
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Bronze Chest",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules": 
-                        [
+                        "access_rules": [
                             "$newLock|3235824294|thiefKey, eleWave"
                         ],
                         "item_count": 1
@@ -2074,20 +1873,17 @@
                         "y": 550
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
                         "name": "Chest",
-                        "visibility_rules":
-                        [
+                        "visibility_rules": [
                             ""
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$newLock|3235824296, eleWave"
                         ],
                         "item_count": 1
@@ -2102,35 +1898,32 @@
                     {
                         "map": "Gaias_Garden",
                         "x": 605,
-                        "y": 1150
+                        "y": 1150,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10"
                 ],
                 "sections": [
                     {
                         "name": "Trailblazing Finish",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
-                            "eleWave"
+                        "access_rules": [
+                            "$region2, eleWave",
+                            "$regionOpen2, $regionOpen10_Infested, $regionOpen10_Grove, eleWave"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Collect",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$region2",
                             "$regionOpen2, $regionOpen10_Infested, $regionOpen10_Left"
                         ],
@@ -2138,25 +1931,21 @@
                     },
                     {
                         "name": "Trailblazing Defeat",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$region2",
-                            "$regionOpen2, $regionOpen10_Middle"
+                            "$regionOpen2, $regionOpen10_Infested, $regionOpen10_Left"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailblazing Landmarks",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "$region2",
                             "$regionOpen2, $regionOpen10_Infested, $regionOpen10_Grove"
                         ],
@@ -2164,13 +1953,10 @@
                     },
                     {
                         "name": "Trailblazing Data Probe",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
-                            
+                        "access_rules": [
                             "$region2, eleWave",
                             "$regionOpen2, $regionOpen10_Grove, eleWave"
                         ],
@@ -2186,38 +1972,111 @@
                     {
                         "map": "Gaias_Garden",
                         "x": 405,
-                        "y": 375
+                        "y": 375,
+                        "shape": "trapezoid"
                     }
                 ],
-                "access_rules": 
-                [
+                "access_rules": [
                     "$region23",
                     "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
                         "name": "Turret Defense Challenge 1",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "GG-turret-1"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Turret Defense Challenge 2",
-                        "visibility_rules": 
-                        [
+                        "visibility_rules": [
                             "questShuffle"
                         ],
-                        "access_rules":
-                        [
+                        "access_rules": [
                             "GG-turret-2"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "item_count": 1,
+                "children": [
+                    {
+                        "sections": [
+                            {
+                                "ref": "Botanics - Alpha Puff Plant/Alpha Puff Plant",
+                                "name": "Botanics - Alpha Puff Plant\nAlpha Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Beta Puff Plant/Beta Puff Plant",
+                                "name": "Botanics - Beta Puff Plant\nBeta Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Omega Puff Plant/Omega Puff Plant",
+                                "name": "Botanics - Omega Puff Plant\nOmega Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Closed Baraleles/Alpha Closed Baraleles",
+                                "name": "Botanics - Alpha Closed Baraleles\nAlpha Closed Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Beta Closed Baraleles/Beta Closed Baraleles",
+                                "name": "Botanics - Beta Closed Baraleles\nBeta Closed Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Bee Hive/Bee Hive",
+                                "name": "Botanics - Bee Hive\nBee Hive"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Open Baraleles/Alpha Open Baraleles",
+                                "name": "Botanics - Alpha Open Baraleles\nAlpha Open Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Beta Open Baraleles/Beta Open Baraleles",
+                                "name": "Botanics - Beta Open Baraleles\nBeta Open Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Omega Open Baraleles/Omega Open Baraleles",
+                                "name": "Botanics - Omega Open Baraleles\nOmega Open Baraleles"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Vivid Puff Plant/Alpha Vivid Puff Plant",
+                                "name": "Botanics - Alpha Vivid Puff Plant\nAlpha Vivid Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Beta Vivid Puff Plant/Beta Vivid Puff Plant",
+                                "name": "Botanics - Beta Vivid Puff Plant\nBeta Vivid Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Omega Vivid Puff Plant/Omega Vivid Puff Plant",
+                                "name": "Botanics - Omega Vivid Puff Plant\nOmega Vivid Puff Plant"
+                            },
+                            {
+                                "ref": "Botanics - Alpha Virus Shroom/Alpha Virus Shroom",
+                                "name": "Botanics - Alpha Virus Shroom\nAlpha Virus Shroom"
+                            },
+                            {
+                                "ref": "Botanics - Beta Virus Shroom/Beta Virus Shroom",
+                                "name": "Botanics - Beta Virus Shroom\nBeta Virus Shroom"
+                            },
+                            {
+                                "ref": "Botanics - Omega Virus Shroom/Omega Virus Shroom",
+                                "name": "Botanics - Omega Virus Shroom\nOmega Virus Shroom"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Gaias_Garden",
+                                "x": 0,
+                                "y": 0,
+                                "shape": "trapezoid"
+                            }
+                        ]
                     }
                 ]
             }
@@ -2230,291 +2089,371 @@
             {
                 "sections": [
                     {
-                        "ref": "Gaia's Garden - Jungle Entrance Lower/Chest",
-                        "name": "Gaia's Garden - Jungle Entrance Lower - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Jungle Entrance Left/Chest",
-                        "name": "Gaia's Garden - Jungle Entrance Left - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Crossroad Right/Chest",
-                        "name": "Gaia's Garden - Crossroad Right - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Crossroad Left/Gold Chest",
-                        "name": "Gaia's Garden - Crossroad Left - Gold Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Basin Keep Entrance/Chest",
-                        "name": "Gaia's Garden - Basin Keep Entrance - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Overgrown Path Right/Bronze Chest",
-                        "name": "Gaia's Garden - Overgrown Path Right - Bronze Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Overgrown Path Left/Bronze Chest",
-                        "name": "Gaia's Garden - Overgrown Path Left - Bronze Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Drizzle Bosk Lower/Chest",
-                        "name": "Gaia's Garden - Drizzle Bosk Lower - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Drizzle Bosk Center/Chest",
-                        "name": "Gaia's Garden - Drizzle Bosk Center - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Drizzle Bosk Right/Gold Chest",
-                        "name": "Gaia's Garden - Drizzle Bosk Right - Gold Chest"
-                    },
-                    {
                         "ref": "Gaia's Garden - Dripping Cave/Silver Chest",
-                        "name": "Gaia's Garden - Dripping Cave - Silver Chest"
+                        "name": "Gaia's Garden - Dripping Cave\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Tranquility Pond/Gold Chest",
-                        "name": "Gaia's Garden - Tranquility Pond - Gold Chest"
+                        "name": "Gaia's Garden - Tranquility Pond\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Cavern Left/Bronze Chest",
-                        "name": "Gaia's Garden - Infested Cavern Left - Bronze Chest"
+                        "name": "Gaia's Garden - Infested Cavern Left\nBronze Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Infested Cavern Right/Gold Chest",
-                        "name": "Gaia's Garden - Infested Cavern Right - Gold Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Covert Path Upper/Chest",
-                        "name": "Gaia's Garden - Covert Path Upper - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Covert Path Lower/Chest",
-                        "name": "Gaia's Garden - Covert Path Lower - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Wet Passage Upper/Chest",
-                        "name": "Gaia's Garden - Wet Passage Upper - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Wet Passage Lower/Bronze Chest",
-                        "name": "Gaia's Garden - Wet Passage Lower - Bronze Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - River's Bed Left/Chest",
-                        "name": "Gaia's Garden - River's Bed Left - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - River's Bed Right/Silver Chest",
-                        "name": "Gaia's Garden - River's Bed Right - Silver Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Calm Backyard Left/Chest",
-                        "name": "Gaia's Garden - Calm Backyard Left - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Calm Backyard Right/Chest",
-                        "name": "Gaia's Garden - Calm Backyard Right - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Royal Grove Upper Left/Chest",
-                        "name": "Gaia's Garden - Royal Grove Upper Left - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Royal Grove Upper Right/Chest",
-                        "name": "Gaia's Garden - Royal Grove Upper Right - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Royal Grove Lower Left/Chest",
-                        "name": "Gaia's Garden - Royal Grove Lower Left - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Royal Grove Lower Right/Silver Chest",
-                        "name": "Gaia's Garden - Royal Grove Lower Right - Silver Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Lost Shrine GF/Chest",
-                        "name": "Gaia's Garden - Lost Shrine GF - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Lost Shrine U1/Gold Chest",
-                        "name": "Gaia's Garden - Lost Shrine U1 - Gold Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Lost Shrine U2/Silver Chest",
-                        "name": "Gaia's Garden - Lost Shrine U2 - Silver Chest"
+                        "ref": "Gaia's Garden - Infested Cavern Right/Silver Chest",
+                        "name": "Gaia's Garden - Infested Cavern Right\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil West Lower Right/Bronze Chest",
-                        "name": "Gaia's Garden - V'rda Vil West Lower Right - Bronze Chest"
+                        "name": "Gaia's Garden - V'rda Vil West Lower Right\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil West Upper/Silver Chest",
-                        "name": "Gaia's Garden - V'rda Vil West Upper - Silver Chest"
+                        "name": "Gaia's Garden - V'rda Vil West Upper\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil West Lower Left/Gold Chest",
-                        "name": "Gaia's Garden - V'rda Vil West Lower Left - Gold Chest"
+                        "name": "Gaia's Garden - V'rda Vil West Lower Left\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil East Right/Bronze Chest",
-                        "name": "Gaia's Garden - V'rda Vil East Right - Bronze Chest"
+                        "name": "Gaia's Garden - V'rda Vil East Right\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil East Lower/Silver Chest",
-                        "name": "Gaia's Garden - V'rda Vil East Lower - Silver Chest"
+                        "name": "Gaia's Garden - V'rda Vil East Lower\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil North Left/Silver Chest",
-                        "name": "Gaia's Garden - V'rda Vil North Left - Silver Chest"
+                        "name": "Gaia's Garden - V'rda Vil North Left\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - V'rda Vil North Right/Gold Chest",
-                        "name": "Gaia's Garden - V'rda Vil North Right - Gold Chest"
+                        "name": "Gaia's Garden - V'rda Vil North Right\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Chief's Den Upper/Bronze Chest",
-                        "name": "Gaia's Garden - Chief's Den Upper - Bronze Chest"
+                        "name": "Gaia's Garden - Chief's Den Upper\nBronze Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Chief's Den Center/Silver Chest",
-                        "name": "Gaia's Garden - Chief's Den Center - Silver Chest"
+                        "name": "Gaia's Garden - Chief's Den Center\nSilver Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Chief's Den Lower/ Gold Chest",
-                        "name": "Gaia's Garden - Chief's Den Lower - Gold Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Splitting Stumps Upper/Chest",
-                        "name": "Gaia's Garden - Splitting Stumps Upper - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Splitting Stumps Lower/Chest",
-                        "name": "Gaia's Garden - Splitting Stumps Lower - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Clinging River Right/Silver Chest",
-                        "name": "Gaia's Garden - Clinging River Right - Silver Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Clinging River Left/Gold Chest",
-                        "name": "Gaia's Garden - Clinging River Left - Gold Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Ringing River Upper/Chest",
-                        "name": "Gaia's Garden - Ringing River Upper - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Ringing River Lower/Bronze Chest",
-                        "name": "Gaia's Garden - Ringing River Lower - Bronze Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Old Timber/Chest",
-                        "name": "Gaia's Garden - Old Timber - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Tying Greens Upper/Chest",
-                        "name": "Gaia's Garden - Tying Greens Upper - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Tying Greens Lower/Chest",
-                        "name": "Gaia's Garden - Tying Greens Lower - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Peridot Approach Upper/Chest",
-                        "name": "Gaia's Garden - Peridot Approach Upper - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Peridot Approach Lower/Silver Chest",
-                        "name": "Gaia's Garden - Peridot Approach Lower - Silver Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - So'najiz Temple Entrance/Silver Chest",
-                        "name": "Gaia's Garden - So'najiz Temple Entrance - Silver Chest"
+                        "ref": "Gaia's Garden - Chief's Den Lower/Gold Chest",
+                        "name": "Gaia's Garden - Chief's Den Lower\nGold Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Grand Krys'kajo Entrance/Bronze Chest",
-                        "name": "Gaia's Garden - Grand Krys'kajo Entrance - Bronze Chest"
+                        "name": "Gaia's Garden - Grand Krys'kajo Entrance\nBronze Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Lost Lookout Upper/Chest",
-                        "name": "Gaia's Garden - Lost Lookout Upper - Chest"
+                        "ref": "Gaia's Garden - So'najiz Temple Entrance/Silver Chest",
+                        "name": "Gaia's Garden - So'najiz Temple Entrance\nSilver Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Lost Lookout Center/Chest",
-                        "name": "Gaia's Garden - Lost Lookout Center - Chest"
+                        "ref": "Gaia's Garden - Basin Keep Entrance/Chest",
+                        "name": "Gaia's Garden - Basin Keep Entrance\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Covert Path Upper/Chest",
+                        "name": "Gaia's Garden - Covert Path Upper\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Covert Path Lower/Chest",
+                        "name": "Gaia's Garden - Covert Path Lower\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Royal Grove Upper Left/Chest",
+                        "name": "Gaia's Garden - Royal Grove Upper Left\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Royal Grove Upper Right/Chest",
+                        "name": "Gaia's Garden - Royal Grove Upper Right\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Royal Grove Lower Left/Chest",
+                        "name": "Gaia's Garden - Royal Grove Lower Left\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Royal Grove Lower Right/Silver Chest",
+                        "name": "Gaia's Garden - Royal Grove Lower Right\nSilver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Calm Backyard Left/Chest",
+                        "name": "Gaia's Garden - Calm Backyard Left\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Calm Backyard Right/Chest",
+                        "name": "Gaia's Garden - Calm Backyard Right\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Lost Shrine GF/Chest",
+                        "name": "Gaia's Garden - Lost Shrine GF\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Lost Shrine U1/Gold Chest",
+                        "name": "Gaia's Garden - Lost Shrine U1\nGold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Lost Shrine U2/Silver Chest",
+                        "name": "Gaia's Garden - Lost Shrine U2\nSilver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Chilled Den/Silver Chest",
+                        "name": "Gaia's Garden - Chilled Den\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Lost Lookout Lower/Chest",
-                        "name": "Gaia's Garden - Lost Lookout Lower - Chest"
+                        "name": "Gaia's Garden - Lost Lookout Lower\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Lost Lookout Center/Chest",
+                        "name": "Gaia's Garden - Lost Lookout Center\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Lost Lookout Upper/Chest",
+                        "name": "Gaia's Garden - Lost Lookout Upper\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Seared Lake Left/Chest",
-                        "name": "Gaia's Garden - Seared Lake Left - Chest"
+                        "name": "Gaia's Garden - Seared Lake Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Seared Lake Right/Chest",
-                        "name": "Gaia's Garden - Seared Lake Right - Chest"
-                    },
-                    {
-                        "ref": "Gaia's Garden - Infested Marshes South Upper Left/Chest",
-                        "name": "Gaia's Garden - Infested Marshes South Upper Left - Chest"
+                        "name": "Gaia's Garden - Seared Lake Right\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes South Upper Right/Chest",
-                        "name": "Gaia's Garden - Infested Marshes South Upper Right - Chest"
+                        "name": "Gaia's Garden - Infested Marshes South Upper Right\nChest"
                     },
                     {
-                        "ref": "Gaia's Garden - Infested Marshes South Lower Left/Chest",
-                        "name": "Gaia's Garden - Infested Marshes South Lower Left - Chest"
+                        "ref": "Gaia's Garden - Infested Marshes South Upper Left/Chest",
+                        "name": "Gaia's Garden - Infested Marshes South Upper Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes South Lower Right/Chest",
-                        "name": "Gaia's Garden - Infested Marshes South Lower Right - Chest"
+                        "name": "Gaia's Garden - Infested Marshes South Lower Right\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Infested Marshes South Lower Left/Chest",
+                        "name": "Gaia's Garden - Infested Marshes South Lower Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes North Upper Center/Chest",
-                        "name": "Gaia's Garden - Infested Marshes North Upper Center - Chest"
+                        "name": "Gaia's Garden - Infested Marshes North Upper Center\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes North Lower Left/Chest",
-                        "name": "Gaia's Garden - Infested Marshes North Lower Left - Chest"
+                        "name": "Gaia's Garden - Infested Marshes North Lower Left\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes North Upper Right/Silver Chest",
-                        "name": "Gaia's Garden - Infested Marshes North Upper Right - Silver Chest"
+                        "name": "Gaia's Garden - Infested Marshes North Upper Right\nSilver Chest"
                     },
                     {
                         "ref": "Gaia's Garden - Infested Marshes North Lower Right/Silver Chest",
-                        "name": "Gaia's Garden - Infested Marshes North Lower Right - Silver Chest"
+                        "name": "Gaia's Garden - Infested Marshes North Lower Right\nSilver Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Collect",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Collect"
+                        "ref": "Gaia's Garden - Overgrown Path Right/Bronze Chest",
+                        "name": "Gaia's Garden - Overgrown Path Right\nBronze Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Defeat",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Defeat"
+                        "ref": "Gaia's Garden - Overgrown Path Left/Bronze Chest",
+                        "name": "Gaia's Garden - Overgrown Path Left\nBronze Chest"
                     },
                     {
-                        "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Landmarks",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Landmarks"
+                        "ref": "Gaia's Garden - Drizzle Bosk Lower/Chest",
+                        "name": "Gaia's Garden - Drizzle Bosk Lower\nChest"
                     },
                     {
-                        "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Data Probe",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Data Probe"
+                        "ref": "Gaia's Garden - Drizzle Bosk Center/Chest",
+                        "name": "Gaia's Garden - Drizzle Bosk Center\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Drizzle Bosk Right/Gold Chest",
+                        "name": "Gaia's Garden - Drizzle Bosk Right\nGold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Wet Passage Upper/Chest",
+                        "name": "Gaia's Garden - Wet Passage Upper\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Wet Passage Lower/Bronze Chest",
+                        "name": "Gaia's Garden - Wet Passage Lower\nBronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - River's Bed Left/Chest",
+                        "name": "Gaia's Garden - River's Bed Left\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - River's Bed Right/Silver Chest",
+                        "name": "Gaia's Garden - River's Bed Right\nSilver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Jungle Entrance Lower/Chest",
+                        "name": "Gaia's Garden - Jungle Entrance Lower\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Jungle Entrance Left/Chest",
+                        "name": "Gaia's Garden - Jungle Entrance Left\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Jungle Entrance Apollo/Apollo Duel East Pass",
+                        "name": "Gaia's Garden - Jungle Entrance Apollo\nApollo Duel East Pass"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Jungle Entrance Apollo/Apollo Duel West Pass",
+                        "name": "Gaia's Garden - Jungle Entrance Apollo\nApollo Duel West Pass"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Crossroad Right/Chest",
+                        "name": "Gaia's Garden - Crossroad Right\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Crossroad Left/Gold Chest",
+                        "name": "Gaia's Garden - Crossroad Left\nGold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Tying Greens Upper/Chest",
+                        "name": "Gaia's Garden - Tying Greens Upper\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Tying Greens Lower/Chest",
+                        "name": "Gaia's Garden - Tying Greens Lower\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Peridot Approach Upper/Chest",
+                        "name": "Gaia's Garden - Peridot Approach Upper\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Peridot Approach Lower/Silver Chest",
+                        "name": "Gaia's Garden - Peridot Approach Lower\nSilver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Splitting Stumps Upper/Chest",
+                        "name": "Gaia's Garden - Splitting Stumps Upper\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Splitting Stumps Lower/Chest",
+                        "name": "Gaia's Garden - Splitting Stumps Lower\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Clinging River Right/Silver Chest",
+                        "name": "Gaia's Garden - Clinging River Right\nSilver Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Clinging River Left/Gold Chest",
+                        "name": "Gaia's Garden - Clinging River Left\nGold Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Ringing River Upper/Chest",
+                        "name": "Gaia's Garden - Ringing River Upper\nChest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Ringing River Lower/Bronze Chest",
+                        "name": "Gaia's Garden - Ringing River Lower\nBronze Chest"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Old Timber/Chest",
+                        "name": "Gaia's Garden - Old Timber\nChest"
                     },
                     {
                         "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Finish",
-                        "name": "Gaia's Garden - Henry the Researcher - Trailblazing Finish"
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Finish"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Collect",
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Collect"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Defeat",
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Defeat"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Landmarks",
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Landmarks"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Henry the Researcher/Trailblazing Data Probe",
+                        "name": "Gaia's Garden - Henry the Researcher\nTrailblazing Data Probe"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Pathhacker/Turret Defense Challenge 1",
+                        "name": "Gaia's Garden - Pathhacker\nTurret Defense Challenge 1"
+                    },
+                    {
+                        "ref": "Gaia's Garden - Pathhacker/Turret Defense Challenge 2",
+                        "name": "Gaia's Garden - Pathhacker\nTurret Defense Challenge 2"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Puff Plant/Alpha Puff Plant",
+                        "name": "Botanics - Alpha Puff Plant\nAlpha Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Beta Puff Plant/Beta Puff Plant",
+                        "name": "Botanics - Beta Puff Plant\nBeta Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Omega Puff Plant/Omega Puff Plant",
+                        "name": "Botanics - Omega Puff Plant\nOmega Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Closed Baraleles/Alpha Closed Baraleles",
+                        "name": "Botanics - Alpha Closed Baraleles\nAlpha Closed Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Beta Closed Baraleles/Beta Closed Baraleles",
+                        "name": "Botanics - Beta Closed Baraleles\nBeta Closed Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Bee Hive/Bee Hive",
+                        "name": "Botanics - Bee Hive\nBee Hive"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Open Baraleles/Alpha Open Baraleles",
+                        "name": "Botanics - Alpha Open Baraleles\nAlpha Open Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Beta Open Baraleles/Beta Open Baraleles",
+                        "name": "Botanics - Beta Open Baraleles\nBeta Open Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Omega Open Baraleles/Omega Open Baraleles",
+                        "name": "Botanics - Omega Open Baraleles\nOmega Open Baraleles"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Vivid Puff Plant/Alpha Vivid Puff Plant",
+                        "name": "Botanics - Alpha Vivid Puff Plant\nAlpha Vivid Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Beta Vivid Puff Plant/Beta Vivid Puff Plant",
+                        "name": "Botanics - Beta Vivid Puff Plant\nBeta Vivid Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Omega Vivid Puff Plant/Omega Vivid Puff Plant",
+                        "name": "Botanics - Omega Vivid Puff Plant\nOmega Vivid Puff Plant"
+                    },
+                    {
+                        "ref": "Botanics - Alpha Virus Shroom/Alpha Virus Shroom",
+                        "name": "Botanics - Alpha Virus Shroom\nAlpha Virus Shroom"
+                    },
+                    {
+                        "ref": "Botanics - Beta Virus Shroom/Beta Virus Shroom",
+                        "name": "Botanics - Beta Virus Shroom\nBeta Virus Shroom"
+                    },
+                    {
+                        "ref": "Botanics - Omega Virus Shroom/Omega Virus Shroom",
+                        "name": "Botanics - Omega Virus Shroom\nOmega Virus Shroom"
                     }
                 ],
                 "map_locations": [
                     {
-                      "map": "WorldMap",
-                      "x": 279,
-                      "y": 133
+                        "map": "WorldMap",
+                        "x": 279,
+                        "y": 133
                     }
                 ]
             }

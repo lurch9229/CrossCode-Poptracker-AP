@@ -76,6 +76,8 @@ ITEM_MAPPING =
 [3235824556] = {"largeEmber", "toggle"}, -- Very Large Ember, progression
 [3235824597] = {"oldBlueprint", "toggle"}, -- Old Blueprint, progressive
 [3235824615] = {"brokenChakram", "toggle"}, -- Broken Chakrams, progressive
+[3235824337] = {"shinyOrb", "toggle"}, -- Shiny orb
+[3235824566] = {"mineDetect", "toggle"}, -- Mine detector
 -- Shops
 
 -- Rookie Items
@@ -385,10 +387,72 @@ ITEM_MAPPING =
 [3235924507] = {"VWitem7", "toggle"}, -- Vermillion Item Slot 7 (riceCracker)
 [3235924508] = {"VWitem8", "toggle"}, -- Vermillion Item Slot 8 (veggieSticks)
 -- Rhombus Cobalt Set
-[3235924509] = {"RSweapon1", "toggle"}, -- Rhombus Weapon Slot 8 (coHelm)
-[3235924510] = {"RSweapon3", "toggle"}, -- Rhombus Weapon Slot 8 (coEdge)
-[3235924511] = {"RSweapon5", "toggle"}, -- Rhombus Weapon Slot 8 (coMail)
-[3235924512] = {"RSweapon7", "toggle"}, -- Rhombus Weapon Slot 8 (coBoots)
+[3235924509] = {"RSweapon1", "toggle"}, -- Rhombus Weapon Slot 1 (coHelm)
+[3235924510] = {"RSweapon3", "toggle"}, -- Rhombus Weapon Slot 3 (coEdge)
+[3235924511] = {"RSweapon5", "toggle"}, -- Rhombus Weapon Slot 5 (coMail)
+[3235924512] = {"RSweapon7", "toggle"}, -- Rhombus Weapon Slot 7 (coBoots)
 
-[3235824337] = {"shinyOrb", "toggle"}
+-- DLC
+-- Key Items
+[3235824113] = {"hummingRazor", "toggle"}, -- Humming Razor
+[3235824283] = {"everAmber", "toggle"}, -- Everlasting Amber
+[3235824481] = {"tremorEngine", "consumable"}, -- Tremor Engine
+[3235824660] = {"kuleroKey", "consumable"}, -- Ku'lero Key
+[3235824722] = {"mcCoin", "consumable"}, -- Macguffin Coin
+[3235824724] = {"kuleroMaster", "toggle"}, -- Ku'lero Master Key
+[3235824726] = {"azurePass", "toggle"}, -- Azure Archipelago Pass
+[3235824727] = {"ancientShade", "toggle"}, -- Ancient Shade
+
+-- Homestedt Items
+[3235924513] = {"homestedtItemShop", "toggle"}, -- Homestedt Item Shop Unlock
+[3235924514] = {"Hitem1", "toggle"}, -- Homestedt Item Slot 1 (sandwich)
+[3235924515] = {"Hitem2", "toggle"}, -- Homestedt Item Slot 2 (hi-sandwich)
+[3235924516] = {"Hitem3", "toggle"}, -- Homestedt Item Slot 3 (leafTea)
+[3235924517] = {"Hitem4", "toggle"}, -- Homestedt Item Slot 4 (water)
+[3235924518] = {"Hitem5", "toggle"}, -- Homestedt Item Slot 5 (kebab)
+[3235924519] = {"Hitem6", "toggle"}, -- Homestedt Item Slot 6 (risotto)
+[3235924520] = {"Hitem7", "toggle"}, -- Homestedt Item Slot 7 (spicyBun)
+[3235924521] = {"Hitem8", "toggle"}, -- Homestedt Item Slot 8 (fruitDrink)
+[3235924522] = {"Hitem9", "toggle"}, -- Homestedt Item Slot 9 (riceCracker)
+[3235924523] = {"Hitem10", "toggle"}, -- Homestedt Item Slot 10 (veggieSticks)
+[3235924524] = {"Hitem11", "toggle"}, -- Homestedt Item Slot 11 (iceCream)
+[3235924525] = {"Hitem12", "toggle"}, -- Homestedt Item Slot 12 (lemonJuice)
+[3235924526] = {"Hitem13", "toggle"}, -- Homestedt Item Slot 13 (coffee)
+[3235924527] = {"Hitem14", "toggle"}, -- Homestedt Item Slot 14 (peanuts)
+[3235924528] = {"Hitem15", "toggle"}, -- Homestedt Item Slot 15 (snackMix)
+-- Homestedt Weapons
+[3235924529] = {"homestedtWeaponShop", "toggle"}, -- Homestedt Weapon Shop Unlock
+[3235924530] = {"Hweapon1", "toggle"}, -- Homestedt Slot 1 (laHelm)
+[3235924531] = {"Hweapon2", "toggle"}, -- Homestedt Slot 2 (laEdge)
+[3235924532] = {"Hweapon3", "toggle"}, -- Homestedt Slot 3 (laMail)
+[3235924533] = {"Hweapon4", "toggle"}, -- Homestedt Slot 4 (laBoots)
+-- [] = {"Hweapon5", "toggle"}, -- Homestedt Slot 5 (crHelm)
+-- [] = {"Hweapon6", "toggle"}, -- Homestedt Slot 6 (crEdge)
+-- [] = {"Hweapon7", "toggle"}, -- Homestedt Slot 7 (crMail)
+-- [] = {"Hweapon8", "toggle"}, -- Homestedt Slot 8 (crBoots)
+-- Azure Achipelago Weapons
+[3235924534] = {"azureWeaponShop", "toggle"}, -- Azure Archipelago Weapon Shop Unlock
+[3235924535] = {"AAweapon1", "toggle"}, -- Azure Archipelago Slot 1 (crHelm)
+[3235924536] = {"crHelm", "toggle"}, -- Global Cross Goggles Slot
+[3235924537] = {"AAweapon2", "toggle"}, -- Azure Archipelago Slot 2 (crEdge)
+[3235924538] = {"crEdge", "toggle"}, -- Global Cross Edge Slot
+[3235924539] = {"AAweapon3", "toggle"}, -- Azure Archipelago Slot 3 (crMail)
+[3235924540] = {"crMail", "toggle"}, -- Global Cross Mail Slot
+[3235924541] = {"AAweapon4", "toggle"}, -- Azur Archipelago Slot 4 (crBoots)
+[3235924542] = {"crBoots", "toggle"}, -- Global Cross Boots Slot
+-- Goat Zira
+[3235924543] = {"rhombusGoatShop", "toggle"}, -- Goat Zira Shop Unlock
+[3235924544] = {"RSgoat1", "toggle"}, -- Goat Zira Slot 1 (sandwich)
+[3235924545] = {"RSgoat2", "toggle"}, -- Goat Zira Slot 2 (hi-sandwich)
+[3235924546] = {"RSgoat3", "toggle"}, -- Goat Zira Slot 3 (leafTea)
+[3235924547] = {"RSgoat4", "toggle"}, -- Goat Zira Slot 4 (water)
+[3235924548] = {"RSgoat5", "toggle"}, -- Goat Zira Slot 5 (goatCheese)
+[3235924549] = {"goatCheese", "toggle"}, -- Global Goat Cheese Slot
+[3235924550] = {"RSgoat6", "toggle"}, -- Goat Zira Slot 6 (goatMilk)
+[3235924551] = {"goatMilk", "toggle"}, -- Global Goat Milk Slot
+-- Rhombus Weapons
+[3235924552] = {"RSweapon9", "toggle"}, -- Rhombus Weapon Slot 9 (crHelm)
+[3235924553] = {"RSweapon10", "toggle"}, -- Rhombus Weapon Slot 10 (crEdge)
+[3235924554] = {"RSweapon11", "toggle"}, -- Rhombus Weapon Slot 11 (crMail)
+[3235924555] = {"RSweapon12", "toggle"}, -- Rhombus Weapon Slot 12 (crBoots)
 }

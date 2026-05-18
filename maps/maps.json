@@ -45,7 +45,7 @@
     "name": "Rhombus_Square",
     "location_size": 23,
     "location_border_thickness": 3,
-    "img": "images/maps/Rhombus_Square.png"
+    "img": "images/maps/Rhombus_Square_Map.png"
   },
   {
     "name": "Rookie_Harbor",
@@ -172,5 +172,54 @@
     "location_size": 16,
     "location_border_thickness": 1,
     "img": "images/maps/typesMap.png"
+  },
+  {
+    "name": "Homestedt",
+    "location_size": 22,
+    "location_border_thickness": 3,
+    "img": "images/maps/Homestedt_Map.png"
+  },
+  {
+    "name": "Azure_Archipelago",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Azure_Archipelago_Map.png"
+  },
+  {
+    "name": "Kulero_Temple_GF",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Kulero_GF.png"
+  },
+  {
+    "name": "Kulero_Temple_U1",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Kulero_U1.png"
+  },
+  {
+    "name": "Kulero_Temple_U2",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Kulero_U2.png"
+  },
+  {
+    "name": "Kulero_Temple_U3",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Kulero_U3.png"
+  },
+  {
+    "name": "Kulero_Temple_U8",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/Kulero_U8.png"
+  },
+  {
+    "name": "Botanics_Map",
+    "location_size": 35,
+    "location_border_thickness": 4,
+    "img": "images/maps/Botanics_Map3.png"
   }
 ]
+

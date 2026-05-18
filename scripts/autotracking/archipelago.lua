@@ -151,14 +151,9 @@ function onClear(slot_data)
     end
 
     if slot_data['options']['questRando'] then
-        local obj = Tracker:FindObjectForCode("op_QS")
-        if obj then
-            if slot_data['options']['questRando'] == true then
-                obj.CurrentStage = 1
-            else
-                obj.CurrentStage = 0
-            end
-        end
+        Tracker:FindObjectForCode("op_QS").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_QS").CurrentStage = 0
     end
 
     if slot_data['mode'] then
@@ -170,7 +165,7 @@ function onClear(slot_data)
     end
 
     if slot_data['options']["keyrings"] then 
-        if slot_data['options']["keyrings"][1] ~= nil then 
+        if slot_data['options']["keyrings"][1] ~= nil then
             Tracker:FindObjectForCode("op_KR").CurrentStage = 1
         else
             Tracker:FindObjectForCode("op_KR").CurrentStage = 0
@@ -179,19 +174,19 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_KR").CurrentStage = 0
     end
 
-    if slot_data['options']["meteorPassage"] then 
+    if slot_data['options']["meteorPassage"] then
         Tracker:FindObjectForCode("op_VW").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_VW").CurrentStage = 0
     end
 
-    if slot_data['options']["chestClearanceLevels"] then 
+    if slot_data['options']["chestClearanceLevels"] then
         Tracker:FindObjectForCode("op_CL").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_CL").CurrentStage = 0
     end
 
-    if slot_data['options']["rhombusHubUnlock"] then 
+    if slot_data['options']["rhombusHubUnlock"] then
         Tracker:FindObjectForCode("op_RH").CurrentStage = 1
     else
         Tracker:FindObjectForCode("op_RH").CurrentStage = 0
@@ -226,6 +221,8 @@ function onClear(slot_data)
                 obj.CurrentStage = 1
             elseif slot_data['options']['goal'] == "observatory" then
                 obj.CurrentStage = 2
+            elseif slot_data['options']['goal'] == "diorbis" then
+                obj.CurrentStage = 3
             else
                 obj.CurrentStage = 0
             end
@@ -236,7 +233,42 @@ function onClear(slot_data)
             obj.CurrentStage = 0
         end
     end
-    
+
+    if slot_data['options']['botanicsCompletionAmount'] then
+        Tracker:FindObjectForCode("op_BA").AcquiredCount = slot_data['options']['botanicsCompletionAmount']
+    else
+        Tracker:FindObjectForCode("op_BA").AcquiredCount = 77
+    end
+
+    if slot_data['options']["dlcActive"] then
+        Tracker:FindObjectForCode("op_DLC").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_DLC").CurrentStage = 0
+    end
+
+    if slot_data['options']["allowBoosterGrinding"] then
+        Tracker:FindObjectForCode("op_AB").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_AB").CurrentStage = 0
+    end
+
+    if checkForBotanityLocation() then
+        Tracker:FindObjectForCode("op_B").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_B").CurrentStage = 0
+    end
+
+    if not checkForShopLocation() then
+        local obj = Tracker:FindObjectForCode("op_SR")
+        if obj then
+            obj.CurrentStage = 0
+        end
+
+        local obj = Tracker:FindObjectForCode("op_SS")
+        if obj then
+            obj.CurrentStage = 0
+        end
+    end
 
     PROG_A_UNLOCK = slot_data['options']["progressiveChains"]["3235824050"]
     PROG_D_UNLOCK = slot_data['options']["progressiveChains"]["3235824052"]
@@ -257,6 +289,38 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
+end
+
+function checkForBotanityLocation()
+    for _, value in ipairs(Archipelago.MissingLocations) do
+        if value == 3235824920 then
+            return true
+        end
+    end
+
+    for _, value in ipairs(Archipelago.CheckedLocations) do
+        if value == 3235824920 then
+            return true
+        end
+    end
+
+    return false
+end
+
+function checkForShopLocation()
+    for _, value in ipairs(Archipelago.MissingLocations) do
+        if value == 3235824524 or value == 3235824525 then
+            return true
+        end
+    end
+
+    for _, value in ipairs(Archipelago.CheckedLocations) do
+        if value == 3235824524 or value == 3235824525 then
+            return true
+        end
+    end
+
+    return false
 end
 
 -- called when an item gets collected
@@ -685,6 +749,11 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Tara's Shop/Sandwich Type - 2500 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Sandwich Type - 100 Credits")
+        objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Sandwich Type - 100 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Hi-Sandwich Type/Buy A 'Hi-Sandwich' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Hi-Sandwich Type - 300 Credits")
         objItem.Highlight = highlight_code
@@ -702,6 +771,11 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Green Leaf Tea Type/Buy A 'Green Leaf Tea' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Green Leaf Tea Type - 250 Credits")
         objItem.Highlight = highlight_code
@@ -719,6 +793,11 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Just Water Type/Buy A 'Just Water' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Just Water Type - 222 Credits")
         objItem.Highlight = highlight_code
@@ -736,6 +815,11 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Just Water Type - 222 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Just Water Type - 222 Credits")
+        objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Just Water Type - 222 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Spicy Bun Type/Buy A 'Spicy Bun' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Spicy Bun Type - 200 Credits")
         objItem.Highlight = highlight_code
@@ -753,6 +837,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Spicy Bun Type - 200 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Fruit Drink Type/Buy A 'Fruit Drink' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Fruit Drink Type - 200 Credits")
         objItem.Highlight = highlight_code
@@ -770,6 +857,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Fruit Drink Type - 200 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.Highlight = highlight_code
+        
     elseif location_code == "@Shop Types/Rice Cracker Type/Buy A 'Rice Cracker' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Rice Cracker Type - 200 Credits")
         objItem.Highlight = highlight_code
@@ -787,6 +877,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Rice Cracker Type - 200 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Veggie Sticks Type/Buy A 'Veggie Sticks' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Veggie Sticks Type - 200 Credits")
         objItem.Highlight = highlight_code
@@ -804,6 +897,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Veggie Sticks Type - 200 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Kebab Roll Type/Buy A 'Kebab Roll' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Kebab Roll Type - 650 Credits")
         objItem.Highlight = highlight_code
@@ -819,6 +915,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Kebab Roll Type - 650 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Meaty Risotto Type/Buy A 'Meaty Risotto' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Meaty Risotto Type - 650 Credits")
         objItem.Highlight = highlight_code
@@ -834,6 +933,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Meaty Risotto Type - 650 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Bergen Ice Cream Type/Buy A 'Bergen Ice Cream' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Type - 450 Credits")
         objItem.Highlight = highlight_code
@@ -849,6 +951,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Bergen Ice Cream Type - 450 Credits Have Red Flame")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Bergen Ice Cream Type - 450 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Sweet Lemonjuice Type/Buy A 'Sweet Lemonjuice' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Type - 450 Credits")
         objItem.Highlight = highlight_code
@@ -864,8 +969,11 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame")
         objItem.Highlight = highlight_code
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Sweet Lemonjuice Type - 450 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Salted Peanuts Type/Buy A 'Salted Peanuts' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Salted Peanuts Type - 450 Credits")
         objItem.Highlight = highlight_code
@@ -881,6 +989,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Salted Peanuts Type - 450 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Cup o' Coffee Type/Buy A 'Cup o' Coffee' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits")
         objItem.Highlight = highlight_code
@@ -896,6 +1007,9 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Cup o' Coffee Type - 450 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Snack Mix Type/Buy A 'Snack Mix' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Snack Mix Type - 450 Credits")
         objItem.Highlight = highlight_code
@@ -911,18 +1025,25 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Snack Mix Type - 450 Credits Have Green Seed")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Snack Mix Type - 450 Credits")
+        objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Bronze Goggles Type/Buy A 'Bronze Goggles' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Goggles Type - 850 Credits")
         objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Bronze Edge Type/Buy A 'Bronze Edge' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Edge Type - 800 Credits")
         objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Bronze Mail Type/Buy A 'Bronze Mail' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Mail Type - 900 Credits")
         objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Bronze Boots Type/Buy A 'Bronze Boots' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Boots Type - 850 Credits")
         objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Iron Goggles Type/Buy A 'Iron Goggles' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Iron Goggles Type - 4700 Credits")
         objItem.Highlight = highlight_code
@@ -930,6 +1051,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Iron Goggles Type - 4700 Credits")
         objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Iron Edge Type/Buy A 'Iron Edge' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Iron Edge Type - 4500 Credits")
         objItem.Highlight = highlight_code
@@ -937,6 +1059,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Iron Edge Type - 4500 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Iron Mail Type/Buy A 'Iron Mail' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Iron Mail Type - 4800 Credits")
         objItem.Highlight = highlight_code
@@ -944,6 +1067,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Iron Mail Type - 4800 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Iron Boots Type/Buy A 'Iron Boots' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Iron Boots Type - 4700 Credits")
         objItem.Highlight = highlight_code
@@ -951,6 +1075,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Iron Boots Type - 4700 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Silver Goggles Type/Buy A 'Silver Goggles' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Goggles Type - 29450 Credits")
         objItem.Highlight = highlight_code
@@ -960,6 +1085,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Silver Goggles Type - 29450 Credits Have Red Flame")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Silver Edge Type/Buy A 'Silver Edge' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Edge Type - 29375 Credits")
         objItem.Highlight = highlight_code
@@ -969,6 +1095,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Silver Edge Type - 29375 Credits Have Red Flame")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Silver Mail Type/Buy A 'Silver Mail' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Mail Type - 29725 Credits")
         objItem.Highlight = highlight_code
@@ -978,6 +1105,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Silver Mail Type - 29725 Credits Have Red Flame")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Silver Boots Type/Buy A 'Silver Boots' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Silver Boots Type - 29450 Credits")
         objItem.Highlight = highlight_code
@@ -987,6 +1115,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Silver Boots Type - 29450 Credits Have Red Flame")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Steel Goggles Type/Buy A 'Steel Goggles' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Steel Goggles Type - 15850 Credits")
         objItem.Highlight = highlight_code
@@ -994,6 +1123,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Steel Goggles Type - 15850 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Steel Edge Type/Buy A 'Steel Edge' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Steel Edge Type - 15800 Credits")
         objItem.Highlight = highlight_code
@@ -1001,6 +1131,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Steel Edge Type - 15800 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Steel Mail Type/Buy A 'Steel Mail' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Steel Mail Type - 16100 Credits")
         objItem.Highlight = highlight_code
@@ -1008,6 +1139,7 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Steel Mail Type - 16100 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Steel Boots Type/Buy A 'Steel Boots' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Steel Boots Type - 15950 Credits")
         objItem.Highlight = highlight_code
@@ -1015,130 +1147,207 @@ function hostedLocationsHighlight(location_code, highlight_code)
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Steel Boots Type - 15950 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Rising Super Star Type/Buy A 'Rising Super Star' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Rising Super Star Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Rising Super Star Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Dk Pepper Type/Buy A 'Dk Pepper' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Dk Pepper Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Dk Pepper Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Cheese Spaetzle Type/Buy A 'Cheese Spaetzle' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Cheese Spaetzle Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Cheese Spaetzle Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Maultasche Type/Buy A 'Maultasche' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Maultasche Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Maultasche Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Durian Type/Buy A 'Durian' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Durian Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Durian Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/PengoPop Type/Buy A 'PengoPop' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/PengoPop Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/PengoPop Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Spicy Beat-0-Type Type/Buy A 'Spicy Beat-0-Type' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Spicy Beat-0-Type Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Spicy Beat-0-Type Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Werewolf Stick Type/Buy A 'Werewolf Stick' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Werewolf Stick Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Werewolf Stick Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Mooncake Type/Buy A 'Mooncake' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Mooncake Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Mooncake Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Guacamole Toast Type/Buy A 'Guacamole Toast' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Guacamole Toast Type - 9999 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Guacamole Toast Type - 9999 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Willis Waldmahl Type/Buy A 'Willis Waldmahl' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Willis Waldmahl Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Willis Waldmahl Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Pumpkin Spiced Coffee Type/Buy A 'Pumpkin Spiced Coffee' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Backer Weapon & Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Chili Con Carne Type/Buy A 'Chili Con Carne' From Any Item Shop" then
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Sweet Berry Tea Type/Buy A 'Sweet Berry Tea' From Any Item Shop" then
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Titan Goggles Type/Buy A 'Titan Goggles' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Goggles Type - 46750 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Type - 46750 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Titan Edge Type/Buy A 'Titan Edge' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Edge Type - 46475 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Type - 46475 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Titan Mail Type/Buy A 'Titan Mail' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Mail Type - 46925 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Type - 46925 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Titan Boots Type/Buy A 'Titan Boots' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Boots Type - 46750 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Type - 46750 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/One Up Type/Buy A 'One Up' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Type - 60000 Credits")
         objItem.Highlight = highlight_code
+
     elseif location_code == "@Shop Types/Cobalt Goggles Type/Buy A 'Cobalt Goggles' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Type - 71350 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Goggles Type - 71350 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Cobalt Edge Type/Buy A 'Cobalt Edge' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Type - 70975 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Edge Type - 70975 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Cobalt Mail Type/Buy A 'Cobalt Mail' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Type - 71925 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Mail Type - 71925 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Cobalt Boots Type/Buy A 'Cobalt Boots' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Type - 71350 Credits")
         objItem.Highlight = highlight_code
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cobalt Boots Type - 71350 Credits")
         objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Laser Goggles Type/Buy A 'Laser Goggles' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Goggles Type - 104750 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Laser Goggles Type - 104750 Credits")
+        objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Laser Edge Type/Buy A 'Laser Edge' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Edge Type - 104500 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Laser Edge Type - 104500 Credits")
+        objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Laser Mail Type/Buy A 'Laser Mail' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Mail Type - 105000 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Laser Mail Type - 105000 Credits")
+        objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Laser Boots Type/Buy A 'Laser Boots' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Boots Type - 104750 Credits")
         objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Laser Boots Type - 104750 Credits")
+        objItem.Highlight = highlight_code
+    
     elseif location_code == "@Shop Types/Chest Detector Type/Buy A 'Chest Detector' From Any Item Shop" then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Curio Shop/Chest Detector Type - 33333 Credits")
         objItem.Highlight = highlight_code
+    
+    elseif location_code == "@Shop Types/Cross Goggles Type/Buy A 'Cross Goggles' From Any Item Shop" then
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Goggles Type - 150000 Credits")
+        --objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Goggles Type - 150000 Credits")
+        objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits")
+        objItem.Highlight = highlight_code
+
+    elseif location_code == "@Shop Types/Cross Edge Type/Buy A 'Cross Edge' From Any Item Shop" then
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Edge Type - 150000 Credits")
+        --objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Edge Type - 150000 Credits")
+        objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits")
+        objItem.Highlight = highlight_code
+
+    elseif location_code == "@Shop Types/Cross Mail Type/Buy A 'Cross Mail' From Any Item Shop" then
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Mail Type - 150000 Credits")
+        --objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Mail Type - 150000 Credits")
+        objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits")
+        objItem.Highlight = highlight_code
+
+    elseif location_code == "@Shop Types/Cross Boots Type/Buy A 'Cross Boots' From Any Item Shop" then
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Boots Type - 150000 Credits")
+        --objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Boots Type - 150000 Credits")
+        objItem.Highlight = highlight_code
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits")
+        objItem.Highlight = highlight_code
+
+    elseif location_code == "@Shop Types/Goat Cheese Type/Buy A 'Goat Cheese' From Any Item Shop" then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Goat Cheese Type - 4500 Credits")
+        objItem.Highlight = highlight_code
+
+    elseif location_code == "@Shop Types/Goat Milk Type/Buy A 'Goat Milk' From Any Item Shop" then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Goat Milk Type - 4500 Credits")
+        objItem.Highlight = highlight_code
+
     end
 end
 
@@ -1652,6 +1861,85 @@ function manualHostedItems(location_id)
         if objItem then
             objItem.Active = true
         end
+
+    elseif location_id == 3235824847 then
+        local objItem = Tracker:FindObjectForCode("AA-beach")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824849 then
+        local objItem = Tracker:FindObjectForCode("BV-wrath")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824852 then
+        local objItem = Tracker:FindObjectForCode("BV-asc-trial")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824855 then
+        local objItem = Tracker:FindObjectForCode("BV-asc-challenge")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824856 then
+        local objItem = Tracker:FindObjectForCode("MV-booze-3")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824859 then
+        local objItem = Tracker:FindObjectForCode("BK-cawhoofs")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824862 then
+        local objItem = Tracker:FindObjectForCode("BK-riches")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824865 then
+        local objItem = Tracker:FindObjectForCode("RS-run")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824868 then
+        local objItem = Tracker:FindObjectForCode("RS-highway")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824871 then
+        local objItem = Tracker:FindObjectForCode("RS-tremor")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824873 then
+        local objItem = Tracker:FindObjectForCode("RH-smuggle-3")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824878 then
+        local objItem = Tracker:FindObjectForCode("BK-salty")
+        if objItem then
+            objItem.Active = true
+        end
+
+    elseif location_id == 3235824411 then
+        local objItem = Tracker:FindObjectForCode("BV-Goat")
+        if objItem then
+            objItem.Active = true
+        end
+
     end
 end
 
@@ -1677,6 +1965,10 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Tara's Shop/Sandwich Type - 2500 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Sandwich Type - 100 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824527 then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Hi-Sandwich Type - 300 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -1693,6 +1985,10 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Hi-Sandwich Type - 300 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Hi-Sandwich Type - 300 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Hi-Sandwich Type - 300 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824529 then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Green Leaf Tea Type - 250 Credits")
@@ -1711,6 +2007,10 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Green Leaf Tea Type - 250 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Green Leaf Tea Type - 250 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824531 then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Just Water Type - 222 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -1727,6 +2027,10 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Just Water Type - 222 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Just Water Type - 222 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Just Water Type - 222 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824533 then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Spicy Bun Type - 200 Credits")
@@ -1745,6 +2049,8 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Spicy Bun Type - 200 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Spicy Bun Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824535 then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Fruit Drink Type - 200 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -1761,6 +2067,8 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Item Shop/Fruit Drink Type - 200 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Fruit Drink Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Fruit Drink Type - 200 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824537 then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Rice Cracker Type - 200 Credits")
@@ -1779,6 +2087,8 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Rice Cracker Type - 200 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Rice Cracker Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824539 then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Veggie Sticks Type - 200 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -1796,6 +2106,8 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Vermillion Wasteland/Vermillion Wasteland - Weapon & Item Shop/Veggie Sticks Type - 200 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Veggie Sticks Type - 200 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824541 then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Kebab Roll Type - 650 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -1810,6 +2122,8 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Kebab Roll Type - 650 Credits Have Blue Ice")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Kebab Roll Type - 650 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824543 then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Meaty Risotto Type - 650 Credits")
@@ -1826,6 +2140,8 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Type - 650 Credits Have Blue Ice")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Meaty Risotto Type - 650 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824545 then
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Type - 450 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -1840,6 +2156,8 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Item Shop/Bergen Ice Cream Type - 450 Credits Have Red Flame")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Bergen Ice Cream Type - 450 Credits Have Red Flame")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Bergen Ice Cream Type - 450 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824547 then
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Type - 450 Credits")
@@ -1856,7 +2174,9 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Sweet Lemonjuice Type - 450 Credits Have Red Flame")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Type - 2199 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Sweet Lemonjuice Type - 450 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824549 then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Salted Peanuts Type - 450 Credits")
@@ -1873,6 +2193,8 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Type - 450 Credits Have Green Seed")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Salted Peanuts Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824551 then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -1888,6 +2210,8 @@ function manualShopTypes(location_id)
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Type - 450 Credits Have Green Seed")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Cup o' Coffee Type - 450 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824553 then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Snack Mix Type - 450 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
@@ -1902,6 +2226,8 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Bergen Village/Bergen Village - Item Shop/Snack Mix Type - 450 Credits Have Green Seed")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
         objItem = Tracker:FindObjectForCode("@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Snack Mix Type - 450 Credits Have Green Seed")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Item Shop/Snack Mix Type - 450 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824555 then
         objItem = Tracker:FindObjectForCode("@Rookie Harbor/Rookie Harbor - Weapon Shop/Bronze Goggles Type - 850 Credits")
@@ -2068,10 +2394,10 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Backer Chef Shop/Pumpkin Spiced Coffee Type - 7777 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824635 then
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Type - 1099 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824638 then
-        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits")
+        objItem = Tracker:FindObjectForCode("@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Type - 3299 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824697 then
         objItem = Tracker:FindObjectForCode("@Basin Keep/Basin Keep - Weapon & Item Shop/Titan Goggles Type - 46750 Credits")
@@ -2119,17 +2445,59 @@ function manualShopTypes(location_id)
     elseif location_id == 3235824734 then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Goggles Type - 104750 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Laser Goggles Type - 104750 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824736 then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Edge Type - 104500 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Laser Edge Type - 104500 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824738 then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Mail Type - 105000 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Laser Mail Type - 105000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824740 then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Boots Type - 104750 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Laser Boots Type - 104750 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824757 then
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Curio Shop/Chest Detector Type - 33333 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824901 then
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Goggles Type - 150000 Credits")
+        --objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Goggles Type - 150000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824903 then
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Edge Type - 150000 Credits")
+        --objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Edge Type - 150000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824905 then
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Mail Type - 150000 Credits")
+        --objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Mail Type - 150000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824907 then
+        --objItem = Tracker:FindObjectForCode("@Homestedt/Homestedt - Weapon Shop/Cross Boots Type - 150000 Credits")
+        --objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Boots Type - 150000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824913 then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Goat Cheese Type - 4500 Credits")
+        objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+    elseif location_id == 3235824915 then
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Goat Zira's Shop/Goat Milk Type - 4500 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     end
 end

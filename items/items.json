@@ -387,6 +387,44 @@
     "codes": "brokenChakram"
   },
   {
+    "name": "DLC",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/dlcOff.png",
+        "codes": "op_DLC,settingDlcOff"
+      },
+      {
+        "img": "images/settings/dlcOn.png",
+        "codes": "op_DLC,settingDlcOn",
+        "inherit_codes": false
+      }
+      
+    ]
+  },
+  {
+    "name": "Allow Booster",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/.png",
+        "codes": "op_AB,settingBoosterOff"
+      },
+      {
+        "img": "images/settings/.png",
+        "codes": "op_AB,settingBoosterOn",
+        "inherit_codes": false
+      }
+      
+    ]
+  },
+  {
     "name": "Open Mode",
     "type": "progressive",
     "initial_stage_idx": 0,
@@ -408,6 +446,7 @@
   {
     "name": "VT Gate",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -435,6 +474,7 @@
   {
     "name": "Quest Shuffle",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -452,6 +492,7 @@
   {
     "name": "Rhombus Hub",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -469,6 +510,7 @@
   {
     "name": "Closed Gaia's Garden",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -491,6 +533,7 @@
   {
     "name": "Dungeon Keyrings",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -508,6 +551,7 @@
   {
     "name": "Vermillion Wasteland Lock",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
@@ -593,6 +637,24 @@
     ]
   },
   {
+    "name": "Botanity",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/botanityOff.png",
+        "codes": "op_B,settingBotanityOff"
+      },
+      {
+        "img": "images/settings/botanityOn.png",
+        "codes": "op_B,settingBotanityOn",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Goal",
     "type": "progressive",
     "initial_stage_idx": 0,
@@ -612,8 +674,24 @@
         "img": "images/settings/goalObservatory.png",
         "codes": "op_G,settingGoalObservatory",
         "inherit_codes": false
+      },
+      {
+        "img": "images/settings/goalDiorbis.png",
+        "codes": "op_G,settingGoalDiorbis",
+        "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Botanics Amount",
+    "type": "consumable",
+    "loop": "false",
+    "overlay_background": "#000",
+    "codes": "op_BA,settingBotanicsAmount",
+    "max_quantity": 88,
+    "initial_quantity": 1,
+    "increment": 1,
+	  "swap_actions": false
   },
   {
     "name": "Rookie Item Shop",
@@ -624,13 +702,13 @@
   {
     "name": "Rookie Backer Chef",
     "type": "toggle",
-    "img": "images/shops/rookieBackerChef.png",
+    "img": "images/shops/rookieItemsOn.png",
     "codes": "rookieBackerChef"
   },
   {
     "name": "Rookie Backer Weapon",
     "type": "toggle",
-    "img": "images/shops/rookieBackerWeapon.png",
+    "img": "images/shops/rookieWeaponsOn.png",
     "codes": "rookieBackerWeapon"
   },
   {
@@ -2144,7 +2222,8 @@
   {
     "name": "Shiny Orb",
     "type": "toggle",
-    "codes": "shinyOrb"
+    "codes": "shinyOrb",
+    "img": "images/items/shinyOrb.png"
   },
   {
     "name": "Auto Tab Switching",
@@ -2186,5 +2265,324 @@
     "initial_quantity": 0,
     "increment": 1,
 	  "swap_actions": false
+  },
+  {
+    "name": "HS_item_1",
+    "type": "toggle",
+    "codes": "HSitem1"
+  },
+  {
+    "name": "HS_item_2",
+    "type": "toggle",
+    "codes": "HSitem2"
+  },
+  {
+    "name": "HS_item_3",
+    "type": "toggle",
+    "codes": "HSitem3"
+  },
+  {
+    "name": "HS_item_4",
+    "type": "toggle",
+    "codes": "HSitem4"
+  },
+  {
+    "name": "HS_item_5",
+    "type": "toggle",
+    "codes": "HSitem5"
+  },
+  {
+    "name": "HS_item_6",
+    "type": "toggle",
+    "codes": "HSitem6"
+  },
+  {
+    "name": "HS_item_7",
+    "type": "toggle",
+    "codes": "HSitem7"
+  },
+  {
+    "name": "HS_item_8",
+    "type": "toggle",
+    "codes": "HSitem8"
+  },
+  {
+    "name": "HS_item_9",
+    "type": "toggle",
+    "codes": "HSitem9"
+  },
+  {
+    "name": "HS_item_10",
+    "type": "toggle",
+    "codes": "HSitem10"
+  },
+  {
+    "name": "HS_item_11",
+    "type": "toggle",
+    "codes": "HSitem11"
+  },
+  {
+    "name": "HS_item_12",
+    "type": "toggle",
+    "codes": "HSitem12"
+  },
+  {
+    "name": "HS_item_13",
+    "type": "toggle",
+    "codes": "HSitem13"
+  },
+  {
+    "name": "HS_item_14",
+    "type": "toggle",
+    "codes": "HSitem14"
+  },
+  {
+    "name": "HS_item_15",
+    "type": "toggle",
+    "codes": "HSitem15"
+  },
+  {
+    "name": "HS_weapon_1",
+    "type": "toggle",
+    "codes": "HSweapon1"
+  },
+  {
+    "name": "HS_weapon_2",
+    "type": "toggle",
+    "codes": "HSweapon2"
+  },
+  {
+    "name": "HS_weapon_3",
+    "type": "toggle",
+    "codes": "HSweapon3"
+  },
+  {
+    "name": "HS_weapon_4",
+    "type": "toggle",
+    "codes": "HSweapon4"
+  },
+  {
+    "name": "HS_weapon_5",
+    "type": "toggle",
+    "codes": "HSweapon5"
+  },
+  {
+    "name": "HS_weapon_6",
+    "type": "toggle",
+    "codes": "HSweapon6"
+  },
+  {
+    "name": "HS_weapon_7",
+    "type": "toggle",
+    "codes": "HSweapon7"
+  },
+  {
+    "name": "HS_weapon_8",
+    "type": "toggle",
+    "codes": "HSweapon8"
+  },
+  {
+    "name": "AA_weapon_1",
+    "type": "toggle",
+    "codes": "AAweapon1"
+  },
+  {
+    "name": "AA_weapon_2",
+    "type": "toggle",
+    "codes": "AAweapon2"
+  },
+  {
+    "name": "AA_weapon_3",
+    "type": "toggle",
+    "codes": "AAweapon3"
+  },
+  {
+    "name": "AA_weapon_4",
+    "type": "toggle",
+    "codes": "AAweapon4"
+  },
+  {
+    "name": "RS_goat_1",
+    "type": "toggle",
+    "codes": "RSgoat1"
+  },
+  {
+    "name": "RS_goat_2",
+    "type": "toggle",
+    "codes": "RSgoat2"
+  },
+  {
+    "name": "RS_goat_3",
+    "type": "toggle",
+    "codes": "RSgoat3"
+  },
+  {
+    "name": "RS_goat_4",
+    "type": "toggle",
+    "codes": "RSgoat4"
+  },
+  {
+    "name": "RS_goat_5",
+    "type": "toggle",
+    "codes": "RSgoat5"
+  },
+  {
+    "name": "RS_goat_6",
+    "type": "toggle",
+    "codes": "RSgoat6"
+  },
+  {
+    "name": "RS_weapon_9",
+    "type": "toggle",
+    "codes": "RSweapon9"
+  },
+  {
+    "name": "RS_weapon_10",
+    "type": "toggle",
+    "codes": "RSweapon10"
+  },
+  {
+    "name": "RS_weapon_11",
+    "type": "toggle",
+    "codes": "RSweapon11"
+  },
+  {
+    "name": "RS_weapon_12",
+    "type": "toggle",
+    "codes": "RSweapon12"
+  },
+  {
+    "name": "Homestedt Item Shop",
+    "type": "toggle",
+    "img": "images/shops/dlcItemsOn.png",
+    "codes": "homestedtItemShop"
+  },
+  {
+    "name": "Homestedt Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/dlcWeaponOn.png",
+    "codes": "homestedtWeaponShop"
+  },
+  {
+    "name": "Azure Archipelago Weapon Shop",
+    "type": "toggle",
+    "img": "images/shops/dlcWeaponOn.png",
+    "codes": "azureWeaponShop"
+  },
+  {
+    "name": "Goat Shop",
+    "type": "toggle",
+    "img": "images/shops/dlcItemsOn.png",
+    "codes": "rhombusGoatShop"
+  },
+  {
+    "name": "Cross Goggles",
+    "type": "toggle",
+    "img": "images/weapon/crossHelm.png",
+    "codes": "crHelm"
+  },
+  {
+    "name": "Cross Edge",
+    "type": "toggle",
+    "img": "images/weapon/crossEdge.png",
+    "codes": "crEdge"
+  },
+  {
+    "name": "Cross Mail",
+    "type": "toggle",
+    "img": "images/weapon/crossMail.png",
+    "codes": "crMail"
+  },
+  {
+    "name": "Cross Boots",
+    "type": "toggle",
+    "img": "images/weapon/crossBoots.png",
+    "codes": "crBoots"
+  },
+  {
+    "name": "Goat Cheese",
+    "type": "toggle",
+    "img": "images/food/GoatCheese.png",
+    "codes": "goatCheese"
+  },
+  {
+    "name": "Goat Milk",
+    "type": "toggle",
+    "img": "images/food/GoatMilk.png",
+    "codes": "goatMilk"
+  },
+  {
+    "name": "Azure Archipelago Pass",
+    "type": "toggle",
+    "img": "images/items/azurePass.png",
+    "codes": "azurePass"
+  },
+  {
+    "name": "Macguffin Coin",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/mcCoin.png",
+    "overlay_background": "#000",
+    "max_quantity": 3,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false,
+    "codes": "mcCoin"
+  },
+  {
+    "name": "Everlasting Amber",
+    "type": "toggle",
+    "img": "images/items/everAmber.png",
+    "codes": "everAmber"
+  },
+  {
+    "name": "Tremor Engine",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/tremorEngine.png",
+    "overlay_background": "#000",
+    "max_quantity": 4,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false,
+    "codes": "tremorEngine"
+  },
+  {
+    "name": "Humming Razor",
+    "type": "toggle",
+    "img": "images/items/hummingRazor.png",
+    "codes": "hummingRazor"
+  },
+  {
+    "name": "Ku'lero Temple Label",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/kuleroLabel.png",
+    "codes": "kuleroLabel"
+  },
+  {
+    "name": "Ku'lero Master Key",
+    "type": "toggle",
+    "img": "images/dungeons/ccMkey.png",
+    "codes": "kuleroMaster",
+    "swap_actions": false
+  },
+  {
+    "name": "Ku'lero Key",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/dungeons/ccKey.png",
+    "overlay_background": "#000",
+    "codes": "kuleroKey",
+    "max_quantity": 3,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Mine Detector",
+    "type": "toggle",
+    "img": "images/items/mineDetect.png",
+    "codes": "mineDetect"
   }
 ]
