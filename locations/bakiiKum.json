@@ -246,8 +246,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "MV-tree-done, shinyOrb",
-                            "settingQuestShuffleOff, shinyOrb"
+                            "shinyOrb"
                         ],
                         "item_count": 1
                     }
@@ -424,7 +423,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-crate, flameShade, eleHeat, eleCold, regionOpen3"
+                            "MV-crate, flameShade, eleHeat, eleCold, $regionOpen3"
                         ],
                         "item_count": 1
                     },
