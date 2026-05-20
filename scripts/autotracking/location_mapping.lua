@@ -1020,9 +1020,9 @@ LOCATION_MAPPING =
 [3235824875] = {"@Rookie Harbor/Rookie Harbor - Guard HQ/Wetter Work - Reward 3"},
 [3235824876] = {"@Bergen Village/Bergen Village - Monastery/Challenge of Ascension (Timed)"},
 [3235824877] = {"@Bergen Village/Bergen Village - Monastery/Challenge of Ascension (Frosty)"},
-[3235824878] = {"@Basin Keep/Basin Keep - Police HQ/Salty Detox - Reward 1"},
-[3235824879] = {"@Basin Keep/Basin Keep - Police HQ/Salty Detox - Reward 2"},
-[3235824880] = {"@Basin Keep/Basin Keep - Police HQ/Salty Detox - Reward 3"},
+[3235824878] = {"@Basin Keep/Basin Keep - Gardeners HQ/Salty Detox - Reward 1"},
+[3235824879] = {"@Basin Keep/Basin Keep - Gardeners HQ/Salty Detox - Reward 2"},
+[3235824880] = {"@Basin Keep/Basin Keep - Gardeners HQ/Salty Detox - Reward 3"},
 
 -- Homestedt Shops
 [3235824881] = {"@Homestedt/Homestedt - Item Shop/Sandwich Slot - 100 Credits"},

@@ -1767,7 +1767,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionopen10_Infested, eleHeat"
+                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat"
                         ],
                         "item_count": 1
                     },
@@ -1777,7 +1777,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionopen10_Infested, eleHeat"
+                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat"
                         ],
                         "item_count": 1
                     },
@@ -1787,7 +1787,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionopen10_Infested, eleHeat"
+                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -1893,7 +1893,7 @@
                     {
                         "map": "Rhombus_Square",
                         "x": 572,
-                        "y": 141,
+                        "y": 191,
                         "shape": "diamond"
                     }
                 ],

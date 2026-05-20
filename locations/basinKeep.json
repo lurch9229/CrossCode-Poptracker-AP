@@ -244,42 +244,6 @@
                             "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Salty Detox - Reward 1",
-                        "chest_unopened_img": "images/icons/quest_open.png",
-                        "chest_opened_img": "images/icons/quest_done.png",
-                        "visibility_rules": [
-                            "questShuffle, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Salty Detox - Reward 2",
-                        "chest_unopened_img": "images/icons/quest_open.png",
-                        "chest_opened_img": "images/icons/quest_done.png",
-                        "visibility_rules": [
-                            "questShuffle, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Salty Detox - Reward 3",
-                        "chest_unopened_img": "images/icons/quest_open.png",
-                        "chest_opened_img": "images/icons/quest_done.png",
-                        "visibility_rules": [
-                            "questShuffle, settingDlcOn"
-                        ],
-                        "access_rules": [
-                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave"
-                        ],
-                        "item_count": 1
                     }
                 ]
             },
@@ -533,6 +497,42 @@
                         ],
                         "access_rules": [
                             "GG-escort, boltShade, dropShade, eleShock, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salty Detox - Reward 1",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salty Detox - Reward 2",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salty Detox - Reward 3",
+                        "chest_unopened_img": "images/icons/quest_open.png",
+                        "chest_opened_img": "images/icons/quest_done.png",
+                        "visibility_rules": [
+                            "questShuffle, settingDlcOn"
+                        ],
+                        "access_rules": [
+                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave"
                         ],
                         "item_count": 1
                     }

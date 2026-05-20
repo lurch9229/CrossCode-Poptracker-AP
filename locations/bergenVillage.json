@@ -349,8 +349,8 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat, $region10|mineDetect",
-                            "eleHeat, $regionOpen4_7 $has|mineDetect"
+                            "eleHeat, $region10, $has|mineDetect",
+                            "eleHeat, $regionOpen4_7, $has|mineDetect"
                         ],
                         "item_count": 1
                     },
@@ -785,7 +785,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BK-cawhoofs, $regionOpen20"
+                            "$regionOpen20"
                         ],
                         "item_count": 1
                     },
@@ -795,7 +795,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BK-cawhoofs, $regionOpen20"
+                            "$regionOpen20"
                         ],
                         "item_count": 1
                     },
@@ -805,7 +805,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BK-cawhoofs, $regionOpen20"
+                            "$regionOpen20"
                         ],
                         "item_count": 1
                     }
