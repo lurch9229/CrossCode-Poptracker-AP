@@ -8,12 +8,13 @@
     "rows": 
     [
       ["eleHeat","eleCold","eleShock","eleWave","spUpgrade"],
-      ["sandShade","flameShade","iceShade","boltShade", "guildPass"],
-      ["leafShade","dropShade","seedShade","starShade","meteorShade"],
-      ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
-      ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"],
-      ["gaiaWest", "gaiaEast", "", "", ""],
-      ["brokenGauntlet", "brokenShield", "brokenSword", "brokenDeck", "brokenChakram"]
+      ["leafShade","iceShade","sandShade","flameShade","seedShade"],
+      ["boltShade","dropShade","starShade","meteorShade","ancientShade"],
+      ["insightDisc","floraDisc","thiefKey", "whiteKey","radiantKey"],
+      ["minePass","maroonPass","cursedCoin","pondPass","dojoKey"],
+      ["mineDetect","guildPass","gaiaWest","gaiaEast","azurePass"],
+      ["brokenGauntlet","brokenShield","brokenSword","brokenDeck","brokenChakram"],
+      ["shinyOrb","mcCoin","everAmber","tremorEngine","hummingRazor"]
     ]
   },
 
@@ -191,14 +192,7 @@
             "margin": "-7,-64,-2,-12"
           }
         ]
-      }
-    ]
-  },
-
-  "setting_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "content":[
+      },
       {
         "type": "array",
         "orientation": "horizontal",
@@ -207,102 +201,40 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["settingOpenModeOpen"]
+              ["kuleroLabel"]
             ],
-            "item_size": 100,
-            "margin": "-2,2"
+            "item_size": 105,
+            "margin": "-2,-14,0,-70"
           },
           {
             "type": "itemgrid",
             "rows": [
-              ["settingVTGateOpen"]
+              ["kuleroKey"]
             ],
-            "item_size": 100,
-            "margin": "-2,2,-2,-12"
+            "item_size": 30,
+            "margin": "0,-15,0,-70"
           },
           {
             "type": "itemgrid",
             "rows": [
-              ["settingQuestShuffleOff"]
+              ["kuleroMaster"]
             ],
-            "item_size": 102,
-            "margin": "-214,35,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["settingKeyringsOff"]
-            ],
-            "item_size": 90,
-            "margin": "-5,35,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_SS"]
-            ],
-            "item_size": 100,
-            "margin": "-203,66,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_SR"]
-            ],
-            "item_size": 100,
-            "margin": "-5,66,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["vwLockOff"]
-            ],
-            "item_size": 95,
-            "margin": "-210,100,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_CL"]
-            ],
-            "item_size": 95,
-            "margin": "-5,100,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_RH"]
-            ],
-            "item_size": 95,
-            "margin": "-200,134,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_GG"]
-            ],
-            "item_size": 95,
-            "margin": "-5,134,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_G"]
-            ],
-            "item_size": 95,
-            "margin": "-200,175,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["auto_tab"]
-            ],
-            "item_size": 95,
-            "margin": "-5,175,-2,-12"
+            "item_size": 30,
+            "margin": "-7,-15,-2,-70"
           }
         ]
       }
     ]
+  },
+
+  "setting_grid": {
+    "type": "itemgrid",
+    "rows": [
+      ["op_QS","op_CL","op_S","op_DLC","op_RH","op_GG","op_G","op_B","auto_tab"]
+    ],
+    "item_h_alignement": "center",
+    "item_size": "120,50",
+    "item_margin": "2,0,0,0"
   },
   "tracker_horizontal": 
     {
@@ -352,7 +284,14 @@
                     }
                   ]
                 }
-              },
+              }
+            ] 
+          },
+          {
+            "type": "array",
+            "dock": "bottom",
+            "orientation": "horizontal",
+            "content": [
               {
                 "type": "group",
                 "header": "Settings",
@@ -368,7 +307,7 @@
                   ]
                 }
               }
-            ] 
+            ]
           },
           {
             "type": "array",
@@ -438,6 +377,13 @@
                           "type": "map",
                           "maps": ["Vermillion_Wasteland"]
                         }
+                      },
+                      {
+                        "title": "Azure Archipelago",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Azure_Archipelago"]
+                        }
                       }
                     ]
                   },
@@ -478,6 +424,13 @@
                         "content": {
                           "type": "map",
                           "maps": ["Rhombus_Square"]
+                        }
+                      },
+                      {
+                        "title": "Homestedt",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Homestedt"]
                         }
                       }
                     ]
@@ -591,19 +544,68 @@
                           }
                         }
                       ]
-                    },                    
+                    },
                     {
                       "title": "Grand Krys'kajo",
                       "type": "tabbed",
                       "tabs": [
                         {
+                          "title": "GF",
                           "content": {
                             "type":"map",
-                            "maps": ["Grand_Kryskajo"]
+                            "maps": ["Grand_Kryskajo_GF"]
+                          }
+                        },
+                        {
+                          "title": "3F/4F",
+                          "content": {
+                            "type":"map",
+                            "maps": ["Grand_Kryskajo_3F_4F"]
                           }
                         }
                       ]
-                    }
+                    },
+                    {
+                        "title": "Ku'lero Temple",
+                        "type": "tabbed",
+                        "tabs": [
+                          {
+                            "title": "GF",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_GF"]
+                            }
+                          },
+                          {
+                            "title": "U1",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_U1"]
+                            }
+                          },
+                          {
+                            "title": "U2",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_U2"]
+                            }
+                          },
+                          {
+                            "title": "U3",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_U3"]
+                            }
+                          },
+                          {
+                            "title": "U8",
+                            "content": {
+                              "type":"map",
+                              "maps": ["Kulero_Temple_U8"]
+                            }
+                          }
+                        ]
+                      }
                   ]
                 },
                 {
@@ -612,6 +614,14 @@
                   "content": {
                     "type": "layout",
                     "key": "shop_layout"
+                  }
+                },
+                {
+                  "title": "Botanics",
+                  "type": "array",
+                  "content": {
+                    "type":"map",
+                    "maps": ["Botanics_Map"]
                   }
                 }
               ]

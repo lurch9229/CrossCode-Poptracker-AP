@@ -1,5 +1,105 @@
 # Changelog
 
+0.9.7
+    Logic 
+        - Update So'najiz Temple logic with removed Heat/Cold requirement
+        - Update Faj'ro with Open World mod change
+        - Change requirement for Mine U2: Frozen Chamber 2 Right chest to use Thied's Key instead of NewLock
+
+0.9.6
+    Layout
+        - Add tabs for Grand Krys'kajo (GF and 3F/4F) with autotabbing
+        - Add Grand Krys'kajo GF map
+        - Add exit icon on Autumn's Rise map to indicate the entry of Homestedt
+    
+    Autotracking
+        - Add new Balance Room 1 chests in Faj'ro Temple GF
+        - Add new Main Stream chests in Grand Krys'kajo GF
+
+    Logic 
+        - Update logic for regions based on chest locks
+        - Update Faj'ro Temple logic with removed keys and initial door opened
+        - Update Grand Krys'kajo logic with initial door opened
+
+0.9.4
+
+    Logic 
+        - Change Omega Open Baraleles requirement to Gaia's Garden Grove and Wave
+        - Simplified requirements for Creator goal
+
+0.9.3.1
+
+    Layout
+        - Add a new layout with settings on the other side to avoid bleeding out of screen
+        - Add a new layout without settings to avoid bleeding out of screen
+        - Update Item Only and World Map layout
+        - Move Settings to the bottom of the screen on default layout
+        - Remove obsolete and less relevant settings on default layout
+        - Merge Shop Send and Shop Receive settings into a single one
+        - Move all Botanity location to an x;y position in bounds for poptracker >0.35.5
+
+    Autotracking
+        - Use correct reference name for Hermit Shop slots/types
+        - Correctly tracks "Maroon Valley - Mystery Cave Upper" chest type
+
+    Logic 
+        - Change "Isle of Legend Left" chest from silver to gold
+        - Add clearing "The Goatfather" quest requirement for "Wrath of Goat" quest
+        - Change "An Unfortunate Series of Features" quest requirement from Blue Ice Shade to Maroon Valley access
+        - Use new quest logic to avoid errors after a collect for Rookie Harbor quests (Still a wip, got brought in when dealing with more urgent issues)
+
+0.9.3
+
+    Logic 
+
+        - Change region for Omega Puff Plant, Alpha/Beta Virus Shroom botanics
+        - Add Meteor Shade requirement for Henry Trailblazing quest in Sapphire Ridge
+        - Add Gaia's West Pass requirement for Drizzle Bosk Right & Overgrown Path Right chests
+
+0.9.0
+
+DLC is here !
+
+    Layout
+
+        - Add shapes to locations
+            On world map :
+                - Rectangles are connections
+                - Diamonds are towns
+                - Trapezoid are dungeons
+            On maps :
+                - Rectangles are chests
+                - Diamonds are shops (and, in the future, also trades)
+                - Trapezoid are quests/cutscenes/botanics
+
+        - Changed the layout of Shop Type and Shop Slot maps
+        - Add DLC maps
+        - Add Botanics map
+        - Add a few missing references to world map 
+        - Add reminder to meet Lukas at the Obelisk for "Guild Quest" location
+
+    Settings
+
+        - DLC
+        - Botanity
+        - Di'orbis option for goal
+
+    Autotracking
+
+        - Add all "- Reward X" to quests locations (for hint highlight)
+        - Remove not selected goal locations
+        - Gray out goal location after goaling even if it doesn't send any check
+        - Add Botanity locations
+        - Add DLC (Homestedt, Azure Archipelago and Ku'lero Temple) locations for Shops, Chests, Botanics and Quest
+
+    Logic 
+
+        - Add Shiny Orb requirement to Market Statue even without quest shuffle
+        - Add logic for "Gaia's Garden - Henry the Researcher - Trailblazing Finish" quest with closed Gaia setting
+        - Fix logic for "Gaia's Garden - Henry the Researcher - Trailblazing Defeat" quest to use the correct Gaia's zone with closed Gaia setting
+        - Some other fixes I forgot to keep track of
+        
+
 0.8.0
 
 Sogeki cooked with this update

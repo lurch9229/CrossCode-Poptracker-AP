@@ -1,21 +1,29 @@
 {
 	"name": "CrossCode Randomizer PopTracker",
 	"game_name": "CrossCode",
-	"package_version": "0.7.1",
+	"package_version": "0.9.7",
 	"package_uid": "crosscode_maptracker_lurch9229",
-	"author": "Lurch9229",
+	"author": "Lurch9229; Sogeki",
 	"platform": "PC",
 	"variants": {
-		"map_tracker": {
-			"display_name": "Map Tracker",
+		"1_map_tracker": {
+			"display_name": "Default Map Tracker",
 			"flags": [ "ap" ]
 		},
-		"items_only": {
-			"display_name": "Items Only",
+		"2_alt_tracker": {
+			"display_name": "Side Settings Map Tracker",
 			"flags": [ "ap" ]
 		},
-		"world_map": {
-			"display_name": "World Map",
+		"3_no_setting_tracker": {
+			"display_name": "No Settings Map Tracker",
+			"flags": [ "ap" ]
+		},
+		"4_items_only": {
+			"display_name": "Items Only Tracker",
+			"flags": [ "ap" ]
+		},
+		"5_world_map": {
+			"display_name": "World Map Tracker",
 			"flags": [ "ap" ]
 		}
 	}

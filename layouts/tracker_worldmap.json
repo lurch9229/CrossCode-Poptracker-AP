@@ -8,16 +8,19 @@
     "item_size": "35,35",
     "rows": 
     [
-      ["eleHeat","eleCold","eleShock","eleWave","overrideCircuit"],
-      ["sandShade","flameShade","iceShade","boltShade", "guildPass"],
-      ["leafShade","dropShade","seedShade","starShade","meteorShade"],
-      ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
-      ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"],
-      ["brokenGauntlet", "brokenShield", "brokenSword", "brokenDeck", "brokenChakram"]
+      ["eleHeat","eleCold","eleShock","eleWave","spUpgrade"],
+      ["leafShade","iceShade","sandShade","flameShade","seedShade"],
+      ["boltShade","dropShade","starShade","meteorShade","ancientShade"],
+      ["insightDisc","floraDisc","thiefKey", "whiteKey","radiantKey"],
+      ["minePass","maroonPass","cursedCoin","pondPass","dojoKey"],
+      ["mineDetect","guildPass","gaiaWest","gaiaEast","azurePass"],
+      ["brokenGauntlet","brokenShield","brokenSword","brokenDeck","brokenChakram"],
+      ["shinyOrb","mcCoin","everAmber","tremorEngine","hummingRazor"]
     ]
   },
 
-  "key_grid": {
+  "key_grid": 
+  {
     "type": "array",
     "orientation": "vertical",
     "content":[
@@ -191,14 +194,7 @@
             "margin": "-7,-64,-2,-12"
           }
         ]
-      }
-    ]
-  },
-
-  "setting_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "content":[
+      },
       {
         "type": "array",
         "orientation": "horizontal",
@@ -207,30 +203,41 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["settingOpenModeClosed"]
+              ["kuleroLabel"]
             ],
-            "item_size": 100,
-            "margin": "-2,2"
+            "item_size": 105,
+            "margin": "-2,-14,0,-70"
           },
           {
             "type": "itemgrid",
             "rows": [
-              ["settingVTGateClosed"]
+              ["kuleroKey"]
             ],
-            "item_size": 100,
-            "margin": "-2,2,-2,-12"
+            "item_size": 30,
+            "margin": "0,-15,0,-70"
           },
           {
             "type": "itemgrid",
             "rows": [
-              ["settingQuestShuffleOff"]
+              ["kuleroMaster"]
             ],
-            "item_size": 102,
-            "margin": "-167,35,-2,-12"
+            "item_size": 30,
+            "margin": "-7,-15,-2,-70"
           }
         ]
       }
     ]
+  },
+
+  "setting_grid": {
+    "type": "itemgrid",
+    "rows": [
+      ["op_QS","op_CL"],
+      ["op_S","op_DLC"],
+      ["op_G","op_B"]
+    ],
+    "item_size": "94,35",
+    "item_margin": "2,2,2,-20"
   },
   "tracker_horizontal":
   {

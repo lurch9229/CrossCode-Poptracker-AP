@@ -1,26 +1,24 @@
 ﻿{
   "item_only_grid": 
   {
-    "type": "container",
-    "content": 
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "40,40",
+    "rows": 
     [
-      {
-        "type": "itemgrid",
-        "h_alignment": "left",
-        "item_margin": "5,5,5,5",
-        "item_size": "40,40",
-        "rows":
-        [
-          ["eleHeat","eleCold","eleShock","eleWave","overrideCircuit"],
-          ["sandShade","flameShade","iceShade","boltShade", "guildPass"],
-          ["leafShade","dropShade","seedShade","starShade","meteorShade"],
-          ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
-          ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"]
-        ] 
-      }
+      ["eleHeat","eleCold","eleShock","eleWave","spUpgrade"],
+      ["leafShade","iceShade","sandShade","flameShade","seedShade"],
+      ["boltShade","dropShade","starShade","meteorShade","ancientShade"],
+      ["insightDisc","floraDisc","thiefKey", "whiteKey","radiantKey"],
+      ["minePass","maroonPass","cursedCoin","pondPass","dojoKey"],
+      ["mineDetect","guildPass","gaiaWest","gaiaEast","azurePass"],
+      ["brokenGauntlet","brokenShield","brokenSword","brokenDeck","brokenChakram"],
+      ["shinyOrb","mcCoin","everAmber","tremorEngine","hummingRazor"]
     ]
   },
-  "key_grid_only": {
+  "key_grid_only":
+  {
     "type": "array",
     "orientation": "vertical",
     "content":[
@@ -34,24 +32,32 @@
             "rows": [
               ["mineLabel"]
             ],
-            "item_size": 100,
-            "margin": "-2,250,-2,-12"
+            "item_size": 90,
+            "margin": "-2,2,-2,-12"
           },
           {
             "type": "itemgrid",
             "rows": [
               ["mineKey"]
             ],
-            "item_size": 40,
-            "margin": "2,248,-2,-2"
+            "item_size": 30,
+            "margin": "0,-2,-2,-2"
           },
           {
             "type": "itemgrid",
             "rows": [
               ["mineMaster"]
             ],
-            "item_size": 40,
-            "margin": "2,248,-2,-2"
+            "item_size": 30,
+            "margin": "-5,-2,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["minesWon"]
+            ],
+            "item_size": 30,
+            "margin": "-5,-2,-50,0"
           }
         ]
       },
@@ -65,7 +71,7 @@
             "rows": [
               ["fajroLabel"]
             ],
-            "item_size": 100,
+            "item_size": 90,
             "margin": "-2,-50,-2,-12"
           },
           {
@@ -73,16 +79,24 @@
             "rows": [
               ["fajroKey"]
             ],
-            "item_size": 40,
-            "margin": "2,-55,-2,-2"
+            "item_size": 30,
+            "margin": "0,-55,-2,-2"
           },
           {
             "type": "itemgrid",
             "rows": [
               ["fajroMaster"]
             ],
-            "item_size": 40,
-            "margin": "2,-55,-2,-2"
+            "item_size": 30,
+            "margin": "-5,-55,-2,-2"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["fajroWon"]
+            ],
+            "item_size": 30,
+            "margin": "-5,-55,-2,-12"
           }
         ]
       },
@@ -96,7 +110,7 @@
             "rows": [
               ["sonajizLabel"]
             ],
-            "item_size": 110,
+            "item_size": 100,
             "margin": "-2, -48,-2,-12"
           },
           {
@@ -104,16 +118,16 @@
             "rows": [
               ["sonajizKey"]
             ],
-            "item_size": 40,
-            "margin": "5,-53,-2,-2"
+            "item_size": 30,
+            "margin": "0,-50,-2,-2"
           },
           {
             "type": "itemgrid",
             "rows": [
-              ["sonajizMaster"]
+              ["sonajizWon"]
             ],
-            "item_size": 40,
-            "margin": "5,-53,-2,-2"
+            "item_size": 30,
+            "margin": "18,-53,-2,-12"
           }
         ]
       },
@@ -127,24 +141,24 @@
             "rows": [
               ["zirvitarLabel"]
             ],
-            "item_size": 115,
-            "margin": "-2, -58,-2,-12"
+            "item_size": 105,
+            "margin": "-2, -58,0,-12"
           },
           {
             "type": "itemgrid",
             "rows": [
               ["zirvitarKey"]
             ],
-            "item_size": 40,
-            "margin": "5,-63,-2,-2"
+            "item_size": 30,
+            "margin": "0,-59,0,-5"
           },
           {
             "type": "itemgrid",
             "rows": [
-              ["zirvitarMaster"]
+              ["zirvitarWon"]
             ],
-            "item_size": 40,
-            "margin": "5,-63,-2,-2"
+            "item_size": 30,
+            "margin": "8,-59,-2,0"
           }
         ]
       },
@@ -158,44 +172,100 @@
             "rows": [
               ["kryskajoLabel"]
             ],
-            "item_size": 115,
-            "margin": "-2, -63,-2,-12"
+            "item_size": 105,
+            "margin": "-2,-63"
           },
           {
             "type": "itemgrid",
             "rows": [
               ["kryskajoKey"]
             ],
-            "item_size": 40,
-            "margin": "5,-68,-2,-2"
+            "item_size": 30,
+            "margin": "0,-64,0,-12"
           },
           {
             "type": "itemgrid",
             "rows": [
               ["kryskajoMaster"]
             ],
-            "item_size": 40,
-            "margin": "5,-68,-2,-2"
+            "item_size": 30,
+            "margin": "-7,-64,-2,-12"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kuleroLabel"]
+            ],
+            "item_size": 105,
+            "margin": "-2,-14,0,-70"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kuleroKey"]
+            ],
+            "item_size": 30,
+            "margin": "0,-15,0,-70"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["kuleroMaster"]
+            ],
+            "item_size": 30,
+            "margin": "-7,-15,-2,-70"
           }
         ]
       }
     ]
   },
-    "tracker_default":
-    {
-	  "type": "array",
-	  "margin": "1,1,1,1",
-	  "content":
+  "setting_grid_only": 
+  {
+    "type": "itemgrid",
+    "rows": [
+      ["op_VT","op_QS","op_KR","op_S","op_VW", "op_CL"],
+      ["op_RH","op_GG","op_G","op_B","op_DLC","auto_tab"]
+    ],
+    "item_size": "100,35"
+  },
+  "tracker_default":
+  {
+    "type": "dock",
+    "content":
     [
-		  { 
-			  "type": "layout",
-			  "key": "item_only_grid"
-		  },
       {
-        "type": "layout",
-        "key": "key_grid_only"
+        "type": "dock",
+        "dock": "top",
+        "content": []
+      },
+      {
+        "type": "dock",
+        "dock": "left",
+        "content": [
+          {
+            "type": "array",
+            "content":
+            [
+              { 
+                "type": "layout",
+                "key": "item_only_grid"
+              },
+              {
+                "type": "layout",
+                "key": "key_grid_only"
+              }
+            ]
+          }
+        ]
       }
-	  ]
+    ]
   }
-}			
+}
   
